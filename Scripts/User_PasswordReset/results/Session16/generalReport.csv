@@ -1,0 +1,6 @@
+10146,0,User_PasswordReset,2/17/2020 16:09:41 PM,0,Failed,2/17/2020 16:09:30 PM,basic.step,Scripts,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,9827,Failed,"OpenScript is unable to connect to the browser, please check the OpenScript browser add-on.",basic.init,
+"Launch Browser: InternetExplorer 11.592.18362.0",,0,Passed,"",basic.step,
+"Close Browser",,2196,Passed,"",basic.step,
+"Finish Total (sec)",,76,Passed,"",basic.finish,

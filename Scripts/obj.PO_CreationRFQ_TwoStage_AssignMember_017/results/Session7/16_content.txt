@@ -1,0 +1,388 @@
+<HTML lang=en-US-ORACLE9I style="VISIBILITY: visible" dir=ltr><HEAD><TITLE>Apps Search Results page</TITLE>
+<META name=generator content="Oracle UIX"><LINK rel=stylesheet type=text/css href="/OA_HTML/cabo/styles/cache/swan-desktop-custom-2_3_6_9-en-ie-windows.css" charset=UTF-8>
+<SCRIPT>var _UixWindowOpenError='A popup window blocker has been detected in your browser. Popup blockers interfere with the operation of this application. Please disable your popup blocker or allow popups from this site.';</SCRIPT>
+
+<SCRIPT src="/OA_HTML/cabo/jsLibs/Common2_3_6_9.js"></SCRIPT>
+
+<SCRIPT>_defaultTZ()</SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oafcoreR121.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oafb.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/richContainer.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/OAFSlideoutMenu.js"></SCRIPT>
+
+<SCRIPT language=javascript>function help_window() { help_win = window.open("http://riyoramgbm02.maaden.com:8050/OA_HTML/help?locale=en_US&group=FND:LIBRARY:US&topic=US/FND/@FND_AppSearch_AppsSearchMainPG", "help_win","resizable=yes,scrollbars=yes,toolbar=yes,width=600,height=500")}</SCRIPT>
+</HEAD>
+<BODY class=xk onload="return _chain('_checkLoad(event)','oafsm.setup(&quot;topmenubar&quot;, &quot;topbar&quot;,escape(\'RF.jsp?function_id=MAINMENUREST&amp;security_group_id=0\'),\'false\',false);',this,event)" style="MARGIN-TOP: 0px; MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px" onbeforeunload=_savePageStateIE() onunload=_checkUnload(event)><IFRAME id=_pprIFrame title="" style="POSITION: absolute; TOP: -100px; VISIBILITY: hidden" height=0 longDesc=# src="/OA_HTML/cabo/images/swan/t.htm" frameBorder=0 width=0 name=_pprIFrame></IFRAME>
+<DIV onclick="return _pprConsumeClick(event);" onkeypress="return false;" onkeyup="return false;" id=_pprBlockingDiv onkeydown="return false;" style="CURSOR: wait; HEIGHT: 0px; WIDTH: 0px; POSITION: absolute; LEFT: 0px; TOP: 0px"></DIV>
+<DIV id=_uixDownload class=x3f style="BEHAVIOR: url(#default#download)"></DIV>
+<SCRIPT>var _cachedLibs;</SCRIPT>
+
+<SCRIPT>var _pprFirstClickPass=true;</SCRIPT>
+<SPAN id=_pprPageContent>
+<FORM id=DefaultFormName style="MARGIN: 0px" method=post name=DefaultFormName action=/OA_HTML/OA.jsp?page=/oracle/apps/fnd/search/webui/AppsSearchMainPG&amp;OAFunc=APPSSEARCH_DEFAULT_RESULTS&amp;SearchableGroup=All&amp;SearchText=SALEHY&amp;searchGroupDisplayName=All&amp;renderSESUI=N&amp;retainAM=Y&amp;addBreadCrumb=RP&amp;OAMC=K&amp;_ti=912589497&amp;oapc=10&amp;oas=NERVFokiQNAIg9hq1GO8tg..><INPUT id=_AM_TX_ID_FIELD type=hidden value=3 name=_AM_TX_ID_FIELD><INPUT id=_FORM type=hidden value=DefaultFormName name=_FORM><SPAN id=lovHFCId></SPAN><SPAN id=region1>
+<TABLE class=x6u style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/headerBg.jpg)" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD>
+<SCRIPT>var _tURL="\x2FOA_HTML\x2Fcabo\x2Fimages\x2Fswan\x2Ft.gif";var _axm;t('10','10')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=10></TD></TR>
+<TR>
+<TD>
+<TABLE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD vAlign=top width="1%" noWrap><IMG border=0 alt=Maaden_logo1.jpg src="/OA_MEDIA/Maaden_logo1.jpg"></TD>
+<TD noWrap><SPAN title="E-Business Suite" style="POSITION: absolute"><SPAN class=x4i>E-Business Suite</SPAN></SPAN>
+<SCRIPT>t('0','14')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=0 height=14></TD>
+<TD></TD>
+<TD></TD></TR>
+<TR>
+<TD></TD>
+<TD style="POSITION: relative; PADDING-BOTTOM: 8px; Z-INDEX: 10" vAlign=bottom colSpan=2 align=right>
+<TABLE class=x6w cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=bottom><LINK rel=stylesheet type=text/css href="cabo/styles/OAFSlideoutMenu.css">
+<DIV id=topmenubar style="WIDTH: 300px">
+<UL>
+<P style="FONT-SIZE: 12px; FONT-FAMILY: Arial; COLOR: white"><IMG class=image src="/OA_MEDIA/home.gif"><A id=SNAV class=Menu href="#" name=Menu rel=MenuList _master="topmenubar" _pos="0" _istoplevel="true">&nbsp;Navigator<IMG class=drimage1 src="/OA_MEDIA/drop_arrow.gif"></A><IMG class=image src="/OA_MEDIA/favorites.gif" align=absMiddle><A id=SFAV class=Fav href="#" name=Fav rel=FavList _master="topmenubar" _pos="1" _istoplevel="true">&nbsp;Favorites<IMG class=drimage src="/OA_MEDIA/drop_arrow.gif"></A></P></UL></DIV>
+<DIV id=SDivTop style="POSITION: absolute; DISPLAY: none"></DIV>
+<DIV id=SFavTop style="POSITION: absolute; DISPLAY: none"></DIV></TD>
+<TD vAlign=bottom><A class=x15 href="/OA_HTML/OA.jsp?_rc=FND_DIAGNOSTICS_PAGE&amp;_ri=0&amp;retainAM=Y&amp;LogRetUrl=%2FOA_HTML%2FOA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fsearch%2Fwebui%2FAppsSearchMainPG%26OAFunc%3DAPPSSEARCH_DEFAULT_RESULTS%26SearchableGroup%3DAll%26SearchText%3DSALEHY%26searchGroupDisplayName%3DAll%26renderSESUI%3DN%26retainAM%3DY%26addBreadCrumb%3DRP%26OAMC%3DK%26transactionid%3D912589497%26oas%3DiOU5_7g-bxff_yo2bKM5iQ..&amp;_ti=912589497&amp;oapc=10&amp;menu=Y&amp;oas=00cHJOOU1xuoJSgSFGyGZg..">Diagnostics</A></TD>
+<TD vAlign=bottom><A class=x15 href="OA.jsp?_rc=FNDPORTALRELEASEAM&amp;_ri=0&amp;retainAM=N&amp;_ti=912589497&amp;oapc=10&amp;menu=Y&amp;oas=NAfj5dP7_eYJbsMib9IxvQ..">Home</A></TD>
+<TD vAlign=bottom><A class=x15 href="/OA_HTML/OALogout.jsp?menu=Y">Logout</A></TD>
+<TD vAlign=bottom><A class=x15 href="/OA_HTML/OA.jsp?page=/oracle/apps/fnd/preferences/webui/PreferencesPG&amp;retainAM=Y&amp;_ti=912589497&amp;oapc=10&amp;menu=Y&amp;addBreadCrumb=S&amp;OAPF=Y&amp;oas=Hispc26udKeA7f1fjFndqg..">Preferences</A></TD>
+<TD vAlign=bottom><A class=x15 href="javascript:top.help_window()">Help</A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD width="100%">
+<TABLE class=x73 style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/navBarUnderTopTabsBg.gif)" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD width="100%">
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD class=x4b width="100%" colSpan=3>
+<TABLE id=AppsSearchRG cellSpacing=0 cellPadding=0 align=left border=0>
+<TBODY>
+<TR>
+<TD>
+<TABLE id=AppsSearchableGroup__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD noWrap align=right><SPAN class=xc>Enterprise Search</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top><SELECT onchange="" id=AppsSearchableGroup title="Enterprise Search" class=x8 name=AppsSearchableGroup><OPTION selected value=All>All</OPTION><OPTION value=SESG_OKC_DOC_SRH_PS>Contract Documents</OPTION><OPTION value=SESG_CTX_OKC_PS>Contracts Searchables</OPTION><OPTION value=SESG_OTA_COURSE_SRCH>Courses</OPTION><OPTION value=SESG_EGO_ITM>Products(1)</OPTION><OPTION value=SESG_NOTIFICATIONS>Workflow Notifications</OPTION></SELECT>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD>
+<TABLE id=AppsSearchText__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><INPUT onchange="" onkeypress="return _chain('if(_getKC(event)==13){submitForm(\'DefaultFormName\',1,{\'AppsSearchTextEnterKey\':\'HIT\'});return false;};return true;','return _submitOnEnter(event, \'DefaultFormName\');',this,event,true)" id=AppsSearchText title="Search Text" class=x8 size=55 value=SALEHY name=AppsSearchText>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD><BUTTON onclick="submitForm('DefaultFormName',1,{'_FORM_SUBMIT_BUTTON':'AppsSearchGO'});return false" id=AppsSearchGO title="Click here to perform search" class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)" type=submit>Go</BUTTON></TD>
+<TD>
+<SCRIPT id=Spacer1>t('50','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=50 height=1></TD>
+<TD>
+<TABLE id=AppsSearchResultsUI__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD noWrap align=right><SPAN class=xc>Search Results Display Preference</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top><SELECT onchange="return _pprChoiceChangeEvent(event);" onclick="if(!_pprChoiceAction(event))return true;submitForm('DefaultFormName',1,{'evtSrcRowIdx':'','evtSrcRowId':'',event:'changeResultsDisplay',source:'AppsSearchResultsUI'});return false;" onblur="if(!_pprChoiceAction(event))return true;submitForm('DefaultFormName',1,{'evtSrcRowIdx':'','evtSrcRowId':'',event:'changeResultsDisplay',source:'AppsSearchResultsUI'});return false;" id=AppsSearchResultsUI class=x8 name=AppsSearchResultsUI><OPTION value=ADVANCED>Advanced</OPTION><OPTION selected value=STANDARD>Standard</OPTION></SELECT>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV class=x6t style="HEIGHT: auto">
+<DIV class=xl><NOBR><A href="/OA_HTML/OA.jsp?page=/oracle/apps/fnd/framework/navigate/webui/NewHomePG&amp;homePage=Y&amp;_ti=912589497&amp;retainAM=Y&amp;addBreadCrumb=N&amp;OAMC=G&amp;bcrumb=Y&amp;oapc=10&amp;oas=zbHparp4w8NNK3BKgE33Tg..">Oracle Applications Home Page</A>&nbsp;&nbsp;&gt;&nbsp;&nbsp;</NOBR><SPAN class=xm> <NOBR></NOBR></SPAN></DIV>
+<TABLE id=FwkErrorBeanId cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV>
+<DIV class=x7x>
+<DIV>
+<DIV class=x6a>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD width="100%">
+<H1 class=x1f>Apps Search Results page</H1></TD></TR></TBODY></TABLE></DIV>
+<DIV class=x79>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR vAlign=top>
+<TD></TD>
+<TD noWrap align=right></TD></TR></TBODY></TABLE><NOSCRIPT></NOSCRIPT>
+<DIV></DIV><SPAN id=AppsSearchResult><SPAN id=EBSResultsUIRN><SPAN id=ResultFormatStaclLayout>
+<TABLE id=ResultFormatRow cellSpacing=0 cellPadding=0 align=right border=0>
+<TBODY>
+<TR>
+<TD>
+<SCRIPT id=ResultFormatSpacer>t('15','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=15 height=1></TD></TR></TBODY></TABLE></SPAN>
+<DIV></DIV>
+<SCRIPT id=ResultSpacer1>t('1','15')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=15>
+<DIV></DIV>
+<TABLE id=AppsSearchResultMainRG cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD id=AppsSearchGroupDetailsRN vAlign=top width="20%">
+<TABLE id=ExpandByRN cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD height=10></TD></TR>
+<TR>
+<TD>
+<TABLE class=x7b style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/headingBarBg.gif)" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD width="100%">
+<H2 class=x7c>Expand By</H2></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class=x79 height=8></TD></TR>
+<TR>
+<TD>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD>
+<DIV class=x79>
+<DIV class=x7a>
+<TABLE id=region89 cellSpacing=0 cellPadding=0 width="50%" border=0>
+<TBODY>
+<TR>
+<TD width=20>
+<SCRIPT>t(20)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20></TD>
+<TD vAlign=top width="100%">
+<TABLE cellSpacing=0 cellPadding=0 width="90%" border=0>
+<TBODY>
+<TR id=Keyword__xc_>
+<TD vAlign=top width="10%" noWrap align=right><SPAN class=xc>Keyword</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="90%"><SPAN id=Keyword title=Keyword class=x2>SALEHY</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR id=SesGroupLabel__xc_>
+<TD vAlign=top width="10%" noWrap align=right><SPAN class=xc>Group</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="90%"><SPAN id=sesGroup title=Group class=x4></SPAN></TD></TR>
+<TR id=SesObjectLabel__xc_>
+<TD width="10%" noWrap align=right><SPAN class=xc>Object</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="90%"><SPAN id=sesObject></SPAN></TD></TR>
+<TR id=SesFilterLabel__xc_>
+<TD vAlign=top width="10%" noWrap align=right><SPAN class=xc>Filter</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="90%"><SPAN id=Filter class=x4></SPAN></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE id=NarrowByRN cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD height=10></TD></TR>
+<TR>
+<TD>
+<TABLE class=x7b style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/headingBarBg.gif)" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD width="100%">
+<H2 class=x7c>Narrow By</H2></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class=x79 height=8></TD></TR>
+<TR>
+<TD>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD>
+<DIV class=x79>
+<DIV class=x7a><SPAN id=AllTreeRN>
+<TABLE cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD width=16><A id=AllTreeRN:0:tid href="javascript:AllTreeRN_t.expandNode('1');"><IMG class=x5k border=0 alt="Select to collapse" src="/OA_HTML/cabo/images/swan/tminusa.gif" width=16 height=22></A></TD>
+<TD style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/tliner.gif)"><IMG class=x5k border=0 alt=Folder src="/OA_HTML/cabo/images/swan/tfold.gif" width=16 height=16></TD>
+<TD width=6><IMG class=x5k border=0 alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=6 height=22></TD>
+<TD class=x5l><SPAN onclick="return _select('AllTreeRN',0,'0');" id=AllTreeRN0 class=x5m>
+<SCRIPT>t('13')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=13><SPAN title="Select for details" class=x4>All</SPAN></SPAN></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD width=16><IMG class=x5k border=0 alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=16 height=22></TD>
+<TD style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/tline.gif)" width=16><IMG class=x5k border=0 alt="" src="/OA_HTML/cabo/images/swan/tleaf.gif" width=16 height=22></TD>
+<TD><SPAN class=x5k></SPAN></TD>
+<TD width=6><IMG class=x5k border=0 alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=6 height=22></TD>
+<TD class=x5l><SPAN onclick="return _select('AllTreeRN',1,'0:0');" id=AllTreeRN1 class=x5m><SPAN id=M><A onclick="submitForm('DefaultFormName',1,{'evtSrcRowIdx':'','evtSrcRowId':'AppsSearchAM.AppsSearchAllMasterVO_AppsSearchAllVLA_AppsSearchAllVL_AppsSearchAllDetailVOAppsSearchAllMasterVO_AppsSearchAllVLA_AppsSearchAllVL_AppsSearchAllDetailVO_0',event:'CHGHIER',source:'DummyShowMenuImage'});return false;" id=DummyShowMenuImage href="#" name=DummyShowMenuImage><IMG border=0 alt="Search For this Menu" src="/OA_MEDIA/tipicon_status.gif" width=16 height=16></A>
+<SCRIPT id=DummyShowMenuSpacer>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></SPAN><A onclick="submitForm('DefaultFormName',1,{'Name':'SESG_CTX_OKC_PS','Type':'','FunctionId':'','SubMenuCode':'SESG_CTX_OKC_PS','DisplayName':'Contracts Searchables','MenuId':'','evtSrcRowId':'AppsSearchAM.AppsSearchAllMasterVO_AppsSearchAllVLA_AppsSearchAllVL_AppsSearchAllDetailVOAppsSearchAllMasterVO_AppsSearchAllVLA_AppsSearchAllVL_AppsSearchAllDetailVO_0','evtSrcRowIdx':'',event:'TreeLinkClicked',source:'nodeDef6'});return false;" title="Select for details" class=x4 href="#">Contracts Searchables</A></SPAN></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD width=16><IMG class=x5k border=0 alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=16 height=22></TD>
+<TD style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/tline.gif)" width=16><IMG class=x5k border=0 alt="" src="/OA_HTML/cabo/images/swan/tleaf.gif" width=16 height=22></TD>
+<TD><SPAN class=x5k></SPAN></TD>
+<TD width=6><IMG class=x5k border=0 alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=6 height=22></TD>
+<TD class=x5l><SPAN onclick="return _select('AllTreeRN',2,'0:1');" id=AllTreeRN2 class=x5m><SPAN id=M><A onclick="submitForm('DefaultFormName',1,{'evtSrcRowIdx':'','evtSrcRowId':'AppsSearchAM.AppsSearchAllMasterVO_AppsSearchAllVLA_AppsSearchAllVL_AppsSearchAllDetailVOAppsSearchAllMasterVO_AppsSearchAllVLA_AppsSearchAllVL_AppsSearchAllDetailVO_0',event:'CHGHIER',source:'DummyShowMenuImage'});return false;" id=DummyShowMenuImage href="#" name=DummyShowMenuImage><IMG border=0 alt="Search For this Menu" src="/OA_MEDIA/tipicon_status.gif" width=16 height=16></A>
+<SCRIPT id=DummyShowMenuSpacer>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></SPAN><A onclick="submitForm('DefaultFormName',1,{'Name':'SESG_CTX_OKC_PS','Type':'','FunctionId':'','SubMenuCode':'SESG_CTX_OKC_PS','DisplayName':'Contracts Searchables','MenuId':'','evtSrcRowId':'AppsSearchAM.AppsSearchAllMasterVO_AppsSearchAllVLA_AppsSearchAllVL_AppsSearchAllDetailVOAppsSearchAllMasterVO_AppsSearchAllVLA_AppsSearchAllVL_AppsSearchAllDetailVO_0','evtSrcRowIdx':'',event:'TreeLinkClicked',source:'nodeDef6'});return false;" title="Select for details" class=x4 href="#">Contracts Searchables</A></SPAN></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD width=16><IMG class=x5k border=0 alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=16 height=22></TD>
+<TD style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/tline.gif)" width=16><IMG class=x5k border=0 alt="" src="/OA_HTML/cabo/images/swan/tleaf.gif" width=16 height=22></TD>
+<TD><SPAN class=x5k></SPAN></TD>
+<TD width=6><IMG class=x5k border=0 alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=6 height=22></TD>
+<TD class=x5l><SPAN onclick="return _select('AllTreeRN',3,'0:2');" id=AllTreeRN3 class=x5m><SPAN id=M><A onclick="submitForm('DefaultFormName',1,{'evtSrcRowIdx':'','evtSrcRowId':'AppsSearchAM.AppsSearchAllMasterVO_AppsSearchAllVLA_AppsSearchAllVL_AppsSearchAllDetailVOAppsSearchAllMasterVO_AppsSearchAllVLA_AppsSearchAllVL_AppsSearchAllDetailVO_0',event:'CHGHIER',source:'DummyShowMenuImage'});return false;" id=DummyShowMenuImage href="#" name=DummyShowMenuImage><IMG border=0 alt="Search For this Menu" src="/OA_MEDIA/tipicon_status.gif" width=16 height=16></A>
+<SCRIPT id=DummyShowMenuSpacer>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></SPAN><A onclick="submitForm('DefaultFormName',1,{'Name':'SESG_EGO_ITM','Type':'','FunctionId':'','SubMenuCode':'SESG_EGO_ITM','DisplayName':'Products(1)','MenuId':'','evtSrcRowId':'AppsSearchAM.AppsSearchAllMasterVO_AppsSearchAllVLA_AppsSearchAllVL_AppsSearchAllDetailVOAppsSearchAllMasterVO_AppsSearchAllVLA_AppsSearchAllVL_AppsSearchAllDetailVO_0','evtSrcRowIdx':'',event:'TreeLinkClicked',source:'nodeDef6'});return false;" title="Select for details" class=x4 href="#">Products(1)</A></SPAN></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD width=16><IMG class=x5k border=0 alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=16 height=22></TD>
+<TD style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/tline.gif)" width=16><IMG class=x5k border=0 alt="" src="/OA_HTML/cabo/images/swan/tleaf.gif" width=16 height=22></TD>
+<TD><SPAN class=x5k></SPAN></TD>
+<TD width=6><IMG class=x5k border=0 alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=6 height=22></TD>
+<TD class=x5l><SPAN onclick="return _select('AllTreeRN',4,'0:3');" id=AllTreeRN4 class=x5m><SPAN id=M><A onclick="submitForm('DefaultFormName',1,{'evtSrcRowIdx':'','evtSrcRowId':'AppsSearchAM.AppsSearchAllMasterVO_AppsSearchAllVLA_AppsSearchAllVL_AppsSearchAllDetailVOAppsSearchAllMasterVO_AppsSearchAllVLA_AppsSearchAllVL_AppsSearchAllDetailVO_0',event:'CHGHIER',source:'DummyShowMenuImage'});return false;" id=DummyShowMenuImage href="#" name=DummyShowMenuImage><IMG border=0 alt="Search For this Menu" src="/OA_MEDIA/tipicon_status.gif" width=16 height=16></A>
+<SCRIPT id=DummyShowMenuSpacer>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></SPAN><A onclick="submitForm('DefaultFormName',1,{'Name':'SESG_NOTIFICATIONS','Type':'','FunctionId':'','SubMenuCode':'SESG_NOTIFICATIONS','DisplayName':'Workflow  Notifications','MenuId':'','evtSrcRowId':'AppsSearchAM.AppsSearchAllMasterVO_AppsSearchAllVLA_AppsSearchAllVL_AppsSearchAllDetailVOAppsSearchAllMasterVO_AppsSearchAllVLA_AppsSearchAllVL_AppsSearchAllDetailVO_0','evtSrcRowIdx':'',event:'TreeLinkClicked',source:'nodeDef6'});return false;" title="Select for details" class=x4 href="#">Workflow Notifications</A></SPAN></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD width=16><IMG class=x5k border=0 alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=16 height=22></TD>
+<TD style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/tline.gif)" width=16><IMG class=x5k border=0 alt="" src="/OA_HTML/cabo/images/swan/tleaf.gif" width=16 height=22></TD>
+<TD><SPAN class=x5k></SPAN></TD>
+<TD width=6><IMG class=x5k border=0 alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=6 height=22></TD>
+<TD class=x5l><SPAN onclick="return _select('AllTreeRN',5,'0:4');" id=AllTreeRN5 class=x5m><SPAN id=M><A onclick="submitForm('DefaultFormName',1,{'evtSrcRowIdx':'','evtSrcRowId':'AppsSearchAM.AppsSearchAllMasterVO_AppsSearchAllVLA_AppsSearchAllVL_AppsSearchAllDetailVOAppsSearchAllMasterVO_AppsSearchAllVLA_AppsSearchAllVL_AppsSearchAllDetailVO_0',event:'CHGHIER',source:'DummyShowMenuImage'});return false;" id=DummyShowMenuImage href="#" name=DummyShowMenuImage><IMG border=0 alt="Search For this Menu" src="/OA_MEDIA/tipicon_status.gif" width=16 height=16></A>
+<SCRIPT id=DummyShowMenuSpacer>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></SPAN><A onclick="submitForm('DefaultFormName',1,{'Name':'SESG_OKC_DOC_SRH_PS','Type':'','FunctionId':'','SubMenuCode':'SESG_OKC_DOC_SRH_PS','DisplayName':'Contract Documents','MenuId':'','evtSrcRowId':'AppsSearchAM.AppsSearchAllMasterVO_AppsSearchAllVLA_AppsSearchAllVL_AppsSearchAllDetailVOAppsSearchAllMasterVO_AppsSearchAllVLA_AppsSearchAllVL_AppsSearchAllDetailVO_0','evtSrcRowIdx':'',event:'TreeLinkClicked',source:'nodeDef6'});return false;" title="Select for details" class=x4 href="#">Contract Documents</A></SPAN></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD width=16><IMG class=x5k border=0 alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=16 height=22></TD>
+<TD style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/tlineb.gif)" width=16><IMG class=x5k border=0 alt="" src="/OA_HTML/cabo/images/swan/tleafb.gif" width=16 height=22></TD>
+<TD><SPAN class=x5k></SPAN></TD>
+<TD width=6><IMG class=x5k border=0 alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=6 height=22></TD>
+<TD class=x5l><SPAN onclick="return _select('AllTreeRN',6,'0:5');" id=AllTreeRN6 class=x5m><SPAN id=M><A onclick="submitForm('DefaultFormName',1,{'evtSrcRowIdx':'','evtSrcRowId':'AppsSearchAM.AppsSearchAllMasterVO_AppsSearchAllVLA_AppsSearchAllVL_AppsSearchAllDetailVOAppsSearchAllMasterVO_AppsSearchAllVLA_AppsSearchAllVL_AppsSearchAllDetailVO_0',event:'CHGHIER',source:'DummyShowMenuImage'});return false;" id=DummyShowMenuImage href="#" name=DummyShowMenuImage><IMG border=0 alt="Search For this Menu" src="/OA_MEDIA/tipicon_status.gif" width=16 height=16></A>
+<SCRIPT id=DummyShowMenuSpacer>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></SPAN><A onclick="submitForm('DefaultFormName',1,{'Name':'SESG_OTA_COURSE_SRCH','Type':'','FunctionId':'','SubMenuCode':'SESG_OTA_COURSE_SRCH','DisplayName':'Courses','MenuId':'','evtSrcRowId':'AppsSearchAM.AppsSearchAllMasterVO_AppsSearchAllVLA_AppsSearchAllVL_AppsSearchAllDetailVOAppsSearchAllMasterVO_AppsSearchAllVLA_AppsSearchAllVL_AppsSearchAllDetailVO_0','evtSrcRowIdx':'',event:'TreeLinkClicked',source:'nodeDef6'});return false;" title="Select for details" class=x4 href="#">Courses</A></SPAN></TD></TR></TBODY></TABLE>
+<SCRIPT>var _treeSel = new Object();var _treeNodeSel = new Object();var _treeNodes = new Object();var _treeSelId = new Object();function _getSelectedNodeIndex(source) { return _treeSelId[source];}function _setSelection(source,sel) {_treeSel[source]=sel;}function _getSelection(source) {return _treeSel[source];}function _setNodes(source,nodes) {_treeNodes[source]=nodes;}function _getNodes(source) {return _treeNodes[source];}function _select(name,index,nodeID) {_clearSelection(name);var e =_getElementById(document,name+index);_treeSelId[name] = index;_treeNodeSel[name]=e;e.className = 'p_OraTreeRowSelected';  _setSelection(name,nodeID);return true;}function _clearSelection(name) {var e = _treeNodeSel[name];if(e != null) {e.className='p_OraTreeRow';  }}_setNodes('AllTreeRN','7');</SCRIPT>
+
+<SCRIPT> function TreeProxy(source,state,submitURL,formName,validate,encEvents,encSource,encState,pTargs) {this.source = source;this.state = state;this.submitURL = submitURL;this.formName = formName;this.validate = validate;this.partialTargets = pTargs;this.encodedEvents = encEvents;this.encodedSource = encSource;this.encodedState = encState;}
+TreeProxy.prototype.expandNode = _expandNode;
+function _expandNode(node) {var form = this.formName;var source = this.source;var selection = _getSelection(source);var event = 'expand';if (form == (void 0)) {var url = this.submitURL + 'event=' + event + '&source=' + source + '&state=' + this.state;if (node != (void 0)) {url += '&node=' + node;}if (selection != (void 0)) {url += '&selection=' + selection;}if (this.partialTargets != (void 0)) {url += '&partialTargets=' + escape(this.partialTargets);_firePartialChange(url);} else {document.location = url;}} else {var params = {event:this.encodedEvents[event],source:this.encodedSource,state:this.encodedState};if (node != (void 0)) {params.node=node;}if (selection != (void 0)) {params.selection=selection;}var submitFunc=submitForm;if (this.partialTargets != (void 0)) {params.partial=true;params.partialTargets=this.partialTargets;submitFunc=_submitPartialChange;}    submitFunc(form, this.validate, params);}} AllTreeRN_t = new TreeProxy('AllTreeRN','((6))','','DefaultFormName',1,{'expand':'expand'},'AllTreeRN','((6))','AllTreeRN');</SCRIPT>
+</SPAN></DIV></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD>
+<TD>
+<SCRIPT id=ResultSpacer>t('10','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=1></TD>
+<TD id=AppsSearchResultDetailsRN vAlign=top width="80%" align=left><SPAN id=TableSearchRG>
+<TABLE id=UserSearchHSRG cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD height=10></TD></TR>
+<TR>
+<TD>
+<TABLE class=x7b style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/headingBarBg.gif)" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD>
+<DIV style="VERTICAL-ALIGN: middle">
+<SCRIPT>function _submitHideShow(a,v,b,c,l,d,p) {var o = {event:b,source:c};if (d!=(void 0)) o.value=d;if (p) {o.partialTargets=p;_setRequestedFocusNode(document, l, false, window);_submitPartialChange(a,v,o);} else submitForm(a,v,o);return false;}</SCRIPT>
+<A onclick="return _submitHideShow('DefaultFormName',1,'hide','UserSearchHSRG','UserSearchHSRG__xc_',null,'UserSearchHSRG')" id=UserSearchHSRG__xc_ class=xh href="#"><IMG border=0 alt="Select to hide information" src="/OA_HTML/cabo/images/cache/chsd.gif" width=15 align=middle height=14></A></DIV></TD>
+<TD width="100%">
+<H2 class=x7c>All</H2></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class=x79 height=8></TD></TR>
+<TR>
+<TD>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD>
+<DIV class=x79>
+<DIV class=x7a><SPAN id=UserSearchStackRN></SPAN></DIV>
+<DIV class=x7a>
+<TABLE id=UserSearchErrorItem__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><SPAN id=UserSearchErrorItem class=x2>Data for Searchable Object All is not crawled.</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></DIV>
+<DIV class=x7a>
+<SCRIPT id=UserResultSpacer2>t('1','15')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=15></DIV></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></SPAN></TD></TR></TBODY></TABLE></SPAN></SPAN>
+<DIV></DIV><INPUT id=_fwkAbsolutePageName type=hidden value=/oracle/apps/fnd/search/webui/AppsSearchMainPG::: name=_fwkAbsolutePageName></DIV></DIV>
+<DIV>
+<DIV>
+<SCRIPT>t(1,9)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=9></DIV>
+<DIV>
+<SCRIPT>t(1,10)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=10></DIV></DIV></DIV>
+<DIV></DIV>
+<DIV></DIV>
+<DIV></DIV></DIV>
+<TABLE class=x70 style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/footerBg.gif)" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD noWrap align=center>
+<TABLE cellSpacing=0 cellPadding=0 align=center border=0>
+<TBODY>
+<TR>
+<TD align=center><A class=x15 href="/OA_HTML/OA.jsp?_rc=FND_DIAGNOSTICS_PAGE&amp;_ri=0&amp;retainAM=Y&amp;LogRetUrl=%2FOA_HTML%2FOA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fsearch%2Fwebui%2FAppsSearchMainPG%26OAFunc%3DAPPSSEARCH_DEFAULT_RESULTS%26SearchableGroup%3DAll%26SearchText%3DSALEHY%26searchGroupDisplayName%3DAll%26renderSESUI%3DN%26retainAM%3DY%26addBreadCrumb%3DRP%26OAMC%3DK%26transactionid%3D912589497%26oas%3DiOU5_7g-bxff_yo2bKM5iQ..&amp;_ti=912589497&amp;oapc=10&amp;menu=Y&amp;oas=00cHJOOU1xuoJSgSFGyGZg..">Diagnostics</A></TD>
+<TD align=center><A class=x15 href="OA.jsp?_rc=FNDPORTALRELEASEAM&amp;_ri=0&amp;retainAM=N&amp;_ti=912589497&amp;oapc=10&amp;menu=Y&amp;oas=NAfj5dP7_eYJbsMib9IxvQ..">Home</A></TD>
+<TD align=center><A class=x15 href="/OA_HTML/OALogout.jsp?menu=Y">Logout</A></TD>
+<TD align=center><A class=x15 href="/OA_HTML/OA.jsp?page=/oracle/apps/fnd/preferences/webui/PreferencesPG&amp;retainAM=Y&amp;_ti=912589497&amp;oapc=10&amp;menu=Y&amp;addBreadCrumb=S&amp;OAPF=Y&amp;oas=Hispc26udKeA7f1fjFndqg..">Preferences</A></TD>
+<TD align=center><A class=x15 href="javascript:top.help_window()">Help</A></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD>
+<TABLE cellSpacing=2 cellPadding=2 width="100%" border=0>
+<TBODY>
+<TR>
+<TD class=x14 noWrap align=left><A onclick="submitForm('DefaultFormName',0,{'serverValidate':'1',event:'about'});return false;" href="#">About this Page</A></TD>
+<TD>
+<SCRIPT>t('10','10')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=10></TD>
+<TD class=x13 noWrap align=left><A title="Privacy Statement" href="http://personalize.this.link" target=_blank>Privacy Statement</A></TD>
+<TD class=x12 width="100%" noWrap align=right><SPAN id=N18>Copyright (c) 2006, Oracle. All rights reserved.</SPAN></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></SPAN><INPUT id=_fwkActBtnName_nodeDef6_TreeLinkClicked$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_nodeDef6_TreeLinkClicked$$serverUnvalidated><INPUT id=_fwkActBtnName_DummyShowMenuImage_CHGHIER$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_DummyShowMenuImage_CHGHIER$$serverUnvalidated><INPUT id=_fwkActBtnName_DummyShowFuncImage_SWITCHMGR$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_DummyShowFuncImage_SWITCHMGR$$serverUnvalidated><INPUT id=UserSearchHSRG$$unvalidated type=hidden value=false name=UserSearchHSRG$$unvalidated><INPUT id=UserSearchHSRG$$serverUnvalidated type=hidden value=false name=UserSearchHSRG$$serverUnvalidated><INPUT id=AppsSearchGO$$unvalidated type=hidden value=false name=AppsSearchGO$$unvalidated><INPUT id=AppsSearchGO$$serverUnvalidated type=hidden value=false name=AppsSearchGO$$serverUnvalidated><INPUT id=AppsSearchGO$$processFormDataCalled type=hidden value=true name=AppsSearchGO$$processFormDataCalled><INPUT id=_fwkActBtnName_AppsSearchResultsUI_changeResultsDisplay$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_AppsSearchResultsUI_changeResultsDisplay$$serverUnvalidated><SPAN id=_DefaultFormName_Postscript><INPUT type=hidden name=_FORMEVENT><INPUT type=hidden name=serverValidate><INPUT type=hidden name=evtSrcRowIdx><INPUT type=hidden name=evtSrcRowId><INPUT type=hidden name=_FORM_SUBMIT_BUTTON><INPUT type=hidden name=event><INPUT type=hidden name=source><INPUT type=hidden name=Name><INPUT type=hidden name=Type><INPUT type=hidden name=FunctionId><INPUT type=hidden name=SubMenuCode><INPUT type=hidden name=DisplayName><INPUT type=hidden name=MenuId><INPUT type=hidden name=node><INPUT type=hidden name=state><INPUT type=hidden name=selection><INPUT type=hidden name=partialTargets><INPUT type=hidden name=partial><INPUT type=hidden name=AppsSearchTextEnterKey>
+<SCRIPT>var _resetDefaultFormNameNames=["_FORMEVENT","serverValidate","evtSrcRowIdx","evtSrcRowId","_FORM_SUBMIT_BUTTON","event","source","Name","Type","FunctionId","SubMenuCode","DisplayName","MenuId","node","state","selection","partialTargets","partial","AppsSearchTextEnterKey"];</SCRIPT>
+
+<SCRIPT>function _DefaultFormNameValidater(form){return true;}function _submitOnEnter(e,frm){if(_getKC(e)==13){submitForm(frm,1);return false;}}</SCRIPT>
+</SPAN>
+<SCRIPT>_submitFormCheck();</SCRIPT>
+</FORM><IFRAME title="Forms Launcher" height=5 src="http://riyoramgbm02.maaden.com:8050/OA_HTML/blank.html" frameBorder=no width=5 name=formsLauncher scrolling=no></IFRAME></SPAN><INPUT disabled id=_pprSaveLib type=hidden><INPUT disabled id=_pprSaveScript type=hidden><INPUT disabled id=_pprSavePage type=hidden>
+<SCRIPT>var _uixDoneMessage="Done."</SCRIPT>
+
+<SCRIPT>document.body.style.marginLeft="0px";document.body.style.marginRight="0px";document.body.style.marginTop="0px";</SCRIPT>
+<!-- Created by Oracle UIX , Accessibility:disabled, laf:swan.desktop (swan) --> 
+<UL id=MenuList class=submenustyle _master="topmenubar" _pos="0"></UL>
+<UL id=FavList class=submenustyle _master="topmenubar" _pos="1"></UL></BODY></HTML>

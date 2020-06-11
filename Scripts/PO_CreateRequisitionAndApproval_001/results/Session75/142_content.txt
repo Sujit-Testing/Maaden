@@ -1,0 +1,208 @@
+<HTML lang=en-US-ORACLE9I style="VISIBILITY: visible" dir=ltr><HEAD><TITLE>Apps Search Results page</TITLE>
+<META name=generator content="Oracle UIX"><LINK rel=stylesheet type=text/css href="/OA_HTML/cabo/styles/cache/swan-desktop-custom-2_3_6_9-en-ie-windows.css" charset=UTF-8>
+<SCRIPT>var _UixWindowOpenError='A popup window blocker has been detected in your browser. Popup blockers interfere with the operation of this application. Please disable your popup blocker or allow popups from this site.';</SCRIPT>
+
+<SCRIPT src="/OA_HTML/cabo/jsLibs/Common2_3_6_9.js"></SCRIPT>
+
+<SCRIPT>_defaultTZ()</SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oafcoreR121.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oafb.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/richContainer.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/OAFSlideoutMenu.js"></SCRIPT>
+
+<SCRIPT language=javascript>function help_window() { help_win = window.open("http://riyoramgbm02.maaden.com:8050/OA_HTML/help?locale=en_US&group=FND:LIBRARY:US&topic=US/FND/@FND_AppSearch_AppsSearchMainPG", "help_win","resizable=yes,scrollbars=yes,toolbar=yes,width=600,height=500")}</SCRIPT>
+</HEAD>
+<BODY class=xk onload="return _chain('_checkLoad(event)','oafsm.setup(&quot;topmenubar&quot;, &quot;topbar&quot;,escape(\'RF.jsp?function_id=MAINMENUREST&amp;security_group_id=0\'),\'false\',false);',this,event)" style="MARGIN-TOP: 0px; MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px" onbeforeunload=_savePageStateIE() onunload=_checkUnload(event)><IFRAME id=_pprIFrame title="" style="POSITION: absolute; TOP: -100px; VISIBILITY: hidden" height=0 longDesc=# src="/OA_HTML/cabo/images/swan/t.htm" frameBorder=0 width=0 name=_pprIFrame></IFRAME>
+<DIV onclick="return _pprConsumeClick(event);" onkeypress="return false;" onkeyup="return false;" id=_pprBlockingDiv onkeydown="return false;" style="CURSOR: wait; HEIGHT: 0px; WIDTH: 0px; POSITION: absolute; LEFT: 0px; TOP: 0px"></DIV>
+<DIV id=_uixDownload class=x3f style="BEHAVIOR: url(#default#download)"></DIV>
+<SCRIPT>var _cachedLibs;</SCRIPT>
+
+<SCRIPT>var _pprFirstClickPass=true;</SCRIPT>
+<SPAN id=_pprPageContent>
+<FORM id=DefaultFormName style="MARGIN: 0px" method=post name=DefaultFormName action=/OA_HTML/OA.jsp?page=/oracle/apps/fnd/search/webui/AppsSearchMainPG&amp;OAFunc=APPSSEARCH_DEFAULT_RESULTS&amp;SearchableGroup=All&amp;SearchText=&amp;searchGroupDisplayName=All&amp;renderSESUI=N&amp;retainAM=Y&amp;addBreadCrumb=RP&amp;OAMC=K&amp;_ti=2053063457&amp;oapc=8&amp;oas=j2HMQGDF0rknbDA33t_A9w..><INPUT id=_AM_TX_ID_FIELD type=hidden value=4 name=_AM_TX_ID_FIELD><INPUT id=_FORM type=hidden value=DefaultFormName name=_FORM><SPAN id=lovHFCId></SPAN><SPAN id=region1>
+<TABLE class=x6u style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/headerBg.jpg)" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD>
+<SCRIPT>var _tURL="\x2FOA_HTML\x2Fcabo\x2Fimages\x2Fswan\x2Ft.gif";var _axm;t('10','10')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=10></TD></TR>
+<TR>
+<TD>
+<TABLE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD vAlign=top width="1%" noWrap><IMG border=0 alt=Maaden_logo1.jpg src="/OA_MEDIA/Maaden_logo1.jpg"></TD>
+<TD noWrap><SPAN title="E-Business Suite" style="POSITION: absolute"><SPAN class=x4i>E-Business Suite</SPAN></SPAN>
+<SCRIPT>t('0','14')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=0 height=14></TD>
+<TD></TD>
+<TD></TD></TR>
+<TR>
+<TD></TD>
+<TD style="POSITION: relative; PADDING-BOTTOM: 8px; Z-INDEX: 10" vAlign=bottom colSpan=2 align=right>
+<TABLE class=x6w cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=bottom><LINK rel=stylesheet type=text/css href="cabo/styles/OAFSlideoutMenu.css">
+<DIV id=topmenubar style="WIDTH: 300px">
+<UL>
+<P style="FONT-SIZE: 12px; FONT-FAMILY: Arial; COLOR: white"><IMG class=image src="/OA_MEDIA/home.gif"><A id=SNAV class=Menu href="#" name=Menu rel=MenuList _master="topmenubar" _pos="0" _istoplevel="true">&nbsp;Navigator<IMG class=drimage1 src="/OA_MEDIA/drop_arrow.gif"></A><IMG class=image src="/OA_MEDIA/favorites.gif" align=absMiddle><A id=SFAV class=Fav href="#" name=Fav rel=FavList _master="topmenubar" _pos="1" _istoplevel="true">&nbsp;Favorites<IMG class=drimage src="/OA_MEDIA/drop_arrow.gif"></A></P></UL></DIV>
+<DIV id=SDivTop style="POSITION: absolute; DISPLAY: none"></DIV>
+<DIV id=SFavTop style="POSITION: absolute; DISPLAY: none"></DIV></TD>
+<TD vAlign=bottom><A class=x15 href="/OA_HTML/OA.jsp?_rc=FND_DIAGNOSTICS_PAGE&amp;_ri=0&amp;retainAM=Y&amp;LogRetUrl=%2FOA_HTML%2FOA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fsearch%2Fwebui%2FAppsSearchMainPG%26OAFunc%3DAPPSSEARCH_DEFAULT_RESULTS%26SearchableGroup%3DAll%26SearchText%3D%26searchGroupDisplayName%3DAll%26renderSESUI%3DN%26retainAM%3DY%26addBreadCrumb%3DRP%26OAMC%3DK%26transactionid%3D2053063457%26oas%3DLjLGxlZPPvfRE6gj5zneUA..&amp;_ti=2053063457&amp;oapc=8&amp;menu=Y&amp;oas=agL9vFBLBDJ5DXzrDJOZHw..">Diagnostics</A></TD>
+<TD vAlign=bottom><A class=x15 href="OA.jsp?_rc=FNDPORTALRELEASEAM&amp;_ri=0&amp;retainAM=N&amp;_ti=2053063457&amp;oapc=8&amp;menu=Y&amp;oas=_kfFi-MWDj1NVeQhmKroXA..">Home</A></TD>
+<TD vAlign=bottom><A class=x15 href="/OA_HTML/OALogout.jsp?menu=Y">Logout</A></TD>
+<TD vAlign=bottom><A class=x15 href="/OA_HTML/OA.jsp?page=/oracle/apps/fnd/preferences/webui/PreferencesPG&amp;retainAM=Y&amp;_ti=2053063457&amp;oapc=8&amp;menu=Y&amp;addBreadCrumb=S&amp;OAPF=Y&amp;oas=zZvwKUFz4xgKEzS9KRtbGA..">Preferences</A></TD>
+<TD vAlign=bottom><A class=x15 href="javascript:top.help_window()">Help</A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD width="100%">
+<TABLE class=x73 style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/navBarUnderTopTabsBg.gif)" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD width="100%">
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD class=x4b width="100%" colSpan=3>
+<TABLE id=AppsSearchRG cellSpacing=0 cellPadding=0 align=left border=0>
+<TBODY>
+<TR>
+<TD>
+<TABLE id=AppsSearchableGroup__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD noWrap align=right><SPAN class=xc>Enterprise Search</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top><SELECT onchange="" id=AppsSearchableGroup title="Enterprise Search" class=x8 name=AppsSearchableGroup><OPTION selected value=All>All</OPTION><OPTION value=SESG_OKC_DOC_SRH_PS>Contract Documents</OPTION><OPTION value=SESG_CTX_OKC_PS>Contracts Searchables</OPTION><OPTION value=SESG_OTA_COURSE_SRCH>Courses</OPTION><OPTION value=SESG_EGO_ITM>Products(1)</OPTION><OPTION value=SESG_NOTIFICATIONS>Workflow Notifications</OPTION></SELECT>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD>
+<TABLE id=AppsSearchText__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><INPUT onchange="" onkeypress="return _chain('if(_getKC(event)==13){submitForm(\'DefaultFormName\',1,{\'AppsSearchTextEnterKey\':\'HIT\'});return false;};return true;','return _submitOnEnter(event, \'DefaultFormName\');',this,event,true)" id=AppsSearchText title="Search Text" class=x8 size=55 name=AppsSearchText>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD><BUTTON onclick="submitForm('DefaultFormName',1,{'_FORM_SUBMIT_BUTTON':'AppsSearchGO'});return false" id=AppsSearchGO title="Click here to perform search" class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)" type=submit>Go</BUTTON></TD>
+<TD>
+<SCRIPT id=Spacer1>t('50','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=50 height=1></TD>
+<TD>
+<TABLE id=AppsSearchResultsUI__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD noWrap align=right><SPAN class=xc>Search Results Display Preference</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top><SELECT onchange="return _pprChoiceChangeEvent(event);" onclick="if(!_pprChoiceAction(event))return true;submitForm('DefaultFormName',1,{'evtSrcRowIdx':'','evtSrcRowId':'',event:'changeResultsDisplay',source:'AppsSearchResultsUI'});return false;" onblur="if(!_pprChoiceAction(event))return true;submitForm('DefaultFormName',1,{'evtSrcRowIdx':'','evtSrcRowId':'',event:'changeResultsDisplay',source:'AppsSearchResultsUI'});return false;" id=AppsSearchResultsUI class=x8 name=AppsSearchResultsUI><OPTION value=ADVANCED>Advanced</OPTION><OPTION selected value=STANDARD>Standard</OPTION></SELECT>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV class=x6t style="HEIGHT: auto">
+<DIV class=xl><NOBR><A href="/OA_HTML/OA.jsp?page=/oracle/apps/fnd/framework/navigate/webui/NewHomePG&amp;homePage=Y&amp;_ti=2053063457&amp;retainAM=Y&amp;addBreadCrumb=N&amp;OAMC=G&amp;bcrumb=Y&amp;oapc=8&amp;oas=3L66vaEZ8jGpx1LHrFXsJQ..">Oracle Applications Home Page</A>&nbsp;&nbsp;&gt;&nbsp;&nbsp;</NOBR><SPAN class=xm> <NOBR></NOBR></SPAN></DIV>
+<TABLE id=FwkErrorBeanId cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV>
+<DIV class=x7x>
+<DIV>
+<DIV class=x6a>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD width="100%">
+<H1 class=x1f>Apps Search Results page</H1></TD></TR></TBODY></TABLE></DIV>
+<DIV class=x79>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR vAlign=top>
+<TD></TD>
+<TD noWrap align=right></TD></TR></TBODY></TABLE><NOSCRIPT></NOSCRIPT>
+<DIV></DIV><SPAN id=AppsSearchResult><SPAN id=EBSResultsUIRN>
+<TABLE id=ErrorItem__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right><SPAN class=xc></SPAN></TD>
+<TD></TD>
+<TD vAlign=top><SPAN id=ErrorItem class=x2>Please provide the search text to perform search.</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE>
+<DIV></DIV><SPAN id=ResultFormatStaclLayout>
+<TABLE id=ResultFormatRow cellSpacing=0 cellPadding=0 align=right border=0>
+<TBODY>
+<TR>
+<TD>
+<SCRIPT id=ResultFormatSpacer>t('15','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=15 height=1></TD></TR></TBODY></TABLE></SPAN>
+<DIV></DIV>
+<SCRIPT id=ResultSpacer1>t('1','15')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=15>
+<DIV></DIV>
+<TABLE id=AppsSearchResultMainRG cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD id=AppsSearchGroupDetailsRN vAlign=top width="20%"></TD>
+<TD>
+<SCRIPT id=ResultSpacer>t('10','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=1></TD>
+<TD id=AppsSearchResultDetailsRN vAlign=top width="80%" align=left><SPAN id=TableSearchRG></SPAN></TD></TR></TBODY></TABLE></SPAN></SPAN>
+<DIV></DIV><INPUT id=_fwkAbsolutePageName type=hidden value=/oracle/apps/fnd/search/webui/AppsSearchMainPG::: name=_fwkAbsolutePageName></DIV></DIV>
+<DIV>
+<DIV>
+<SCRIPT>t(1,9)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=9></DIV>
+<DIV>
+<SCRIPT>t(1,10)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=10></DIV></DIV></DIV>
+<DIV></DIV>
+<DIV></DIV>
+<DIV></DIV></DIV>
+<TABLE class=x70 style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/footerBg.gif)" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD noWrap align=center>
+<TABLE cellSpacing=0 cellPadding=0 align=center border=0>
+<TBODY>
+<TR>
+<TD align=center><A class=x15 href="/OA_HTML/OA.jsp?_rc=FND_DIAGNOSTICS_PAGE&amp;_ri=0&amp;retainAM=Y&amp;LogRetUrl=%2FOA_HTML%2FOA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fsearch%2Fwebui%2FAppsSearchMainPG%26OAFunc%3DAPPSSEARCH_DEFAULT_RESULTS%26SearchableGroup%3DAll%26SearchText%3D%26searchGroupDisplayName%3DAll%26renderSESUI%3DN%26retainAM%3DY%26addBreadCrumb%3DRP%26OAMC%3DK%26transactionid%3D2053063457%26oas%3DLjLGxlZPPvfRE6gj5zneUA..&amp;_ti=2053063457&amp;oapc=8&amp;menu=Y&amp;oas=agL9vFBLBDJ5DXzrDJOZHw..">Diagnostics</A></TD>
+<TD align=center><A class=x15 href="OA.jsp?_rc=FNDPORTALRELEASEAM&amp;_ri=0&amp;retainAM=N&amp;_ti=2053063457&amp;oapc=8&amp;menu=Y&amp;oas=_kfFi-MWDj1NVeQhmKroXA..">Home</A></TD>
+<TD align=center><A class=x15 href="/OA_HTML/OALogout.jsp?menu=Y">Logout</A></TD>
+<TD align=center><A class=x15 href="/OA_HTML/OA.jsp?page=/oracle/apps/fnd/preferences/webui/PreferencesPG&amp;retainAM=Y&amp;_ti=2053063457&amp;oapc=8&amp;menu=Y&amp;addBreadCrumb=S&amp;OAPF=Y&amp;oas=zZvwKUFz4xgKEzS9KRtbGA..">Preferences</A></TD>
+<TD align=center><A class=x15 href="javascript:top.help_window()">Help</A></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD>
+<TABLE cellSpacing=2 cellPadding=2 width="100%" border=0>
+<TBODY>
+<TR>
+<TD class=x14 noWrap align=left><A onclick="submitForm('DefaultFormName',0,{'serverValidate':'1',event:'about'});return false;" href="#">About this Page</A></TD>
+<TD>
+<SCRIPT>t('10','10')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=10></TD>
+<TD class=x13 noWrap align=left><A title="Privacy Statement" href="http://personalize.this.link" target=_blank>Privacy Statement</A></TD>
+<TD class=x12 width="100%" noWrap align=right><SPAN id=N18>Copyright (c) 2006, Oracle. All rights reserved.</SPAN></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></SPAN><INPUT id=AppsSearchGO$$unvalidated type=hidden value=false name=AppsSearchGO$$unvalidated><INPUT id=AppsSearchGO$$serverUnvalidated type=hidden value=false name=AppsSearchGO$$serverUnvalidated><INPUT id=AppsSearchGO$$processFormDataCalled type=hidden value=true name=AppsSearchGO$$processFormDataCalled><INPUT id=_fwkActBtnName_AppsSearchResultsUI_changeResultsDisplay$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_AppsSearchResultsUI_changeResultsDisplay$$serverUnvalidated><SPAN id=_DefaultFormName_Postscript><INPUT type=hidden name=_FORMEVENT><INPUT type=hidden name=serverValidate><INPUT type=hidden name=evtSrcRowIdx><INPUT type=hidden name=evtSrcRowId><INPUT type=hidden name=_FORM_SUBMIT_BUTTON><INPUT type=hidden name=event><INPUT type=hidden name=source><INPUT type=hidden name=AppsSearchTextEnterKey>
+<SCRIPT>var _resetDefaultFormNameNames=["_FORMEVENT","serverValidate","evtSrcRowIdx","evtSrcRowId","_FORM_SUBMIT_BUTTON","event","source","AppsSearchTextEnterKey"];</SCRIPT>
+
+<SCRIPT>function _DefaultFormNameValidater(form){return true;}function _submitOnEnter(e,frm){if(_getKC(e)==13){submitForm(frm,1);return false;}}</SCRIPT>
+</SPAN>
+<SCRIPT>_submitFormCheck();</SCRIPT>
+</FORM><IFRAME title="Forms Launcher" height=5 src="http://riyoramgbm02.maaden.com:8050/OA_HTML/blank.html" frameBorder=no width=5 name=formsLauncher scrolling=no></IFRAME></SPAN><INPUT disabled id=_pprSaveLib type=hidden><INPUT disabled id=_pprSaveScript type=hidden><INPUT disabled id=_pprSavePage type=hidden>
+<SCRIPT>var _uixDoneMessage="Done."</SCRIPT>
+
+<SCRIPT>document.body.style.marginLeft="0px";document.body.style.marginRight="0px";document.body.style.marginTop="0px";</SCRIPT>
+<!-- Created by Oracle UIX , Accessibility:disabled, laf:swan.desktop (swan) --> 
+<UL id=MenuList class=submenustyle _master="topmenubar" _pos="0"></UL>
+<UL id=FavList class=submenustyle _master="topmenubar" _pos="1"></UL></BODY></HTML>

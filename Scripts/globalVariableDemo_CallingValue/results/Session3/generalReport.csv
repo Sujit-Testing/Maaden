@@ -1,0 +1,8 @@
+2274,1,globalVariableDemo_CallingValue,3/31/2020 15:23:56 PM,0,Passed,3/31/2020 15:23:52 PM,basic.step,Scripts,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,553,Passed,"",basic.init,
+"Iteration Total (sec)",,728,Passed,"",basic.iteration,
+"Call Function: GlobalVariableDemo.run",,259,Passed,"",basic.stepGroup,
+"Info",,2,Passed,"Comments: XYZ :123",basic.comment,
+"Info",,1,Passed,"Comments: --->123",basic.comment,
+"Finish Total (sec)",,127,Passed,"",basic.finish,

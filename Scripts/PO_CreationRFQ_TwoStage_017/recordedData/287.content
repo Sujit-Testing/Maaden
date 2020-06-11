@@ -1,0 +1,42 @@
+<HTML lang=en-US-ORACLE9I style="VISIBILITY: visible" dir=ltr><HEAD><TITLE>Create RFQ 69082: Controls</TITLE>
+<META name=generator content="Oracle UIX"><LINK rel=stylesheet type=text/css href="/OA_HTML/cabo/styles/cache/swan-desktop-custom-2_3_6_9-en-ie-windows.css" charset=UTF-8>
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oafcoreR121.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oafb.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/OAFSlideoutMenu.js"></SCRIPT>
+
+<SCRIPT language=javascript>function help_window() { help_win = window.open("http://riysoaclone.maaden.com:8010/OA_HTML/help?locale=en_US&group=FND:LIBRARY:US&topic=US/PON/@pon_help_index", "help_win","resizable=yes,scrollbars=yes,toolbar=yes,width=600,height=500")}</SCRIPT>
+</HEAD>
+<BODY style="MARGIN-TOP: 0px; MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px" onunload=_partialUnload()>
+<SCRIPT src="/OA_HTML/cabo/jsLibs/Common2_3_6_9.js"></SCRIPT>
+
+<SCRIPT>var _navEvent = 'navigate';function _onNavigate(formName,uri){return confirm("The changes you made to this page have not been saved.  If you continue, the changes will be discarded.  Do you wish to continue?")};parent._navDirty=1;</SCRIPT>
+
+<FORM id=DefaultFormName style="MARGIN: 0px" method=post name=DefaultFormName action=/OA_HTML/OA.jsp?page=/oracle/apps/pon/negotiation/creation/webui/ponDefineCtrlPG&amp;_ri=396&amp;_ti=1819149701&amp;retainAM=Y&amp;addBreadCrumb=N&amp;oapc=49&amp;oas=hH8aWJw3UzTZETnSwFDaqA..>
+<TABLE id=FwkErrorBeanId cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR id=PreviewDateRadioGroup__xc_>
+<TD vAlign=top width="20%" noWrap align=right><SPAN class=xc>Preview Date</SPAN></TD>
+<TD width=12><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="80%"><SPAN onclick="_radio_uixSpuOnClickHandler(0,'_uixspu(\\'DefaultFormName\\',0,\\'PreviewDateEvent\\',\\'PreviewDateRadioGroup\\',0,1,{\\'_FORM_SUBMIT_BUTTON\\':\\'_fwkActBtnName_PreviewDateRadioGroup_PreviewDateEvent\\',\\'evtSrcRowIdx\\':\\'0\\',\\'evtSrcRowId\\':\\'NegotiationCreationAM.AuctionHeadersAllVO69082\\'});return true;',event);" id=PreviewDateRadioGroup onchange=""><INPUT onchange="" CHECKED type=radio value=Y name=PreviewDateRadioGroup><SPAN class=xo>Immediately</SPAN><BR><INPUT onchange="" type=radio value=N name=PreviewDateRadioGroup><SPAN class=xo>Specify Time</SPAN></SPAN><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR id=PreviewDate__xc_>
+<TD noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><INPUT onchange="" onkeypress="return _submitOnEnter(event, 'DefaultFormName');" onblur=_dfb(this,1) id=PreviewDate title="Preview Date Time" class=x8 maxLength=20 name=PreviewDate><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=8 height=1><A onclick="_ldp('DefaultFormName','PreviewDate'); return false" href="#"><IMG border=0 src="/OA_HTML/cabo/images/cache/cdp.gif" width=19 align=absMiddle height=24></A><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE><SPAN id=_DefaultFormName_Postscript><INPUT type=hidden name=uri><INPUT type=hidden name=event><INPUT type=hidden name=_FORMEVENT><INPUT type=hidden name=serverValidate><INPUT type=hidden name=evtSrcRowIdx><INPUT type=hidden name=evtSrcRowId><INPUT type=hidden name=source><INPUT type=hidden name=Navigate><INPUT type=hidden name=_FORM_SUBMIT_BUTTON><INPUT type=hidden name=partialTargets><INPUT type=hidden name=partial></SPAN></FORM>
+<SCRIPT id=_pprScripts>/*function _uixspu(f,v,e,s,pt,p,o){if(!o)o=new Object();o.event=(e)?e:'update';if(s)o.source=s;if(p){o.partial='true';if(pt)o.partialTargets=pt;_submitPartialChange(f,v,o);}else submitForm(f,v,o);};var _locale='en-US-ORACLE9I';var _tLocale='en-US-ORACLE9I';var _groupingSep=',';var _decimalSep='.';;var _dfLenient=1;var _df2DYS=1950;;if(window['_dfs'] == (void 0)){var _dfs=new Object();}_dfs["PreviewDate"]=['dd-MMM-yyyy HH:mm:ss','dd-MMM-yyyy'];var _jspDir='/OA_HTML/cabo/jsps/a.jsp';var _configName='OAConfig';var _enc='WINDOWS-1256';var _contextURI='/OA_HTML';;var _uixLocaleTZ=180;var _uixLocaleTZId="Asia/Riyadh";var _firstDOW=1;;var _resetDefaultFormNameNames=["uri","event","_FORMEVENT","serverValidate","evtSrcRowIdx","evtSrcRowId","source","Navigate","_FORM_SUBMIT_BUTTON","partialTargets","partial"];;var _DefaultFormName_Validations=['new SimpleDateFormat([\\'dd-MMM-yyyy HH:mm:ss\\',\\'dd-MMM-yyyy\\']).validate(%value%)','_isEmpty(%value%)'];function _DefaultFormNameValidater(form){var fl = _multiValidate(form,[0,"PreviewDate",0,1,0,"CloseBiddingDate",0,1,1,"CloseBiddingDate",1,0,0,"OpenBiddingDate",0,1,0,"AwardDate",0,1]);if(fl.length>0){_validationAlert('Form validation failures:'+fl);return false;}else{return true;}}var _DefaultFormName_Labels={'CloseBiddingDate':'Close Date','AwardDate':'Award Date'};var _DefaultFormName_Patterns={'PreviewDate':'dd-MMM-yyyy HH:mm:ss','CloseBiddingDate':'dd-MMM-yyyy HH:mm:ss','OpenBiddingDate':'dd-MMM-yyyy HH:mm:ss','AwardDate':'dd-MMM-yyyy HH:mm:ss'};var _DefaultFormName_Formats=['Value "%value%" in "%label%" is not a date and time formatted as "%pattern%".:::::Value "%value%" in "%label%" is not a valid time due to Day Light Saving Time.','A value must be entered for "%label%".'];function _submitOnEnter(e,frm){return (_getKC(e)!=13);}*/</SCRIPT>
+
+<SCRIPT>var _pprLibraries=['/OA_HTML/cabo/jsLibs/resources/LocaleElements_en_US_ORACLE9I2_3_6_9.js','/OA_HTML/cabo/jsLibs/ScriptEval2_3_6_9.js'];</SCRIPT>
+
+<SCRIPT>var _pprTargets=['FwkErrorBeanId','_DefaultFormName_Postscript','PreviewDateRadioGroup__xc_','PreviewDate__xc_'];</SCRIPT>
+
+<SCRIPT>document.body.style.marginLeft="0px";document.body.style.marginRight="0px";document.body.style.marginTop="0px";</SCRIPT>
+
+<SCRIPT>_partialChange('DefaultFormName')</SCRIPT>
+</BODY></HTML>

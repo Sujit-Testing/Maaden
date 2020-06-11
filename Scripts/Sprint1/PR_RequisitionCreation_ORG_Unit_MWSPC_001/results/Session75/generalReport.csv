@@ -1,0 +1,7 @@
+16745,0,PR_RequisitionCreation_ORG_Unit_MWSPC_001,10/14/2019 15:45:12 PM,0,Failed,10/14/2019 15:44:55 PM,basic.step,Sprint1,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,15697,Failed,"OpenScript is unable to connect to the browser, please check the OpenScript browser add-on.",basic.init,
+"Launch Browser: InternetExplorer 11.615.17763.0",,0,Passed,"",basic.step,
+"Close Browser",,2329,Passed,"",basic.step,
+"Finish Total (sec)",,217,Failed,"",basic.finish,
+"Failed to playback",,167,Failed,"Failed to playback: No browser launched.",ft.action,

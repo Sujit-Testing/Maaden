@@ -1,0 +1,807 @@
+<HTML lang=en-US-ORACLE9I style="VISIBILITY: visible" dir=ltr><HEAD><TITLE>Oracle Applications Home Page</TITLE>
+<META name=generator content="Oracle UIX"><LINK rel=stylesheet type=text/css href="/OA_HTML/cabo/styles/cache/swan-desktop-custom-2_3_6_9-en-ie-windows.css" charset=UTF-8>
+<SCRIPT>var _UixWindowOpenError='A popup window blocker has been detected in your browser. Popup blockers interfere with the operation of this application. Please disable your popup blocker or allow popups from this site.';</SCRIPT>
+
+<SCRIPT src="/OA_HTML/cabo/jsLibs/Common2_3_6_9.js"></SCRIPT>
+
+<SCRIPT>_defaultTZ()</SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oafcoreR121.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oafb.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/flexibleLayout.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/mainMenuTree.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/OAFSlideoutMenu.js"></SCRIPT>
+
+<SCRIPT language=javascript>function help_window() { help_win = window.open("http://riyoramgbm02.maaden.com:8050/OA_HTML/help?locale=en_US&group=FND:LIBRARY:US&topic=US/FND/@ICX_FWK_LABS_HOME_PAGE", "help_win","resizable=yes,scrollbars=yes,toolbar=yes,width=600,height=500")}</SCRIPT>
+</HEAD>
+<BODY class=xk onload=_checkLoad(event) style="CURSOR: default; MARGIN-TOP: 0px; MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px" onbeforeunload=_savePageStateIE() onunload=_checkUnload(event)><IFRAME id=_pprIFrame title="" style="POSITION: absolute; TOP: -100px; VISIBILITY: hidden" height=0 longDesc=# src="/OA_HTML/cabo/images/swan/t.htm" frameBorder=0 width=0 name=_pprIFrame></IFRAME>
+<DIV onclick="return _pprConsumeClick(event);" onkeypress="return false;" onkeyup="return false;" id=_pprBlockingDiv onkeydown="return false;" style="CURSOR: wait; HEIGHT: 0px; WIDTH: 0px; POSITION: absolute; LEFT: 0px; TOP: 0px"></DIV>
+<DIV id=_uixDownload class=x3f style="BEHAVIOR: url(#default#download)"></DIV>
+<SCRIPT>var _cachedLibs;</SCRIPT>
+
+<SCRIPT>var _pprFirstClickPass=true;</SCRIPT>
+<SPAN id=_pprPageContent>
+<FORM id=DefaultFormName style="MARGIN: 0px" method=post name=DefaultFormName action=/OA_HTML/OA.jsp?page=/oracle/apps/fnd/framework/navigate/webui/NewHomePG&amp;homePage=Y&amp;_ti=1728391516&amp;retainAM=Y&amp;addBreadCrumb=N&amp;OAMC=G&amp;oapc=5&amp;oas=lrfRnLySBK9NugIR0HcQCg..><INPUT id=_AM_TX_ID_FIELD type=hidden value=1 name=_AM_TX_ID_FIELD><INPUT id=_FORM type=hidden value=DefaultFormName name=_FORM><SPAN id=lovHFCId></SPAN><SPAN id=PageLayoutRN>
+<TABLE class=x6u style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/headerBg.jpg)" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD>
+<SCRIPT>var _tURL="\\x2FOA_HTML\\x2Fcabo\\x2Fimages\\x2Fswan\\x2Ft.gif";var _axm;t('10','10')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=10></TD></TR>
+<TR>
+<TD>
+<TABLE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD vAlign=top width="1%" noWrap><IMG border=0 alt=Maaden_logo1.jpg src="/OA_MEDIA/Maaden_logo1.jpg"></TD>
+<TD noWrap><SPAN title="E-Business Suite" style="POSITION: absolute"><SPAN class=x4i>E-Business Suite</SPAN></SPAN>
+<SCRIPT>t('0','14')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=0 height=14></TD>
+<TD></TD>
+<TD></TD></TR>
+<TR>
+<TD></TD>
+<TD style="POSITION: relative; PADDING-BOTTOM: 8px; Z-INDEX: 10" vAlign=bottom colSpan=2 align=right>
+<TABLE class=x6w cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=bottom><LINK rel=stylesheet type=text/css href="cabo/styles/OAFSlideoutMenu.css">
+<DIV id=topmenubar style="WIDTH: 210px">
+<UL>
+<P style="FONT-SIZE: 12px; FONT-FAMILY: Arial; COLOR: white"><IMG class=image src="/OA_MEDIA/favorites.gif" align=absMiddle><A id=SFAV class=Fav href="#" name=Fav rel=FavList _master="topmenubar" _pos="0" _istoplevel="true">&nbsp;Favorites<IMG class=drimage src="/OA_MEDIA/drop_arrow.gif"></A></P></UL></DIV>
+<SCRIPT type=text/javascript>if(document.getElementById('topmenubar')) { oafsm.setup("topmenubar", "topbar",escape('RF.jsp?function_id=MAINMENUREST&security_group_id=0'),'false',false); }</SCRIPT>
+
+<DIV id=SFavTop style="POSITION: absolute; DISPLAY: none"></DIV></TD>
+<TD vAlign=bottom><A class=x15 href="/OA_HTML/OA.jsp?_rc=FND_DIAGNOSTICS_PAGE&amp;_ri=0&amp;retainAM=Y&amp;LogRetUrl=%2FOA_HTML%2FOA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fnavigate%2Fwebui%2FNewHomePG%26homePage%3DY%26transactionid%3D1728391516%26retainAM%3DY%26addBreadCrumb%3DN%26OAMC%3DG%26oas%3DpAccFyyONOI-8OYtVHFa4Q..&amp;_ti=1728391516&amp;oapc=5&amp;menu=Y&amp;oas=fwbPUjrjm3glqB8cuqzA-w..">Diagnostics</A></TD>
+<TD vAlign=bottom><A class=x15 href="/OA_HTML/OALogout.jsp?menu=Y">Logout</A></TD>
+<TD vAlign=bottom><A class=x15 href="/OA_HTML/OA.jsp?page=/oracle/apps/fnd/preferences/webui/PreferencesPG&amp;retainAM=Y&amp;_ti=1728391516&amp;oapc=5&amp;menu=Y&amp;addBreadCrumb=S&amp;OAPF=Y&amp;oas=96X_jtn1bHIpH0-7TFEPVA..">Preferences</A></TD>
+<TD vAlign=bottom><A class=x15 href="javascript:top.help_window()">Help</A></TD>
+<TD vAlign=bottom><A class=x15 href="javascript:ignoreWarnAboutChanges(%22%2FOA_HTML%2FOA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ffnd%252Fframework%252Fnavigate%252Fwebui%252FNewHomePG.PageLayoutRN%26if%3DOANEWHOMEPAGE%26is%3D0%26io%3D110%26ia%3D-1%26iu%3D49547%26te%3DoaffnwNewHomePG.PageLayoutRN%26pv%3DSPS%26_ti%3D1728391516%26oapc%3D5%26menu%3DY%26oas%3DCw6-aI-OgCXq3gWrrdXueQ..%22)">Personalize Page</A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD width="100%">
+<TABLE class=x73 style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/navBarUnderTopTabsBg.gif)" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD width="100%">
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD class=x4b width="100%" colSpan=3>
+<TABLE id=AppsSearchRG cellSpacing=0 cellPadding=0 align=left border=0>
+<TBODY>
+<TR>
+<TD>
+<TABLE id=AppsSearchableGroup__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD noWrap align=right><SPAN class=xc>Enterprise Search</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top><SELECT onchange="" id=AppsSearchableGroup title="Enterprise Search" class=x8 name=AppsSearchableGroup><OPTION selected value=All>All</OPTION><OPTION value=SESG_OKC_DOC_SRH_PS>Contract Documents</OPTION><OPTION value=SESG_CTX_OKC_PS>Contracts Searchables</OPTION><OPTION value=SESG_OTA_COURSE_SRCH>Courses</OPTION><OPTION value=SESG_EGO_ITM>Products(1)</OPTION><OPTION value=SESG_NOTIFICATIONS>Workflow Notifications</OPTION></SELECT>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD>
+<TABLE id=AppsSearchText__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><INPUT onchange="" onkeypress="return _chain('if(_getKC(event)==13){submitForm(\\'DefaultFormName\\',1,{\\'AppsSearchTextEnterKey\\':\\'HIT\\'});return false;};return true;','return _submitOnEnter(event, \\'DefaultFormName\\');',this,event,true)" id=AppsSearchText title="Search Text" class=x8 size=55 name=AppsSearchText>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD><BUTTON onclick="submitForm('DefaultFormName',1,{'_FORM_SUBMIT_BUTTON':'AppsSearchGO'});return false" id=AppsSearchGO title="Click here to perform search" class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)" type=submit>Go</BUTTON></TD>
+<TD>
+<SCRIPT id=Spacer1>t('50','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=50 height=1></TD>
+<TD>
+<TABLE id=AppsSearchResultsUI__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD noWrap align=right><SPAN class=xc>Search Results Display Preference</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top><SELECT onchange="return _pprChoiceChangeEvent(event);" onclick="if(!_pprChoiceAction(event))return true;submitForm('DefaultFormName',1,{'evtSrcRowIdx':'','evtSrcRowId':'',event:'changeResultsDisplay',source:'AppsSearchResultsUI'});return false;" onblur="if(!_pprChoiceAction(event))return true;submitForm('DefaultFormName',1,{'evtSrcRowIdx':'','evtSrcRowId':'',event:'changeResultsDisplay',source:'AppsSearchResultsUI'});return false;" id=AppsSearchResultsUI class=x8 name=AppsSearchResultsUI><OPTION value=ADVANCED>Advanced</OPTION><OPTION selected value=STANDARD>Standard</OPTION></SELECT>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV class=x6t style="HEIGHT: auto">
+<TABLE class=x7v cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD></TD>
+<TD>
+<SCRIPT>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD align=right><SPAN class=x2u>Logged In As </SPAN><SPAN class=x2t>PEETHAMBARANS</SPAN></TD></TR></TBODY></TABLE>
+<TABLE id=FwkErrorBeanId cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD>
+<TABLE class=x1g cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD height=6 width=8><IMG border=0 src="/OA_HTML/cabo/images/swan/msgBoxTop-L.gif" width=8 height=6></TD>
+<TD background=/OA_HTML/cabo/images/swan/msgBoxTop-Bg.gif width="100%"></TD>
+<TD height=6 width=8><IMG border=0 src="/OA_HTML/cabo/images/swan/msgBoxTop-R.gif" width=8 height=6></TD></TR>
+<TR>
+<TD background=/OA_HTML/cabo/images/swan/msgBoxMain-L.gif></TD>
+<TD class=x7e>
+<DIV>
+<DIV class=x6a>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR vAlign=bottom>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/swan/infol.gif" width=18 height=18></TD>
+<TD>
+<SCRIPT>t(5,0)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=0></TD>
+<TD width="100%">
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD width="100%">
+<H1 class=x7d>Information</H1></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV></DIV>
+<DIV class=x47></DIV>
+<DIV class=x46>Welcome, PEETHAMBARANS! Last successful login attempt:18-AUG-2019 22:05:21 &amp; Last unsuccessful login attempt: 16-AUG-2019 21:23:33</DIV></TD>
+<TD background=/OA_HTML/cabo/images/swan/msgBoxMain-R.gif></TD></TR>
+<TR>
+<TD height=6 width=8><IMG border=0 src="/OA_HTML/cabo/images/swan/msgBoxBtm-L.gif" width=8 height=6></TD>
+<TD background=/OA_HTML/cabo/images/swan/msgBoxBtm-Bg.gif width="100%"></TD>
+<TD height=6 width=8><IMG border=0 src="/OA_HTML/cabo/images/swan/msgBoxBtm-R.gif" width=8 height=6></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV>
+<DIV class=x7x>
+<DIV>
+<DIV class=x6a>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD width="100%">
+<H1 class=x1f>Oracle Applications Home Page</H1></TD></TR></TBODY></TABLE></DIV>
+<DIV class=x79>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR vAlign=top>
+<TD><SPAN id=openNTF></SPAN></TD>
+<TD noWrap align=right></TD></TR>
+<TR>
+<TD>
+<SCRIPT>t('1','2')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=2></TD></TR></TBODY></TABLE><NOSCRIPT></NOSCRIPT>
+<DIV></DIV><IMG id=Status border=0 name=Status alt="The application is running in inaccessible mode. This can be changed from the preferences screen." src="/OA_MEDIA/fnd_t.gif">
+<DIV></DIV><!-- oracle.portal.ui.renderer.FlexibleLayoutRenderer id=mainLayout:  render start isDisclosed=true hasHeader=false userCustomizable=true -->
+<TABLE id=mainLayout width="100%">
+<TBODY>
+<TR id=mainLayout_internalRow1>
+<TD id=mainLayout_internalRow1_Col2 vAlign=top align=left>
+<DIV id=mainLayout_div style="horizontal-align: left">
+<TABLE id=mainLayout_internalTable width="100%" ?>
+<TBODY><!-- oracle.portal.ui.renderer.FlexibleRowLayoutRenderer id=mainLayout_row_0:  render start -->
+<TR id=mainLayout_row_0 hAlign="left">
+<TD id=menuLayout height=450 vAlign=top width=320 align=left>
+<TABLE id=menuLayout_internalTable1 width="100%">
+<TBODY>
+<TR id=menuLayout_internalTable1_Row1>
+<TD id=menuLayout_internalRow1_Col2 vAlign=top align=left>
+<DIV id=menuLayout_div style="OVERFLOW: auto; HEIGHT: 450px; WIDTH: 320px; horizontal-align: left"><!-- oracle.portal.ui.renderer.FlexibleContentRenderer id=menuContent:  render start  hasHeader=false hasBorder=false isDisclosed=true -->
+<TABLE id=menuContent width="100%">
+<TBODY>
+<TR id=menuContent_internalRow1>
+<TD id=menuContent_internalRow1_Col2 vAlign=top align=left>
+<DIV id=menuTable_p13n><A id=N48 title="Personalize /oracle/apps/fnd/framework/navigate/webui/NewHomePG.menuTable" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ffnd%252Fframework%252Fnavigate%252Fwebui%252FNewHomePG.menuTable%26if%3DOANEWHOMEPAGE%26is%3D0%26io%3D110%26ia%3D-1%26iu%3D49547%26te%3DoaffnwNewHomePG.menuTable%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1728391516%26oapc%3D5%26oas%3DOvWbY1aMPYyRrN2QLZs_fA..%22)">Personalize Table Layout: (menuTable)</A>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=menuTable cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR id=PersonalizeRow>
+<TD id=PersonalizeCell>
+<TABLE id=header class=x9r cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD height=10></TD></TR>
+<TR>
+<TD>
+<TABLE class=x7b style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/headingBarBg.gif)" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD width="100%">
+<H2 class=x7c>Main Menu</H2></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class=x79 height=8></TD></TR>
+<TR>
+<TD>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD>
+<DIV class=x79>
+<DIV class=x7a>
+<DIV parent="OAHeaderBean, localName='header'"><A id=N49 title="Personalize /oracle/apps/fnd/framework/navigate/webui/NewHomePG.header" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ffnd%252Fframework%252Fnavigate%252Fwebui%252FNewHomePG.header%26if%3DOANEWHOMEPAGE%26is%3D0%26io%3D110%26ia%3D-1%26iu%3D49547%26te%3DoaffnwNewHomePG.header%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1728391516%26oapc%3D5%26oas%3DwI-KWQ3fcJ3iF6aQwd4Pow..%22)">Personalize "Main Menu"</A></DIV></DIV>
+<DIV class=x7a>
+<DIV id=headerTable_p13n><A id=N50 title="Personalize /oracle/apps/fnd/framework/navigate/webui/NewHomePG.headerTable" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ffnd%252Fframework%252Fnavigate%252Fwebui%252FNewHomePG.headerTable%26if%3DOANEWHOMEPAGE%26is%3D0%26io%3D110%26ia%3D-1%26iu%3D49547%26te%3DoaffnwNewHomePG.headerTable%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1728391516%26oapc%3D5%26oas%3DVk5K5wYbgtwdG4qH8Ykrlg..%22)">Personalize Table Layout: (headerTable)</A>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=headerTable cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR id=headerRow>
+<TD id=headerCell align=right><BUTTON onclick="document.location='OA.jsp?page=/oracle/apps/fnd/framework/navigate/webui/CustomizeNavigatePG&amp;_ti=1728391516&amp;oapc=5&amp;oas=NH7MgQO0VjwYljDSRjqHJQ..'" id=persBtn title=Personalize class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Personalize</BUTTON></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV></DIV></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+<TR id=MenuRow>
+<TD id=MenuCell vAlign=top>
+<TABLE id=mainMenuRegion cellSpacing=0 cellPadding=0 width="100%" align=center border=0>
+<TBODY>
+<TR id=mainMenuRow vAlign=top>
+<TD id=mainMenuCell vAlign=top width="100%">
+<TABLE id=respList style="MARGIN-TOP: 0px; BACKGROUND-COLOR: #eaeff5" cellSpacing=0 cellPadding=0 width="100%" summary=respTable border=0>
+<TBODY>
+<TR>
+<TD>
+<UL id=treemenu1 class=treeview>
+<LI id=50228:201:-1:0 class=rootmenu><A href="#"><IMG class=image alt=Expand src="/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif">CORP PURCHASING SUPERUSER</A></LI>
+<LI id=52974:201:-1:0 class=rootmenu><A href="#"><IMG class=image alt=Expand src="/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>MIMC PURCHASING BUYER</A></LI>
+<LI id=55408:178:-1:0 class=rootmenu><A href="#"><IMG class=image alt=Expand src="/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>MWSPC IPROCUREMENT</A></LI>
+<LI id=55432:178:-1:0 class=rootmenu><A href="#"><IMG class=image alt=Expand src="/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>MWSPC IPROCUREMENT CATALOG CONTROLLER</A></LI>
+<LI id=55507:201:-1:0 class=rootmenu><A href="#"><IMG class=image alt=Expand src="/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>MWSPC PURCHASING BUYER I</A></LI>
+<LI id=55490:201:-1:0 class=rootmenu><A href="#"><IMG class=image alt=Expand src="/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>MWSPC PURCHASING PREPARER</A></LI>
+<LI id=55428:201:-1:0 class=rootmenu><A href="#"><IMG class=image alt=Collapse src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infoshown.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>MWSPC PURCHASING SUPERUSER</A>
+<UL id=undefined style="DISPLAY: block" rel="open">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1650&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=m_WUXrvB1ECTtkNBWOR90w..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Supplier Item Catalog</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1249&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=yRgb6FUiNmHDc06qpSuXMQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Item Search</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1627&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=9Jt6rAhkflpdijrJWAWYJg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>AutoCreate</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=39052&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=O5h37rNZ1TUyR7FtdzpseQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Print PO</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=44&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=9xusx61_odRn8JXewUuHhA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Personal Profiles</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=261&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=7ZnWm03hQX7QwzNbclDWRQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Change Organization</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=66&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=P4mydqOt_H0uvhabdxAL1g..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Requests</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=2781&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=0JLzTxj6qHqhmanGoo45moMcTh3EHu26l-XeLOPM1xQ&amp;oas=XuBaT7xrpUs8IEdExjs40w.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif">Notifications Summary</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=27916&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=0JLzTxj6qHqhmanGoo45moMcTh3EHu26l-XeLOPM1xQ&amp;oas=Vfz98oUX0IfH_mWAfq_5kg.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Supplier Additional View Details(MAADEN)</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=27915&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=0JLzTxj6qHqhmanGoo45moMcTh3EHu26l-XeLOPM1xQ&amp;oas=mekwIXj8IlTSV1Nx7cywkw.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Additional Supplier Info(MAADEN)</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=41135&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=JLzVe4No5RRfRv1vgy_3Pw.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Upload Receipt</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=41231&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=CsAGzV49vlG_xt8EtuNXHQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Bid Evaluation Form</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=41232&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=y9OYiJAHRkz8aVfmsjF4wg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Vendor Performance Feedback Form</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=41233&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=IkMpItf_fk-gUquclfDw_A..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Immediate Vendor Request Form</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=41234&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=1Kq8p89pyZs4srggKW69Jg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Immediate Vendor Creation Form</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=41235&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=LscIYE4WHZqPw85poQKYcQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Procurment Plan Form</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=41236&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=0JLzTxj6qHqhmanGoo45moMcTh3EHu26l-XeLOPM1xQ&amp;oas=DpCqwF5MqiYUKBXFaDA1og.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Immediate Vendor Creation Attachment Page</A></LI>
+<LI id=55428:201:68062:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Requisitions</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1647&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=6_DExzXmNti4bCuO-_QN8Q..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Requisition Summary</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1644&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=PwLrjegc7t9MTZNQ_nfF_A..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Requisitions</A></LI></UL></LI>
+<LI id=55428:201:82583:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Buyer Work Center</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=31907&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=knHVgwTO-IhnKHgSTFt5nfkTl1UoUmqFWlgigqeRcoQ&amp;oas=2nTvQt5GUHMj-OY8HWv-kw.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Requisitions</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=29108&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=knHVgwTO-IhnKHgSTFt5nfkTl1UoUmqFWlgigqeRcoQ&amp;oas=jYhnNIrHsiBg8Wkh722Zew.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Orders</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=31909&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=knHVgwTO-IhnKHgSTFt5nfkTl1UoUmqFWlgigqeRcoQ&amp;oas=LUItHkYBvFU2N1y40_Z1TA.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Agreements</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=22314&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=knHVgwTO-IhnKHgSTFt5nfkTl1UoUmqFWlgigqeRcoQ&amp;oas=-HElrytunZ3_8MG9EjOnww.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Deliverables</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=31910&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=knHVgwTO-IhnKHgSTFt5nfkTl1UoUmqFWlgigqeRcoQ&amp;oas=nh2svBSaAqWawNYwAoen9g.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Negotiations</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=28694&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=knHVgwTO-IhnKHgSTFt5nfkTl1UoUmqFWlgigqeRcoQ&amp;oas=MZnWrh5jKvGBJAb6caG3yQ.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Suppliers</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=13171&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=knHVgwTO-IhnKHgSTFt5nfkTl1UoUmqFWlgigqeRcoQ&amp;oas=6Tz_DIQHe21Z6g3AgjCfGw.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Requests</A></LI></UL></LI>
+<LI id=55428:201:68059:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Purchase Order</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1640&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=euc00QCWY5XEgXvS1n0j1A..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Purchase Order Summary</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1634&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=yzKANR6RNsv6BmrHGf0MBA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Purchase Orders</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1636&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=jju1OyMWemP61GJqkUSoxw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Releases</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=4397&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=h5pcoOeajY4jNaSmU3DqKg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Exceeded Price Tolerances</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=17011&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=DtF7IbDuTOygP8xIJUnqraVuNx8ayKppSFdLcRfiKv4&amp;oas=OxlI2QzoCH0-jP6Oj5mLhQ.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Pending Purchase Order Changes</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=3101&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=DtF7IbDuTOygP8xIJUnqraVuNx8ayKppSFdLcRfiKv4&amp;oas=nZdOeqQlAPQQQFCDKwPtsA.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>PO Change History</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=18087&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=a38zyC2zHynt3x3ujWeV9A..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Print PO</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=22314&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=DtF7IbDuTOygP8xIJUnqraVuNx8ayKppSFdLcRfiKv4&amp;oas=SozfPla3GUfA7S4gUWOLMw.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Manage Deliverables</A></LI></UL></LI>
+<LI id=55428:201:68061:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Receiving</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1671&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=cVqbZNd_f7m8x682DBbChA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Receipts</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1677&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=eMUZQSiDCPmtnj0Sko0hcg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Returns</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1678&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=Q3-8jzJNjDKL661TCWk1MA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Receiving Transactions</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1676&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=pwhPntvHp_hsUkEfwzrJQA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Corrections</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1675&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=5mDxgNq0MaEZXtVqCuW_-w..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Manage Shipments</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1672&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=Zi0pE7_oUvWJL4KPXnKlhA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Match Unordered Receipts</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1673&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=8AwCtOjEM-j8fE9g-Gv9kg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Receiving Transactions Summary</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=2047&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=rZi6JF9e1-MYH3-hhbeXfA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Transaction Status Summary</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1288&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=r0RKv4XpZ6PZbmF2aRSmpA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Update Movement Statistics</A></LI></UL></LI>
+<LI id=55428:201:68063:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>RFQ's and Quotations</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1648&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=6NSFhnPPbM0WNdQfUbLPKg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>RFQ's</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1649&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=lxMIq41wCUmXZ-EWdOfEVA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Quotations</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=2048&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=_WWUbDnM1XxuH9P-_K9Wjw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Quote Analysis</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=18086&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=a7-_LbyTJ0iH3cK4nKkFsw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Print RFQ</A></LI></UL></LI>
+<LI id=55428:201:68070:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Supply Base</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1348&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=RyLSy8Q13RTzJfX8DjEMTZWwc-4ziTm9RPi43wPWjqI&amp;oas=UjDqZPvvizm9N0LqqL5hfw.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Suppliers</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1055&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=8sraoWMoU2foGNrPMVchoQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Supplier Merge</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1642&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=fFWeiSZqZx28gBRZQXXxfQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Supplier Lists</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=2260&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=q0BaD3NHY0cdv6piA1ZQCQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Approved Supplier List</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=2263&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=gTPP_zX-8rJkCBjAw5bHew..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Summary Approved Supplier List</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=2264&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=TFOETEvx9CnGpLg31tE-KQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Supplier Statuses</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1961&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=yoCqwPHcb7-dtrKoWQYrwA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Sourcing Rules</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1967&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=DYchkkKZP7rht6usCFAF3g..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Assign Sourcing Rules</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=41233&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=IkMpItf_fk-gUquclfDw_A..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Immediate Vendor Request Form</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=41234&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=1Kq8p89pyZs4srggKW69Jg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Immediate Vendor Creation Form</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=41236&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=RyLSy8Q13RTzJfX8DjEMTZWwc-4ziTm9RPi43wPWjqI&amp;oas=gSiuUCQKe2peU5GAhHVNVA.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Immediate Vendor Creation Attachment Page</A></LI>
+<LI id=55428:201:74846:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Supplier User Management</A>
+<UL style="DISPLAY: none" rel="closed">
+<LI id=55428:201:76484:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Supplier User Creation</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=13080&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=noajs7Fgfiz3Gp.0iaqeUpHgsWv7eRyliDOEuZG0SsA&amp;oas=v-JllQ7smsgE9faOSOoDoA.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Invite Supplier User</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=13079&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=noajs7Fgfiz3Gp.0iaqeUpHgsWv7eRyliDOEuZG0SsA&amp;oas=0EMzffffRYzpn9ozMVCrRg.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Register Supplier User</A></LI></UL></LI>
+<LI id=55428:201:76486:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Supplier User Administration</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=13082&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=BaBPI0J9VxW.j38RDsegHHyVwEWtFoDXpD3UeJW0O1Q&amp;oas=htzXgktCpPfxAuLqwn_-Xw.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Approve Users and Manage User Profiles</A></LI></UL></LI></UL></LI>
+<LI id=55428:201:67818:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Manufacturers' Part Numbers</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1193&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=2C7WKFVXydQ9tSKGxsPo7g..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>By Manufacturers</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1312&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=8Td6r8RQXR8dOLCkkH-G8Q..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>By Items</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=8060&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=MQgUsnMVM7Lsoo8jEZgivw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>MPN Query-Only</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=41230&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=5tjEl3neLn6A2R26ARJWDw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Manufacturer Category</A></LI></UL></LI></UL></LI>
+<LI id=55428:201:68048:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Management</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1643&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=QjDNDSU_RuX2CvDSBqkwsA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Manage Buyer Workload</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1628&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=Yh_ksGh1uZOoEImmEkN0JA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Forward Documents</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1045&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=lK1KdJH0DkHoW81RPMyY4A..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Purge</A></LI></UL></LI>
+<LI id=55428:201:67606:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Items</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1191&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=IE26a8zj9ha6Z80h2MG0pQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Master Items</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1192&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=dRyX-PM_tmb9RzXQTbMGmw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Organization Items</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1241&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=E1aDCx6o_slqGFDjYXoFSA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Cross References</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1243&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=1kHjrYP1FW6cgmSbRC-e6w..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Item Relationships</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1247&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=IgOcNElalXzB9K8abRXsbw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Item Information</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1249&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=yRgb6FUiNmHDc06qpSuXMQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Item Search</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1556&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=SYWbtucaTOYBHKbZjlmRig..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Pending Status</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1581&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=qMRPaoCcYAXb7FWIJ76CuA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Documents</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1553&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=IJjz0lL7UaGxloTxSqzlHQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Delete Items</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=8332&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=AbDqu3P_YtXqQW6nUDFrqg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Copy Item Attributes</A></LI>
+<LI id=55428:201:67818:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Manufacturers' Part Numbers</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1193&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=2C7WKFVXydQ9tSKGxsPo7g..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>By Manufacturers</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1312&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=8Td6r8RQXR8dOLCkkH-G8Q..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>By Items</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=8060&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=MQgUsnMVM7Lsoo8jEZgivw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>MPN Query-Only</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=41230&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=5tjEl3neLn6A2R26ARJWDw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Manufacturer Category</A></LI></UL></LI>
+<LI id=55428:201:68282:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Customer Items</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=2227&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=R7B8SJo-r5_WY6hQoHQgKw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Customer Items</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=2235&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=F4VL10mZIou2me7l2vpH9w..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Customer Item Cross References</A></LI></UL></LI>
+<LI id=55428:201:71919:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Import</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1557&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=8LghhXHJ8mQeOhuHYYHWUQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Import Items</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=8331&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=8iL375va3akwNLiDs4PUAQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Import Item Category Assignments</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=29823&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=QMWdK-t3ATLxFz5ENGBF5Q..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Import Customer Items</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=29824&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=fp-oTLE8tfjpamPwxWXXKw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Import Customer Item Cross References</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=39544&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=s9etslD5PmcPSDfz-_zORQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Import Item Cross References</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=39545&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=YXBG2XBovpytlPGg4r0l-g..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Import Related Items</A></LI></UL></LI></UL></LI>
+<LI id=55428:201:68046:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Accounting</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1631&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=7jeKiHNx4NtbJUHLKN8A0Q..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>MassCancel</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1638&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=7J0LgYCrIaGGGNmkeUaM1g..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Run MassCancel</A></LI>
+<LI id=55428:201:81427:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Accrual Write Offs</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=28437&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=yV0aijXpAdK7d8-6uCRfKA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Select Accrual Accounts</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=28440&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=BeKVuGsu5nXRbYQ7ZOAfyQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>AP and PO</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=28442&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=SLS2orvvcBTpqYRwjp6NYA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Miscellaneous</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=28443&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=2m4FmFyoo6uQqHhMfN-eLg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>View Write-Offs</A></LI></UL></LI>
+<LI id=55428:201:81581:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>SLA:  User Main Menu</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=28794&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=qj15C.sCECzTYwQ86EfCXoMcTh3EHu26l-XeLOPM1xQ&amp;oas=IG_tr8F9GFIBzWv3Zq3bqA.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Accounting Events</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=28797&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=qj15C.sCECzTYwQ86EfCXoMcTh3EHu26l-XeLOPM1xQ&amp;oas=CwyRUDlWMJouh3ff3uMbQg.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Journal Entries</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=28800&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=qj15C.sCECzTYwQ86EfCXoMcTh3EHu26l-XeLOPM1xQ&amp;oas=zZIGLlfVkQ_t3FkKw-rm1Q.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Journal Entry Lines</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=28928&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=qj15C.sCECzTYwQ86EfCXoMcTh3EHu26l-XeLOPM1xQ&amp;oas=gL0l9H-d6P3zAgWCmu4G4w.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Supporting Reference Balances</A></LI></UL></LI></UL></LI>
+<LI id=55428:201:68339:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Reports</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=75&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=RDpF5VxsLiB6W33KKOCvFA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Run</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=76&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=aOAqqXofu7U0aWIIjfizoQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Set</A></LI></UL></LI>
+<LI id=55428:201:68067:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Setup</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=2008&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=DsURHTOf_t3C-lu6WepSXQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Attachments</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1272&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=rCX_-reSVR2bG75jHUVwuQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Transaction Reasons</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=7233&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=bbL399P7j_crdYiWXl7cbQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Information Templates</A></LI>
+<LI id=55428:201:68050:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Personnel</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=938&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=pYy6BgxVNFgA6lhFOdmgwg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Employees</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=9130&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=763-f4q8m0WH4f-qMYJegg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Jobs</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=311&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=pNFms5IC8ZTF1xT7kP9vDw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Positions</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=310&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=LSmamS-uUp-0lmrXlxIRoQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Position Hierarchy</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1660&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=bpo160jSZZcBQjHK01wlaJWwc-4ziTm9RPi43wPWjqI&amp;oas=3wNspKaiPgvypzCbwNdFTA.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Buyers</A></LI></UL></LI>
+<LI id=55428:201:68047:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Approvals</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1665&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=nLjUQDtppGL0Zen5OYe2uQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Approval Assignments</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1661&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=OQXEEa4eNqB3MqsqiAiIrA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Approval Groups</A></LI></UL></LI>
+<LI id=55428:201:68068:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Organizations</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=2009&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=CVU0tUIAGpR4RM0Dvwh9ibolxEz402.4Q7LpBuv2ZwQ&amp;oas=arB_AfHhEI-D1Gu2-HRn4Q.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Purchasing Options</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=2010&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=CVU0tUIAGpR4RM0Dvwh9ibolxEz402.4Q7LpBuv2ZwQ&amp;oas=C_BqucEJjh_ug8QNp8esJQ.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Receiving Options</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1047&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=9ymRVJGMXB_b3EpwjWkt1A..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Financial Options</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=309&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=mu5ealTkfQLR6Hyp4pvl8A..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Organizations</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=318&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=88kXG4rgekbTy4jCynXMWA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Locations</A></LI>
+<LI id=55428:201:81545:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Accounts Manager</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=28756&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=8lbP-NsFum.K3tJSNdQVDAvqrqa19x45mKf3QHp0UEA&amp;oas=ubWSwMVBFTds8qurtzvfXw.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Accounting Setups</A></LI></UL></LI></UL></LI>
+<LI id=55428:201:68069:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Purchasing</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=2046&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=E6WlZaLb2QAJC-wSGOGsLw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Requisition Templates</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1662&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=MQCNVn2tFv7MOxAZaNU436VuNx8ayKppSFdLcRfiKv4&amp;oas=zt80qnbtIAAdrad2NJgKTw.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Hazard Classes</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1666&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=MQCNVn2tFv7MOxAZaNU436VuNx8ayKppSFdLcRfiKv4&amp;oas=DmRFGkUVZh7mHF-fuLN-8g.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>UN Numbers</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1663&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=_Q13rvW1_r_NsJ7kG0zkZA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Lookup Codes</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=2013&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=MQCNVn2tFv7MOxAZaNU436VuNx8ayKppSFdLcRfiKv4&amp;oas=e2WqjQ0wVB0_AwFVcHnYwA.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Quality Inspection Codes</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1664&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=MQCNVn2tFv7MOxAZaNU436VuNx8ayKppSFdLcRfiKv4&amp;oas=cUU4z2cxvk57_crRiNyNAw.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Line Types</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=2011&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=MQCNVn2tFv7MOxAZaNU436VuNx8ayKppSFdLcRfiKv4&amp;oas=2ZgY71ykbRz_PPKqm9LPXA.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Document Types</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=32049&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=MQCNVn2tFv7MOxAZaNU436VuNx8ayKppSFdLcRfiKv4&amp;oas=SW3nbErIbDHAu7uLR-SR8g.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Document Styles</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1255&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=qPZDwN8vVvHB1GtmANy3Mg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Freight Carriers</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=22317&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=MQCNVn2tFv7MOxAZaNU436VuNx8ayKppSFdLcRfiKv4&amp;oas=1ZK6DTgcPdmSvhkGDr7Rmg.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Job Category Association</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=17526&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=MQCNVn2tFv7MOxAZaNU436VuNx8ayKppSFdLcRfiKv4&amp;oas=QIQ15OKQKu0-5LJeSLcyPw.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Cost Factors</A></LI></UL></LI>
+<LI id=55428:201:68066:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Financials</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1061&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=RqghL_mcWMjLfhdG1VRFjA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Payment Terms</A></LI>
+<LI id=55428:201:68065:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Currency</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=106&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=-HXl-c_1IfPWq7HDiBKLMQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Currencies</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=596&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=GIPY_DcFKymaYn4G4irBjw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Daily Rates</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=599&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=hFOrJIwcFqFPbzdMLB7aAw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Daily Conversion Rate Type</A></LI></UL></LI>
+<LI id=55428:201:68064:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Accounting</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=609&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=-ahptWBVplNhDDhIwkP1tA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Period Types</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=603&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=AycoJCnNsYuu0HzSbIo3Qw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Calendar</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=2014&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=tfkl9dBj7RftRJf.LAOGHpHgsWv7eRyliDOEuZG0SsA&amp;oas=T0dMNJxLHcKFmX1A3JVL-Q.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Control Purchasing Periods</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=593&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=Dc4T14aLxkHtdcdQSIghwA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Open and Close periods</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=568&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=iPqEweNUiAfFhKpQjM0WpA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Accounts</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=81&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=Tyl62HCfozuBBxUYgmGm0A..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>QuickCodes</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1050&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=f1Yhqs7681c4tVcRTU9RJQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Countries</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=11684&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=tfkl9dBj7RftRJf.LAOGHpHgsWv7eRyliDOEuZG0SsA&amp;oas=UQRhLDDTVg_ln0qVILRw9A.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Expense Account Rules</A></LI></UL></LI></UL></LI>
+<LI id=55428:201:67599:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Items</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1196&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=SKHKgojaN99eAq9vNfz2Pw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Templates</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1189&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=nw-PJ68dJ7rV_QJo98i--w..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Attribute Controls</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1190&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=BR4gXAF9WYBFHzE9-QQT_g..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Catalog Groups</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=2234&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=OJOmEqKEuc-6Rre8UofCCA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Customer Item Commodity Codes</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1163&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=ns2bpoAL7XSRJh5seR0TRw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Item Types</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1261&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=CAtKXvDjn01-2t0s9ImPDQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Status Codes</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=2265&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=O6oeg31P8PMb2CFwuy3atg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Container Types</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=711&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=2Jct5m0JWtniSxGuilBh-w..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Delete Constraints</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=28533&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=zmXgsj4ZdfXHe_veh9d-Sw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Delete Statements</A></LI>
+<LI id=55428:201:67600:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Categories</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1194&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=iHiNoX4EiejnYS8d28gb8g..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Category Sets</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1188&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=APe9D1kR1xjH_4fsy9NrmA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Category Codes</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1244&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=bW_fWf9SiZN1F3FfLmB2Ow..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Default Category Sets</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1253&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=QFBszjAivMfbNX2G1j7BZQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Category Accounts</A></LI></UL></LI>
+<LI id=55428:201:77229:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Commodities</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=18520&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=HFi6WOeqwWFtWVaBtImHPqVuNx8ayKppSFdLcRfiKv4&amp;oas=UMXPmZTEJ6gCXu7JtW_lBw.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Commodities</A></LI></UL></LI></UL></LI>
+<LI id=55428:201:67604:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Units of Measure</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1277&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=EgnDqtsd9RfvtsBDh7M5XQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Units of Measure</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1257&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=e7fcp2uqw8_C1csmVBwcTA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Classes</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=1264&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=m3M8dPtKzKvqyN4xYhf2eg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Conversions</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=29385&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=jtPDKyLfc6B0lzdr9pPBFA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Lot Specific Conversions</A></LI></UL></LI>
+<LI id=55428:201:68201:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Flexfields</A>
+<UL style="DISPLAY: none" rel="closed">
+<LI id=55428:201:68203:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Key</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=57&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=W5fftJ4p7nvn6f3Zj2FBQQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Segments</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=74&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=xaJy9HX3B3xwjQ0TBSlzKA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Aliases</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=63&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=xW858Keak37BpyzskSkCGA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Cross-Validation</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=54&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=P0VrznqW3B4-KHhejES_xA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Groups</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=60&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=LQVO044qO_zthE_IhY7K_g..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Values</A></LI>
+<LI id=55428:201:67919:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Security</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=173&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=RTEc1b6plxyDKA1MxmdGFA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Define</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=175&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=QhlrUPTY3MVOFc4T-zzvug..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Assign</A></LI></UL></LI></UL></LI>
+<LI id=55428:201:68202:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Descriptive</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=64&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=JQBhFc7cO4JUpLKo-x-WLg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Segments</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=59&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=a00vrS6tyFWkN5OkI2q9JA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Values</A></LI>
+<LI id=55428:201:67918:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Security</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=172&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=EqamhKHHFF5qGq9CSGpI7A..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Define</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=174&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=n2bIpvO5Wv3z6z4HYqQ2kQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Assign</A></LI></UL></LI></UL></LI>
+<LI id=55428:201:67923:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Validation</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=69&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=e5Y7gf6VSOR71gd7YK8J6Q..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Sets</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=61&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=WZwsJ8gaicgddBXckVa_CA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Values</A></LI>
+<LI id=55428:201:67870:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Security</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=99&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=RWN6Qd5_SdJjzayaavjNNg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Define</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=100&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=tDDEEPCqnWohnEjgXL5iJg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Assign</A></LI></UL></LI></UL></LI></UL></LI>
+<LI id=55428:201:70643:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Tax</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=28936&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=v7Xb70OFCodA112rM0m5v-kTl1UoUmqFWlgigqeRcoQ&amp;oas=FYNp3ZJB6vSX5GwE8H9YSw.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Tax</A></LI></UL></LI>
+<LI id=55428:201:69653:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Movement Statistics</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=4633&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=vfxf0iGq0rE4T6HhDPFByw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Economic Zones</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=4634&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=szKGbKbtYmqH8rpMPjGn1A..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Parameters</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=7926&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=STwHcDvFQSxJx6xiXXEjbQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Validation Rules</A></LI></UL></LI>
+<LI id=55428:201:71920:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Credit Cards</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=3369&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=-GuwJa3ox2c7yjVQO6Lc2w..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Credit Card Code Sets</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=3372&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=iqmzqOKCE8bD_oBHIFZkEA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Credit Card Programs</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=3373&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=dGAbLVO4LFBBnsnFSKV5Gg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Credit Card GL Accounts</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=3370&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=DDgizFqk5YkGcm2zBMH3xw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Credit Card Profiles</A></LI></UL></LI>
+<LI id=55428:201:78187:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Profile Management Configuration</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=22319&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=B1XRfFg.xz7qV9kLeKzRsv4RoDJL31tM.ZBG.KPWxeM&amp;oas=K5ggFyYwsCslbtS_zR77Tg.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Products and Services Setup</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=22322&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=B1XRfFg.xz7qV9kLeKzRsv4RoDJL31tM.ZBG.KPWxeM&amp;oas=MPhHRlWfMPH6ap8nkgsTxA.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Organization Encryption</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=32185&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=B1XRfFg.xz7qV9kLeKzRsv4RoDJL31tM.ZBG.KPWxeM&amp;oas=hZJi-SuRMGP3Pl4hwYaXIQ.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Supplier Onboarding Configuration</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=32187&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=B1XRfFg.xz7qV9kLeKzRsv4RoDJL31tM.ZBG.KPWxeM&amp;oas=oSOuWhwgfDqR_7MwKoRX9w.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Setup Notification Subscription</A></LI></UL></LI>
+<LI id=55428:201:78188:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Advanced Pricing Admin</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=6095&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=bF1TztTaO3LLeXPg4DfMYA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Event Phases</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=22323&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=LupoqCQkB2AXHEBSKUos-Q..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Reports</A></LI>
+<LI id=55428:201:75549:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Attribute Management</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=14465&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=7PggJKDu-b6E6GRQpMUPcw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Pricing Transaction Entity Associations</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=14466&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=wAuW0WwTBpLCfsg5ctRcQQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Context and Attributes</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=14467&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=YJ72mMIQWAuG3qYI6NPg-Q..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Attribute Linking and Mapping</A></LI></UL></LI></UL></LI>
+<LI id=55428:201:82654:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Tolerances and Routings</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=32196&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=Oem0AJzt.88uBDVGXyxMPJHgsWv7eRyliDOEuZG0SsA&amp;oas=idrB2A23L0ij8PJGb4rW5w.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Change Order</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=32198&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=Oem0AJzt.88uBDVGXyxMPJHgsWv7eRyliDOEuZG0SsA&amp;oas=0pYgukxK_Bz0w58Fq1d0mA.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Requester Change Order</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=32200&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=Oem0AJzt.88uBDVGXyxMPJHgsWv7eRyliDOEuZG0SsA&amp;oas=KKoltVAnJLnU07Q9y5LCgA.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Supplier Change Order</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=32202&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=Oem0AJzt.88uBDVGXyxMPJHgsWv7eRyliDOEuZG0SsA&amp;oas=4a6g7AvNYF3WNLozGDVBrg.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Acceptance of Agreement Changes</A></LI></UL></LI>
+<LI id=55428:201:81631:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Subledger Accounting Setups</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=28944&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=sq6Lghf7VQySU7XoibyRcQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Subledger Applications</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=28993&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=xIzLza4UkhVbxVDELArPyw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Post-Accounting Programs</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=29034&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=.hKeZjuMlEgGP3hjy.taDYMcTh3EHu26l-XeLOPM1xQ&amp;oas=qCHGwnYNcgMwvZENxtjXjw.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Open Account Balances Listing Definitions</A></LI>
+<LI id=55428:201:81615:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Accounting Methods Builder</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=28990&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=gcgq7W35XA7nJw0_4niJDw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Accounting Definitions Inquiry</A></LI>
+<LI id=55428:201:81592:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Events</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=28945&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=jQQz-CN5D2CBKx62y2oeag..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Event Model</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=28946&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=y7-h6r33XSAYj_oaFSHbpw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Process Categories</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=28947&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=-IWgkY7I_rYE5sosQNOn2A..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Accounting Event Class Options</A></LI></UL></LI>
+<LI id=55428:201:81593:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Sources</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=28952&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=Ooz0sRxbN_D80yxlPW50JQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Sources</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=28953&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=SXHGWfAg6bo4YO-OUvwSQQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Source Assignments</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=28954&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=6wxYKXlac0G3CKECP6eA2g..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Accounting Attribute Assignments</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=28955&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=kFYtqSOvpwFtgMaqmp6AyQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Custom Sources</A></LI></UL></LI>
+<LI id=55428:201:81602:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Journal Entry Setups</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=28956&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=zm9m2PGLFsO_5mXnYul2Ww..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Journal Line Types</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=28958&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=bb7yzJt21rfACq44ODpalA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Journal Entry Descriptions</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=28959&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=EzeHVbC8pc-3-Sy9wqo36Q..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Mapping Sets</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=28961&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=bxxMucJOwi2YJHI3_lhtsA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Account Derivation Rules</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=28963&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=fbjf45vnvCbMx1kTp7TL8GPpc2jIG2yzK4Ehu-cyuJk&amp;oas=kyW9dTHxdOj2klk-qQgPHw.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Supporting References</A></LI></UL></LI>
+<LI id=55428:201:81609:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Methods and Definitions</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=28979&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=zufISlcETKRIpyArxvzx6A..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Journal Lines Definitions</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=28981&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=WYsOHePSoaqas0FR39BCxQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Application Accounting Definitions</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=28759&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=Qu2vzEA0FxzAUBcN7_F3PQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Subledger Accounting Methods</A></LI></UL></LI>
+<LI id=55428:201:81613:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Application Accounting Definition Loader</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=28988&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=LdMLheO7022LYJaGyUitTvkTl1UoUmqFWlgigqeRcoQ&amp;oas=oOXaR8ICU6uHfELbfhyb4Q.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>History</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=28989&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=LdMLheO7022LYJaGyUitTvkTl1UoUmqFWlgigqeRcoQ&amp;oas=PigvlbEQetXwarRBFGv4Og.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Merge Analysis</A></LI></UL></LI></UL></LI>
+<LI id=55428:201:81618:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Transaction Account Builder</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=28994&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=30rgVN15gKAuAdeAwcQb-LolxEz402.4Q7LpBuv2ZwQ&amp;oas=VtZzOB_j8El3_SP84TLL8g.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Transaction Account Types</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=28996&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=30rgVN15gKAuAdeAwcQb-LolxEz402.4Q7LpBuv2ZwQ&amp;oas=aOARds88MaHCvo7a0Ncs6Q.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Transaction Account Definitions</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=29022&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=30rgVN15gKAuAdeAwcQb-LolxEz402.4Q7LpBuv2ZwQ&amp;oas=0FSsmc1EguHDROgRxN4KYQ.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Test Transaction Account Builder</A></LI></UL></LI>
+<LI id=55428:201:81871:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Transaction Accounting Builder Setup</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=28944&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=sq6Lghf7VQySU7XoibyRcQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Subledger Application</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=28959&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=EzeHVbC8pc-3-Sy9wqo36Q..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Mapping Sets</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=28961&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=bxxMucJOwi2YJHI3_lhtsA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Account Derivation Rules</A></LI>
+<LI id=55428:201:81618:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Transaction Account Builder</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=28994&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=30rgVN15gKAuAdeAwcQb-LolxEz402.4Q7LpBuv2ZwQ&amp;oas=VtZzOB_j8El3_SP84TLL8g.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Transaction Account Types</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=28996&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=30rgVN15gKAuAdeAwcQb-LolxEz402.4Q7LpBuv2ZwQ&amp;oas=aOARds88MaHCvo7a0Ncs6Q.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Transaction Account Definitions</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=29022&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=30rgVN15gKAuAdeAwcQb-LolxEz402.4Q7LpBuv2ZwQ&amp;oas=0FSsmc1EguHDROgRxN4KYQ.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Test Transaction Account Builder</A></LI></UL></LI>
+<LI id=55428:201:81868:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Sources Setup</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=28952&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=Ooz0sRxbN_D80yxlPW50JQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Sources</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=28955&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=kFYtqSOvpwFtgMaqmp6AyQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Custom Sources</A></LI></UL></LI></UL></LI></UL></LI>
+<LI id=55428:201:78029:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Contract Terms</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=21631&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=VelgC06gRI0aBxzjYwx6Y6VuNx8ayKppSFdLcRfiKv4&amp;oas=Is8axIOkoxyo1dMbmDNqQw.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Contract Templates</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=21636&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=VelgC06gRI0aBxzjYwx6Y6VuNx8ayKppSFdLcRfiKv4&amp;oas=qsnIJgy02E7lYmDOk20Hmg.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Clauses</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=21720&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=VelgC06gRI0aBxzjYwx6Y6VuNx8ayKppSFdLcRfiKv4&amp;oas=78Mf-0Btb6gbd4lRBfgIUA.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Variables</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=21669&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=VelgC06gRI0aBxzjYwx6Y6VuNx8ayKppSFdLcRfiKv4&amp;oas=iJadeGAM3fH4JbS2UXkoCw.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Folders</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=21708&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=VelgC06gRI0aBxzjYwx6Y6VuNx8ayKppSFdLcRfiKv4&amp;oas=tBZ00c0dBAWqFnbiT90Myg.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Sections</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=21709&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=VelgC06gRI0aBxzjYwx6Y6VuNx8ayKppSFdLcRfiKv4&amp;oas=f6mlknaKPwoixc8LE1xiew.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Numbering Schemes</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=39561&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=VelgC06gRI0aBxzjYwx6Y6VuNx8ayKppSFdLcRfiKv4&amp;oas=p3gvZ9wgmz3IZf_4ZyU93g.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Attribute Group</A></LI></UL></LI>
+<LI id=55428:201:78700:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Contract Expert</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=23881&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=uvUK4oN6N5J22uD2k2HKEJWwc-4ziTm9RPi43wPWjqI&amp;oas=ft5fVhHcDGh6AqrT0EJOqQ.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Rules</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=23893&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=uvUK4oN6N5J22uD2k2HKEJWwc-4ziTm9RPi43wPWjqI&amp;oas=weEdbl-1rGphyxpkniUi9g.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Questions</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=23896&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=uvUK4oN6N5J22uD2k2HKEJWwc-4ziTm9RPi43wPWjqI&amp;oas=VVLO3RRZHrletVdTvmVUrA.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Constants</A></LI></UL></LI></UL></LI>
+<LI id=55428:201:70279:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Workflow User</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=8227&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=bOB9fk7L2AW0qpFpwcA0p6VuNx8ayKppSFdLcRfiKv4&amp;oas=_ASHM74isM12nDiCphYxkQ.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Advanced Worklist</A></LI>
+<LI id=55428:201:76144:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Self Service Workflow</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=11305&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=dHWEMLMCp.TP1WJ4UiDiw5HgsWv7eRyliDOEuZG0SsA&amp;oas=eK99uVa0IYWU6cJzPnG3Lg.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Home</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=11306&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=dHWEMLMCp.TP1WJ4UiDiw5HgsWv7eRyliDOEuZG0SsA&amp;oas=4Xhd6bLgunAJnOuJcmORQg.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Status Monitor</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=11310&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=dHWEMLMCp.TP1WJ4UiDiw5HgsWv7eRyliDOEuZG0SsA&amp;oas=rAKWl_x1ow93TFKGulQfvA.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Notifications</A></LI></UL></LI></UL></LI>
+<LI id=55428:201:78236:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Advanced Pricing</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=6029&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=c9IUt7W32xIoHP1MVi30Qg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Qualifier Setup</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=14468&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=WwkxvWWJtignjc-hY-0_BA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Pricing Engine Request Viewer</A></LI>
+<LI id=55428:201:78234:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Price Lists</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=6087&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=6Pxc7EHduq8T6BRTLMeX2g..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Price List Setup</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=5529&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=MZZv55TsbaebTnh3GrJHpA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Copy Price List</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=5530&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=GsAKvtiOPg-ce4qEwh1Rsg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Adjust Price List</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=5532&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=ERPtahfRONk_NuEFPR243A..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Add Items to Price List</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=12426&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=S78I3Nc8CSy7tO1iFoCVTQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Multi-Currency Conversion Setup</A></LI></UL></LI>
+<LI id=55428:201:70950:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Pricing Formulas</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=6027&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=BLpOzX04iSeA3QcTLSRdbA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Formulas Setup</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=5537&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=P3U5WHRW3Zeoj832YirkQA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Update Formula Prices</A></LI></UL></LI>
+<LI id=55428:201:78235:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Modifiers</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=6028&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=zA4w6rDRlsCsJEY6auhQGQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Modifier Setup</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=9160&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=9L5LtBZjdqBLzW6EAARh6Q..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Copy Modifiers</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=12383&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;oas=cQ4co0KhkvGhCZFyIGh8yQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif" width=16 height=16>Pricing Organizer</A></LI></UL></LI></UL></LI>
+<LI id=55428:201:86931:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riyoramgbm02.maaden.com:8050/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>View Purchasing Documents</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=39528&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=toSEYMmwI7T-nocgm3BhVoMcTh3EHu26l-XeLOPM1xQ&amp;oas=vYVdAYwQKP5Tiw5LP4JYWw.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Orders</A></LI>
+<LI id=undefined><A href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=39529&amp;resp_id=55428&amp;resp_appl_id=201&amp;security_group_id=0&amp;lang_code=US&amp;params=toSEYMmwI7T-nocgm3BhVoMcTh3EHu26l-XeLOPM1xQ&amp;oas=7KlwuUindRmZsNiBFve-Gg.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif" width=16 height=16>Agreements</A></LI></UL></LI></UL></LI>
+<LI id=55627:800:-1:0 class=rootmenu><A href="#"><IMG class=image alt=Expand src="/OA_MEDIA/hideshow_infohidden.gif" width=16 height=16><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>MWSPC-Employee Self Service</A></LI></UL></TD></TR></TBODY></TABLE><LINK rel=stylesheet type=text/css href="cabo/styles/mainMenuTree.css">
+<SCRIPT type=text/javascript>McreateTree("treemenu1", escape('RF.jsp?function_id=MAINMENUREST&security_group_id=0'), true)</SCRIPT>
+</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV></TD></TR></TBODY></TABLE><!-- oracle.portal.ui.renderer.FlexibleContentRenderer id=menuContent:  render end --></DIV></TD></TR></TBODY></TABLE></TD><!-- oracle.portal.ui.renderer.FlexibleCellLayoutRenderer id=menuLayout:  render End -->
+<TD id=favNtfLayout vAlign=top align=left>
+<TABLE id=favNtfLayout_internalTable1 width="100%">
+<TBODY>
+<TR id=favNtfLayout_internalTable1_Row1>
+<TD id=favNtfLayout_internalRow1_Col2 vAlign=top align=left>
+<DIV id=favNtfLayout_div style="horizontal-align: left">
+<TABLE id=favNtfLayout_internalTable20 width="100%">
+<TBODY><!-- oracle.portal.ui.renderer.FlexibleRowLayoutRenderer id=favNtfLayout_row_0:  render start -->
+<TR id=favNtfLayout_row_0 hAlign="left">
+<TD id=NtfLayout vAlign=top width="100%" align=left>
+<TABLE id=NtfLayout_internalTable1 width="100%">
+<TBODY>
+<TR id=NtfLayout_internalTable1_Row1>
+<TD id=NtfLayout_internalRow1_Col2 vAlign=top align=left>
+<DIV id=NtfLayout_div style="horizontal-align: left"><!-- oracle.portal.ui.renderer.FlexibleContentRenderer id=NtfContent:  render start  hasHeader=false hasBorder=false isDisclosed=true -->
+<TABLE id=NtfContent width="100%">
+<TBODY>
+<TR id=NtfContent_internalRow1>
+<TD id=NtfContent_internalRow1_Col2 vAlign=top align=left>
+<TABLE id=worklistRow cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD id=worklistCell vAlign=top align=left>
+<DIV id=NotificationRN_p13n><A id=N51 title="Personalize /oracle/apps/fnd/framework/navigate/webui/NewHomePG.NotificationRN" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ffnd%252Fframework%252Fnavigate%252Fwebui%252FNewHomePG.NotificationRN%26if%3DOANEWHOMEPAGE%26is%3D0%26io%3D110%26ia%3D-1%26iu%3D49547%26te%3DoaffnwNewHomePG.NotificationRN%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1728391516%26oapc%3D5%26oas%3DLjYAq4cHaBRYSEW1oEj5qw..%22)">Personalize "Worklist"</A>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=NotificationRN cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD height=10></TD></TR>
+<TR>
+<TD>
+<TABLE class=x7b style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/headingBarBg.gif)" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD width="100%">
+<H2 class=x7c>Worklist</H2></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class=x79 height=8></TD></TR>
+<TR>
+<TD>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD>
+<DIV class=x79>
+<DIV><SPAN id=Notifications>
+<DIV parent="OAStackLayoutBean, localName='stackLayout'"><A id=N52 title="Personalize /oracle/apps/fnd/wf/worklist/webui/AdvancWorklistRG" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ffnd%252Fwf%252Fworklist%252Fwebui%252FAdvancWorklistRG%26if%3DOANEWHOMEPAGE%26is%3D0%26io%3D110%26ia%3D-1%26iu%3D49547%26te%3DoafwwwAdvancWorklistRG%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1728391516%26oapc%3D5%26oas%3DwYmaam3P9aZub4gMi4XcGQ..%22)">Personalize "Notifications Worklist Function"</A></DIV>
+<DIV></DIV>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD></TD>
+<TD align=right><BUTTON onclick="document.location='OA.jsp?page=/oracle/apps/fnd/wf/worklist/webui/AdvancWorklistPG&amp;addBreadCrumb=Y&amp;ebizHomeList=Y&amp;_ti=1728391516&amp;oapc=5&amp;oas=lbPYzPjR2jwRpVUl0qsm-Q..'" id=NtfFullList title="Show the complete notification worklist" class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Full List</BUTTON></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV id=NtfWorklist_p13n><A id=N53 title="Personalize /oracle/apps/fnd/wf/worklist/webui/AdvancWorklistRG.NtfWorklist" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ffnd%252Fwf%252Fworklist%252Fwebui%252FAdvancWorklistRG.NtfWorklist%26if%3DOANEWHOMEPAGE%26is%3D0%26io%3D110%26ia%3D-1%26iu%3D49547%26te%3DoafwwwAdvancWorklistRG.NtfWorklist%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1728391516%26oapc%3D5%26oas%3DXkcQT-3lj40Zivmcy4LJiQ..%22)">Personalize "Notification List"</A>
+<DIV></DIV>
+<DIV></DIV><SPAN id=NtfWorklist title="Notification List">
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY></TBODY></TABLE>
+<TABLE class=x1o cellSpacing=0 cellPadding=1 width="100%" border=0>
+<TBODY>
+<TR>
+<TH class=x1y scope=col><SPAN id=OASH__1159 class=x2a>From
+<SCRIPT>function _tableSortSubmit(formName,validate,sortEvent,table,val,stat,ptgt) {var submitFunc = (ptgt == (void 0)) ? submitForm : _submitPartialChange;submitFunc(formName,validate,{event:sortEvent,source:table,value:val,state:stat,partialTargets:ptgt });}</SCRIPT>
+</SPAN></TH>
+<TH class="x1y x4t" scope=col><SPAN id=OASH__1160 class=x2a>Subject</SPAN></TH>
+<TH class="x1y x4t" scope=col><SPAN id=OASH__1161 class=x2a>Sent</SPAN></TH>
+<TH class="x1y x4t" scope=col><SPAN id=OASH__1162 class=x2a>Due</SPAN></TH></TR>
+<TR>
+<TD class="x1s x57">There are no notifications in this view.</TD>
+<TD class="x1s x57"><BR></TD>
+<TD class="x1s x57" noWrap><BR></TD>
+<TD class="x1s x57" noWrap><BR></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY></TBODY></TABLE></SPAN><SPAN id=NtfWorklist-hv></SPAN>
+<DIV></DIV>
+<DIV></DIV></DIV>
+<DIV></DIV>
+<TABLE id=vacationRulesTip cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD vAlign=top><IMG src="/OA_HTML/cabo/images/swan/tip.gif" width=15 height=13></TD>
+<TD class=x5f vAlign=top noWrap>TIP&nbsp;</TD>
+<TD class=x5g vAlign=top width="100%"><A class=OraLinkText href="OA.jsp?page=/oracle/apps/fnd/wf/worklist/webui/RouteRulePG&amp;OAFunc=FND_WFNTF_ROUTE_RULE&amp;addBreadCrumb=Y&amp;_ti=1728391516&amp;oapc=5&amp;oas=W59yO09gkg-JH6xFcMViJQ..">Vacation Rules</A> - Redirect or auto-respond to notifications.</TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE id=worklistAccessTip cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD vAlign=top><IMG src="/OA_HTML/cabo/images/swan/tip.gif" width=15 height=13></TD>
+<TD class=x5f vAlign=top noWrap>TIP&nbsp;</TD>
+<TD class=x5g vAlign=top width="100%"><A class=OraLinkText href="OA.jsp?page=/oracle/apps/fnd/wf/worklist/webui/WorklistAccessPG&amp;OAFunc=WF_WORKLIST_ACCESS&amp;addBreadCrumb=Y&amp;_ti=1728391516&amp;oapc=5&amp;oas=LzzKFH4-2l7ABo_OJopvRA..">Worklist Access</A> - Specify which users can view and act upon your notifications.</TD></TR></TBODY></TABLE></SPAN>
+<DIV></DIV>
+<TABLE cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD width="5%">
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top>
+<TABLE cellSpacing=0 cellPadding=0 border=0>
+<TBODY></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><!-- oracle.portal.ui.renderer.FlexibleContentRenderer id=NtfContent:  render end --></DIV></TD></TR></TBODY></TABLE></TD><!-- oracle.portal.ui.renderer.FlexibleCellLayoutRenderer id=NtfLayout:  render End --></TR><!-- oracle.portal.ui.renderer.FlexibleRowLayoutRenderer id=favNtfLayout_row_0:  render end --></TBODY></TABLE>
+<TABLE id=favNtfLayout_internalTable21 width="100%">
+<TBODY><!-- oracle.portal.ui.renderer.FlexibleRowLayoutRenderer id=favNtfLayout_row_1:  render start -->
+<TR id=favNtfLayout_row_1 hAlign="left">
+<TD id=favLayout vAlign=top width="60%" align=left>
+<TABLE id=favLayout_internalTable1 width="100%">
+<TBODY>
+<TR id=favLayout_internalTable1_Row1>
+<TD id=favLayout_internalRow1_Col2 vAlign=top align=left>
+<DIV id=favLayout_div style="horizontal-align: left"></DIV></TD></TR></TBODY></TABLE></TD><!-- oracle.portal.ui.renderer.FlexibleCellLayoutRenderer id=favLayout:  render End --></TR><!-- oracle.portal.ui.renderer.FlexibleRowLayoutRenderer id=favNtfLayout_row_1:  render end --></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE></TD><!-- oracle.portal.ui.renderer.FlexibleCellLayoutRenderer id=favNtfLayout:  render End --></TR><!-- oracle.portal.ui.renderer.FlexibleRowLayoutRenderer id=mainLayout_row_0:  render end --></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE><!-- oracle.portal.ui.renderer.FlexibleLayoutRenderer id=mainLayout:  render End -->
+<DIV></DIV><INPUT id=_fwkAbsolutePageName type=hidden value=/oracle/apps/fnd/framework/navigate/webui/NewHomePG::: name=_fwkAbsolutePageName></DIV></DIV>
+<DIV>
+<DIV>
+<SCRIPT>t(1,9)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=9></DIV>
+<DIV>
+<SCRIPT>t(1,10)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=10></DIV></DIV></DIV>
+<DIV></DIV>
+<DIV></DIV>
+<DIV></DIV></DIV>
+<TABLE class=x70 style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/footerBg.gif)" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD noWrap align=center>
+<TABLE cellSpacing=0 cellPadding=0 align=center border=0>
+<TBODY>
+<TR>
+<TD align=center><A class=x15 href="/OA_HTML/OA.jsp?_rc=FND_DIAGNOSTICS_PAGE&amp;_ri=0&amp;retainAM=Y&amp;LogRetUrl=%2FOA_HTML%2FOA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fnavigate%2Fwebui%2FNewHomePG%26homePage%3DY%26transactionid%3D1728391516%26retainAM%3DY%26addBreadCrumb%3DN%26OAMC%3DG%26oas%3DpAccFyyONOI-8OYtVHFa4Q..&amp;_ti=1728391516&amp;oapc=5&amp;menu=Y&amp;oas=fwbPUjrjm3glqB8cuqzA-w..">Diagnostics</A></TD>
+<TD align=center><A class=x15 href="/OA_HTML/OALogout.jsp?menu=Y">Logout</A></TD>
+<TD align=center><A class=x15 href="/OA_HTML/OA.jsp?page=/oracle/apps/fnd/preferences/webui/PreferencesPG&amp;retainAM=Y&amp;_ti=1728391516&amp;oapc=5&amp;menu=Y&amp;addBreadCrumb=S&amp;OAPF=Y&amp;oas=96X_jtn1bHIpH0-7TFEPVA..">Preferences</A></TD>
+<TD align=center><A class=x15 href="javascript:top.help_window()">Help</A></TD>
+<TD align=center><A class=x15 href="javascript:ignoreWarnAboutChanges(%22%2FOA_HTML%2FOA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ffnd%252Fframework%252Fnavigate%252Fwebui%252FNewHomePG.PageLayoutRN%26if%3DOANEWHOMEPAGE%26is%3D0%26io%3D110%26ia%3D-1%26iu%3D49547%26te%3DoaffnwNewHomePG.PageLayoutRN%26pv%3DSPS%26_ti%3D1728391516%26oapc%3D5%26menu%3DY%26oas%3DCw6-aI-OgCXq3gWrrdXueQ..%22)">Personalize Page</A></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD>
+<TABLE cellSpacing=2 cellPadding=2 width="100%" border=0>
+<TBODY>
+<TR>
+<TD class=x14 noWrap align=left><A onclick="submitForm('DefaultFormName',0,{'serverValidate':'1',event:'about'});return false;" href="#">About this Page</A></TD>
+<TD>
+<SCRIPT>t('10','10')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=10></TD>
+<TD class=x13 noWrap align=left><A title="Privacy Statement" href="http://personalize.this.link" target=_blank>Privacy Statement</A></TD>
+<TD class=x12 width="100%" noWrap align=right><SPAN id=N33>Copyright (c) 2006, Oracle. All rights reserved.</SPAN></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></SPAN><INPUT id=N40$$unvalidated type=hidden value=false name=N40$$unvalidated><INPUT id=N40$$serverUnvalidated type=hidden value=false name=N40$$serverUnvalidated><INPUT id=AppsSearchGO$$unvalidated type=hidden value=false name=AppsSearchGO$$unvalidated><INPUT id=AppsSearchGO$$serverUnvalidated type=hidden value=false name=AppsSearchGO$$serverUnvalidated><INPUT id=AppsSearchGO$$processFormDataCalled type=hidden value=true name=AppsSearchGO$$processFormDataCalled><INPUT id=_fwkActBtnName_AppsSearchResultsUI_changeResultsDisplay$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_AppsSearchResultsUI_changeResultsDisplay$$serverUnvalidated><SPAN id=_DefaultFormName_Postscript><INPUT type=hidden name=_FORMEVENT><INPUT type=hidden name=serverValidate><INPUT type=hidden name=evtSrcRowIdx><INPUT type=hidden name=evtSrcRowId><INPUT type=hidden name=_FORM_SUBMIT_BUTTON><INPUT type=hidden name=event><INPUT type=hidden name=source><INPUT type=hidden name=value><INPUT type=hidden name=state><INPUT type=hidden name=partialTargets><INPUT type=hidden name=partial><INPUT type=hidden name=AppsSearchTextEnterKey>
+<SCRIPT>var _resetDefaultFormNameNames=["_FORMEVENT","serverValidate","evtSrcRowIdx","evtSrcRowId","_FORM_SUBMIT_BUTTON","event","source","value","state","partialTargets","partial","AppsSearchTextEnterKey"];</SCRIPT>
+
+<SCRIPT>function _DefaultFormNameValidater(form){return true;}function _submitOnEnter(e,frm){if(_getKC(e)==13){submitForm(frm,1);return false;}}</SCRIPT>
+</SPAN>
+<SCRIPT>_submitFormCheck();</SCRIPT>
+</FORM><IFRAME title="Forms Launcher" height=5 src="http://riyoramgbm02.maaden.com:8050/OA_HTML/blank.html" frameBorder=no width=5 name=formsLauncher scrolling=no></IFRAME></SPAN><INPUT disabled id=_pprSaveLib type=hidden><INPUT disabled id=_pprSaveScript type=hidden><INPUT disabled id=_pprSavePage type=hidden>
+<SCRIPT>var _uixDoneMessage="Done."</SCRIPT>
+
+<SCRIPT>document.body.style.marginLeft="0px";document.body.style.marginRight="0px";document.body.style.marginTop="0px";</SCRIPT>
+<!-- Created by Oracle UIX , Accessibility:disabled, laf:swan.desktop (swan) --> 
+<UL id=FavList class=submenustyle _master="topmenubar" _pos="0"></UL></BODY></HTML>

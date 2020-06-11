@@ -1,0 +1,6 @@
+11007,0,PO_ExpressReceive_011,8/28/2019 16:20:32 PM,0,Failed,8/28/2019 16:20:20 PM,basic.step,Scripts,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,10637,Failed,"OpenScript is unable to connect to the browser, please check the OpenScript browser add-on.",basic.init,
+"Launch Browser: InternetExplorer 11.615.17763.0",,0,Passed,"",basic.step,
+"Close Browser",,2231,Passed,"",basic.step,
+"Finish Total (sec)",,85,Passed,"",basic.finish,

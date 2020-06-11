@@ -1,0 +1,139 @@
+<HTML lang=en-US-ORACLE9I style="VISIBILITY: visible" dir=ltr><HEAD><TITLE>Oracle iProcurement: Checkout</TITLE>
+<META name=generator content="Oracle UIX"><LINK rel=stylesheet type=text/css href="/OA_HTML/cabo/styles/cache/swan-desktop-custom-2_3_6_9-en-ie-windows.css" charset=UTF-8>
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oafcoreR121.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/lookAheadLOV.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/attachmentPopup.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oafb.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/OAFSlideoutMenu.js"></SCRIPT>
+
+<SCRIPT language=javascript>function clearFlexChildren(){}</SCRIPT>
+
+<SCRIPT language=javascript>function help_window() { help_win = window.open("http://riyoramgbm02.maaden.com:8050/OA_HTML/help?locale=en_US&group=FND:LIBRARY:US&topic=US/ICX/@check_out", "help_win","resizable=yes,scrollbars=yes,toolbar=yes,width=600,height=500")}</SCRIPT>
+</HEAD>
+<BODY style="MARGIN-TOP: 0px; MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px" onunload=_partialUnload()>
+<SCRIPT src="/OA_HTML/cabo/jsLibs/Common2_3_6_9.js"></SCRIPT>
+
+<SCRIPT>var _navEvent = 'navigate';function _onNavigate(formName,uri){return confirm("The changes you made to this page have not been saved.  If you continue, the changes will be discarded.  Do you wish to continue?")};parent._navDirty=1;</SCRIPT>
+
+<FORM id=DefaultFormName style="MARGIN: 0px" method=post name=DefaultFormName action=/OA_HTML/OA.jsp?page=/oracle/apps/icx/por/req/webui/ReviewSubmitPG&amp;_ti=1921101337&amp;retainAM=Y&amp;addBreadCrumb=N&amp;oapc=65&amp;oas=7bZXRJh1D6sLPJixsOq3Fw..>
+<TABLE id=FwkErrorBeanId cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE>
+<DIV>
+<TABLE id=ReqHeaderAttach cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD height=7></TD></TR>
+<TR>
+<TD>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD width="100%">
+<H3 class=x44>Requisition Attachments</H3></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class=x79 height=8></TD></TR>
+<TR>
+<TD>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD>
+<DIV class=x79>
+<DIV>
+<DIV id=FND_ATTACH_TABLE_CONTAINER_p13n><A id=N112 title="Personalize /oracle/apps/fnd/framework/attachments/webui/FND_ATTACH_TABLE_CONTAINER" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ffnd%252Fframework%252Fattachments%252Fwebui%252FFND_ATTACH_TABLE_CONTAINER%26is%3D0%26io%3D4750%26ir%3D55408%26ia%3D178%26iu%3D49547%26te%3DoaffawFND_ATTACH_TABLE_CONTAINER%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1921101337%26oapc%3D65%26oas%3Dz_dX_ERf17KJuVCxj0P1aA..%22)">Personalize "Attachments"</A>
+<DIV></DIV>
+<DIV></DIV><SPAN id=FND_ATTACH_TABLE_CONTAINER><SPAN id=Attachments>
+<TABLE id=FND_ATTACH_TABLELAYOUT cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR id=AttachmentTableRowLayout2>
+<TD id=FND_ATTACH_CELLFORMAT1 height=1 vAlign=top width="100%" align=left>
+<DIV id=AttachmentTable_ATTACH_/oracle/apps/icx/por/approval/webui/ReqApprListPG.attachmentTable_p13n><A id=N115 title="Personalize /oracle/apps/fnd/framework/attachments/webui/FND_ATTACHMENTS_TABLE" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ffnd%252Fframework%252Fattachments%252Fwebui%252FFND_ATTACHMENTS_TABLE%26is%3D0%26io%3D4750%26ir%3D55408%26ia%3D178%26iu%3D49547%26te%3DoaffawFND_ATTACHMENTS_TABLE%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1921101337%26oapc%3D65%26oas%3DblQjUzY49GaVyn839e8LAQ..%22)">Personalize "Attachments of associated record"</A>
+<DIV></DIV>
+<DIV></DIV><SPAN id=AttachmentTable_ATTACH_/oracle/apps/icx/por/approval/webui/ReqApprListPG.attachmentTable title="Attachments of associated record">
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY></TBODY></TABLE>
+<TABLE class=x1o cellSpacing=0 cellPadding=1 width="100%" border=0>
+<TBODY>
+<TR>
+<TH class=x1y scope=col><SPAN id=OASH__3708 class=x2a>Title</SPAN></TH>
+<TH class="x1y x4t" scope=col><SPAN id=OASH__3711 class=x2a>Type</SPAN></TH>
+<TH class="x1y x4t" scope=col><SPAN id=OASH__3714 class=x2a>Description</SPAN></TH>
+<TH class="x1y x4t" scope=col><SPAN id=OASH__3717 class=x2a>Category</SPAN></TH>
+<TH class="x1y x4t" scope=col><SPAN id=OASH__3720 class=x2a>Last Updated By</SPAN></TH>
+<TH class="x1y x4t" scope=col><SPAN id=OASH__3723 class=x2a>Last Updated</SPAN></TH>
+<TH class="x1y x4t" scope=col><SPAN id=OASH__3726 class=x2a>Usage</SPAN></TH>
+<TH class="x20 x4t" scope=col><SPAN id=OASH__3729 class=x2b>Update</SPAN></TH>
+<TH class="x20 x4t" scope=col><SPAN id=OASH__3732 class=x2b>Delete</SPAN></TH>
+<TH class="x20 x4t" scope=col><SPAN id=OASH__3735 class=x2b>Publish to Catalog</SPAN></TH></TR>
+<TR>
+<TD class="x1s x57">No results found.</TD>
+<TD class="x1s x57"><BR></TD>
+<TD class="x1s x57"><BR></TD>
+<TD class="x1s x57"><BR></TD>
+<TD class="x1s x57"><BR></TD>
+<TD class="x1s x57"><BR></TD>
+<TD class="x1s x57"><BR></TD>
+<TD class="x1w x57"><BR></TD>
+<TD class="x1w x57"><BR></TD>
+<TD class="x1w x57"><BR></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY></TBODY></TABLE></SPAN><SPAN id=AttachmentTable_ATTACH_/oracle/apps/icx/por/approval/webui/ReqApprListPG.attachmentTable-hv></SPAN>
+<DIV></DIV>
+<DIV></DIV></DIV></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD width="5%"><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top>
+<TABLE cellSpacing=0 cellPadding=0 border=0>
+<TBODY></TBODY></TABLE></TD></TR></TBODY></TABLE></SPAN></SPAN>
+<DIV></DIV>
+<DIV></DIV></DIV></DIV></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV><SPAN id=ItemsTableRN title="This table contains the details of the Requisition Lines.">
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY></TBODY></TABLE>
+<TABLE class=x1o cellSpacing=0 cellPadding=1 width="100%" border=0>
+<TBODY>
+<TR>
+<TH class="x1y x4w" style="WORD-BREAK: keep-all" width="1%" scope=col noWrap>Details</TH>
+<TH class="x1y x4t" scope=col><SPAN id=OASH__3738 class=x2b>Line</SPAN></TH>
+<TH class="x1y x4t" scope=col><SPAN id=OASH__3741 class=x2b>Description</SPAN></TH>
+<TH class="x1y x4t" scope=col><SPAN id=OASH__3744 class=x2b>Cost Center</SPAN></TH>
+<TH class="x1y x4t" scope=col><SPAN id=OASH__3747 class=x2b>Unit</SPAN></TH>
+<TH class="x1z x4t" scope=col><SPAN id=OASH__3750 class=x2b>Quantity</SPAN></TH>
+<TH class="x1z x4t" scope=col><SPAN id=OASH__3753 class=x2b>Price</SPAN></TH>
+<TH class="x1z x4t" scope=col><SPAN id=OASH__3756 class=x2b>Amount (SAR)</SPAN></TH>
+<TH class="x20 x4t" scope=col><SPAN id=OASH__3759 class=x2b>Attachments</SPAN></TH></TR>
+<TR>
+<TD class="x1s x57" noWrap>
+<DIV style="VERTICAL-ALIGN: middle"><A onclick="return _submitHideShow('DefaultFormName',1,'show','N6','N6dd0','0','ItemsTableRN')" id=N6dd0 class=xh href="#"><IMG border=0 alt="Select to show information" src="/OA_HTML/cabo/images/cache/chsu.gif" width=15 align=middle height=13>Show</A></DIV></TD>
+<TD class="x1s x57"><SPAN id=N6:LineNumFlow:0><SPAN id=N6:LineNum:0 class=xaq>1</SPAN><IMG id=spacer3 src="/OA_HTML/cabo/images/swan/t.gif" width=3 height=1></SPAN></TD>
+<TD class="x1s x57"><SPAN id=N6:Description:0 title=Description>Kaolin</SPAN></TD>
+<TD class="x1s x57"><SPAN id=N6:CostCenter:0 title="Cost Center">30</SPAN></TD>
+<TD class="x1s x57"><SPAN id=N6:Unit:0 title=Unit>Ton</SPAN></TD>
+<TD class="x1u x57"><SPAN id=N6:Quantity:0 title=Quantity class=xaq>10</SPAN></TD>
+<TD class="x1u x57"><SPAN id=N6:TxnPriceFlow:0><SPAN id=N6:TxnPrice:0>425</SPAN><IMG id=spacer1 src="/OA_HTML/cabo/images/swan/t.gif" width=3 height=1><SPAN id=TxnCurrencyCode1>SAR</SPAN></SPAN></TD>
+<TD class="x1u x57"><SPAN id=N6:Amount:0 title="Amount (SAR)" class=xaq>4,250.00</SPAN></TD>
+<TD class="x1w x57"><SPAN id=N6:AttachmentImage:0><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=23 height=1></SPAN></TD></TR>
+<TR>
+<TH id=M__Idryg class=x24 colSpan=7 scope=row noWrap><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=1>Total</TH>
+<TD class="x25 x4t"><SPAN id=N6_Amount_totalCell class=x25>4,250.00</SPAN></TD>
+<TD class="x26 x4t"><IMG src="/OA_HTML/cabo/images/swan/t.gif"></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY></TBODY></TABLE></SPAN><SPAN id=ItemsTableRN-hv><INPUT id=N6:_pkRequisitionLineId:0 type=hidden value={!!Lw2P7cIDAxDTrcCUckA9eg name=N6:_pkRequisitionLineId:0><INPUT type=hidden value=1 name=N6:length></SPAN><SPAN id=_DefaultFormName_Postscript><INPUT type=hidden name=uri><INPUT type=hidden name=event><INPUT type=hidden name=_FORMEVENT><INPUT type=hidden name=serverValidate><INPUT type=hidden name=evtSrcRowIdx><INPUT type=hidden name=evtSrcRowId><INPUT type=hidden name=_FORM_SUBMIT_BUTTON><INPUT type=hidden name=source><INPUT type=hidden name=value><INPUT type=hidden name=state><INPUT type=hidden name=partialTargets><INPUT type=hidden name=partial><INPUT type=hidden name=oaDownloadBeanExists><INPUT type=hidden name=AttachRegKeyNext><INPUT type=hidden name=Event><INPUT type=hidden name=ReqLineId><INPUT type=hidden name=attachStyleParam></SPAN></FORM>
+<SCRIPT id=_pprScripts>/*function _tableSortSubmit(formName,validate,sortEvent,table,val,stat,ptgt) {var submitFunc = (ptgt == (void 0)) ? submitForm : _submitPartialChange;submitFunc(formName,validate,{event:sortEvent,source:table,value:val,state:stat,partialTargets:ptgt });};function _submitHideShow(a,v,b,c,l,d,p) {var o = {event:b,source:c};if (d!=(void 0)) o.value=d;if (p) {o.partialTargets=p;_setRequestedFocusNode(document, l, false, window);_submitPartialChange(a,v,o);} else submitForm(a,v,o);return false;};var _resetDefaultFormNameNames=["uri","event","_FORMEVENT","serverValidate","evtSrcRowIdx","evtSrcRowId","_FORM_SUBMIT_BUTTON","source","value","state","partialTargets","partial","oaDownloadBeanExists","AttachRegKeyNext","Event","ReqLineId","attachStyleParam"];;function _DefaultFormNameValidater(form){return true;}*/</SCRIPT>
+
+<SCRIPT>var _pprLibraries=['/OA_HTML/cabo/jsLibs/ScriptEval2_3_6_9.js'];</SCRIPT>
+
+<SCRIPT>var _pprTargets=['ItemsTableRN','ReqHeaderAttach','FwkErrorBeanId','_DefaultFormName_Postscript','ItemsTableRN-hv'];</SCRIPT>
+
+<SCRIPT>document.body.style.marginLeft="0px";document.body.style.marginRight="0px";document.body.style.marginTop="0px";</SCRIPT>
+
+<SCRIPT>_partialChange('DefaultFormName')</SCRIPT>
+</BODY></HTML>

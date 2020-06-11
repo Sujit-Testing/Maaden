@@ -1,0 +1,1594 @@
+<HTML lang=en-US-ORACLE9I style="VISIBILITY: visible" dir=ltr><HEAD><TITLE>Oracle iProcurement: Shop</TITLE>
+<META name=generator content="Oracle UIX"><LINK rel=stylesheet type=text/css href="/OA_HTML/cabo/styles/cache/swan-desktop-custom-2_3_6_9-en-ie-windows.css" charset=UTF-8>
+<SCRIPT>var _UixWindowOpenError='A popup window blocker has been detected in your browser. Popup blockers interfere with the operation of this application. Please disable your popup blocker or allow popups from this site.';</SCRIPT>
+
+<SCRIPT src="/OA_HTML/cabo/jsLibs/Common2_3_6_9.js"></SCRIPT>
+
+<SCRIPT>_defaultTZ()</SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oafcoreR121.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/lookAheadLOV.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oafb.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/OAFSlideoutMenu.js"></SCRIPT>
+
+<SCRIPT language=javascript>function help_window() { help_win = window.open("http://riyoramgbm02.maaden.com:8050/OA_HTML/help?locale=en_US&group=FND:LIBRARY:US&topic=US/ICX/@search", "help_win","resizable=yes,scrollbars=yes,toolbar=yes,width=600,height=500")}</SCRIPT>
+</HEAD>
+<BODY class=xk onload="return _chain('_checkLoad(event)','oafsm.setup(&quot;topmenubar&quot;, &quot;topbar&quot;,escape(\'RF.jsp?function_id=MAINMENUREST&amp;security_group_id=0\'),\'false\',false);Linit();',this,event)" style="MARGIN-TOP: 0px; MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px" onbeforeunload=_savePageStateIE() onunload=_checkUnload(event)><IFRAME id=_pprIFrame title="" style="POSITION: absolute; TOP: -100px; VISIBILITY: hidden" height=0 longDesc=# src="/OA_HTML/cabo/images/swan/t.htm" frameBorder=0 width=0 name=_pprIFrame></IFRAME>
+<DIV onclick="return _pprConsumeClick(event);" onkeypress="return false;" onkeyup="return false;" id=_pprBlockingDiv onkeydown="return false;" style="CURSOR: wait; HEIGHT: 0px; WIDTH: 0px; POSITION: absolute; LEFT: 0px; TOP: 0px"></DIV>
+<DIV id=_uixDownload class=x3f style="BEHAVIOR: url(#default#download)"></DIV>
+<SCRIPT>var _cachedLibs;</SCRIPT>
+
+<SCRIPT>var _pprFirstClickPass=true;</SCRIPT>
+<SPAN id=_pprPageContent>
+<FORM id=DefaultFormName style="MARGIN: 0px" method=post name=DefaultFormName action=/OA_HTML/OA.jsp?page=/oracle/apps/icx/icatalog/shopping/webui/SearchResultsPG&amp;searchOrigin=search&amp;searchText=HP%25&amp;mode=search&amp;_ti=1644739127&amp;retainAM=Y&amp;addBreadCrumb=Y&amp;oapc=9&amp;oas=w7qJ3Y0NYSITQHz95G0yXQ..><INPUT id=_AM_TX_ID_FIELD type=hidden value=1 name=_AM_TX_ID_FIELD><INPUT id=_FORM type=hidden value=DefaultFormName name=_FORM><SPAN id=lovHFCId><INPUT id=lovAutoClearHFShoppingListName2 type=hidden value=N name=lovAutoClearHFShoppingListName2></SPAN><SPAN id=PageLayoutRN>
+<TABLE class=x6u style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/headerBg.jpg)" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD>
+<SCRIPT>var _tURL="\x2FOA_HTML\x2Fcabo\x2Fimages\x2Fswan\x2Ft.gif";var _axm;t('10','10')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=10></TD></TR>
+<TR>
+<TD>
+<TABLE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD vAlign=top width="1%" noWrap><IMG border=0 alt=Maaden_logo1.jpg src="/OA_MEDIA/Maaden_logo1.jpg"></TD>
+<TD noWrap><SPAN title=iProcurement style="POSITION: absolute"><SPAN class=x4i>iProcurement</SPAN></SPAN>
+<SCRIPT>t('0','14')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=0 height=14></TD>
+<TD></TD>
+<TD></TD></TR>
+<TR>
+<TD></TD>
+<TD style="POSITION: relative; PADDING-BOTTOM: 8px; Z-INDEX: 10" vAlign=bottom colSpan=2 align=right>
+<TABLE class=x6w cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=bottom><LINK rel=stylesheet type=text/css href="cabo/styles/OAFSlideoutMenu.css">
+<DIV id=topmenubar style="WIDTH: 300px">
+<UL>
+<P style="FONT-SIZE: 12px; FONT-FAMILY: Arial; COLOR: white"><IMG class=image src="/OA_MEDIA/home.gif"><A id=SNAV class=Menu href="#" name=Menu rel=MenuList _master="topmenubar" _pos="0" _istoplevel="true">&nbsp;Navigator<IMG class=drimage1 src="/OA_MEDIA/drop_arrow.gif"></A><IMG class=image src="/OA_MEDIA/favorites.gif" align=absMiddle><A id=SFAV class=Fav href="#" name=Fav rel=FavList _master="topmenubar" _pos="1" _istoplevel="true">&nbsp;Favorites<IMG class=drimage src="/OA_MEDIA/drop_arrow.gif"></A></P></UL></DIV>
+<DIV id=SDivTop style="POSITION: absolute; DISPLAY: none"></DIV>
+<DIV id=SFavTop style="POSITION: absolute; DISPLAY: none"></DIV></TD>
+<TD vAlign=bottom><A class=x15 href="/OA_HTML/OA.jsp?page=/oracle/apps/icx/por/req/webui/ShoppingCartPG&amp;OASF=ICX_POR_SHOPPING_CART&amp;_ti=1644739127&amp;oapc=9&amp;OAMC=78349_75_0&amp;menu=Y&amp;oas=ZJDUYbjeXGbPjHuXuTZhyw..">Shopping Cart</A></TD>
+<TD vAlign=bottom><A class=x15 href="OA.jsp?_rc=FNDPORTALRELEASEAM&amp;_ri=0&amp;retainAM=N&amp;_ti=1644739127&amp;oapc=9&amp;OAMC=78349_77_0&amp;menu=Y&amp;oas=0fFkT4OTIhx6bIOjySrRWA..">Home</A></TD>
+<TD vAlign=bottom><A class=x15 href="/OA_HTML/OALogout.jsp?menu=Y">Logout</A></TD>
+<TD vAlign=bottom><A class=x15 href="/OA_HTML/OA.jsp?page=/oracle/apps/fnd/preferences/webui/PreferencesPG&amp;retainAM=Y&amp;_ti=1644739127&amp;oapc=9&amp;OAMC=78349_79_0&amp;menu=Y&amp;addBreadCrumb=S&amp;OAPF=Y&amp;oas=YhniZiJImz2H7mcIXdnTyA..">Preferences</A></TD>
+<TD vAlign=bottom><A class=x15 href="javascript:top.help_window()">Help</A></TD>
+<TD vAlign=bottom><A class=x15 href="javascript:ignoreWarnAboutChanges(%22%2FOA_HTML%2FOA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FSearchResultsPG.PageLayoutRN%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswSearchResultsPG.PageLayoutRN%26pv%3DSPS%26_ti%3D1644739127%26oapc%3D9%26OAIG%3D11213%26menu%3DY%26oas%3DWyw4pmnNKOOaGh7vKL2KIQ..%22)">Personalize Page</A></TD>
+<TD vAlign=bottom><A class=x15 href="/OA_HTML/OA.jsp?_rc=FND_DIAGNOSTICS_PAGE&amp;_ri=0&amp;retainAM=Y&amp;LogRetUrl=%2FOA_HTML%2FOA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ficx%2Ficatalog%2Fshopping%2Fwebui%2FSearchResultsPG%26searchOrigin%3Dsearch%26searchText%3DHP%2525%26mode%3Dsearch%26transactionid%3D1644739127%26retainAM%3DY%26addBreadCrumb%3DY%26oas%3D29Q0NIJCNYycRnaGwp2iQA..&amp;_ti=1644739127&amp;oapc=9&amp;OAIG=9404&amp;menu=Y&amp;oas=k41S-5O3I2A8K6-xSRjBbw..">Diagnostics</A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD vAlign=bottom colSpan=4 align=left>
+<TABLE class=x1j cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD height=21 width=8><IMG border=0 src="/OA_HTML/cabo/images/swan/topTabL.gif" width=8 height=21></TD>
+<TD class=x1l style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/topTabBg.gif)" background=/OA_HTML/cabo/images/swan/topTabBg.gif noWrap><A id=ICXPOR_SHOP title=Shop href="/OA_HTML/OA.jsp?page=/oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG&amp;_ti=1644739127&amp;oapc=9&amp;OAMC=78349_88_0&amp;menu=Y&amp;oaMenuLevel=1&amp;oas=wsNqMSTK-kQr_FHZqBawxQ.." name=ICXPOR_SHOP>Shop</A></TD>
+<TD height=21 width=18><IMG border=0 src="/OA_HTML/cabo/images/swan/topTabADjoint.gif" width=18 height=21></TD>
+<TD class=x1k style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/topDimTabBg.gif)" background=/OA_HTML/cabo/images/swan/topDimTabBg.gif noWrap><A id=ICXPOR_REQSTATUS title=Requisitions href="/OA_HTML/OA.jsp?page=/oracle/apps/icx/por/reqmgmt/webui/ReqSummaryPG&amp;_ti=1644739127&amp;oapc=9&amp;OAMC=78349_101_0&amp;menu=Y&amp;oaMenuLevel=1&amp;oas=hwIM7MLheH1y4HQLpWVlyg.." name=ICXPOR_REQSTATUS>Requisitions</A></TD>
+<TD height=21 width=18><IMG border=0 src="/OA_HTML/cabo/images/swan/topTabDDjoint.gif" width=18 height=21></TD>
+<TD class=x1k style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/topDimTabBg.gif)" background=/OA_HTML/cabo/images/swan/topDimTabBg.gif noWrap><A id=ICXPOR_RECEIVING_HOME title=Receiving href="/OA_HTML/OA.jsp?page=/oracle/apps/icx/por/rcv/webui/IcxPorRcvHomePG&amp;_ti=1644739127&amp;oapc=9&amp;OAMC=78349_141_0&amp;menu=Y&amp;oaMenuLevel=1&amp;oas=NeOrOLrFfrNxAGt8gnxLaA.." name=ICXPOR_RECEIVING_HOME>Receiving</A></TD>
+<TD height=21 width=18><IMG border=0 src="/OA_HTML/cabo/images/swan/topTabDDjoint.gif" width=18 height=21></TD>
+<TD class=x1k style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/topDimTabBg.gif)" background=/OA_HTML/cabo/images/swan/topDimTabBg.gif noWrap><A id=ICX_POR_CONTRACTOR title=Contractors href="/OA_HTML/OA.jsp?page=/oracle/apps/icx/por/contractor/webui/ContractorHomePG&amp;_ti=1644739127&amp;oapc=9&amp;OAMC=78349_160_0&amp;menu=Y&amp;oaMenuLevel=1&amp;oas=zAX9iKI_gczHl4zzeVG-KQ.." name=ICX_POR_CONTRACTOR>Contractors</A></TD>
+<TD height=21 width=8><IMG border=0 src="/OA_HTML/cabo/images/swan/topDimTabR.gif" width=8 height=21></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD width="100%">
+<TABLE class=x18 cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD height=22 width=1><IMG border=0 src="/OA_HTML/cabo/images/swan/navBarUnderTopTabsBg.gif" width=1 height=22></TD>
+<TD class=OraGlobalHeaderBody background=/OA_HTML/cabo/images/swan/navBarUnderTopTabsBg.gif>
+<TABLE cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD class=x1a><A id=ICXPOR_STORES title=Stores href="/OA_HTML/OA.jsp?page=/oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG&amp;_ti=1644739127&amp;oapc=9&amp;OAMC=78349_88_0&amp;menu=Y&amp;oaMenuLevel=2&amp;oas=EMp7ngbwNfIlH7rOrizVKg.." name=ICXPOR_STORES>Stores</A></TD>
+<TD class=x1b height=22 width=15><IMG border=0 src="/OA_HTML/cabo/images/swan/separator.gif" width=15 height=22></TD>
+<TD class=x19><A id=ICXPOR_SHOPLISTS title="Shopping Lists" href="/OA_HTML/OA.jsp?OAFunc=ICX_CAT_SEARCH_RESULTS&amp;mode=search&amp;searchOrigin=favoriteList&amp;OASF=ICX_CAT_FAVORITES_LIST_ITEMS&amp;_ti=1644739127&amp;oapc=9&amp;oas=Czd5QWtZCIPcX4b_5FTT2A.." name=ICXPOR_SHOPLISTS>Shopping Lists</A></TD>
+<TD class=x1b height=22 width=15><IMG border=0 src="/OA_HTML/cabo/images/swan/separator.gif" width=15 height=22></TD>
+<TD class=x19><A id=ICX_POR_CONTRACTOR_REQUEST title="Contractor Request" href="/OA_HTML/OA.jsp?page=/oracle/apps/icx/por/req/webui/ContractorRequestPG&amp;_ti=1644739127&amp;oapc=9&amp;OAMC=78349_99_0&amp;menu=Y&amp;oaMenuLevel=2&amp;oas=7ELJ1ugwpP80xalz7C-pDA.." name=ICX_POR_CONTRACTOR_REQUEST>Contractor Request</A></TD></TR></TBODY></TABLE></TD>
+<TD height=22 width=1><IMG border=0 src="/OA_HTML/cabo/images/swan/navBarUnderTopTabsBg.gif" width=1 height=22></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD width="100%">
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD class=x4b width="100%" colSpan=3>
+<TABLE id=SearchBox cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR id=SpacerBoxRow>
+<TD id=SpacerBoxCell>
+<SCRIPT id=SpacerBoxSpacer>t('5','5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=5></TD></TR>
+<TR id=SearchBoxRow>
+<TD id=ControlsCell>
+<DIV id=ControlsTableLayout_p13n><A id=N45 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/SearchBoxRN.ControlsTableLayout" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FSearchBoxRN.ControlsTableLayout%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswSearchBoxRN.ControlsTableLayout%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1644739127%26oapc%3D9%26oas%3DDwHXcLabpJIBsuH4uCj3DA..%22)">Personalize Table Layout: (ControlsTableLayout)</A>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=ControlsTableLayout cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR id=ControlsRow>
+<TD id=SearchableStoresRN>
+<TABLE id=SearchableStores__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD noWrap align=right><SPAN class=xc>Search</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top><SELECT onchange="" id=SearchableStores class=x8 name=SearchableStores><OPTION value=122022>ALS WATER SAMPLING ANALYSIS</OPTION><OPTION value=100022>Car Lease</OPTION><OPTION value=102022>Electrical Consumable</OPTION><OPTION value=101023>Fabricated tools</OPTION><OPTION value=106022>Footware</OPTION><OPTION value=101024>Industrial Gas</OPTION><OPTION value=100001>Industrial Tools</OPTION><OPTION value=100004>Lab Supplies</OPTION><OPTION value=167029>MA Contract Service Requests.</OPTION><OPTION value=120023>MA Procurement SOP and Work Instructions</OPTION><OPTION value=131023>MA’ADEN Global Agreements</OPTION><OPTION value=103022>Mechanical Consumable</OPTION><OPTION value=107022>Motor Repair</OPTION><OPTION value=119022>Non Catalog Requests</OPTION><OPTION selected value=100000>Office Supplies (global)</OPTION><OPTION value=104022>Opticals - Eyeware</OPTION><OPTION value=105023>Rental Equipment</OPTION><OPTION value=126027>WEIR ARABIAN METALS COMPANY</OPTION><OPTION value=118022>Waste Management</OPTION></SELECT>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD id=SearchBoxCell>
+<TABLE id=SearchTextInput__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><INPUT onchange="" onkeypress="return _chain('if(_getKC(event)==13){submitForm(\'DefaultFormName\',1,{\'event\':\'search\'});return false;};return true;','return _submitOnEnter(event, \'DefaultFormName\');',this,event,true)" id=SearchTextInput title="Search Text" class=x8 maxLength=700 size=15 value=HP% name=SearchTextInput>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD id=GoButtonCell>
+<SCRIPT id=GoButtonSpacer>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1><BUTTON onclick="return _chain('submitForm(\'DefaultFormName\',1,{\'evtSrcRowIdx\':\'\',\'evtSrcRowId\':\'\',event:\'search\',source:\'SearchBoxGo\'});return false;','submitForm(\'DefaultFormName\',1,{\'_FORM_SUBMIT_BUTTON\':\'SearchBoxGo\'});return false',this,event,true)" id=SearchBoxGo title="Executes a search." class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)" type=submit>Go</BUTTON></TD>
+<TD id=AdvancedSearchLinkCell>
+<SCRIPT id=AdvancedSearchLinkSpacer>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1><A onclick="submitForm('DefaultFormName',1,{'evtSrcRowIdx':'','evtSrcRowId':'',event:'advancedSearch',source:'AdvancedSearchLink'});return false;" id=AdvancedSearchLink class=xh href="#">Advanced Search</A></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE class=x6t style="HEIGHT: auto" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD>
+<SCRIPT>t(0,0)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=0 height=0></TD>
+<TD colSpan=2>
+<DIV class=xl><NOBR><A href="/OA_HTML/OA.jsp?page=/oracle/apps/icx/icatalog/shopping/webui/SearchResultsPG&amp;searchOrigin=search&amp;searchText=HP%25&amp;mode=search&amp;_ti=1644739127&amp;retainAM=Y&amp;bcrumb=Y&amp;oapc=9&amp;oas=b2dKINbMsvy2O55t00C3-Q..">Shop: Stores</A>&nbsp;&nbsp;&gt;&nbsp;&nbsp;</NOBR> <NOBR><A href="OA.jsp?page=/oracle/apps/icx/icatalog/shopping/webui/SearchStorePG&amp;searchOrigin=searchresult&amp;browseCategoryId=0&amp;searchText=&amp;retainAM=Y&amp;addBreadCrumb=Y&amp;bcrumb=Y&amp;_ti=1644739127&amp;oapc=9&amp;oas=yw5AQinLnKR_JxoUwIaN1w..">Shop Office Supplies (global)</A>&nbsp;&nbsp;&gt;&nbsp;&nbsp;</NOBR><SPAN class=xm> <NOBR></NOBR></SPAN></DIV>
+<TABLE id=FwkErrorBeanId cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE></TD>
+<TD>
+<SCRIPT>t(0,0)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=0 height=0></TD></TR>
+<TR>
+<TD>
+<SCRIPT>t(0,0)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=0 height=0></TD>
+<TD class=x7x vAlign=top width="100%">
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR vAlign=top>
+<TD></TD>
+<TD noWrap align=right></TD></TR></TBODY></TABLE>
+<DIV></DIV><NOSCRIPT></NOSCRIPT>
+<DIV></DIV><SPAN id=ContentZonesResultsRN>
+<DIV id=ResultsColumn1_p13n><A id=N34 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ResultsInParagraphRN" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FResultsInParagraphRN%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswResultsInParagraphRN%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1644739127%26oapc%3D9%26oas%3DI9E4Jcpyh93X6wukxQASBw..%22)">Personalize Header</A>
+<DIV></DIV>
+<DIV></DIV>
+<DIV id=ResultsColumn1>
+<DIV class=x6a>
+<TABLE class=x7b style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/headingBarBg.gif)" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD width="100%">
+<H1 class=x7c>Search Results from Office Supplies (global): HP%</H1></TD></TR></TBODY></TABLE></DIV>
+<DIV class=x79><SPAN id=ResultsStackRN>
+<DIV parent="OAStackLayoutBean, localName='stackLayout'"><A id=N35 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ResultsInParagraphRN.ResultsStackRN" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FResultsInParagraphRN.ResultsStackRN%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswResultsInParagraphRN.ResultsStackRN%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1644739127%26oapc%3D9%26oas%3DmsyTImca-z4M2nLg6h6nfA..%22)">Personalize Stack Layout: (ResultsStackRN)</A></DIV>
+<DIV></DIV>
+<DIV id=ControlsTableLayout_p13n><A id=N36 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ResultsInParagraphRN.ControlsTableLayout" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FResultsInParagraphRN.ControlsTableLayout%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswResultsInParagraphRN.ControlsTableLayout%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1644739127%26oapc%3D9%26oas%3DSrBSds9847wePcAD7Moj3w..%22)">Personalize Table Layout: (ControlsTableLayout)</A>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=ControlsTableLayout cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR id=ShoppingListAndSortControlsRow>
+<TD id=SortControlsTopCell width="50%" align=left>
+<DIV id=SortControlsTableLayout_p13n><A id=N38 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ResultsInParagraphRN.SortControlsTableLayout" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FResultsInParagraphRN.SortControlsTableLayout%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswResultsInParagraphRN.SortControlsTableLayout%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1644739127%26oapc%3D9%26oas%3DJW_tD7MYHkIBiabJdYS95g..%22)">Personalize Table Layout: (SortControlsTableLayout)</A>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=SortControlsTableLayout cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR id=SortControlsRow>
+<TD id=SortAttributeCell>
+<TABLE id=SortAttributes__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD noWrap align=right><SPAN class=xc>Sort by</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top><SELECT onchange="" id=SortAttributes title="Attributes on which you may sort your search results." class=x8 name=SortAttributes><OPTION selected></OPTION><OPTION value=Relevance>Relevance</OPTION><OPTION value=CURRENCY>Currency</OPTION><OPTION value=DESCRIPTION>Description</OPTION><OPTION value=FUNCTIONAL_PRICE>Functional Currency Price</OPTION><OPTION value=INTERNAL_ITEM_NUM>Internal Item Number</OPTION><OPTION value=LONG_DESCRIPTION>Long Description</OPTION><OPTION value=PRICE>Price</OPTION><OPTION value=SHOPPING_CATEGORY>Shopping Category</OPTION><OPTION value=SOURCE>Source</OPTION><OPTION value=SUPPLIER>Supplier</OPTION><OPTION value=SUPPLIER_PART_NUM>Supplier Item</OPTION><OPTION value=UOM>Unit</OPTION></SELECT>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD id=SortBySpacerCell>
+<SCRIPT id=SoryBySpacer>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD id=SortOrderCell>
+<TABLE id=SortOrder__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><SELECT onchange="" id=SortOrder title="Sort Order" class=x8 name=SortOrder><OPTION selected value=ASC>Ascending</OPTION><OPTION value=DESC>Descending</OPTION></SELECT>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD id=GoSortSpacerCell>
+<SCRIPT id=GoSortSpacer>t('10','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=1></TD>
+<TD id=GoSortCell><BUTTON onclick="submitForm('DefaultFormName',1,{'evtSrcRowIdx':'','evtSrcRowId':'',event:'sort',source:'GoSort'});return false;" id=GoSort title="Sorts your set of search results." class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Go</BUTTON></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV></TD></TR>
+<TR id=FilterAndItemCountRow>
+<TD id=FilterAndItemCountCell width="100%" colSpan=2>
+<DIV id=FilterAndItemCountTable_p13n><A id=N39 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/FilterAndItemCountRN" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FFilterAndItemCountRN%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswFilterAndItemCountRN%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1644739127%26oapc%3D9%26oas%3DfMhnymuBiFJ6b6h2zMJnSw..%22)">Personalize Table Layout</A>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=FilterAndItemCountTable cellSpacing=0 cellPadding=0 width="100%" align=left border=0>
+<TBODY></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV></TD></TR>
+<TR id=SearchResultsRow>
+<TD id=SearchResultsCell width="100%" colSpan=2>
+<DIV id=SearchResultsTableRN1_p13n><A id=N40 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ResultsInParagraphRN.SearchResultsTableRN" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FResultsInParagraphRN.SearchResultsTableRN%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswResultsInParagraphRN.SearchResultsTableRN%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1644739127%26oapc%3D9%26oas%3D2CIzFdrcWF-Y1gqsPWINiA..%22)">Personalize "This table shows all the results o..."</A>
+<DIV></DIV>
+<DIV></DIV><SPAN id=SearchResultsTableRN1 title="This table shows all the results of your search query.">
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD>
+<TABLE class=x1p cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD noWrap>
+<TABLE id=TableActionRN cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD id=ThumbnailLinksCell><BUTTON onclick="_uixspu('DefaultFormName',1,'hideThumbnail','HideThumbnail',0,1,{'_FORM_SUBMIT_BUTTON':'_fwkActBtnName_HideThumbnail_hideThumbnail','ResultsVOName':'SimpleSearchVO','ItemKey':'l#-2#1333441#-2#-2#1806','evtSrcRowId':'','evtSrcRowIdx':''});return false;" id=HideThumbnail title="Hide Images" class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">
+<SCRIPT>function _uixspu(f,v,e,s,pt,p,o){if(!o)o=new Object();o.event=(e)?e:'update';if(s)o.source=s;if(p){o.partial='true';if(pt)o.partialTargets=pt;_submitPartialChange(f,v,o);}else submitForm(f,v,o);}</SCRIPT>
+Hide Images</BUTTON></TD></TR></TBODY></TABLE></TD>
+<TD width="100%">
+<SCRIPT>t(15,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=15 height=1></TD>
+<TD vAlign=middle align=right>
+<SCRIPT>function _navBarSubmit(formName, gotoEvent, navBar, vld, val, sze, partialTargets){var i = val.indexOf(',');if (i >= 0){sze = val.substring(i+1);val = val.substring(0, i);}var submitFunc = (partialTargets == (void 0)) ? submitForm : _submitPartialChange;return submitFunc(formName,vld,{event:gotoEvent,source:navBar,value:val,size:sze,partialTargets:partialTargets});}function _navChoiceSubmit(choice, formName, gotoEvent, navBar, vld, size, partialTargets){if (!_navBarSubmit(formName, gotoEvent, navBar, vld, choice.options[choice.selectedIndex].value, size, partialTargets)){choice.selectedIndex = choice._lastValue;}}</SCRIPT>
+
+<TABLE id=SearchResultsTableRN1-nb cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD id=SearchResultsTableRN1-nb-i vAlign=middle><IMG border=0 alt="Previous functionality disabled" src="/OA_HTML/cabo/images/cache/ctnavpd.gif"></TD>
+<TD>
+<SCRIPT>t(5,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD vAlign=middle noWrap><SPAN class=x49>Previous</SPAN></TD>
+<TD>
+<SCRIPT>t(5,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD vAlign=middle noWrap><SELECT onchange="_navChoiceSubmit(this, 'DefaultFormName','goto','SearchResultsTableRN1',1,null,'SearchResultsTableRN1')" onfocus="this._lastValue = this.selectedIndex" id=M__Id title="Select record set" class=x8><OPTION selected value=1,7>1-7</OPTION><OPTION value=8,7>More...</OPTION></SELECT>
+<SCRIPT language=javascript>_setSelectIndexById("M__Id",0)</SCRIPT>
+</TD>
+<TD>
+<SCRIPT>t(5,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD vAlign=middle noWrap><A onclick="_navBarSubmit('DefaultFormName', 'goto','SearchResultsTableRN1',1,'8', '7','SearchResultsTableRN1');return false" class=x48 href="#">Next 7</A></TD>
+<TD>
+<SCRIPT>t(5,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD vAlign=middle><A onclick="_navBarSubmit('DefaultFormName', 'goto','SearchResultsTableRN1',1,'8', '7','SearchResultsTableRN1');return false" href="#"><IMG border=0 alt="Select to view next set" src="/OA_HTML/cabo/images/cache/ctnavn.gif"></A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE class=x1o cellSpacing=0 cellPadding=1 width="100%" border=0>
+<TBODY>
+<TR>
+<TD class="x1t x57">
+<TABLE id=SearchResultsTableRN1:ItemTableLayout:0 cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR id=SearchResultsTableRN1:ItemRow:0>
+<TD id=SearchResultsTableRN1:ImageCell:0 width=1><IMG id=SearchResultsTableRN1:Image:0 border=0 name=SearchResultsTableRN1:Image:0 alt="This item has no image." src="/OA_MEDIA/ag_placeholder_thumbnail.gif" align=middle></TD>
+<TD id=SearchResultsTableRN1:DetailsSpacerCell:0 width=5><BR></TD>
+<TD id=SearchResultsTableRN1:DetailsCell:0>
+<TABLE id=SearchResultsTableRN1:DetailsTableLayout:0 cellSpacing=0 cellPadding=0 width="100%" align=left border=0>
+<TBODY>
+<TR id=SearchResultsTableRN1:ShortDescRow:0>
+<TD id=SearchResultsTableRN1:ShortDescCell:0 width="100%" colSpan=3>
+<TABLE id=SearchResultsTableRN1:ShortDesc:0__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right><BR></TD>
+<TD><BR></TD>
+<TD vAlign=top><A onclick="submitForm('DefaultFormName',1,{'ResultsVOName':'SimpleSearchVO','serverValidate':'1','ItemKey':'l#-2#1333441#-2#-2#1806',event:'detail',source:'SearchResultsTableRN1:ShortDesc:0'});return false;" id=SearchResultsTableRN1:ShortDesc:0 class=xh href="#">Passivator</A>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR>
+<TR id=SearchResultsTableRN1:AttributesRow:0>
+<TD id=SearchResultsTableRN1:AttributesCell:0 width="100%" colSpan=3>
+<TABLE id=SearchResultsTableRN1:AttributesMclRN:0 cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD width=20>
+<SCRIPT>t(20)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20></TD>
+<TD vAlign=top width="50%">
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR id=SearchResultsTableRN1:Attribute1:0__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Shopping Category</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%"><SPAN id=SearchResultsTableRN1:Attribute1:0 title="Shopping Category" class=x2>SERVICES.MISC</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR id=SearchResultsTableRN1:Attribute2:0__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Supplier Item</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%"><SPAN id=SearchResultsTableRN1:Attribute2:0 title="Supplier Item" class=x2>HPLC</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR id=SearchResultsTableRN1:PriceMessageLayoutRN:0__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Price</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%">
+<TABLE id=SearchResultsTableRN1:PriceRow:0 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD>
+<TABLE id=SearchResultsTableRN1:Price:0__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right><BR></TD>
+<TD><BR></TD>
+<TD vAlign=top><SPAN id=SearchResultsTableRN1:Price:0 class=x2>1050</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD>
+<SCRIPT id=PriceSpacer4>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD>
+<TABLE id=SearchResultsTableRN1:Currency:0__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right><BR></TD>
+<TD><BR></TD>
+<TD vAlign=top><SPAN id=SearchResultsTableRN1:Currency:0 class=x2>SAR</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%">
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR id=SearchResultsTableRN1:Attribute4:0__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Supplier</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%"><SPAN id=SearchResultsTableRN1:Attribute4:0 title=Supplier class=x2>Al Fanar Technical Services</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR id=SearchResultsTableRN1:Attribute5:0__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Internal Item Number</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%"><SPAN id=SearchResultsTableRN1:Attribute5:0></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR id=SearchResultsTableRN1:Attribute6:0__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Source</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%"><SPAN id=SearchResultsTableRN1:Attribute6:0 title=Source class=x2>Agreement 6341400285</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+<TR id=SearchResultsTableRN1:ControlsRow:0>
+<TD id=SearchResultsTableRN1:AddToCartTopCell:0>
+<TABLE id=SearchResultsTableRN1:AddToCartTableLayout:0 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR id=SearchResultsTableRN1:AddtoCartRow:0>
+<TD id=SearchResultsTableRN1:QuantityFormatCell:0 align=left>
+<TABLE id=SearchResultsTableRN1:QuantityInputRow:0 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD>
+<TABLE id=SearchResultsTableRN1:Quantity:0__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD noWrap align=right><SPAN class=xc>Quantity</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top>
+<SCRIPT>var _locale='en-US-ORACLE9I';var _tLocale='en-US-ORACLE9I';var _groupingSep=',';var _decimalSep='.';</SCRIPT>
+
+<SCRIPT src="/OA_HTML/cabo/jsLibs/resources/LocaleElements_en_US_ORACLE9I2_3_6_9.js"></SCRIPT>
+<INPUT onchange="" id=SearchResultsTableRN1:Quantity:0 title="Quantity Input Box" class=xa maxLength=10 size=5 value=1 name=SearchResultsTableRN1:Quantity:0>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD>
+<SCRIPT id=QuantSpacer>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD>
+<TABLE id=SearchResultsTableRN1:UomText:0__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right><BR></TD>
+<TD><BR></TD>
+<TD vAlign=top><SPAN id=SearchResultsTableRN1:UomText:0 class=x2>Each</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD>
+<TD id=SearchResultsTableRN1:AddToCartSpacerCell:0>
+<SCRIPT id=AddToCartSpacer>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD id=SearchResultsTableRN1:AddToCartButtonCell:0><BUTTON onclick="_uixspu('DefaultFormName',1,'addToCart','AddToCart',0,1,{'_FORM_SUBMIT_BUTTON':'_fwkActBtnName_AddToCart_addToCart','ResultsVOName':'SimpleSearchVO','ItemKey':'l#-2#1333441#-2#-2#1806','evtSrcRowId':'RequisitionAM.SimpleSearchVOl#-2#1333441#-2#-2#1806','evtSrcRowIdx':'0'});return false;" id=SearchResultsTableRN1:AddToCart:0 title="Adds this item to your shopping cart." class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Add to Cart</BUTTON></TD></TR></TBODY></TABLE></TD>
+<TD id=SearchResultsTableRN1:AddToFavAndCompCell:0 align=right>
+<SCRIPT id=AddToFavSpcr>t('1','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=1><BUTTON onclick="_uixspu('DefaultFormName',1,'AddToFavorites','AddToFavorites',0,1,{'_FORM_SUBMIT_BUTTON':'_fwkActBtnName_AddToFavorites_AddToFavorites','ResultsVOName':'SimpleSearchVO','ItemKey':'l#-2#1333441#-2#-2#1806','evtSrcRowId':'RequisitionAM.SimpleSearchVOl#-2#1333441#-2#-2#1806','evtSrcRowIdx':'0'});return false;" id=SearchResultsTableRN1:AddToFavorites:0 title="Adds this item to your Favorites List." class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Add to Favorites</BUTTON>
+<SCRIPT id=AddToCompSpcr>t('1','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=1><BUTTON onclick="_uixspu('DefaultFormName',1,'addToCompare','AddToCompare',0,1,{'_FORM_SUBMIT_BUTTON':'_fwkActBtnName_AddToCompare_addToCompare','ResultsVOName':'SimpleSearchVO','ItemKey':'l#-2#1333441#-2#-2#1806','evtSrcRowId':'RequisitionAM.SimpleSearchVOl#-2#1333441#-2#-2#1806','evtSrcRowIdx':'0'});return false;" id=SearchResultsTableRN1:AddToCompare:0 title="Adds this item to your Item Compare list." class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Add to Compare</BUTTON></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class="x1t x57">
+<TABLE id=SearchResultsTableRN1:ItemTableLayout:1 cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR id=SearchResultsTableRN1:ItemRow:1>
+<TD id=SearchResultsTableRN1:ImageCell:1 width=1><IMG id=SearchResultsTableRN1:Image:1 border=0 name=SearchResultsTableRN1:Image:1 alt="This item has no image." src="/OA_MEDIA/ag_placeholder_thumbnail.gif" align=middle></TD>
+<TD id=SearchResultsTableRN1:DetailsSpacerCell:1 width=5><BR></TD>
+<TD id=SearchResultsTableRN1:DetailsCell:1>
+<TABLE id=SearchResultsTableRN1:DetailsTableLayout:1 cellSpacing=0 cellPadding=0 width="100%" align=left border=0>
+<TBODY>
+<TR id=SearchResultsTableRN1:ShortDescRow:1>
+<TD id=SearchResultsTableRN1:ShortDescCell:1 width="100%" colSpan=3>
+<TABLE id=SearchResultsTableRN1:ShortDesc:1__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right><BR></TD>
+<TD><BR></TD>
+<TD vAlign=top><A onclick="submitForm('DefaultFormName',1,{'ResultsVOName':'SimpleSearchVO','serverValidate':'1','ItemKey':'l#400757#-2#-2#-2#1806',event:'detail',source:'SearchResultsTableRN1:ShortDesc:1'});return false;" id=SearchResultsTableRN1:ShortDesc:1 class=xh href="#">VALVE, CHECK;DISCHARGE,152MM,180PSI,CI,PLANT AIR COMPRESSOR,PN:HP0116-5,EQ MODEL:BH FS-ELLIOTT,DWG:HP0116 REV:0</A>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR>
+<TR id=SearchResultsTableRN1:LongDescRow:1>
+<TD id=SearchResultsTableRN1:LongDescCell:1 colSpan=3>
+<TABLE id=SearchResultsTableRN1:LongDesc:1__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right><BR></TD>
+<TD><BR></TD>
+<TD vAlign=top><SPAN id=SearchResultsTableRN1:LongDesc:1 class=x0>VALVE, CHECK; TYPE: DISCHARGE, VALVE SIZE: 152 MM, DESIGN RATING: 180 PSI, BODY MATERIAL: CI, APPLICATION: PLANT AIR COMPRESSOR; PN:HP0116-5; EQ MODEL:BH FS-ELLIOTT, MER_ID:RM-U...</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR>
+<TR id=SearchResultsTableRN1:AttributesRow:1>
+<TD id=SearchResultsTableRN1:AttributesCell:1 width="100%" colSpan=3>
+<TABLE id=SearchResultsTableRN1:AttributesMclRN:1 cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD width=20>
+<SCRIPT>t(20)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20></TD>
+<TD vAlign=top width="50%">
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR id=SearchResultsTableRN1:Attribute1:1__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Shopping Category</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%"><SPAN id=SearchResultsTableRN1:Attribute1:1></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR id=SearchResultsTableRN1:Attribute2:1__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Supplier Item</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%"><SPAN id=SearchResultsTableRN1:Attribute2:1></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR id=SearchResultsTableRN1:PriceMessageLayoutRN:1__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Price</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%">
+<TABLE id=SearchResultsTableRN1:PriceRow:1 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD>
+<TABLE id=SearchResultsTableRN1:Price:1__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right><BR></TD>
+<TD><BR></TD>
+<TD vAlign=top><SPAN id=SearchResultsTableRN1:Price:1 class=x2>0</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD>
+<SCRIPT id=PriceSpacer4>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD>
+<TABLE id=SearchResultsTableRN1:Currency:1__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right><BR></TD>
+<TD><BR></TD>
+<TD vAlign=top><SPAN id=SearchResultsTableRN1:Currency:1 class=x2>SAR</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%">
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR id=SearchResultsTableRN1:Attribute4:1__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Supplier</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%"><SPAN id=SearchResultsTableRN1:Attribute4:1></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR id=SearchResultsTableRN1:Attribute5:1__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Internal Item Number</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%"><SPAN id=SearchResultsTableRN1:Attribute5:1 title="Internal Item Number" class=x2>1000012396</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR id=SearchResultsTableRN1:Attribute6:1__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Source</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%"><SPAN id=SearchResultsTableRN1:Attribute6:1></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+<TR id=SearchResultsTableRN1:ControlsRow:1>
+<TD id=SearchResultsTableRN1:AddToCartTopCell:1>
+<TABLE id=SearchResultsTableRN1:AddToCartTableLayout:1 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR id=SearchResultsTableRN1:AddtoCartRow:1>
+<TD id=SearchResultsTableRN1:QuantityFormatCell:1 align=left>
+<TABLE id=SearchResultsTableRN1:QuantityInputRow:1 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD>
+<TABLE id=SearchResultsTableRN1:Quantity:1__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD noWrap align=right><SPAN class=xc>Quantity</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top><INPUT onchange="" id=SearchResultsTableRN1:Quantity:1 title="Quantity Input Box" class=xa maxLength=10 size=5 value=1 name=SearchResultsTableRN1:Quantity:1>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD>
+<SCRIPT id=QuantSpacer>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD>
+<TABLE id=SearchResultsTableRN1:UomText:1__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right><BR></TD>
+<TD><BR></TD>
+<TD vAlign=top><SPAN id=SearchResultsTableRN1:UomText:1 class=x2>Each</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD>
+<TD id=SearchResultsTableRN1:AddToCartSpacerCell:1>
+<SCRIPT id=AddToCartSpacer>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD id=SearchResultsTableRN1:AddToCartButtonCell:1><BUTTON onclick="_uixspu('DefaultFormName',1,'addToCart','AddToCart',0,1,{'_FORM_SUBMIT_BUTTON':'_fwkActBtnName_AddToCart_addToCart','ResultsVOName':'SimpleSearchVO','ItemKey':'l#400757#-2#-2#-2#1806','evtSrcRowId':'RequisitionAM.SimpleSearchVOl#400757#-2#-2#-2#1806','evtSrcRowIdx':'1'});return false;" id=SearchResultsTableRN1:AddToCart:1 title="Adds this item to your shopping cart." class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Add to Cart</BUTTON></TD></TR></TBODY></TABLE></TD>
+<TD id=SearchResultsTableRN1:AddToFavAndCompCell:1 align=right>
+<SCRIPT id=AddToFavSpcr>t('1','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=1><BUTTON onclick="_uixspu('DefaultFormName',1,'AddToFavorites','AddToFavorites',0,1,{'_FORM_SUBMIT_BUTTON':'_fwkActBtnName_AddToFavorites_AddToFavorites','ResultsVOName':'SimpleSearchVO','ItemKey':'l#400757#-2#-2#-2#1806','evtSrcRowId':'RequisitionAM.SimpleSearchVOl#400757#-2#-2#-2#1806','evtSrcRowIdx':'1'});return false;" id=SearchResultsTableRN1:AddToFavorites:1 title="Adds this item to your Favorites List." class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Add to Favorites</BUTTON>
+<SCRIPT id=AddToCompSpcr>t('1','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=1><BUTTON onclick="_uixspu('DefaultFormName',1,'addToCompare','AddToCompare',0,1,{'_FORM_SUBMIT_BUTTON':'_fwkActBtnName_AddToCompare_addToCompare','ResultsVOName':'SimpleSearchVO','ItemKey':'l#400757#-2#-2#-2#1806','evtSrcRowId':'RequisitionAM.SimpleSearchVOl#400757#-2#-2#-2#1806','evtSrcRowIdx':'1'});return false;" id=SearchResultsTableRN1:AddToCompare:1 title="Adds this item to your Item Compare list." class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Add to Compare</BUTTON></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class="x1t x57">
+<TABLE id=SearchResultsTableRN1:ItemTableLayout:2 cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR id=SearchResultsTableRN1:ItemRow:2>
+<TD id=SearchResultsTableRN1:ImageCell:2 width=1><IMG id=SearchResultsTableRN1:Image:2 border=0 name=SearchResultsTableRN1:Image:2 alt="This item has no image." src="/OA_MEDIA/ag_placeholder_thumbnail.gif" align=middle></TD>
+<TD id=SearchResultsTableRN1:DetailsSpacerCell:2 width=5><BR></TD>
+<TD id=SearchResultsTableRN1:DetailsCell:2>
+<TABLE id=SearchResultsTableRN1:DetailsTableLayout:2 cellSpacing=0 cellPadding=0 width="100%" align=left border=0>
+<TBODY>
+<TR id=SearchResultsTableRN1:ShortDescRow:2>
+<TD id=SearchResultsTableRN1:ShortDescCell:2 width="100%" colSpan=3>
+<TABLE id=SearchResultsTableRN1:ShortDesc:2__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right><BR></TD>
+<TD><BR></TD>
+<TD vAlign=top><A onclick="submitForm('DefaultFormName',1,{'ResultsVOName':'SimpleSearchVO','serverValidate':'1','ItemKey':'l#486733#-2#-2#-2#1806',event:'detail',source:'SearchResultsTableRN1:ShortDesc:2'});return false;" id=SearchResultsTableRN1:ShortDesc:2 class=xh href="#">SPRING, COMPRESSION;PN:5230-AK-SP-001,F/HYUNDAI ROTEM AIR-KNIFE (PRIMARY), MODEL: FC-84200-12’-0”-3 HP</A>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR>
+<TR id=SearchResultsTableRN1:LongDescRow:2>
+<TD id=SearchResultsTableRN1:LongDescCell:2 colSpan=3>
+<TABLE id=SearchResultsTableRN1:LongDesc:2__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right><BR></TD>
+<TD><BR></TD>
+<TD vAlign=top><SPAN id=SearchResultsTableRN1:LongDesc:2 class=x0>SPRING, COMPRESSION; PN:5230-AK-SP-001; MER_ID:RM-C07-0215, F/HYUNDAI ROTEM AIR-KNIFE (PRIMARY), MODEL: FC-84200-12’-0”-3 HP</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR>
+<TR id=SearchResultsTableRN1:AttributesRow:2>
+<TD id=SearchResultsTableRN1:AttributesCell:2 width="100%" colSpan=3>
+<TABLE id=SearchResultsTableRN1:AttributesMclRN:2 cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD width=20>
+<SCRIPT>t(20)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20></TD>
+<TD vAlign=top width="50%">
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR id=SearchResultsTableRN1:Attribute1:2__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Shopping Category</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%"><SPAN id=SearchResultsTableRN1:Attribute1:2></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR id=SearchResultsTableRN1:Attribute2:2__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Supplier Item</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%"><SPAN id=SearchResultsTableRN1:Attribute2:2></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR id=SearchResultsTableRN1:PriceMessageLayoutRN:2__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Price</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%">
+<TABLE id=SearchResultsTableRN1:PriceRow:2 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD>
+<TABLE id=SearchResultsTableRN1:Price:2__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right><BR></TD>
+<TD><BR></TD>
+<TD vAlign=top><SPAN id=SearchResultsTableRN1:Price:2 class=x2>0</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD>
+<SCRIPT id=PriceSpacer4>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD>
+<TABLE id=SearchResultsTableRN1:Currency:2__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right><BR></TD>
+<TD><BR></TD>
+<TD vAlign=top><SPAN id=SearchResultsTableRN1:Currency:2 class=x2>SAR</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%">
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR id=SearchResultsTableRN1:Attribute4:2__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Supplier</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%"><SPAN id=SearchResultsTableRN1:Attribute4:2></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR id=SearchResultsTableRN1:Attribute5:2__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Internal Item Number</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%"><SPAN id=SearchResultsTableRN1:Attribute5:2 title="Internal Item Number" class=x2>1000015357</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR id=SearchResultsTableRN1:Attribute6:2__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Source</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%"><SPAN id=SearchResultsTableRN1:Attribute6:2></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+<TR id=SearchResultsTableRN1:ControlsRow:2>
+<TD id=SearchResultsTableRN1:AddToCartTopCell:2>
+<TABLE id=SearchResultsTableRN1:AddToCartTableLayout:2 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR id=SearchResultsTableRN1:AddtoCartRow:2>
+<TD id=SearchResultsTableRN1:QuantityFormatCell:2 align=left>
+<TABLE id=SearchResultsTableRN1:QuantityInputRow:2 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD>
+<TABLE id=SearchResultsTableRN1:Quantity:2__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD noWrap align=right><SPAN class=xc>Quantity</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top><INPUT onchange="" id=SearchResultsTableRN1:Quantity:2 title="Quantity Input Box" class=xa maxLength=10 size=5 value=1 name=SearchResultsTableRN1:Quantity:2>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD>
+<SCRIPT id=QuantSpacer>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD>
+<TABLE id=SearchResultsTableRN1:UomText:2__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right><BR></TD>
+<TD><BR></TD>
+<TD vAlign=top><SPAN id=SearchResultsTableRN1:UomText:2 class=x2>Each</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD>
+<TD id=SearchResultsTableRN1:AddToCartSpacerCell:2>
+<SCRIPT id=AddToCartSpacer>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD id=SearchResultsTableRN1:AddToCartButtonCell:2><BUTTON onclick="_uixspu('DefaultFormName',1,'addToCart','AddToCart',0,1,{'_FORM_SUBMIT_BUTTON':'_fwkActBtnName_AddToCart_addToCart','ResultsVOName':'SimpleSearchVO','ItemKey':'l#486733#-2#-2#-2#1806','evtSrcRowId':'RequisitionAM.SimpleSearchVOl#486733#-2#-2#-2#1806','evtSrcRowIdx':'2'});return false;" id=SearchResultsTableRN1:AddToCart:2 title="Adds this item to your shopping cart." class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Add to Cart</BUTTON></TD></TR></TBODY></TABLE></TD>
+<TD id=SearchResultsTableRN1:AddToFavAndCompCell:2 align=right>
+<SCRIPT id=AddToFavSpcr>t('1','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=1><BUTTON onclick="_uixspu('DefaultFormName',1,'AddToFavorites','AddToFavorites',0,1,{'_FORM_SUBMIT_BUTTON':'_fwkActBtnName_AddToFavorites_AddToFavorites','ResultsVOName':'SimpleSearchVO','ItemKey':'l#486733#-2#-2#-2#1806','evtSrcRowId':'RequisitionAM.SimpleSearchVOl#486733#-2#-2#-2#1806','evtSrcRowIdx':'2'});return false;" id=SearchResultsTableRN1:AddToFavorites:2 title="Adds this item to your Favorites List." class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Add to Favorites</BUTTON>
+<SCRIPT id=AddToCompSpcr>t('1','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=1><BUTTON onclick="_uixspu('DefaultFormName',1,'addToCompare','AddToCompare',0,1,{'_FORM_SUBMIT_BUTTON':'_fwkActBtnName_AddToCompare_addToCompare','ResultsVOName':'SimpleSearchVO','ItemKey':'l#486733#-2#-2#-2#1806','evtSrcRowId':'RequisitionAM.SimpleSearchVOl#486733#-2#-2#-2#1806','evtSrcRowIdx':'2'});return false;" id=SearchResultsTableRN1:AddToCompare:2 title="Adds this item to your Item Compare list." class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Add to Compare</BUTTON></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class="x1t x57">
+<TABLE id=SearchResultsTableRN1:ItemTableLayout:3 cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR id=SearchResultsTableRN1:ItemRow:3>
+<TD id=SearchResultsTableRN1:ImageCell:3 width=1><IMG id=SearchResultsTableRN1:Image:3 border=0 name=SearchResultsTableRN1:Image:3 alt="This item has no image." src="/OA_MEDIA/ag_placeholder_thumbnail.gif" align=middle></TD>
+<TD id=SearchResultsTableRN1:DetailsSpacerCell:3 width=5><BR></TD>
+<TD id=SearchResultsTableRN1:DetailsCell:3>
+<TABLE id=SearchResultsTableRN1:DetailsTableLayout:3 cellSpacing=0 cellPadding=0 width="100%" align=left border=0>
+<TBODY>
+<TR id=SearchResultsTableRN1:ShortDescRow:3>
+<TD id=SearchResultsTableRN1:ShortDescCell:3 width="100%" colSpan=3>
+<TABLE id=SearchResultsTableRN1:ShortDesc:3__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right><BR></TD>
+<TD><BR></TD>
+<TD vAlign=top><A onclick="submitForm('DefaultFormName',1,{'ResultsVOName':'SimpleSearchVO','serverValidate':'1','ItemKey':'l#486734#-2#-2#-2#1806',event:'detail',source:'SearchResultsTableRN1:ShortDesc:3'});return false;" id=SearchResultsTableRN1:ShortDesc:3 class=xh href="#">SPRING, COMPRESSION;PN:5230-AK-SP-002,TYPE: ISOLATION; F/HYUNDAI ROTEM AIR-KNIFE(PRIMARY), MODEL: FC-84200-12’-0”-3 HP</A>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR>
+<TR id=SearchResultsTableRN1:LongDescRow:3>
+<TD id=SearchResultsTableRN1:LongDescCell:3 colSpan=3>
+<TABLE id=SearchResultsTableRN1:LongDesc:3__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right><BR></TD>
+<TD><BR></TD>
+<TD vAlign=top><SPAN id=SearchResultsTableRN1:LongDesc:3 class=x0>SPRING, COMPRESSION; PN:5230-AK-SP-002; MER_ID:RM-C07-0216, TYPE: ISOLATION; F/HYUNDAI ROTEM AIR-KNIFE(PRIMARY), MODEL: FC-84200-12’-0”-3 HP</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR>
+<TR id=SearchResultsTableRN1:AttributesRow:3>
+<TD id=SearchResultsTableRN1:AttributesCell:3 width="100%" colSpan=3>
+<TABLE id=SearchResultsTableRN1:AttributesMclRN:3 cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD width=20>
+<SCRIPT>t(20)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20></TD>
+<TD vAlign=top width="50%">
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR id=SearchResultsTableRN1:Attribute1:3__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Shopping Category</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%"><SPAN id=SearchResultsTableRN1:Attribute1:3></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR id=SearchResultsTableRN1:Attribute2:3__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Supplier Item</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%"><SPAN id=SearchResultsTableRN1:Attribute2:3></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR id=SearchResultsTableRN1:PriceMessageLayoutRN:3__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Price</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%">
+<TABLE id=SearchResultsTableRN1:PriceRow:3 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD>
+<TABLE id=SearchResultsTableRN1:Price:3__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right><BR></TD>
+<TD><BR></TD>
+<TD vAlign=top><SPAN id=SearchResultsTableRN1:Price:3 class=x2>0</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD>
+<SCRIPT id=PriceSpacer4>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD>
+<TABLE id=SearchResultsTableRN1:Currency:3__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right><BR></TD>
+<TD><BR></TD>
+<TD vAlign=top><SPAN id=SearchResultsTableRN1:Currency:3 class=x2>SAR</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%">
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR id=SearchResultsTableRN1:Attribute4:3__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Supplier</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%"><SPAN id=SearchResultsTableRN1:Attribute4:3></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR id=SearchResultsTableRN1:Attribute5:3__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Internal Item Number</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%"><SPAN id=SearchResultsTableRN1:Attribute5:3 title="Internal Item Number" class=x2>1000015358</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR id=SearchResultsTableRN1:Attribute6:3__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Source</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%"><SPAN id=SearchResultsTableRN1:Attribute6:3></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+<TR id=SearchResultsTableRN1:ControlsRow:3>
+<TD id=SearchResultsTableRN1:AddToCartTopCell:3>
+<TABLE id=SearchResultsTableRN1:AddToCartTableLayout:3 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR id=SearchResultsTableRN1:AddtoCartRow:3>
+<TD id=SearchResultsTableRN1:QuantityFormatCell:3 align=left>
+<TABLE id=SearchResultsTableRN1:QuantityInputRow:3 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD>
+<TABLE id=SearchResultsTableRN1:Quantity:3__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD noWrap align=right><SPAN class=xc>Quantity</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top><INPUT onchange="" id=SearchResultsTableRN1:Quantity:3 title="Quantity Input Box" class=xa maxLength=10 size=5 value=1 name=SearchResultsTableRN1:Quantity:3>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD>
+<SCRIPT id=QuantSpacer>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD>
+<TABLE id=SearchResultsTableRN1:UomText:3__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right><BR></TD>
+<TD><BR></TD>
+<TD vAlign=top><SPAN id=SearchResultsTableRN1:UomText:3 class=x2>Each</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD>
+<TD id=SearchResultsTableRN1:AddToCartSpacerCell:3>
+<SCRIPT id=AddToCartSpacer>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD id=SearchResultsTableRN1:AddToCartButtonCell:3><BUTTON onclick="_uixspu('DefaultFormName',1,'addToCart','AddToCart',0,1,{'_FORM_SUBMIT_BUTTON':'_fwkActBtnName_AddToCart_addToCart','ResultsVOName':'SimpleSearchVO','ItemKey':'l#486734#-2#-2#-2#1806','evtSrcRowId':'RequisitionAM.SimpleSearchVOl#486734#-2#-2#-2#1806','evtSrcRowIdx':'3'});return false;" id=SearchResultsTableRN1:AddToCart:3 title="Adds this item to your shopping cart." class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Add to Cart</BUTTON></TD></TR></TBODY></TABLE></TD>
+<TD id=SearchResultsTableRN1:AddToFavAndCompCell:3 align=right>
+<SCRIPT id=AddToFavSpcr>t('1','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=1><BUTTON onclick="_uixspu('DefaultFormName',1,'AddToFavorites','AddToFavorites',0,1,{'_FORM_SUBMIT_BUTTON':'_fwkActBtnName_AddToFavorites_AddToFavorites','ResultsVOName':'SimpleSearchVO','ItemKey':'l#486734#-2#-2#-2#1806','evtSrcRowId':'RequisitionAM.SimpleSearchVOl#486734#-2#-2#-2#1806','evtSrcRowIdx':'3'});return false;" id=SearchResultsTableRN1:AddToFavorites:3 title="Adds this item to your Favorites List." class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Add to Favorites</BUTTON>
+<SCRIPT id=AddToCompSpcr>t('1','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=1><BUTTON onclick="_uixspu('DefaultFormName',1,'addToCompare','AddToCompare',0,1,{'_FORM_SUBMIT_BUTTON':'_fwkActBtnName_AddToCompare_addToCompare','ResultsVOName':'SimpleSearchVO','ItemKey':'l#486734#-2#-2#-2#1806','evtSrcRowId':'RequisitionAM.SimpleSearchVOl#486734#-2#-2#-2#1806','evtSrcRowIdx':'3'});return false;" id=SearchResultsTableRN1:AddToCompare:3 title="Adds this item to your Item Compare list." class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Add to Compare</BUTTON></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class="x1t x57">
+<TABLE id=SearchResultsTableRN1:ItemTableLayout:4 cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR id=SearchResultsTableRN1:ItemRow:4>
+<TD id=SearchResultsTableRN1:ImageCell:4 width=1><IMG id=SearchResultsTableRN1:Image:4 border=0 name=SearchResultsTableRN1:Image:4 alt="This item has no image." src="/OA_MEDIA/ag_placeholder_thumbnail.gif" align=middle></TD>
+<TD id=SearchResultsTableRN1:DetailsSpacerCell:4 width=5><BR></TD>
+<TD id=SearchResultsTableRN1:DetailsCell:4>
+<TABLE id=SearchResultsTableRN1:DetailsTableLayout:4 cellSpacing=0 cellPadding=0 width="100%" align=left border=0>
+<TBODY>
+<TR id=SearchResultsTableRN1:ShortDescRow:4>
+<TD id=SearchResultsTableRN1:ShortDescCell:4 width="100%" colSpan=3>
+<TABLE id=SearchResultsTableRN1:ShortDesc:4__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right><BR></TD>
+<TD><BR></TD>
+<TD vAlign=top><A onclick="submitForm('DefaultFormName',1,{'ResultsVOName':'SimpleSearchVO','serverValidate':'1','ItemKey':'l#486735#-2#-2#-2#1806',event:'detail',source:'SearchResultsTableRN1:ShortDesc:4'});return false;" id=SearchResultsTableRN1:ShortDesc:4 class=xh href="#">MOTOR, ELECTRIC;FEED,PN:5230-AK-SP-003,F/HYUNDAI ROTEM AIR KNIFE (PRIMARY), MODEL: FC-84200-12-0-3 HP</A>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR>
+<TR id=SearchResultsTableRN1:LongDescRow:4>
+<TD id=SearchResultsTableRN1:LongDescCell:4 colSpan=3>
+<TABLE id=SearchResultsTableRN1:LongDesc:4__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right><BR></TD>
+<TD><BR></TD>
+<TD vAlign=top><SPAN id=SearchResultsTableRN1:LongDesc:4 class=x0>MOTOR, ELECTRIC; TYPE: FEED; PN:5230-AK-SP-003; MER_ID:RM-C07-0217, F/HYUNDAI ROTEM AIR KNIFE (PRIMARY), MODEL: FC-84200-12-0-3 HP</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR>
+<TR id=SearchResultsTableRN1:AttributesRow:4>
+<TD id=SearchResultsTableRN1:AttributesCell:4 width="100%" colSpan=3>
+<TABLE id=SearchResultsTableRN1:AttributesMclRN:4 cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD width=20>
+<SCRIPT>t(20)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20></TD>
+<TD vAlign=top width="50%">
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR id=SearchResultsTableRN1:Attribute1:4__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Shopping Category</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%"><SPAN id=SearchResultsTableRN1:Attribute1:4></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR id=SearchResultsTableRN1:Attribute2:4__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Supplier Item</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%"><SPAN id=SearchResultsTableRN1:Attribute2:4></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR id=SearchResultsTableRN1:PriceMessageLayoutRN:4__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Price</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%">
+<TABLE id=SearchResultsTableRN1:PriceRow:4 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD>
+<TABLE id=SearchResultsTableRN1:Price:4__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right><BR></TD>
+<TD><BR></TD>
+<TD vAlign=top><SPAN id=SearchResultsTableRN1:Price:4 class=x2>0</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD>
+<SCRIPT id=PriceSpacer4>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD>
+<TABLE id=SearchResultsTableRN1:Currency:4__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right><BR></TD>
+<TD><BR></TD>
+<TD vAlign=top><SPAN id=SearchResultsTableRN1:Currency:4 class=x2>SAR</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%">
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR id=SearchResultsTableRN1:Attribute4:4__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Supplier</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%"><SPAN id=SearchResultsTableRN1:Attribute4:4></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR id=SearchResultsTableRN1:Attribute5:4__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Internal Item Number</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%"><SPAN id=SearchResultsTableRN1:Attribute5:4 title="Internal Item Number" class=x2>1000015359</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR id=SearchResultsTableRN1:Attribute6:4__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Source</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%"><SPAN id=SearchResultsTableRN1:Attribute6:4></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+<TR id=SearchResultsTableRN1:ControlsRow:4>
+<TD id=SearchResultsTableRN1:AddToCartTopCell:4>
+<TABLE id=SearchResultsTableRN1:AddToCartTableLayout:4 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR id=SearchResultsTableRN1:AddtoCartRow:4>
+<TD id=SearchResultsTableRN1:QuantityFormatCell:4 align=left>
+<TABLE id=SearchResultsTableRN1:QuantityInputRow:4 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD>
+<TABLE id=SearchResultsTableRN1:Quantity:4__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD noWrap align=right><SPAN class=xc>Quantity</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top><INPUT onchange="" id=SearchResultsTableRN1:Quantity:4 title="Quantity Input Box" class=xa maxLength=10 size=5 value=1 name=SearchResultsTableRN1:Quantity:4>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD>
+<SCRIPT id=QuantSpacer>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD>
+<TABLE id=SearchResultsTableRN1:UomText:4__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right><BR></TD>
+<TD><BR></TD>
+<TD vAlign=top><SPAN id=SearchResultsTableRN1:UomText:4 class=x2>Each</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD>
+<TD id=SearchResultsTableRN1:AddToCartSpacerCell:4>
+<SCRIPT id=AddToCartSpacer>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD id=SearchResultsTableRN1:AddToCartButtonCell:4><BUTTON onclick="_uixspu('DefaultFormName',1,'addToCart','AddToCart',0,1,{'_FORM_SUBMIT_BUTTON':'_fwkActBtnName_AddToCart_addToCart','ResultsVOName':'SimpleSearchVO','ItemKey':'l#486735#-2#-2#-2#1806','evtSrcRowId':'RequisitionAM.SimpleSearchVOl#486735#-2#-2#-2#1806','evtSrcRowIdx':'4'});return false;" id=SearchResultsTableRN1:AddToCart:4 title="Adds this item to your shopping cart." class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Add to Cart</BUTTON></TD></TR></TBODY></TABLE></TD>
+<TD id=SearchResultsTableRN1:AddToFavAndCompCell:4 align=right>
+<SCRIPT id=AddToFavSpcr>t('1','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=1><BUTTON onclick="_uixspu('DefaultFormName',1,'AddToFavorites','AddToFavorites',0,1,{'_FORM_SUBMIT_BUTTON':'_fwkActBtnName_AddToFavorites_AddToFavorites','ResultsVOName':'SimpleSearchVO','ItemKey':'l#486735#-2#-2#-2#1806','evtSrcRowId':'RequisitionAM.SimpleSearchVOl#486735#-2#-2#-2#1806','evtSrcRowIdx':'4'});return false;" id=SearchResultsTableRN1:AddToFavorites:4 title="Adds this item to your Favorites List." class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Add to Favorites</BUTTON>
+<SCRIPT id=AddToCompSpcr>t('1','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=1><BUTTON onclick="_uixspu('DefaultFormName',1,'addToCompare','AddToCompare',0,1,{'_FORM_SUBMIT_BUTTON':'_fwkActBtnName_AddToCompare_addToCompare','ResultsVOName':'SimpleSearchVO','ItemKey':'l#486735#-2#-2#-2#1806','evtSrcRowId':'RequisitionAM.SimpleSearchVOl#486735#-2#-2#-2#1806','evtSrcRowIdx':'4'});return false;" id=SearchResultsTableRN1:AddToCompare:4 title="Adds this item to your Item Compare list." class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Add to Compare</BUTTON></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class="x1t x57">
+<TABLE id=SearchResultsTableRN1:ItemTableLayout:5 cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR id=SearchResultsTableRN1:ItemRow:5>
+<TD id=SearchResultsTableRN1:ImageCell:5 width=1><IMG id=SearchResultsTableRN1:Image:5 border=0 name=SearchResultsTableRN1:Image:5 alt="This item has no image." src="/OA_MEDIA/ag_placeholder_thumbnail.gif" align=middle></TD>
+<TD id=SearchResultsTableRN1:DetailsSpacerCell:5 width=5><BR></TD>
+<TD id=SearchResultsTableRN1:DetailsCell:5>
+<TABLE id=SearchResultsTableRN1:DetailsTableLayout:5 cellSpacing=0 cellPadding=0 width="100%" align=left border=0>
+<TBODY>
+<TR id=SearchResultsTableRN1:ShortDescRow:5>
+<TD id=SearchResultsTableRN1:ShortDescCell:5 width="100%" colSpan=3>
+<TABLE id=SearchResultsTableRN1:ShortDesc:5__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right><BR></TD>
+<TD><BR></TD>
+<TD vAlign=top><A onclick="submitForm('DefaultFormName',1,{'ResultsVOName':'SimpleSearchVO','serverValidate':'1','ItemKey':'l#486736#-2#-2#-2#1806',event:'detail',source:'SearchResultsTableRN1:ShortDesc:5'});return false;" id=SearchResultsTableRN1:ShortDesc:5 class=xh href="#">TRANSMITTER;VIBRATION,PN:5230-AK-SP-004,EQ MODEL:FC-84200-12-0-3 HP HYUNDAI ROTEM,F/PRIMARY AIR-KNIFE</A>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR>
+<TR id=SearchResultsTableRN1:LongDescRow:5>
+<TD id=SearchResultsTableRN1:LongDescCell:5 colSpan=3>
+<TABLE id=SearchResultsTableRN1:LongDesc:5__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right><BR></TD>
+<TD><BR></TD>
+<TD vAlign=top><SPAN id=SearchResultsTableRN1:LongDesc:5 class=x0>TRANSMITTER; TYPE: VIBRATION; PN:5230-AK-SP-004; EQ MODEL:FC-84200-12-0-3 HP HYUNDAI ROTEM, MER_ID:RM-C07-0218, F/PRIMARY AIR-KNIFE</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR>
+<TR id=SearchResultsTableRN1:AttributesRow:5>
+<TD id=SearchResultsTableRN1:AttributesCell:5 width="100%" colSpan=3>
+<TABLE id=SearchResultsTableRN1:AttributesMclRN:5 cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD width=20>
+<SCRIPT>t(20)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20></TD>
+<TD vAlign=top width="50%">
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR id=SearchResultsTableRN1:Attribute1:5__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Shopping Category</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%"><SPAN id=SearchResultsTableRN1:Attribute1:5></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR id=SearchResultsTableRN1:Attribute2:5__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Supplier Item</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%"><SPAN id=SearchResultsTableRN1:Attribute2:5></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR id=SearchResultsTableRN1:PriceMessageLayoutRN:5__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Price</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%">
+<TABLE id=SearchResultsTableRN1:PriceRow:5 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD>
+<TABLE id=SearchResultsTableRN1:Price:5__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right><BR></TD>
+<TD><BR></TD>
+<TD vAlign=top><SPAN id=SearchResultsTableRN1:Price:5 class=x2>0</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD>
+<SCRIPT id=PriceSpacer4>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD>
+<TABLE id=SearchResultsTableRN1:Currency:5__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right><BR></TD>
+<TD><BR></TD>
+<TD vAlign=top><SPAN id=SearchResultsTableRN1:Currency:5 class=x2>SAR</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%">
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR id=SearchResultsTableRN1:Attribute4:5__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Supplier</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%"><SPAN id=SearchResultsTableRN1:Attribute4:5></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR id=SearchResultsTableRN1:Attribute5:5__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Internal Item Number</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%"><SPAN id=SearchResultsTableRN1:Attribute5:5 title="Internal Item Number" class=x2>1000015360</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR id=SearchResultsTableRN1:Attribute6:5__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Source</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%"><SPAN id=SearchResultsTableRN1:Attribute6:5></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+<TR id=SearchResultsTableRN1:ControlsRow:5>
+<TD id=SearchResultsTableRN1:AddToCartTopCell:5>
+<TABLE id=SearchResultsTableRN1:AddToCartTableLayout:5 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR id=SearchResultsTableRN1:AddtoCartRow:5>
+<TD id=SearchResultsTableRN1:QuantityFormatCell:5 align=left>
+<TABLE id=SearchResultsTableRN1:QuantityInputRow:5 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD>
+<TABLE id=SearchResultsTableRN1:Quantity:5__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD noWrap align=right><SPAN class=xc>Quantity</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top><INPUT onchange="" id=SearchResultsTableRN1:Quantity:5 title="Quantity Input Box" class=xa maxLength=10 size=5 value=1 name=SearchResultsTableRN1:Quantity:5>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD>
+<SCRIPT id=QuantSpacer>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD>
+<TABLE id=SearchResultsTableRN1:UomText:5__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right><BR></TD>
+<TD><BR></TD>
+<TD vAlign=top><SPAN id=SearchResultsTableRN1:UomText:5 class=x2>Each</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD>
+<TD id=SearchResultsTableRN1:AddToCartSpacerCell:5>
+<SCRIPT id=AddToCartSpacer>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD id=SearchResultsTableRN1:AddToCartButtonCell:5><BUTTON onclick="_uixspu('DefaultFormName',1,'addToCart','AddToCart',0,1,{'_FORM_SUBMIT_BUTTON':'_fwkActBtnName_AddToCart_addToCart','ResultsVOName':'SimpleSearchVO','ItemKey':'l#486736#-2#-2#-2#1806','evtSrcRowId':'RequisitionAM.SimpleSearchVOl#486736#-2#-2#-2#1806','evtSrcRowIdx':'5'});return false;" id=SearchResultsTableRN1:AddToCart:5 title="Adds this item to your shopping cart." class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Add to Cart</BUTTON></TD></TR></TBODY></TABLE></TD>
+<TD id=SearchResultsTableRN1:AddToFavAndCompCell:5 align=right>
+<SCRIPT id=AddToFavSpcr>t('1','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=1><BUTTON onclick="_uixspu('DefaultFormName',1,'AddToFavorites','AddToFavorites',0,1,{'_FORM_SUBMIT_BUTTON':'_fwkActBtnName_AddToFavorites_AddToFavorites','ResultsVOName':'SimpleSearchVO','ItemKey':'l#486736#-2#-2#-2#1806','evtSrcRowId':'RequisitionAM.SimpleSearchVOl#486736#-2#-2#-2#1806','evtSrcRowIdx':'5'});return false;" id=SearchResultsTableRN1:AddToFavorites:5 title="Adds this item to your Favorites List." class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Add to Favorites</BUTTON>
+<SCRIPT id=AddToCompSpcr>t('1','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=1><BUTTON onclick="_uixspu('DefaultFormName',1,'addToCompare','AddToCompare',0,1,{'_FORM_SUBMIT_BUTTON':'_fwkActBtnName_AddToCompare_addToCompare','ResultsVOName':'SimpleSearchVO','ItemKey':'l#486736#-2#-2#-2#1806','evtSrcRowId':'RequisitionAM.SimpleSearchVOl#486736#-2#-2#-2#1806','evtSrcRowIdx':'5'});return false;" id=SearchResultsTableRN1:AddToCompare:5 title="Adds this item to your Item Compare list." class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Add to Compare</BUTTON></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class="x1t x57">
+<TABLE id=SearchResultsTableRN1:ItemTableLayout:6 cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR id=SearchResultsTableRN1:ItemRow:6>
+<TD id=SearchResultsTableRN1:ImageCell:6 width=1><IMG id=SearchResultsTableRN1:Image:6 border=0 name=SearchResultsTableRN1:Image:6 alt="This item has no image." src="/OA_MEDIA/ag_placeholder_thumbnail.gif" align=middle></TD>
+<TD id=SearchResultsTableRN1:DetailsSpacerCell:6 width=5><BR></TD>
+<TD id=SearchResultsTableRN1:DetailsCell:6>
+<TABLE id=SearchResultsTableRN1:DetailsTableLayout:6 cellSpacing=0 cellPadding=0 width="100%" align=left border=0>
+<TBODY>
+<TR id=SearchResultsTableRN1:ShortDescRow:6>
+<TD id=SearchResultsTableRN1:ShortDescCell:6 width="100%" colSpan=3>
+<TABLE id=SearchResultsTableRN1:ShortDesc:6__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right><BR></TD>
+<TD><BR></TD>
+<TD vAlign=top><A onclick="submitForm('DefaultFormName',1,{'ResultsVOName':'SimpleSearchVO','serverValidate':'1','ItemKey':'l#486739#-2#-2#-2#1806',event:'detail',source:'SearchResultsTableRN1:ShortDesc:6'});return false;" id=SearchResultsTableRN1:ShortDesc:6 class=xh href="#">SPRING, COMPRESSION;PN:5230-AK-SP-007,TYPE: PRIMARY; F/HYUNDAI ROTEM AIR-KNIFE(SECONDARY), MODEL: FC-1880S-7’-0”- 0.4 HP</A>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR>
+<TR id=SearchResultsTableRN1:LongDescRow:6>
+<TD id=SearchResultsTableRN1:LongDescCell:6 colSpan=3>
+<TABLE id=SearchResultsTableRN1:LongDesc:6__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right><BR></TD>
+<TD><BR></TD>
+<TD vAlign=top><SPAN id=SearchResultsTableRN1:LongDesc:6 class=x0>SPRING, COMPRESSION; PN:5230-AK-SP-007; MER_ID:RM-C07-0221, TYPE: PRIMARY; F/HYUNDAI ROTEM AIR-KNIFE(SECONDARY), MODEL: FC-1880S-7’-0”- 0.4 HP</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR>
+<TR id=SearchResultsTableRN1:AttributesRow:6>
+<TD id=SearchResultsTableRN1:AttributesCell:6 width="100%" colSpan=3>
+<TABLE id=SearchResultsTableRN1:AttributesMclRN:6 cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD width=20>
+<SCRIPT>t(20)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20></TD>
+<TD vAlign=top width="50%">
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR id=SearchResultsTableRN1:Attribute1:6__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Shopping Category</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%"><SPAN id=SearchResultsTableRN1:Attribute1:6></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR id=SearchResultsTableRN1:Attribute2:6__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Supplier Item</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%"><SPAN id=SearchResultsTableRN1:Attribute2:6></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR id=SearchResultsTableRN1:PriceMessageLayoutRN:6__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Price</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%">
+<TABLE id=SearchResultsTableRN1:PriceRow:6 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD>
+<TABLE id=SearchResultsTableRN1:Price:6__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right><BR></TD>
+<TD><BR></TD>
+<TD vAlign=top><SPAN id=SearchResultsTableRN1:Price:6 class=x2>0</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD>
+<SCRIPT id=PriceSpacer4>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD>
+<TABLE id=SearchResultsTableRN1:Currency:6__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right><BR></TD>
+<TD><BR></TD>
+<TD vAlign=top><SPAN id=SearchResultsTableRN1:Currency:6 class=x2>SAR</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%">
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR id=SearchResultsTableRN1:Attribute4:6__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Supplier</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%"><SPAN id=SearchResultsTableRN1:Attribute4:6></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR id=SearchResultsTableRN1:Attribute5:6__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Internal Item Number</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%"><SPAN id=SearchResultsTableRN1:Attribute5:6 title="Internal Item Number" class=x2>1000015363</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR id=SearchResultsTableRN1:Attribute6:6__xc_>
+<TD vAlign=top width="50%" noWrap align=right><SPAN class=xc>Source</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top width="50%"><SPAN id=SearchResultsTableRN1:Attribute6:6></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+<TR id=SearchResultsTableRN1:ControlsRow:6>
+<TD id=SearchResultsTableRN1:AddToCartTopCell:6>
+<TABLE id=SearchResultsTableRN1:AddToCartTableLayout:6 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR id=SearchResultsTableRN1:AddtoCartRow:6>
+<TD id=SearchResultsTableRN1:QuantityFormatCell:6 align=left>
+<TABLE id=SearchResultsTableRN1:QuantityInputRow:6 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD>
+<TABLE id=SearchResultsTableRN1:Quantity:6__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD noWrap align=right><SPAN class=xc>Quantity</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top><INPUT onchange="" id=SearchResultsTableRN1:Quantity:6 title="Quantity Input Box" class=xa maxLength=10 size=5 value=1 name=SearchResultsTableRN1:Quantity:6>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD>
+<SCRIPT id=QuantSpacer>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD>
+<TABLE id=SearchResultsTableRN1:UomText:6__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right><BR></TD>
+<TD><BR></TD>
+<TD vAlign=top><SPAN id=SearchResultsTableRN1:UomText:6 class=x2>Each</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD>
+<TD id=SearchResultsTableRN1:AddToCartSpacerCell:6>
+<SCRIPT id=AddToCartSpacer>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD id=SearchResultsTableRN1:AddToCartButtonCell:6><BUTTON onclick="_uixspu('DefaultFormName',1,'addToCart','AddToCart',0,1,{'_FORM_SUBMIT_BUTTON':'_fwkActBtnName_AddToCart_addToCart','ResultsVOName':'SimpleSearchVO','ItemKey':'l#486739#-2#-2#-2#1806','evtSrcRowId':'RequisitionAM.SimpleSearchVOl#486739#-2#-2#-2#1806','evtSrcRowIdx':'6'});return false;" id=SearchResultsTableRN1:AddToCart:6 title="Adds this item to your shopping cart." class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Add to Cart</BUTTON></TD></TR></TBODY></TABLE></TD>
+<TD id=SearchResultsTableRN1:AddToFavAndCompCell:6 align=right>
+<SCRIPT id=AddToFavSpcr>t('1','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=1><BUTTON onclick="_uixspu('DefaultFormName',1,'AddToFavorites','AddToFavorites',0,1,{'_FORM_SUBMIT_BUTTON':'_fwkActBtnName_AddToFavorites_AddToFavorites','ResultsVOName':'SimpleSearchVO','ItemKey':'l#486739#-2#-2#-2#1806','evtSrcRowId':'RequisitionAM.SimpleSearchVOl#486739#-2#-2#-2#1806','evtSrcRowIdx':'6'});return false;" id=SearchResultsTableRN1:AddToFavorites:6 title="Adds this item to your Favorites List." class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Add to Favorites</BUTTON>
+<SCRIPT id=AddToCompSpcr>t('1','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=1><BUTTON onclick="_uixspu('DefaultFormName',1,'addToCompare','AddToCompare',0,1,{'_FORM_SUBMIT_BUTTON':'_fwkActBtnName_AddToCompare_addToCompare','ResultsVOName':'SimpleSearchVO','ItemKey':'l#486739#-2#-2#-2#1806','evtSrcRowId':'RequisitionAM.SimpleSearchVOl#486739#-2#-2#-2#1806','evtSrcRowIdx':'6'});return false;" id=SearchResultsTableRN1:AddToCompare:6 title="Adds this item to your Item Compare list." class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Add to Compare</BUTTON></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY></TBODY></TABLE></SPAN><SPAN id=SearchResultsTableRN1-hv><INPUT id=SearchResultsTableRN1:_pkItemKey:0 type=hidden value={!!wxgtWHbft-C4Mz7l8c7HMu6XoUFBPKXwCugXmoJu1zs name=SearchResultsTableRN1:_pkItemKey:0><INPUT id=SearchResultsTableRN1:_pkItemKey:1 type=hidden value={!!8GGuEiowIcUNkrw4jtMGV0dOjtNvVP3oHnqrvo3PFuE name=SearchResultsTableRN1:_pkItemKey:1><INPUT id=SearchResultsTableRN1:_pkItemKey:2 type=hidden value={!!Klmd1bo9Wmny1-sLV.CPzkdOjtNvVP3oHnqrvo3PFuE name=SearchResultsTableRN1:_pkItemKey:2><INPUT id=SearchResultsTableRN1:_pkItemKey:3 type=hidden value={!!.e6OFdbjDRb1DpQUtChdfkdOjtNvVP3oHnqrvo3PFuE name=SearchResultsTableRN1:_pkItemKey:3><INPUT id=SearchResultsTableRN1:_pkItemKey:4 type=hidden value={!!9MTdXeFeA5gVHRmhQZ8JIEdOjtNvVP3oHnqrvo3PFuE name=SearchResultsTableRN1:_pkItemKey:4><INPUT id=SearchResultsTableRN1:_pkItemKey:5 type=hidden value={!!oHMLFBoCjZF6IyqoofRbl0dOjtNvVP3oHnqrvo3PFuE name=SearchResultsTableRN1:_pkItemKey:5><INPUT id=SearchResultsTableRN1:_pkItemKey:6 type=hidden value={!!SrVSv9CgxC-CEN42nhdm70dOjtNvVP3oHnqrvo3PFuE name=SearchResultsTableRN1:_pkItemKey:6><INPUT type=hidden value=7 name=SearchResultsTableRN1:length></SPAN>
+<DIV></DIV>
+<DIV></DIV></DIV></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV></SPAN></DIV></DIV>
+<DIV></DIV>
+<DIV></DIV></DIV></SPAN>
+<DIV></DIV>
+<SCRIPT id=TipSpacer>t('10','10')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=10>
+<DIV></DIV><SPAN id=TipsRN>
+<DIV parent="OAStackLayoutBean, localName='stackLayout'"><A id=N41 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/SearchResultsPG.TipsRN" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FSearchResultsPG.TipsRN%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswSearchResultsPG.TipsRN%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1644739127%26oapc%3D9%26oas%3DE6myp-m7MApZsm1Aohbdiw..%22)">Personalize Stack Layout: (TipsRN)</A></DIV>
+<DIV></DIV>
+<TABLE id=MoreOptions cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD vAlign=top><IMG src="/OA_HTML/cabo/images/swan/tip.gif" width=15 height=13></TD>
+<TD class=x5f vAlign=top noWrap>TIP&nbsp;</TD>
+<TD class=x5g vAlign=top width="100%">Can't find it? Try the following options:</TD></TR></TBODY></TABLE>
+<DIV></DIV><SPAN id=ExpandRN>
+<DIV parent="OAFlowLayoutBean, localName='flowLayout'"><A id=N42 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/SearchResultsPG.ExpandRN" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FSearchResultsPG.ExpandRN%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswSearchResultsPG.ExpandRN%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1644739127%26oapc%3D9%26oas%3DEEVpcxMFzT0qdxxfpzNCbQ..%22)">Personalize Flow Layout: (ExpandRN)</A></DIV>
+<SCRIPT id=ExpandSpacer>t('15','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=15 height=1><A onclick="submitForm('DefaultFormName',1,{'evtSrcRowIdx':'','evtSrcRowId':'',event:'expand',source:'ExpandSearch'});return false;" id=ExpandSearch class=xh href="#">Look for any of the words, similar words, or spelling variations</A></SPAN></SPAN>
+<DIV></DIV><INPUT id=_fwkAbsolutePageName type=hidden value=/oracle/apps/icx/icatalog/shopping/webui/SearchResultsPG::: name=_fwkAbsolutePageName>
+<DIV>
+<DIV>
+<SCRIPT>t(1,9)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=9></DIV>
+<DIV>
+<SCRIPT>t(1,10)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=10></DIV></DIV></TD>
+<TD vAlign=top>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD>
+<SCRIPT>t('1','5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=5></TD></TR>
+<TR>
+<TD>
+<DIV id=ShoppingCartRN_p13n><A id=N46 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingCartRN" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingCartRN%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingCartRN%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1644739127%26oapc%3D9%26oas%3DVmgbVoKrCVCfmNAcL0aMbQ..%22)">Personalize Stack Layout</A>
+<DIV></DIV>
+<DIV></DIV><SPAN id=ShoppingCartRN>
+<SCRIPT id=ContainerBeginSpacer>t('1','5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=5>
+<DIV></DIV>
+<TABLE id=ShoppingCartContRN class=xu cellSpacing=0 cellPadding=0 width=230 border=0>
+<TBODY>
+<TR>
+<TD height=21 background=/OA_HTML/cabo/images/swan/hBar-L.gif></TD>
+<TD class=xw background=/OA_HTML/cabo/images/swan/hBar-Bg.gif>Shopping Cart</TD>
+<TD height=21 background=/OA_HTML/cabo/images/swan/hBar-R.gif></TD></TR>
+<TR>
+<TD class=xx colSpan=3>
+<DIV>
+<DIV id=ContainerTableLayoutRN_p13n><A id=N47 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingCartRN.ContainerTableLayoutRN" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingCartRN.ContainerTableLayoutRN%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingCartRN.ContainerTableLayoutRN%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1644739127%26oapc%3D9%26oas%3DkDr1pO08kLm94gzbjA0cpg..%22)">Personalize Table Layout: (ContainerTableLayoutRN)</A>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=ContainerTableLayoutRN cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR id=NumberOfLinesRow vAlign=top>
+<TD id=NumberOfLinesCell>
+<TABLE id=NumberOfLines__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><SPAN id=NumberOfLines class=x0>Your cart is empty.</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR>
+<TR id=SpacerRow>
+<TD>
+<SCRIPT id=HeadingSpacer>t('1','7')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=7></TD></TR>
+<TR id=HeadingRow></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV><BR>
+<SCRIPT id=SavedCartSpacer>t('1','3')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=3><BR>
+<DIV id=ButtonTableLayout_p13n><A id=N49 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingCartRN.ButtonTableLayout" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingCartRN.ButtonTableLayout%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingCartRN.ButtonTableLayout%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1644739127%26oapc%3D9%26oas%3Dk2nG6Rjh_aJEpOrrVIAZ4w..%22)">Personalize Table Layout: (ButtonTableLayout)</A>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=ButtonTableLayout cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR id=ButtonRow></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV></DIV></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<SCRIPT id=ShoppingCartSpacer>t('230','5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=230 height=5></SPAN>
+<DIV></DIV>
+<DIV></DIV></DIV>
+<DIV></DIV>
+<DIV id=CompareItemsRN_p13n><A id=N50 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/CompareItemsRN" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FCompareItemsRN%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswCompareItemsRN%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1644739127%26oapc%3D9%26oas%3DR62JsdsdtZhEirutqCL6Hw..%22)">Personalize Stack Layout</A>
+<DIV></DIV>
+<DIV></DIV><SPAN id=CompareItemsRN>
+<TABLE id=CompareItemsContRN class=xu cellSpacing=0 cellPadding=0 width=230 border=0>
+<TBODY>
+<TR>
+<TD height=21 background=/OA_HTML/cabo/images/swan/hBar-L.gif></TD>
+<TD class=xw background=/OA_HTML/cabo/images/swan/hBar-Bg.gif>Compare Items</TD>
+<TD height=21 background=/OA_HTML/cabo/images/swan/hBar-R.gif></TD></TR>
+<TR>
+<TD class=xx colSpan=3>
+<DIV><SPAN id=NoItemsSelected class=x0>No items selected.</SPAN><BR>
+<SCRIPT id=CompareItemsContSpacer>t('1','5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=5></DIV></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<SCRIPT id=CompareItemsSpacer>t('230','5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=230 height=5></SPAN>
+<DIV></DIV>
+<DIV></DIV></DIV>
+<DIV></DIV>
+<DIV id=RelatedLinksRN_p13n><A id=N53 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/RelatedLinksRN" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FRelatedLinksRN%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswRelatedLinksRN%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1644739127%26oapc%3D9%26oas%3D-05maJ-tmI3PKmSi0PQ9bw..%22)">Personalize Stack Layout</A>
+<DIV></DIV>
+<DIV></DIV><SPAN id=RelatedLinksRN>
+<TABLE id=RelatedLinksContRN class=xu cellSpacing=0 cellPadding=0 width=230 border=0>
+<TBODY>
+<TR>
+<TD height=21 background=/OA_HTML/cabo/images/swan/hBar-L.gif></TD>
+<TD class=xw background=/OA_HTML/cabo/images/swan/hBar-Bg.gif>Related Links</TD>
+<TD height=21 background=/OA_HTML/cabo/images/swan/hBar-R.gif></TD></TR>
+<TR>
+<TD class=xx colSpan=3>
+<DIV><SPAN id=Categories class=x44>Categories</SPAN><BR>
+<DIV id=CategoriesTableLayout_p13n><A id=N54 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/RelatedLinksRN.CategoriesTableLayout" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FRelatedLinksRN.CategoriesTableLayout%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswRelatedLinksRN.CategoriesTableLayout%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1644739127%26oapc%3D9%26oas%3D5M1y0h0aPko1E1qhsrnRUg..%22)">Personalize Table Layout: (CategoriesTableLayout)</A>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=CategoriesTableLayout cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR id=CategoriesRow_0__233>
+<TD id=CategoryImageCell_0__233 vAlign=top width="5%"><IMG id=CategoryImage_0__233 border=0 name=CategoryImage_0__233 alt="Related categories" src="/OA_MEDIA/bullseye_inlinestatus.gif"></TD>
+<TD id=CategoryCell_0__233>
+<TABLE id=Category_0__233__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><A onclick="submitForm('DefaultFormName',1,{'RelatedLinksCatId':'{!!QXRK.F-M57VTdswU14-lzw','RelatedLinksCatName':'{!!S.n6LP3C69DHSxVKQoekJBT-v2v39QXD95qm-NhxzFA','evtSrcRowId':'RequisitionAM.RelatedCategoriesVO','evtSrcRowIdx':'0',event:'categoryBrowse',source:'Category'});return false;" id=Category_0__233 class=xh href="#">SERVICES.MISC</A>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE><INPUT id=CategoryId_0__233 type=hidden value=100333 name=CategoryId_0__233><INPUT id=CategoryName_0__233 type=hidden value=SERVICES.MISC name=CategoryName_0__233></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV><BR><A onclick="submitForm('DefaultFormName',1,{'evtSrcRowIdx':'','evtSrcRowId':'',event:'categoryMatches',source:'MoreCategories'});return false;" id=MoreCategories class=xh href="#">More...</A><BR>
+<SCRIPT id=RelatedLinksContSpacer>t('1','20')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=20><BR><SPAN id=ShoppingLists class=x44>Shopping Lists</SPAN><BR><A onclick="submitForm('DefaultFormName',1,{'evtSrcRowIdx':'','evtSrcRowId':'',event:'shopListMatches',source:'SeeAllShopLists'});return false;" id=SeeAllShopLists class=xh href="#">Click here to see all related shopping lists.</A></DIV></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<SCRIPT id=RelatedLinksSpacer>t('230','5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=230 height=5></SPAN>
+<DIV></DIV>
+<DIV></DIV></DIV></TD></TR></TBODY></TABLE></TD>
+<TD>
+<SCRIPT>t(0,0)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=0 height=0></TD></TR></TBODY></TABLE>
+<TABLE class=x70 style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/footerBg.gif)" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD noWrap align=center>
+<TABLE cellSpacing=0 cellPadding=0 align=center border=0>
+<TBODY>
+<TR>
+<TD id=ICXPOR_SHOP align=center><A class=x15 href="/OA_HTML/OA.jsp?page=/oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG&amp;_ti=1644739127&amp;oapc=9&amp;OAMC=78349_88_0&amp;menu=Y&amp;oaMenuLevel=1&amp;oas=wsNqMSTK-kQr_FHZqBawxQ..">Shop</A></TD>
+<TD id=ICXPOR_REQSTATUS align=center><A class=x15 href="/OA_HTML/OA.jsp?page=/oracle/apps/icx/por/reqmgmt/webui/ReqSummaryPG&amp;_ti=1644739127&amp;oapc=9&amp;OAMC=78349_101_0&amp;menu=Y&amp;oaMenuLevel=1&amp;oas=hwIM7MLheH1y4HQLpWVlyg..">Requisitions</A></TD>
+<TD id=ICXPOR_RECEIVING_HOME align=center><A class=x15 href="/OA_HTML/OA.jsp?page=/oracle/apps/icx/por/rcv/webui/IcxPorRcvHomePG&amp;_ti=1644739127&amp;oapc=9&amp;OAMC=78349_141_0&amp;menu=Y&amp;oaMenuLevel=1&amp;oas=NeOrOLrFfrNxAGt8gnxLaA..">Receiving</A></TD>
+<TD id=ICX_POR_CONTRACTOR align=center><A class=x15 href="/OA_HTML/OA.jsp?page=/oracle/apps/icx/por/contractor/webui/ContractorHomePG&amp;_ti=1644739127&amp;oapc=9&amp;OAMC=78349_160_0&amp;menu=Y&amp;oaMenuLevel=1&amp;oas=zAX9iKI_gczHl4zzeVG-KQ..">Contractors</A></TD>
+<TD align=center><A class=x15 href="/OA_HTML/OA.jsp?page=/oracle/apps/icx/por/req/webui/ShoppingCartPG&amp;OASF=ICX_POR_SHOPPING_CART&amp;_ti=1644739127&amp;oapc=9&amp;OAMC=78349_75_0&amp;menu=Y&amp;oas=ZJDUYbjeXGbPjHuXuTZhyw..">Shopping Cart</A></TD>
+<TD align=center><A class=x15 href="OA.jsp?_rc=FNDPORTALRELEASEAM&amp;_ri=0&amp;retainAM=N&amp;_ti=1644739127&amp;oapc=9&amp;OAMC=78349_77_0&amp;menu=Y&amp;oas=0fFkT4OTIhx6bIOjySrRWA..">Home</A></TD>
+<TD align=center><A class=x15 href="/OA_HTML/OALogout.jsp?menu=Y">Logout</A></TD>
+<TD align=center><A class=x15 href="/OA_HTML/OA.jsp?page=/oracle/apps/fnd/preferences/webui/PreferencesPG&amp;retainAM=Y&amp;_ti=1644739127&amp;oapc=9&amp;OAMC=78349_79_0&amp;menu=Y&amp;addBreadCrumb=S&amp;OAPF=Y&amp;oas=YhniZiJImz2H7mcIXdnTyA..">Preferences</A></TD>
+<TD align=center><A class=x15 href="javascript:top.help_window()">Help</A></TD>
+<TD align=center><A class=x15 href="javascript:ignoreWarnAboutChanges(%22%2FOA_HTML%2FOA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FSearchResultsPG.PageLayoutRN%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswSearchResultsPG.PageLayoutRN%26pv%3DSPS%26_ti%3D1644739127%26oapc%3D9%26OAIG%3D11213%26menu%3DY%26oas%3DWyw4pmnNKOOaGh7vKL2KIQ..%22)">Personalize Page</A></TD>
+<TD align=center><A class=x15 href="/OA_HTML/OA.jsp?_rc=FND_DIAGNOSTICS_PAGE&amp;_ri=0&amp;retainAM=Y&amp;LogRetUrl=%2FOA_HTML%2FOA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ficx%2Ficatalog%2Fshopping%2Fwebui%2FSearchResultsPG%26searchOrigin%3Dsearch%26searchText%3DHP%2525%26mode%3Dsearch%26transactionid%3D1644739127%26retainAM%3DY%26addBreadCrumb%3DY%26oas%3D29Q0NIJCNYycRnaGwp2iQA..&amp;_ti=1644739127&amp;oapc=9&amp;OAIG=9404&amp;menu=Y&amp;oas=k41S-5O3I2A8K6-xSRjBbw..">Diagnostics</A></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD>
+<TABLE cellSpacing=2 cellPadding=2 width="100%" border=0>
+<TBODY>
+<TR>
+<TD class=x14 noWrap align=left><A onclick="submitForm('DefaultFormName',0,{'serverValidate':'1',event:'about'});return false;" href="#">About this Page</A></TD>
+<TD>
+<SCRIPT>t('10','10')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=10></TD>
+<TD class=x13 noWrap align=left><A title="Privacy Statement" href="http://personalize.this.link" target=_blank>Privacy Statement</A></TD>
+<TD class=x12 width="100%" noWrap align=right><SPAN id=N32>Copyright (c) 2006, Oracle. All rights reserved.</SPAN></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></SPAN><INPUT id=_fwkActBtnName_ViewShoppingList_viewShoppingList$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_ViewShoppingList_viewShoppingList$$serverUnvalidated><INPUT id=_fwkActBtnName_GoSort_sort$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_GoSort_sort$$serverUnvalidated><INPUT id=_fwkActBtnName_AddFilter_addFilter$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_AddFilter_addFilter$$serverUnvalidated><INPUT id=_fwkActBtnName_AddToCart_addToCart$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_AddToCart_addToCart$$serverUnvalidated><INPUT id=_fwkActBtnName_AddToFavorites_AddToFavorites$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_AddToFavorites_AddToFavorites$$serverUnvalidated><INPUT id=_fwkActBtnName_AddToCompare_addToCompare$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_AddToCompare_addToCompare$$serverUnvalidated><INPUT id=_fwkActBtnName_DeleteFavorites_deleteFavorite$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_DeleteFavorites_deleteFavorite$$serverUnvalidated><INPUT id=_fwkActBtnName_HideThumbnail_hideThumbnail$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_HideThumbnail_hideThumbnail$$serverUnvalidated><INPUT id=_fwkActBtnName_ViewAllResults_viewAllResults$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_ViewAllResults_viewAllResults$$serverUnvalidated><INPUT id=_fwkActBtnName_AddAllToCart_addAllItemsToCart$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_AddAllToCart_addAllItemsToCart$$serverUnvalidated><INPUT id=SearchResultsTableRN1$$unvalidated type=hidden value=false name=SearchResultsTableRN1$$unvalidated><INPUT id=_fwkActBtnName_ExpandSearch_expand$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_ExpandSearch_expand$$serverUnvalidated><INPUT id=_fwkActBtnName_SearchBoxGo_search$$unvalidated type=hidden value=false name=_fwkActBtnName_SearchBoxGo_search$$unvalidated><INPUT id=_fwkActBtnName_SearchBoxGo_search$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_SearchBoxGo_search$$serverUnvalidated><INPUT id=_fwkActBtnName_SearchBoxGo_search$$processFormDataCalled type=hidden value=true name=_fwkActBtnName_SearchBoxGo_search$$processFormDataCalled><INPUT id=SearchBoxGo$$unvalidated type=hidden value=false name=SearchBoxGo$$unvalidated><INPUT id=SearchBoxGo$$serverUnvalidated type=hidden value=false name=SearchBoxGo$$serverUnvalidated><INPUT id=SearchBoxGo$$processFormDataCalled type=hidden value=true name=SearchBoxGo$$processFormDataCalled><INPUT id=_fwkActBtnName_AdvancedSearchLink_advancedSearch$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_AdvancedSearchLink_advancedSearch$$serverUnvalidated><INPUT id=_fwkActBtnName_Clear_clear$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_Clear_clear$$serverUnvalidated><INPUT id=_fwkActBtnName_Compare_compare$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_Compare_compare$$serverUnvalidated><INPUT id=_fwkActBtnName_Category_categoryBrowse$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_Category_categoryBrowse$$serverUnvalidated><INPUT id=_fwkActBtnName_MoreCategories_categoryMatches$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_MoreCategories_categoryMatches$$serverUnvalidated><INPUT id=_fwkActBtnName_SeeAllShopLists_shopListMatches$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_SeeAllShopLists_shopListMatches$$serverUnvalidated><SPAN id=_DefaultFormName_Postscript><INPUT type=hidden name=_FORMEVENT><INPUT type=hidden name=serverValidate><INPUT type=hidden name=evtSrcRowIdx><INPUT type=hidden name=evtSrcRowId><INPUT type=hidden name=_FORM_SUBMIT_BUTTON><INPUT type=hidden name=event><INPUT type=hidden name=source><INPUT type=hidden name=SearchBoxCmd><INPUT type=hidden name=ResultsVOName><INPUT type=hidden name=ItemKey><INPUT type=hidden name=partialTargets><INPUT type=hidden name=partial><INPUT type=hidden name=value><INPUT type=hidden name=size><INPUT type=hidden name=SearchCmd><INPUT type=hidden name=ContentId><INPUT type=hidden name=SupplierName><INPUT type=hidden name=RelatedLinksCatId><INPUT type=hidden name=RelatedLinksCatName><INPUT type=hidden name=RelatedLinksCmd>
+<SCRIPT>var _resetDefaultFormNameNames=["_FORMEVENT","serverValidate","evtSrcRowIdx","evtSrcRowId","_FORM_SUBMIT_BUTTON","event","source","SearchBoxCmd","ResultsVOName","ItemKey","partialTargets","partial","value","size","SearchCmd","ContentId","SupplierName","RelatedLinksCatId","RelatedLinksCatName","RelatedLinksCmd"];</SCRIPT>
+
+<SCRIPT>var _DefaultFormName_Validations=['new DecimalFormat().validate(%value%)'];function _DefaultFormNameValidater(form){var fl = _multiValidate(form,[0,"SearchResultsTableRN1:Quantity:0",0,1,0,"SearchResultsTableRN1:Quantity:1",0,1,0,"SearchResultsTableRN1:Quantity:2",0,1,0,"SearchResultsTableRN1:Quantity:3",0,1,0,"SearchResultsTableRN1:Quantity:4",0,1,0,"SearchResultsTableRN1:Quantity:5",0,1,0,"SearchResultsTableRN1:Quantity:6",0,1]);if(fl.length>0){_validationAlert('Form validation failures:'+fl);return false;}else{return true;}}var _DefaultFormName_Labels={'SearchResultsTableRN1:Quantity:0':'Quantity','SearchResultsTableRN1:Quantity:1':'Quantity','SearchResultsTableRN1:Quantity:2':'Quantity','SearchResultsTableRN1:Quantity:3':'Quantity','SearchResultsTableRN1:Quantity:4':'Quantity','SearchResultsTableRN1:Quantity:5':'Quantity','SearchResultsTableRN1:Quantity:6':'Quantity'};var _DefaultFormName_Formats=['Value "%value%" in "%label%" is not a number.'];function _submitOnEnter(e,frm){return (_getKC(e)!=13);}</SCRIPT>
+</SPAN>
+<SCRIPT>_submitFormCheck();</SCRIPT>
+</FORM>
+<DIV id=LLAOutput style="POSITION: absolute; VISIBILITY: hidden">
+<TABLE cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD>
+<DIV id=suggestData>
+<TABLE id=lovSuggestTable class=OraTableContent cellSpacing=0 cellPadding=2 width="100%" border=1>
+<TBODY></TBODY></TABLE></DIV></TD>
+<TD vAlign=top background=/OA_MEDIA/rtshdwbg.gif><IMG src="/OA_MEDIA/topshdw.gif" width=5 height=5></TD></TR>
+<TR>
+<TD vAlign=middle align=right>
+<TABLE id=navigationTable class="OraTableControlBarBottom OraTableBorder1111" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY></TBODY></TABLE></TD>
+<TD background=/OA_MEDIA/rtshdwbg.gif></TD></TR>
+<TR>
+<TD background=/OA_MEDIA/btmshdwbg.gif><IMG src="/OA_MEDIA/btmshdw.gif" width=5 height=5></TD>
+<TD background=/OA_MEDIA/btmshdwbg.gif><IMG src="/OA_MEDIA/btmshdwbg.gif" width=1 height=5></TD></TR></TBODY></TABLE></DIV><IFRAME title="Forms Launcher" height=5 src="http://riyoramgbm02.maaden.com:8050/OA_HTML/blank.html" frameBorder=no width=5 name=formsLauncher scrolling=no></IFRAME></SPAN><INPUT disabled id=_pprSaveLib type=hidden><INPUT disabled id=_pprSaveScript type=hidden><INPUT disabled id=_pprSavePage type=hidden>
+<SCRIPT>var _uixDoneMessage="Done."</SCRIPT>
+
+<SCRIPT>document.body.style.marginLeft="0px";document.body.style.marginRight="0px";document.body.style.marginTop="0px";</SCRIPT>
+<!-- Created by Oracle UIX , Accessibility:disabled, laf:swan.desktop (swan) --> 
+<UL id=MenuList class=submenustyle _master="topmenubar" _pos="0"></UL>
+<UL id=FavList class=submenustyle _master="topmenubar" _pos="1"></UL></BODY></HTML>

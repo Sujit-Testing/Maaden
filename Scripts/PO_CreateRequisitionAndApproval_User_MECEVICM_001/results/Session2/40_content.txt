@@ -1,0 +1,242 @@
+<HTML lang=ar-US-ORACLE9I style="VISIBILITY: visible" dir=rtl><HEAD><TITLE>تسجيل الدخول</TITLE>
+<META name=generator content="Oracle UIX"><LINK rel=stylesheet type=text/css href="/OA_HTML/cabo/styles/cache/swan-desktop-custom-2_3_6_9-ar-rtl-ie-windows.css" charset=UTF-8>
+<SCRIPT>var _UixWindowOpenError='تم اكتشاف مانع للنوافذ المنبثقة في المستعرض الخاص بك. تتداخل موانع النوافذ المنبثقة مع العملية الخاصة بهذا التطبيق. الرجاء تعطيل مانع النوافذ المنبثقة أو السماح بالنوافذ المنبثقة من هذا الموقع.';</SCRIPT>
+
+<SCRIPT src="/OA_HTML/cabo/jsLibs/Common2_3_6_9.js"></SCRIPT>
+
+<SCRIPT>_defaultTZ()</SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oafcoreR121.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oafb.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/OAFSlideoutMenu.js"></SCRIPT>
+</HEAD>
+<BODY class=xk onload=_checkLoad(event) style="MARGIN-TOP: 0px; MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px" onbeforeunload=_savePageStateIE() onunload=_checkUnload(event)><IFRAME id=_pprIFrame title="" style="POSITION: absolute; TOP: -100px; VISIBILITY: hidden" height=0 longDesc=# src="/OA_HTML/cabo/images/swan/t.htm" frameBorder=0 width=0 name=_pprIFrame></IFRAME>
+<DIV onclick="return _pprConsumeClick(event);" onkeypress="return false;" onkeyup="return false;" id=_pprBlockingDiv onkeydown="return false;" style="CURSOR: wait; HEIGHT: 0px; WIDTH: 0px; POSITION: absolute; LEFT: 0px; TOP: 0px"></DIV>
+<DIV id=_uixDownload class=x3f style="BEHAVIOR: url(#default#download)"></DIV>
+<SCRIPT>var _cachedLibs;</SCRIPT>
+
+<SCRIPT>var _pprFirstClickPass=true;</SCRIPT>
+<SPAN id=_pprPageContent>
+<SCRIPT id=_initialFocusScript>_initialFocusID='usernameField';</SCRIPT>
+
+<FORM id=DefaultFormName style="MARGIN: 0px" method=post name=DefaultFormName action=/OA_HTML/OA.jsp?page=/oracle/apps/fnd/sso/login/webui/MainLoginPG&amp;_ri=0&amp;_ti=703495554&amp;language_code=AR&amp;cancelUrl=http%3A%2F%2Friyoramgbm02.maaden.com%3A8050%2FOA_HTML%2FAppsLocalLogin.jsp&amp;requestUrl=APPSHOMEPAGE&amp;oapc=4&amp;oas=7NiEqB6sKbWsnFFVOPLqzA..><INPUT id=_AM_TX_ID_FIELD type=hidden value=1 name=_AM_TX_ID_FIELD><INPUT id=_FORM type=hidden value=DefaultFormName name=_FORM><SPAN id=lovHFCId></SPAN><SPAN id=MainRN class=x9j>
+<TABLE class=x6v style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/headerBg.jpg)" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD>
+<SCRIPT>var _tURL="\x2FOA_HTML\x2Fcabo\x2Fimages\x2Fswan\x2Ft.gif";var _axm;t('10','10')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=10></TD></TR>
+<TR>
+<TD>
+<TABLE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap><IMG border=0 alt=Maaden_logo1.jpg src="/OA_MEDIA/Maaden_logo1.jpg"></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD>
+<SCRIPT>t('10','10')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=10></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD width="100%">
+<TABLE class=x74 style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/navBarUnderTopTabsBg.gif)" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV class=x6u style="HEIGHT: auto">
+<TABLE id=FwkErrorBeanId cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV>
+<DIV class=x7y>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR vAlign=top>
+<TD></TD>
+<TD noWrap align=right></TD></TR></TBODY></TABLE>
+<DIV></DIV><NOSCRIPT></NOSCRIPT>
+<DIV></DIV>
+<TABLE id=LoginRN class=x9h cellSpacing=0 cellPadding=0 width="100%" align=center border=0>
+<TBODY>
+<TR id=region3login class=LoginBgImg vAlign=top>
+<TD id=region4login vAlign=top><IMG id=item2login border=0 name=item2login alt="صورة العنوان" src="/OA_MEDIA/topLines.gif"></TD>
+<TD id=region5login vAlign=top colSpan=2><IMG id=item3login border=0 name=item3login alt="صورة أشخاص" src="/OA_MEDIA/people.jpg"></TD>
+<TD id=region22 vAlign=top>
+<SCRIPT id=item6>t()</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif"></TD></TR>
+<TR id=region7 vAlign=top>
+<TD id=region8 vAlign=top><IMG id=item4 border=0 name=item4 alt="صورة عامة أعلى الصفحة" src="/OA_MEDIA/globalTop.jpg"></TD>
+<TD id=region13 class=LoginBinBg height=180 width="100%" colSpan=3><SPAN id=MainLoginRN>
+<TABLE id=region144 class=x9m cellSpacing=0 cellPadding=0 width="100%" align=right border=0>
+<TBODY>
+<TR id=region152>
+<TD id=region153></TD>
+<TD id=region154>
+<SCRIPT id=item13>t('1','20')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=20></TD></TR>
+<TR id=region145 align=right>
+<TD id=region146 align=right>
+<SCRIPT id=item12>t('40','10')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=40 height=10></TD>
+<TD id=region147 align=right>
+<TABLE id=region14 cellSpacing=0 cellPadding=0 align=right border=0>
+<TBODY>
+<TR id=region15 align=right>
+<TD id=region121 vAlign=top></TD>
+<TD id=region21 vAlign=top><SPAN class=x9k><SPAN title=ضروري class=xg>*</SPAN>&nbsp;اسم المستخدم</SPAN>
+<SCRIPT>t('10','5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=5></TD>
+<TD id=region31>
+<TABLE id=unamebean__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD noWrap align=left></TD>
+<TD></TD>
+<TD vAlign=top><INPUT onchange="" onkeypress="return _submitOnEnter(event, 'DefaultFormName');" id=unamebean title="*اسم المستخدم" class=.LoginText name=usernameField autocomplete="off">
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR>
+<TD colSpan=2></TD>
+<TD><SPAN class=x2v>(مثال: هاني.إبراهيم.محمد)</SPAN></TD></TR></TBODY></TABLE></TD></TR>
+<TR id=region41 align=right>
+<TD id=region131 vAlign=top></TD>
+<TD id=region51 vAlign=top><SPAN class=x9k><SPAN title=ضروري class=xg>*</SPAN>&nbsp;كلمة السر</SPAN>
+<SCRIPT>t('10','5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=5></TD>
+<TD id=region61>
+<TABLE id=pwdbean__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD noWrap align=left></TD>
+<TD></TD>
+<TD vAlign=top><INPUT onchange="" id=pwdbean title="*كلمة السر" class=.LoginText type=password value="" name=passwordField autocomplete="off">
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR>
+<TD colSpan=2></TD>
+<TD><SPAN class=x2v>(مثال: 4u99v23)</SPAN></TD></TR></TBODY></TABLE></TD></TR>
+<TR id=region132 align=right>
+<TD id=region139></TD>
+<TD id=region138></TD>
+<TD id=region133><BUTTON onclick="submitForm('DefaultFormName',1,{'_FORM_SUBMIT_BUTTON':'SubmitButton'});return false" id=SubmitButton title="تسجيل الدخول" class=x7o style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)" type=submit>تسجيل الدخول</BUTTON>
+<SCRIPT id=item11>t('2','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=2 height=1><BUTTON onclick="submitForm('DefaultFormName',0,{'_FORM_SUBMIT_BUTTON':'Cancel'});return false" id=Cancel title=إلغاء class=x7o style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)" type=submit>إلغاء</BUTTON></TD></TR>
+<TR id=region134>
+<TD id=region135>
+<SCRIPT id=spacer114>t('1','10')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=10></TD></TR>
+<TR id=ForgotPasswordUrlRowLayoutRN1>
+<TD id=region140></TD>
+<TD id=region141></TD>
+<TD id=Cell21RN1>
+<TABLE id=ForgotPasswordURL__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=left></TD>
+<TD></TD>
+<TD vAlign=top><A id=ForgotPasswordURL title="المساعدة في تسجيل الدخول" class=x9l href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=27570&amp;resp_id=-1&amp;resp_appl_id=-1&amp;security_group_id=0&amp;lang_code=AR&amp;params=eppi62u36K.pobKNtvPfNktlKdXbJsaXzBjL5G.FDO5n2ldhrAwz2ww6hoa3u92XBRYQQVEa6n8zRZ7SS5svYH2peWMEVB1YSyfSSa1.z.ufpKUHFK-4AssF-R3ncl5ZkGpeG566jU-f3paN9oz.ATB-T-NozZOkWhtB5LNfZ-o0pN37DTa8nOTQaytsR30tlo2N0XgJQdYUYaYZs5LTcLMAIhznfDgjKF7iaTycH-FB93CRJKofbQfirem2FMMy2HdGKewf4oxcYGRaisQukYHfxuKBANng3xXMbPSxrCtdqSngaXgx9OA6qp.Pjrv33lUIOxyuMKDMg6ByE3KRC3dUKCPooP6MeD9wjv6SnMuOmPPs4Be1wJo6sdaigFLj0HzAzedOqNUN3JcvTg6SeEhQ9QHYWYV6Ml0m.v0E1WpefNK4A8wg97aTGE.h0cev6DqKxF6jNLSA4bbYcsTecIu1XyCpBb-hsqIxd0qsNNf4wNJMwSHm0W4Di7X.wsCstzOysVSK0tD9sOdA7WEA1g&amp;oas=SAqQkBD8gi4Z4zlPXh89BQ..">المساعدة في تسجيل الدخول</A>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR>
+<TR id=RegisterHereUrlRowLayoutRN1>
+<TD id=region142></TD>
+<TD id=region143></TD>
+<TD id=Cell31RN1>
+<TABLE id=RegisterHereURL__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=left></TD>
+<TD></TD>
+<TD vAlign=top><A id=RegisterHereURL title="قم بالتسجيل هنا" class=x9l href="http://riyoramgbm02.maaden.com:8050/OA_HTML/RF.jsp?function_id=22112&amp;resp_id=-1&amp;resp_appl_id=-1&amp;security_group_id=0&amp;lang_code=AR&amp;params=dj69NTohqtnQgDZLv4H8HNBV66GtihS8U-bOg3pU3VNhWcWQNul3vAnnZpaT5tZdm01zmipLsa3tzNBNtjKhFsCDtBN8s65EpQ6uP2mBSKsCeb8FYxeadfqPeOKzXo6Cmer4AtWlznDYrosEmnhZ1G-dkw4Sjt0EgxSsa4Ri2Tbas9yCp8hKu4u1SdM.yEyGHRFQ10U0DxJ6Fc3ohl78K-nroXRWa2G-1wDHXYiDJKAN5QFNJUuX1QXZSpF7817u-NfbBYdM9cmGQLjDPiTsAneP1ylhWcYRwJhTbeJTd8EcQP8RtI3uBDJzdGZnYc.GRaayeTsDLeBzgv8Sg7GCVhM5O4LGrZVuViSiRpNRvHJhoSc2cigSlC8Nc4k1Mnpcl-VcB-Dwj1zrM1bj.LDGY2dNcL8AyrU.JGhrt4JPCHHzBBLtkKPGyibDlPIfq6Dn52X0ap.OOLeO12FYmnH9QYgZRe4febYew.g9XxuXdfZAY6hB72wIfarxf.O54Jt45WF.z6KhR7hz9sNt7BMn3AaeNsXtDji8Xof6o9PtfW1M8OU9tCKf-DJn0wSsKaMZddUgeYwb.RIE8kBtZ3wVGohoseOq2JJSUQQslWk4I29rmVszsJeQS.63H-K3ruJXqptSnrA.M5deburcUM8Bdjkgtq9-FaETzfKHQ5uxFd-8onlEqbCBJQB0WCpwM5T2-YF8XAD17OOxnifx7ZM4UPw58DqPwTpxGPvybohtNe80PAv7h6Hx1VhQah4UwfrdvPtrrrO.x6m0PJCQRZ.1Vg&amp;oas=eYI29NzR-dHSsuCwF5oYDQ..">قم بالتسجيل هنا</A>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR>
+<TR id=region136>
+<TD id=region137>
+<SCRIPT id=spacer1131>t('1','10')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=10></TD></TR>
+<TR id=region148>
+<TD id=region149></TD>
+<TD id=region150 class=.LoginText><SPAN class=x9k>صلاحية الوصول</SPAN></TD>
+<TD id=region151>
+<TABLE id=Accessibility__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD noWrap align=left></TD>
+<TD></TD>
+<TD vAlign=top><SELECT onchange="" id=Accessibility title="صلاحية الوصول" class=x9p name=Accessibility><OPTION selected value=N>لا شيء</OPTION><OPTION value=S>قراءة الشاشة المُحسنة</OPTION><OPTION value=Y>إمكانية الوصول القياسية</OPTION></SELECT>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></SPAN></TD></TR>
+<TR id=region11>
+<TD id=region12><IMG id=item5 border=0 name=item5 alt="صورة عامة" src="/OA_MEDIA/global.jpg"></TD>
+<TD id=region15login class=x9i colSpan=3>
+<TABLE id=langOptionsTable class=x9i cellSpacing=0 cellPadding=0 align=right border=0>
+<TBODY>
+<TR id=region4>
+<TD id=region5>
+<SCRIPT id=item3>t('1','2')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=2></TD></TR>
+<TR id=region1>
+<TD id=region3>
+<SCRIPT id=item2>t('100','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=100 height=1></TD>
+<TD id=region2 colSpan=3><SPAN class=x9k>اختر لغة:</SPAN></TD></TR>
+<TR align=left>
+<TD>
+<SCRIPT>t('100','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=100 height=1></TD>
+<TD align=left><IMG border=0 alt=عربي src="/OA_MEDIA/nlsar_a.gif"></TD>
+<TD>
+<SCRIPT>t('10','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=1></TD>
+<TD align=left><A onclick="submitForm('DefaultFormName',0,{'_ssoLangCode':'US','serverValidate':'0',event:'LangChange'});return false;" href="#"><IMG border=0 alt="إنجليزي أمريكي" src="/OA_MEDIA/nlsus.gif"></A></TD>
+<TD>
+<SCRIPT>t('10','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=1></TD></TR></TBODY></TABLE></TD></TR>
+<TR id=region23 vAlign=top>
+<TD id=region241 class=x9h vAlign=top align=center>
+<SCRIPT id=item71>t()</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif"></TD>
+<TD id=region24 class=x9i vAlign=top colSpan=3 align=center>
+<SCRIPT id=item7>t()</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif"></TD></TR></TBODY></TABLE>
+<DIV></DIV><INPUT id=_fwkAbsolutePageName type=hidden value=/oracle/apps/fnd/sso/login/webui/MainLoginPG::: name=_fwkAbsolutePageName>
+<DIV>
+<DIV>
+<SCRIPT>t(1,9)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=9></DIV>
+<DIV>
+<SCRIPT>t(1,10)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=10></DIV></DIV></DIV>
+<DIV></DIV>
+<DIV></DIV>
+<DIV></DIV></DIV>
+<TABLE class=x71 style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/footerBg.gif)" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD>
+<TABLE cellSpacing=2 cellPadding=2 width="100%" border=0>
+<TBODY>
+<TR>
+<TD class=x14 noWrap align=right><A onclick="submitForm('DefaultFormName',0,{'serverValidate':'1',event:'about'});return false;" href="#">حول هذه الصفحة</A></TD>
+<TD>
+<SCRIPT>t('10','10')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=10></TD>
+<TD class=x13 noWrap align=right><A title="جملة السرية" href="http://personalize.this.link" target=_blank>جملة السرية</A></TD>
+<TD class=x12 width="100%" noWrap align=left><SPAN id=N16>حقوق النشر (c) محفوظة لأوراكل 2006. كافة الحقوق محفوظة</SPAN></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></SPAN><INPUT id=SubmitButton$$unvalidated type=hidden value=false name=SubmitButton$$unvalidated><INPUT id=SubmitButton$$serverUnvalidated type=hidden value=false name=SubmitButton$$serverUnvalidated><INPUT id=SubmitButton$$processFormDataCalled type=hidden value=true name=SubmitButton$$processFormDataCalled><INPUT id=Cancel$$unvalidated type=hidden value=true name=Cancel$$unvalidated><INPUT id=Cancel$$serverUnvalidated type=hidden value=true name=Cancel$$serverUnvalidated><INPUT id=Cancel$$processFormDataCalled type=hidden value=true name=Cancel$$processFormDataCalled><SPAN id=_DefaultFormName_Postscript><INPUT type=hidden name=_FORMEVENT><INPUT type=hidden name=serverValidate><INPUT type=hidden name=evtSrcRowIdx><INPUT type=hidden name=evtSrcRowId><INPUT type=hidden name=_FORM_SUBMIT_BUTTON><INPUT type=hidden name=event><INPUT type=hidden name=source><INPUT type=hidden name=_ssoLangCode>
+<SCRIPT>var _resetDefaultFormNameNames=["_FORMEVENT","serverValidate","evtSrcRowIdx","evtSrcRowId","_FORM_SUBMIT_BUTTON","event","source","_ssoLangCode"];</SCRIPT>
+
+<SCRIPT>function _DefaultFormNameValidater(form){return true;}function _submitOnEnter(e,frm){return (_getKC(e)!=13);}</SCRIPT>
+</SPAN>
+<SCRIPT>_submitFormCheck();</SCRIPT>
+</FORM><IFRAME title="Forms Launcher" height=5 src="http://riyoramgbm02.maaden.com:8050/OA_HTML/blank.html" frameBorder=no width=5 name=formsLauncher scrolling=no></IFRAME></SPAN><INPUT disabled id=_pprSaveLib type=hidden><INPUT disabled id=_pprSaveScript type=hidden><INPUT disabled id=_pprSavePage type=hidden>
+<SCRIPT>var _uixDoneMessage="Done."</SCRIPT>
+
+<SCRIPT>document.body.style.marginLeft="0px";document.body.style.marginRight="0px";document.body.style.marginTop="0px";</SCRIPT>
+<!-- Created by Oracle UIX , Accessibility:disabled, laf:swan.desktop (swan) --> </BODY></HTML>

@@ -1,0 +1,370 @@
+<HTML lang=en-US-ORACLE9I style="VISIBILITY: visible" dir=ltr><HEAD><TITLE>Oracle iProcurement: Checkout</TITLE>
+<META name=generator content="Oracle UIX"><LINK rel=stylesheet type=text/css href="/OA_HTML/cabo/styles/cache/swan-desktop-custom-2_3_6_9-en-ie-windows.css" charset=UTF-8>
+<SCRIPT type=text/javascript>var _UixWindowOpenError='A popup window blocker has been detected in your browser. Popup blockers interfere with the operation of this application. Please disable your popup blocker or allow popups from this site.';</SCRIPT>
+
+<SCRIPT type=text/javascript src="/OA_HTML/cabo/jsLibs/Common2_3_6_9.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>_defaultTZ()</SCRIPT>
+
+<SCRIPT language=javascript type=text/javascript src="/OA_HTML/cabo/oajsLibs/oafcoreR121.js"></SCRIPT>
+
+<SCRIPT language=javascript type=text/javascript src="/OA_HTML/cabo/oajsLibs/oafb.js"></SCRIPT>
+
+<SCRIPT language=javascript>function clearFlexChildren(){lovClearValue(document.DefaultFormName.ReqLineDFFOnDelivery2);lovClearValue(document.DefaultFormName.ReqLineDFFOnDelivery0);lovClearValue(document.DefaultFormName.ReqLineDFFOnDelivery1);lovClearValue(document.DefaultFormName.ReqLineDFFOnDelivery3);}</SCRIPT>
+
+<SCRIPT language=javascript>function help_window() { help_win = window.open("http://riyoramgbm02.maaden.com:8050/OA_HTML/help?locale=en_US&group=FND:LIBRARY:US&topic=US/ICX/@IPROCINDEX", "help_win","resizable=yes,scrollbars=yes,toolbar=yes,width=600,height=500")}</SCRIPT>
+</HEAD>
+<BODY class=xk onload="_checkLoad(event,'DefaultFormName')" style="MARGIN-TOP: 0px; MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px" onbeforeunload=_savePageStateIE() onunload=_checkUnload(event)><IFRAME id=_pprIFrame title="" style="POSITION: absolute; TOP: -100px; VISIBILITY: hidden" height=0 longDesc=# src="/OA_HTML/cabo/images/swan/t.htm" frameBorder=0 width=0 name=_pprIFrame></IFRAME>
+<DIV onclick="return _pprConsumeClick(event);" onkeypress="return false;" onkeyup="return false;" id=_pprBlockingDiv onkeydown="return false;" style="CURSOR: wait; HEIGHT: 0px; WIDTH: 0px; POSITION: absolute; LEFT: 0px; TOP: 0px"></DIV>
+<DIV id=_uixDownload class=x3f style="BEHAVIOR: url(#default#download)"></DIV>
+<SCRIPT type=text/javascript>var _cachedLibs;</SCRIPT>
+
+<SCRIPT type=text/javascript>var _pprFirstClickPass=true;</SCRIPT>
+
+<SCRIPT type=text/javascript>var _navEvent = 'navigate';function _onNavigate(formName,uri){return confirm("The changes you made to this page have not been saved.  If you continue, the changes will be discarded.  Do you wish to continue?")};_navDirty=1;</SCRIPT>
+<SPAN id=_pprPageContent>
+<FORM id=DefaultFormName style="MARGIN: 0px" method=post name=DefaultFormName action=/OA_HTML/OA.jsp?page=/oracle/apps/icx/por/req/webui/CheckoutLinesPG&amp;porMode=display&amp;OA_SubTabIdx=0&amp;_ti=1953892938&amp;retainAM=Y&amp;addBreadCrumb=N&amp;oapc=17&amp;oas=_ZdfQnh5OgUKOdMI9G35MA..><INPUT id=_AM_TX_ID_FIELD type=hidden value=1 name=_AM_TX_ID_FIELD><INPUT id=_FORM type=hidden value=DefaultFormName name=_FORM><SPAN id=lovHFCId><INPUT id=lovAutoClearHFRequester type=hidden value=N name=lovAutoClearHFRequester>
+<SCRIPT language=javascript>function LOCRequesterId(rowNum, visitedList){ if (visitedList == (void 0)) { return; } var proxy = new TableProxy('DeliveryLinesAdvTable'); visitedList['RequesterId'] = 'v'; }</SCRIPT>
+
+<SCRIPT language=javascript>function LOCDeliverToLocation(rowNum, visitedList){ if (visitedList == (void 0)) { return; } var proxy = new TableProxy('DeliveryLinesAdvTable'); visitedList['DeliverToLocation'] = 'v'; if (visitedList['LocationId'] == null) {if (typeof(proxy) != 'undefined') {var res = lovClearValue(proxy.getFormElement('LocationId', rowNum ));LOCLocationId(rowNum, visitedList);}}if (visitedList['DeliverToOrgId'] == null) {if (typeof(proxy) != 'undefined') {var res = lovClearValue(proxy.getFormElement('DeliverToOrgId', rowNum ));LOCDeliverToOrgId(rowNum, visitedList);}}}</SCRIPT>
+
+<SCRIPT language=javascript>function LOCLocationId(rowNum, visitedList){ if (visitedList == (void 0)) { return; } var proxy = new TableProxy('DeliveryLinesAdvTable'); visitedList['LocationId'] = 'v'; }</SCRIPT>
+
+<SCRIPT language=javascript>function LOCDeliverToOrgId(rowNum, visitedList){ if (visitedList == (void 0)) { return; } var proxy = new TableProxy('DeliveryLinesAdvTable'); visitedList['DeliverToOrgId'] = 'v'; if (visitedList['SubInventory'] == null) {if (typeof(proxy) != 'undefined') {var res = lovClearValue(proxy.getFormElement('SubInventory', rowNum ));LOCSubInventory(rowNum, visitedList);}}if (visitedList['WorkOrderOnLine'] == null) {if (typeof(proxy) != 'undefined') {var res = lovClearValue(proxy.getFormElement('WorkOrderOnLine', rowNum ));LOCWorkOrderOnLine(rowNum, visitedList);}}}</SCRIPT>
+
+<SCRIPT language=javascript>function LOCRequesterPhone(rowNum, visitedList){ if (visitedList == (void 0)) { return; } var proxy = new TableProxy('DeliveryLinesAdvTable'); visitedList['RequesterPhone'] = 'v'; }</SCRIPT>
+
+<SCRIPT language=javascript>function LOCRequesterFax(rowNum, visitedList){ if (visitedList == (void 0)) { return; } var proxy = new TableProxy('DeliveryLinesAdvTable'); visitedList['RequesterFax'] = 'v'; }</SCRIPT>
+
+<SCRIPT language=javascript>function LOCRequesterEmail(rowNum, visitedList){ if (visitedList == (void 0)) { return; } var proxy = new TableProxy('DeliveryLinesAdvTable'); visitedList['RequesterEmail'] = 'v'; }</SCRIPT>
+
+<SCRIPT language=javascript>function LOCRequester(rowNum, visitedList){ if (visitedList == (void 0)) { return; } var proxy = new TableProxy('DeliveryLinesAdvTable'); visitedList['Requester'] = 'v';if (visitedList['RequesterId'] == null) {if (typeof(proxy) != 'undefined') {var res = lovClearValue(proxy.getFormElement('RequesterId', rowNum ));LOCRequesterId(rowNum, visitedList);}}if (visitedList['DeliverToLocation'] == null) {if (typeof(proxy) != 'undefined') {var res = lovClearValue(proxy.getFormElement('DeliverToLocation', rowNum ));LOCDeliverToLocation(rowNum, visitedList);}}if (visitedList['LocationId'] == null) {if (typeof(proxy) != 'undefined') {var res = lovClearValue(proxy.getFormElement('LocationId', rowNum ));LOCLocationId(rowNum, visitedList);}}if (visitedList['DeliverToOrgId'] == null) {if (typeof(proxy) != 'undefined') {var res = lovClearValue(proxy.getFormElement('DeliverToOrgId', rowNum ));LOCDeliverToOrgId(rowNum, visitedList);}}if (visitedList['RequesterPhone'] == null) {if (typeof(proxy) != 'undefined') {var res = lovClearValue(proxy.getFormElement('RequesterPhone', rowNum ));LOCRequesterPhone(rowNum, visitedList);}}if (visitedList['RequesterFax'] == null) {if (typeof(proxy) != 'undefined') {var res = lovClearValue(proxy.getFormElement('RequesterFax', rowNum ));LOCRequesterFax(rowNum, visitedList);}}if (visitedList['RequesterEmail'] == null) {if (typeof(proxy) != 'undefined') {var res = lovClearValue(proxy.getFormElement('RequesterEmail', rowNum ));LOCRequesterEmail(rowNum, visitedList);}}}</SCRIPT>
+<INPUT id=lovCriteriaHiddenFieldRequester type=hidden value=Requester name=lovCriteriaHiddenFieldRequester><INPUT id=lovPassiveCriteriaHFRequester type=hidden name=lovPassiveCriteriaHFRequester><INPUT id=BASE_FORM_NAME type=hidden value=DefaultFormName name=BASE_FORM_NAME><INPUT id=lovTableHiddenFieldRequester type=hidden value=DeliveryLinesAdvTable name=lovTableHiddenFieldRequester><INPUT id=lovOnClickJSHiddenFieldRequester type=hidden name=lovOnClickJSHiddenFieldRequester><INPUT id=lovOnClickJSExecutedHiddenFieldRequester type=hidden value=N name=lovOnClickJSExecutedHiddenFieldRequester><INPUT id=lovJSHiddenFieldRequester type=hidden name=lovJSHiddenFieldRequester><INPUT id=lovAutoClearHFDeliverToLocation type=hidden value=N name=lovAutoClearHFDeliverToLocation>
+<SCRIPT language=javascript>function LOCSourceTypeCode(rowNum, visitedList){ if (visitedList == (void 0)) { return; } var proxy = new TableProxy('DeliveryLinesAdvTable'); visitedList['SourceTypeCode'] = 'v';if (visitedList['DeliverToLocation'] == null) {if (typeof(proxy) != 'undefined') {var res = lovClearValue(proxy.getFormElement('DeliverToLocation', rowNum ));LOCDeliverToLocation(rowNum, visitedList);}}}</SCRIPT>
+
+<SCRIPT language=javascript>function LOCItemId(rowNum, visitedList){ if (visitedList == (void 0)) { return; } var proxy = new TableProxy('DeliveryLinesAdvTable'); visitedList['ItemId'] = 'v';if (visitedList['DeliverToLocation'] == null) {if (typeof(proxy) != 'undefined') {var res = lovClearValue(proxy.getFormElement('DeliverToLocation', rowNum ));LOCDeliverToLocation(rowNum, visitedList);}}if (visitedList['SubInventory'] == null) {if (typeof(proxy) != 'undefined') {var res = lovClearValue(proxy.getFormElement('SubInventory', rowNum ));LOCSubInventory(rowNum, visitedList);}}}</SCRIPT>
+
+<SCRIPT language=javascript>function LOCItemRevision(rowNum, visitedList){ if (visitedList == (void 0)) { return; } var proxy = new TableProxy('DeliveryLinesAdvTable'); visitedList['ItemRevision'] = 'v';if (visitedList['DeliverToLocation'] == null) {if (typeof(proxy) != 'undefined') {var res = lovClearValue(proxy.getFormElement('DeliverToLocation', rowNum ));LOCDeliverToLocation(rowNum, visitedList);}}}</SCRIPT>
+<INPUT id=lovCriteriaHiddenFieldDeliverToLocation type=hidden value=DeliverToLocation name=lovCriteriaHiddenFieldDeliverToLocation><INPUT id=lovPassiveCriteriaHFDeliverToLocation type=hidden value=SourceTypeCode::ItemId::ItemRevision name=lovPassiveCriteriaHFDeliverToLocation><INPUT id=lovTableHiddenFieldDeliverToLocation type=hidden value=DeliveryLinesAdvTable name=lovTableHiddenFieldDeliverToLocation><INPUT id=lovOnClickJSHiddenFieldDeliverToLocation type=hidden name=lovOnClickJSHiddenFieldDeliverToLocation><INPUT id=lovOnClickJSExecutedHiddenFieldDeliverToLocation type=hidden value=N name=lovOnClickJSExecutedHiddenFieldDeliverToLocation><INPUT id=lovJSHiddenFieldDeliverToLocation type=hidden name=lovJSHiddenFieldDeliverToLocation><INPUT id=lovAutoClearHFSubInventory type=hidden value=N name=lovAutoClearHFSubInventory>
+<SCRIPT language=javascript>function LOCSubInventory(rowNum, visitedList){ if (visitedList == (void 0)) { return; } var proxy = new TableProxy('DeliveryLinesAdvTable'); visitedList['SubInventory'] = 'v';}</SCRIPT>
+<INPUT id=lovCriteriaHiddenFieldSubInventory type=hidden value=SubInventory name=lovCriteriaHiddenFieldSubInventory><INPUT id=lovPassiveCriteriaHFSubInventory type=hidden value=ItemId::DeliverToOrgId name=lovPassiveCriteriaHFSubInventory><INPUT id=lovTableHiddenFieldSubInventory type=hidden value=DeliveryLinesAdvTable name=lovTableHiddenFieldSubInventory><INPUT id=lovOnClickJSHiddenFieldSubInventory type=hidden name=lovOnClickJSHiddenFieldSubInventory><INPUT id=lovOnClickJSExecutedHiddenFieldSubInventory type=hidden value=N name=lovOnClickJSExecutedHiddenFieldSubInventory><INPUT id=lovJSHiddenFieldSubInventory type=hidden name=lovJSHiddenFieldSubInventory><INPUT id=lovAutoClearHFWorkOrderOnLine type=hidden value=N name=lovAutoClearHFWorkOrderOnLine>
+<SCRIPT language=javascript>function LOCWipEntityId(rowNum, visitedList){ if (visitedList == (void 0)) { return; } var proxy = new TableProxy('DeliveryLinesAdvTable'); visitedList['WipEntityId'] = 'v'; if (visitedList['OperationReference'] == null) {if (typeof(proxy) != 'undefined') {var res = lovClearValue(proxy.getFormElement('OperationReference', rowNum ));LOCOperationReference(rowNum, visitedList);}}}</SCRIPT>
+
+<SCRIPT language=javascript>function LOCProjectIdOnDeliveryShopFloorOrInv(rowNum, visitedList){ if (visitedList == (void 0)) { return; } var proxy = new TableProxy('DeliveryLinesAdvTable'); visitedList['ProjectIdOnDeliveryShopFloorOrInv'] = 'v'; }</SCRIPT>
+
+<SCRIPT language=javascript>function LOCTaskIdOnDeliveryShopFloorOrInv(rowNum, visitedList){ if (visitedList == (void 0)) { return; } var proxy = new TableProxy('DeliveryLinesAdvTable'); visitedList['TaskIdOnDeliveryShopFloorOrInv'] = 'v'; }</SCRIPT>
+
+<SCRIPT language=javascript>function LOCWorkOrderOnLine(rowNum, visitedList){ if (visitedList == (void 0)) { return; } var proxy = new TableProxy('DeliveryLinesAdvTable'); visitedList['WorkOrderOnLine'] = 'v';if (visitedList['WipEntityId'] == null) {if (typeof(proxy) != 'undefined') {var res = lovClearValue(proxy.getFormElement('WipEntityId', rowNum ));LOCWipEntityId(rowNum, visitedList);}}if (visitedList['ProjectIdOnDeliveryShopFloorOrInv'] == null) {if (typeof(proxy) != 'undefined') {var res = lovClearValue(proxy.getFormElement('ProjectIdOnDeliveryShopFloorOrInv', rowNum ));LOCProjectIdOnDeliveryShopFloorOrInv(rowNum, visitedList);}}if (visitedList['TaskIdOnDeliveryShopFloorOrInv'] == null) {if (typeof(proxy) != 'undefined') {var res = lovClearValue(proxy.getFormElement('TaskIdOnDeliveryShopFloorOrInv', rowNum ));LOCTaskIdOnDeliveryShopFloorOrInv(rowNum, visitedList);}}}</SCRIPT>
+<INPUT id=lovCriteriaHiddenFieldWorkOrderOnLine type=hidden value=WorkOrderOnLine name=lovCriteriaHiddenFieldWorkOrderOnLine><INPUT id=lovPassiveCriteriaHFWorkOrderOnLine type=hidden value=DeliverToOrgId name=lovPassiveCriteriaHFWorkOrderOnLine><INPUT id=lovTableHiddenFieldWorkOrderOnLine type=hidden value=DeliveryLinesAdvTable name=lovTableHiddenFieldWorkOrderOnLine><INPUT id=lovOnClickJSHiddenFieldWorkOrderOnLine type=hidden name=lovOnClickJSHiddenFieldWorkOrderOnLine><INPUT id=lovOnClickJSExecutedHiddenFieldWorkOrderOnLine type=hidden value=N name=lovOnClickJSExecutedHiddenFieldWorkOrderOnLine><INPUT id=lovJSHiddenFieldWorkOrderOnLine type=hidden name=lovJSHiddenFieldWorkOrderOnLine><INPUT id=lovAutoClearHFOperationReference type=hidden value=N name=lovAutoClearHFOperationReference>
+<SCRIPT language=javascript>function LOCOperationReference(rowNum, visitedList){ if (visitedList == (void 0)) { return; } var proxy = new TableProxy('DeliveryLinesAdvTable'); visitedList['OperationReference'] = 'v';}</SCRIPT>
+<INPUT id=lovCriteriaHiddenFieldOperationReference type=hidden value=OperationReference::WipEntityId name=lovCriteriaHiddenFieldOperationReference><INPUT id=lovPassiveCriteriaHFOperationReference type=hidden name=lovPassiveCriteriaHFOperationReference><INPUT id=lovTableHiddenFieldOperationReference type=hidden value=DeliveryLinesAdvTable name=lovTableHiddenFieldOperationReference><INPUT id=lovOnClickJSHiddenFieldOperationReference type=hidden name=lovOnClickJSHiddenFieldOperationReference><INPUT id=lovOnClickJSExecutedHiddenFieldOperationReference type=hidden value=N name=lovOnClickJSExecutedHiddenFieldOperationReference><INPUT id=lovJSHiddenFieldOperationReference type=hidden name=lovJSHiddenFieldOperationReference><INPUT id=lovAutoClearHFReqLineDFFOnDelivery3 type=hidden value=N name=lovAutoClearHFReqLineDFFOnDelivery3>
+<SCRIPT language=javascript>function LOCReqLineDFFOnDelivery3HiddenFlexId(rowNum, visitedList){ if (visitedList == (void 0)) { return; } var proxy = new TableProxy('DeliveryLinesAdvTable'); visitedList['ReqLineDFFOnDelivery3HiddenFlexId'] = 'v'; }</SCRIPT>
+
+<SCRIPT language=javascript>function LOCReqLineDFFOnDelivery3(rowNum, visitedList){ if (visitedList == (void 0)) { return; } var proxy = new TableProxy('DeliveryLinesAdvTable'); visitedList['ReqLineDFFOnDelivery3'] = 'v';if (visitedList['ReqLineDFFOnDelivery3HiddenFlexId'] == null) {if (typeof(proxy) != 'undefined') {var res = lovClearValue(proxy.getFormElement('ReqLineDFFOnDelivery3HiddenFlexId', rowNum ));LOCReqLineDFFOnDelivery3HiddenFlexId(rowNum, visitedList);}}}</SCRIPT>
+<INPUT id=lovCriteriaHiddenFieldReqLineDFFOnDelivery3 type=hidden value=ReqLineDFFOnDelivery3 name=lovCriteriaHiddenFieldReqLineDFFOnDelivery3><INPUT id=lovPassiveCriteriaHFReqLineDFFOnDelivery3 type=hidden name=lovPassiveCriteriaHFReqLineDFFOnDelivery3><INPUT id=lovTableHiddenFieldReqLineDFFOnDelivery3 type=hidden value=DeliveryLinesAdvTable name=lovTableHiddenFieldReqLineDFFOnDelivery3><INPUT id=lovOnClickJSHiddenFieldReqLineDFFOnDelivery3 type=hidden name=lovOnClickJSHiddenFieldReqLineDFFOnDelivery3><INPUT id=lovOnClickJSExecutedHiddenFieldReqLineDFFOnDelivery3 type=hidden value=N name=lovOnClickJSExecutedHiddenFieldReqLineDFFOnDelivery3><INPUT id=lovJSHiddenFieldReqLineDFFOnDelivery3 type=hidden name=lovJSHiddenFieldReqLineDFFOnDelivery3></SPAN><SPAN id=PageLayoutRN><A href="#TheContent"><IMG border=0 alt="Skip navigation elements to page contents" src="/OA_HTML/cabo/images/swan/t.gif"></A>
+<TABLE role=presentation class=x6u style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/headerBg.jpg)" cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD>
+<SCRIPT type=text/javascript>var _tURL="\x2FOA_HTML\x2Fcabo\x2Fimages\x2Fswan\x2Ft.gif";var _axm=1;t('10','10')</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=10></TD></TR>
+<TR>
+<TD>
+<TABLE role=presentation style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px" cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD vAlign=top width="1%" noWrap><IMG border=0 alt=Maaden_logo1.jpg src="/OA_MEDIA/Maaden_logo1.jpg"></TD>
+<TD noWrap><SPAN title=iProcurement style="POSITION: absolute"><SPAN class=x4i>iProcurement</SPAN></SPAN>
+<SCRIPT type=text/javascript>t('0','14')</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=0 height=14></TD>
+<TD></TD>
+<TD></TD></TR>
+<TR>
+<TD></TD>
+<TD style="POSITION: relative; PADDING-BOTTOM: 8px; Z-INDEX: 10" vAlign=bottom colSpan=2 align=right><MAP title="Global buttons"><A class=x3f href="#M__Id"><IMG border=0 alt="Skip all Global buttons" src="/OA_HTML/cabo/images/swan/t.gif"></A>
+<TABLE role=presentation class=x6w cellSpacing=0 cellPadding=0 summary="" border=0>
+<TBODY>
+<TR>
+<TD vAlign=bottom><A class=x15 href="javascript:_submitNav('DefaultFormName','http%3A//riyoramgbm02.maaden.com%3A8050/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/icx/por/req/webui/ShoppingCartPG%26OASF%3DICX_POR_SHOPPING_CART%26_ti%3D1953892938%26oapc%3D17%26OAMC%3D78349_75_0%26menu%3DY%26oas%3Derib74esOjFqs5EhFsRQYQ..')">Shopping Cart</A></TD>
+<TD vAlign=bottom><A class=x15 href="javascript:_submitNav('DefaultFormName','http%3A//riyoramgbm02.maaden.com%3A8050/OA_HTML/OA.jsp%3F_rc%3DFNDPORTALRELEASEAM%26_ri%3D0%26retainAM%3DN%26_ti%3D1953892938%26oapc%3D17%26OAMC%3D78349_77_0%26menu%3DY%26oas%3DixfW-8-FYjK2SGss_AyPKg..')">Home</A></TD>
+<TD vAlign=bottom><A class=x15 href="javascript:_submitNav('DefaultFormName','http%3A//riyoramgbm02.maaden.com%3A8050/OA_HTML/OALogout.jsp%3Fmenu%3DY')">Logout</A></TD>
+<TD vAlign=bottom><A class=x15 href="javascript:_submitNav('DefaultFormName','http%3A//riyoramgbm02.maaden.com%3A8050/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/fnd/preferences/webui/PreferencesPG%26retainAM%3DY%26_ti%3D1953892938%26oapc%3D17%26OAMC%3D78349_79_0%26menu%3DY%26addBreadCrumb%3DS%26OAPF%3DY%26oas%3DXCNmD_QmfOAA7EEvOBdm6Q..')">Preferences</A></TD>
+<TD vAlign=bottom><A class=x15 href="javascript:top.help_window()">Help</A></TD>
+<TD vAlign=bottom><A class=x15 href="javascript:ignoreWarnAboutChanges(%22%2FOA_HTML%2FOA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Fpor%252Freq%252Fwebui%252FCheckoutLinesPG.PageLayoutRN%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiprwCheckoutLinesPG.PageLayoutRN%26pv%3DSPS%26_ti%3D1953892938%26oapc%3D17%26OAIG%3D11213%26menu%3DY%26oas%3D0V-YDXGbR0vd6E6RGJuE5Q..%22)">Personalize Page</A></TD>
+<TD vAlign=bottom><A class=x15 href="javascript:_submitNav('DefaultFormName','http%3A//riyoramgbm02.maaden.com%3A8050/OA_HTML/OA.jsp%3F_rc%3DFND_DIAGNOSTICS_PAGE%26_ri%3D0%26retainAM%3DY%26LogRetUrl%3D%252FOA_HTML%252FOA.jsp%253Fpage%253D%252Foracle%252Fapps%252Ficx%252Fpor%252Freq%252Fwebui%252FCheckoutLinesPG%2526porMode%253Ddisplay%2526OA_SubTabIdx%253D0%2526transactionid%253D1953892938%2526retainAM%253DY%2526addBreadCrumb%253DN%2526oas%253D-sGTsempyePfPx3Rb7ipbQ..%26_ti%3D1953892938%26oapc%3D17%26OAIG%3D9404%26menu%3DY%26oas%3DGC0rWTIUT2H_GxwRupubtA..')">Diagnostics</A></TD></TR></TBODY></TABLE></MAP><A id=M__Id class=xh name=M__Id></A></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD vAlign=bottom colSpan=4 align=left><MAP title="First level navigation elements"><A class=x3f href="#M__Ida"><IMG border=0 alt="Skip all First level navigation elements" src="/OA_HTML/cabo/images/swan/t.gif"></A>
+<TABLE role=presentation class=x1j cellSpacing=0 cellPadding=0 summary="" border=0>
+<TBODY>
+<TR>
+<TD height=21 width=8><IMG border=0 alt="" src="/OA_HTML/cabo/images/swan/topDimTabL.gif" width=8 height=21></TD>
+<TD class=x1k style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/topDimTabBg.gif)" background=/OA_HTML/cabo/images/swan/topDimTabBg.gif noWrap><A id=ICXPOR_SHOP title=Shop href="javascript:_submitNav('DefaultFormName','http%3A//riyoramgbm02.maaden.com%3A8050/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG%26_ti%3D1953892938%26oapc%3D17%26OAMC%3D78349_88_0%26menu%3DY%26oaMenuLevel%3D1%26oas%3DGJ2nIaGdMToK7VC8fzjOcQ..')" name=ICXPOR_SHOP>Shop</A></TD>
+<TD height=21 width=18><IMG border=0 alt="" src="/OA_HTML/cabo/images/swan/topTabDDjoint.gif" width=18 height=21></TD>
+<TD class=x1k style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/topDimTabBg.gif)" background=/OA_HTML/cabo/images/swan/topDimTabBg.gif noWrap><A id=ICXPOR_REQSTATUS title=Requisitions href="javascript:_submitNav('DefaultFormName','http%3A//riyoramgbm02.maaden.com%3A8050/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/icx/por/reqmgmt/webui/ReqSummaryPG%26_ti%3D1953892938%26oapc%3D17%26OAMC%3D78349_101_0%26menu%3DY%26oaMenuLevel%3D1%26oas%3DdIT8zMV-ORcL_ODNoLSxlQ..')" name=ICXPOR_REQSTATUS>Requisitions</A></TD>
+<TD height=21 width=18><IMG border=0 alt="" src="/OA_HTML/cabo/images/swan/topTabDDjoint.gif" width=18 height=21></TD>
+<TD class=x1k style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/topDimTabBg.gif)" background=/OA_HTML/cabo/images/swan/topDimTabBg.gif noWrap><A id=ICXPOR_RECEIVING_HOME title=Receiving href="javascript:_submitNav('DefaultFormName','http%3A//riyoramgbm02.maaden.com%3A8050/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/icx/por/rcv/webui/IcxPorRcvHomePG%26_ti%3D1953892938%26oapc%3D17%26OAMC%3D78349_141_0%26menu%3DY%26oaMenuLevel%3D1%26oas%3DW5sylgV1-XIfdzDIDvx-gA..')" name=ICXPOR_RECEIVING_HOME>Receiving</A></TD>
+<TD height=21 width=18><IMG border=0 alt="" src="/OA_HTML/cabo/images/swan/topTabDDjoint.gif" width=18 height=21></TD>
+<TD class=x1k style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/topDimTabBg.gif)" background=/OA_HTML/cabo/images/swan/topDimTabBg.gif noWrap><A id=ICX_POR_CONTRACTOR title=Contractors href="javascript:_submitNav('DefaultFormName','http%3A//riyoramgbm02.maaden.com%3A8050/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/icx/por/contractor/webui/ContractorHomePG%26_ti%3D1953892938%26oapc%3D17%26OAMC%3D78349_160_0%26menu%3DY%26oaMenuLevel%3D1%26oas%3DUwtV6iAbStgpbNrdkY8cJg..')" name=ICX_POR_CONTRACTOR>Contractors</A></TD>
+<TD height=21 width=8><IMG border=0 alt="" src="/OA_HTML/cabo/images/swan/topDimTabR.gif" width=8 height=21></TD></TR></TBODY></TABLE></MAP><A id=M__Ida class=xh name=M__Ida></A></TD></TR></TBODY></TABLE>
+<TABLE role=presentation cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD width="100%">
+<TABLE role=presentation class=x73 style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/navBarUnderTopTabsBg.gif)" cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV class=x6t style="HEIGHT: auto">
+<TABLE role=presentation id=CheckoutTrainRN class=x7m cellSpacing=0 cellPadding=0 align=center summary="" border=0>
+<TBODY>
+<TR>
+<TD width=20></TD>
+<TD align=right><IMG alt="" src="/OA_HTML/cabo/images/cache/ctrasl.gif" width=6 height=23></TD>
+<TD>
+<TABLE role=presentation cellSpacing=0 cellPadding=0 width="100%" summary="" background=/OA_HTML/cabo/images/cache/ctrdj.gif border=0>
+<TBODY>
+<TR>
+<TD height=23 align=left><IMG alt="" src="/OA_HTML/cabo/images/cache/ctrasr.gif" width=6 height=23></TD></TR></TBODY></TABLE></TD>
+<TD>
+<TABLE role=presentation height=23 cellSpacing=0 cellPadding=0 width="100%" summary="" background=/OA_HTML/cabo/images/cache/ctrdj.gif border=0>
+<TBODY>
+<TR>
+<TD>
+<SCRIPT type=text/javascript>t(20,1)</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD></TR></TBODY></TABLE></TD>
+<TD>
+<TABLE role=presentation cellSpacing=0 cellPadding=0 width="100%" summary="" background=/OA_HTML/cabo/images/cache/ctrdj.gif border=0>
+<TBODY>
+<TR>
+<TD height=23 align=right><IMG alt="" src="/OA_HTML/cabo/images/cache/ctrdsl.gif" width=6 height=23></TD></TR></TBODY></TABLE></TD>
+<TD>
+<TABLE role=presentation cellSpacing=0 cellPadding=0 width="100%" summary="" background=/OA_HTML/cabo/images/cache/ctrdj.gif border=0>
+<TBODY>
+<TR>
+<TD height=23 align=left><IMG alt="" src="/OA_HTML/cabo/images/cache/ctrdsr.gif" width=6 height=23></TD></TR></TBODY></TABLE></TD>
+<TD>
+<TABLE role=presentation height=23 cellSpacing=0 cellPadding=0 width="100%" summary="" background=/OA_HTML/cabo/images/cache/ctrdj.gif border=0>
+<TBODY>
+<TR>
+<TD>
+<SCRIPT type=text/javascript>t(20,1)</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD></TR></TBODY></TABLE></TD>
+<TD>
+<TABLE role=presentation cellSpacing=0 cellPadding=0 width="100%" summary="" background=/OA_HTML/cabo/images/cache/ctrdj.gif border=0>
+<TBODY>
+<TR>
+<TD height=23 align=right><IMG alt="" src="/OA_HTML/cabo/images/cache/ctrdsl.gif" width=6 height=23></TD></TR></TBODY></TABLE></TD>
+<TD align=left><IMG alt="" src="/OA_HTML/cabo/images/cache/ctrdsr.gif" width=6 height=23></TD>
+<TD width=20></TD></TR>
+<TR>
+<TD></TD>
+<TD class=x2c colSpan=2><SPAN id=ReqInfo>Requisition Information: Active step</SPAN></TD>
+<TD></TD>
+<TD class=x2e colSpan=2><SPAN id=Approvers>Approvals: Next step</SPAN></TD>
+<TD></TD>
+<TD class=x2e colSpan=2><SPAN id=ReviewSubmit>Review And Submit: Next step</SPAN></TD>
+<TD></TD></TR></TBODY></TABLE><A id=TheContent class=xh name=TheContent></A>
+<TABLE role=presentation id=FwkErrorBeanId cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV>
+<DIV class=x7x>
+<DIV>
+<DIV class=x6a>
+<TABLE role=presentation cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD width="100%">
+<H1 class=x1f>Requisition Information: Edit Lines</H1></TD></TR></TBODY></TABLE></DIV>
+<DIV class=x79>
+<TABLE role=presentation cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR vAlign=top>
+<TD><SPAN id=PageStatusRN>
+<TABLE role=presentation id=RequiredFieldRN cellSpacing=0 cellPadding=0 summary="" border=0>
+<TBODY>
+<TR id=Row>
+<TD id=AstCell><SPAN id=ReqTextRN><SPAN id=RequiredFieldIcon class=xg>*</SPAN>
+<SCRIPT id=spacer1 type=text/javascript>t('6','1')</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=6 height=1><SPAN id=RequiredFieldText class=x5g>Indicates required field</SPAN></SPAN></TD></TR></TBODY></TABLE></SPAN></TD>
+<TD noWrap align=right><MAP title="Global buttons"><A class=x3f href="#M__Idb"><IMG border=0 alt="Skip all Global buttons" src="/OA_HTML/cabo/images/swan/t.gif"></A>
+<TABLE role=presentation id=PageButtonsRN class=x6w cellSpacing=0 cellPadding=0 summary="" border=0>
+<TBODY>
+<TR>
+<TD>
+<SCRIPT type=text/javascript>t(8,0)</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=8 height=0></TD>
+<TD><BUTTON onclick="submitForm('DefaultFormName',1,{'evtSrcRowIdx':'','evtSrcRowId':'',event:'return',source:'Return'});return false;" id=Return title=Apply class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Apply</BUTTON></TD></TR></TBODY></TABLE></MAP><A id=M__Idb class=xh name=M__Idb></A></TD></TR>
+<TR>
+<TD>
+<SCRIPT type=text/javascript>t('1','2')</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=2></TD></TR></TBODY></TABLE><NOSCRIPT></NOSCRIPT>
+<DIV></DIV><SPAN id=CheckoutLinesRN>
+<TABLE role=presentation cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD><MAP title="Fourth level navigation elements"><A class=x3f href="#M__Idc"><IMG border=0 alt="Skip all Fourth level navigation elements" src="/OA_HTML/cabo/images/swan/t.gif"></A>
+<TABLE role=presentation id=ReqLinesSubTabs class=x7g cellSpacing=0 cellPadding=0 summary="" border=0>
+<TBODY>
+<TR>
+<TD height=19 width=8><IMG border=0 alt="" src="/OA_HTML/cabo/images/swan/subTabL.gif" width=8 height=19></TD>
+<TD class=x7k background=/OA_HTML/cabo/images/swan/subTabBg.gif noWrap><A id=DeliveryTab title=Delivery name=DeliveryTab><SPAN class=x3f>Selected</SPAN>Delivery</A></TD>
+<TD height=19 width=18><IMG border=0 alt="" src="/OA_HTML/cabo/images/swan/subTabADjoint.gif" width=18 height=19></TD>
+<TD class=x7i style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/subDimTabBg.gif)" background=/OA_HTML/cabo/images/swan/subDimTabBg.gif noWrap><A onclick="submitForm('DefaultFormName',0,{'serverValidate':'0','_oldStyleSubtabClick':'true','_OAFSubTabLink':'true','_OA_SUB_TAB_INDEX':'2','serverValidate':'0',event:'update',source:'AccountsTab'});return false;" id=AccountsTab title=Accounts href="#" name=AccountsTab>Accounts</A></TD>
+<TD height=19 width=18><IMG border=0 alt="" src="/OA_HTML/cabo/images/swan/subTabDDjoint.gif" width=18 height=19></TD>
+<TD class=x7i style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/subDimTabBg.gif)" background=/OA_HTML/cabo/images/swan/subDimTabBg.gif noWrap><A onclick="submitForm('DefaultFormName',0,{'serverValidate':'0','_oldStyleSubtabClick':'true','_OAFSubTabLink':'true','_OA_SUB_TAB_INDEX':'3','serverValidate':'0',event:'update',source:'AttachmentsTab'});return false;" id=AttachmentsTab title=Attachments href="#" name=AttachmentsTab>Attachments</A></TD>
+<TD height=19 width=8><IMG border=0 alt="" src="/OA_HTML/cabo/images/swan/subDimTabR.gif" width=8 height=19></TD></TR></TBODY></TABLE></MAP><A id=M__Idc class=xh name=M__Idc></A></TD></TR>
+<TR>
+<TD>
+<DIV class=x6m>
+<TABLE class=x7l style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/bar-under-bg.gif)" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE>
+<SCRIPT type=text/javascript>t(10,10)</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=10><SPAN id=DeliveryLinesRN>
+<DIV parent="OAStackLayoutBean, localName='stackLayout'"><A id=N51 title="Personalize /oracle/apps/icx/por/req/webui/CheckoutLinesPG.DeliveryLinesRN" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Fpor%252Freq%252Fwebui%252FCheckoutLinesPG%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiprwCheckoutLinesPG%26fl%3DDeliveryLinesRN%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1953892938%26oapc%3D17%26oas%3DjCJLECUy7IJjBg7aOJxFKg..%22)">Personalize Stack Layout: (DeliveryLinesRN)</A></DIV>
+<DIV></DIV>
+<SCRIPT id=DeliveryStartSpacer type=text/javascript>t('10','10')</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=10>
+<DIV></DIV>
+<DIV id=DeliveryLinesAdvTable_p13n>
+<DIV></DIV>
+<DIV></DIV><SPAN id=DeliveryLinesAdvTable title="This table shows the delivery information of the requisition lines.">
+<TABLE role=presentation cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD>
+<TABLE role=presentation class=x1p cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD noWrap>
+<TABLE role=presentation cellSpacing=0 cellPadding=0 summary="" border=0>
+<TBODY>
+<TR>
+<TD class=x58 noWrap>Select Lines:
+<SCRIPT type=text/javascript>t(3,1)</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=3 height=1></TD>
+<TD vAlign=middle noWrap><SPAN id=DeliveryLinesButtons><BUTTON onclick="submitForm('DefaultFormName',0,{'evtSrcRowIdx':'','evtSrcRowId':'','serverValidate':'0',event:'updateLines',source:'Update'});return false;" id=Update title=Update class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Update</BUTTON><BUTTON onclick="submitForm('DefaultFormName',0,{'evtSrcRowIdx':'','evtSrcRowId':'','serverValidate':'0',event:'copyLines',source:'Copy'});return false;" id=Copy title=Copy class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Copy</BUTTON><BUTTON onclick="submitForm('DefaultFormName',0,{'evtSrcRowIdx':'','evtSrcRowId':'','serverValidate':'0',event:'deleteLines',source:'Delete'});return false;" id=Delete title=Delete class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Delete</BUTTON></SPAN></TD></TR></TBODY></TABLE></TD>
+<TD width="100%"></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD>
+<TABLE role=presentation class=x1r cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD vAlign=middle noWrap><A class=x48 href="javascript:tableSelectAll('DeliveryLinesAdvTable')">Select All</A>&nbsp;|&nbsp;<A class=x48 href="javascript:tableSelectNone('DeliveryLinesAdvTable')">Select None</A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE class=x1o cellSpacing=0 cellPadding=1 width="100%" summary="This table shows the delivery information of the requisition lines." border=0>
+<TBODY>
+<TR>
+<TH class="x20 x4w" style="WORD-BREAK: keep-all" width="1%" scope=col noWrap>Select</TH>
+<TH id=LineNumOnDeliveryCol class="x1y x4t" scope=col abbr=Line><SPAN id=LineNumOnDeliveryHeader class=x2b>Line
+<SCRIPT type=text/javascript>function _tableSortSubmit(formName,validate,sortEvent,table,val,stat,ptgt) {var submitFunc = (ptgt == (void 0)) ? submitForm : _submitPartialChange;submitFunc(formName,validate,{event:sortEvent,source:table,value:val,state:stat,partialTargets:ptgt });}</SCRIPT>
+</SPAN></TH>
+<TH id=ItemDescOnDeliveryCol class="x1y x4t" scope=col abbr=Description><SPAN id=ItemDescOnDeliveryHeader class=x2b>Description</SPAN></TH>
+<TH id=UrgentFlagCol class="x20 x4t" scope=col abbr=Urgent><SPAN id=UrgentFlagHeader class=x2b>Urgent</SPAN></TH>
+<TH id=NeedByDateCol class="x1y x4t" scope=col abbr="Need-By Date"><SPAN id=NeedByDateHeader class=x2b>Need-By Date</SPAN></TH>
+<TH id=RequesterCol class="x1y x4t" scope=col abbr=Requester><SPAN id=RequesterHeader class=x2b>Requester</SPAN></TH>
+<TH id=DeliverToLocationCol class="x1y x4t" scope=col abbr="Deliver-To Location"><SPAN id=DeliverToLocationHeader class=x2b>Deliver-To Location</SPAN></TH>
+<TH id=DestinationTypeCol class="x1y x4t" scope=col abbr="Destination Type"><SPAN id=DestinationTypeHeader class=x2b>Destination Type</SPAN></TH>
+<TH id=ReqLineDFFOnDelivery0_column class="x1y x4t" scope=col><SPAN id=ReqLineDFFOnDelivery0_header class=x2b>Manufacturer Part No</SPAN></TH>
+<TH id=ReqLineDFFOnDelivery1_column class="x1y x4t" scope=col><SPAN id=ReqLineDFFOnDelivery1_header class=x2b>Agreement Reference</SPAN></TH>
+<TH id=ReqLineDFFOnDelivery3_column class="x1y x4t" scope=col><SPAN id=ReqLineDFFOnDelivery3_header class=x2b>Casting Unit</SPAN></TH></TR>
+<TR>
+<TD class="x1w x57"><INPUT id=M__Ide title="Select: 1" type=checkbox value=0 name=DeliveryLinesAdvTable:selected:0><LABEL class=x3f for=M__Ide>Select: 1</LABEL></TD>
+<TD class="x1s x57" scope=row><SPAN id=DeliveryLinesAdvTable:LineNumOnDelivery:0 title=Line>1</SPAN><INPUT id=DeliveryLinesAdvTable:ItemId:0 type=hidden name=DeliveryLinesAdvTable:ItemId:0><INPUT id=DeliveryLinesAdvTable:ItemRevision:0 type=hidden name=DeliveryLinesAdvTable:ItemRevision:0><INPUT id=DeliveryLinesAdvTable:SourceTypeCode:0 type=hidden value=VENDOR name=DeliveryLinesAdvTable:SourceTypeCode:0><INPUT id=DeliveryLinesAdvTable:RequesterId:0 type=hidden value=92182 name=DeliveryLinesAdvTable:RequesterId:0><INPUT id=DeliveryLinesAdvTable:RequesterPhone:0 type=hidden name=DeliveryLinesAdvTable:RequesterPhone:0><INPUT id=DeliveryLinesAdvTable:RequesterFax:0 type=hidden name=DeliveryLinesAdvTable:RequesterFax:0><INPUT id=DeliveryLinesAdvTable:RequesterEmail:0 type=hidden value=PeethambaranS@maaden.com.saXXX name=DeliveryLinesAdvTable:RequesterEmail:0><INPUT id=DeliveryLinesAdvTable:LocationId:0 type=hidden name=DeliveryLinesAdvTable:LocationId:0><INPUT id=DeliveryLinesAdvTable:DeliverToOrgId:0 type=hidden name=DeliveryLinesAdvTable:DeliverToOrgId:0><INPUT id=DeliveryLinesAdvTable:WipEntityId:0 type=hidden name=DeliveryLinesAdvTable:WipEntityId:0><INPUT id=DeliveryLinesAdvTable:ProjectIdOnDeliveryExpense:0 type=hidden name=DeliveryLinesAdvTable:ProjectIdOnDeliveryExpense:0><INPUT id=DeliveryLinesAdvTable:TaskIdOnDeliveryExpense:0 type=hidden name=DeliveryLinesAdvTable:TaskIdOnDeliveryExpense:0><INPUT id=DeliveryLinesAdvTable:SuggestedBuyerId:0 type=hidden value=37845 name=DeliveryLinesAdvTable:SuggestedBuyerId:0><INPUT id=DeliveryLinesAdvTable:UnNumberId:0 type=hidden name=DeliveryLinesAdvTable:UnNumberId:0><INPUT id=DeliveryLinesAdvTable:HazardClassId:0 type=hidden name=DeliveryLinesAdvTable:HazardClassId:0></TD>
+<TD class="x1s x57"><SPAN id=DeliveryLinesAdvTable:ItemDescriptionOnDelivery:0 title=Description>Passivator</SPAN></TD>
+<TD class="x1w x57"><SPAN id=DeliveryLinesAdvTable:UrgentCheckBox:0__xc_><INPUT id=DeliveryLinesAdvTable:UrgentCheckBox:0 type=checkbox value=on name=DeliveryLinesAdvTable:UrgentCheckBox:0></SPAN></TD>
+<TD class="x1s x57" noWrap>
+<SCRIPT type=text/javascript>var _locale='en-US-ORACLE9I';var _tLocale='en-US-ORACLE9I';var _groupingSep=',';var _decimalSep='.';</SCRIPT>
+
+<SCRIPT type=text/javascript src="/OA_HTML/cabo/jsLibs/resources/LocaleElements_en_US_ORACLE9I2_3_6_9.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>var _dfLenient=1;var _df2DYS=1950;</SCRIPT>
+
+<SCRIPT type=text/javascript>function _uixspu(f,v,e,s,pt,p,o){if(!o)o=new Object();o.event=(e)?e:'update';if(s)o.source=s;if(p){o.partial='true';if(pt)o.partialTargets=pt;_submitPartialChange(f,v,o);}else submitForm(f,v,o);}</SCRIPT>
+
+<SCRIPT type=text/javascript>if(window['_dfs'] == (void 0)){var _dfs=new Object();}_dfs["DeliveryLinesAdvTable:NeedByDate:0"]=['dd-MMM-yyyy HH:mm:ss','dd-MMM-yyyy']</SCRIPT>
+<INPUT onchange="_uixspu('DefaultFormName',0,'PPRUserEvent','NeedByDate',0,1,{'_FORM_SUBMIT_BUTTON':'_fwkActBtnName_NeedByDate_PPRUserEvent','evtSrcRowIdx':'0','evtSrcRowId':'RequisitionAM.PoRequisitionLinesVO2323412'});return true;" onkeypress="return _submitOnEnter(event, 'DefaultFormName');" onblur=_dfb(this,1) id=DeliveryLinesAdvTable:NeedByDate:0 title="Need-By Date" class=x8 maxLength=20 size=10 value="04-May-2020 00:00:00" name=DeliveryLinesAdvTable:NeedByDate:0><LABEL class=x3f for=DeliveryLinesAdvTable:NeedByDate:0>Need-By Date</LABEL>
+<SCRIPT type=text/javascript>t('8','1')</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=8 height=1>
+<SCRIPT type=text/javascript>var _jspDir='/OA_HTML/cabo/jsps/a.jsp';var _configName='OAConfig';var _enc='WINDOWS-1256';var _contextURI='/OA_HTML';</SCRIPT>
+
+<SCRIPT type=text/javascript>var _uixLocaleTZ=180;var _uixLocaleTZId="Asia/Riyadh";var _firstDOW=1;</SCRIPT>
+<A onclick="_ldp('DefaultFormName','DeliveryLinesAdvTable:NeedByDate:0'); return false" href="#"><IMG border=0 alt="Select to access date picker" src="/OA_HTML/cabo/images/cache/cdp.gif" width=19 align=top height=24></A></TD>
+<TD class="x1s x57" noWrap>
+<SCRIPT type=text/javascript>function _lovClose(f,p,pt){var s=submitForm;if(pt)s=_submitPartialChange;return s(f,0,p);}</SCRIPT>
+<SPAN id=DeliveryLinesAdvTable:Requester:0__xc_><INPUT onchange="return _chain('LOCRequester(0, new Object()); ','return _LovInputVTF(\'DeliveryLinesAdvTable:Requester:0\',0,_getInputField(event),1,1);',this,event,true)" id=DeliveryLinesAdvTable:Requester:0 title=Requester class=x8 size=15 value="Shaji Peethambaran" name=DeliveryLinesAdvTable:Requester:0><LABEL class=x3f for=DeliveryLinesAdvTable:Requester:0>Requester</LABEL>
+<SCRIPT type=text/javascript>t('8','1')</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=8 height=1><A onclick="return _LovInputVTF('DeliveryLinesAdvTable:Requester:0',0,document.forms['DefaultFormName']['DeliveryLinesAdvTable:Requester:0'],1,1,{'F':'DefaultFormName','N':'Requester','L':'DeliveryLinesAdvTable:Requester:0','T':'DeliveryLinesAdvTable:Requester:0','D':'/OA_HTML/OA.jsp?region=/oracle/apps/icx/lov/webui/RequesterLovRN&amp;regionCode=Requester&amp;regionAppId=178&amp;lovBaseItemName=Requester&amp;fndOAJSPinEmbeddedMode=y&amp;_ti=1953892938&amp;label=Requester&amp;formName=DefaultFormName&amp;addBreadCrumb=S&amp;baseAppMod=oracle.apps.icx.por.req.server.RequisitionAM&amp;amUsageMode=1&amp;lovTableName=DeliveryLinesAdvTable&amp;RowNum=0&amp;lovMainCriteria=RequesterName&amp;Criteria=Requester.RequesterName&amp;PassiveCriteria=&amp;retainAM=Y&amp;Selector=N&amp;lovMultiSelectDelimiter=%3B&amp;baseToLovKey=/oracle/apps/icx/por/req/webui/CheckoutLinesPG.Requester_/oracle/apps/icx/lov/webui/RequesterLovRN&amp;baseCompMode=11.5.10&amp;oapc=17&amp;oas=KQi9BXLQ9YSepPoDmDWKAA..','S':OnLovSelect,'M':1,'P':1});" href="#"><IMG border=0 alt="Search for Requester" src="/OA_HTML/cabo/images/cache/clovi.gif" width=24 align=top height=24></A></SPAN></TD>
+<TD class="x1s x57" noWrap><SPAN id=DeliveryLinesAdvTable:DeliverToLocation:0__xc_><INPUT onchange="return _chain('LOCDeliverToLocation(0, new Object()); ','return _LovInputVTF(\'DeliveryLinesAdvTable:DeliverToLocation:0\',0,_getInputField(event),1,1);',this,event,true)" id=DeliveryLinesAdvTable:DeliverToLocation:0 title="Deliver-To Location" class=x8 size=15 name=DeliveryLinesAdvTable:DeliverToLocation:0><LABEL class=x3f for=DeliveryLinesAdvTable:DeliverToLocation:0>Deliver-To Location</LABEL>
+<SCRIPT type=text/javascript>t('8','1')</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=8 height=1><A onclick="return _LovInputVTF('DeliveryLinesAdvTable:DeliverToLocation:0',0,document.forms['DefaultFormName']['DeliveryLinesAdvTable:DeliverToLocation:0'],1,1,{'F':'DefaultFormName','N':'DeliverToLocation','L':'DeliveryLinesAdvTable:DeliverToLocation:0','T':'DeliveryLinesAdvTable:DeliverToLocation:0','D':'/OA_HTML/OA.jsp?region=/oracle/apps/icx/lov/webui/LocationLovRN&amp;regionCode=DeliverToLocation&amp;regionAppId=178&amp;lovBaseItemName=DeliverToLocation&amp;fndOAJSPinEmbeddedMode=y&amp;_ti=1953892938&amp;label=Deliver-To%20Location&amp;formName=DefaultFormName&amp;addBreadCrumb=S&amp;baseAppMod=oracle.apps.icx.por.req.server.RequisitionAM&amp;amUsageMode=1&amp;lovTableName=DeliveryLinesAdvTable&amp;RowNum=0&amp;lovMainCriteria=LocationCode&amp;Criteria=DeliverToLocation.LocationCode&amp;PassiveCriteria=SourceTypeCode.SourceTypeCode..ItemId.ItemId..ItemRevision.ItemRevision&amp;retainAM=Y&amp;Selector=N&amp;lovMultiSelectDelimiter=%3B&amp;baseToLovKey=/oracle/apps/icx/por/req/webui/CheckoutLinesPG.DeliverToLocation_/oracle/apps/icx/lov/webui/LocationLovRN&amp;baseCompMode=11.5.10&amp;oapc=17&amp;oas=r8RIfTWtlL9Fhxl87Qnrnw..','S':OnLovSelect,'M':1,'P':1});" href="#"><IMG border=0 alt="Search for Deliver-To Location" src="/OA_HTML/cabo/images/cache/clovi.gif" width=24 align=top height=24></A></SPAN>
+<DIV></DIV><A onclick="submitForm('DefaultFormName',0,{'PorReqLineId':'2323412','serverValidate':'0','evtSrcRowId':'RequisitionAM.PoRequisitionLinesVO2323412','evtSrcRowIdx':'0',event:'addOneTimeAddr',source:'EnterOneTimeAddr'});return false;" id=DeliveryLinesAdvTable:EnterOneTimeAddr:0 class=xh href="#">Enter one-time address</A></TD>
+<TD class="x1s x57" noWrap><SELECT onchange="return _pprChoiceChangeEvent(event);" onclick="if(!_pprChoiceAction(event))return true;_uixspu('DefaultFormName',0,'PPRUserEvent','DestinationTypeChoice',0,1,{'_FORM_SUBMIT_BUTTON':'_fwkActBtnName_DestinationTypeChoice_PPRUserEvent','evtSrcRowIdx':'0','evtSrcRowId':'RequisitionAM.PoRequisitionLinesVO2323412','serverValidate':'0'});return false;" onblur="if(!_pprChoiceAction(event))return true;_uixspu('DefaultFormName',0,'PPRUserEvent','DestinationTypeChoice',0,1,{'_FORM_SUBMIT_BUTTON':'_fwkActBtnName_DestinationTypeChoice_PPRUserEvent','evtSrcRowIdx':'0','evtSrcRowId':'RequisitionAM.PoRequisitionLinesVO2323412','serverValidate':'0'});return false;" id=DeliveryLinesAdvTable:DestinationTypeChoice:0 title="Destination Type" class=x8 name=DeliveryLinesAdvTable:DestinationTypeChoice:0><OPTION selected value=EXPENSE>Expense</OPTION><OPTION value="SHOP FLOOR">Maintenance</OPTION></SELECT><LABEL class=x3f for=DeliveryLinesAdvTable:DestinationTypeChoice:0>Destination Type</LABEL><INPUT id=DeliveryLinesAdvTable:IsInventoryPossibleLineStr:0 type=hidden value=N name=DeliveryLinesAdvTable:IsInventoryPossibleLineStr:0><INPUT id=DeliveryLinesAdvTable:IsShopFloorPossibleLineStr:0 type=hidden value=Y name=DeliveryLinesAdvTable:IsShopFloorPossibleLineStr:0></TD>
+<TD class="x1s x57" noWrap><INPUT onchange="" id=DeliveryLinesAdvTable:ReqLineDFFOnDelivery0:0 title="Manufacturer Part No" class=x8 maxLength=20 name=DeliveryLinesAdvTable:ReqLineDFFOnDelivery0:0><LABEL class=x3f for=DeliveryLinesAdvTable:ReqLineDFFOnDelivery0:0>Manufacturer Part No</LABEL></TD>
+<TD class="x1s x57" noWrap><INPUT onchange="" id=DeliveryLinesAdvTable:ReqLineDFFOnDelivery1:0 title="Agreement Reference" class=x8 maxLength=20 name=DeliveryLinesAdvTable:ReqLineDFFOnDelivery1:0><LABEL class=x3f for=DeliveryLinesAdvTable:ReqLineDFFOnDelivery1:0>Agreement Reference</LABEL></TD>
+<TD class="x1s x57" noWrap><SPAN id=DeliveryLinesAdvTable:ReqLineDFFOnDelivery3:0__xc_><INPUT onchange="return _chain('LOCReqLineDFFOnDelivery3(0, new Object()); ','return _LovInputVTF(\'DeliveryLinesAdvTable:ReqLineDFFOnDelivery3:0\',0,_getInputField(event),1,1);',this,event,true)" id=DeliveryLinesAdvTable:ReqLineDFFOnDelivery3:0 title="Casting Unit" class=x8 maxLength=20 name=DeliveryLinesAdvTable:ReqLineDFFOnDelivery3:0><LABEL class=x3f for=DeliveryLinesAdvTable:ReqLineDFFOnDelivery3:0>Casting Unit</LABEL>
+<SCRIPT type=text/javascript>t('8','1')</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=8 height=1><A onclick="return _LovInputVTF('DeliveryLinesAdvTable:ReqLineDFFOnDelivery3:0',0,document.forms['DefaultFormName']['DeliveryLinesAdvTable:ReqLineDFFOnDelivery3:0'],1,1,{'F':'DefaultFormName','N':'ReqLineDFFOnDelivery3','L':'DeliveryLinesAdvTable:ReqLineDFFOnDelivery3:0','T':'DeliveryLinesAdvTable:ReqLineDFFOnDelivery3:0','D':'/OA_HTML/OA.jsp?region=/oracle/apps/fnd/framework/webui/OAFlexLOVRG&amp;regionCode=ReqLineDFFOnDelivery&amp;regionAppId=178&amp;lovBaseItemName=ReqLineDFFOnDelivery3&amp;fndOAJSPinEmbeddedMode=y&amp;_ti=1953892938&amp;label=Casting%20Unit&amp;formName=DefaultFormName&amp;addBreadCrumb=S&amp;baseAppMod=oracle.apps.icx.por.req.server.RequisitionAM&amp;amUsageMode=1&amp;lovTableName=DeliveryLinesAdvTable&amp;RowNum=0&amp;lovMainCriteria=FlexDisplay&amp;Criteria=ReqLineDFFOnDelivery3.FlexDisplay&amp;PassiveCriteria=&amp;retainAM=Y&amp;Selector=N&amp;lovMultiSelectDelimiter=%3B&amp;baseToLovKey=/oracle/apps/icx/por/req/webui/CheckoutLinesPG.ReqLineDFFOnDelivery3_/oracle/apps/fnd/framework/webui/OAFlexLOVRG&amp;baseCompMode=11.5.10&amp;oapc=17&amp;oas=Vd71NMNteHMHLguwPnw3gg..','S':OnLovSelect,'M':1,'P':1});" href="#"><IMG border=0 alt="Search for Casting Unit" src="/OA_HTML/cabo/images/cache/clovi.gif" width=24 align=top height=24></A></SPAN></TD></TR></TBODY></TABLE>
+<TABLE role=presentation cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY></TBODY></TABLE></SPAN><SPAN id=DeliveryLinesAdvTable-hv><INPUT id=DeliveryLinesAdvTable:_pkRequisitionLineId:0 type=hidden value={!!k-TLhXKr9scjy-mmr6a0hA name=DeliveryLinesAdvTable:_pkRequisitionLineId:0><INPUT id=DeliveryLinesAdvTable:ReqLineDFFOnDeliveryFlex_Read_Only_Flag:0 type=hidden value=false name=DeliveryLinesAdvTable:ReqLineDFFOnDeliveryFlex_Read_Only_Flag:0><INPUT id=DeliveryLinesAdvTable:ReqLineDFFOnDelivery3HiddenFlexId:0 type=hidden name=DeliveryLinesAdvTable:ReqLineDFFOnDelivery3HiddenFlexId:0><INPUT type=hidden value=1 name=DeliveryLinesAdvTable:length><INPUT type=hidden name=DeliveryLinesAdvTable:selectMode></SPAN>
+<SCRIPT type=text/javascript>_addNavExclude('DeliveryLinesAdvTable:selected')</SCRIPT>
+
+<DIV></DIV>
+<DIV></DIV></DIV>
+<DIV></DIV>
+<SCRIPT id=DeliveryEndSpacer type=text/javascript>t('10','10')</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=10></SPAN></DIV></TD></TR></TBODY></TABLE></SPAN>
+<DIV></DIV><INPUT id=_fwkAbsolutePageName type=hidden value=/oracle/apps/icx/por/req/webui/CheckoutLinesPG::: name=_fwkAbsolutePageName></DIV></DIV>
+<DIV>
+<DIV>
+<SCRIPT type=text/javascript>t(1,9)</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=9></DIV>
+<DIV>
+<SCRIPT type=text/javascript>t(1,2)</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=2></DIV>
+<TABLE role=presentation cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD noWrap></TD>
+<TD width="100%" align=right><MAP title="Global buttons"><A class=x3f href="#M__Idg"><IMG border=0 alt="Skip all Global buttons" src="/OA_HTML/cabo/images/swan/t.gif"></A>
+<TABLE role=presentation id=PageButtonsRN_uixr class=x6w cellSpacing=0 cellPadding=0 summary="" border=0>
+<TBODY>
+<TR>
+<TD>
+<SCRIPT type=text/javascript>t(8,0)</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=8 height=0></TD>
+<TD><BUTTON onclick="submitForm('DefaultFormName',1,{'evtSrcRowIdx':'','evtSrcRowId':'',event:'return',source:'Return'});return false;" id=Return_uixr title=Apply class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Apply</BUTTON></TD></TR></TBODY></TABLE></MAP><A id=M__Idg_uixr class=xh name=M__Idg></A></TD>
+<TD></TD></TR>
+<TR>
+<TD colSpan=3>
+<SCRIPT type=text/javascript>t(1,10)</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=10></TD></TR></TBODY></TABLE></DIV></DIV>
+<DIV></DIV>
+<DIV></DIV>
+<DIV></DIV></DIV>
+<TABLE role=presentation class=x70 style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/footerBg.gif)" cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD>
+<TABLE role=presentation cellSpacing=2 cellPadding=2 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD class=x14 noWrap align=left><A onclick="return _chain('return checkSubmit(&quot;The changes you made to this page have not been saved.  If you continue, the changes will be discarded.  Do you wish to continue?&quot;)','submitForm(\'DefaultFormName\',0,{\'serverValidate\':\'1\',event:\'about\'});return false;',this,event,true)" href="#">About this Page</A></TD>
+<TD>
+<SCRIPT type=text/javascript>t('10','10')</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=10></TD>
+<TD class=x13 noWrap align=left><A title="Privacy Statement" href="http://personalize.this.link" target=_blank>Privacy Statement</A></TD>
+<TD class=x12 width="100%" noWrap align=right><SPAN id=N39>Copyright (c) 2006, Oracle. All rights reserved.</SPAN></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></SPAN><INPUT id=_OA_CURRENT_SUBTAB_UINODENAME type=hidden value=0 name=_OA_CURRENT_SUBTAB_INDEX><INPUT id=_fwkActBtnName_NeedByDate_PPRUserEvent$$serverUnvalidated type=hidden value=true name=_fwkActBtnName_NeedByDate_PPRUserEvent$$serverUnvalidated><INPUT id=_fwkActBtnName_EnterOneTimeAddr_addOneTimeAddr$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_EnterOneTimeAddr_addOneTimeAddr$$serverUnvalidated><INPUT id=_fwkActBtnName_DestinationTypeChoice_PPRUserEvent$$serverUnvalidated type=hidden value=true name=_fwkActBtnName_DestinationTypeChoice_PPRUserEvent$$serverUnvalidated><INPUT id=_fwkActBtnName_Update_updateLines$$serverUnvalidated type=hidden value=true name=_fwkActBtnName_Update_updateLines$$serverUnvalidated><INPUT id=_fwkActBtnName_Copy_copyLines$$serverUnvalidated type=hidden value=true name=_fwkActBtnName_Copy_copyLines$$serverUnvalidated><INPUT id=_fwkActBtnName_Delete_deleteLines$$serverUnvalidated type=hidden value=true name=_fwkActBtnName_Delete_deleteLines$$serverUnvalidated><INPUT id=DeliveryLinesAdvTable$$unvalidated type=hidden value=true name=DeliveryLinesAdvTable$$unvalidated><INPUT id=DeliveryLinesAdvTable$$serverUnvalidated type=hidden value=true name=DeliveryLinesAdvTable$$serverUnvalidated><INPUT id=_fwkActBtnName_AccountsTab_update$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_AccountsTab_update$$serverUnvalidated><INPUT id=_fwkActBtnName_AttachmentsTab_update$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_AttachmentsTab_update$$serverUnvalidated><INPUT id=_fwkActBtnName_Return_return$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_Return_return$$serverUnvalidated><SPAN id=_DefaultFormName_Postscript><INPUT type=hidden name=uri><INPUT type=hidden name=event><INPUT type=hidden name=_FORMEVENT><INPUT type=hidden name=serverValidate><INPUT type=hidden name=evtSrcRowIdx><INPUT type=hidden name=evtSrcRowId><INPUT type=hidden name=source><INPUT type=hidden name=_oldStyleSubtabClick><INPUT type=hidden name=_OAFSubTabLink><INPUT type=hidden name=_OA_SUB_TAB_INDEX><INPUT type=hidden name=value><INPUT type=hidden name=state><INPUT type=hidden name=partialTargets><INPUT type=hidden name=partial><INPUT type=hidden name=_FORM_SUBMIT_BUTTON><INPUT type=hidden name=searchText><INPUT type=hidden name=PorReqLineId>
+<SCRIPT type=text/javascript>var _resetDefaultFormNameNames=["uri","event","_FORMEVENT","serverValidate","evtSrcRowIdx","evtSrcRowId","source","_oldStyleSubtabClick","_OAFSubTabLink","_OA_SUB_TAB_INDEX","value","state","partialTargets","partial","_FORM_SUBMIT_BUTTON","searchText","PorReqLineId"];</SCRIPT>
+
+<SCRIPT type=text/javascript>var _DefaultFormName_Validations=['new SimpleDateFormat([\'dd-MMM-yyyy HH:mm:ss\',\'dd-MMM-yyyy\']).validate(%value%)','_isEmpty(%value%)'];function _DefaultFormNameValidater(form){var fl = _multiValidate(form,[0,"DeliveryLinesAdvTable:NeedByDate:0",0,1,1,"DeliveryLinesAdvTable:NeedByDate:0",1,0,1,"DeliveryLinesAdvTable:Requester:0",1,0,1,"DeliveryLinesAdvTable:DeliverToLocation:0",1,0,1,"DeliveryLinesAdvTable:DestinationTypeChoice:0",1,0]);if(fl.length>0){_validationAlert('Form validation failures:'+fl);return false;}else{return true;}}var _DefaultFormName_Labels={'DeliveryLinesAdvTable:NeedByDate:0':'Need-By Date','DeliveryLinesAdvTable:Requester:0':'Requester','DeliveryLinesAdvTable:DeliverToLocation:0':'Deliver-To Location','DeliveryLinesAdvTable:DestinationTypeChoice:0':'Destination Type'};var _DefaultFormName_Patterns={'DeliveryLinesAdvTable:NeedByDate:0':'dd-MMM-yyyy HH:mm:ss'};var _DefaultFormName_Formats=['Value "%value%" in "%label%" is not a date and time formatted as "%pattern%".:::::Value "%value%" in "%label%" is not a valid time due to Day Light Saving Time.','A value must be entered for "%label%".'];function _submitOnEnter(e,frm){return (_getKC(e)!=13);}</SCRIPT>
+</SPAN>
+<SCRIPT type=text/javascript>_submitFormCheck();</SCRIPT>
+</FORM><IFRAME title="Forms Launcher" height=5 src="http://riyoramgbm02.maaden.com:8050/OA_HTML/blank.html" frameBorder=no width=5 name=formsLauncher scrolling=no></IFRAME></SPAN><INPUT disabled id=_pprSaveLib type=hidden><INPUT disabled id=_pprSaveScript type=hidden><INPUT disabled id=_pprSavePage type=hidden>
+<SCRIPT>var _uixDoneMessage="Done."</SCRIPT>
+
+<SCRIPT>document.body.style.marginLeft="0px";document.body.style.marginRight="0px";document.body.style.marginTop="0px";</SCRIPT>
+<!-- Created by Oracle UIX , Accessibility:enhanced, laf:swan.desktop (swan) --> </BODY></HTML>
