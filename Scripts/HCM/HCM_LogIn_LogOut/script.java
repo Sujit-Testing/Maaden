@@ -16,6 +16,7 @@ public class script extends IteratingVUserScript {
 	@ScriptService oracle.oats.scripting.modules.webdom.api.WebDomService web;
 	@ScriptService oracle.oats.scripting.modules.datatable.api.DataTableService datatable;
 	
+	
 	public void initialize() throws Exception {
 		browser.launch();
 	}
