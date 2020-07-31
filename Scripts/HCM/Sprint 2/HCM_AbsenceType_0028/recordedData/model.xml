@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model _object_hashcode_="31760731">
+	<element id="1" type="oracle.oats.scripting.models.RecordedElement" _field_name_="root" _object_hashcode_="23786634">
+		<java.util.ArrayList _field_name_="children" _object_hashcode_="32233790">
+			<collectionItem _field_name_="entry0" _object_hashcode_="25179023">
+				<element parentId="1" id="2" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" _field_name_="valueObject" _object_hashcode_="20201335">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="3109979"/>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="18374665"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="25239939">
+						<collectionItem _field_name_="entry0" _object_hashcode_="17863975">
+							<literal _field_name_="valueObject" _object_hashcode_="11687555">0</literal>
+							<string _field_name_="keyObject" _object_hashcode_="3022301">FrameUniqueID</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry11" _object_hashcode_="11095809">
+							<literal _field_name_="valueObject" _object_hashcode_="16242590">False</literal>
+							<string _field_name_="keyObject" _object_hashcode_="9281968">IsUserTyped</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="6523383">
+							<literal _field_name_="valueObject" _object_hashcode_="1175073">/web:window[@index=&apos;0&apos; or @title=&apos;Absence Administration - Absences - Oracle Applications&apos;]</literal>
+							<string _field_name_="keyObject" _object_hashcode_="10255355">path</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry10" _object_hashcode_="379007">
+							<literal _field_name_="valueObject" _object_hashcode_="18640911">0</literal>
+							<string _field_name_="keyObject" _object_hashcode_="29058206">TimeStamp</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry8" _object_hashcode_="22791669">
+							<literal _field_name_="valueObject" _object_hashcode_="24946001">HTML</literal>
+							<string _field_name_="keyObject" _object_hashcode_="13051748">AppType</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry9" _object_hashcode_="32790104">
+							<literal _field_name_="valueObject" _object_hashcode_="7753712">https://ejop-test.fa.em2.oraclecloud.com/hcmUI/faces/FndOverview?fnd=%3B%3B%3B%3Bfalse%3B256%3B%3B%3B&amp;fndGlobalItemNodeId=itemNode_workforce_management_absence_administration&amp;_afrLoop=2423880490563799&amp;_afrWindowMode=0&amp;_afrWindowId=lp3x7coah&amp;_adf.ctrl-state=eusk4u2a1_1&amp;_afrFS=16&amp;_afrMT=screen&amp;_afrMFW=1536&amp;_afrMFH=725&amp;_afrMFDW=1536&amp;_afrMFDH=864&amp;_afrMFC=8&amp;_afrMFCI=0&amp;_afrMFM=0&amp;_afrMFR=120&amp;_afrMFG=0&amp;_afrMFS=0&amp;_afrMFO=0</literal>
+							<string _field_name_="keyObject" _object_hashcode_="13689205">Url</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry6" _object_hashcode_="24527264">
+							<literal _field_name_="valueObject" _object_hashcode_="26661248"/>
+							<string _field_name_="keyObject" _object_hashcode_="13327223">ElementTag</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry7" _object_hashcode_="30812161">
+							<literal _field_name_="valueObject" _object_hashcode_="31995174">Get</literal>
+							<string _field_name_="keyObject" _object_hashcode_="7289776">Method</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="5452451">
+							<literal _field_name_="valueObject" _object_hashcode_="9768979">1593717693728</literal>
+							<string _field_name_="keyObject" _object_hashcode_="9157772">tsBegin</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry5" _object_hashcode_="31915879">
+							<literal _field_name_="valueObject" _object_hashcode_="5525526">1593717693728</literal>
+							<string _field_name_="keyObject" _object_hashcode_="26189939">tsEnd</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="13682426">
+							<literal _field_name_="valueObject" _object_hashcode_="19478437">Absence Administration - Absences - Oracle Applications</literal>
+							<string _field_name_="keyObject" _object_hashcode_="25920556">Title</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="15628801">
+							<literalInt _field_name_="valueObject" _object_hashcode_="31044664">0</literalInt>
+							<string _field_name_="keyObject" _object_hashcode_="11984648">windowIndex</string>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="25998116">0</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry1" _object_hashcode_="22645077">
+				<element parentId="1" id="4" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" _field_name_="valueObject" _object_hashcode_="18345939">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="7102027"/>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="7755466"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="10852742">
+						<collectionItem _field_name_="entry0" _object_hashcode_="23609886">
+							<literal _field_name_="valueObject" _object_hashcode_="5248938">/web:window[@index=&apos;0&apos; or @title=&apos;Absence Administration - Absences - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;9t9mrufjr&apos;]/web:a[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_absence_administration:0:_FOTsr1:0:ll01Upl:UPsp1:ll01Pce:ll01Itr:1:ll02Pce:ll01Lv:3:ll01Pse:ll01Cl&apos; or @text=&apos;Absence Types&apos; or @className=&apos;p_AFHoverTarget x2u8 xnd xms&apos;]</literal>
+							<object_reference_element _object_hashcode_="10255355" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="23046047">
+							<literalInt _field_name_="valueObject" _object_hashcode_="15536015">0</literalInt>
+							<object_reference_element _object_hashcode_="11984648" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="15525255">
+							<literalInt _field_name_="valueObject" _object_hashcode_="15592750">0</literalInt>
+							<string _field_name_="keyObject" _object_hashcode_="10255670">documentIndex</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="29149230">
+							<literal _field_name_="valueObject" _object_hashcode_="14779159">1593717693743</literal>
+							<object_reference_element _object_hashcode_="9157772" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="2430261">
+							<literal _field_name_="valueObject" _object_hashcode_="22214459">1593717693743</literal>
+							<object_reference_element _object_hashcode_="26189939" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="13077507">1</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry11" _object_hashcode_="13116017">
+				<element parentId="1" id="14" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" _field_name_="valueObject" _object_hashcode_="12534600">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="28645765"/>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="24960871"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="20814332">
+						<collectionItem _field_name_="entry0" _object_hashcode_="26289522">
+							<literal _field_name_="valueObject" _object_hashcode_="11430153">/web:window[@index=&apos;0&apos; or @title=&apos;Absence Types - Absences - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;9t9mrufjr&apos;]/web:span[@text=&apos;Saudi Arabia&apos; or @id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_absence_administration:0:MAnt2:2:AP1:soc11::content&apos; or @index=&apos;36&apos;]</literal>
+							<object_reference_element _object_hashcode_="10255355" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="3631510">
+							<literalInt _field_name_="valueObject" _object_hashcode_="14129254">0</literalInt>
+							<object_reference_element _object_hashcode_="11984648" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="13589016">
+							<literalInt _field_name_="valueObject" _object_hashcode_="18501731">0</literalInt>
+							<object_reference_element _object_hashcode_="10255670" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="25634650">
+							<literal _field_name_="valueObject" _object_hashcode_="7851937">1593717729234</literal>
+							<object_reference_element _object_hashcode_="9157772" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="33502829">
+							<literal _field_name_="valueObject" _object_hashcode_="18123108">1593717729234</literal>
+							<object_reference_element _object_hashcode_="26189939" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="6499177">11</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry12" _object_hashcode_="3117725">
+				<element parentId="1" id="15" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" _field_name_="valueObject" _object_hashcode_="10575522">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="13867689"/>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="19360510"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="20889568">
+						<collectionItem _field_name_="entry0" _object_hashcode_="3015898">
+							<literal _field_name_="valueObject" _object_hashcode_="29913340">/web:window[@index=&apos;0&apos; or @title=&apos;Absence Types - Absences - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;9t9mrufjr&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:button[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_absence_administration:0:MAnt2:2:AP1:commandButton1&apos; or @index=&apos;1&apos; or @text=&apos;Save and Close&apos; or @className=&apos;p_AFHoverTarget x7j p_AFTextOnly&apos;]</literal>
+							<object_reference_element _object_hashcode_="10255355" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="6119026">
+							<literalInt _field_name_="valueObject" _object_hashcode_="27127901">0</literalInt>
+							<object_reference_element _object_hashcode_="11984648" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="14501258">
+							<literalInt _field_name_="valueObject" _object_hashcode_="32976639">0</literalInt>
+							<object_reference_element _object_hashcode_="10255670" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="8688694">
+							<literal _field_name_="valueObject" _object_hashcode_="8022714">1593717731771</literal>
+							<object_reference_element _object_hashcode_="9157772" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="8143912">
+							<literal _field_name_="valueObject" _object_hashcode_="5875829">1593717731771</literal>
+							<object_reference_element _object_hashcode_="26189939" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="6622801">12</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry20" _object_hashcode_="7747227">
+				<element parentId="1" id="23" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" _field_name_="valueObject" _object_hashcode_="15717514">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="9362949"/>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="10585144"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="31892761">
+						<collectionItem _field_name_="entry0" _object_hashcode_="26179563">
+							<literal _field_name_="valueObject" _object_hashcode_="27256489">/web:window[@index=&apos;0&apos; or @title=&apos;Absence Types - Absences - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;f8imz8lsi&apos;]/web:td[@text=&apos; &apos; or @index=&apos;223&apos;]</literal>
+							<object_reference_element _object_hashcode_="10255355" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="24721062">
+							<literalInt _field_name_="valueObject" _object_hashcode_="23956861">0</literalInt>
+							<object_reference_element _object_hashcode_="11984648" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="32215380">
+							<literalInt _field_name_="valueObject" _object_hashcode_="18710638">0</literalInt>
+							<object_reference_element _object_hashcode_="10255670" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="31282285">
+							<literal _field_name_="valueObject" _object_hashcode_="11020366">1593719258420</literal>
+							<object_reference_element _object_hashcode_="9157772" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="20736382">
+							<literal _field_name_="valueObject" _object_hashcode_="3901447">1593719258420</literal>
+							<object_reference_element _object_hashcode_="26189939" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="11350187">20</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry10" _object_hashcode_="22464145">
+				<element parentId="1" id="13" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" _field_name_="valueObject" _object_hashcode_="3056922">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="29888533"/>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="12785049"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="6306998">
+						<collectionItem _field_name_="entry0" _object_hashcode_="7830061">
+							<literal _field_name_="valueObject" _object_hashcode_="699399">/web:window[@index=&apos;0&apos; or @title=&apos;Absence Types - Absences - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;9t9mrufjr&apos;]/web:span[@text=&apos;User-defined&apos; or @id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_absence_administration:0:MAnt2:2:AP1:soc20::content&apos; or @index=&apos;27&apos;]</literal>
+							<object_reference_element _object_hashcode_="10255355" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="10257156">
+							<literalInt _field_name_="valueObject" _object_hashcode_="20253098">0</literalInt>
+							<object_reference_element _object_hashcode_="11984648" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="6114528">
+							<literalInt _field_name_="valueObject" _object_hashcode_="33472305">0</literalInt>
+							<object_reference_element _object_hashcode_="10255670" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="33321780">
+							<literal _field_name_="valueObject" _object_hashcode_="15923791">1593717727764</literal>
+							<object_reference_element _object_hashcode_="9157772" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="6278260">
+							<literal _field_name_="valueObject" _object_hashcode_="2299436">1593717727764</literal>
+							<object_reference_element _object_hashcode_="26189939" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="22335871">10</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry15" _object_hashcode_="1957912">
+				<element parentId="1" id="18" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" _field_name_="valueObject" _object_hashcode_="136369">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="792035"/>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="26325028"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="24699031">
+						<collectionItem _field_name_="entry0" _object_hashcode_="5604791">
+							<literal _field_name_="valueObject" _object_hashcode_="26429978">/web:window[@index=&apos;0&apos; or @title=&apos;Absence Administration - Absences - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;evfxdzsux&apos;]/web:h2[@text=&apos;Absence Definitions&apos; or @index=&apos;2&apos;]</literal>
+							<object_reference_element _object_hashcode_="10255355" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="8924698">
+							<literalInt _field_name_="valueObject" _object_hashcode_="30463418">0</literalInt>
+							<object_reference_element _object_hashcode_="11984648" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="1340499">
+							<literalInt _field_name_="valueObject" _object_hashcode_="15764445">0</literalInt>
+							<object_reference_element _object_hashcode_="10255670" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="25057065">
+							<literal _field_name_="valueObject" _object_hashcode_="24544300">1593718571714</literal>
+							<object_reference_element _object_hashcode_="9157772" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="20972044">
+							<literal _field_name_="valueObject" _object_hashcode_="7516302">1593718571714</literal>
+							<object_reference_element _object_hashcode_="26189939" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="20598058">15</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry16" _object_hashcode_="11213952">
+				<element parentId="1" id="19" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" _field_name_="valueObject" _object_hashcode_="21040839">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="7879969"/>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="4379254"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="2138586">
+						<collectionItem _field_name_="entry0" _object_hashcode_="21781546">
+							<literal _field_name_="valueObject" _object_hashcode_="31681988">/web:window[@index=&apos;0&apos; or @title=&apos;Absence Administration - Absences - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;evfxdzsux&apos;]/web:svg[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_absence_administration:0:_FOTsr1:0:ll01Upl:UPsp1:ll01Pce:ll01Itr:1:ll02Pce:ll01Lv:3:ll01Pse:ll01Cil::icon&apos; and @className=&apos;svg-bkgd01 xi8&apos; and @role=&apos;img&apos; and @aria-label=&apos;Absence Types&apos; and @height=&apos;System.__ComObject&apos; and @width=&apos;System.__ComObject&apos; and @viewBox=&apos;0 0 48 48&apos; and @_afrsvg=&apos;true&apos; and @disabled=&apos;False&apos; and @onabort=&apos;null&apos; and @onblur=&apos;null&apos; and @onchange=&apos;null&apos; and @onclick=&apos;null&apos; and @ondblclick=&apos;null&apos; and @onfocus=&apos;null&apos; and @onkeydown=&apos;null&apos; and @onkeypress=&apos;null&apos; and @onkeyup=&apos;null&apos; and @onload=&apos;null&apos; and @onmousedown=&apos;null&apos; and @onmousemove=&apos;null&apos; and @onmouseout=&apos;null&apos; and @onmouseover=&apos;null&apos; and @onmouseup=&apos;null&apos; and @onreset=&apos;null&apos; and @onselect=&apos;null&apos; and @onsubmit=&apos;null&apos; and @onunload=&apos;null&apos; and @text=&apos;Absence Types&apos; and @index=&apos;20&apos;]</literal>
+							<object_reference_element _object_hashcode_="10255355" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="16553013">
+							<literalInt _field_name_="valueObject" _object_hashcode_="30446093">0</literalInt>
+							<object_reference_element _object_hashcode_="11984648" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="24098948">
+							<literalInt _field_name_="valueObject" _object_hashcode_="3713008">0</literalInt>
+							<object_reference_element _object_hashcode_="10255670" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="27848117">
+							<literal _field_name_="valueObject" _object_hashcode_="27778008">1593718577645</literal>
+							<object_reference_element _object_hashcode_="9157772" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="15096614">
+							<literal _field_name_="valueObject" _object_hashcode_="26363257">1593718577645</literal>
+							<object_reference_element _object_hashcode_="26189939" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="19148888">16</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry13" _object_hashcode_="11088371">
+				<element parentId="1" id="16" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" _field_name_="valueObject" _object_hashcode_="16185675">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="30723718"/>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="16916582"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="5632022">
+						<collectionItem _field_name_="entry0" _object_hashcode_="4852602">
+							<literal _field_name_="valueObject" _object_hashcode_="11739826">/web:window[@index=&apos;0&apos; or @title=&apos;Absence Types - Absences - Oracle Applications&apos;]</literal>
+							<object_reference_element _object_hashcode_="10255355" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="7703299">
+							<literal _field_name_="valueObject" _object_hashcode_="29009554">Absence Types - Absences - Oracle Applications</literal>
+							<object_reference_element _object_hashcode_="25920556" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="2539648">
+							<literal _field_name_="valueObject" _object_hashcode_="8946679">1593717734432</literal>
+							<object_reference_element _object_hashcode_="26189939" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry5" _object_hashcode_="17128862">
+							<literal _field_name_="valueObject" _object_hashcode_="29077012">HTML</literal>
+							<object_reference_element _object_hashcode_="13051748" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="21005791">
+							<literalInt _field_name_="valueObject" _object_hashcode_="2664245">0</literalInt>
+							<object_reference_element _object_hashcode_="11984648" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="20914983">
+							<literal _field_name_="valueObject" _object_hashcode_="20149310">1593717734432</literal>
+							<object_reference_element _object_hashcode_="9157772" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="20385254">13</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry14" _object_hashcode_="28955456">
+				<element parentId="1" id="17" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" _field_name_="valueObject" _object_hashcode_="5992085">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="512357"/>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="21049164"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="14673969">
+						<collectionItem _field_name_="entry0" _object_hashcode_="15569348">
+							<literal _field_name_="valueObject" _object_hashcode_="23953269">0</literal>
+							<object_reference_element _object_hashcode_="3022301" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry11" _object_hashcode_="21271419">
+							<literal _field_name_="valueObject" _object_hashcode_="3729653">False</literal>
+							<object_reference_element _object_hashcode_="9281968" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="17475503">
+							<literal _field_name_="valueObject" _object_hashcode_="5171886">/web:window[@index=&apos;0&apos; or @title=&apos;Absence Administration - Absences - Oracle Applications&apos;]</literal>
+							<object_reference_element _object_hashcode_="10255355" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry10" _object_hashcode_="13784029">
+							<literal _field_name_="valueObject" _object_hashcode_="15484830">0</literal>
+							<object_reference_element _object_hashcode_="29058206" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry8" _object_hashcode_="5610034">
+							<literal _field_name_="valueObject" _object_hashcode_="13212063">HTML</literal>
+							<object_reference_element _object_hashcode_="13051748" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry9" _object_hashcode_="31525128">
+							<literal _field_name_="valueObject" _object_hashcode_="7815726">https://ejop-test.fa.em2.oraclecloud.com/hcmUI/faces/FndOverview?fnd=%3B%3B%3B%3Bfalse%3B256%3B%3B%3B&amp;fndGlobalItemNodeId=itemNode_workforce_management_absence_administration&amp;_afrLoop=2424830933362344&amp;_afrWindowMode=0&amp;_afrWindowId=g8dibeqts&amp;_adf.ctrl-state=isi5c42dc_1&amp;_afrFS=16&amp;_afrMT=screen&amp;_afrMFW=1536&amp;_afrMFH=725&amp;_afrMFDW=1536&amp;_afrMFDH=864&amp;_afrMFC=8&amp;_afrMFCI=0&amp;_afrMFM=0&amp;_afrMFR=120&amp;_afrMFG=0&amp;_afrMFS=0&amp;_afrMFO=0</literal>
+							<object_reference_element _object_hashcode_="13689205" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry6" _object_hashcode_="27585284">
+							<literal _field_name_="valueObject" _object_hashcode_="21386462"/>
+							<object_reference_element _object_hashcode_="13327223" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry7" _object_hashcode_="27662422">
+							<literal _field_name_="valueObject" _object_hashcode_="14067469">Get</literal>
+							<object_reference_element _object_hashcode_="7289776" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="28744602">
+							<literal _field_name_="valueObject" _object_hashcode_="19325827">1593717743780</literal>
+							<object_reference_element _object_hashcode_="9157772" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry5" _object_hashcode_="4482221">
+							<literal _field_name_="valueObject" _object_hashcode_="21023490">1593717743780</literal>
+							<object_reference_element _object_hashcode_="26189939" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="12470122">
+							<literal _field_name_="valueObject" _object_hashcode_="15148161">Absence Administration - Absences - Oracle Applications</literal>
+							<object_reference_element _object_hashcode_="25920556" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="25534275">
+							<literalInt _field_name_="valueObject" _object_hashcode_="4600592">0</literalInt>
+							<object_reference_element _object_hashcode_="11984648" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="23746826">14</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry8" _object_hashcode_="10527138">
+				<element parentId="1" id="11" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" _field_name_="valueObject" _object_hashcode_="4915820">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="13079648"/>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="12029378"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="31355082">
+						<collectionItem _field_name_="entry0" _object_hashcode_="21158615">
+							<literal _field_name_="valueObject" _object_hashcode_="16953007">/web:window[@index=&apos;0&apos; or @title=&apos;Absence Types - Absences - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;9t9mrufjr&apos;]/web:span[@text=&apos;Active&apos; or @id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_absence_administration:0:MAnt2:2:AP1:soc17::content&apos; or @index=&apos;51&apos;]</literal>
+							<object_reference_element _object_hashcode_="10255355" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="26430978">
+							<literalInt _field_name_="valueObject" _object_hashcode_="31561413">0</literalInt>
+							<object_reference_element _object_hashcode_="11984648" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="3783412">
+							<literalInt _field_name_="valueObject" _object_hashcode_="1462303">0</literalInt>
+							<object_reference_element _object_hashcode_="10255670" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="19378272">
+							<literal _field_name_="valueObject" _object_hashcode_="18560984">1593717720638</literal>
+							<object_reference_element _object_hashcode_="9157772" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="9455153">
+							<literal _field_name_="valueObject" _object_hashcode_="16676636">1593717720638</literal>
+							<object_reference_element _object_hashcode_="26189939" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="10478581">8</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry19" _object_hashcode_="25755647">
+				<element parentId="1" id="22" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" _field_name_="valueObject" _object_hashcode_="2035936">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="8458483"/>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="8809628"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="6888244">
+						<collectionItem _field_name_="entry0" _object_hashcode_="11503497">
+							<literal _field_name_="valueObject" _object_hashcode_="4003431">/web:window[@index=&apos;0&apos; or @title=&apos;Absence Types - Absences - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;f8imz8lsi&apos;]/web:td[@text=&apos; &apos; or @index=&apos;223&apos;]</literal>
+							<object_reference_element _object_hashcode_="10255355" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="30831984">
+							<literalInt _field_name_="valueObject" _object_hashcode_="25981637">0</literalInt>
+							<object_reference_element _object_hashcode_="11984648" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="27213810">
+							<literalInt _field_name_="valueObject" _object_hashcode_="26320584">0</literalInt>
+							<object_reference_element _object_hashcode_="10255670" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="20842303">
+							<literal _field_name_="valueObject" _object_hashcode_="30166151">1593719251782</literal>
+							<object_reference_element _object_hashcode_="9157772" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="22975971">
+							<literal _field_name_="valueObject" _object_hashcode_="4072606">1593719251782</literal>
+							<object_reference_element _object_hashcode_="26189939" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="7770857">19</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry9" _object_hashcode_="26268889">
+				<element parentId="1" id="12" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" _field_name_="valueObject" _object_hashcode_="8253168">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="16670119"/>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="24482099"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="12992707">
+						<collectionItem _field_name_="entry0" _object_hashcode_="15406488">
+							<literal _field_name_="valueObject" _object_hashcode_="22692205">/web:window[@index=&apos;0&apos; or @title=&apos;Absence Types - Absences - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;9t9mrufjr&apos;]/web:span[@text=&apos;Illness or injury&apos; or @id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_absence_administration:0:MAnt2:2:AP1:soc10::content&apos; or @index=&apos;24&apos;]</literal>
+							<object_reference_element _object_hashcode_="10255355" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="28143147">
+							<literalInt _field_name_="valueObject" _object_hashcode_="343522">0</literalInt>
+							<object_reference_element _object_hashcode_="11984648" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="176468">
+							<literalInt _field_name_="valueObject" _object_hashcode_="28106810">0</literalInt>
+							<object_reference_element _object_hashcode_="10255670" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="23043089">
+							<literal _field_name_="valueObject" _object_hashcode_="19447161">1593717723201</literal>
+							<object_reference_element _object_hashcode_="9157772" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="25035959">
+							<literal _field_name_="valueObject" _object_hashcode_="27818883">1593717723201</literal>
+							<object_reference_element _object_hashcode_="26189939" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="27011396">9</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry6" _object_hashcode_="21031045">
+				<element parentId="1" id="9" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" _field_name_="valueObject" _object_hashcode_="5506132">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="139332"/>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="9970788"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="18092357">
+						<collectionItem _field_name_="entry0" _object_hashcode_="14773160">
+							<literal _field_name_="valueObject" _object_hashcode_="1695073">/web:window[@index=&apos;0&apos; or @title=&apos;Absence Types - Absences - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;9t9mrufjr&apos;]/web:span[@text=&apos;Appearance Leave&apos; or @id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_absence_administration:0:MAnt2:1:AP1:AT1:_ATp:t1:0:ot6&apos; or @index=&apos;69&apos;]</literal>
+							<object_reference_element _object_hashcode_="10255355" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="32890865">
+							<literalInt _field_name_="valueObject" _object_hashcode_="8442716">0</literalInt>
+							<object_reference_element _object_hashcode_="11984648" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="7287492">
+							<literalInt _field_name_="valueObject" _object_hashcode_="27500904">0</literalInt>
+							<object_reference_element _object_hashcode_="10255670" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="12575884">
+							<literal _field_name_="valueObject" _object_hashcode_="33303080">1593717710635</literal>
+							<object_reference_element _object_hashcode_="9157772" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="32668568">
+							<literal _field_name_="valueObject" _object_hashcode_="15187660">1593717710635</literal>
+							<object_reference_element _object_hashcode_="26189939" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="18701189">6</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry17" _object_hashcode_="471168">
+				<element parentId="1" id="20" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" _field_name_="valueObject" _object_hashcode_="18338326">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="3660156"/>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="4149081"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="30407470">
+						<collectionItem _field_name_="entry0" _object_hashcode_="5576675">
+							<literal _field_name_="valueObject" _object_hashcode_="1038508">0</literal>
+							<object_reference_element _object_hashcode_="3022301" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry11" _object_hashcode_="9307315">
+							<literal _field_name_="valueObject" _object_hashcode_="11181895">False</literal>
+							<object_reference_element _object_hashcode_="9281968" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="12090046">
+							<literal _field_name_="valueObject" _object_hashcode_="16390077">/web:window[@index=&apos;0&apos; or @title=&apos;Absence Types - Absences - Oracle Applications&apos;]</literal>
+							<object_reference_element _object_hashcode_="10255355" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry10" _object_hashcode_="1257101">
+							<literal _field_name_="valueObject" _object_hashcode_="1564463">0</literal>
+							<object_reference_element _object_hashcode_="29058206" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry8" _object_hashcode_="21050585">
+							<literal _field_name_="valueObject" _object_hashcode_="27690803">HTML</literal>
+							<object_reference_element _object_hashcode_="13051748" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry9" _object_hashcode_="6994252">
+							<literal _field_name_="valueObject" _object_hashcode_="6093321">https://ejop-test.fa.em2.oraclecloud.com/hcmUI/faces/FndOverview?fnd=%3B%3B%3B%3Bfalse%3B256%3B%3B%3B&amp;fndGlobalItemNodeId=itemNode_workforce_management_absence_administration&amp;_afrLoop=2425520820167898&amp;_afrWindowMode=0&amp;_afrWindowId=12ptx8e10g&amp;_adf.ctrl-state=ltdkj0isx_1&amp;_afrFS=16&amp;_afrMT=screen&amp;_afrMFW=1536&amp;_afrMFH=725&amp;_afrMFDW=1536&amp;_afrMFDH=864&amp;_afrMFC=8&amp;_afrMFCI=0&amp;_afrMFM=0&amp;_afrMFR=120&amp;_afrMFG=0&amp;_afrMFS=0&amp;_afrMFO=0</literal>
+							<object_reference_element _object_hashcode_="13689205" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry6" _object_hashcode_="15724775">
+							<literal _field_name_="valueObject" _object_hashcode_="28928918"/>
+							<object_reference_element _object_hashcode_="13327223" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry7" _object_hashcode_="1708148">
+							<literal _field_name_="valueObject" _object_hashcode_="33500364">Get</literal>
+							<object_reference_element _object_hashcode_="7289776" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="3310556">
+							<literal _field_name_="valueObject" _object_hashcode_="1025559">1593718579949</literal>
+							<object_reference_element _object_hashcode_="9157772" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry5" _object_hashcode_="5672786">
+							<literal _field_name_="valueObject" _object_hashcode_="5194328">1593718579949</literal>
+							<object_reference_element _object_hashcode_="26189939" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="2819438">
+							<literal _field_name_="valueObject" _object_hashcode_="23930338">Absence Types - Absences - Oracle Applications</literal>
+							<object_reference_element _object_hashcode_="25920556" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="19994626">
+							<literalInt _field_name_="valueObject" _object_hashcode_="22202238">0</literalInt>
+							<object_reference_element _object_hashcode_="11984648" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="22975613">17</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry7" _object_hashcode_="17216783">
+				<element parentId="1" id="10" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" _field_name_="valueObject" _object_hashcode_="23474559">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="7117952"/>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="17061855"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="28151574">
+						<collectionItem _field_name_="entry0" _object_hashcode_="22597432">
+							<literal _field_name_="valueObject" _object_hashcode_="19311284">/web:window[@index=&apos;0&apos; or @title=&apos;Absence Types - Absences - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;9t9mrufjr&apos;]/web:span[@text=&apos;Appearance Leave&apos; or @id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_absence_administration:0:MAnt2:2:AP1:it11::content&apos; or @index=&apos;40&apos;]</literal>
+							<object_reference_element _object_hashcode_="10255355" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="2373721">
+							<literalInt _field_name_="valueObject" _object_hashcode_="21846741">0</literalInt>
+							<object_reference_element _object_hashcode_="11984648" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="31488468">
+							<literalInt _field_name_="valueObject" _object_hashcode_="28088692">0</literalInt>
+							<object_reference_element _object_hashcode_="10255670" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="18092138">
+							<literal _field_name_="valueObject" _object_hashcode_="32088506">1593717715951</literal>
+							<object_reference_element _object_hashcode_="9157772" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="8404863">
+							<literal _field_name_="valueObject" _object_hashcode_="10182248">1593717715951</literal>
+							<object_reference_element _object_hashcode_="26189939" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="3910635">7</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry18" _object_hashcode_="28917318">
+				<element parentId="1" id="21" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" _field_name_="valueObject" _object_hashcode_="29869372">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="16323694"/>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="20953993"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="31390246">
+						<collectionItem _field_name_="entry0" _object_hashcode_="4006020">
+							<literal _field_name_="valueObject" _object_hashcode_="3477129">/web:window[@index=&apos;0&apos; or @title=&apos;Absence Types - Absences - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;f8imz8lsi&apos;]/web:td[@text=&apos; &apos; or @index=&apos;223&apos;]</literal>
+							<object_reference_element _object_hashcode_="10255355" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="787637">
+							<literalInt _field_name_="valueObject" _object_hashcode_="7979096">0</literalInt>
+							<object_reference_element _object_hashcode_="11984648" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="19527571">
+							<literalInt _field_name_="valueObject" _object_hashcode_="18019129">0</literalInt>
+							<object_reference_element _object_hashcode_="10255670" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="22247938">
+							<literal _field_name_="valueObject" _object_hashcode_="26476656">1593719240768</literal>
+							<object_reference_element _object_hashcode_="9157772" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="22408254">
+							<literal _field_name_="valueObject" _object_hashcode_="19415062">1593719240768</literal>
+							<object_reference_element _object_hashcode_="26189939" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="24459120">18</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry4" _object_hashcode_="20556699">
+				<element parentId="1" id="7" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" _field_name_="valueObject" _object_hashcode_="8177977">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="25212682"/>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="29677836"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="18051647">
+						<collectionItem _field_name_="entry0" _object_hashcode_="12299468">
+							<literal _field_name_="valueObject" _object_hashcode_="17466294">/web:window[@index=&apos;0&apos; or @title=&apos;Absence Types - Absences - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;9t9mrufjr&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:input_text[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_absence_administration:0:MAnt2:1:AP1:qryId1:value00::content&apos; or @name=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_absence_administration:0:MAnt2:1:AP1:qryId1:value00&apos; or @index=&apos;1&apos;]</literal>
+							<object_reference_element _object_hashcode_="10255355" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="12687097">
+							<literal _field_name_="valueObject" _object_hashcode_="10823566">Appearance Leave</literal>
+							<string _field_name_="keyObject" _object_hashcode_="7544248">Value</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="29119943">
+							<literal _field_name_="valueObject" _object_hashcode_="3527800">1593717704741</literal>
+							<object_reference_element _object_hashcode_="26189939" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry5" _object_hashcode_="26301016">
+							<literalInt _field_name_="valueObject" _object_hashcode_="799376">0</literalInt>
+							<object_reference_element _object_hashcode_="10255670" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="88874">
+							<literalInt _field_name_="valueObject" _object_hashcode_="5995232">0</literalInt>
+							<object_reference_element _object_hashcode_="11984648" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="10838605">
+							<literal _field_name_="valueObject" _object_hashcode_="27508533">1593717704741</literal>
+							<object_reference_element _object_hashcode_="9157772" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="2249686">4</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry5" _object_hashcode_="31331955">
+				<element parentId="1" id="8" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" _field_name_="valueObject" _object_hashcode_="22413638">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="30288513"/>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="25981786"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="29558">
+						<collectionItem _field_name_="entry0" _object_hashcode_="9732354">
+							<literal _field_name_="valueObject" _object_hashcode_="17409418">/web:window[@index=&apos;0&apos; or @title=&apos;Absence Types - Absences - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;9t9mrufjr&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:button[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_absence_administration:0:MAnt2:1:AP1:qryId1::search&apos; or @index=&apos;6&apos; or @text=&apos;Search&apos; or @className=&apos;xhx p_AFTextOnly&apos;]</literal>
+							<object_reference_element _object_hashcode_="10255355" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="13131185">
+							<literalInt _field_name_="valueObject" _object_hashcode_="10834783">0</literalInt>
+							<object_reference_element _object_hashcode_="11984648" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="17367023">
+							<literalInt _field_name_="valueObject" _object_hashcode_="24696856">0</literalInt>
+							<object_reference_element _object_hashcode_="10255670" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="10489331">
+							<literal _field_name_="valueObject" _object_hashcode_="16360840">1593717708562</literal>
+							<object_reference_element _object_hashcode_="9157772" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="14944564">
+							<literal _field_name_="valueObject" _object_hashcode_="5155309">1593717708562</literal>
+							<object_reference_element _object_hashcode_="26189939" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="3183619">5</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry2" _object_hashcode_="8121100">
+				<element parentId="1" id="5" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" _field_name_="valueObject" _object_hashcode_="11308530">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="31987102"/>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="4376783"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="11734515">
+						<collectionItem _field_name_="entry0" _object_hashcode_="4497003">
+							<literal _field_name_="valueObject" _object_hashcode_="20146154">/web:window[@index=&apos;0&apos; or @title=&apos;Absence Administration - Absences - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;9t9mrufjr&apos;]/web:a[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_absence_administration:0:_FOTsr1:0:ll01Upl:UPsp1:ll01Pce:ll01Itr:1:ll02Pce:ll01Lv:3:ll01Pse:ll01Cl&apos; or @text=&apos;Absence Types&apos; or @className=&apos;p_AFDisabled p_AFBusy p_AFHoverTarget x2u8 xnd xms&apos;]</literal>
+							<object_reference_element _object_hashcode_="10255355" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="12703749">
+							<literalInt _field_name_="valueObject" _object_hashcode_="29986873">0</literalInt>
+							<object_reference_element _object_hashcode_="11984648" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="14600640">
+							<literalInt _field_name_="valueObject" _object_hashcode_="29067569">0</literalInt>
+							<object_reference_element _object_hashcode_="10255670" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="17457756">
+							<literal _field_name_="valueObject" _object_hashcode_="30658433">1593717700429</literal>
+							<object_reference_element _object_hashcode_="9157772" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="24710672">
+							<literal _field_name_="valueObject" _object_hashcode_="9377527">1593717700429</literal>
+							<object_reference_element _object_hashcode_="26189939" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="10219727">2</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry3" _object_hashcode_="31259274">
+				<element parentId="1" id="6" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" _field_name_="valueObject" _object_hashcode_="25225794">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="31940904"/>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="18869325"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="22258463">
+						<collectionItem _field_name_="entry0" _object_hashcode_="27439736">
+							<literal _field_name_="valueObject" _object_hashcode_="31411966">/web:window[@index=&apos;0&apos; or @title=&apos;Absence Types - Absences - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;9t9mrufjr&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:input_text[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_absence_administration:0:MAnt2:1:AP1:qryId1:value00::content&apos; or @name=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_absence_administration:0:MAnt2:1:AP1:qryId1:value00&apos; or @index=&apos;1&apos;]</literal>
+							<object_reference_element _object_hashcode_="10255355" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="17179794">
+							<literalInt _field_name_="valueObject" _object_hashcode_="28162976">0</literalInt>
+							<object_reference_element _object_hashcode_="11984648" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="15513772">
+							<literalInt _field_name_="valueObject" _object_hashcode_="19981921">0</literalInt>
+							<object_reference_element _object_hashcode_="10255670" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="9182545">
+							<literal _field_name_="valueObject" _object_hashcode_="30970103">1593717700643</literal>
+							<object_reference_element _object_hashcode_="9157772" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="13194378">
+							<literal _field_name_="valueObject" _object_hashcode_="1062579">1593717700643</literal>
+							<object_reference_element _object_hashcode_="26189939" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="869931">3</int>
+				
+				</collectionItem>
+			
+			</java.util.ArrayList>
+		<java.util.ArrayList _field_name_="problems" _object_hashcode_="28561423"/>
+		<java.util.HashMap _field_name_="attrs" _object_hashcode_="9285350"/>
+		
+		</element>
+	
+	</model>

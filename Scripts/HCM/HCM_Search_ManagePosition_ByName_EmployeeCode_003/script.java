@@ -16,10 +16,9 @@ public class script extends IteratingVUserScript {
 	@ScriptService oracle.oats.scripting.modules.functionalTest.api.FunctionalTestService ft;
 	@ScriptService oracle.oats.scripting.modules.webdom.api.WebDomService web;
 	@ScriptService oracle.oats.scripting.modules.datatable.api.DataTableService datatable;
-	//Adding re-usable "script HCM_LogIn_LogOut" using Assets tab.
-	@FunctionLibrary("HCM_LogIn_LogOut") lib.maaden.orackeEBS.HCM_LogIn_LogOut hCM_LogIn_LogOut;
 	String employee_Code = null;
 	String employee_Designation = null;
+	@FunctionLibrary("HCM_LogIn_LogOut") lib.maaden.orackeEBS.HCM_LogIn_LogOut hCM_LogIn_LogOut;
 	public void initialize() throws Exception {
 		browser.launch();
 	}
@@ -47,19 +46,23 @@ public class script extends IteratingVUserScript {
 		//Click on Workforce_Structures
 		web.link("{{obj.HCM_Search_ManagePosition_ByName_EmployeeCode_003.Workforce_Structures}}").click();
 		web.window("{{obj.HCM_Search_ManagePosition_ByName_EmployeeCode_003.web_window}}").waitForPage(180,true);
-		
+		{
+			think(3.2);
+		}
 		//Focus on logOut icon 
-		web.element("{{obj.HCM_Search_ManagePosition_ByName_EmployeeCode_003.LogOutIcon}}").focus();
+		web.element("{{obj.HCM_Search_ManagePosition_ByName_EmployeeCode_003.web_svg_pt1__UIScmil1u__icon}}").focus();
+		//web.element("{{obj.HCM_Search_ManagePosition_ByName_EmployeeCode_003.LogOutIcon}}").focus();
 		{
 			think(6.00);	
 		}
+		
 		web.link("{{obj.HCM_Search_ManagePosition_ByName_EmployeeCode_003.Manage Positions}}").focus();
 		{
-			think(.10);	
+			think(2.10);	
 		}
 		web.link("{{obj.HCM_Search_ManagePosition_ByName_EmployeeCode_003.Manage Positions}}").dblClick();
 		{
-			think(6.00);	
+			think(10.00);	
 		}
 		// Provide the Position Name
 		web.textBox("{{obj.HCM_Search_ManagePosition_ByName_EmployeeCode_003.Position_Name}}").click();
@@ -121,12 +124,14 @@ public class script extends IteratingVUserScript {
 			
 		}
 		
+		
 	}
 	
 	public void finish() throws Exception {
+		//LogOut and close the application	
+		web.window("{{obj.HCM_Search_ManagePosition_ByName_EmployeeCode_003.web_window}}").close();
 		
-		//LogOut and close the application		
-		hCM_LogIn_LogOut.finish();
-
+		//hCM_LogIn_LogOut.finish();
+		
 	}
 }

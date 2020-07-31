@@ -1,0 +1,6 @@
+6029,1,HCM_ManageDepartments_Create_ExistingDepartment_0044,7/22/2020 01:16:31 AM,0,Failed,7/22/2020 01:16:25 AM,basic.step,Global HR(Admn),,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,4269,Passed,"",basic.init,
+"Launch Browser: InternetExplorer 11.900.18362.0",,3554,Passed,"",basic.step,
+"Iteration Total (sec)",,1011,Failed,"Invalid column: Effective_Start_Date",basic.iteration,
+"Finish Total (sec)",,89,Passed,"",basic.finish,

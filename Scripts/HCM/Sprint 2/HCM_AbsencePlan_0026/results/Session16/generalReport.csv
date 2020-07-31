@@ -1,0 +1,6 @@
+274563,0,HCM_AbsencePlan_0026,7/01/2020 23:52:59 PM,0,Failed,7/01/2020 23:48:24 PM,basic.step,Sprint 2,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,274079,Failed,"Cannot get a connection from helper after 60 seconds.",basic.init,
+"Launch Browser: Firefox 77.0.1 (x86 en-US)",,0,Passed,"",basic.step,
+"Close Browser",,2001,Passed,"",basic.step,
+"Finish Total (sec)",,93,Passed,"",basic.finish,

@@ -1,0 +1,2627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model _object_hashcode_="16394475">
+	<element id="1" type="oracle.oats.scripting.models.RecordedElement" _field_name_="root" _object_hashcode_="21270137">
+		<java.util.ArrayList _field_name_="children" _object_hashcode_="31571397">
+			<collectionItem _field_name_="entry62" _object_hashcode_="26820693">
+				<element id="69" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="27374459">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="796489"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="28015410">
+						<collectionItem _field_name_="entry0" _object_hashcode_="8716922">
+							<literal _field_name_="valueObject" _object_hashcode_="8605498">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;2pckit6pe&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:button[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:2:updPageAppsPnl:corDlg::ok&apos; or @index=&apos;4&apos; or @text=&apos;OK&apos; or @className=&apos;x119 p_AFTextOnly&apos;]</literal>
+							<string _field_name_="keyObject" _object_hashcode_="28315084">path</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="30314339">
+							<literalInt _field_name_="valueObject" _object_hashcode_="26399026">0</literalInt>
+							<string _field_name_="keyObject" _object_hashcode_="28096293">windowIndex</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="2695089">
+							<literalInt _field_name_="valueObject" _object_hashcode_="20917504">0</literalInt>
+							<string _field_name_="keyObject" _object_hashcode_="11498324">documentIndex</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="453819">
+							<literal _field_name_="valueObject" _object_hashcode_="1617245">1594208314609</literal>
+							<string _field_name_="keyObject" _object_hashcode_="9948403">tsBegin</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="24324838">
+							<literal _field_name_="valueObject" _object_hashcode_="3237831">1594208314609</literal>
+							<string _field_name_="keyObject" _object_hashcode_="22695513">tsEnd</string>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="17889109"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="24691531">62</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry60" _object_hashcode_="561340">
+				<element id="66" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="32105843">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="11917502"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="22487558">
+						<collectionItem _field_name_="entry0" _object_hashcode_="18821858">
+							<literal _field_name_="valueObject" _object_hashcode_="18599884">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;8scr5ojig&apos;]/web:span[@text=&apos;JOB_FAMLY_3&apos; or @id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:2:updPageAppsPnl:it1::content&apos; or @index=&apos;22&apos;]</literal>
+							<string _field_name_="keyObject" _object_hashcode_="21265365">path</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="23448715">
+							<literalInt _field_name_="valueObject" _object_hashcode_="15502449">0</literalInt>
+							<string _field_name_="keyObject" _object_hashcode_="29249359">windowIndex</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="14296119">
+							<literalInt _field_name_="valueObject" _object_hashcode_="25567889">0</literalInt>
+							<string _field_name_="keyObject" _object_hashcode_="19380948">documentIndex</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="7852832">
+							<literal _field_name_="valueObject" _object_hashcode_="27948098">1594205119075</literal>
+							<string _field_name_="keyObject" _object_hashcode_="26233100">tsBegin</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="6125358">
+							<literal _field_name_="valueObject" _object_hashcode_="19348186">1594205119075</literal>
+							<string _field_name_="keyObject" _object_hashcode_="22502552">tsEnd</string>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="4080312"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="33159354">60</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry61" _object_hashcode_="8753454">
+				<element id="67" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="10727949">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="24663792"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="33178189">
+						<collectionItem _field_name_="entry0" _object_hashcode_="19708029">
+							<literal _field_name_="valueObject" _object_hashcode_="3955983">0</literal>
+							<string _field_name_="keyObject" _object_hashcode_="19942638">FrameUniqueID</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry11" _object_hashcode_="11902511">
+							<literal _field_name_="valueObject" _object_hashcode_="5913620">False</literal>
+							<string _field_name_="keyObject" _object_hashcode_="2805813">IsUserTyped</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="24818274">
+							<literal _field_name_="valueObject" _object_hashcode_="24779204">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]</literal>
+							<object_reference_element _object_hashcode_="28315084" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry10" _object_hashcode_="16334499">
+							<literal _field_name_="valueObject" _object_hashcode_="4778801">0</literal>
+							<string _field_name_="keyObject" _object_hashcode_="4171128">TimeStamp</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry8" _object_hashcode_="22298306">
+							<literal _field_name_="valueObject" _object_hashcode_="10951149">HTML</literal>
+							<string _field_name_="keyObject" _object_hashcode_="31291883">AppType</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry9" _object_hashcode_="8787917">
+							<literal _field_name_="valueObject" _object_hashcode_="15240689">https://ejop-test.fa.em2.oraclecloud.com/hcmUI/faces/FndOverview?fnd=%3B%3B%3B%3Bfalse%3B256%3B%3B%3B&amp;fndGlobalItemNodeId=itemNode_workforce_management_workforce_structures&amp;_afrLoop=2914537950858308&amp;_afrWindowMode=0&amp;_afrWindowId=12p4cgdsfo&amp;_adf.ctrl-state=utue161z6_1&amp;_afrFS=16&amp;_afrMT=screen&amp;_afrMFW=1920&amp;_afrMFH=906&amp;_afrMFDW=1920&amp;_afrMFDH=1080&amp;_afrMFC=8&amp;_afrMFCI=0&amp;_afrMFM=0&amp;_afrMFR=96&amp;_afrMFG=0&amp;_afrMFS=0&amp;_afrMFO=0</literal>
+							<string _field_name_="keyObject" _object_hashcode_="2792240">Url</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry6" _object_hashcode_="2798335">
+							<literal _field_name_="valueObject" _object_hashcode_="9760008"/>
+							<string _field_name_="keyObject" _object_hashcode_="2975598">ElementTag</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry7" _object_hashcode_="5931008">
+							<literal _field_name_="valueObject" _object_hashcode_="24143998">Get</literal>
+							<string _field_name_="keyObject" _object_hashcode_="7288053">Method</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="23602369">
+							<literal _field_name_="valueObject" _object_hashcode_="18410796">0</literal>
+							<object_reference_element _object_hashcode_="9948403" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry5" _object_hashcode_="29446377">
+							<literal _field_name_="valueObject" _object_hashcode_="16388088">0</literal>
+							<object_reference_element _object_hashcode_="22695513" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="7239690">
+							<literal _field_name_="valueObject" _object_hashcode_="6916838">Manage Job Families - Workforce Structures - Oracle Applications</literal>
+							<string _field_name_="keyObject" _object_hashcode_="25089178">Title</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="25400322">
+							<literalInt _field_name_="valueObject" _object_hashcode_="2889616">0</literalInt>
+							<object_reference_element _object_hashcode_="28096293" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="5936713"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="19088476">61</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry22" _object_hashcode_="3275582">
+				<element id="27" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="4191712">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="18733155"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="25126547">
+						<collectionItem _field_name_="entry0" _object_hashcode_="15590143">
+							<literal _field_name_="valueObject" _object_hashcode_="28377162">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;r5awlcwvz&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:button[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:1:jfSearchPnl:q1::search&apos; or @index=&apos;6&apos; or @text=&apos;Search&apos; or @className=&apos;xhx p_AFTextOnly&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="11911989">
+							<literalInt _field_name_="valueObject" _object_hashcode_="16942680">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="23685019">
+							<literalInt _field_name_="valueObject" _object_hashcode_="15314154">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="16293443">
+							<literal _field_name_="valueObject" _object_hashcode_="18694489">1594191392843</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="30894969">
+							<literal _field_name_="valueObject" _object_hashcode_="29895401">1594191392843</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="9048071"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="31433565">22</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry23" _object_hashcode_="18240130">
+				<element id="28" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="31834054">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="27286833"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="16618660">
+						<collectionItem _field_name_="entry0" _object_hashcode_="24565285">
+							<literal _field_name_="valueObject" _object_hashcode_="22709968">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;r5awlcwvz&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:input_text[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:1:jfSearchPnl:q1:value10::content&apos; or @name=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:1:jfSearchPnl:q1:value10&apos; or @index=&apos;2&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="20643025">
+							<literalInt _field_name_="valueObject" _object_hashcode_="8338561">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="31289312">
+							<literalInt _field_name_="valueObject" _object_hashcode_="18592752">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="11449947">
+							<literal _field_name_="valueObject" _object_hashcode_="527558">1594191392858</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="32934101">
+							<literal _field_name_="valueObject" _object_hashcode_="7337243">1594191392858</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="11313290"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="18101454">23</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry20" _object_hashcode_="26667555">
+				<element id="25" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="6554559">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="29548549"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="24060446">
+						<collectionItem _field_name_="entry0" _object_hashcode_="12947300">
+							<literal _field_name_="valueObject" _object_hashcode_="25339669">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;r5awlcwvz&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:input_text[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:1:jfSearchPnl:q1:value00::content&apos; or @name=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:1:jfSearchPnl:q1:value00&apos; or @index=&apos;1&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="23331081">
+							<literalInt _field_name_="valueObject" _object_hashcode_="27403780">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="32303919">
+							<literalInt _field_name_="valueObject" _object_hashcode_="20531069">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="19383555">
+							<literal _field_name_="valueObject" _object_hashcode_="16168430">1594191376624</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="21089964">
+							<literal _field_name_="valueObject" _object_hashcode_="16937478">1594191376624</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="25083810"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="15264388">20</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry21" _object_hashcode_="15062501">
+				<element id="26" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="22094584">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="29484502"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="13714620">
+						<collectionItem _field_name_="entry0" _object_hashcode_="17238503">
+							<literal _field_name_="valueObject" _object_hashcode_="16538731">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;r5awlcwvz&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:input_text[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:1:jfSearchPnl:q1:value10::content&apos; or @name=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:1:jfSearchPnl:q1:value10&apos; or @index=&apos;2&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="3571845">
+							<literal _field_name_="valueObject" _object_hashcode_="1198577">Job_Faily_1</literal>
+							<string _field_name_="keyObject" _object_hashcode_="28280066">Value</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="17032461">
+							<literal _field_name_="valueObject" _object_hashcode_="24476802">1594191379245</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry5" _object_hashcode_="17912053">
+							<literalInt _field_name_="valueObject" _object_hashcode_="3148213">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="16392385">
+							<literalInt _field_name_="valueObject" _object_hashcode_="2556780">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="14854003">
+							<literal _field_name_="valueObject" _object_hashcode_="24483974">1594191379245</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="3577160"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="12654895">21</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry26" _object_hashcode_="26373882">
+				<element id="31" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="1379072">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="10414636"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="10660170">
+						<collectionItem _field_name_="entry0" _object_hashcode_="5487457">
+							<literal _field_name_="valueObject" _object_hashcode_="23438119">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;r5awlcwvz&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:input_text[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:1:jfSearchPnl:q1:value00::content&apos; or @name=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:1:jfSearchPnl:q1:value00&apos; or @index=&apos;1&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="22633447">
+							<literalInt _field_name_="valueObject" _object_hashcode_="22426462">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="26684930">
+							<literalInt _field_name_="valueObject" _object_hashcode_="6079699">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="32141620">
+							<literal _field_name_="valueObject" _object_hashcode_="28434148">1594191404531</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="13196699">
+							<literal _field_name_="valueObject" _object_hashcode_="6530234">1594191404531</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="22975161"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="23116294">26</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry27" _object_hashcode_="18703574">
+				<element id="32" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="5815495">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="29985346"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="31960512">
+						<collectionItem _field_name_="entry0" _object_hashcode_="26657424">
+							<literal _field_name_="valueObject" _object_hashcode_="27036336">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;r5awlcwvz&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:input_text[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:1:jfSearchPnl:q1:value00::content&apos; or @name=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:1:jfSearchPnl:q1:value00&apos; or @index=&apos;1&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="32074556">
+							<literal _field_name_="valueObject" _object_hashcode_="15171202"/>
+							<object_reference_element _object_hashcode_="28280066" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="23286605">
+							<literal _field_name_="valueObject" _object_hashcode_="30617857">1594191414773</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry5" _object_hashcode_="18266595">
+							<literalInt _field_name_="valueObject" _object_hashcode_="876818">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="7304531">
+							<literalInt _field_name_="valueObject" _object_hashcode_="25030603">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="8609257">
+							<literal _field_name_="valueObject" _object_hashcode_="17974712">1594191414773</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="24463637"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="21858063">27</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry24" _object_hashcode_="21160228">
+				<element id="29" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="25305919">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="18434871"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="15544230">
+						<collectionItem _field_name_="entry0" _object_hashcode_="6606130">
+							<literal _field_name_="valueObject" _object_hashcode_="19780765">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;r5awlcwvz&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:input_text[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:1:jfSearchPnl:q1:value10::content&apos; or @name=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:1:jfSearchPnl:q1:value10&apos; or @index=&apos;2&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="14068738">
+							<literal _field_name_="valueObject" _object_hashcode_="25869767">Job_Family_1</literal>
+							<object_reference_element _object_hashcode_="28280066" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="20719080">
+							<literal _field_name_="valueObject" _object_hashcode_="24918487">1594191400204</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry5" _object_hashcode_="21348330">
+							<literalInt _field_name_="valueObject" _object_hashcode_="10398664">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="27851053">
+							<literalInt _field_name_="valueObject" _object_hashcode_="470562">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="11794726">
+							<literal _field_name_="valueObject" _object_hashcode_="25000399">1594191400204</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="6547590"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="13013181">24</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry25" _object_hashcode_="14997088">
+				<element id="30" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="13920488">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="1461988"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="21061474">
+						<collectionItem _field_name_="entry0" _object_hashcode_="9905664">
+							<literal _field_name_="valueObject" _object_hashcode_="13822491">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;r5awlcwvz&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:button[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:1:jfSearchPnl:q1::search&apos; or @index=&apos;6&apos; or @text=&apos;Search&apos; or @className=&apos;xhx p_AFTextOnly&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="25859965">
+							<literalInt _field_name_="valueObject" _object_hashcode_="32477334">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="23306953">
+							<literalInt _field_name_="valueObject" _object_hashcode_="21398906">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="18102355">
+							<literal _field_name_="valueObject" _object_hashcode_="25732115">1594191402626</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="2008663">
+							<literal _field_name_="valueObject" _object_hashcode_="27833653">1594191402626</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="7409138"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="17359574">25</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry8" _object_hashcode_="28930964">
+				<element id="13" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="9489349">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="2612287"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="4368818">
+						<collectionItem _field_name_="entry0" _object_hashcode_="20386704">
+							<literal _field_name_="valueObject" _object_hashcode_="4488589">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;r5awlcwvz&apos;]/web:img[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:1:jfSearchPnl:jfSrchResApplTbl:_ATp:createBtn::icon&apos; or @index=&apos;35&apos; or @src=&apos;https://ejop-test.fa.em2.oraclecloud.com/hcmUI/images/func_add_16_onb.png&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="12205119">
+							<literalInt _field_name_="valueObject" _object_hashcode_="8883693">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="9468268">
+							<literalInt _field_name_="valueObject" _object_hashcode_="31129366">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="13205625">
+							<literal _field_name_="valueObject" _object_hashcode_="18720520">1594191268404</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="20297891">
+							<literal _field_name_="valueObject" _object_hashcode_="28344352">1594191268404</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="15361548"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="15805822">8</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry9" _object_hashcode_="22247125">
+				<element id="14" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="22624009">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="3477762"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="8400933">
+						<collectionItem _field_name_="entry0" _object_hashcode_="30667278">
+							<literal _field_name_="valueObject" _object_hashcode_="6298818">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;r5awlcwvz&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:input_text[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:2:AP3:inputText1::content&apos; or @name=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:2:AP3:inputText1&apos; or @index=&apos;1&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="31436215">
+							<literalInt _field_name_="valueObject" _object_hashcode_="26308542">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="195119">
+							<literalInt _field_name_="valueObject" _object_hashcode_="10199459">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="4970980">
+							<literal _field_name_="valueObject" _object_hashcode_="26451976">1594191276137</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="15340833">
+							<literal _field_name_="valueObject" _object_hashcode_="26212157">1594191276137</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="8507273"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="2401182">9</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry6" _object_hashcode_="19328183">
+				<element id="11" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="8458794">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="16464856"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="30458723">
+						<collectionItem _field_name_="entry0" _object_hashcode_="26645774">
+							<literal _field_name_="valueObject" _object_hashcode_="7884523">/web:window[@index=&apos;0&apos; or @title=&apos;Workforce Structures - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;r5awlcwvz&apos;]/web:a[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:_FOTsr1:0:ll01Upl:UPsp1:ll01Pce:ll01Itr:1:ll02Pce:ll01Lv:1:ll01Pse:ll01Cl&apos; or @text=&apos;Manage Job Families&apos; or @className=&apos;p_AFHoverTarget x2u8 xnd xms&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="17680640">
+							<literalInt _field_name_="valueObject" _object_hashcode_="20930940">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="14990316">
+							<literalInt _field_name_="valueObject" _object_hashcode_="7995851">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="11906835">
+							<literal _field_name_="valueObject" _object_hashcode_="26277761">1594191265152</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="19821998">
+							<literal _field_name_="valueObject" _object_hashcode_="31509401">1594191265152</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="16982529"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="13429890">6</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry28" _object_hashcode_="30018988">
+				<element id="33" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="2261148">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="27734146"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="25840600">
+						<collectionItem _field_name_="entry0" _object_hashcode_="10547505">
+							<literal _field_name_="valueObject" _object_hashcode_="26936207">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;r5awlcwvz&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:button[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:1:jfSearchPnl:q1::search&apos; or @index=&apos;6&apos; or @text=&apos;Search&apos; or @className=&apos;xhx p_AFTextOnly&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="16737742">
+							<literalInt _field_name_="valueObject" _object_hashcode_="14607437">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="20461679">
+							<literalInt _field_name_="valueObject" _object_hashcode_="6622263">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="16447113">
+							<literal _field_name_="valueObject" _object_hashcode_="32687193">1594191416674</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="21409374">
+							<literal _field_name_="valueObject" _object_hashcode_="22821669">1594191416674</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="7360643"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="2257069">28</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry7" _object_hashcode_="3786502">
+				<element id="12" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="12236834">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="13449859"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="24184693">
+						<collectionItem _field_name_="entry0" _object_hashcode_="31729590">
+							<literal _field_name_="valueObject" _object_hashcode_="22929791">/web:window[@index=&apos;0&apos; or @title=&apos;Workforce Structures - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;r5awlcwvz&apos;]/web:a[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:_FOTsr1:0:ll01Upl:UPsp1:ll01Pce:ll01Itr:1:ll02Pce:ll01Lv:1:ll01Pse:ll01Cl&apos; or @text=&apos;Manage Job Families&apos; or @className=&apos;p_AFDisabled p_AFBusy p_AFHoverTarget x2u8 xnd xms&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="20205386">
+							<literalInt _field_name_="valueObject" _object_hashcode_="30758049">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="15003289">
+							<literalInt _field_name_="valueObject" _object_hashcode_="24292736">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="11471092">
+							<literal _field_name_="valueObject" _object_hashcode_="24453111">1594191268209</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="4218624">
+							<literal _field_name_="valueObject" _object_hashcode_="28385955">1594191268209</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="15249425"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="23007581">7</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry29" _object_hashcode_="7123657">
+				<element id="34" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="11311171">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="13373007"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="5868130">
+						<collectionItem _field_name_="entry0" _object_hashcode_="3339224">
+							<literal _field_name_="valueObject" _object_hashcode_="4827281">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;r5awlcwvz&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:input_text[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:1:jfSearchPnl:q1:value10::content&apos; or @name=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:1:jfSearchPnl:q1:value10&apos; or @index=&apos;2&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="7340801">
+							<literalInt _field_name_="valueObject" _object_hashcode_="7955929">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="32778091">
+							<literalInt _field_name_="valueObject" _object_hashcode_="7102852">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="6366630">
+							<literal _field_name_="valueObject" _object_hashcode_="7834962">1594191417699</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="31896897">
+							<literal _field_name_="valueObject" _object_hashcode_="14888136">1594191417699</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="4621911"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="21552183">29</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry4" _object_hashcode_="20020874">
+				<element id="9" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="31798480">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="11124808"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="6076816">
+						<collectionItem _field_name_="entry0" _object_hashcode_="795487">
+							<literal _field_name_="valueObject" _object_hashcode_="1735980">/web:window[@index=&apos;0&apos; or @title=&apos;Workforce Structures - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;r5awlcwvz&apos;]/web:h2[@text=&apos;Jobs&apos; or @index=&apos;2&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="2545890">
+							<literalInt _field_name_="valueObject" _object_hashcode_="737925">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="22811445">
+							<literalInt _field_name_="valueObject" _object_hashcode_="17015213">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="20046970">
+							<literal _field_name_="valueObject" _object_hashcode_="17748855">1594191257310</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="1318936">
+							<literal _field_name_="valueObject" _object_hashcode_="22666734">1594191257310</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="29136227"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="16189104">4</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry5" _object_hashcode_="20281312">
+				<element id="10" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="29251926">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="15682146"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="14156343">
+						<collectionItem _field_name_="entry0" _object_hashcode_="31940232">
+							<literal _field_name_="valueObject" _object_hashcode_="25128840">/web:window[@index=&apos;0&apos; or @title=&apos;Workforce Structures - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;r5awlcwvz&apos;]/web:path[@className=&apos;svg-outline&apos; and @d=&apos;M 25.188 35.5 h -4.875 a 0.982 0.982 0 0 1 -1 -1 v -4.844 a 0.982 0.982 0 0 1 1 -1 h 4.875 a 0.982 0.982 0 0 1 1 1 V 34.5 a 0.982 0.982 0 0 1 -1 1 Z m 1.188 -15.156 h -7.22 a 1.029 1.029 0 0 1 -1 -1 v -6.188 a 1.028 1.028 0 0 1 1 -1 h 7.219 a 1.028 1.028 0 0 1 1 1 v 6.188 a 1.028 1.028 0 0 1 -1 1 Z M 16 35.5 h -5 a 0.982 0.982 0 0 1 -1 -1 v -4.844 a 0.982 0.982 0 0 1 1 -1 h 5 a 0.982 0.982 0 0 1 1 1 V 34.5 a 0.982 0.982 0 0 1 -1 1 Z M 38.611 17.977 a 0.991 0.991 0 0 0 -0.624 0.437 l -9.2 14.612 l -1.439 5.153 l 4.342 -3.305 l 9.2 -14.611 a 1 1 0 0 0 -0.305 -1.374 l -1.224 -0.779 a 0.991 0.991 0 0 0 -0.75 -0.132 M 31.646 34.95 l -2.9 -1.848 M 39.631 22.24 l -2.9 -1.848&apos; and @disabled=&apos;False&apos; and @onabort=&apos;null&apos; and @onblur=&apos;null&apos; and @onchange=&apos;null&apos; and @onclick=&apos;null&apos; and @ondblclick=&apos;null&apos; and @onfocus=&apos;null&apos; and @onkeydown=&apos;null&apos; and @onkeypress=&apos;null&apos; and @onkeyup=&apos;null&apos; and @onload=&apos;null&apos; and @onmousedown=&apos;null&apos; and @onmousemove=&apos;null&apos; and @onmouseout=&apos;null&apos; and @onmouseover=&apos;null&apos; and @onmouseup=&apos;null&apos; and @onreset=&apos;null&apos; and @onselect=&apos;null&apos; and @onsubmit=&apos;null&apos; and @index=&apos;129&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="3063116">
+							<literalInt _field_name_="valueObject" _object_hashcode_="30422547">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="2815487">
+							<literalInt _field_name_="valueObject" _object_hashcode_="1643915">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="7478317">
+							<literal _field_name_="valueObject" _object_hashcode_="31363938">1594191263349</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="31596469">
+							<literal _field_name_="valueObject" _object_hashcode_="4564870">1594191263349</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="1426108"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="3610712">5</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry2" _object_hashcode_="21466348">
+				<element id="5" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="383053">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="30750428"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="15136761">
+						<collectionItem _field_name_="entry0" _object_hashcode_="20212061">
+							<literal _field_name_="valueObject" _object_hashcode_="7090259">/web:window[@index=&apos;0&apos; or @title=&apos;Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;jkwoowuxs&apos;]/web:a[@id=&apos;itemNode_workforce_management_workforce_structures_4&apos; or @text=&apos;Workforce Structures&apos; or @className=&apos;app-nav-label&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="13164473">
+							<literalInt _field_name_="valueObject" _object_hashcode_="25998970">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="6811808">
+							<literalInt _field_name_="valueObject" _object_hashcode_="319772">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="23868780">
+							<literal _field_name_="valueObject" _object_hashcode_="16408562">1594191243127</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="21415453">
+							<literal _field_name_="valueObject" _object_hashcode_="25878993">1594191243127</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="9276913"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="18997915">2</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry3" _object_hashcode_="11730095">
+				<element id="6" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedPageCompleteElement" parentId="1" _field_name_="valueObject" _object_hashcode_="5988140">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="9551711">
+						<collectionItem _field_name_="entry0" _object_hashcode_="7433408">
+							<element id="8" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedFrameElement" parentId="6" _field_name_="valueObject" _object_hashcode_="13003319">
+								<java.util.ArrayList _field_name_="children" _object_hashcode_="13689788"/>
+								<java.util.HashMap _field_name_="attrs" _object_hashcode_="24719912">
+									<collectionItem _field_name_="entry0" _object_hashcode_="16791101">
+										<literal _field_name_="valueObject" _object_hashcode_="19114898">afr::PushIframe</literal>
+										<string _field_name_="keyObject" _object_hashcode_="5502133">name</string>
+										
+										</collectionItem>
+									<collectionItem _field_name_="entry1" _object_hashcode_="22625212">
+										<literal _field_name_="valueObject" _object_hashcode_="19143278">1594191246191</literal>
+										<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+										
+										</collectionItem>
+									<collectionItem _field_name_="entry2" _object_hashcode_="9168700">
+										<literal _field_name_="valueObject" _object_hashcode_="2420283">1594191246191</literal>
+										<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+										
+										</collectionItem>
+									<collectionItem _field_name_="entry3" _object_hashcode_="16876417">
+										<literal _field_name_="valueObject" _object_hashcode_="9905250">https://ejop-test.fa.em2.oraclecloud.com/hcmUI/afr/blank.html</literal>
+										<string _field_name_="keyObject" _object_hashcode_="23090335">url</string>
+										
+										</collectionItem>
+									
+									</java.util.HashMap>
+								<java.util.ArrayList _field_name_="problems" _object_hashcode_="18271678"/>
+								
+								</element>
+							<int _field_name_="keyObject" _object_hashcode_="27320514">0</int>
+							
+							</collectionItem>
+						
+						</java.util.ArrayList>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="17829793">
+						<collectionItem _field_name_="entry0" _object_hashcode_="26259729">
+							<literal _field_name_="valueObject" _object_hashcode_="22519187">C:\\Users\\SUJITS~1\\AppData\\Local\\Temp\\rakiv05i.xml</literal>
+							<string _field_name_="keyObject" _object_hashcode_="29952057">XmlPath</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="8723480">
+							<literal _field_name_="valueObject" _object_hashcode_="30725621"/>
+							<string _field_name_="keyObject" _object_hashcode_="9335321">ObjectTreePath</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry11" _object_hashcode_="32605890">
+							<literal _field_name_="valueObject" _object_hashcode_="4081964">C:\\Users\\SUJITS~1\\AppData\\Local\\Temp\\yxrcu4bd.properties</literal>
+							<string _field_name_="keyObject" _object_hashcode_="19417315">HtmlPath</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry12" _object_hashcode_="19255566">
+							<literal _field_name_="valueObject" _object_hashcode_="1513582">/web:window[@index=&apos;0&apos; or @title=&apos;Workforce Structures - Workforce Structures - Oracle Applications&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry10" _object_hashcode_="24772482">
+							<literal _field_name_="valueObject" _object_hashcode_="30564559">https://ejop-test.fa.em2.oraclecloud.com/hcmUI/faces/FndOverview?fnd=%3B%3B%3B%3Bfalse%3B256%3B%3B%3B&amp;fndGlobalItemNodeId=itemNode_workforce_management_workforce_structures&amp;_afrLoop=2897545277156347&amp;_afrWindowMode=0&amp;_afrWindowId=jkwoowuxs&amp;_adf.ctrl-state=d400fhgqz_1&amp;_afrFS=16&amp;_afrMT=screen&amp;_afrMFW=1920&amp;_afrMFH=906&amp;_afrMFDW=1920&amp;_afrMFDH=1080&amp;_afrMFC=8&amp;_afrMFCI=0&amp;_afrMFM=0&amp;_afrMFR=96&amp;_afrMFG=0&amp;_afrMFS=0&amp;_afrMFO=0</literal>
+							<string _field_name_="keyObject" _object_hashcode_="16378078">Url</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry13" _object_hashcode_="22167913">
+							<literal _field_name_="valueObject" _object_hashcode_="12249266">HTML</literal>
+							<string _field_name_="keyObject" _object_hashcode_="1978482">AppType</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry8" _object_hashcode_="1449687">
+							<literal _field_name_="valueObject" _object_hashcode_="24797460">1594191246191</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry9" _object_hashcode_="31984890">
+							<literal _field_name_="valueObject" _object_hashcode_="18467096">C:\\Users\\SUJITS~1\\AppData\\Local\\Temp\\hacicpvc.jpg</literal>
+							<string _field_name_="keyObject" _object_hashcode_="14778169">ScreenShotPath</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry6" _object_hashcode_="26964586">
+							<literal _field_name_="valueObject" _object_hashcode_="19758577">1594191246191</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry7" _object_hashcode_="2566201">
+							<file _field_name_="valueObject" _object_hashcode_="27785340">6.jpg</file>
+							<string _field_name_="keyObject" _object_hashcode_="11385241">screenshot</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="8616140">
+							<literalInt _field_name_="valueObject" _object_hashcode_="7738250">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry5" _object_hashcode_="32191994">
+							<literal _field_name_="valueObject" _object_hashcode_="28302507">False</literal>
+							<string _field_name_="keyObject" _object_hashcode_="2771369">IsXmlDocument</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="23665999">
+							<literal _field_name_="valueObject" _object_hashcode_="1509512">Workforce Structures - Workforce Structures - Oracle Applications</literal>
+							<string _field_name_="keyObject" _object_hashcode_="25875749">Title</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="8554555">
+							<literalBoolean _field_name_="valueObject" _object_hashcode_="10429030">false</literalBoolean>
+							<string _field_name_="keyObject" _object_hashcode_="15217909">isSiebelFT</string>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="9279142"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="19716095">3</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry51" _object_hashcode_="19294597">
+				<element id="57" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="6626103">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="19251282"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="9177751">
+						<collectionItem _field_name_="entry0" _object_hashcode_="7379211">
+							<literal _field_name_="valueObject" _object_hashcode_="18771739">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;8scr5ojig&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:button[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:2:updPageAppsPnl:tt1:okWarningDialog&apos; or @index=&apos;3&apos; or @text=&apos;Yes&apos; or @className=&apos;p_AFHoverTarget x119 p_AFTextOnly&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="11994734">
+							<literalInt _field_name_="valueObject" _object_hashcode_="32719439">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="28948008">
+							<literalInt _field_name_="valueObject" _object_hashcode_="26959722">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="22381275">
+							<literal _field_name_="valueObject" _object_hashcode_="16577227">1594205042835</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="17429755">
+							<literal _field_name_="valueObject" _object_hashcode_="1366251">1594205042835</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="17326885"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="22091138">51</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry52" _object_hashcode_="23978934">
+				<element id="58" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="24324207">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="23756330"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="7804945">
+						<collectionItem _field_name_="entry0" _object_hashcode_="16643162">
+							<literal _field_name_="valueObject" _object_hashcode_="14474042">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;8scr5ojig&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:button[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:2:updPageAppsPnl:tt1:okConfirmationDialog&apos; or @index=&apos;3&apos; or @text=&apos;OK&apos; or @className=&apos;p_AFHoverTarget x119 p_AFTextOnly&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="8872594">
+							<literalInt _field_name_="valueObject" _object_hashcode_="11397676">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="28677253">
+							<literalInt _field_name_="valueObject" _object_hashcode_="21339428">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="31039510">
+							<literal _field_name_="valueObject" _object_hashcode_="2826182">1594205047189</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="13225875">
+							<literal _field_name_="valueObject" _object_hashcode_="6824561">1594205047189</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="3051417"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="18199530">52</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry50" _object_hashcode_="1247793">
+				<element id="56" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="7265122">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="19138868"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="7302492">
+						<collectionItem _field_name_="entry0" _object_hashcode_="10540341">
+							<literal _field_name_="valueObject" _object_hashcode_="30464563">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;8scr5ojig&apos;]/web:span[@text=&apos;Submit&apos; or @index=&apos;9&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="11742373">
+							<literalInt _field_name_="valueObject" _object_hashcode_="22563136">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="3361338">
+							<literalInt _field_name_="valueObject" _object_hashcode_="3127624">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="5866575">
+							<literal _field_name_="valueObject" _object_hashcode_="27270953">1594205039653</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="9239500">
+							<literal _field_name_="valueObject" _object_hashcode_="1163755">1594205039653</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="24119591"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="29309244">50</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry11" _object_hashcode_="20041067">
+				<element id="16" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="2280651">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="5525437"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="23525203">
+						<collectionItem _field_name_="entry0" _object_hashcode_="30956478">
+							<literal _field_name_="valueObject" _object_hashcode_="30912472">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;r5awlcwvz&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:input_text[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:2:AP3:inputText1::content&apos; or @name=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:2:AP3:inputText1&apos; or @index=&apos;1&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="7311826">
+							<literalInt _field_name_="valueObject" _object_hashcode_="13243261">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="8855994">
+							<literalInt _field_name_="valueObject" _object_hashcode_="13021973">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="30990868">
+							<literal _field_name_="valueObject" _object_hashcode_="21155728">1594191301889</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="409850">
+							<literal _field_name_="valueObject" _object_hashcode_="27563605">1594191301889</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="29872433"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="6797225">11</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry55" _object_hashcode_="28756846">
+				<element id="61" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="10922719">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="17008800"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="32487242">
+						<collectionItem _field_name_="entry0" _object_hashcode_="31346126">
+							<literal _field_name_="valueObject" _object_hashcode_="29611869">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;8scr5ojig&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:input_text[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:1:jfSearchPnl:q1:value00::content&apos; or @name=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:1:jfSearchPnl:q1:value00&apos; or @index=&apos;1&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="22135903">
+							<literal _field_name_="valueObject" _object_hashcode_="27515311">Job_Family_3</literal>
+							<object_reference_element _object_hashcode_="28280066" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="9103395">
+							<literal _field_name_="valueObject" _object_hashcode_="19224388">1594205096439</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry5" _object_hashcode_="28751847">
+							<literalInt _field_name_="valueObject" _object_hashcode_="26775261">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="3352866">
+							<literalInt _field_name_="valueObject" _object_hashcode_="15464143">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="25654215">
+							<literal _field_name_="valueObject" _object_hashcode_="434553">1594205096439</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="18785250"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="5457252">55</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry12" _object_hashcode_="7785862">
+				<element id="17" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="16852625">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="15980290"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="19566131">
+						<collectionItem _field_name_="entry0" _object_hashcode_="20546963">
+							<literal _field_name_="valueObject" _object_hashcode_="28213591">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;r5awlcwvz&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:input_text[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:2:AP3:it1::content&apos; or @name=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:2:AP3:it1&apos; or @index=&apos;2&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="24173240">
+							<literal _field_name_="valueObject" _object_hashcode_="11928585">JOB_FAMLY_1</literal>
+							<object_reference_element _object_hashcode_="28280066" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="31899671">
+							<literal _field_name_="valueObject" _object_hashcode_="1989098">1594191305861</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry5" _object_hashcode_="17972496">
+							<literalInt _field_name_="valueObject" _object_hashcode_="26210952">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="10891836">
+							<literalInt _field_name_="valueObject" _object_hashcode_="7449471">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="28876298">
+							<literal _field_name_="valueObject" _object_hashcode_="6958509">1594191305861</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="987370"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="12256402">12</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry56" _object_hashcode_="15555432">
+				<element id="62" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="9432333">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="797823"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="5168910">
+						<collectionItem _field_name_="entry0" _object_hashcode_="24621915">
+							<literal _field_name_="valueObject" _object_hashcode_="9048135">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;8scr5ojig&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:input_text[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:1:jfSearchPnl:q1:value10::content&apos; or @name=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:1:jfSearchPnl:q1:value10&apos; or @index=&apos;2&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="14429681">
+							<literalInt _field_name_="valueObject" _object_hashcode_="18749067">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="5841644">
+							<literalInt _field_name_="valueObject" _object_hashcode_="17604462">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="7014612">
+							<literal _field_name_="valueObject" _object_hashcode_="21288577">1594205099389</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="16288041">
+							<literal _field_name_="valueObject" _object_hashcode_="13441693">1594205099389</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="23420890"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="25859938">56</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry53" _object_hashcode_="3640317">
+				<element id="59" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="20654161">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="26787865"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="16963863">
+						<collectionItem _field_name_="entry0" _object_hashcode_="8126663">
+							<literal _field_name_="valueObject" _object_hashcode_="4622560">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;8scr5ojig&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:input_text[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:1:jfSearchPnl:q1:value00::content&apos; or @name=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:1:jfSearchPnl:q1:value00&apos; or @index=&apos;1&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="4813472">
+							<literalInt _field_name_="valueObject" _object_hashcode_="23404001">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="28169804">
+							<literalInt _field_name_="valueObject" _object_hashcode_="6565453">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="17552743">
+							<literal _field_name_="valueObject" _object_hashcode_="6088462">1594205051445</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="25528057">
+							<literal _field_name_="valueObject" _object_hashcode_="13691860">1594205051445</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="13471328"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="8529883">53</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry10" _object_hashcode_="28744369">
+				<element id="15" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="24964846">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="14497630"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="9861727">
+						<collectionItem _field_name_="entry0" _object_hashcode_="12830413">
+							<literal _field_name_="valueObject" _object_hashcode_="31149943">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;r5awlcwvz&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:input_text[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:2:AP3:inputText1::content&apos; or @name=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:2:AP3:inputText1&apos; or @index=&apos;1&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="19018018">
+							<literal _field_name_="valueObject" _object_hashcode_="31940031">Job_Famly_1</literal>
+							<object_reference_element _object_hashcode_="28280066" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="2847522">
+							<literal _field_name_="valueObject" _object_hashcode_="24987736">1594191281149</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry5" _object_hashcode_="24319236">
+							<literalInt _field_name_="valueObject" _object_hashcode_="15794509">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="29515401">
+							<literalInt _field_name_="valueObject" _object_hashcode_="32576997">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="24235250">
+							<literal _field_name_="valueObject" _object_hashcode_="26337824">1594191281149</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="9203529"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="2361053">10</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry54" _object_hashcode_="31518568">
+				<element id="60" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="32526706">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="6093212"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="15095398">
+						<collectionItem _field_name_="entry0" _object_hashcode_="510859">
+							<literal _field_name_="valueObject" _object_hashcode_="16476720">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;8scr5ojig&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:input_text[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:1:jfSearchPnl:q1:value00::content&apos; or @name=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:1:jfSearchPnl:q1:value00&apos; or @index=&apos;1&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="21274469">
+							<literalInt _field_name_="valueObject" _object_hashcode_="32754424">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="21657534">
+							<literalInt _field_name_="valueObject" _object_hashcode_="15137245">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="32855056">
+							<literal _field_name_="valueObject" _object_hashcode_="33272022">1594205091634</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="23236598">
+							<literal _field_name_="valueObject" _object_hashcode_="16432910">1594205091634</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="24075755"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="6196552">54</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry15" _object_hashcode_="4319098">
+				<element id="20" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="21355373">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="10097028"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="24172220">
+						<collectionItem _field_name_="entry0" _object_hashcode_="18964918">
+							<literal _field_name_="valueObject" _object_hashcode_="14409254">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;r5awlcwvz&apos;]/web:span[@text=&apos;Submit&apos; or @index=&apos;8&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="8078043">
+							<literalInt _field_name_="valueObject" _object_hashcode_="26973824">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="7057937">
+							<literalInt _field_name_="valueObject" _object_hashcode_="11924384">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="19329681">
+							<literal _field_name_="valueObject" _object_hashcode_="7194943">1594191334618</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="17564882">
+							<literal _field_name_="valueObject" _object_hashcode_="2033214">1594191334618</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="27861477"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="32634994">15</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry59" _object_hashcode_="3743911">
+				<element id="65" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="27655874">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="26157758"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="18845156">
+						<collectionItem _field_name_="entry0" _object_hashcode_="15071179">
+							<literal _field_name_="valueObject" _object_hashcode_="25459183">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;8scr5ojig&apos;]/web:span[@text=&apos;Job_Family_3&apos; or @id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:2:updPageAppsPnl:jfName::content&apos; or @index=&apos;20&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="32529361">
+							<literalInt _field_name_="valueObject" _object_hashcode_="30124606">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="25302133">
+							<literalInt _field_name_="valueObject" _object_hashcode_="26334239">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="9121146">
+							<literal _field_name_="valueObject" _object_hashcode_="4818031">1594205113245</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="23970319">
+							<literal _field_name_="valueObject" _object_hashcode_="6574850">1594205113245</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="29873494"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="7091104">59</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry16" _object_hashcode_="28354340">
+				<element id="21" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="33303244">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="30052402"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="32271340">
+						<collectionItem _field_name_="entry0" _object_hashcode_="13741141">
+							<literal _field_name_="valueObject" _object_hashcode_="7526868">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;r5awlcwvz&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:button[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:2:AP3:tt1:okWarningDialog&apos; or @index=&apos;1&apos; or @text=&apos;Yes&apos; or @className=&apos;p_AFHoverTarget x119 p_AFTextOnly&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="27749690">
+							<literalInt _field_name_="valueObject" _object_hashcode_="10360718">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="8235037">
+							<literalInt _field_name_="valueObject" _object_hashcode_="22410356">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="13018225">
+							<literal _field_name_="valueObject" _object_hashcode_="3152184">1594191339806</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="30283704">
+							<literal _field_name_="valueObject" _object_hashcode_="6294484">1594191339806</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="6701353"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="17201094">16</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry13" _object_hashcode_="12589499">
+				<element id="18" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="19746495">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="22791397"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="16664113">
+						<collectionItem _field_name_="entry0" _object_hashcode_="20241598">
+							<literal _field_name_="valueObject" _object_hashcode_="2501192">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;r5awlcwvz&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:input_text[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:2:AP3:it1::content&apos; or @name=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:2:AP3:it1&apos; or @index=&apos;2&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="11040439">
+							<literalInt _field_name_="valueObject" _object_hashcode_="13632457">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="12229283">
+							<literalInt _field_name_="valueObject" _object_hashcode_="29058694">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="13979662">
+							<literal _field_name_="valueObject" _object_hashcode_="20921578">1594191315401</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="30516998">
+							<literal _field_name_="valueObject" _object_hashcode_="1228840">1594191315401</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="4932102"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="1270853">13</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry57" _object_hashcode_="10388134">
+				<element id="63" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="6401000">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="931532"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="27387154">
+						<collectionItem _field_name_="entry0" _object_hashcode_="3530779">
+							<literal _field_name_="valueObject" _object_hashcode_="19386787">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;8scr5ojig&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:button[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:1:jfSearchPnl:q1::search&apos; or @index=&apos;6&apos; or @text=&apos;Search&apos; or @className=&apos;xhx p_AFTextOnly&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="13670092">
+							<literalInt _field_name_="valueObject" _object_hashcode_="26185760">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="19194399">
+							<literalInt _field_name_="valueObject" _object_hashcode_="29783884">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="31967855">
+							<literal _field_name_="valueObject" _object_hashcode_="12584057">1594205101949</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="4185904">
+							<literal _field_name_="valueObject" _object_hashcode_="13528709">1594205101949</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="1580713"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="9652941">57</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry14" _object_hashcode_="751706">
+				<element id="19" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="27677559">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="8629504"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="17667827">
+						<collectionItem _field_name_="entry0" _object_hashcode_="21133190">
+							<literal _field_name_="valueObject" _object_hashcode_="23790113">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;r5awlcwvz&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:input_text[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:2:AP3:it1::content&apos; or @name=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:2:AP3:it1&apos; or @index=&apos;2&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="22345793">
+							<literal _field_name_="valueObject" _object_hashcode_="2893448">Job_Faily_1</literal>
+							<object_reference_element _object_hashcode_="28280066" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="32445188">
+							<literal _field_name_="valueObject" _object_hashcode_="31948562">1594191321916</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry5" _object_hashcode_="3502475">
+							<literalInt _field_name_="valueObject" _object_hashcode_="17031894">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="7194956">
+							<literalInt _field_name_="valueObject" _object_hashcode_="23058727">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="3783216">
+							<literal _field_name_="valueObject" _object_hashcode_="24000583">1594191321916</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="7325805"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="19788672">14</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry58" _object_hashcode_="3629767">
+				<element id="64" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="1241849">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="9117254"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="9278815">
+						<collectionItem _field_name_="entry0" _object_hashcode_="13695396">
+							<literal _field_name_="valueObject" _object_hashcode_="20476746">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;8scr5ojig&apos;]/web:span[@text=&apos;Job_Family_3&apos; or @id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:1:jfSearchPnl:jfSrchResApplTbl:_ATp:t1:1:ot65&apos; or @index=&apos;44&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="26814004">
+							<literalInt _field_name_="valueObject" _object_hashcode_="22410464">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="21528052">
+							<literalInt _field_name_="valueObject" _object_hashcode_="25576409">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="8262592">
+							<literal _field_name_="valueObject" _object_hashcode_="21042908">1594205105436</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="25739506">
+							<literal _field_name_="valueObject" _object_hashcode_="28784979">1594205105436</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="6672959"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="19194993">58</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry19" _object_hashcode_="23958780">
+				<element id="24" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="9957538">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="273154"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="32784794">
+						<collectionItem _field_name_="entry0" _object_hashcode_="29847618">
+							<literal _field_name_="valueObject" _object_hashcode_="30065747">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;r5awlcwvz&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:input_text[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:1:jfSearchPnl:q1:value00::content&apos; or @name=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:1:jfSearchPnl:q1:value00&apos; or @index=&apos;1&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="6271448">
+							<literal _field_name_="valueObject" _object_hashcode_="5140937">Job_Family_1</literal>
+							<object_reference_element _object_hashcode_="28280066" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="2803214">
+							<literal _field_name_="valueObject" _object_hashcode_="6673190">1594191355329</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry5" _object_hashcode_="20408835">
+							<literalInt _field_name_="valueObject" _object_hashcode_="10376978">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="28854087">
+							<literalInt _field_name_="valueObject" _object_hashcode_="3812445">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="7534297">
+							<literal _field_name_="valueObject" _object_hashcode_="6165400">1594191355329</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="11079554"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="11159599">19</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry17" _object_hashcode_="3495755">
+				<element id="22" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="27165427">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="19697157"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="4176478">
+						<collectionItem _field_name_="entry0" _object_hashcode_="33341301">
+							<literal _field_name_="valueObject" _object_hashcode_="3464872">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;r5awlcwvz&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:button[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:2:AP3:tt1:okConfirmationDialog&apos; or @index=&apos;3&apos; or @text=&apos;OK&apos; or @className=&apos;p_AFHoverTarget x119 p_AFTextOnly&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="4020717">
+							<literalInt _field_name_="valueObject" _object_hashcode_="23240472">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="13934133">
+							<literalInt _field_name_="valueObject" _object_hashcode_="29207995">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="5833451">
+							<literal _field_name_="valueObject" _object_hashcode_="33411248">1594191345114</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="5770818">
+							<literal _field_name_="valueObject" _object_hashcode_="22414036">1594191345114</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="28681151"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="10932629">17</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry18" _object_hashcode_="12836610">
+				<element id="23" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="8362918">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="16807455"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="31297243">
+						<collectionItem _field_name_="entry0" _object_hashcode_="10739243">
+							<literal _field_name_="valueObject" _object_hashcode_="17803523">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;r5awlcwvz&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:input_text[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:1:jfSearchPnl:q1:value00::content&apos; or @name=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:1:jfSearchPnl:q1:value00&apos; or @index=&apos;1&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="11139619">
+							<literalInt _field_name_="valueObject" _object_hashcode_="4896694">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="5881242">
+							<literalInt _field_name_="valueObject" _object_hashcode_="26406882">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="13649500">
+							<literal _field_name_="valueObject" _object_hashcode_="32481597">1594191348448</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="2001835">
+							<literal _field_name_="valueObject" _object_hashcode_="5054216">1594191348448</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="11452979"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="25893801">18</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry40" _object_hashcode_="9163823">
+				<element id="45" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="3686490">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="9547466"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="30794920">
+						<collectionItem _field_name_="entry0" _object_hashcode_="2199812">
+							<literal _field_name_="valueObject" _object_hashcode_="5983181">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;r5awlcwvz&apos;]/web:a[@id=&apos;_FOpt1:_UISlg1&apos; or @text=&apos;Sign Out&apos; or @className=&apos;p_AFHoverTarget xnv xms&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="12585400">
+							<literalInt _field_name_="valueObject" _object_hashcode_="29075755">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="24449242">
+							<literalInt _field_name_="valueObject" _object_hashcode_="13260268">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="17798839">
+							<literal _field_name_="valueObject" _object_hashcode_="121849">1594191466237</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="32277731">
+							<literal _field_name_="valueObject" _object_hashcode_="19054658">1594191466237</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="6086947"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="25543471">40</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry41" _object_hashcode_="14282501">
+				<element id="46" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedPageCompleteElement" parentId="1" _field_name_="valueObject" _object_hashcode_="7692620">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="31755088"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="22414912">
+						<collectionItem _field_name_="entry0" _object_hashcode_="21524807">
+							<literal _field_name_="valueObject" _object_hashcode_="27902646">C:\\Users\\SUJITS~1\\AppData\\Local\\Temp\\3dnwnzkp.xml</literal>
+							<object_reference_element _object_hashcode_="29952057" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="16394641">
+							<literal _field_name_="valueObject" _object_hashcode_="3638832"/>
+							<object_reference_element _object_hashcode_="9335321" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry11" _object_hashcode_="28380826">
+							<literal _field_name_="valueObject" _object_hashcode_="8431164">C:\\Users\\SUJITS~1\\AppData\\Local\\Temp\\t501ld10.properties</literal>
+							<object_reference_element _object_hashcode_="19417315" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry12" _object_hashcode_="9007662">
+							<literal _field_name_="valueObject" _object_hashcode_="1742342">/web:window[@index=&apos;0&apos; or @title=&apos;Single Sign-Off consent&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry10" _object_hashcode_="7729265">
+							<literal _field_name_="valueObject" _object_hashcode_="25541926">https://ejop-test.login.em2.oraclecloud.com/fusion_apps/pages/logoutConsent.jsp?logout_done_url=https%3A%2F%2Fejop-test.fa.em2.oraclecloud.com%3A443%2FfscmUI%2FadfAuthentication%3F_adf.authenticate%3Dtrue&amp;logoutId=7980DF89C9606CB1531D8686B63FE0F7DFA0C095624BF1BAAD1954992EB305AA</literal>
+							<object_reference_element _object_hashcode_="16378078" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry13" _object_hashcode_="18278863">
+							<literal _field_name_="valueObject" _object_hashcode_="30948439">HTML</literal>
+							<object_reference_element _object_hashcode_="1978482" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry8" _object_hashcode_="8971945">
+							<literal _field_name_="valueObject" _object_hashcode_="21388665">1594191468198</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry9" _object_hashcode_="26338260">
+							<literal _field_name_="valueObject" _object_hashcode_="24870245">C:\\Users\\SUJITS~1\\AppData\\Local\\Temp\\sbnxh1kp.jpg</literal>
+							<object_reference_element _object_hashcode_="14778169" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry6" _object_hashcode_="12350127">
+							<literal _field_name_="valueObject" _object_hashcode_="19217667">1594191468198</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry7" _object_hashcode_="15908838">
+							<file _field_name_="valueObject" _object_hashcode_="13786047">46.jpg</file>
+							<object_reference_element _object_hashcode_="11385241" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="32680511">
+							<literalInt _field_name_="valueObject" _object_hashcode_="15595242">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry5" _object_hashcode_="17397718">
+							<literal _field_name_="valueObject" _object_hashcode_="16605972">False</literal>
+							<object_reference_element _object_hashcode_="2771369" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="14896018">
+							<literal _field_name_="valueObject" _object_hashcode_="21459521">Single Sign-Off consent</literal>
+							<object_reference_element _object_hashcode_="25875749" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="21876327">
+							<literalBoolean _field_name_="valueObject" _object_hashcode_="22148532">false</literalBoolean>
+							<object_reference_element _object_hashcode_="15217909" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="362195"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="32517347">41</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry44" _object_hashcode_="32722124">
+				<element id="50" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="31857757">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="21672832"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="15249592">
+						<collectionItem _field_name_="entry0" _object_hashcode_="23735867">
+							<literal _field_name_="valueObject" _object_hashcode_="17769730">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;8scr5ojig&apos;]/web:td[@text=&apos;Update&apos; or @index=&apos;85&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="10872007">
+							<literalInt _field_name_="valueObject" _object_hashcode_="30841708">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="3300164">
+							<literalInt _field_name_="valueObject" _object_hashcode_="9305873">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="17366754">
+							<literal _field_name_="valueObject" _object_hashcode_="17989215">1594204995210</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="22092430">
+							<literal _field_name_="valueObject" _object_hashcode_="26090103">1594204995210</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="18794184"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="2049151">44</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry45" _object_hashcode_="8900355">
+				<element id="51" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="27017681">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="10005367"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="17868503">
+						<collectionItem _field_name_="entry0" _object_hashcode_="7522399">
+							<literal _field_name_="valueObject" _object_hashcode_="20915344">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;8scr5ojig&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:input_text[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:2:updPageAppsPnl:updateDate::content&apos; or @name=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:2:updPageAppsPnl:updateDate&apos; or @index=&apos;0&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="24129717">
+							<literalInt _field_name_="valueObject" _object_hashcode_="3165795">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="24426392">
+							<literalInt _field_name_="valueObject" _object_hashcode_="25582282">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="17276834">
+							<literal _field_name_="valueObject" _object_hashcode_="15568524">1594204996928</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="18452141">
+							<literal _field_name_="valueObject" _object_hashcode_="32188248">1594204996928</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="19027281"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="22214435">45</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry42" _object_hashcode_="20466598">
+				<element id="47" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="10883185">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="8862618"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="24980468">
+						<collectionItem _field_name_="entry0" _object_hashcode_="7678380">
+							<literal _field_name_="valueObject" _object_hashcode_="16399667">0</literal>
+							<string _field_name_="keyObject" _object_hashcode_="7776442">FrameUniqueID</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry11" _object_hashcode_="24158761">
+							<literal _field_name_="valueObject" _object_hashcode_="13680771">https://ejop-test.fa.em2.oraclecloud.com/hcmUI/faces/FndOverview?fnd=%3B%3B%3B%3Bfalse%3B256%3B%3B%3B&amp;fndGlobalItemNodeId=itemNode_workforce_management_workforce_structures&amp;_afrLoop=2911068510668490&amp;_afrWindowMode=0&amp;_afrWindowId=36uruxb2y&amp;_adf.ctrl-state=qjjuvztyy_1&amp;_afrFS=16&amp;_afrMT=screen&amp;_afrMFW=1920&amp;_afrMFH=906&amp;_afrMFDW=1920&amp;_afrMFDH=1080&amp;_afrMFC=8&amp;_afrMFCI=0&amp;_afrMFM=0&amp;_afrMFR=96&amp;_afrMFG=0&amp;_afrMFS=0&amp;_afrMFO=0</literal>
+							<object_reference_element _object_hashcode_="16378078" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="18328075">
+							<literal _field_name_="valueObject" _object_hashcode_="22191604">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry10" _object_hashcode_="633268">
+							<literal _field_name_="valueObject" _object_hashcode_="18073117">0</literal>
+							<string _field_name_="keyObject" _object_hashcode_="698091">TimeStamp</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry8" _object_hashcode_="26659408">
+							<literal _field_name_="valueObject" _object_hashcode_="7209677">HTML</literal>
+							<object_reference_element _object_hashcode_="1978482" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry9" _object_hashcode_="18171745">
+							<literal _field_name_="valueObject" _object_hashcode_="22429672">False</literal>
+							<string _field_name_="keyObject" _object_hashcode_="8034580">IsUserTyped</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry6" _object_hashcode_="17098810">
+							<literal _field_name_="valueObject" _object_hashcode_="19386277">1594191472242</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry7" _object_hashcode_="10335719">
+							<literal _field_name_="valueObject" _object_hashcode_="28339140">1594191472242</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="30945326">
+							<literal _field_name_="valueObject" _object_hashcode_="380287"/>
+							<string _field_name_="keyObject" _object_hashcode_="21460180">ElementTag</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry5" _object_hashcode_="8997627">
+							<literal _field_name_="valueObject" _object_hashcode_="33079404">Get</literal>
+							<string _field_name_="keyObject" _object_hashcode_="32279321">Method</string>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="6824936">
+							<literal _field_name_="valueObject" _object_hashcode_="9651063">Manage Job Families - Workforce Structures - Oracle Applications</literal>
+							<object_reference_element _object_hashcode_="25875749" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="32087055">
+							<literalInt _field_name_="valueObject" _object_hashcode_="6477313">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="11963928"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="28218268">42</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry43" _object_hashcode_="26921664">
+				<element id="49" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="25110453">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="20788229"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="1340787">
+						<collectionItem _field_name_="entry0" _object_hashcode_="11064888">
+							<literal _field_name_="valueObject" _object_hashcode_="4929816">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;8scr5ojig&apos;]/web:a[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:2:updPageAppsPnl:updateMenuBtn::popEl&apos; or @className=&apos;x1qf&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="22690566">
+							<literalInt _field_name_="valueObject" _object_hashcode_="20481715">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="11887938">
+							<literalInt _field_name_="valueObject" _object_hashcode_="21465629">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="32270174">
+							<literal _field_name_="valueObject" _object_hashcode_="4097239">1594204983827</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="28671693">
+							<literal _field_name_="valueObject" _object_hashcode_="883383">1594204983827</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="15385272"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="18606454">43</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry48" _object_hashcode_="989282">
+				<element id="54" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="14393861">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="33208747"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="10295692">
+						<collectionItem _field_name_="entry0" _object_hashcode_="1004522">
+							<literal _field_name_="valueObject" _object_hashcode_="26252330">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;8scr5ojig&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:input_text[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:2:updPageAppsPnl:jfName::content&apos; or @name=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:2:updPageAppsPnl:jfName&apos; or @index=&apos;2&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="1185456">
+							<literal _field_name_="valueObject" _object_hashcode_="33062410">Job_Family_3</literal>
+							<object_reference_element _object_hashcode_="28280066" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="4457693">
+							<literal _field_name_="valueObject" _object_hashcode_="17944182">1594205026076</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry5" _object_hashcode_="10672959">
+							<literalInt _field_name_="valueObject" _object_hashcode_="12866898">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="13391362">
+							<literalInt _field_name_="valueObject" _object_hashcode_="5834149">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="2188861">
+							<literal _field_name_="valueObject" _object_hashcode_="19801886">1594205026076</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="4473918"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="12574792">48</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry49" _object_hashcode_="2404227">
+				<element id="55" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="19162942">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="11893522"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="16652867">
+						<collectionItem _field_name_="entry0" _object_hashcode_="3317251">
+							<literal _field_name_="valueObject" _object_hashcode_="32838228">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;8scr5ojig&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:input_text[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:2:updPageAppsPnl:jfName::content&apos; or @name=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:2:updPageAppsPnl:jfName&apos; or @index=&apos;2&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="23791158">
+							<literalInt _field_name_="valueObject" _object_hashcode_="8064706">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="9901171">
+							<literalInt _field_name_="valueObject" _object_hashcode_="31712300">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="28638421">
+							<literal _field_name_="valueObject" _object_hashcode_="7134090">1594205034521</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="30847142">
+							<literal _field_name_="valueObject" _object_hashcode_="32287906">1594205034521</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="25744955"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="11092188">49</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry46" _object_hashcode_="1695862">
+				<element id="52" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="30958276">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="17385825"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="3383000">
+						<collectionItem _field_name_="entry0" _object_hashcode_="11267636">
+							<literal _field_name_="valueObject" _object_hashcode_="23992225">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;8scr5ojig&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:button[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:2:updPageAppsPnl:UpdateDialog::ok&apos; or @index=&apos;2&apos; or @text=&apos;OK&apos; or @className=&apos;x119 p_AFTextOnly&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="11151815">
+							<literalInt _field_name_="valueObject" _object_hashcode_="4057952">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="9254958">
+							<literalInt _field_name_="valueObject" _object_hashcode_="21927828">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="18775449">
+							<literal _field_name_="valueObject" _object_hashcode_="21606279">1594205013662</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="4060992">
+							<literal _field_name_="valueObject" _object_hashcode_="4792398">1594205013662</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="4767278"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="24904465">46</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry47" _object_hashcode_="2429528">
+				<element id="53" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="18453640">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="8096885"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="29671633">
+						<collectionItem _field_name_="entry0" _object_hashcode_="13714160">
+							<literal _field_name_="valueObject" _object_hashcode_="5803953">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;8scr5ojig&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:input_text[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:2:updPageAppsPnl:jfName::content&apos; or @name=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:2:updPageAppsPnl:jfName&apos; or @index=&apos;2&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="28648733">
+							<literalInt _field_name_="valueObject" _object_hashcode_="9601929">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="10011057">
+							<literalInt _field_name_="valueObject" _object_hashcode_="30257531">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="12297768">
+							<literal _field_name_="valueObject" _object_hashcode_="9366577">1594205017135</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="5091981">
+							<literal _field_name_="valueObject" _object_hashcode_="19849065">1594205017135</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="26102274"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="2159828">47</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry0" _object_hashcode_="6496424">
+				<element id="2" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="23656567">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="8826468"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="18710410">
+						<collectionItem _field_name_="entry0" _object_hashcode_="28335658">
+							<literal _field_name_="valueObject" _object_hashcode_="717662">0</literal>
+							<object_reference_element _object_hashcode_="7776442" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry11" _object_hashcode_="11551755">
+							<literal _field_name_="valueObject" _object_hashcode_="2521170">False</literal>
+							<object_reference_element _object_hashcode_="8034580" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="24483037">
+							<literal _field_name_="valueObject" _object_hashcode_="12761095">/web:window[@index=&apos;0&apos; or @title=&apos;Oracle Applications&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry10" _object_hashcode_="10000443">
+							<literal _field_name_="valueObject" _object_hashcode_="14966049">0</literal>
+							<object_reference_element _object_hashcode_="698091" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry8" _object_hashcode_="26266700">
+							<literal _field_name_="valueObject" _object_hashcode_="29472147">HTML</literal>
+							<object_reference_element _object_hashcode_="1978482" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry9" _object_hashcode_="26235433">
+							<literal _field_name_="valueObject" _object_hashcode_="1722122">https://ejop-test.fa.em2.oraclecloud.com/fscmUI/faces/FuseWelcome?_afrLoop=2897446178045255&amp;_adf.ctrl-state=w9z2bbs1k_77</literal>
+							<object_reference_element _object_hashcode_="16378078" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry6" _object_hashcode_="12516858">
+							<literal _field_name_="valueObject" _object_hashcode_="27361872"/>
+							<object_reference_element _object_hashcode_="21460180" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry7" _object_hashcode_="16382806">
+							<literal _field_name_="valueObject" _object_hashcode_="5141389">Get</literal>
+							<object_reference_element _object_hashcode_="32279321" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="18790825">
+							<literal _field_name_="valueObject" _object_hashcode_="28237218">1594191236972</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry5" _object_hashcode_="10402873">
+							<literal _field_name_="valueObject" _object_hashcode_="25064699">1594191236972</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="29806205">
+							<literal _field_name_="valueObject" _object_hashcode_="18933130">Oracle Applications</literal>
+							<object_reference_element _object_hashcode_="25875749" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="13281752">
+							<literalInt _field_name_="valueObject" _object_hashcode_="1216024">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="444211"/>
+					
+					</element>
+				<object_reference_element _object_hashcode_="27320514" _field_name_="keyObject"/>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry1" _object_hashcode_="1671641">
+				<element id="4" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="15633775">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="28961098"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="7001489">
+						<collectionItem _field_name_="entry0" _object_hashcode_="31949015">
+							<literal _field_name_="valueObject" _object_hashcode_="12905388">/web:window[@index=&apos;0&apos; or @title=&apos;Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;jkwoowuxs&apos;]/web:a[@id=&apos;groupNode_workforce_management_2&apos; or @text=&apos;My Client Groups&apos; or @className=&apos;app-nav-label top-nav-label&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="1640944">
+							<literalInt _field_name_="valueObject" _object_hashcode_="17529769">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="26933058">
+							<literalInt _field_name_="valueObject" _object_hashcode_="22381306">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="18070049">
+							<literal _field_name_="valueObject" _object_hashcode_="21281071">1594191237056</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="1926124">
+							<literal _field_name_="valueObject" _object_hashcode_="15225619">1594191237056</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="25674667"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="1810774">1</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry30" _object_hashcode_="7565616">
+				<element id="35" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="8784293">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="12624173"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="7184648">
+						<collectionItem _field_name_="entry0" _object_hashcode_="2957165">
+							<literal _field_name_="valueObject" _object_hashcode_="23879204">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;r5awlcwvz&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:input_text[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:1:jfSearchPnl:q1:value10::content&apos; or @name=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:1:jfSearchPnl:q1:value10&apos; or @index=&apos;2&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="19534791">
+							<literal _field_name_="valueObject" _object_hashcode_="12397144">Job_Family</literal>
+							<object_reference_element _object_hashcode_="28280066" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="5774949">
+							<literal _field_name_="valueObject" _object_hashcode_="32605608">1594191423412</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry5" _object_hashcode_="30348335">
+							<literalInt _field_name_="valueObject" _object_hashcode_="16147520">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="18594060">
+							<literalInt _field_name_="valueObject" _object_hashcode_="10537098">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="9448067">
+							<literal _field_name_="valueObject" _object_hashcode_="23296452">1594191423412</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="15470255"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="16235586">30</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry33" _object_hashcode_="25209887">
+				<element id="38" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="18250904">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="3767127"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="19723909">
+						<collectionItem _field_name_="entry0" _object_hashcode_="32356346">
+							<literal _field_name_="valueObject" _object_hashcode_="11964643">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;r5awlcwvz&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:input_text[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:1:jfSearchPnl:q1:value10::content&apos; or @name=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:1:jfSearchPnl:q1:value10&apos; or @index=&apos;2&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="16009142">
+							<literal _field_name_="valueObject" _object_hashcode_="13881772">Job_</literal>
+							<object_reference_element _object_hashcode_="28280066" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="30204678">
+							<literal _field_name_="valueObject" _object_hashcode_="5164663">1594191436339</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry5" _object_hashcode_="27283380">
+							<literalInt _field_name_="valueObject" _object_hashcode_="9474558">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="27816797">
+							<literalInt _field_name_="valueObject" _object_hashcode_="19472243">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="19484457">
+							<literal _field_name_="valueObject" _object_hashcode_="1223810">1594191436339</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="11131985"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="22889433">33</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry34" _object_hashcode_="13201065">
+				<element id="39" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="8270810">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="10971156"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="20351478">
+						<collectionItem _field_name_="entry0" _object_hashcode_="11129206">
+							<literal _field_name_="valueObject" _object_hashcode_="18852833">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;r5awlcwvz&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:button[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:1:jfSearchPnl:q1::search&apos; or @index=&apos;6&apos; or @text=&apos;Search&apos; or @className=&apos;xhx p_AFTextOnly&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="32152077">
+							<literalInt _field_name_="valueObject" _object_hashcode_="28470117">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="12209250">
+							<literalInt _field_name_="valueObject" _object_hashcode_="19543373">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="33409722">
+							<literal _field_name_="valueObject" _object_hashcode_="1552755">1594191438043</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="24349330">
+							<literal _field_name_="valueObject" _object_hashcode_="20297001">1594191438043</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="9648574"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="15488195">34</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry31" _object_hashcode_="381920">
+				<element id="36" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="5180100">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="6779033"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="4163311">
+						<collectionItem _field_name_="entry0" _object_hashcode_="22701376">
+							<literal _field_name_="valueObject" _object_hashcode_="20118199">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;r5awlcwvz&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:button[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:1:jfSearchPnl:q1::search&apos; or @index=&apos;6&apos; or @text=&apos;Search&apos; or @className=&apos;xhx p_AFTextOnly&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="5521955">
+							<literalInt _field_name_="valueObject" _object_hashcode_="26329741">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="7101286">
+							<literalInt _field_name_="valueObject" _object_hashcode_="15711428">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="16253912">
+							<literal _field_name_="valueObject" _object_hashcode_="30528158">1594191426882</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="9176738">
+							<literal _field_name_="valueObject" _object_hashcode_="4746098">1594191426882</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="21920742"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="9767178">31</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry32" _object_hashcode_="13422165">
+				<element id="37" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="4691051">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="24084074"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="22388471">
+						<collectionItem _field_name_="entry0" _object_hashcode_="6876631">
+							<literal _field_name_="valueObject" _object_hashcode_="22085901">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;r5awlcwvz&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:input_text[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:1:jfSearchPnl:q1:value10::content&apos; or @name=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:1:jfSearchPnl:q1:value10&apos; or @index=&apos;2&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="3624110">
+							<literalInt _field_name_="valueObject" _object_hashcode_="32066862">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="10017531">
+							<literalInt _field_name_="valueObject" _object_hashcode_="10435021">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="7610011">
+							<literal _field_name_="valueObject" _object_hashcode_="32627773">1594191430914</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="21191447">
+							<literal _field_name_="valueObject" _object_hashcode_="26586984">1594191430914</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="4585273"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="20653485">32</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry37" _object_hashcode_="22052147">
+				<element id="42" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="3105593">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="12022011"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="15244428">
+						<collectionItem _field_name_="entry0" _object_hashcode_="29371012">
+							<literal _field_name_="valueObject" _object_hashcode_="5801078">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;r5awlcwvz&apos;]/web:span[@text=&apos;Job_Faily_1&apos; or @id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:3:updPageAppsPnl:it1::content&apos; or @index=&apos;22&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="12599688">
+							<literalInt _field_name_="valueObject" _object_hashcode_="7877528">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="10754800">
+							<literalInt _field_name_="valueObject" _object_hashcode_="27781370">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="1132786">
+							<literal _field_name_="valueObject" _object_hashcode_="3800491">1594191458129</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="1825086">
+							<literal _field_name_="valueObject" _object_hashcode_="3271687">1594191458129</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="11328664"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="13699124">37</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry38" _object_hashcode_="16055556">
+				<element id="43" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="11994464">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="18584357"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="22071646">
+						<collectionItem _field_name_="entry0" _object_hashcode_="5399984">
+							<literal _field_name_="valueObject" _object_hashcode_="14118194">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;r5awlcwvz&apos;]/web:form[@id=&apos;_FOf1&apos; or @name=&apos;_FOf1&apos; or @index=&apos;0&apos;]/web:button[@id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:3:updPageAppsPnl:cb1&apos; or @index=&apos;0&apos; or @text=&apos;Done&apos; or @className=&apos;p_AFHoverTarget x7j p_AFTextOnly&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="12228141">
+							<literalInt _field_name_="valueObject" _object_hashcode_="11863016">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="4235622">
+							<literalInt _field_name_="valueObject" _object_hashcode_="15804949">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="21979703">
+							<literal _field_name_="valueObject" _object_hashcode_="14610593">1594191459608</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="15202443">
+							<literal _field_name_="valueObject" _object_hashcode_="28552076">1594191459608</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="21383874"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="4593476">38</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry35" _object_hashcode_="18662139">
+				<element id="40" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="14828170">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="5601041"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="13660330">
+						<collectionItem _field_name_="entry0" _object_hashcode_="20859765">
+							<literal _field_name_="valueObject" _object_hashcode_="19567953">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;r5awlcwvz&apos;]/web:span[@text=&apos;Job_Famly_1&apos; or @id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:1:jfSearchPnl:jfSrchResApplTbl:_ATp:t1:0:ot65&apos; or @index=&apos;44&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="15911609">
+							<literalInt _field_name_="valueObject" _object_hashcode_="15555067">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="4464340">
+							<literalInt _field_name_="valueObject" _object_hashcode_="32865358">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="29497725">
+							<literal _field_name_="valueObject" _object_hashcode_="27587477">1594191440811</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="4364307">
+							<literal _field_name_="valueObject" _object_hashcode_="11676007">1594191440811</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="20685825"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="9119456">35</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry36" _object_hashcode_="11222043">
+				<element id="41" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="704800">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="27276631"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="15486527">
+						<collectionItem _field_name_="entry0" _object_hashcode_="26067010">
+							<literal _field_name_="valueObject" _object_hashcode_="14753234">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;r5awlcwvz&apos;]/web:span[@text=&apos;Job_Famly_1&apos; or @id=&apos;_FOpt1:_FOr1:0:_FOSritemNode_workforce_management_workforce_structures:0:MAnt2:3:updPageAppsPnl:jfName::content&apos; or @index=&apos;20&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="29442912">
+							<literalInt _field_name_="valueObject" _object_hashcode_="4076957">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="9486686">
+							<literalInt _field_name_="valueObject" _object_hashcode_="15368655">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="27552755">
+							<literal _field_name_="valueObject" _object_hashcode_="32908398">1594191450629</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="4996821">
+							<literal _field_name_="valueObject" _object_hashcode_="30085694">1594191450629</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="32026375"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="22782399">36</int>
+				
+				</collectionItem>
+			<collectionItem _field_name_="entry39" _object_hashcode_="23926075">
+				<element id="44" type="oracle.oats.scripting.modules.webdom.modelElements.recorded.RecordedDOMElement" parentId="1" _field_name_="valueObject" _object_hashcode_="25045925">
+					<java.util.ArrayList _field_name_="children" _object_hashcode_="12945238"/>
+					<java.util.HashMap _field_name_="attrs" _object_hashcode_="4848806">
+						<collectionItem _field_name_="entry0" _object_hashcode_="31463254">
+							<literal _field_name_="valueObject" _object_hashcode_="11083375">/web:window[@index=&apos;0&apos; or @title=&apos;Manage Job Families - Workforce Structures - Oracle Applications&apos;]/web:document[@index=&apos;0&apos; or @name=&apos;r5awlcwvz&apos;]/web:svg[@id=&apos;_FOpt1:_UIScmil1u::icon&apos; and @className=&apos;svg-bkgd09 xi8&apos; and @role=&apos;img&apos; and @aria-label=&apos;Swain&apos; and @height=&apos;System.__ComObject&apos; and @width=&apos;System.__ComObject&apos; and @viewBox=&apos;0 0 48 48&apos; and @_afrsvg=&apos;true&apos; and @disabled=&apos;False&apos; and @onabort=&apos;null&apos; and @onblur=&apos;null&apos; and @onchange=&apos;null&apos; and @onclick=&apos;null&apos; and @ondblclick=&apos;null&apos; and @onfocus=&apos;null&apos; and @onkeydown=&apos;null&apos; and @onkeypress=&apos;null&apos; and @onkeyup=&apos;null&apos; and @onload=&apos;null&apos; and @onmousedown=&apos;null&apos; and @onmousemove=&apos;null&apos; and @onmouseout=&apos;null&apos; and @onmouseover=&apos;null&apos; and @onmouseup=&apos;null&apos; and @onreset=&apos;null&apos; and @onselect=&apos;null&apos; and @onsubmit=&apos;null&apos; and @onunload=&apos;null&apos; and @text=&apos;Swain&apos; and @index=&apos;6&apos;]</literal>
+							<object_reference_element _object_hashcode_="21265365" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry1" _object_hashcode_="606121">
+							<literalInt _field_name_="valueObject" _object_hashcode_="29858187">0</literalInt>
+							<object_reference_element _object_hashcode_="29249359" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry4" _object_hashcode_="8208014">
+							<literalInt _field_name_="valueObject" _object_hashcode_="26467792">0</literalInt>
+							<object_reference_element _object_hashcode_="19380948" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry2" _object_hashcode_="25312759">
+							<literal _field_name_="valueObject" _object_hashcode_="32755053">1594191462368</literal>
+							<object_reference_element _object_hashcode_="26233100" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						<collectionItem _field_name_="entry3" _object_hashcode_="16633334">
+							<literal _field_name_="valueObject" _object_hashcode_="2490231">1594191462368</literal>
+							<object_reference_element _object_hashcode_="22502552" _field_name_="keyObject"/>
+							
+							</collectionItem>
+						
+						</java.util.HashMap>
+					<java.util.ArrayList _field_name_="problems" _object_hashcode_="12197366"/>
+					
+					</element>
+				<int _field_name_="keyObject" _object_hashcode_="20334455">39</int>
+				
+				</collectionItem>
+			
+			</java.util.ArrayList>
+		<java.util.HashMap _field_name_="attrs" _object_hashcode_="11431543"/>
+		<java.util.ArrayList _field_name_="problems" _object_hashcode_="19284208"/>
+		
+		</element>
+	
+	</model>

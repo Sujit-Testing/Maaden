@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><assets>
+<asset alias="HCM_LogIn_LogOut" local="true" sourceType="file" type="SCRIPT">
+<location path="../../HCM_LogIn_LogOut" type="relative"/>
+</asset>
+<asset alias="MyClientGroups_Absences" local="true" sourceType="file" type="SCRIPT">
+<location path="../MyClientGroups_Absences" type="relative"/>
+</asset>
+<asset alias="HCM_AbsenceReason_0022" local="true" primary="true" sourceType="file" type="OBJECTLIB">
+<location path="../../../../Scripts/HCM/Sprint 2/HCM_AbsenceReason_0022/../../../../Object Library/HCM/Sprint 2/HCM_AbsenceReason_0022.properties" type="relative"/>
+</asset>
+</assets>

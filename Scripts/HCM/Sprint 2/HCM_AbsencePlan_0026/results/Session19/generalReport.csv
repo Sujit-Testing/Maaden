@@ -1,0 +1,5 @@
+1302,0,HCM_AbsencePlan_0026,7/02/2020 01:09:33 AM,0,Failed,7/02/2020 01:09:31 AM,basic.step,Sprint 2,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,855,Failed,"Browser path ""C:\Program Files (x86)\Mozilla Firefox\firefox.exe"" does not exist",basic.init,
+"Launch Browser: Firefox",,0,Passed,"",basic.step,
+"Finish Total (sec)",,59,Passed,"",basic.finish,

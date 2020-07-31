@@ -44,12 +44,15 @@ public class script extends IteratingVUserScript {
 		}
 		web.window("{{obj.HCM_Search_ManagePosition_ByName_EmployeeCode_003.web_window}}").waitForPage(null);
 		
-	}
+		}
 	
 	public void finish() throws Exception {
 		
 		//LogOut and close the application
-	web.element("{{obj.HCM_Search_ManagePosition_ByName_EmployeeCode_003.LogOutIcon}}").click();
+		web.window("{{obj.HCM_Search_ManagePosition_ByName_EmployeeCode_003.web_window}}").capturePage();
+		web.element("{{obj.HCM_Search_ManagePosition_ByName_EmployeeCode_003.web_svg_pt1__UIScmil1u__icon}}").click();
+	//web.element("{{obj.HCM_Search_ManagePosition_ByName_EmployeeCode_003.LogOutIcon}}").click();
+	web.window("{{obj.HCM_Search_ManagePosition_ByName_EmployeeCode_003.web_window}}").capturePage();
 	{
 		think(2.07);
 	}

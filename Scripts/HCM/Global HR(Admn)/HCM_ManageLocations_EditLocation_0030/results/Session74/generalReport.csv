@@ -1,0 +1,6 @@
+4291,1,HCM_ManageLocations_EditLocation_0030,7/05/2020 18:06:48 PM,0,Failed,7/05/2020 18:06:43 PM,basic.step,Global HR(Admn),,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,3369,Passed,"",basic.init,
+"Launch Browser: InternetExplorer 11.900.18362.0",,2751,Passed,"",basic.step,
+"Iteration Total (sec)",,210,Failed,"File: C:\OracleATS\OFT\Maaden\Test Data\HCM_ManageLocations_EditLocation_0030.xlsx does not exist. Nothing to import",basic.iteration,
+"Finish Total (sec)",,171,Passed,"",basic.finish,
