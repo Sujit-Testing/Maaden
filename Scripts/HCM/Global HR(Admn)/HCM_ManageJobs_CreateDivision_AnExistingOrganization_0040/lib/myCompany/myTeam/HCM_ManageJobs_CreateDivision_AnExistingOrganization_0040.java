@@ -12,7 +12,6 @@ import oracle.oats.scripting.modules.utilities.api.sql.*;
 import oracle.oats.scripting.modules.utilities.api.xml.*;
 import oracle.oats.scripting.modules.utilities.api.file.*;
 import oracle.oats.scripting.modules.webdom.api.*;
-import lib.*;
 import oracle.oats.scripting.modules.basic.api.internal.FuncLibraryWrapper;
 import oracle.oats.scripting.modules.basic.api.exceptions.AbstractScriptException;
 

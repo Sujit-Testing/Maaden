@@ -1,0 +1,6 @@
+5699,1,HCM_Manage Grades_CreateGrade_0046,8/02/2020 11:17:11 AM,0,Failed,8/02/2020 11:17:05 AM,basic.step,Global HR(Admn),,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,4686,Passed,"",basic.init,
+"Launch Browser: InternetExplorer 11.959.18362.0",,3826,Passed,"",basic.step,
+"Iteration Total (sec)",,250,Failed,"File: C:\OracleATS\OFT\Maaden\Test Data\Global HR(Admn)\Grades_CreateGrade_0046.xlsx does not exist. Nothing to import",basic.iteration,
+"Finish Total (sec)",,143,Passed,"",basic.finish,

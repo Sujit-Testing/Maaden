@@ -6,14 +6,12 @@ import oracle.oats.scripting.modules.utilities.api.sql.*;
 import oracle.oats.scripting.modules.utilities.api.xml.*;
 import oracle.oats.scripting.modules.utilities.api.file.*;
 import oracle.oats.scripting.modules.webdom.api.*;
-import lib.*;
 
 public class script extends IteratingVUserScript {
 	@ScriptService oracle.oats.scripting.modules.utilities.api.UtilitiesService utilities;
 	@ScriptService oracle.oats.scripting.modules.browser.api.BrowserService browser;
 	@ScriptService oracle.oats.scripting.modules.functionalTest.api.FunctionalTestService ft;
 	@ScriptService oracle.oats.scripting.modules.webdom.api.WebDomService web;
-	@FunctionLibrary("HCM_LogIn_LogOut") lib.maaden.orackeEBS.HCM_LogIn_LogOut hCM_LogIn_LogOut;
 	@ScriptService oracle.oats.scripting.modules.datatable.api.DataTableService datatable;
 	
 	String effective_Start_Date,division_Name,division_Classification,division_Location,division_ReportName,division_ManagerName,organizationType = null;
