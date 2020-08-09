@@ -1,0 +1,7 @@
+64752,0,HCM_ManageGradeRates_UpdateGradeRates_0052,8/06/2020 13:56:40 PM,0,Failed,8/06/2020 13:55:35 PM,basic.step,Global HR(Admn),,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,63921,Failed,"OpenScript is unable to connect to the browser, please check the OpenScript browser add-on.",basic.init,
+"Launch Browser: InternetExplorer 11.959.18362.0",,0,Passed,"",basic.step,
+"Close Browser",,2251,Passed,"",basic.step,
+"Finish Total (sec)",,120,Failed,"",basic.finish,
+"Failed to playback",,90,Failed,"Failed to playback: No browser launched.",ft.action,
