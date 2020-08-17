@@ -1,0 +1,162 @@
+<html lang="en-US" dir="ltr"><head>
+    <title>Loading...</title>
+    
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    
+    <script language="javascript" src="/xmlpserver/xdo/jslib/ajax.js?cachBuster=20200420.0323" type="text/javascript"></script>    
+    <script language="javascript" src="/xmlpserver/jsconstants.jsp" type="text/javascript"></script>
+    <script language="javascript" src="/xmlpserver/jstrans.jsp" type="text/javascript"></script>
+    <script language="JavaScript" type="text/JavaScript">
+    
+		var reportGenerated = 'false';
+		var explicitCancel = 'false'
+		var responseTime = 0;	
+		var unLoadFlag = 'false';
+		var stageCounter = 1;
+		
+        function enableApplyRefresh(){
+	           
+	        var parentDoc = window.parent.document;
+	        if (parentDoc)
+	        {
+		          var applyElem = parentDoc.getElementById('reportViewApply');
+	          if (applyElem)
+	          {
+	            applyElem.disabled = false;
+	            applyElem.setAttribute("class","button");
+	          }
+	          var runRepLink = parentDoc.getElementById('xdo:runReportLink');
+	    	  if (runRepLink)
+	    	  {
+	            runRepLink.disabled = false;
+	            runRepLink.setAttribute("onclick", "return run();");
+	    	  }
+	    	  var refreshIcon = parentDoc.getElementById('refreshViewImg');
+	    	  if (refreshIcon)
+	    	  {
+	    		refreshIcon.setAttribute("src",xdo.constants.IMAGE_BASE_DIR_PATH + "toolbar/refresh_ena.png");
+	    		refreshIcon.setAttribute("onmouseout","this.src='" + xdo.constants.IMAGE_BASE_DIR_PATH + "toolbar/refresh_ena.png'");
+	    		refreshIcon.setAttribute("onmouseover","this.src='" + xdo.constants.IMAGE_BASE_DIR_PATH + "toolbar/refresh_ovr.png'");
+	    		refreshIcon.setAttribute("onmousedown","this.src='" + xdo.constants.IMAGE_BASE_DIR_PATH + "toolbar/refresh_dwn.png'");
+	    		refreshIcon.setAttribute("onmouseup","this.src='" + xdo.constants.IMAGE_BASE_DIR_PATH + "toolbar/refresh_ena.png'");
+	    	  }
+            }
+			
+		}
+                
+	    setTimeout(runStatusCheck,1);
+	        
+		function runStatusCheck() {
+		
+			var url = "/xmlpserver/servlet/xdo?_xdo=%2FCustom%2FHuman+Capital+Management%2FReports%2FHuman+Resources%2FOrganization+Hierarchy+Report%2FReport%2FOrganization+Hierarchy+Report.xdo&fromLoadingPage=true&_id=f9850b67-baed-4989-8e69-e58870884609&_dFlag=false";
+			var req = new Ajax();
+			if(responseTime == 0)
+			{
+				document.getElementById('processDiv').style.display = 'none';
+				document.getElementById('loadSpan').style.display = '';
+			}
+			if(responseTime == 5000)
+			{
+			  document.getElementById('processDiv').style.display = 'block';
+			  document.getElementById('loadSpan').style.display = 'none';
+			}
+			
+			/* Remove stage counter	
+			document.getElementById('stageCounter').innerHTML = RES_STATUS_STAGE.replace('{0}', stageCounter);	
+			stageCounter = stageCounter + 1;
+			*/
+			
+			req.doPost(url, "", function(res){
+			
+	        	res = res.trim();	        
+	        	if (res != "") {
+	        		reportGenerated = 'true'; 
+	        		document.getElementById('message').innerHTML = res;	        		
+			        document.getElementById('finalRequest').value = 'true';    
+			        document.forms['fid'].action = url;
+                    document.forms['fid'].method='POST';				
+			        document.forms['fid'].submit();
+                    //Enable Apply button and refresh Icon
+                    enableApplyRefresh(); 
+                    setDiagnosticsParams();
+                   
+				} else {		
+					
+			    	responseTime = responseTime + 1000;
+			    	
+			    	if (responseTime > 60000) {
+			    		setTimeout(runStatusCheck,20000);			    	
+			    	} else {
+			    		setTimeout(runStatusCheck,1000);			    	
+			    	}
+			 	}
+		  	 return false;		
+		   });	
+	
+	    }
+	    
+	    function handleBeforeUnload() {
+	      if (explicitCancel == 'false') {
+    		return 'Report is running, click to stay on the page or leave the page';
+    	  } 
+	    }
+	    
+	    function handleUnload() {	
+	        if (reportGenerated == 'false' && explicitCancel == 'false')  {        
+	    		var url = '/xmlpserver/servlet/xdo?_xdo=%2FCustom%2FHuman+Capital+Management%2FReports%2FHuman+Resources%2FOrganization+Hierarchy+Report%2FReport%2FOrganization+Hierarchy+Report.xdo&fromLoadingPage=true&_id=f9850b67-baed-4989-8e69-e58870884609&_dFlag=false&_cancel=true';
+	    		var req = new Ajax({async:false});
+	    	    req.doPost(url, "", "");	    		
+	    	} 
+	    }	
+	    function setDiagnosticsParams()
+	    {
+	    	var parentDoc = window.parent.document;                       
+            if (parentDoc.getElementById("_dFlag").value == 'true')
+            {
+            	parentDoc.getElementById("_rToken").value = "f9850b67-baed-4989-8e69-e58870884609";
+            	parentDoc.getElementById("_ranDiag").value = 'true';
+            	parentDoc.getElementById("_dFlag").value = 'false';
+            }
+	    }
+	</script>
+  </head>
+
+  <body onunload="return handleUnload();" onbeforeunload="if (reportGenerated == 'false') {return handleBeforeUnload();}">
+  
+    <form id="fid">
+  
+	<div id="xdoLoading" style="width: 80%; display: block; position: absolute;">
+	  
+    <table width="100%" id="loadingTable" border="0" cellspacing="0" cellpadding="100" summary="Loading...">
+	    <tbody><tr align="center" valign="middle"><td align="center">
+			<span id="message">
+				<div>
+				    <span class="fieldText" id="loadSpan">Loading</span>
+				    <br>
+			    	<img alt="Loading..." src="/xmlpserver/theme/alta/images/clock_positive.gif" border="0">
+			    	<div id="processDiv" style="display: none;">			
+				    <span class="prompt">Processing...... To cancel, click</span>
+				    <a class="datalink" onclick="explicitCancel='true'; enableApplyRefresh();" href="/xmlpserver/servlet/xdo?_xdo=%2FCustom%2FHuman+Capital+Management%2FReports%2FHuman+Resources%2FOrganization+Hierarchy+Report%2FReport%2FOrganization+Hierarchy+Report.xdo&amp;fromLoadingPage=true&amp;_id=f9850b67-baed-4989-8e69-e58870884609&amp;_dFlag=false&amp;_cancel=true">
+				    	here
+				    </a>
+				    <!-- div class='prompt' id="stageCounter"-->										
+				    </div>
+				    </div>
+				
+				
+			</span>
+	    </td></tr>
+    </tbody></table>
+           
+	</div>
+	
+	<input name="fromLoadingPage" id="fromLoadingPage" type="hidden" value="true">
+    <input name="finalRequest" id="finalRequest" type="hidden" value=""> 
+  
+  </form>  
+		
+  
+
+</body></html>
