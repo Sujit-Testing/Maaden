@@ -1,0 +1,7 @@
+63980,0,HCM_GenerateMissingLineManagersReport_0062,8/20/2020 15:39:52 PM,0,Failed,8/20/2020 15:38:46 PM,basic.step,Global HR(Admn),,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,63389,Failed,"Cannot get a connection from helper after 60 seconds.",basic.init,
+"Launch Browser: Firefox 56.0 (x86 en-US)",,0,Passed,"",basic.step,
+"Close Browser",,2001,Passed,"",basic.step,
+"Finish Total (sec)",,201,Failed,"",basic.finish,
+"Failed to playback",,165,Failed,"Failed to playback: No browser launched.",ft.action,

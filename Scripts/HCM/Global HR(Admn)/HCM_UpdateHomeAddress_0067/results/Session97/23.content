@@ -1,0 +1,57 @@
+<head>
+    <title>Oracle Social Network</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge; chrome=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="cache-control" content="no-cache, no-store">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+
+
+<!--[if IE]>
+<script type="text/javascript">
+document.namespaces.add('v', 'urn:schemas-microsoft-com:vml', "#default#VML");
+</script>
+<![endif]-->
+
+
+
+          <meta name="apple-itunes-app" content="app-id=525917043">
+          <link rel="manifest" href="/osn/web/manifest.json">
+      
+    <link rel="icon" href="/osn/web/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/osn/web/osnc/libs/jquery-ui.css">
+    <link rel="stylesheet" href="/osn/web/osnc/cList-2f9b3a860da58783b1355d27e43fbe38488b54ac.cache.css">
+    
+  </head>
+  <body>
+    <div id="content-wrapper">
+        <div id="app-banner"></div>
+        <div id="osn-masthead" role="banner"></div>
+        <div id="osn-header" role="region">
+          <div id="osn-nav"></div>
+        </div>
+        <div id="osn-main">
+            <div id="osn-nav-menu" role="navigation">
+                <div id="osn-nav-helper" class="offscreen">
+                </div>
+            </div>
+            <div id="osn-view" role="main">
+                <div id="osn-view-header"></div>
+                <div id="osn-view-options" role="toolbar"></div>
+                <div id="osn-view-main" tabindex="-1">
+                  <img id="osn-start-spinner" src="data:image/gif;base64,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">
+                </div>
+                <div id="osn-error" style="display:none;"></div>
+            </div>
+        </div>
+        <span id="osn-alert" role="alert" class="offscreen"></span>
+        <span id="osn-status" role="status" class="offscreen"></span>
+        <div style="display:none;" id="_fcURL">/osn/fc</div>
+        <div style="display:none;" id="_rid">fc12f65d8c69665a9800409d07599dca</div>
+        <div style="display:none;" id="_APIVersion">7083</div>
+    </div>
+
+
+    <script src="/osn/web/osnc/cList-libs-2f9b3a860da58783b1355d27e43fbe38488b54ac.cache.js"></script></body>

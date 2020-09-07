@@ -1,7 +1,0 @@
-4165,1,HCM_EMP_SelfService_Employee_LogIn,7/01/2020 14:41:45 PM,0,Failed,7/01/2020 14:41:41 PM,basic.step,HCM Employee Self Service,,,,
-"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
-"Initialize Total (sec)",,3148,Passed,"",basic.init,
-"Launch Browser: InternetExplorer 11.900.18362.0",,2395,Passed,"",basic.step,
-"Iteration Total (sec)",,325,Failed,"",basic.iteration,
-"Unexpected Failure",,0,Failed,"basic Caused by: ERR_DATABANK_ALIAS_NOT_FOUND No Databank found with alias HCM_Search_ManagePosition_ByName_EmployeeCode_003",basic.step,
-"Finish Total (sec)",,78,Failed,"Variable ""obj.HCM_Search_ManagePosition_ByName_EmployeeCode_003.web_window"" not found for string: {{obj.HCM_Search_ManagePosition_ByName_EmployeeCode_003.web_window}}",basic.finish,

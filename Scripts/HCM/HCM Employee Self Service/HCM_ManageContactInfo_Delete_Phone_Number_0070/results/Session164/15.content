@@ -1,0 +1,180 @@
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE">
+<title id="pageTitle"> Sign In</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" id="loginTemplateArabicCSS" href="/fusion_apps/global/v3/loginTemplate_rtl.css" disabled="">
+<link rel="stylesheet" type="text/css" id="loginTemplateCSS" href="/fusion_apps/global/v3/loginTemplate.css">
+<!-- Start Disable frame hijacking Script-->
+
+
+
+  
+  <script type="text/javascript">
+
+      if (self === top) {
+         var antiClickjack = document.getElementById("antiClickjack");
+         antiClickjack.parentNode.removeChild(antiClickjack);
+      } else {
+          top.location = self.location;
+      }
+ </script>
+
+
+
+
+<!-- End Disable frame hijacking Script-->  
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script language="javascript" type="text/javascript">
+<!-- 
+var currentPageLang = 'en-us';
+
+var isError;
+
+// -->
+</script>
+<script language="javascript" type="text/javascript" src="/fusion_apps/global/v3/config.js"></script>
+<script language="javascript" type="text/javascript" src="/fusion_apps/global/v3/messages.js"></script>
+<script language="javascript" type="text/javascript" src="/fusion_apps/global/v3/loginJS.js"></script>
+<script language="javascript" type="text/javascript">
+
+function submitCreds(e) {
+
+   var keyPressed;
+   if(window.event)
+      keyPressed = window.event.keyCode;	// IE
+   else
+     keyPressed = e.which;	// Firefox
+   if (keyPressed == 13)
+      onClickSubmit('local');
+   else
+      return true;
+}
+
+function submitform()
+{
+	 document.loginForm.action = "/fusion_apps/pages/dedicated_fedsso.jsp"; 
+	 document.loginForm.submit();
+	 document.loginForm.action ="/oam/server/auth_cred_submit";
+	 //document.loginForm.action ="/fusion_apps/pages/Header.jsp";
+}
+
+function onClickSubmit(button)
+{
+        if (button === "local"){
+            document.loginForm.buttonAction.value = "local";
+            document.loginForm.submit();
+        }
+        else if (button === "fedSSO"){
+            document.loginForm.userid.value = "";
+            document.loginForm.password.value = "";
+            document.loginForm.buttonAction.value = "fedSSO";
+            document.loginForm.submit();
+        }
+        else{
+            document.loginForm.submit();
+        }
+
+
+}
+
+
+function callLanguageChange() {
+  console.log("Going to call language change servlet");
+  var http = new XMLHttpRequest();
+  var url = "/fusion_apps/localeChange";
+  var selectedIndx = document.loginForm.Languages.selectedIndex;
+  var selectedOption = document.loginForm.Languages.options[selectedIndx];
+  var selectedLang = document.loginForm.Languages.options[selectedIndx].value;
+  var myreq = new Ajax();
+  myreq.url=  url+"?Languages="+selectedLang+"&p_error_code="+'null';
+  myreq.success = successCallback;
+  myreq.args = null;
+  myreq.sendToServer();
+}
+
+
+</script>
+
+</head>
+<body onload="setFocusOnElement('userid');javascript:onBodyLoad();">
+
+<!-- start Branding Area -->
+<div class="container">
+        <div class="brandContainer">
+                <div class="imageContainer">
+                        <img alt="ORACLE CLOUD" src="/fusion_apps/global/images/mcs_login_324.png" width="325" height="325">
+                </div>
+                <div class="branding">
+                        <div class="head1" id="loginTitle">Sign In</div>
+                        <div class="head2">ORACLE APPLICATIONS CLOUD</div>
+                </div>
+     </div>
+</div>
+<div class="stripe"></div>
+<!-- end Branding Area -->
+<!-- start footer -->
+    
+<div class="psLoginCopyrightFooter">
+<div class="foot">
+<div class="Ologo">
+<img alt="ORACLE \C2\AE" src="/fusion_apps/global/images/OracleLogo.png" width="139" height="42"></div>
+</div>
+<div class="copyright" id="copyright">Copyright(C) 2011, 2016, Oracle and/or its affiliates. All rights reserved.</div>
+</div>
+
+
+<p></p>
+
+<!-- end footer -->
+
+<div class="message-row">
+   <noscript><p class="loginFailed">JavaScript is required. Enable JavaScript to use WebLogic Administration Console.</p></noscript>
+</div>
+
+<div class="contentContainer">
+
+ <form name="loginForm" class="signin_form" id="Login" action="/oam/server/auth_cred_submit" method="post">
+
+  <div class="sso-container">
+	<button class="ssoBtnActive" type="button" id="ssoBtn" onclick="onClickSubmit('fedSSO');">Company Single Sign-On</button>\E2\80\83<br>
+   <h3 class="horizontal-divider"><span id="orText">or</span></h3>  
+  </div>
+<div class="chooserFormContainer">
+<!------------ DO NOT REMOVE ------------->
+<!----- loginform renderBrowserView ----->
+<!-- Required for SmartView Integration -->
+<div class="error" id="error"></div>
+<label name="useridLabel" id="useridLabel" style="display:none;">User ID</label>
+
+<input name="userid" id="userid" class="textInput" type="text" placeholder="User ID" autocomplete="off" onkeypress="return submitCreds(event)" maxlength="200" style="background: rgb(255, 0, 102);">
+<br>
+<label name="passwordLabel" id="passwordLabel" style="display:none;">Password</label>
+ <input name="password" id="password" class="textInput" type="password" placeholder="Password" autocomplete="off" onkeypress="return submitCreds(event)" maxlength="200" style="background: rgb(255, 0, 102);"><br>
+<div class="inputContainer">
+ 
+        <a href="https://ejop-test.fa.em2.oraclecloud.com:443/hcmCore/faces/ForgotPassword?backUrl=https%3A%2F%2Fejop-test.fa.em2.oraclecloud.com%2FfscmUI%2FadfAuthentication%3F_adf.authenticate%3Dtrue%26_afrLoop%3D5073938597848695" class="forgotLink" id="forgotLink">Forgot Password</a>
+        
+<input type="hidden" name="request_id" value="&amp;#45;7206838642050527112">
+
+<input type="hidden" name="oam_mt" value="null">
+<input type="hidden" name="ovm" value="null">
+<input type="hidden" name="cloud" id="cloud" value="null">
+<input type="hidden" name="buttonAction" value="local">
+<button class="btnActiveChooser signinWidth" type="button" id="btnActive" onclick="onClickSubmit('local');" style="background: rgb(255, 0, 102);">Sign In </button>
+
+<select name="Languages" class="defaultHidden" style="margin-top: 25px; width: 275px; visibility: visible;" id="Languages" onchange="callLanguageChange();" aria-label="Preferred Language">
+<option value=""> Select Language </option>
+<option value="ar-ae">Arabic - \D8\A7\D9\84\D8\B9\D8\B1\D8\A8\D9\8A\D8\A9 </option><option value="cs-cz">Czech - \C4\8De\C5\A1tina </option><option value="da-dk">Danish - dansk </option><option value="de-de">German - Deutsch </option><option value="el-gr">Greek - \CE\95\CE\BB\CE\BB\CE\B7\CE\BD\CE\B9\CE\BA\CE\AC </option><option value="en-us">English </option><option value="es-es">Spanish - espa\C3\B1ol </option><option value="et-ee">Estonian - eesti</option><option value="fi-fi">Finnish - suomi </option><option value="fr-ca">Canadian French - fran\C3\A7ais canadien</option><option value="fr-fr">French - fran\C3\A7ais </option><option value="he-il">Hebrew - \D7\A2\D7\91\D7\A8\D7\99\D7\AA </option><option value="hu-hu">Hungarian - magyar </option><option value="it-it">Italian - italiano </option><option value="ja-jp">Japanese - \E6\97\A5\E6\9C\AC\E8\AA\9E</option><option value="ko-kr">Korean - \ED\95\9C\EA\B5\AD\EC\96\B4</option><option value="lt-lt">Lithuanian - lietuvi\C5\B3</option><option value="lv-lv">Latvian - latvie\C5\A1u</option><option value="nl-nl">Dutch - Nederlands </option><option value="no-no">Norwegian - norsk </option><option value="pl-pl">Polish - polski </option><option value="pt-br">Brazilian Portuguese - portugu\C3\AAs do Brasil</option><option value="pt-pt">European Portuguese - portugu\C3\AAs europeu</option><option value="ro-ro">Romanian - rom\C3\A2n\C4\83 </option><option value="ru-ru">Russian - p\D1\83\D1\81\D1\81\D0\BA\D0\B8\D0\B9 </option><option value="sk-sk">Slovak - sloven\C4\8Dina </option><option value="sv-se">Swedish - svenska </option><option value="th-th">Thai - \E0\B9\84\E0\B8\97\E0\B8\A2 </option><option value="tr-tr">Turkish - T\C3\BCrk\C3\A7e </option><option value="zh-cn">Simplified Chinese - \E7\AE\80\E4\BD\93\E4\B8\AD\E6\96\87 </option><option value="zh-tw">Traditional Chinese - \E7\B9\81\E9\AB\94\E4\B8\AD\E6\96\87 </option></select>
+</div>
+<br>
+
+</div></form>
+</div>
+<script language="javascript" type="text/javascript">
+<!-- 
+setCustomHeaderFooter();
+// -->
+</script>
+
+ 
+</body>
