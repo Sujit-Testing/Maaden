@@ -1,0 +1,6 @@
+9385,1,HCM_ContactInfoPage_Titlealidation_0096,10/12/2020 19:47:18 PM,0,Failed,10/12/2020 19:47:08 PM,basic.step,HCM Employee Self Service,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,8002,Passed,"",basic.init,
+"Launch Browser: Chrome 85.0.4183.121",,7442,Passed,"",basic.step,
+"Iteration Total (sec)",,873,Failed,"Variable ""obj.HCM_ContactInfoPage_Titlealidation_0096.web_window"" not found for string: {{obj.HCM_ContactInfoPage_Titlealidation_0096.web_window}}",basic.iteration,
+"Finish Total (sec)",,71,Failed,"Variable ""obj.HCM_ContactInfoPage_Titlealidation_0096.web_window"" not found for string: {{obj.HCM_ContactInfoPage_Titlealidation_0096.web_window}}",basic.finish,

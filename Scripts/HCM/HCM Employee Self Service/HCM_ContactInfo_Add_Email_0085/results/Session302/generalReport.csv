@@ -1,0 +1,6 @@
+6950,1,HCM_ContactInfo_Add_Email_0085,10/11/2020 16:02:27 PM,0,Failed,10/11/2020 16:02:21 PM,basic.step,HCM Employee Self Service,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,5580,Passed,"",basic.init,
+"Launch Browser: Chrome 85.0.4183.121",,4972,Passed,"",basic.step,
+"Iteration Total (sec)",,815,Failed,"Invalid column: Country",basic.iteration,
+"Finish Total (sec)",,70,Passed,"",basic.finish,

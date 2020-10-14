@@ -16,14 +16,20 @@ public class script extends IteratingVUserScript {
 	@ScriptService oracle.oats.scripting.modules.adf.api.ADFService adf;
 	
 	public void initialize() throws Exception {
-		browser.launch();
+		
 	}
 		
 	/**
 	 * Add code to be executed each iteration for this virtual user.
 	 */
 	public void run() throws Exception {
-		
+		String s = "Sujit is a good man";
+		String a[]=s.split(" ");
+		String s1 = a[1]+a[2];
+		info(s1);
+//		for(int i=0;i<a.length;i++){
+//		info(a[1]);
+//		}
 
 	}
 	

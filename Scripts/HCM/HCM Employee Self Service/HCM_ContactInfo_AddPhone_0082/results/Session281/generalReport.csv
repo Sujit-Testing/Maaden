@@ -1,0 +1,6 @@
+6842,1,HCM_ContactInfo_AddPhone_0082,10/03/2020 15:27:04 PM,0,Failed,10/03/2020 15:26:57 PM,basic.step,HCM Employee Self Service,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,5872,Passed,"",basic.init,
+"Launch Browser: Chrome 85.0.4183.121",,5166,Passed,"",basic.step,
+"Iteration Total (sec)",,179,Failed,"File: C:\OracleATS\OFT\Maaden\Test Data\HCM Employee Self Service\HCM_ContactInfo_AddPhone_0082.xlsx does not exist. Nothing to import",basic.iteration,
+"Finish Total (sec)",,179,Failed,"Variable ""obj.HCM_ContactInfo_AddPhone_0082.web_svg_true_3"" not found for string: {{obj.HCM_ContactInfo_AddPhone_0082.web_svg_true_3}}",basic.finish,

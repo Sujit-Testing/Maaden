@@ -122,9 +122,6 @@ public class script extends IteratingVUserScript {
 		web.element("{{obj.HCM_ManageContactInfo_Add_Address_0074.web_span_We_are_submitting_your_ch_1}}").focus();
 		web.window(360,"{{obj.HCM_ManageContactInfo_Add_Address_0074.web_window}}").capturePage();
 		
-		
-		
-		
 	}
 	public void finish() throws Exception {
 		//SignOut
