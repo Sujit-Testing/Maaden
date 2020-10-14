@@ -97,7 +97,7 @@ public class script extends IteratingVUserScript {
 		web.textBox("{{obj.HCM_CreateNewAddress_Employee_0097.Country}}").click();
 		web.textBox("{{obj.HCM_CreateNewAddress_Employee_0097.Country}}").setText(country);
 		{
-			think(0.502);
+			think(1.502);
 		}
 		web.element("{{obj.HCM_CreateNewAddress_Employee_0097.India}}").click();
 		web.textBox("{{obj.HCM_CreateNewAddress_Employee_0097.Country}}").pressTab();
@@ -113,34 +113,44 @@ public class script extends IteratingVUserScript {
 		
 		web.textBox("{{obj.HCM_CreateNewAddress_Employee_0097.AddressType}}").pressTab();
 		web.textBox("{{obj.HCM_CreateNewAddress_Employee_0097.StartDate}}").setText(startDate);		
-		web.textBox("{{obj.HCM_CreateNewAddress_Employee_0097.StartDate}}").pressTab();		
+		web.textBox("{{obj.HCM_CreateNewAddress_Employee_0097.StartDate}}").pressTab();	
+		{
+			think(0.296);
+		}
 		web.textBox("{{obj.HCM_CreateNewAddress_Employee_0097.Address_Line_1}}").setText(line1);
-		web.textBox("{{obj.HCM_CreateNewAddress_Employee_0097.Address_Line_1}}").pressTab();
+		{
+			think(0.296);
+		}
+		web.textBox("{{obj.HCM_CreateNewAddress_Employee_0097.Address_Line_1}}").pressTab();		
 		web.textBox("{{obj.HCM_CreateNewAddress_Employee_0097.Address_Line_2}}").setText(line2);
+		{
+			think(0.296);
+		}
 		web.textBox("{{obj.HCM_CreateNewAddress_Employee_0097.Address_Line_2}}").pressTab();
 		web.textBox("{{obj.HCM_CreateNewAddress_Employee_0097.City_Town}}").setText(city);
-		web.textBox("{{obj.HCM_CreateNewAddress_Employee_0097.City_Town}}").pressTab();		
+		{
+			think(0.296);
+		}
+		web.textBox("{{obj.HCM_CreateNewAddress_Employee_0097.City_Town}}").pressTab();			
 		web.textBox("{{obj.HCM_CreateNewAddress_Employee_0097.PinCode}}").setText(pinCode);	
+		{
+			think(0.296);
+		}
 		web.textBox("{{obj.HCM_CreateNewAddress_Employee_0097.PinCode}}").pressTab();		
-		web.textBox("{{obj.HCM_CreateNewAddress_Employee_0097.State}}").setText(state);		
-		web.textArea("{{obj.HCM_CreateNewAddress_Employee_0097.Comments}}").setText(comments);
-		
-		web.link("{{obj.HCM_CreateNewAddress_Employee_0097.web_a_Submit}}").click();
-		
-		web.window("{{obj.HCM_CreateNewAddress_Employee_0097.web_window}}").capturePage();
+		web.textBox("{{obj.HCM_CreateNewAddress_Employee_0097.State}}").setText(state);	
+		{
+			think(0.296);
+		}
+		web.textArea("{{obj.HCM_CreateNewAddress_Employee_0097.Comments}}").setText(comments);		
+		web.link("{{obj.HCM_CreateNewAddress_Employee_0097.web_a_Submit}}").click();		
 		{
 			think(8.404);
 		}
-		web.element("{{obj.HCM_CreateNewAddress_Employee_0097.SubmssionConfirmation_MSG}}").focus();
-		{
-			think(0.887);
-		}
-		web.element("{{obj.HCM_CreateNewAddress_Employee_0097.web_html_1_2}}").click();
-		{
-			think(1.629);
-		}
+		web.window("{{obj.HCM_CreateNewAddress_Employee_0097.web_window}}").capturePage();
+
+
 		//Click BacK Button
-		web.element("{{obj.HCM_CreateNewAddress_Employee_0097.BackButton}}").click();
+		web.element("{{obj.HCM_CreateNewAddress_Employee_0097.web_svg_true}}").click();
 		web.window("{{obj.HCM_CreateNewAddress_Employee_0097.web_window}}").waitForPage(null);
 		{
 			think(1.375);
@@ -181,14 +191,13 @@ public class script extends IteratingVUserScript {
 		}
 		web.element("{{obj.HCM_CreateNewAddress_Employee_0097.web_strong__1_1}}").focus();
 		web.window("{{obj.HCM_CreateNewAddress_Employee_0097.web_window}}").capturePage();
-
-		
 		
 	}
 	public void finish() throws Exception {
 		//SignOut
 
-	//web.window(640, "{{obj.HCM_CreateNewAddress_Employee_0097.web_window}}").close();
+		web.window(640, "{{obj.HCM_CreateNewAddress_Employee_0097.web_window}}").close();
+		
 
 		
 
