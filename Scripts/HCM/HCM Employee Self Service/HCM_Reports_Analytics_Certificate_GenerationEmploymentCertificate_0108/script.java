@@ -1,0 +1,136 @@
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.concurrent.TimeUnit;
+
+import oracle.oats.scripting.modules.basic.api.*;
+import oracle.oats.scripting.modules.browser.api.*;
+import oracle.oats.scripting.modules.functionalTest.api.*;
+import oracle.oats.scripting.modules.utilities.api.*;
+import oracle.oats.scripting.modules.utilities.api.sql.*;
+import oracle.oats.scripting.modules.utilities.api.xml.*;
+import oracle.oats.scripting.modules.utilities.api.file.*;
+import oracle.oats.scripting.modules.webdom.api.*;
+
+public class script extends IteratingVUserScript {
+	@ScriptService oracle.oats.scripting.modules.utilities.api.UtilitiesService utilities;
+	@ScriptService oracle.oats.scripting.modules.browser.api.BrowserService browser;
+	@ScriptService oracle.oats.scripting.modules.functionalTest.api.FunctionalTestService ft;
+	@ScriptService oracle.oats.scripting.modules.webdom.api.WebDomService web;
+	@ScriptService oracle.oats.scripting.modules.datatable.api.DataTableService datatable;
+	String url,uid,pwd,employeeNumber,include_Salary= null;
+	
+	public void initialize() throws Exception {
+		browser.launch();
+	}		
+	
+	public void run() throws Exception {
+	
+		datatable.importExcel("C:\\OracleATS\\OFT\\Maaden\\Test Data\\HCM Employee Self Service\\HCM_Reports_Analytics_Certificate_GenerationEmploymentCertificate_0108.xlsx", true);
+		url=(String) datatable.getValue("DataSheet", 0, "URL");
+		uid=(String) datatable.getValue("DataSheet", 0, "UID");
+		pwd=(String) datatable.getValue("DataSheet", 0, "PWD");	
+		employeeNumber=(String) datatable.getValue("DataSheet", 0, "EmployeeNumber");	
+		include_Salary=(String) datatable.getValue("DataSheet", 0, "Include_Salary");	
+				
+		web.window("{{obj.HCM_Reports_Analytics_Certificate_GenerationEmploymentCertificate_0108.web_window}}").maximize();
+		web.window("{{obj.HCM_Reports_Analytics_Certificate_GenerationEmploymentCertificate_0108.web_window}}").navigate(url);
+		web.window("{{obj.HCM_Reports_Analytics_Certificate_GenerationEmploymentCertificate_0108.web_window}}").waitForPage(50, true);
+		web.textBox("{{obj.HCM_Reports_Analytics_Certificate_GenerationEmploymentCertificate_0108.UID}}").setText(uid);
+		web.textBox("{{obj.HCM_Reports_Analytics_Certificate_GenerationEmploymentCertificate_0108.UID}}").pressTab();
+		web.textBox("{{obj.HCM_Reports_Analytics_Certificate_GenerationEmploymentCertificate_0108.Password}}").setPassword(pwd);
+		web.button("{{obj.HCM_Reports_Analytics_Certificate_GenerationEmploymentCertificate_0108.Sign_In}}").click();
+		web.window("{{obj.HCM_Reports_Analytics_Certificate_GenerationEmploymentCertificate_0108.web_window}}").waitForPage(150, true);
+		//Handle WelCome Page
+		web.link("{{obj.HCM_Reports_Analytics_Certificate_GenerationEmploymentCertificate_0108.You have a new home page!}}").focus();
+		{
+			think(1.147);
+		}
+		web.link("{{obj.HCM_Reports_Analytics_Certificate_GenerationEmploymentCertificate_0108.You have a new home page!}}").dblClick();
+		web.window("{{obj.HCM_Reports_Analytics_Certificate_GenerationEmploymentCertificate_0108.web_window}}").waitForPage(150, true);
+		{
+			think(3.147);
+		}
+		//Click on Letters and Certificates tab
+		if(web.link("{{obj.HCM_Reports_Analytics_Certificate_GenerationEmploymentCertificate_0108.Letters and Certificates}}").exists(50, TimeUnit.SECONDS)){
+			web.link("{{obj.HCM_Reports_Analytics_Certificate_GenerationEmploymentCertificate_0108.Letters and Certificates}}").focus();
+			{
+				think(0.147);
+			}
+			
+		web.link("{{obj.HCM_Reports_Analytics_Certificate_GenerationEmploymentCertificate_0108.Letters and Certificates}}").click();
+			{
+			think(1.147);
+			}
+		}
+		//Clik on Embassy Certificate link
+		web.link("{{obj.HCM_Reports_Analytics_Certificate_GenerationEmploymentCertificate_0108.Employment Certificate}}").click();
+		web.window("{{obj.HCM_Reports_Analytics_Certificate_GenerationEmploymentCertificate_0108.web_window_1}}").waitForPage(null);
+		
+		//Click on Employee Number(Provide EMP Nuber Details)		
+		if(web.textBox("{{obj.HCM_Reports_Analytics_Certificate_GenerationEmploymentCertificate_0108.Employee Number}}").exists(30, TimeUnit.SECONDS)){
+		web.element("{{obj.HCM_Reports_Analytics_Certificate_GenerationEmploymentCertificate_0108.Employee Number}}").click();
+		{
+			think(0.136);
+		}
+		web.element("{{obj.HCM_Reports_Analytics_Certificate_GenerationEmploymentCertificate_0108.EmployeeNumber_Search}}").click();
+		{
+			think(2.843);
+		}
+		//Input the EMP number
+		web.textBox("{{obj.HCM_Reports_Analytics_Certificate_GenerationEmploymentCertificate_0108.Input_EmployeeNumber}}").setText(employeeNumber);
+		web.button("{{obj.HCM_Reports_Analytics_Certificate_GenerationEmploymentCertificate_0108.EMP_Search_Button}}").click();
+		{
+			think(2.376);
+		}
+		web.element("{{obj.HCM_Reports_Analytics_Certificate_GenerationEmploymentCertificate_0108.Select_EMP_Search_Result}}").click();
+		{
+			think(0.204);
+		}
+		web.button("{{obj.HCM_Reports_Analytics_Certificate_GenerationEmploymentCertificate_0108.EMP_Search_OK}}").click();
+		}
+		
+		//Provide Include Salary details
+		{
+			think(1.753);
+		}
+
+		web.textBox("{{obj.HCM_Reports_Analytics_Certificate_GenerationEmploymentCertificate_0108.input_text_IncludeSalary}}").setText(include_Salary);
+		{
+			think(1.753);
+		}
+		//Choose on Employment_English tab
+		web.link("{{obj.HCM_Reports_Analytics_Certificate_GenerationEmploymentCertificate_0108.Employment_English}}").click();
+		
+		//Clik Apply
+		web.button("{{obj.HCM_Reports_Analytics_Certificate_GenerationEmploymentCertificate_0108.Apply}}").click();
+		{
+			think(2.819);
+		}
+		info("Certficate screenshot attached below.");
+		web.window("{{obj.HCM_Reports_Analytics_Certificate_GenerationEmploymentCertificate_0108.web_window_1}}").waitForPage(null);
+		web.window("{{obj.HCM_Reports_Analytics_Certificate_GenerationEmploymentCertificate_0108.web_window_1}}").capturePage();		
+		
+		web.link("{{obj.HCM_Reports_Analytics_Certificate_GenerationEmploymentCertificate_0108.Employment_English_Arab}}").click();		
+		web.button("{{obj.HCM_Reports_Analytics_Certificate_GenerationEmploymentCertificate_0108.Apply}}").click();
+		{
+			think(2.676);
+		}
+		web.window("{{obj.HCM_Reports_Analytics_Certificate_GenerationEmploymentCertificate_0108.web_window_1}}").capturePage();	
+		web.link("{{obj.HCM_Reports_Analytics_Certificate_GenerationEmploymentCertificate_0108.Employment_Arabic}}").click();
+		web.button("{{obj.HCM_Reports_Analytics_Certificate_GenerationEmploymentCertificate_0108.Apply}}").click();
+		{
+			think(2.676);
+		}
+		web.window("{{obj.HCM_Reports_Analytics_Certificate_GenerationEmploymentCertificate_0108.web_window_1}}").capturePage();	
+				
+		
+	}
+	public void finish() throws Exception {
+		//SignOut
+		web.element("{{obj.HCM_Reports_Analytics_Certificate_GenerationEmploymentCertificate_0108.web_span_Sign_Out}}").click();
+		web.window("{{obj.HCM_Reports_Analytics_Certificate_GenerationEmploymentCertificate_0108.web_window_1}}").waitForPage(null);
+		//Close both wndows
+		web.window("{{obj.HCM_Reports_Analytics_Certificate_GenerationEmploymentCertificate_0108.web_window_1}}").close();
+		web.window("{{obj.HCM_Reports_Analytics_Certificate_GenerationEmploymentCertificate_0108.web_window}}").close();	
+	}
+}

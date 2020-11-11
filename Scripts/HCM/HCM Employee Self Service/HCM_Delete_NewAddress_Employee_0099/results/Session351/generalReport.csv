@@ -1,0 +1,6 @@
+9941,1,HCM_Delete_NewAddress_Employee_0099,10/18/2020 13:25:06 PM,0,Failed,10/18/2020 13:24:56 PM,basic.step,HCM Employee Self Service,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,7842,Passed,"",basic.init,
+"Launch Browser: Chrome 86.0.4240.75",,7069,Passed,"",basic.step,
+"Iteration Total (sec)",,1189,Failed,"Invalid column: Country",basic.iteration,
+"Finish Total (sec)",,116,Passed,"",basic.finish,

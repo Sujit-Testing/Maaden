@@ -1,0 +1,6 @@
+3154,1,HCM_AddSkills_Qualifications_Previous_Employment_0111,11/03/2020 19:20:03 PM,0,Failed,11/03/2020 19:20:00 PM,basic.step,HCM Employee Self Service,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,1811,Passed,"",basic.init,
+"Launch Browser: Chrome 86.0.4240.111",,1147,Passed,"",basic.step,
+"Iteration Total (sec)",,771,Failed,"Invalid column: EmployerName",basic.iteration,
+"Finish Total (sec)",,94,Passed,"",basic.finish,

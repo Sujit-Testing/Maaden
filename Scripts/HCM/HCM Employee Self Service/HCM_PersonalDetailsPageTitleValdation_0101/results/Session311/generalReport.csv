@@ -1,0 +1,6 @@
+2791,1,HCM_ChangePersonalDetails_Name_0100,10/18/2020 19:30:55 PM,0,Failed,10/18/2020 19:30:53 PM,basic.step,HCM Employee Self Service,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,499,Passed,"",basic.init,
+"Iteration Total (sec)",,1291,Failed,"",basic.iteration,
+"Failed to playback",,42,Failed,"Failed to playback: No browser launched.",ft.action,
+"Finish Total (sec)",,126,Passed,"",basic.finish,

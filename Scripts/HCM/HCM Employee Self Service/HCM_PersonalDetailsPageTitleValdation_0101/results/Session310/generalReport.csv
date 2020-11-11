@@ -1,0 +1,5 @@
+2521,1,HCM_ChangePersonalDetails_Name_0100,10/18/2020 19:20:22 PM,0,Failed,10/18/2020 19:20:20 PM,basic.step,HCM Employee Self Service,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,592,Passed,"",basic.init,
+"Iteration Total (sec)",,1068,Failed,"Invalid column: Name",basic.iteration,
+"Finish Total (sec)",,101,Passed,"",basic.finish,

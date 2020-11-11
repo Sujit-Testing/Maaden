@@ -34,9 +34,20 @@ public class script extends IteratingVUserScript {
 			}
 			break;
 		}
+		//int[] j = new int[10];
+		Object obj[] = new Object[10];
 		
+		obj[0] = "Sujit";
+		obj[1] = 10;
+		for(int i=0;i<obj.length;i++){
+		System.out.println(obj[i]);
+		}
+		String s3 = new String("Sujit");
+		s3.concat("Swain");
+		System.out.println(s3);
+		s3 = s3.concat("Sujit");
+		System.out.println(s3);
 		
-
 	}
 	
 	public void finish() throws Exception {

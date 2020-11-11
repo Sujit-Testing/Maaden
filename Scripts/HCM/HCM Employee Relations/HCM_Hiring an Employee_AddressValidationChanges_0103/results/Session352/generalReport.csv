@@ -1,0 +1,6 @@
+11734,1,HCM_Hiring an Employee_AddressValidationChanges_0103,10/24/2020 18:12:26 PM,0,Failed,10/24/2020 18:12:15 PM,basic.step,HCM Employee Relations,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,9713,Passed,"",basic.init,
+"Launch Browser: Chrome 86.0.4240.111",,8863,Passed,"",basic.step,
+"Iteration Total (sec)",,1154,Failed,"Invalid column: firstName",basic.iteration,
+"Finish Total (sec)",,103,Passed,"",basic.finish,

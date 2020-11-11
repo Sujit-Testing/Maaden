@@ -1,0 +1,6 @@
+9869,1,HCM_Submit_Resignation_0114,11/08/2020 13:36:54 PM,0,Failed,11/08/2020 13:36:44 PM,basic.step,HCM Employee Self Service,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,8397,Passed,"",basic.init,
+"Launch Browser: Chrome 86.0.4240.183",,7783,Passed,"",basic.step,
+"Iteration Total (sec)",,920,Failed,"Variable ""obj.HCM_Delete_Skills_Qualifications_Previous_Employment_0113.web_window"" not found for string: {{obj.HCM_Delete_Skills_Qualifications_Previous_Employment_0113.web_window}}",basic.iteration,
+"Finish Total (sec)",,62,Failed,"Variable ""obj.HCM_Delete_Skills_Qualifications_Previous_Employment_0113.web_window"" not found for string: {{obj.HCM_Delete_Skills_Qualifications_Previous_Employment_0113.web_window}}",basic.finish,

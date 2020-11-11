@@ -1,0 +1,194 @@
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta http-equiv="Content-Language" content="en"><noscript>To use Oracle BIEE, please enable javascript in your browser.</noscript><script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/browserdom.js"></script><script type="text/javascript">try{saw.doFrameBust(0);function sawC2U(s){return "/analytics/saw.dll?__xyz__".replace("__xyz__",s);}function sawP2U(s){return "/analytics/saw.dll/__xyz__".replace("__xyz__",s);}var sawEmptyHtm="/analytics/res/v-oev*jmHfdZA/empty.htm";var obips_fmapId="Pozfjg";var obips_scid="QqVGap6FjsxUw74Trt5A";var g_EnableOTBIBannerName=1;var obips_maxStylesheets=100;var g_LocaleInfo={sDateSeparator:"-",sTimeSeparator:":",sDecimalPoint:".",sThousandsSeparator:",",sAM:"AM",sPM:"PM",b24:false,sDateOrder:"dmy",nFDOW:6,aMonthAbbreviations:["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],aNominitiveMonthNames:["January","February","March","April","May","June","July","August","September","October","November","December"],aDayAbbreviations:["Mon","Tue","Wed","Thu","Fri","Sat","Sun"],aDayNames:["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],nYearPadding:4,nMonthPadding:2,nDayPadding:2,nHourPadding:2,sListSeparator:",",sNegativeNumberTemplate:"-#",sCurrencySymbol:"$"};var obips_seeded_res = [{p:"master/styleproperties.res",v:{exprs:{"activeDataColor":"Dark","dialogHelpPosition":"header","dialogRoundCornerImgsRequired":"false","shuttleButtonSpace":"true","shuttleButtonLabel":"false","shuttleTableCellSpace":"6","shuttleDropdownWidth":"7px","shuttleDropdownHeight":"4px","renderPageTitleAsTab":"false","menubarSeparator":"false","pageShadowBackground":"false","headerRightBorder":"true","headerHelpDropDownImgSrc":"masterDropDownButtonDarkThemeEnabled","headerBrandingGradientImgIsRequired":"false","pageBorderBottomRequired":"false","pageContentOuterDivHeightOffset":"12","tabBarStartCellWidth":"5px","tabBarStartImgRequired":"false","tabBarTabStartImgRequired":"false","tabBarTabEndImgRequired":"false","tabBarBottomBorderBlockerRequired":"true","bihRoundCorner":"false","adminBannerBackground":"false","breadCrumbHeight":"15","accordionRoundCornerImgsRequired":"false","tableSupportsNonOverlappingHorizontalScrollbar":"true"}}}];}catch(e){if (window.console && console.error) console.error('Header script error:' + e.message);}</script><link href="/analytics/res/v-oev*jmHfdZA/s_Alta/master/custom.css" type="text/css" rel="stylesheet"><link href="/analytics/res/v-oev*jmHfdZA/sk_Skyros/b_mozilla_4/htmlglobals.css" type="text/css" rel="stylesheet"><noscript><link href="/analytics/res/v-oev*jmHfdZA/sk_blafp/b_mozilla_4/noscript.css" type="text/css" rel="stylesheet"></noscript>
+      
+      
+
+<link href="/analytics/res/v-oev*jmHfdZA/s_Alta/b_mozilla_4/common.css" type="text/css" rel="stylesheet">
+<link href="/analytics/res/v-oev*jmHfdZA/s_Alta/generated/commonuicomponents_1.css" type="text/css" rel="stylesheet">
+<link href="/analytics/res/v-oev*jmHfdZA/s_Skyros/uicomponents/obips.FloatingWindow/obips.FloatingWindow.css" type="text/css" rel="stylesheet">
+
+
+
+<script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/common.js"></script>
+<script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/common/storage.js"></script>
+<script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/common/obips.ImportMeFirst.js"></script>
+<script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/common/obips.JavaScriptExtensions.js"></script>
+<script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/common/obips.Global.js"></script>
+<script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/common/obips.Observable.js"></script>
+<script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/common/obips.HTMLDOM.js"></script>
+<script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/common/obips.XMLDOM.js"></script>
+<script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/common/obips.XMLHTTP.js"></script>
+<script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/common/obips.ResourceManager.js"></script>
+<script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/common/obips.BrowserEventFramework.js"></script>
+<script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/common/obips.TabStop.js"></script>
+<script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/common/obips.CSS.js"></script>
+<script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/uicomponents/obips.ScrollablePanel/obips.ScrollablePanel.js"></script>
+<script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/uicomponents/obips.FloatingWindow/obips.FloatingWindow.js"></script>
+<script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/uicomponents/obips.ContextMenu/obips.ContextMenu.js"></script>
+<script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/common/ajax.js"></script>
+<script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/common/ondemandload.js"></script>
+<script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/catalog/catalogbase.js"></script>
+<script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/common/sessioninfos.js"></script>
+<script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/common/launcher.js"></script>
+<script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/header.js"></script>
+<script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/home/customlinks.js"></script><script type="text/javascript" src="/analytics/saw.dll/common/saw.header.xml?fmapId=Pozfjg" id="common/saw.header.xml"></script>
+<script>obips.ResourceManager.seedResource({p:"answers/obips.devfeatures.xml",v:{exprs:{"devFeatureDataMashup":false}}});</script>
+<script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/common/dragdropframework.js"></script>
+<script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/uicomponents/obips.Dialog/obips.Dialog.js"></script>
+<script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/uicomponents/common/obips.TextDialog.js"></script>
+<script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/uicomponents/common/obips.MessageDialog.js"></script>
+<script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/uicomponents/common/obips.BusyDialog.js"></script>
+<script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/downloadguard.js"></script>
+
+<script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/catalog/catalogaction.js"></script>
+<script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/catalog/actionhandlerimpl.js"></script>
+<script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/webserviceproxies/catalogmanager.js"></script>
+<script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/answers/answerscommon.js"></script>
+<script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/uicomponents/obips.BreadCrumbs/obips.BreadCrumbs.js"></script><script type="text/javascript" src="/analytics/saw.dll/uicomponents/obips.BreadCrumbs/breadcrumb.xml?fmapId=Pozfjg" id="uicomponents/obips.BreadCrumbs/breadcrumb.xml"></script>
+<script>obips.ResourceManager.seedResource({p:"common/saw.sessioninfos.xml",v:{exprs:{"noLogoffUI":false,"syndicate":"","canAccessDashboards":true,"hdrLinkCatalog":true,"hdrLinkOpen":true,"hdrLinkAdvanced":true,"hdrLinkHelp":true,"hdrLinkHome":true,"hdrLinkGSearch":true,"hdrLinkNew":true,"hdrLinkDashboards":true,"hdrLinkSettings":true,"bipKeepAlive":false,"bipWebUrl":"/xmlpserver","bipExternalRepository":false,"biComposerContext":"/bicomposer","matchCase":"on","tenancyMode":"SingleTenant"}}});</script>
+<script type="text/javascript">var tSessionInfos = saw.getSessionInfos();
+tSessionInfos.hasCreatableItem = true;
+tSessionInfos.setUserInfo("A860E62C442A35A5E050AF0AF064090F", "khanmma@dev1.maaden.com.sa", "Mohammad Mahtab Khan", "/users/khanmma@dev1.maaden.com.sa",
+"khanmma@dev1.maaden.com.sa", "khanmma@dev1.maaden.com.sa", false);
+tSessionInfos.privileges.isAdmin = false;
+tSessionInfos.privileges.canActAs = false;
+tSessionInfos.privileges.personalStorage = true;
+tSessionInfos.privileges.canUseMyAccount = true;
+saw.catalog.buildTypeCategoryInfos([{"id":"system","name":"System File", "notSearchType":true},{"id":"queryitem1","name":"Analysis"},{"id":"customgroup1","name":"Group"},{"id":"calcitem1","name":"Calculated Item"},{"id":"cosavedcolumn1","name":"Column"},{"id":"customskin1","name":"Custom Skin"},{"id":"customstyle1","name":"Custom Style"},{"id":"bipReport","name":"Report"},{"id":"coibot1","name":"Agent"},{"id":"frobject","name":"Financial Reporting"},{"id":"dashboard","name":"Dashboard"},{"id":"bsc","name":"Scorecard"},{"id":"cobriefingbook1","name":"Briefing Book"},{"id":"action","name":"Action"},{"id":"globalfilteritem1","name":"Dashboard Prompt"},{"id":"filteritem1","name":"Filter"},{"id":"kpi1","name":"KPI"},{"id":"scorecardkpiwatchlist1","name":"KPI Watchlist"},{"id":"condition1","name":"Condition"},{"id":".xdm","name":"Data Model"},{"id":".xss","name":"Style Template"},{"id":".xsb","name":"Sub Template"},{"id":"comktgsegment1","name":"Segment"},{"id":"comktgsegmenttree1","name":"Segment Tree"},{"id":"exportFormat","name":"List Format"},{"id":"couserpreferences1","name":"User Preferences"},{"id":"cologconfig1","name":"***kmsgCatalogTypeNameLogConfig: message text not found ***", "notSearchType":true},{"id":"bipMobileApp","name":"Mobile App"},{"id":"saveddataset1","name":"Data Set"},{"id":"patchmetadata1","name":"***kmsgCatalogTypeNameAppliedPatch: message text not found ***", "notSearchType":true}]);
+tSessionInfos.user.prefs.userPrefsMap['enableSection508'] = false;
+tSessionInfos.user.prefs.userPrefsMap['defaultAnalysisMode'] = "answers";
+tSessionInfos.user.prefs.userPrefsMap['subjectAreaSortOrder'] = "";
+saw.customlink.setCustomLinks([{"id":"1","name":"OTBI Help","description":"Oracle Transactional Business Intelligence Subject Area Documentation","icon1":"/analytics/res/v-oev*jmHfdZA/sk_blafp/common/helptopics_lg_qualifier.png","src":"http://www.oracle.com/pls/topic/lookup?ctx=cloud&id=business-intelligence","target":"blank","locations":[{"name":"getstarted"},{"name":"header","insertBefore":"help"}]}]);
+</script>
+
+      
+<link href="/analytics/res/v-oev*jmHfdZA/sk_Alta/b_mozilla_4/home.css" type="text/css" rel="stylesheet">
+      
+
+      
+
+      
+
+      
+
+
+      <style type="text/css">
+         .ContentIFrame
+         {
+            width: 100%;
+            height: 100%;
+            border: none;
+         }
+      </style>
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+<script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/uicomponents/obips.UberBar/obips.UberBar.js"></script>
+      
+
+      
+
+      
+<script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/uicomponents/common/obips.ConfirmDialog.js"></script>
+
+      
+<script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/common/layout.js"></script>
+      
+
+      
+
+      
+<script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/bipublisher/integrator.js"></script>
+      
+
+      
+
+      
+<script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/catalog/catalogmanagerhelper.js"></script>
+
+      
+
+      
+<script type="text/javascript">
+         function NQOnLoadEvent()
+         {
+            //render header
+            obips.ResourceManager.seedResource({p:"common/privileges.xml",v:{exprs:{"canAccessCatalogUI":true,"canAccessCatalogSearchUI":true,"canAccessHomePage":true,"canAccessSimpleSearchField":true,"canAccessAdvancedSearchLink":true,"canAccessOpenMenu":true,"canAccessNewMenu":true,"canAccessHelpMenu":true,"canAccessDashboardsMenu":true,"canAccessFavoritesMenu":true,"canAccessMyAccountLink":true,"canAccessCustomLinks":true,"canAccessAdministrationMenu":false,"canAccessUserRoleAdmin":false,"canAccessModeler":false,"canAccessDataLoader":false,"canManageSessions":false,"canToggleMaintenanceMode":false,"enableClientStorage":true,"enableSessionStorage":true,"enableLocalStorage":true,"enableCloudRepositoryHelp":false,"enableProductTour":false,"enableCloudBieeHome":false,"canReloadMetadata":false,"canLoadDataSet":undefined,"canOpenMetadataDict":false}}});saw.header.alertsNode = "";
+saw.header.renderHeader(null, 'Housing Proof Certificate', '/analytics/saw.dll?xmlpObjectTasks&Action=help', 'BI Publisher',
+{'Oracle BI EE': '/analytics/olh/l_en/toc.htm',
+'Oracle BI Publisher': "/analytics/saw.dll?xmlpObjectTasks" + '&Action=help',
+'Marketing': '/analytics/olh/l_en/marketing/mstoc.html'
+});
+
+            var tPageManager = new obips.bipublisher.Integrator('/xmlpserver', '');
+
+            tPageManager.openModule("open",
+               ".xdo",
+               "/shared/Custom/Human Capital Management/Reports/Human Resources/Housing Proof Certificate/Report/Housing Proof Certificate.xdo",
+               "/Custom/Human Capital Management/Reports/Human Resources/Housing Proof Certificate/Report/Housing Proof Certificate.xdo",
+               undefined,
+               undefined,
+               undefined,
+               undefined,
+               undefined,
+               undefined);
+         };
+
+         window.onload = NQOnLoadEvent;
+         if ("" == 'workspace')
+         {
+            //list of object types that current user can create
+            saw.catalogaction.setCreateList([{"items":[{"name":"Report Job","handlerId":"reportSchedule","newIcon":"/analytics/res/v-oev*jmHfdZA/sk_Alta/catalog/obj_reportjob.png","description":"A Report Job provides a schedule for running and distributing reports to multiple channels."}],"name":"Published Reporting","iconCreate":"/analytics/res/v-oev*jmHfdZA/sk_Alta/catalog/obj_report_b_a.png","iconCreateBackground":"#FFB54D"},{"items":[{"name":"Action","signature":"action","newIcon":"/analytics/res/v-oev*jmHfdZA/sk_Alta/catalog/obj_action.png","description":"An Action is to navigate to related content or invoke external functionality."}],"name":"Actionable Intelligence","iconCreate":"/analytics/res/v-oev*jmHfdZA/sk_Alta/catalog/obj_action_b_a.png","iconCreateBackground":"#8561C8"}]);
+            var tSyndicate = obips.workspace.PublisherSyndicate.createSyndicateObject();
+            tSyndicate.setAlert("" == "true");
+         }
+         if (".xdo" == '.xma')
+               document.title = "Oracle BI Mobile App Designer";
+         else
+               document.title = "Oracle BI Publisher";
+      </script><title>Oracle BI Publisher</title>
+   </head>
+
+   <body class="masterOBIEE HTMLBody"><div class="HeaderContainer"><a id="idSkipContentLink" class="HeaderSkipLink" href="javascript:saw.header.skipToContent()">Skip to content</a><table cellspacing="0" cellpadding="0" border="0" class="masterBrandingArea HeaderTopBar" role="presentation"><tbody><tr><td class="HeaderLogo"><img border="0" src="/analytics/res/v-oev*jmHfdZA/s_Alta/master/oracle_logo.png" alt="Oracle Logo"></td><td class="HeaderBrandingCell" style="min-width: 274px;"><span class="masterBrandingAreaBrandName HeaderBrandName">Transactional Business Intelligence</span></td><td align="right" class="HeaderTopMenuBarCell"><table cellspacing="0" cellpadding="0" border="0" role="presentation" class="HeaderQuickSearch"><tbody><tr id="idHeaderMenubarTR"><td class="HeaderQuickSearchPrompt">Search</td><td><label for="idHeaerQuickSearchObjectType" class="VpatOffscreenLabel">Type</label><select id="idHeaerQuickSearchObjectType" size="1"><option value="all">All</option><option value="action">Action</option><option value="coibot1">Agent</option><option value="queryitem1">Analysis</option><option value="cobriefingbook1">Briefing Book</option><option value="calcitem1">Calculated Item</option><option value="cosavedcolumn1">Column</option><option value="condition1">Condition</option><option value="customskin1">Custom Skin</option><option value="customstyle1">Custom Style</option><option value="dashboard">Dashboard</option><option value="globalfilteritem1">Dashboard Prompt</option><option value=".xdm">Data Model</option><option value="saveddataset1">Data Set</option><option value="filteritem1">Filter</option><option value="frobject">Financial Reporting</option><option value="customgroup1">Group</option><option value="kpi1">KPI</option><option value="scorecardkpiwatchlist1">KPI Watchlist</option><option value="exportFormat">List Format</option><option value="bipMobileApp">Mobile App</option><option value="bipReport">Report</option><option value="bsc">Scorecard</option><option value="comktgsegment1">Segment</option><option value="comktgsegmenttree1">Segment Tree</option><option value=".xss">Style Template</option><option value=".xsb">Sub Template</option><option value="couserpreferences1">User Preferences</option></select></td><td><label for="idHeaerQuickSearchNameInput" class="VpatOffscreenLabel">Name</label><input type="text" id="idHeaerQuickSearchNameInput"></td><td class="HeaderSearchGo" tabindex="0"><img src="/analytics/res/v-oev*jmHfdZA/s_Alta/master/quickquery_ena.png" alt="Search" title="Search"></td><td><div class="HeaderMenubar" style="padding-right: 0px;"><table cellspacing="0" cellpadding="0" border="0" role="presentation"><tbody><tr><td title="Advanced"><span id="advanced" class="masterMenuButton masterMenuButtonGlobal uberBarTextMenuButtonSpan" role="button" aria-label="Advanced" tabindex="0"><span class="HeaderMenuBarText" role="presentation"><span role="presentation">Advanced</span></span></span></td><td title="OTBI Help"><span id="1" class="masterMenuButton masterMenuButtonGlobal uberBarTextMenuButtonSpan" role="button" aria-label="Oracle Transactional Business Intelligence Subject Area Documentation" tabindex="0"><span class="HeaderMenuBarText" role="presentation"><span role="presentation">OTBI Help</span></span></span></td><td title="Help"><span id="help" class="masterMenuButton masterMenuButtonGlobal uberBarTextMenuButtonSpan" aria-haspopup="true" role="button" aria-label="Help drop down menu" tabindex="0"><span class="HeaderMenuBarText" role="presentation"><span role="presentation">Help</span></span><span class="HeaderMenuBarDropdown" role="presentation"><img src="/analytics/res/v-oev*jmHfdZA/s_Alta/master/dropdowndarktheme_ena.png" alt="Dropdown menu" role="presentation"></span></span></td><td title="Sign Out"><span id="logout" class="masterMenuButton masterMenuButtonGlobal uberBarTextMenuButtonSpan" role="button" aria-label="Sign Out" tabindex="0"><span class="HeaderMenuBarText" role="presentation"><span role="presentation">Sign Out</span></span></span></td></tr></tbody></table></div></td></tr></tbody></table></td><td class="HeaderPageStatus"><img src="/analytics/res/v-oev*jmHfdZA/s_Alta/master/connected_dark.png" alt=""></td></tr></tbody></table><div class="HeaderBarSeparator"></div><table cellspacing="0" cellpadding="0" border="0" class="masterGlobalLayer HeaderSecondBar HeaderSecondBarPadding" role="presentation"><tbody><tr><td class="HeaderTitleBarCell"><span class="HeaderTitleBarLeft"></span><span class="masterH1 HeaderTitleBarCaption" id="idHeaderTitleCell" tabindex="0" aria-label="Housing Proof Certificate" role="label">Housing Proof Certificate</span><span class="HeaderTitleBarIcons" style="display: none;"></span><span class="HeaderTitleBarRight"></span></td><td class="HeaderNavBarCell"><div align="right"><table cellspacing="0" cellpadding="0" border="0" role="presentation"><tbody><tr><td class="HeaderAlerts"><span></span></td><td class="HeaderNavMenubarCell"><div class="HeaderMenubar" style="padding-right: 0px;"><table cellspacing="0" cellpadding="0" border="0" role="presentation"><tbody><tr><td title="Home"><span id="home" class="masterMenuButton masterMenuButtonGlobal uberBarTextMenuButtonSpan" role="button" aria-label="Home" tabindex="0"><span class="HeaderMenuBarText HeaderMenuNavBarText" role="presentation"><span role="presentation">Home</span></span></span></td><td><img src="/analytics/res/v-oev*jmHfdZA/s_Alta/master/toolbarseparatordarktheme.png" class="HeaderMenubarSeparator" alt="" role="presentation"></td><td title="Catalog"><span id="catalog" class="masterMenuButton masterMenuButtonGlobal uberBarTextMenuButtonSpan" role="button" aria-label="Catalog" tabindex="0"><span class="HeaderMenuBarText HeaderMenuNavBarText" role="presentation"><span role="presentation">Catalog</span></span></span></td><td><img src="/analytics/res/v-oev*jmHfdZA/s_Alta/master/toolbarseparatordarktheme.png" class="HeaderMenubarSeparator" alt="" role="presentation"></td><td title="Favorites"><span id="favorites" class="masterMenuButton masterMenuButtonGlobal uberBarTextMenuButtonSpan" aria-haspopup="true" role="button" aria-label="Favorites drop down menu" tabindex="0"><span class="HeaderMenuBarText HeaderMenuNavBarText" role="presentation"><span role="presentation">Favorites</span></span><span class="HeaderMenuBarDropdown" role="presentation"><img src="/analytics/res/v-oev*jmHfdZA/s_Alta/master/dropdowndarktheme_ena.png" alt="Dropdown menu" role="presentation"></span></span></td><td><img src="/analytics/res/v-oev*jmHfdZA/s_Alta/master/toolbarseparatordarktheme.png" class="HeaderMenubarSeparator" alt="" role="presentation"></td><td title="Dashboards"><span id="dashboard" class="masterMenuButton masterMenuButtonGlobal uberBarTextMenuButtonSpan" aria-haspopup="true" role="button" aria-label="Dashboard drop down menu" tabindex="0"><span class="HeaderMenuBarText HeaderMenuNavBarText" role="presentation"><span role="presentation">Dashboards</span></span><span class="HeaderMenuBarDropdown" role="presentation"><img src="/analytics/res/v-oev*jmHfdZA/s_Alta/master/dropdowndarktheme_ena.png" alt="Dropdown menu" role="presentation"></span></span></td><td><img src="/analytics/res/v-oev*jmHfdZA/s_Alta/master/toolbarseparatordarktheme.png" class="HeaderMenubarSeparator" alt="" role="presentation"></td><td title="New"><span id="new" class="masterMenuButton masterMenuButtonGlobal uberBarTextMenuButtonSpan" aria-haspopup="true" role="button" aria-label="New drop down menu" tabindex="0"><span class="HeaderMenuBarText HeaderMenuNavBarText" role="presentation"><img src="/analytics/res/v-oev*jmHfdZA/sk_Alta/catalog/new_ena.png" alt="" role="presentation"><span role="presentation">New</span></span><span class="HeaderMenuBarDropdown" role="presentation"><img src="/analytics/res/v-oev*jmHfdZA/s_Alta/master/dropdowndarktheme_ena.png" alt="Dropdown menu" role="presentation"></span></span></td><td><img src="/analytics/res/v-oev*jmHfdZA/s_Alta/master/toolbarseparatordarktheme.png" class="HeaderMenubarSeparator" alt="" role="presentation"></td><td title="Open"><span id="open" class="masterMenuButton masterMenuButtonGlobal uberBarTextMenuButtonSpan" aria-haspopup="true" role="button" aria-label="Open drop down menu" tabindex="0"><span class="HeaderMenuBarText HeaderMenuNavBarText" role="presentation"><img src="/analytics/res/v-oev*jmHfdZA/sk_Alta/catalog/folderopen_ena.png" alt="" role="presentation"><span role="presentation">Open</span></span><span class="HeaderMenuBarDropdown" role="presentation"><img src="/analytics/res/v-oev*jmHfdZA/s_Alta/master/dropdowndarktheme_ena.png" alt="Dropdown menu" role="presentation"></span></span></td><td><img src="/analytics/res/v-oev*jmHfdZA/s_Alta/master/toolbarseparatordarktheme.png" class="HeaderMenubarSeparator" alt="" role="presentation"></td><td><span class="uberBarTextMenuButtonSpan HeaderLoggedInAs">Signed In As</span></td><td title="Mohammad Mahtab Khan"><span id="user" class="masterMenuButton masterMenuButtonGlobal uberBarTextMenuButtonSpan HeaderUserName" aria-haspopup="true" role="button" aria-label="Mohammad Mahtab Khan drop down menu" tabindex="0"><span class="HeaderMenuBarText HeaderMenuNavBarText" role="presentation"><span role="presentation">Mohammad Mahtab Khan</span></span><span class="HeaderMenuBarDropdown" role="presentation"><img src="/analytics/res/v-oev*jmHfdZA/s_Alta/master/dropdowndarktheme_ena.png" alt="Dropdown menu" role="presentation"></span></span></td></tr></tbody></table></div></td></tr></tbody></table></div></td><td class="PageOuterBodyTopRightTd"><span class="PageOuterBodyTopRight"></span></td></tr></tbody></table></div>
+      
+<script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/common/componentheader.js"></script><span id="sawruler" style="display:none;visibility:hidden;white-space:nowrap;"></span><div class="masterGlobalLayer ComponentHeader ComponentHeaderNoSecondaryTabbar">
+<table cellspacing="0" cellpadding="0" border="0" class="masterPrimaryLayer ComponentHeaderTable ComponentHeaderTableEmptyUberbar ComponentHeaderTableEmptyTabBar 
+">
+<tbody><tr><td class="ComponentHeaderBackground PageBodyTopRightTd" style="width:22px;"><div style="width:6px;" class="PageBodyTopLeft  PageBodyTopLeftEmptyUberbar "></div></td>
+<script type="text/javascript" src="/analytics/res/v-oev*jmHfdZA/b_mozilla/uicomponents/obips.ToolbarHeader/obips.ToolbarHeader.js"></script><script type="text/javascript" src="/analytics/saw.dll/uicomponents/obips.ToolbarHeader/obips.ToolbarHeader.xml?fmapId=Pozfjg" id="uicomponents/obips.ToolbarHeader/obips.ToolbarHeader.xml"></script>
+
+
+
+<td class="ComponentHeaderBackground ComponentHeaderPageOptions" id="idPageOptionTd" style="width:100%;">
+<div id="idPageOptions" class="  ComponentHeaderToolbarEmptyUberbar "> </div>
+</td><td class="ComponentHeaderBackground PageBodyTopRightTd" style="width:100%;">
+<div style="width:6px;" class="PageBodyTopRight  PageBodyTopRightEmptyUberbar "></div></td><td class="ComponentHeaderBackground PageBodyTopRightTd" style="width:11px;"><div class="HeaderBorderRight  HeaderBorderRightEmptyUberbar "></div></td></tr></tbody></table> 
+<table cellspacing="0" cellpadding="0" border="0" style="table-layout:fixed;width:100%" class="masterPrimaryLayer PrimaryTabTable">
+<tbody><tr>
+<td style="width:4px" class="PrimaryTabbarLeftBorder"></td><td><div id="PageContentOuterDiv" class="masterSecondaryLayer PageContentOuterDiv 
+PageContentBodyDiv" style="height: 645px;">
+<table cellspacing="0" cellpadding="0" border="0" style="width:100%;table-layout:fixed;">
+<tbody><tr>
+<td class="SecondaryTabbarLeftBorder"></td><td style="width:100%">
+      <div id="idPageLayoutBodyDiv" style="height: 645px;">
+         <div id="idContentBody" class="PageContentInnerDiv" style="width: 1474px; height: 643px;"><iframe id="generalObjectEditor1604307658523" src="/xmlpserver/Custom/Human%20Capital%20Management/Reports/Human%20Resources/Housing%20Proof%20Certificate/Report/Housing%20Proof%20Certificate.xdo?_xpf=&amp;_xpt=0&amp;_xmode=2&amp;_xdo=%2FCustom%2FHuman%20Capital%20Management%2FReports%2FHuman%20Resources%2FHousing%20Proof%20Certificate%2FReport%2FHousing%20Proof%20Certificate.xdo" name="generalObjectEditor1604307658523" title="generalObjectEditor1604307658523" class="ContentIFrame" embedsapp="true"></iframe></div>
+      </div>
+      </td>
+<td class="SecondaryTabbarRightBorder"></td></tr>
+</tbody></table>
+<table cellspacing="0" cellpadding="0" style="width:100%;table-layout:fixed;"><tbody><tr><td style="width:6px"><div class="PageBodyBottomLeft"></div></td><td style="width:100%"><div class="PageBodyBottomCenter"></div></td><td style="width:6px"><div class="PageBodyBottomRight"></div></td></tr></tbody></table></div> 
+</td>
+<td class="PageOuterBodyCenterRight"></td></tr>
+</tbody></table>
+<table cellspacing="0" cellpadding="0" style="width:100%;table-layout:fixed;"><tbody><tr><td class="PageOuterBodyTd"><div class="PageOuterBodyBottomLeft"></div></td><td class="PageOuterBodyMiddleTd"><div class="PageOuterBodyBottomCenter"></div></td><td class="PageOuterBodyTd"><div class="PageOuterBodyBottomRight"></div></td></tr></tbody></table></div> 
+   
+
+</body>

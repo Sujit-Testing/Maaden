@@ -1,0 +1,19 @@
+<head>
+<title>Single Sign-Off consent</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="/fusion_apps/global/v3/loginTemplate.css">
+
+<!-- Start Disable frame hijacking Script-->
+
+
+
+  <style id="antiClickjack">body { display: none !important; } </style>
+  <script type="text/javascript">
+
+      if (self === top) {
+         var antiClickjack = document.getElementById("antiClickjack");
+         antiClickjack.parentNode.removeChild(antiClickjack);
+      } else {
+          top.location = self.location;
+      }
+ </script></head>

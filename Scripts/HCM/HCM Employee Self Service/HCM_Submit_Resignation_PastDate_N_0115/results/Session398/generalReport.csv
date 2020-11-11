@@ -1,0 +1,6 @@
+12030,1,HCM_Submit_Resignation_PastDate_N_0115,11/08/2020 18:11:26 PM,0,Failed,11/08/2020 18:11:14 PM,basic.step,HCM Employee Self Service,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,9607,Passed,"",basic.init,
+"Launch Browser: Chrome 86.0.4240.183",,8659,Passed,"",basic.step,
+"Iteration Total (sec)",,1532,Failed,"Variable ""obj.HCM_Submit_Resignation_PastDate_N_0115.web_window"" not found for string: {{obj.HCM_Submit_Resignation_PastDate_N_0115.web_window}}",basic.iteration,
+"Finish Total (sec)",,136,Failed,"Variable ""obj.HCM_Submit_Resignation_PastDate_N_0115.web_window"" not found for string: {{obj.HCM_Submit_Resignation_PastDate_N_0115.web_window}}",basic.finish,

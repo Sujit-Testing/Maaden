@@ -1,0 +1,6 @@
+7534,1,HCM_Delete_NewAddress_Employee_0099,10/18/2020 13:11:19 PM,0,Failed,10/18/2020 13:11:11 PM,basic.step,HCM Employee Self Service,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,5624,Passed,"",basic.init,
+"Launch Browser: Chrome 86.0.4240.75",,4953,Passed,"",basic.step,
+"Iteration Total (sec)",,1140,Failed,"Variable ""obj.HCM_Edit_NewAddress_Employee_0098.web_window"" not found for string: {{obj.HCM_Edit_NewAddress_Employee_0098.web_window}}",basic.iteration,
+"Finish Total (sec)",,113,Passed,"",basic.finish,
