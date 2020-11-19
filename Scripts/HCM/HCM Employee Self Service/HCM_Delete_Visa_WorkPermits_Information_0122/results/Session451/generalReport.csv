@@ -1,0 +1,6 @@
+13134,1,HCM_Delete_Visa_WorkPermits_Information_0122,11/16/2020 18:14:46 PM,0,Failed,11/16/2020 18:14:33 PM,basic.step,HCM Employee Self Service,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,10941,Passed,"",basic.init,
+"Launch Browser: Chrome 86.0.4240.198",,10273,Passed,"",basic.step,
+"Iteration Total (sec)",,1368,Failed,"Variable ""obj.HCM_Delete_Visa_WorkPermits_Information_0122.web_window"" not found for string: {{obj.HCM_Delete_Visa_WorkPermits_Information_0122.web_window}}",basic.iteration,
+"Finish Total (sec)",,144,Failed,"Variable ""obj.HCM_Delete_Visa_WorkPermits_Information_0122.web_window"" not found for string: {{obj.HCM_Delete_Visa_WorkPermits_Information_0122.web_window}}",basic.finish,

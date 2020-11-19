@@ -26,7 +26,7 @@ public class script extends IteratingVUserScript {
 	 * Add code to be executed each iteration for this virtual user.
 	 */
 	public void run() throws Exception {
-		  String abc ="123";
+		  String abc ="123"; 
 		    String XYZ;
 	         DataTableService parDatatable = datatable.getGlobalDatatable(); 
 	         //Store the value in the data table using setValue() method.(1-> Row number, A-> colomn number, abc-> value which need to store)

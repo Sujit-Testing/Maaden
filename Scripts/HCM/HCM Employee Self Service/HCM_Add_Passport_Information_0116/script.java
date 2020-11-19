@@ -82,11 +82,11 @@ public class script extends IteratingVUserScript {
 		
 		web.link("{{obj.HCM_Add_Passport_Information_0116.web_a__FOpt1__FOr1_0__FONSr2_0_}}").click();
 		{
-			think(1.757);
+			think(0.757);
 		}
 		web.element("{{obj.HCM_Add_Passport_Information_0116.web_div_IN}}").click();
 		{
-			think(2.757);
+			think(3.757);
 		}
 		web.link("{{obj.HCM_Add_Passport_Information_0116.PassportType}}").click();
 		{
@@ -154,7 +154,7 @@ public class script extends IteratingVUserScript {
 		}
 		web.link("{{obj.HCM_Add_Passport_Information_0116.Show Detail}}").click();
 		{
-			think(3.22);
+			think(1.22);
 		}
 		web.element("{{obj.HCM_Add_Passport_Information_0116.web_strong__1}}").dblClick();	
 				
@@ -165,9 +165,9 @@ public class script extends IteratingVUserScript {
 	}
 	public void finish() throws Exception {
 		//SignOut
-		web.window("{{obj.HCM_Add_Passport_Information_0116.web_window}}").waitForPage(null);
+		//web.window("{{obj.HCM_Add_Passport_Information_0116.web_window}}").waitForPage(null);
 		//Close both wndows
-		//web.window("{{obj.HCM_Add_Passport_Information_0116.web_window}}").close();
+		web.window("{{obj.HCM_Add_Passport_Information_0116.web_window}}").close();
 
 	}
 }
