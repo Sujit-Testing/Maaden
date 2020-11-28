@@ -171,7 +171,7 @@ public class script extends IteratingVUserScript {
 			think(0.247);
 		}
 
-	web.window("{{obj.HCM_ManageContactInfo_Add_Phone_Number_0068.web_window}}").close();
+		web.window("{{obj.HCM_ManageContactInfo_Add_Phone_Number_0068.web_window}}").close();
 	
 	}
 }
