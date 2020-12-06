@@ -81,350 +81,469 @@ public class script extends IteratingVUserScript {
 		}
 		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_div__FOpt1__FOr1_0__FONSr2_0_}}").click();
 		{
-			think(2.482);
+			think(0.482);
 		}
 		
 		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_div__FOpt1__FOr1_0__FONSr2_0_}}").click();
 		{
-			think(2.415);
+			think(0.415);
 		}
 		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_div_Exit_Interview_Questionna}}").click();
 		{
 			think(3.762);
 		}
-		//Select Context Value
-		web.link("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_a__FOpt1__FOr1_0__FONSr2_0__2}}").click();
+		web
+				.textBox(
+						6,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_input_text__FOpt1__FOr1_0__FONSr2_0__13}}")
+				.click();
 		{
-			think(1.983);
+			think(2.779);
 		}
-		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_Exit_Interview_Questionna}}").click();
+		web
+				.element(8,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_Agree_15}}")
+				.click();
 		{
-			think(0.071);
+			think(1.534);
 		}
-		// Provided all of the mandatory details
-		
-		web.link("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_a__FOpt1__FOr1_0__FONSr2_0__3}}").click();
+		web
+				.textBox(
+						9,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_input_text__FOpt1__FOr1_0__FONSr2_0__14}}")
+				.click();
 		{
-			think(0.563);
+			think(1.705);
 		}
-		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_Agree}}").click();
+		web
+				.element(10,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_Agree_16}}")
+				.click();
 		{
-			think(2.163);
+			think(1.493);
 		}
-		web.link("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_a__FOpt1__FOr1_0__FONSr2_0__4}}").click();
+		web
+				.textBox(
+						11,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_input_text__FOpt1__FOr1_0__FONSr2_0__15}}")
+				.click();
 		{
-			think(0.667);
+			think(1.422);
 		}
-		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_Agree_1}}").click();
+		web
+				.element(12,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_Strongly_disagree}}")
+				.click();
 		{
-			think(2.698);
+			think(1.388);
 		}
-		web.link("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_a__FOpt1__FOr1_0__FONSr2_0__5}}").click();
+		web
+				.textBox(
+						13,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_input_text__FOpt1__FOr1_0__FONSr2_0__16}}")
+				.click();
 		{
-			think(0.498);
+			think(3.045);
 		}
-		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_Agree_2}}").click();
+		web
+				.element(14,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_Agree_17}}")
+				.click();
 		{
-			think(2.23);
+			think(3.025);
 		}
-		web.link("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_a__FOpt1__FOr1_0__FONSr2_0__6}}").click();
+		web
+				.textBox(
+						15,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_input_text__FOpt1__FOr1_0__FONSr2_0__16}}")
+				.pressTab();
 		{
-			think(0.634);
+			think(0.061);
 		}
-		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_Agree_3}}").click();
+		web
+				.textBox(
+						16,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_input_text__FOpt1__FOr1_0__FONSr2_0__17}}")
+				.click();
 		{
-			think(2.308);
+			think(0.058);
 		}
-		web.textBox("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_input_text__FOpt1__FOr1_0__FONSr2_0__9}}").pressTab();
+		web
+				.element(17,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_25__6}}")
+				.click();
 		{
-			think(0.761);
+			think(0.84);
 		}
-		web.link("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_a__FOpt1__FOr1_0__FONSr2_0__7}}").click();
+		web
+				.textBox(
+						18,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_input_text__FOpt1__FOr1_0__FONSr2_0__18}}")
+				.click();
 		{
-			think(1.607);
+			think(1.99);
 		}
-		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_td__}}").click();
+		web.element(19,
+				"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_50_}}")
+				.click();
 		{
-			think(2.177);
+			think(1.996);
 		}
-		web.link("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_a__FOpt1__FOr1_0__FONSr2_0__8}}").click();
+		web
+				.textBox(
+						20,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_input_text__FOpt1__FOr1_0__FONSr2_0__19}}")
+				.click();
 		{
-			think(1.846);
+			think(6.914);
 		}
-		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_25_}}").click();
+		web
+				.link(
+						21,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_a__FOpt1__FOr1_0__FONSr2_0__30}}")
+				.click();
 		{
-			think(2.456);
+			think(2.823);
 		}
-		web.link("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_a__FOpt1__FOr1_0__FONSr2_0__9}}").click();
+		web.element(22,
+				"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_td___2}}")
+				.click();
 		{
-			think(1.921);
+			think(2.334);
 		}
-		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_td__}}").click();
+		web
+				.textBox(
+						23,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_input_text__FOpt1__FOr1_0__FONSr2_0__20}}")
+				.click();
 		{
-			think(2.961);
+			think(1.642);
 		}
-		web.link("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_a__FOpt1__FOr1_0__FONSr2_0__10}}").click();
+		web
+				.element(24,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_50__1}}")
+				.click();
 		{
-			think(2.14);
+			think(2.619);
 		}
-		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_25__1}}").click();
+		web
+				.textBox(
+						25,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_input_text__FOpt1__FOr1_0__FONSr2_0__21}}")
+				.click();
 		{
-			think(2.951);
+			think(1.408);
 		}
-		web.link("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_a__FOpt1__FOr1_0__FONSr2_0__11}}").click();
+		web.element(26,
+				"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_75_}}")
+				.click();
 		{
-			think(2.673);
+			think(1.704);
 		}
-		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_25__2}}").click();
+		web
+				.textBox(
+						27,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_input_text__FOpt1__FOr1_0__FONSr2_0__22}}")
+				.click();
 		{
-			think(4.413);
+			think(1.333);
 		}
-		web.link("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_a__FOpt1__FOr1_0__FONSr2_0__12}}").click();
+		web
+				.element(28,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_25__7}}")
+				.click();
 		{
-			think(1.893);
+			think(1.823);
 		}
-		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_25__3}}").click();
+		web
+				.textBox(
+						29,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_input_text__FOpt1__FOr1_0__FONSr2_0__22}}")
+				.pressTab();
 		{
-			think(2.184);
+			think(0.057);
 		}
-		
-		web.textBox("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_input_text__FOpt1__FOr1_0__FONSr2_0__10}}").pressTab();
+		web
+				.textBox(
+						30,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_input_text__FOpt1__FOr1_0__FONSr2_0__23}}")
+				.click();
 		{
-			think(0.234);
+			think(0.053);
 		}
-		
-		web.link("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_a__FOpt1__FOr1_0__FONSr2_0__13}}").click();
+		web
+				.element(31,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_25__8}}")
+				.click();
 		{
-			think(2.321);
+			think(0.107);
 		}
-		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_td___1}}").click();
+		web
+				.textBox(
+						32,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_input_text__FOpt1__FOr1_0__FONSr2_0__24}}")
+				.click();
 		{
-			think(2.4);
+			think(0.165);
 		}
-		
-		//Resume academic studies
-		web.link("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_a__FOpt1__FOr1_0__FONSr2_0__14}}").click();
+		web
+				.element(33,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_50__2}}")
+				.click();
 		{
-			think(2.785);
+			think(1.235);
 		}
-		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_25__4}}").click();
+		web
+				.textBox(
+						34,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_input_text__FOpt1__FOr1_0__FONSr2_0__25}}")
+				.click();
 		{
-			think(3.141);
+			think(2.662);
 		}
-		
-		web.link("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_a__FOpt1__FOr1_0__FONSr2_0__15}}").click();
+		web
+				.link(
+						35,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_a__FOpt1__FOr1_0__FONSr2_0__31}}")
+				.click();
 		{
-			think(3.425);
+			think(2.222);
 		}
-		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_td___1}}").click();
+		web.element(36,
+				"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_td_75_}}")
+				.click();
 		{
-			think(3.24);
+			think(4.347);
 		}
-		
-		web.link("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_a__FOpt1__FOr1_0__FONSr2_0__16}}").click();
+		web
+				.element(37,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_html_1_3}}")
+				.click();
 		{
-			think(2.497);
+			think(4.227);
 		}
-		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_25__5}}").click();
+		web
+				.textBox(
+						38,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_input_text__FOpt1__FOr1_0__FONSr2_0__26}}")
+				.click();
 		{
-			think(3.544);
+			think(8.481);
 		}
-		
-		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_html_1_1}}").click();
+		web
+				.textBox(
+						39,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_input_text__FOpt1__FOr1_0__FONSr2_0__27}}")
+				.click();
 		{
-			think(2.805);
+			think(1.925);
 		}
-		web.link("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_a__FOpt1__FOr1_0__FONSr2_0__17}}").click();
+		web
+				.element(40,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_Agree_18}}")
+				.click();
 		{
-			think(1.601);
+			think(1.512);
 		}
-		
-		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_31_Dec_2021}}").click();
+		web
+				.textBox(
+						41,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_input_text__FOpt1__FOr1_0__FONSr2_0__28}}")
+				.click();
 		{
-			think(2.437);
+			think(1.088);
 		}
-		web.link("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_a__FOpt1__FOr1_0__FONSr2_0__18}}").click();
+		web
+				.element(42,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_Agree_19}}")
+				.click();
 		{
-			think(2.337);
+			think(1.115);
 		}
-		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_Agree_4}}").click();
+		web
+				.textBox(
+						43,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_input_text__FOpt1__FOr1_0__FONSr2_0__29}}")
+				.click();
 		{
-			think(1.98);
+			think(1.05);
 		}
-		web.link("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_a__FOpt1__FOr1_0__FONSr2_0__19}}").click();
+		web
+				.element(44,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_Agree_20}}")
+				.click();
 		{
-			think(1.604);
+			think(3.006);
 		}
-		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_Agree_5}}").click();
+		web
+				.textBox(
+						45,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_input_text__FOpt1__FOr1_0__FONSr2_0__30}}")
+				.click();
 		{
-			think(2.048);
+			think(3.918);
 		}
-		web.link("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_a__FOpt1__FOr1_0__FONSr2_0__20}}").click();
+		web
+				.link(
+						46,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_a__FOpt1__FOr1_0__FONSr2_0__32}}")
+				.click();
 		{
-			think(1.61);
+			think(2.666);
 		}
-		web.element(541,
-						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_Agree_6}}").click();
+		web
+				.element(47,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_td_Agree}}")
+				.click();
 		{
-			think(3.333);
+			think(3.834);
 		}
-		web.link("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_a__FOpt1__FOr1_0__FONSr2_0__21}}").click();
+		web
+				.element(
+						48,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_div_Document_DetailsView_Docu}}")
+				.click();
 		{
-			think(1.73);
+			think(3.486);
 		}
-		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_Agree_7}}").click();
+		web
+				.element(49,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_html_1_3}}")
+				.click();
 		{
-			think(2.214);
+			think(2.081);
 		}
-		web.link("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_a__FOpt1__FOr1_0__FONSr2_0__22}}").click();
+		web
+				.textBox(
+						50,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_input_text__FOpt1__FOr1_0__FONSr2_0__31}}")
+				.click();
 		{
-			think(1.535);
+			think(1.555);
 		}
-		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_Agree_8}}").click();
+		web
+				.element(
+						51,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_Neither_agree_nor_disagre}}")
+				.click();
 		{
-			think(2.661);
+			think(1.184);
 		}
-		web.textBox("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_input_text__FOpt1__FOr1_0__FONSr2_0__11}}").pressTab();
+		web
+				.textBox(
+						52,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_input_text__FOpt1__FOr1_0__FONSr2_0__32}}")
+				.click();
 		{
-			think(0.023);
+			think(1.205);
 		}
-		web.link("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_a__FOpt1__FOr1_0__FONSr2_0__23}}").click();
+		web
+				.element(
+						53,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_Neither_agree_nor_disagre_1}}")
+				.click();
 		{
-			think(2.679);
+			think(1.129);
 		}
-		web.link("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_a__FOpt1__FOr1_0__FONSr2_0__24}}").click();
+		web
+				.textBox(
+						54,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_input_text__FOpt1__FOr1_0__FONSr2_0__33}}")
+				.click();
 		{
-			think(1.728);
+			think(1.075);
 		}
-		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_Agree_9}}").click();
+		web
+				.element(
+						55,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_Neither_agree_nor_disagre_2}}")
+				.click();
 		{
-			think(3.602);
+			think(1.182);
 		}
-		web.link("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_a__FOpt1__FOr1_0__FONSr2_0__23}}").click();
+		web
+				.textBox(
+						56,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_input_text__FOpt1__FOr1_0__FONSr2_0__34}}")
+				.click();
 		{
-			think(1.761);
+			think(0.892);
 		}
-		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_Agree_10}}").click();
+		web
+				.element(
+						57,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_Neither_agree_nor_disagre_3}}")
+				.click();
 		{
-			think(2.984);
+			think(1.215);
 		}
-		web.link("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_a__FOpt1__FOr1_0__FONSr2_0__25}}").click();
+		web
+				.textBox(
+						58,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_input_text__FOpt1__FOr1_0__FONSr2_0__35}}")
+				.click();
 		{
-			think(1.395);
+			think(1.18);
 		}
-		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_Agree_11}}").click();
+		web
+				.element(
+						59,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_Neither_agree_nor_disagre_4}}")
+				.click();
 		{
-			think(2.282);
+			think(1.234);
 		}
-		web.link("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_a__FOpt1__FOr1_0__FONSr2_0__26}}").click();
+		web
+				.textBox(
+						60,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_input_text__FOpt1__FOr1_0__FONSr2_0__36}}")
+				.click();
 		{
-			think(1.56);
+			think(1.08);
 		}
-		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_Agree_12}}").click();
+		web
+				.element(
+						61,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_Neither_agree_nor_disagre_5}}")
+				.click();
 		{
-			think(2.935);
+			think(1.186);
 		}
-		web.link("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_a__FOpt1__FOr1_0__FONSr2_0__27}}").click();
+		web
+				.textBox(
+						62,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_input_text__FOpt1__FOr1_0__FONSr2_0__37}}")
+				.click();
 		{
-			think(1.347);
+			think(1.129);
 		}
-		web.element(557,"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_Agree_13}}").click();
+		web
+				.element(63,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_Agree_21}}")
+				.click();
 		{
-			think(2.11);
+			think(4.367);
 		}
-		web.textBox("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_input_text__FOpt1__FOr1_0__FONSr2_0__12}}").pressTab();
-		{
-			think(0.023);
-		}
-		web.link("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_a__FOpt1__FOr1_0__FONSr2_0__28}}").click();
-		{
-			think(0.864);
-		}
-		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_li_Agree_14}}").click();
-		{
-			think(2.383);
-		}
-		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_html_1_1}}").click();
-		{
-			think(1.631);
-		}
-		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_span_m}}").click();
-		{
-			think(7.001);
-		}
-		//Submit the request for approval, approval message is dsplayed
-		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_span_We_are_submitting_your_ch}}").focus();
-		web.window("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_window}}").capturePage();
-		//Click on < button
-		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_svg_true_2}}").click();
-		web.window("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_window}}").waitForPage(90, true);
-		//Click on document record again
-		web.link("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_a_Document_Records_1}}").focus();
-		web.window("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_window}}").capturePage();
-		web.link("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_a_Document_Records_1}}").click();
-		web.window("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_window}}").waitForPage(90, true);
-		//Approval message  
-		web.link("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_a__FOpt1__FOr1_0__FONSr2_0__29}}").focus();
-		web.window("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_window}}").capturePage();
-		web.link("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_a__FOpt1__FOr1_0__FONSr2_0__29}}").click();
-		
-		{
-			think(9.298);
-		}
-		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_b_100026}}").focus();
-		web.window("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_window}}").capturePage();
-		{
-			think(0.027);
-		}
-		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_span_Exit_Interview_Questionna}}").focus();
-		web.window("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_window}}").capturePage();
-		{
-			think(0.016);
-		}
-//		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_span_Exit_Interview_Questionna}}").click();
-//		{
-//			think(0.048);
-//		}
-		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_html_1_2}}").click();
-		{
-			think(0.39);
-		}
-		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_strong__1}}").focus();
-		info("Approver details screen shot attached below..");
-		web.window("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_window}}").capturePage();
-		{
-			think(0.014);
-		}
-		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_strong__1}}").click();
-		{
-			think(3.547);
-		}
-		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_html_1_2}}").click();
-		
-		web.window("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_window}}").capturePage();
-		{
-			think(2.889);
-		}
-		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_span_Withdraw}}").click();
-
-			
-		
+		web
+				.element(64,
+						"{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_html_1_3}}")
+				.click();
 	}
 	public void finish() throws Exception {
 		//SignOut
 
-		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_svg_true_3}}").click();
-		{
-		think(5.819);
-		}
-		web.link("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_a__FOpt1__UISlg1_1}}").click();		
-		web.window("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_window}}").waitForPage(90, true);
-		{
-			think(5.819);
-		}
-
-		web.window("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_window}}").close();
-		
+//		web.element("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_svg_true_3}}").click();
+//		{
+//		think(5.819);
+//		}
+//		web.link("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_a__FOpt1__UISlg1_1}}").click();		
+//		web.window("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_window}}").waitForPage(90, true);
+//		{
+//			think(5.819);
+//		}
+//
+//		web.window("{{obj.HCM_SubmitExitInterviewQuestionnaire_0128.web_window}}").close();
+//		
 
 	}
 }

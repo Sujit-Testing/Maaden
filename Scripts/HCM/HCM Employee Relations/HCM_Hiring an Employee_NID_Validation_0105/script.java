@@ -10,7 +10,6 @@ import oracle.oats.scripting.modules.utilities.api.sql.*;
 import oracle.oats.scripting.modules.utilities.api.xml.*;
 import oracle.oats.scripting.modules.utilities.api.file.*;
 import oracle.oats.scripting.modules.webdom.api.*;
-import lib.*;
 
 public class script extends IteratingVUserScript {
 	@ScriptService oracle.oats.scripting.modules.utilities.api.UtilitiesService utilities;
@@ -21,7 +20,7 @@ public class script extends IteratingVUserScript {
 	String url,uid,pwd,date,firstName,familyName,fatherName,grandFatherName,comments,hireDate,legalEmployer_SerchInput,legislationCode,
 	dateOfBirth,countryName,addressLine_1,addressLine_2,pOBox,city,postalCode,businessUnit_Input,peopleGroup,nID_Country_Input,national_ID= null;
 	String title =  "Contact Info - - Oracle Applications";
-	@FunctionLibrary("HCM_SequenceChecklist_Tasks_0093") lib.myCompany.myTeam.HCM_SequenceChecklist_Tasks_0093 hCM_SequenceChecklist_Tasks_0093;
+	//@FunctionLibrary("HCM_SequenceChecklist_Tasks_0093") lib.myCompany.myTeam.HCM_SequenceChecklist_Tasks_0093 hCM_SequenceChecklist_Tasks_0093;
 		
 	public void initialize() throws Exception {
 		browser.launch();
@@ -193,7 +192,7 @@ public class script extends IteratingVUserScript {
 			think(1.98);
 		}
 		
-		
+		//Add National Identifiers
 		web.image("{{obj.HCM_Hiring an Employee_NID_Validation_0105.Add_NID}}").click();
 		{
 			think(0.869);
