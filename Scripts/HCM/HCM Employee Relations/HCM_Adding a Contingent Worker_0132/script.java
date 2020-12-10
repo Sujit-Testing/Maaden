@@ -3,6 +3,7 @@ import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 import oracle.oats.scripting.modules.basic.api.*;
+import oracle.oats.scripting.modules.basic.api.exceptions.AbstractScriptException;
 import oracle.oats.scripting.modules.browser.api.*;
 import oracle.oats.scripting.modules.functionalTest.api.*;
 import oracle.oats.scripting.modules.utilities.api.*;
@@ -18,7 +19,7 @@ public class script extends IteratingVUserScript {
 	@ScriptService oracle.oats.scripting.modules.webdom.api.WebDomService web;
 	@ScriptService oracle.oats.scripting.modules.datatable.api.DataTableService datatable;
 	String url,uid,pwd,date,firstName,familyName,middleName,grandFatherName,comments,placementDate,legalEmployer_SerchInput,legislationCode,
-	dateOfBirth,countryName,addressLine_1,addressLine_2,pOBox,city,postalCode,businessUnit_Input,peopleGroup,nID_Country_Input,national_ID,
+	dateOfBirth,countryName,addressLine_1,addressLine_2,pOBox,city,postalCode,employmentStatus,businessUnit_Input,projectedEndDate,peopleGroup,nID_Country_Input,national_ID,
 	countryCode,areaCode,phoneNumber,email= null;
 	
 		
@@ -53,16 +54,18 @@ public class script extends IteratingVUserScript {
 		pOBox=(String) datatable.getValue("DataSheet", 0, "POBox");		
 		city=(String) datatable.getValue("DataSheet", 0, "City");
 		postalCode=(String) datatable.getValue("DataSheet", 0, "PostalCode");
+		employmentStatus = (String) datatable.getValue("DataSheet", 0, "EmploymentStatus");
 		businessUnit_Input = (String) datatable.getValue("DataSheet", 0, "BusinessUnit_Input");
+		projectedEndDate = (String) datatable.getValue("DataSheet", 0, "ProjectedEndDate");
 		peopleGroup = (String) datatable.getValue("DataSheet", 0, "PeopleGroup");
 		countryCode=(String) datatable.getValue("DataSheet", 0, "CountryCode");
 		areaCode = (String) datatable.getValue("DataSheet", 0, "AreaCode");
 		phoneNumber = (String) datatable.getValue("DataSheet", 0, "PhoneNumber");
 		email = (String) datatable.getValue("DataSheet", 0, "Email");
 		
-		
-		web.window("{{obj.HCM_Adding a Contingent Worker_0132.web_window}}").maximize();
 		web.window("{{obj.HCM_Adding a Contingent Worker_0132.web_window}}").navigate(url);
+		web.window("{{obj.HCM_Adding a Contingent Worker_0132.web_window}}").maximize();
+		//web.window("{{obj.HCM_Adding a Contingent Worker_0132.web_window}}").navigate(url);
 		web.window("{{obj.HCM_Adding a Contingent Worker_0132.web_window}}").waitForPage(50, true);
 		web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.UID}}").setText(uid);
 		web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.UID}}").pressTab();
@@ -152,7 +155,7 @@ public class script extends IteratingVUserScript {
 			think(1.681);
 		}
 		web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.First Name}}").click();
-		web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.First Name}}").setText(firstName);
+		web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.First Name}}").setText(firstName); 
 		web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.First Name}}").pressTab();
 		
 		web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.FamilyName}}").click();
@@ -166,76 +169,251 @@ public class script extends IteratingVUserScript {
 //		{
 //			think(0.838);
 //		}
+		web.element("{{obj.HCM_Adding a Contingent Worker_0132.Male}}").click();
 		web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.Gender}}").click();
 		web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.Gender}}").setText(dateOfBirth);
 		{
-			think(1.389);
+			think(3.389);
 		}
-		web.element("{{obj.HCM_Adding a Contingent Worker_0132.Male}}").click();
+		
 		
 		
 		
 		//Provide 	NID Details		
 		
-		
-		web.image("{{obj.HCM_Adding a Contingent Worker_0132.NID_Add}}").click();
-		{
-			think(1.684);
-		}
-		//Search Country
-//		web.link("{{obj.HCM_Adding a Contingent Worker_0132.NID_Country_DropDown}}").click();
-//		{
-//			think(0.079);
-//		}
-//		web.link("{{obj.HCM_Adding a Contingent Worker_0132.NID_Country_Search}}").click();
-//		{
-//			think(1.614);
-//		}
-//		web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.NID_Country_Input}}").click();
-//		web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.NID_Country_Input}}").setText(nID_Country_Input);
-//		{
-//			think(0.167);
-//		}
-//		web.button("{{obj.HCM_Adding a Contingent Worker_0132.NID_Country_Input_Search}}").click();
-//		{
-//			think(1.0);
-//		}
-//		web.element("{{obj.HCM_Adding a Contingent Worker_0132.Select_Country}}").click();
-//		{
-//			think(0.214);
-//		}
-//		web.button("{{obj.HCM_Adding a Contingent Worker_0132.NID_Country_PopUp_OK}}").click();
-		{
-			think(2.532);
-		}
-		web.link("{{obj.HCM_Adding a Contingent Worker_0132.NID_Type_DropDown}}").click();
-		{
-			think(3.427);
-		}
-		web.element("{{obj.HCM_Adding a Contingent Worker_0132.Select_Civil_Identity_Number}}").click();
-		{
-			think(3.033);
-		}
-		web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.NID_Number}}").click();		
-		web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.NID_Number}}").setText(national_ID);
-		{
-			think(1.049);
-		}
+		//Validate NID Details
+		NID(national_ID);
 	
+		
 		//Click Next
 
 		web.link("{{obj.HCM_Adding a Contingent Worker_0132.Next_Button}}").click();
-		web.button("{{obj.HCM_Adding a Contingent Worker_0132.web_button__FOpt1__FOr1_0__FONSr2_0_}}").click();
+		if(web.button("{{obj.HCM_Adding a Contingent Worker_0132.web_button__FOpt1__FOr1_0__FONSr2_0_}}").exists(30, TimeUnit.SECONDS))
+		{
+			web.button("{{obj.HCM_Adding a Contingent Worker_0132.web_button__FOpt1__FOr1_0__FONSr2_0_}}").click();
+		}
+		{
+			think(1.049);
+		}
+		
+		// Provide Home Address
+		
+		web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.HomeAddress_Country}}").click();
+		web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.HomeAddress_Country}}").setText(countryName);
+		{
+			think(2.098);
+		}		
+		web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.HomeAddress_Line1}}").click();
+		web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.HomeAddress_Line1}}").setText(addressLine_1);
+		web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.HomeAddress_Line2}}").click();
+		web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.HomeAddress_Line2}}").setText(addressLine_2);
+		web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.HomeAddress_POBox}}").click();
+		web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.HomeAddress_POBox}}").setText(pOBox);
+		web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.HomeAddress_City}}").click();
+		web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.HomeAddress_City}}").setText(city);
+		web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.HomeAddress_PostalCode}}").click();
+		web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.HomeAddress_PostalCode}}").setText(postalCode);
+		{
+			think(1.049);
+		}
+		
+		//Click Next
+
+		next();
+		
+		//Work Relationship Details
+		
+		web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.Hijri Hire Date}}").setText("10-10-2009");
+		{
+			think(1.235);
+		}
+		web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.Notice Perod Recovery}}").click();
+		{
+			think(1.301);
+		}
+		web.element("{{obj.HCM_Adding a Contingent Worker_0132.Select Notice Period Recovery}}").click();
+
+		//Provide Contract Details
+		contractDetails(employmentStatus);
+		
+		//Provide Assignment details
+		assignmentDetails(businessUnit_Input,projectedEndDate);
+		
+		//Provide Job details
+		job(peopleGroup);
+		
+		//Next
+		next();
+		//Next
+		next();
+		//Submit 
+		web.element("{{obj.HCM_Adding a Contingent Worker_0132.Submit}}").click();
+		{
+			think(4.097);
+		}
+		web.button("{{obj.HCM_Adding a Contingent Worker_0132.WarningDialog_Yes}}").click();
+		{
+			think(11.961);
+		}
+		web.element("{{obj.HCM_Adding a Contingent Worker_0132.Confirmation_OK}}").click();
 		
 		
+		//Validation of Contingent Worker creation
+		validation(firstName,familyName, national_ID);
 		
 	
+	}
+	public void contractDetails(String employmentStatus) throws Exception
+	{
+		web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.Contract_Type}}").click();
+		{
+			think(1.391);
+		}
+		web.element("{{obj.HCM_Adding a Contingent Worker_0132.web_li_Specified_contract}}").click();
+		{
+			think(2.562);
+		}
+		web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.EmploymentStatus}}").setText(employmentStatus);
+	}
+	public void assignmentDetails(String businessUnit_Input, String projectedEndDate)throws Exception{
+		web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.Business Unit}}").click();
+		web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.Business Unit}}").setText(businessUnit_Input);
+		web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.Business Unit}}").pressTab();
+		{
+			think(1.899);
+		}
+		web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.Person Type}}").click();
+		{
+			think(1.829);
+		}
+		web.element("{{obj.HCM_Adding a Contingent Worker_0132.web_li_Contingent_Worker}}").click();
+		{
+			think(1.3);
+		}
+		web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.Assignment Status}}").click();
+		{
+			think(1.41);
+		}
+		web.element("{{obj.HCM_Adding a Contingent Worker_0132.web_li_Active___Payroll_Eligible}}").click();
+		{
+			think(1.767);
+		}
+		web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.Projected End Date}}").click();
+		web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.Projected End Date}}").setText(projectedEndDate);		
 		
 	}
-	
+	public void job(String peopleGroup){
+		try {
+			web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.PeopleGroup}}").click();
+			web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.PeopleGroup}}").setText(peopleGroup);
+		} catch (AbstractScriptException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}		
+	}
+	public void next(){
+		try {
+			web.link("{{obj.HCM_Adding a Contingent Worker_0132.Next_Button}}").click();
+			{
+				think(4.049);
+			}
+			if(web.button("{{obj.HCM_Adding a Contingent Worker_0132.web_button__FOpt1__FOr1_0__FONSr2_0_}}").exists(30, TimeUnit.SECONDS))
+			{
+				web.button("{{obj.HCM_Adding a Contingent Worker_0132.web_button__FOpt1__FOr1_0__FONSr2_0_}}").click();
+				{
+					think(4.049);
+				}
+			}			
+			
+		} catch (AbstractScriptException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+	}
+	public void validation(String firstName,String familyName,String national_ID){
+
+		try {
+		web.element("{{obj.HCM_Adding a Contingent Worker_0132.Home}}").click();
+		
+			web.window("{{obj.HCM_Adding a Contingent Worker_0132.web_window}}").waitForPage(null);
+		
+		{
+			think(1.562);
+		}
+		web.link("{{obj.HCM_Adding a Contingent Worker_0132.Person_Management}}").click();
+		web.window("{{obj.HCM_Adding a Contingent Worker_0132.web_window}}").waitForPage(null);
+		{
+			think(2.444);
+		}
+		web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.Name}}").click();
+		web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.Name}}").setText(firstName+" "+familyName);
+		web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.NID_Input}}").click();
+		web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.NID_Input}}").setText(national_ID);
+		{
+			think(0.546);
+		}
+		web.button("{{obj.HCM_Adding a Contingent Worker_0132.SearchButton}}").click();
+		{
+			think(4.214);
+		}
+		web.element("{{obj.HCM_Adding a Contingent Worker_0132.PersonNumber}}").focus();
+		{
+			think(0.039);
+		}
+		web.element("{{obj.HCM_Adding a Contingent Worker_0132.National_Id}}").focus();
+		{
+			think(0.079);
+		}
+		web.element("{{obj.HCM_Adding a Contingent Worker_0132.web_span_Contingent_Worker}}").focus();
+		{
+			think(0.076);
+		}
+		web.link("{{obj.HCM_Adding a Contingent Worker_0132.web_a_Syam_Bahadur}}").focus();
+		web.window("{{obj.HCM_Adding a Contingent Worker_0132.web_window}}").capturePage();
+		
+		web.link("{{obj.HCM_Adding a Contingent Worker_0132.web_a_Syam_Bahadur}}").click();		
+		web.window("{{obj.HCM_Adding a Contingent Worker_0132.web_window}}").waitForPage(null);
+		{
+			think(6.887);
+		}
+		web.element("{{obj.HCM_Adding a Contingent Worker_0132.web_span_Contingent_worker_1}}").focus();
+		{
+			think(2.526);
+		}		
+		web.window("{{obj.HCM_Adding a Contingent Worker_0132.web_window}}").capturePage();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+	public void NID(String national_ID){
+		try{
+						
+			web.image("{{obj.HCM_Adding a Contingent Worker_0132.NID_Add_Row}}").click();
+			{
+				think(5.694);
+			}
+			web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.NID_Type}}").click();
+			{
+				think(3.721);
+			}
+			web.element("{{obj.HCM_Adding a Contingent Worker_0132.web_li_Civil_Identity_Number}}").click();
+			{
+				think(1.754);
+			}
+			web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.Number}}").click();
+			web.textBox("{{obj.HCM_Adding a Contingent Worker_0132.Number}}").setText(national_ID);
+		}catch(Exception e){
+			e.printStackTrace();
+			
+		}
+	}
 	public void finish() throws Exception {
 		//SignOut
-		//web.window(640, "{{obj.HCM_Adding a Contingent Worker_0132.web_window}}").close();		
+		web.window(640, "{{obj.HCM_Adding a Contingent Worker_0132.web_window}}").close();		
 
 	}
 }

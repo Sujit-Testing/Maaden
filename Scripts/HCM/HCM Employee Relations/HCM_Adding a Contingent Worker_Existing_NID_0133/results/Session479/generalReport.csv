@@ -1,0 +1,7 @@
+4062,1,HCM_Adding a Contingent Worker_Existing_NID_0133,12/09/2020 11:25:50 AM,0,Failed,12/09/2020 11:25:46 AM,basic.step,HCM Employee Relations,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,1583,Passed,"",basic.init,
+"Launch Browser: Chrome 87.0.4280.88",,932,Passed,"",basic.step,
+"Iteration Total (sec)",,1551,Failed,"Invalid column: PlacementDate",basic.iteration,
+"Finish Total (sec)",,326,Passed,"",basic.finish,
+"closeBrowser",640,126,Passed,"",ft.action,
