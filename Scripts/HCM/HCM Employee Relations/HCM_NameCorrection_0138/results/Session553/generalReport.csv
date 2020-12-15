@@ -1,0 +1,6 @@
+2799,1,HCM_NameCorrection_0138,12/15/2020 20:32:02 PM,0,Failed,12/15/2020 20:31:59 PM,basic.step,HCM Employee Relations,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,1317,Passed,"",basic.init,
+"Launch Browser: Chrome 87.0.4280.88",,833,Passed,"",basic.step,
+"Iteration Total (sec)",,846,Failed,"Invalid column: ProbationPeriod",basic.iteration,
+"Finish Total (sec)",,181,Passed,"",basic.finish,
