@@ -31,6 +31,17 @@ public class HCM_NameCorrection_0138 extends FuncLibraryWrapper
 		callFunction("run");
 	}
 
+	public void dataTableAndDeclaration() throws AbstractScriptException {
+		checkInit();
+		callFunction("dataTableAndDeclaration");
+	}
+
+	public void logIn(String url, String uid, String pwd)
+			throws AbstractScriptException {
+		checkInit();
+		callFunction("logIn", url, uid, pwd);
+	}
+
 	public void SearchEmployee(String firstName, String familyName,
 			String national_ID) throws AbstractScriptException {
 		checkInit();

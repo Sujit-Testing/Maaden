@@ -1,0 +1,7 @@
+3732,1,HCM_AddressCorrection_0140,12/16/2020 21:32:48 PM,0,Failed,12/16/2020 21:32:45 PM,basic.step,HCM Employee Relations,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,1796,Passed,"",basic.init,
+"Launch Browser: Chrome 87.0.4280.88",,1100,Passed,"",basic.step,
+"Iteration Total (sec)",,1361,Failed,"",basic.iteration,
+"Failed to playback",,18,Failed,"Failed to playback: No browser launched.",ft.action,
+"Finish Total (sec)",,69,Passed,"",basic.finish,

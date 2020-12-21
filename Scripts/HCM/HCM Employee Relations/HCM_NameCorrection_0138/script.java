@@ -28,52 +28,13 @@ public class script extends IteratingVUserScript {
 	}
 		
 	public void run() throws Exception {
-			
-		datatable.importExcel("C:\\OracleATS\\OFT\\Maaden\\Test Data\\HCM Employee Relations\\HCM_NameCorrection_0138.xlsx", true);
-		url=(String) datatable.getValue("DataSheet", 0, "URL");
-		uid=(String) datatable.getValue("DataSheet", 0, "UID");
-		pwd=(String) datatable.getValue("DataSheet", 0, "PWD");	
-		proposedStartDate=(String) datatable.getValue("DataSheet", 0, "PlacementDate");		
-		comments=(String) datatable.getValue("DataSheet", 0, "Comments");
-		firstName=(String) datatable.getValue("DataSheet", 0, "FirstName");		
-		familyName=(String) datatable.getValue("DataSheet", 0, "FamilyName");
 		
-		correctFirstName=(String) datatable.getValue("DataSheet", 0, "CorrectFirstName");		
-		correctFamilyName=(String) datatable.getValue("DataSheet", 0, "CorrectFamilyName");
+		//Data Table Declaration and define the data table entity
+		dataTableAndDeclaration();
 		
-		middleName=(String) datatable.getValue("DataSheet", 0, "MiddleName");		
-		grandFatherName=(String) datatable.getValue("DataSheet", 0, "GrandFatherName");
-		legalEmployer_SerchInput=(String) datatable.getValue("DataSheet", 0, "LegalEmployer_SerchInput");		
-		legislationCode=(String) datatable.getValue("DataSheet", 0, "LegislationCode");
-		dateOfBirth=(String) datatable.getValue("DataSheet", 0, "DateOfBirth");	
-		nID_Country_Input=(String) datatable.getValue("DataSheet", 0, "NID_Country_Input");
-		national_ID=(String) datatable.getValue("DataSheet", 0, "National_ID");
-		countryName=(String) datatable.getValue("DataSheet", 0, "CountryName");
-		addressLine_1=(String) datatable.getValue("DataSheet", 0, "AddressLine_1");		
-		addressLine_2=(String) datatable.getValue("DataSheet", 0, "AddressLine_2");
-		pOBox=(String) datatable.getValue("DataSheet", 0, "POBox");		
-		city=(String) datatable.getValue("DataSheet", 0, "City");
-		postalCode=(String) datatable.getValue("DataSheet", 0, "PostalCode");
-		employmentStatus = (String) datatable.getValue("DataSheet", 0, "EmploymentStatus");
-		businessUnit_Input = (String) datatable.getValue("DataSheet", 0, "BusinessUnit_Input");
-		projectedEndDate = (String) datatable.getValue("DataSheet", 0, "ProjectedEndDate");
-		peopleGroup = (String) datatable.getValue("DataSheet", 0, "PeopleGroup");
-		countryCode=(String) datatable.getValue("DataSheet", 0, "CountryCode");
-		areaCode = (String) datatable.getValue("DataSheet", 0, "AreaCode");
-		phoneNumber = (String) datatable.getValue("DataSheet", 0, "PhoneNumber");
-		email = (String) datatable.getValue("DataSheet", 0, "Email");
-//		probationPeriod = (String) datatable.getValue("DataSheet", 0, "ProbationPeriod");
-//		noticePeriod = (String) datatable.getValue("DataSheet", 0, "NoticePeriod");
+		//LogIn
+		logIn(url, uid, pwd);		
 		
-		web.window("{{obj.HCM_NameCorrection_0138.web_window}}").navigate(url);
-		web.window("{{obj.HCM_NameCorrection_0138.web_window}}").maximize();
-		//web.window("{{obj.HCM_NameCorrection_0138.web_window}}").navigate(url);
-		web.window("{{obj.HCM_NameCorrection_0138.web_window}}").waitForPage(50, true);
-		web.textBox("{{obj.HCM_NameCorrection_0138.UID}}").setText(uid);
-		web.textBox("{{obj.HCM_NameCorrection_0138.UID}}").pressTab();
-		web.textBox("{{obj.HCM_NameCorrection_0138.Password}}").setPassword(pwd);
-		web.button("{{obj.HCM_NameCorrection_0138.Sign_In}}").click();
-		web.window("{{obj.HCM_NameCorrection_0138.web_window}}").waitForPage(150, true);
 		//Handle WelCome Page
 		web.link("{{obj.HCM_NameCorrection_0138.You have a new home page!}}").focus();
 		{
@@ -109,7 +70,55 @@ public class script extends IteratingVUserScript {
 		validation(firstName,familyName, national_ID);		
 		
 	}
-	
+	public void dataTableAndDeclaration() throws Exception{		
+		datatable.importExcel("C:\\OracleATS\\OFT\\Maaden\\Test Data\\HCM Employee Relations\\HCM_NameCorrection_0138.xlsx", true);
+		url=(String) datatable.getValue("DataSheet", 0, "URL");
+		uid=(String) datatable.getValue("DataSheet", 0, "UID");
+		pwd=(String) datatable.getValue("DataSheet", 0, "PWD");	
+		proposedStartDate=(String) datatable.getValue("DataSheet", 0, "PlacementDate");		
+		comments=(String) datatable.getValue("DataSheet", 0, "Comments");
+		firstName=(String) datatable.getValue("DataSheet", 0, "FirstName");		
+		familyName=(String) datatable.getValue("DataSheet", 0, "FamilyName");
+		
+		correctFirstName=(String) datatable.getValue("DataSheet", 0, "CorrectFirstName");		
+		correctFamilyName=(String) datatable.getValue("DataSheet", 0, "CorrectFamilyName");
+		
+		middleName=(String) datatable.getValue("DataSheet", 0, "MiddleName");		
+		grandFatherName=(String) datatable.getValue("DataSheet", 0, "GrandFatherName");
+		legalEmployer_SerchInput=(String) datatable.getValue("DataSheet", 0, "LegalEmployer_SerchInput");		
+		legislationCode=(String) datatable.getValue("DataSheet", 0, "LegislationCode");
+		dateOfBirth=(String) datatable.getValue("DataSheet", 0, "DateOfBirth");	
+		nID_Country_Input=(String) datatable.getValue("DataSheet", 0, "NID_Country_Input");
+		national_ID=(String) datatable.getValue("DataSheet", 0, "National_ID");
+		countryName=(String) datatable.getValue("DataSheet", 0, "CountryName");
+		addressLine_1=(String) datatable.getValue("DataSheet", 0, "AddressLine_1");		
+		addressLine_2=(String) datatable.getValue("DataSheet", 0, "AddressLine_2");
+		pOBox=(String) datatable.getValue("DataSheet", 0, "POBox");		
+		city=(String) datatable.getValue("DataSheet", 0, "City");
+		postalCode=(String) datatable.getValue("DataSheet", 0, "PostalCode");
+		employmentStatus = (String) datatable.getValue("DataSheet", 0, "EmploymentStatus");
+		businessUnit_Input = (String) datatable.getValue("DataSheet", 0, "BusinessUnit_Input");
+		projectedEndDate = (String) datatable.getValue("DataSheet", 0, "ProjectedEndDate");
+		peopleGroup = (String) datatable.getValue("DataSheet", 0, "PeopleGroup");
+		countryCode=(String) datatable.getValue("DataSheet", 0, "CountryCode");
+		areaCode = (String) datatable.getValue("DataSheet", 0, "AreaCode");
+		phoneNumber = (String) datatable.getValue("DataSheet", 0, "PhoneNumber");
+		email = (String) datatable.getValue("DataSheet", 0, "Email");
+//		probationPeriod = (String) datatable.getValue("DataSheet", 0, "ProbationPeriod");
+//		noticePeriod = (String) datatable.getValue("DataSheet", 0, "NoticePeriod");
+	}
+	public void logIn(String url,String uid,String pwd) throws Exception{
+		web.window("{{obj.HCM_NameCorrection_0138.web_window}}").navigate(url);
+		web.window("{{obj.HCM_NameCorrection_0138.web_window}}").maximize();
+		//web.window("{{obj.HCM_NameCorrection_0138.web_window}}").navigate(url);
+		web.window("{{obj.HCM_NameCorrection_0138.web_window}}").waitForPage(50, true);
+		web.textBox("{{obj.HCM_NameCorrection_0138.UID}}").setText(uid);
+		web.textBox("{{obj.HCM_NameCorrection_0138.UID}}").pressTab();
+		web.textBox("{{obj.HCM_NameCorrection_0138.Password}}").setPassword(pwd);
+		web.button("{{obj.HCM_NameCorrection_0138.Sign_In}}").click();
+		web.window("{{obj.HCM_NameCorrection_0138.web_window}}").waitForPage(150, true);
+		
+	}
 	public void SearchEmployee(String firstName,String familyName,String national_ID)throws Exception{
 		//web.element("{{obj.HCM_NameCorrection_0138.Home}}").click();
 				
@@ -235,7 +244,7 @@ public class script extends IteratingVUserScript {
 
 	public void finish() throws Exception {
 		//SignOut
-		//web.window(640, "{{obj.HCM_NameCorrection_0138.web_window}}").close();		
+		web.window(640, "{{obj.HCM_NameCorrection_0138.web_window}}").close();		
 
 	}
 }
