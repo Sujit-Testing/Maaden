@@ -1,0 +1,95 @@
+import oracle.oats.scripting.modules.basic.api.*;
+import oracle.oats.scripting.modules.browser.api.*;
+import oracle.oats.scripting.modules.functionalTest.api.*;
+import oracle.oats.scripting.modules.utilities.api.*;
+import oracle.oats.scripting.modules.utilities.api.sql.*;
+import oracle.oats.scripting.modules.utilities.api.xml.*;
+import oracle.oats.scripting.modules.utilities.api.file.*;
+import oracle.oats.scripting.modules.webdom.api.*;
+import oracle.oats.scripting.modules.formsFT.api.*;
+import oracle.oats.scripting.modules.applet.api.*;
+
+public class script extends IteratingVUserScript {
+	@ScriptService oracle.oats.scripting.modules.utilities.api.UtilitiesService utilities;
+	@ScriptService oracle.oats.scripting.modules.browser.api.BrowserService browser;
+	@ScriptService oracle.oats.scripting.modules.functionalTest.api.FunctionalTestService ft;
+	@ScriptService oracle.oats.scripting.modules.webdom.api.WebDomService web;
+	@ScriptService oracle.oats.scripting.modules.applet.api.AppletService applet;
+	@ScriptService oracle.oats.scripting.modules.formsFT.api.FormsService forms;
+	//@ScriptService oracle.oats.scripting.modules.datatable.api.DataTableService datatable;
+	
+	String uidName;
+	String requestion_Number;
+	
+
+	public void initialize() throws Exception {
+		browser.launch();
+		
+		
+		
+	}
+
+	/**
+	 * Add code to be executed each iteration for this virtual user.
+	 */
+	public void run() throws Exception {
+		//datatable.importExcel("D:\\app\\OracleATS\\OFT\\Book1.xlsx", true);
+//		String url=(String) datatable.getValue("Sheet1", 0, "URL");
+//		String uid=(String) datatable.getValue("Sheet1", 0, "UID");
+//		String pwd=(String) datatable.getValue("Sheet1", 0, "PWD");
+		web.window(699,
+				"{{obj.PO_CreateRequisitionAndApproval_001.web_window_0}}").navigate("http://riyoramgbm02.maaden.com:8050");
+		web.window(701,
+				"{{obj.PO_CreateRequisitionAndApproval_001.web_window}}")
+				.waitForPage(null);
+		{
+			think(7.703);
+		}
+		web.textBox(704,
+				"{{obj.PO_CreateRequisitionAndApproval_001.web_input_UID}}")
+				.click();
+		{
+			think(0.469);
+		}
+		web.textBox(705,
+				"{{obj.PO_CreateRequisitionAndApproval_001.web_input_UID}}")
+				.setText("SWAINSW");
+		{
+			think(0.688);
+		}
+		web.textBox(706,
+				"{{obj.PO_CreateRequisitionAndApproval_001.web_input_UID}}")
+				.pressTab();
+		{
+			think(0.109);
+		}
+		web.textBox(707,
+				"{{obj.PO_CreateRequisitionAndApproval_001.web_input_password}}")
+				.setPassword(deobfuscate("welcome123"));
+		{
+			think(0.125);
+		}
+		web.textBox(708,
+				"{{obj.PO_CreateRequisitionAndApproval_001.web_input_password}}")
+				.pressEnter();
+		web.window(709,
+				"{{obj.PO_CreateRequisitionAndApproval_001.web_window}}")
+				.waitForPage(null);
+		{
+			think(12.5);
+		}
+		web.window(712,
+				"{{obj.PO_CreateRequisitionAndApproval_001.web_window}}")
+				.close();
+		{
+			think(0.031);
+		}
+		
+
+		
+
+	}
+
+	public void finish() throws Exception {
+	}
+}

@@ -1,0 +1,19 @@
+1. Stop the Oracle ATS agent
+2. Open CMD as administrator
+Run
+C:\Windows\system32>D:
+
+D:\>cd app
+
+D:\app>cd oracleats
+
+D:\app\OracleATS>cd agentmanager
+
+D:\app\OracleATS\agentmanager>cd bin
+
+3.D:\app\OracleATS\agentmanager\bin>agentmanager.cmd
+
+
+
+-----------------------------------------------------------------
+Command Line Argument-> -delaypercentage -1 -delaymin 2 -delaymax 6

@@ -1,0 +1,4 @@
+if(web.alertDialog("{{obj.PO_ReturnToSupplier_015.web_dialog_alert_Syntax_error}}").exists()){
+			web.alertDialog("{{obj.PO_ReturnToSupplier_015.web_dialog_alert_Syntax_error}}").clickOk();
+
+			}

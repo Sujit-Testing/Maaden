@@ -1,0 +1,94 @@
+1. Check if the grid is loaded with the data or not:
+
+			
+			int rowCount=-1;
+			rowCount=eone.grid(
+				192,
+				"/web:window[@index='0' or @title='Work With Contracts']/web:document[@index='10' or @name='e1menuAppIframe']/web:EOneGrid[@gridName='Work With Contracts' or @gridId='0_1']")
+				.getRowCount();	
+			if (rowCount > 0){
+					info("Contract record found, so proceed to next step");
+
+			}else
+			{
+					fail("Contract record could not be found");
+				}
+
+2. Usage of IF condition:
+
+if (p.equals(i))
+		{
+			info("Match Found: " + p);
+		}
+		else
+		{
+			info("No match : "+ p);
+		}
+3. File handling:
+
+String alphaname = web.textBox(
+				196,
+				"/web:window[@index='0' or @title='JD Edwards EnterpriseOne']/web:document[@index='9' or @name='e1menuAppIframe']/web:form[@id='E1PaneForm' or @name='P01012_W01012A' or @index='2']/web:input_text[@id='C0_28' or @name='0_28' or @index='1']").getAttribute("value");
+			{
+				think(2);
+			}
+			utilities.getFileService().deleteFile("c:/hjk.csv");
+			{
+				think(2);
+			}
+			utilities.getFileService().appendStringToFile("c:/hjk.csv", "AlphaName");
+			utilities.getFileService().appendStringToFile("c:/hjk.csv", "\n");
+			utilities.getFileService().appendStringToFile("c:/hjk.csv", alphaname);
+			{
+				think(2);
+			} 
+4. Dynamic value:
+
+/* Store the value in variable contractNumber*/
+String contractNumber = web.textBox(
+				196,
+			"/web:window[@index='0' or @title='Service Contract Header']/web:document[@index='10' or @name='e1menuAppIframe']/web:form[@id='E1PaneForm' or @name='P591721_W591721L' or @index='2']/web:input_text[@id='C0_14' or @name='0_14' or @index='0']").getAttribute("value");
+			{
+				think(2);
+			}
+/* Assign it to another variable which has GLOBAL Scope*/
+getVariables().set("ContractNum",contractNumber,Variables.Scope.GLOBAL);
+			{
+				think(2);
+			}
+/*Now use the variable ContractNum in the script where you want the dynamic variable*/
+web.textBox(
+					1064,
+					"/web:window[@index='0' or @title='Service Contract Header']/web:document[@index='10' or @name='e1menuAppIframe']/web:form[@name='JDE' or @index='1']/web:input_text[@id='LITtf' or @name='Etf' or @index='0']")
+					.setText("{{ContractNum,21088}}");
+Data Table
+----------
+5. public void run() throws Exception {
+       
+         String abc ="123";
+         DataTableService parDatatable = datatable.getGlobalDatatable();
+                  
+         String XYZ ="";
+         info("abcde :"+abc);
+         parDatatable.setValue(1, "A", abc);
+        
+         XYZ = parDatatable.getValue(1, "A").toString();
+         info("XYZ :"+XYZ);
+
+Script 1
+--------
+//Script->Script Properties->Modules->Tick the "Data Table" Check Box
+
+  String abc= "123";
+   DataTableService parDatatable = datatable.getGlobalDatatable(); 
+	//Store the value in the data table using setValue() method.(1-> Row number, A-> colomn number, abc-> value which need to store)
+   parDatatable.setValue(1, "A", abc);
+
+Script 2
+--------
+//Call the 1st script
+globalVariableDemo.run();
+DataTableService parDatatable = datatable.getGlobalDatatable();
+String XYZ ;
+//get the value from the data Table from the previous script
+XYZ= parDatatable.getValue(1, "A").toString();
