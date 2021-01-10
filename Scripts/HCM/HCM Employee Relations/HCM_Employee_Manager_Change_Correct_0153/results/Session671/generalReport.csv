@@ -1,0 +1,6 @@
+9665,1,HCM_Employee_Manager_Change_Correct_0153,1/06/2021 15:57:34 PM,0,Failed,1/06/2021 15:57:24 PM,basic.step,HCM Employee Relations,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,8062,Passed,"",basic.init,
+"Launch Browser: Chrome 87.0.4280.88",,7363,Passed,"",basic.step,
+"Iteration Total (sec)",,1037,Failed,"Variable ""obj.HCM_Employee_Manager_Change_Correct_0153.web_window"" not found for string: {{obj.HCM_Employee_Manager_Change_Correct_0153.web_window}}",basic.iteration,
+"Finish Total (sec)",,82,Passed,"",basic.finish,

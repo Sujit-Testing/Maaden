@@ -1,0 +1,6 @@
+3189,1,HCM_Enter_Manager_Change_0152,1/05/2021 13:34:43 PM,0,Failed,1/05/2021 13:34:39 PM,basic.step,HCM Employee Relations,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,1749,Passed,"",basic.init,
+"Launch Browser: Chrome 87.0.4280.88",,1165,Passed,"",basic.step,
+"Iteration Total (sec)",,948,Failed,"Invalid column: manager_FamilyName",basic.iteration,
+"Finish Total (sec)",,66,Passed,"",basic.finish,
