@@ -131,7 +131,7 @@ public class script extends IteratingVUserScript {
 		web.textBox("{{obj.HCM_AddressCorrection_0140.Name}}").click();
 		web.textBox("{{obj.HCM_AddressCorrection_0140.Name}}").setText(firstName+" "+familyName);
 		web.textBox("{{obj.HCM_AddressCorrection_0140.NID_Input}}").click();
-		web.textBox("{{obj.HCM_AddressCorrection_0140.NID_Input}}").setText(national_ID);
+		//web.textBox("{{obj.HCM_AddressCorrection_0140.NID_Input}}").setText(national_ID);
 		{
 			think(0.546);
 		}
@@ -247,7 +247,7 @@ public class script extends IteratingVUserScript {
 		}
 		web.textBox("{{obj.HCM_AddressCorrection_0140.NID_Input}}").click();
 		//web.textBox("{{obj.HCM_AddressCorrection_0140.NID_Input}}").clearText();
-		web.textBox("{{obj.HCM_AddressCorrection_0140.NID_Input}}").setText(national_ID);
+		//web.textBox("{{obj.HCM_AddressCorrection_0140.NID_Input}}").setText(national_ID);
 		{
 			think(0.546);
 		}

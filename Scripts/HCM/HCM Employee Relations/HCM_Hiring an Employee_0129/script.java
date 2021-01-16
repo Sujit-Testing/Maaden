@@ -19,7 +19,7 @@ public class script extends IteratingVUserScript {
 	@ScriptService oracle.oats.scripting.modules.datatable.api.DataTableService datatable;
 	String url,uid,pwd,date,firstName,familyName,fatherName,grandFatherName,comments,hireDate,legalEmployer_SerchInput,legislationCode,
 	dateOfBirth,countryName,addressLine_1,addressLine_2,pOBox,city,postalCode,businessUnit_Input,peopleGroup,nID_Country_Input,national_ID,
-	countryCode,areaCode,phoneNumber,email= null;
+	countryCode,areaCode,phoneNumber,email,personal_Number= null;
 	String title =  "Contact Info - - Oracle Applications";
 		
 	public void initialize() throws Exception {
@@ -59,6 +59,7 @@ public class script extends IteratingVUserScript {
 		areaCode = (String) datatable.getValue("DataSheet", 0, "AreaCode");
 		phoneNumber = (String) datatable.getValue("DataSheet", 0, "PhoneNumber");
 		email = (String) datatable.getValue("DataSheet", 0, "Email");
+		personal_Number = (String) datatable.getValue("DataSheet", 0, "Personal_Number");	
 		
 		
 		web.window("{{obj.HCM_Hiring an Employee_0129.web_window}}").maximize();
@@ -87,7 +88,7 @@ public class script extends IteratingVUserScript {
 			}
 		web.link("{{obj.HCM_Hiring an Employee_0129.My Client Groups}}").click();
 		{
-			think(10.147);
+			think(3.147);
 		}
 		}	
 		
@@ -96,7 +97,9 @@ public class script extends IteratingVUserScript {
 		web.link("{{obj.HCM_Hiring an Employee_0129.New Person}}").click();
 		}
 		web.window("{{obj.HCM_Hiring an Employee_0129.web_window}}").waitForPage(30, true);
-		
+		{
+			think(3.147);
+		}
 		
 		//Clik on Hire an Employee link
 		web.link("{{obj.HCM_Hiring an Employee_0129.Hire an Employee}}").dblClick();
@@ -167,10 +170,14 @@ public class script extends IteratingVUserScript {
 		
 		
 		 //Provide Personal Details
+		
+		web.textBox("{{obj.HCM_Hiring an Employee_0129.Personal_Number}}").click();
+		web.textBox("{{obj.HCM_Hiring an Employee_0129.Personal_Number}}").setText(personal_Number);
+		web.textBox("{{obj.HCM_Hiring an Employee_0129.Personal_Number}}").pressTab();
 		 
 		web.link("{{obj.HCM_Hiring an Employee_0129.Title}}").click();
 		{
-			think(3.654);
+			think(2.654);
 		}
 		web.element("{{obj.HCM_Hiring an Employee_0129.Mr}}").click();
 		{
@@ -186,11 +193,11 @@ public class script extends IteratingVUserScript {
 		}
 		web.link("{{obj.HCM_Hiring an Employee_0129.Gender}}").click();
 		{
-			think(0.986);
+			think(1.986);
 		}
 		web.element("{{obj.HCM_Hiring an Employee_0129.Male}}").click();
 		{
-			think(0.746);
+			think(2.746);
 		}
 		web.textBox("{{obj.HCM_Hiring an Employee_0129.DateOfBirth}}").setText(dateOfBirth);
 		{
@@ -205,11 +212,11 @@ public class script extends IteratingVUserScript {
 		}
 		web.link("{{obj.HCM_Hiring an Employee_0129.NID_CountryDropDown}}").click();
 		{
-			think(2.155);
+			think(3.155);
 		}
 		web.link("{{obj.HCM_Hiring an Employee_0129.NID_Search}}").click();
 		{
-			think(3.547);
+			think(1.547);
 		}
 		web.textBox("{{obj.HCM_Hiring an Employee_0129.NID_Country_Input}}").setText(nID_Country_Input);
 		{
@@ -243,8 +250,11 @@ public class script extends IteratingVUserScript {
 		}
 			
 		//Click Next
-		web.element("{{obj.HCM_Hiring an Employee_0129.web_span_Next}}")	.click();
-		if(web.button("{{obj.HCM_Hiring an Employee_0129.Continue}}").exists(20, TimeUnit.SECONDS)){
+		web.element("{{obj.HCM_Hiring an Employee_0129.web_span_Next}}").click();
+		{
+			think(3.617);
+		}
+		if(web.button("{{obj.HCM_Hiring an Employee_0129.Continue}}").exists(5, TimeUnit.SECONDS)){
 		web.button("{{obj.HCM_Hiring an Employee_0129.Continue}}").focus();
 		info("Warning message shown as NID is previously allocate to other employee. Screenshot attached below.");
 		web.window("{{obj.HCM_Hiring an Employee_0129.web_window}}").capturePage();
@@ -292,7 +302,7 @@ public class script extends IteratingVUserScript {
 		}
 		web.textBox("{{obj.HCM_Hiring an Employee_0129.PhoneType}}").click();
 		{
-			think(0.572);
+			think(2.572);
 		}
 		web.element("{{obj.HCM_Hiring an Employee_0129.Emergency}}").click();
 		{
@@ -343,11 +353,11 @@ public class script extends IteratingVUserScript {
 		//Add Legislative Information		
 		web.textBox("{{obj.HCM_Hiring an Employee_0129.Marital_Status}}").click();
 		{
-			think(0.621);
+			think(1.621);
 		}
 		web.element(968, "{{obj.HCM_Hiring an Employee_0129.Married}}").click();
 		{
-			think(0.348);
+			think(1.348);
 		}
 		web.textBox("{{obj.HCM_Hiring an Employee_0129.Ethnicity}}").click();
 		{
@@ -470,11 +480,14 @@ public class script extends IteratingVUserScript {
 				
 		web.window(640, "{{obj.HCM_Hiring an Employee_0129.web_window}}").capturePage();
 		
+		
+		
+		
 	}
 	
 	public void finish() throws Exception {
 		//SignOut
-		//web.window(640, "{{obj.HCM_Hiring an Employee_0129.web_window}}").close();
+		web.window(640, "{{obj.HCM_Hiring an Employee_0129.web_window}}").close();
 
 		
 

@@ -1,0 +1,7 @@
+3340,1,HCM_Hiring an Employee_0129,1/14/2021 10:02:11 AM,0,Failed,1/14/2021 10:02:08 AM,basic.step,HCM Employee Relations,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,1398,Passed,"",basic.init,
+"Launch Browser: Chrome 87.0.4280.141",,734,Passed,"",basic.step,
+"Iteration Total (sec)",,1417,Failed,"",basic.iteration,
+"Failed to playback",,11,Failed,"Failed to playback: No browser launched.",ft.action,
+"Finish Total (sec)",,84,Passed,"",basic.finish,
