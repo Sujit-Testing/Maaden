@@ -1,0 +1,6 @@
+13853,1,HCM_Create_Duplicate_Visa_Information_0164,1/20/2021 10:08:15 AM,0,Failed,1/20/2021 10:08:02 AM,basic.step,HCM Employee Relations,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,11084,Passed,"",basic.init,
+"Launch Browser: Chrome 87.0.4280.141",,10213,Passed,"",basic.step,
+"Iteration Total (sec)",,1713,Failed,"Variable ""obj.HCM_Create_Duplicate_Visa_Information_0164.web_window"" not found for string: {{obj.HCM_Create_Duplicate_Visa_Information_0164.web_window}}",basic.iteration,
+"Finish Total (sec)",,144,Passed,"",basic.finish,

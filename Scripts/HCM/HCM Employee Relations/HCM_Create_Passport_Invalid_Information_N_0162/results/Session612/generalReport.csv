@@ -1,0 +1,6 @@
+10272,1,HCM_Create_Passport_Invalid_Information_N_0162,1/17/2021 17:23:20 PM,0,Failed,1/17/2021 17:23:09 PM,basic.step,HCM Employee Relations,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,8574,Passed,"",basic.init,
+"Launch Browser: Chrome 87.0.4280.141",,7951,Passed,"",basic.step,
+"Iteration Total (sec)",,1107,Failed,"Variable ""obj.HCM_Create_Passport_Invalid_Information_N_0162.web_window"" not found for string: {{obj.HCM_Create_Passport_Invalid_Information_N_0162.web_window}}",basic.iteration,
+"Finish Total (sec)",,98,Failed,"Variable ""obj.HCM_Create_Passport_Invalid_Information_N_0162.web_window"" not found for string: {{obj.HCM_Create_Passport_Invalid_Information_N_0162.web_window}}",basic.finish,

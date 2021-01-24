@@ -1,0 +1,6 @@
+68002,0,PO_Internal_Requisition_00128,4/14/2020 15:03:24 PM,0,Failed,4/14/2020 15:02:15 PM,basic.step,Scripts,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,67703,Failed,"Cannot get a connection from helper after 60 seconds.",basic.init,
+"Launch Browser: InternetExplorer 11.719.18362.0",,0,Passed,"",basic.step,
+"Close Browser",,2280,Passed,"",basic.step,
+"Finish Total (sec)",,73,Passed,"",basic.finish,

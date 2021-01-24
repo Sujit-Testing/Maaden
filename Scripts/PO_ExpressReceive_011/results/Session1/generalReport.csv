@@ -1,6 +1,0 @@
-48446,1,PO_ExpressReceive_011,8/28/2019 16:19:23 PM,0,Failed,8/28/2019 16:18:34 PM,basic.step,Scripts,,,,
-"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
-"Initialize Total (sec)",,47766,Passed,"",basic.init,
-"Launch Browser: InternetExplorer 11.615.17763.0",,47076,Passed,"",basic.step,
-"Iteration Total (sec)",,263,Failed,"Variable ""obj.PO_ExpressReceive_011.web_window"" not found for string: {{obj.PO_ExpressReceive_011.web_window}}",basic.iteration,
-"Finish Total (sec)",,93,Passed,"",basic.finish,

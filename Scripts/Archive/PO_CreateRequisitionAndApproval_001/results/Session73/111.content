@@ -1,0 +1,77 @@
+<HTML lang=en-US><HEAD><TITLE>Error Page</TITLE>
+<SCRIPT>
+function ignoreWarnAboutChanges(url)
+{
+  document.location.href = url;
+}
+</SCRIPT>
+
+<STYLE type=text/css>
+
+.globalHeader {
+background: url(/OA_HTML/cabo/images/swan/headerBg.jpg);
+background-repeat:repeat-x;background-color:#1963a9
+}
+
+.globalLink  {white-space:nowrap;font-size:9pt;font-family:Arial;color:#ffffff;text-decoration:none}
+
+.pageLink A:link {color:#2b7c92}
+
+.copyright {white-space:nowrap;font-family:Arial;font-size:7.5pt;color:#ffffff;text-decoration:none}
+
+.errorHeader {
+color:#ed1c24;
+font-family:Arial;
+font-weight:bold;
+font-size:9pt;
+vertical-align:middle;
+border-bottom-width:1px;
+border-bottom-style:solid;
+border-bottom-color:#3a5a87;
+margin-bottom:0px;
+}
+
+.errorText {
+font-family:Tahoma,Arial,Helvetica,Geneva,sans-serif;
+font-size:9pt;
+}
+
+</STYLE>
+
+<META name=fwk-error content="Error occured while processing the request">
+<META name=fwk-error-detail content="oracle.apps.fnd.framework.OAException%3A+Could+not+load+application+module+'oracle.apps.fnd.sso.login.server.MainLoginPageAM'.%0A%09at+oracle.apps.fnd.framework.webui.OAJSPApplicationRegistry.registerApplicationModule(OAJSPApplicationRegistry.java%3A279)%0A%09at+oracle.apps.fnd.framework.webui.OAJSPApplicationRegistry.registerApplicationModule(OAJSPApplicationRegistry.java%3A78)%0A%09at+oracle.apps.fnd.framework.webui.OAPageBean.preparePage(OAPageBean.java%3A1320)%0A%09at+oracle.apps.fnd.framework.webui.OAPageBean.preparePage(OAPageBean.java%3A557)%0A%09at+oracle.apps.fnd.framework.webui.OAPageBean.preparePage(OAPageBean.java%3A439)%0A%09at+_OA._jspService(_OA.java%3A213)%0A%09at+com.orionserver.http.OrionHttpJspPage.service(OrionHttpJspPage.java%3A59)%0A%09at+oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java%3A390)%0A%09at+oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java%3A594)%0A%09at+oracle.jsp.runtimev2.JspServlet.service(JspServlet.java%3A518)%0A%09at+javax.servlet.http.HttpServlet.service(HttpServlet.java%3A856)%0A%09at+com.evermind.server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java%3A734)%0A%09at+com.evermind.server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java%3A391)%0A%09at+com.evermind.server.http.ServletRequestDispatcher.unprivileged_forward(ServletRequestDispatcher.java%3A308)%0A%09at+com.evermind.server.http.ServletRequestDispatcher.access%24100(ServletRequestDispatcher.java%3A68)%0A%09at+com.evermind.server.http.ServletRequestDispatcher%242.oc4jRun(ServletRequestDispatcher.java%3A214)%0A%09at+oracle.oc4j.security.OC4JSecurity.doPrivileged(OC4JSecurity.java%3A284)%0A%09at+com.evermind.server.http.ServletRequestDispatcher.forward(ServletRequestDispatcher.java%3A219)%0A%09at+com.evermind.server.http.EvermindPageContext.forward(EvermindPageContext.java%3A407)%0A%09at+_RF._jspService(_RF.java%3A225)%0A%09at+com.orionserver.http.OrionHttpJspPage.service(OrionHttpJspPage.java%3A59)%0A%09at+oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java%3A390)%0A%09at+oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java%3A594)%0A%09at+oracle.jsp.runtimev2.JspServlet.service(JspServlet.java%3A518)%0A%09at+javax.servlet.http.HttpServlet.service(HttpServlet.java%3A856)%0A%09at+com.evermind.server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java%3A64)%0A%09at+oracle.apps.jtf.base.session.ReleaseResFilter.doFilter(ReleaseResFilter.java%3A26)%0A%09at+com.evermind.server.http.EvermindFilterChain.doFilter(EvermindFilterChain.java%3A15)%0A%09at+oracle.apps.fnd.security.AppsServletFilter.doFilter(AppsServletFilter.java%3A429)%0A%09at+com.evermind.server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java%3A642)%0A%09at+com.evermind.server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java%3A391)%0A%09at+com.evermind.server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java%3A911)%0A%09at+com.evermind.server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java%3A458)%0A%09at+com.evermind.server.http.AJPRequestHandler.run(AJPRequestHandler.java%3A313)%0A%09at+com.evermind.server.http.AJPRequestHandler.run(AJPRequestHandler.java%3A199)%0A%09at+oracle.oc4j.network.ServerSocketReadHandler%24SafeRunnable.run(ServerSocketReadHandler.java%3A260)%0A%09at+com.evermind.util.ReleasableResourcePooledExecutor%24MyWorker.run(ReleasableResourcePooledExecutor.java%3A303)%0A%09at+java.lang.Thread.run(Thread.java%3A619)%0A%23%23+Detail+0+%23%23%0Aoracle.apps.fnd.framework.OAException%3A+Application%3A+FND%2C+Message+Name%3A+FND_NO_TRANSACTION_ID.%0A%09at+oracle.apps.fnd.framework.webui.OAJSPHelper.getTransactionId(OAJSPHelper.java%3A352)%0A%09at+oracle.apps.fnd.framework.webui.OAJSPApplicationRegistry.registerApplicationModule(OAJSPApplicationRegistry.java%3A133)%0A%09at+oracle.apps.fnd.framework.webui.OAJSPApplicationRegistry.registerApplicationModule(OAJSPApplicationRegistry.java%3A78)%0A%09at+oracle.apps.fnd.framework.webui.OAPageBean.preparePage(OAPageBean.java%3A1320)%0A%09at+oracle.apps.fnd.framework.webui.OAPageBean.preparePage(OAPageBean.java%3A557)%0A%09at+oracle.apps.fnd.framework.webui.OAPageBean.preparePage(OAPageBean.java%3A439)%0A%09at+_OA._jspService(_OA.java%3A213)%0A%09at+com.orionserver.http.OrionHttpJspPage.service(OrionHttpJspPage.java%3A59)%0A%09at+oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java%3A390)%0A%09at+oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java%3A594)%0A%09at+oracle.jsp.runtimev2.JspServlet.service(JspServlet.java%3A518)%0A%09at+javax.servlet.http.HttpServlet.service(HttpServlet.java%3A856)%0A%09at+com.evermind.server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java%3A734)%0A%09at+com.evermind.server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java%3A391)%0A%09at+com.evermind.server.http.ServletRequestDispatcher.unprivileged_forward(ServletRequestDispatcher.java%3A308)%0A%09at+com.evermind.server.http.ServletRequestDispatcher.access%24100(ServletRequestDispatcher.java%3A68)%0A%09at+com.evermind.server.http.ServletRequestDispatcher%242.oc4jRun(ServletRequestDispatcher.java%3A214)%0A%09at+oracle.oc4j.security.OC4JSecurity.doPrivileged(OC4JSecurity.java%3A284)%0A%09at+com.evermind.server.http.ServletRequestDispatcher.forward(ServletRequestDispatcher.java%3A219)%0A%09at+com.evermind.server.http.EvermindPageContext.forward(EvermindPageContext.java%3A407)%0A%09at+_RF._jspService(_RF.java%3A225)%0A%09at+com.orionserver.http.OrionHttpJspPage.service(OrionHttpJspPage.java%3A59)%0A%09at+oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java%3A390)%0A%09at+oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java%3A594)%0A%09at+oracle.jsp.runtimev2.JspServlet.service(JspServlet.java%3A518)%0A%09at+javax.servlet.http.HttpServlet.service(HttpServlet.java%3A856)%0A%09at+com.evermind.server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java%3A64)%0A%09at+oracle.apps.jtf.base.session.ReleaseResFilter.doFilter(ReleaseResFilter.java%3A26)%0A%09at+com.evermind.server.http.EvermindFilterChain.doFilter(EvermindFilterChain.java%3A15)%0A%09at+oracle.apps.fnd.security.AppsServletFilter.doFilter(AppsServletFilter.java%3A429)%0A%09at+com.evermind.server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java%3A642)%0A%09at+com.evermind.server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java%3A391)%0A%09at+com.evermind.server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java%3A911)%0A%09at+com.evermind.server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java%3A458)%0A%09at+com.evermind.server.http.AJPRequestHandler.run(AJPRequestHandler.java%3A313)%0A%09at+com.evermind.server.http.AJPRequestHandler.run(AJPRequestHandler.java%3A199)%0A%09at+oracle.oc4j.network.ServerSocketReadHandler%24SafeRunnable.run(ServerSocketReadHandler.java%3A260)%0A%09at+com.evermind.util.ReleasableResourcePooledExecutor%24MyWorker.run(ReleasableResourcePooledExecutor.java%3A303)%0A%09at+java.lang.Thread.run(Thread.java%3A619)%0Aoracle.apps.fnd.framework.OAException%3A+Application%3A+FND%2C+Message+Name%3A+FND_NO_TRANSACTION_ID.%0A%09at+oracle.apps.fnd.framework.webui.OAJSPHelper.getTransactionId(OAJSPHelper.java%3A352)%0A%09at+oracle.apps.fnd.framework.webui.OAJSPApplicationRegistry.registerApplicationModule(OAJSPApplicationRegistry.java%3A133)%0A%09at+oracle.apps.fnd.framework.webui.OAJSPApplicationRegistry.registerApplicationModule(OAJSPApplicationRegistry.java%3A78)%0A%09at+oracle.apps.fnd.framework.webui.OAPageBean.preparePage(OAPageBean.java%3A1320)%0A%09at+oracle.apps.fnd.framework.webui.OAPageBean.preparePage(OAPageBean.java%3A557)%0A%09at+oracle.apps.fnd.framework.webui.OAPageBean.preparePage(OAPageBean.java%3A439)%0A%09at+_OA._jspService(_OA.java%3A213)%0A%09at+com.orionserver.http.OrionHttpJspPage.service(OrionHttpJspPage.java%3A59)%0A%09at+oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java%3A390)%0A%09at+oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java%3A594)%0A%09at+oracle.jsp.runtimev2.JspServlet.service(JspServlet.java%3A518)%0A%09at+javax.servlet.http.HttpServlet.service(HttpServlet.java%3A856)%0A%09at+com.evermind.server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java%3A734)%0A%09at+com.evermind.server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java%3A391)%0A%09at+com.evermind.server.http.ServletRequestDispatcher.unprivileged_forward(ServletRequestDispatcher.java%3A308)%0A%09at+com.evermind.server.http.ServletRequestDispatcher.access%24100(ServletRequestDispatcher.java%3A68)%0A%09at+com.evermind.server.http.ServletRequestDispatcher%242.oc4jRun(ServletRequestDispatcher.java%3A214)%0A%09at+oracle.oc4j.security.OC4JSecurity.doPrivileged(OC4JSecurity.java%3A284)%0A%09at+com.evermind.server.http.ServletRequestDispatcher.forward(ServletRequestDispatcher.java%3A219)%0A%09at+com.evermind.server.http.EvermindPageContext.forward(EvermindPageContext.java%3A407)%0A%09at+_RF._jspService(_RF.java%3A225)%0A%09at+com.orionserver.http.OrionHttpJspPage.service(OrionHttpJspPage.java%3A59)%0A%09at+oracle.jsp.runtimev2.JspPageTable.service(JspPageTable.java%3A390)%0A%09at+oracle.jsp.runtimev2.JspServlet.internalService(JspServlet.java%3A594)%0A%09at+oracle.jsp.runtimev2.JspServlet.service(JspServlet.java%3A518)%0A%09at+javax.servlet.http.HttpServlet.service(HttpServlet.java%3A856)%0A%09at+com.evermind.server.http.ResourceFilterChain.doFilter(ResourceFilterChain.java%3A64)%0A%09at+oracle.apps.jtf.base.session.ReleaseResFilter.doFilter(ReleaseResFilter.java%3A26)%0A%09at+com.evermind.server.http.EvermindFilterChain.doFilter(EvermindFilterChain.java%3A15)%0A%09at+oracle.apps.fnd.security.AppsServletFilter.doFilter(AppsServletFilter.java%3A429)%0A%09at+com.evermind.server.http.ServletRequestDispatcher.invoke(ServletRequestDispatcher.java%3A642)%0A%09at+com.evermind.server.http.ServletRequestDispatcher.forwardInternal(ServletRequestDispatcher.java%3A391)%0A%09at+com.evermind.server.http.HttpRequestHandler.doProcessRequest(HttpRequestHandler.java%3A911)%0A%09at+com.evermind.server.http.HttpRequestHandler.processRequest(HttpRequestHandler.java%3A458)%0A%09at+com.evermind.server.http.AJPRequestHandler.run(AJPRequestHandler.java%3A313)%0A%09at+com.evermind.server.http.AJPRequestHandler.run(AJPRequestHandler.java%3A199)%0A%09at+oracle.oc4j.network.ServerSocketReadHandler%24SafeRunnable.run(ServerSocketReadHandler.java%3A260)%0A%09at+com.evermind.util.ReleasableResourcePooledExecutor%24MyWorker.run(ReleasableResourcePooledExecutor.java%3A303)%0A%09at+java.lang.Thread.run(Thread.java%3A619)%0A"></HEAD>
+<BODY style="MARGIN-TOP: 0px; MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px">
+<TABLE class=globalheader cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD style="PADDING-TOP: 10px; PADDING-LEFT: 5px"><IMG alt="" src="/OA_MEDIA/FNDSSCORP.gif"> </TD></TR>
+<TR>
+<TD style="PADDING-BOTTOM: 5px; PADDING-RIGHT: 5px" align=right ;><A class=globalLink href="/OA_HTML/OALogout.jsp">Logout </A></TD></TR></TBODY></TABLE>
+<P>
+<TABLE style="MARGIN-LEFT: 5px; MARGIN-RIGHT: 5px" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD>
+<H1 class=errorHeader>Error Page </H1></TD></TR>
+<TR vAlign=top>
+<TD class=errorText>You have encountered an unexpected error. Please contact the System Administrator for assistance. </TD></TR>
+<TR>
+<TD class=errorText style="PADDING-BOTTOM: 15px">Click <SPAN class=pageLink><A href='javascript:ignoreWarnAboutChanges("/OA_HTML/OAErrorDetailPage.jsp")'>here </A></SPAN>for exception details. </TD></TR>
+<TR>
+<TD class=errorText style="PADDING-BOTTOM: 25px">&nbsp; </TD></TR></TBODY></TABLE>
+<TABLE style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/footerBg.gif)" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD noWrap align=center>
+<TABLE cellSpacing=0 cellPadding=0 align=center border=0>
+<TBODY>
+<TR>
+<TD><A class=globalLink href="/OA_HTML/OALogout.jsp?menu=Y">Logout</A></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD>
+<TABLE cellSpacing=2 cellPadding=2 width="100%" border=0>
+<TBODY>
+<TR>
+<TD class=copyright width="100%" noWrap align=right>Copyright (c) 2006, Oracle. All rights reserved. </TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<SCRIPT>document.body.style.marginLeft="0px";document.body.style.marginRight="0px";document.body.style.marginTop="0px";</SCRIPT>
+</P></BODY></HTML>

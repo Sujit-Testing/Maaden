@@ -1,0 +1,1127 @@
+<HTML lang=en-US-ORACLE9I style="VISIBILITY: visible" dir=ltr><HEAD><TITLE>Oracle iProcurement: Shop</TITLE>
+<META name=generator content="Oracle UIX"><LINK rel=stylesheet type=text/css href="/OA_HTML/cabo/styles/cache/swan-desktop-custom-2_3_6_9-en-ie-windows.css" charset=UTF-8>
+<SCRIPT>var _UixWindowOpenError='A popup window blocker has been detected in your browser. Popup blockers interfere with the operation of this application. Please disable your popup blocker or allow popups from this site.';</SCRIPT>
+
+<SCRIPT src="/OA_HTML/cabo/jsLibs/Common2_3_6_9.js"></SCRIPT>
+
+<SCRIPT>_defaultTZ()</SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oafcoreR121.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oafb.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/OAFSlideoutMenu.js"></SCRIPT>
+
+<SCRIPT language=javascript>function help_window() { help_win = window.open("http://riyoramgbm02.maaden.com:8050/OA_HTML/help?locale=en_US&group=FND:LIBRARY:US&topic=US/ICX/@search", "help_win","resizable=yes,scrollbars=yes,toolbar=yes,width=600,height=500")}</SCRIPT>
+</HEAD>
+<BODY class=xk onload="return _chain('_checkLoad(event)','oafsm.setup(&quot;topmenubar&quot;, &quot;topbar&quot;,escape(\\'RF.jsp?function_id=MAINMENUREST&amp;security_group_id=0\\'),\\'false\\',false);',this,event)" style="MARGIN-TOP: 0px; MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px" onbeforeunload=_savePageStateIE() onunload=_checkUnload(event)><IFRAME id=_pprIFrame title="" style="POSITION: absolute; TOP: -100px; VISIBILITY: hidden" height=0 longDesc=# src="/OA_HTML/cabo/images/swan/t.htm" frameBorder=0 width=0 name=_pprIFrame></IFRAME>
+<DIV onclick="return _pprConsumeClick(event);" onkeypress="return false;" onkeyup="return false;" id=_pprBlockingDiv onkeydown="return false;" style="CURSOR: wait; HEIGHT: 0px; WIDTH: 0px; POSITION: absolute; LEFT: 0px; TOP: 0px"></DIV>
+<DIV id=_uixDownload class=x3f style="BEHAVIOR: url(#default#download)"></DIV>
+<SCRIPT>var _cachedLibs;</SCRIPT>
+
+<SCRIPT>var _pprFirstClickPass=true;</SCRIPT>
+<SPAN id=_pprPageContent>
+<FORM id=DefaultFormName style="MARGIN: 0px" method=post name=DefaultFormName action=/OA_HTML/OA.jsp?page=/oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG&amp;_ti=1717010331&amp;OAMC=78349_88_0&amp;menu=Y&amp;oaMenuLevel=1&amp;oapc=15&amp;oas=Y9GzZ7oGbS7P2OLsxaCS3A..><INPUT id=_AM_TX_ID_FIELD type=hidden value=3 name=_AM_TX_ID_FIELD><INPUT id=_FORM type=hidden value=DefaultFormName name=_FORM><SPAN id=lovHFCId></SPAN><SPAN id=PageLayoutRN>
+<TABLE class=x6u style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/headerBg.jpg)" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD>
+<SCRIPT>var _tURL="\\x2FOA_HTML\\x2Fcabo\\x2Fimages\\x2Fswan\\x2Ft.gif";var _axm;t('10','10')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=10></TD></TR>
+<TR>
+<TD>
+<TABLE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD vAlign=top width="1%" noWrap><IMG border=0 alt=Maaden_logo1.jpg src="/OA_MEDIA/Maaden_logo1.jpg"></TD>
+<TD noWrap><SPAN title=iProcurement style="POSITION: absolute"><SPAN class=x4i>iProcurement</SPAN></SPAN>
+<SCRIPT>t('0','14')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=0 height=14></TD>
+<TD></TD>
+<TD></TD></TR>
+<TR>
+<TD></TD>
+<TD style="POSITION: relative; PADDING-BOTTOM: 8px; Z-INDEX: 10" vAlign=bottom colSpan=2 align=right>
+<TABLE class=x6w cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=bottom><LINK rel=stylesheet type=text/css href="cabo/styles/OAFSlideoutMenu.css">
+<DIV id=topmenubar style="WIDTH: 300px">
+<UL>
+<P style="FONT-SIZE: 12px; FONT-FAMILY: Arial; COLOR: white"><IMG class=image src="/OA_MEDIA/home.gif"><A id=SNAV class=Menu href="#" name=Menu rel=MenuList _master="topmenubar" _pos="0" _istoplevel="true">&nbsp;Navigator<IMG class=drimage1 src="/OA_MEDIA/drop_arrow.gif"></A><IMG class=image src="/OA_MEDIA/favorites.gif" align=absMiddle><A id=SFAV class=Fav href="#" name=Fav rel=FavList _master="topmenubar" _pos="1" _istoplevel="true">&nbsp;Favorites<IMG class=drimage src="/OA_MEDIA/drop_arrow.gif"></A></P></UL></DIV>
+<DIV id=SDivTop style="POSITION: absolute; DISPLAY: none"></DIV>
+<DIV id=SFavTop style="POSITION: absolute; DISPLAY: none"></DIV></TD>
+<TD vAlign=bottom><A class=x15 href="/OA_HTML/OA.jsp?page=/oracle/apps/icx/por/req/webui/ShoppingCartPG&amp;OASF=ICX_POR_SHOPPING_CART&amp;_ti=1717010331&amp;oapc=15&amp;OAMC=78349_75_0&amp;menu=Y&amp;oas=y6r5KDdslZbJWGPgk5LazA..">Shopping Cart</A></TD>
+<TD vAlign=bottom><A class=x15 href="OA.jsp?_rc=FNDPORTALRELEASEAM&amp;_ri=0&amp;retainAM=N&amp;_ti=1717010331&amp;oapc=15&amp;OAMC=78349_77_0&amp;menu=Y&amp;oas=CpOhOuuVTazCTFx9IF0AnA..">Home</A></TD>
+<TD vAlign=bottom><A class=x15 href="/OA_HTML/OALogout.jsp?menu=Y">Logout</A></TD>
+<TD vAlign=bottom><A class=x15 href="/OA_HTML/OA.jsp?page=/oracle/apps/fnd/preferences/webui/PreferencesPG&amp;retainAM=Y&amp;_ti=1717010331&amp;oapc=15&amp;OAMC=78349_79_0&amp;menu=Y&amp;addBreadCrumb=S&amp;OAPF=Y&amp;oas=K6Kw2mm-IC-cXFde4h96OA..">Preferences</A></TD>
+<TD vAlign=bottom><A class=x15 href="javascript:top.help_window()">Help</A></TD>
+<TD vAlign=bottom><A class=x15 href="javascript:ignoreWarnAboutChanges(%22%2FOA_HTML%2FOA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.PageLayoutRN%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.PageLayoutRN%26pv%3DSPS%26_ti%3D1717010331%26oapc%3D15%26OAIG%3D11213%26menu%3DY%26oas%3DTIrSctA3Jq31r4of1QVskg..%22)">Personalize Page</A></TD>
+<TD vAlign=bottom><A class=x15 href="/OA_HTML/OA.jsp?_rc=FND_DIAGNOSTICS_PAGE&amp;_ri=0&amp;retainAM=Y&amp;LogRetUrl=%2FOA_HTML%2FOA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ficx%2Ficatalog%2Fshopping%2Fwebui%2FShoppingHomePG%26transactionid%3D1717010331%26OAMC%3D78349_88_0%26menu%3DY%26oaMenuLevel%3D1%26oas%3DThV999UIXX65iNIt-P9BxQ..&amp;_ti=1717010331&amp;oapc=15&amp;OAIG=9404&amp;menu=Y&amp;oas=eAHxDy3WORbnitx_acBDQw..">Diagnostics</A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD vAlign=bottom colSpan=4 align=left>
+<TABLE class=x1j cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD height=21 width=8><IMG border=0 src="/OA_HTML/cabo/images/swan/topTabL.gif" width=8 height=21></TD>
+<TD class=x1l style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/topTabBg.gif)" background=/OA_HTML/cabo/images/swan/topTabBg.gif noWrap><A id=ICXPOR_SHOP title=Shop href="/OA_HTML/OA.jsp?page=/oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG&amp;_ti=1717010331&amp;oapc=15&amp;OAMC=78349_88_0&amp;menu=Y&amp;oaMenuLevel=1&amp;oas=UFWGjXIBtIS-R-RtnV6KFw.." name=ICXPOR_SHOP>Shop</A></TD>
+<TD height=21 width=18><IMG border=0 src="/OA_HTML/cabo/images/swan/topTabADjoint.gif" width=18 height=21></TD>
+<TD class=x1k style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/topDimTabBg.gif)" background=/OA_HTML/cabo/images/swan/topDimTabBg.gif noWrap><A id=ICXPOR_REQSTATUS title=Requisitions href="/OA_HTML/OA.jsp?page=/oracle/apps/icx/por/reqmgmt/webui/ReqSummaryPG&amp;_ti=1717010331&amp;oapc=15&amp;OAMC=78349_101_0&amp;menu=Y&amp;oaMenuLevel=1&amp;oas=RaB9NGdqNJszTVtLMptskQ.." name=ICXPOR_REQSTATUS>Requisitions</A></TD>
+<TD height=21 width=18><IMG border=0 src="/OA_HTML/cabo/images/swan/topTabDDjoint.gif" width=18 height=21></TD>
+<TD class=x1k style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/topDimTabBg.gif)" background=/OA_HTML/cabo/images/swan/topDimTabBg.gif noWrap><A id=ICXPOR_RECEIVING_HOME title=Receiving href="/OA_HTML/OA.jsp?page=/oracle/apps/icx/por/rcv/webui/IcxPorRcvHomePG&amp;_ti=1717010331&amp;oapc=15&amp;OAMC=78349_141_0&amp;menu=Y&amp;oaMenuLevel=1&amp;oas=lUDrOYLMTVAeV08VHkJWUg.." name=ICXPOR_RECEIVING_HOME>Receiving</A></TD>
+<TD height=21 width=18><IMG border=0 src="/OA_HTML/cabo/images/swan/topTabDDjoint.gif" width=18 height=21></TD>
+<TD class=x1k style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/topDimTabBg.gif)" background=/OA_HTML/cabo/images/swan/topDimTabBg.gif noWrap><A id=ICX_POR_CONTRACTOR title=Contractors href="/OA_HTML/OA.jsp?page=/oracle/apps/icx/por/contractor/webui/ContractorHomePG&amp;_ti=1717010331&amp;oapc=15&amp;OAMC=78349_160_0&amp;menu=Y&amp;oaMenuLevel=1&amp;oas=ERecPqueHsd1gj9TraZJzA.." name=ICX_POR_CONTRACTOR>Contractors</A></TD>
+<TD height=21 width=8><IMG border=0 src="/OA_HTML/cabo/images/swan/topDimTabR.gif" width=8 height=21></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD width="100%">
+<TABLE class=x18 cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD height=22 width=1><IMG border=0 src="/OA_HTML/cabo/images/swan/navBarUnderTopTabsBg.gif" width=1 height=22></TD>
+<TD class=OraGlobalHeaderBody background=/OA_HTML/cabo/images/swan/navBarUnderTopTabsBg.gif>
+<TABLE cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD class=x1a><A id=ICXPOR_STORES title=Stores href="/OA_HTML/OA.jsp?page=/oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG&amp;_ti=1717010331&amp;oapc=15&amp;OAMC=78349_88_0&amp;menu=Y&amp;oaMenuLevel=2&amp;oas=X-_12lX73hlMJzXdvS6tcA.." name=ICXPOR_STORES>Stores</A></TD>
+<TD class=x1b height=22 width=15><IMG border=0 src="/OA_HTML/cabo/images/swan/separator.gif" width=15 height=22></TD>
+<TD class=x19><A id=ICXPOR_SHOPLISTS title="Shopping Lists" href="/OA_HTML/OA.jsp?OAFunc=ICX_CAT_SEARCH_RESULTS&amp;mode=search&amp;searchOrigin=favoriteList&amp;OASF=ICX_CAT_FAVORITES_LIST_ITEMS&amp;_ti=1717010331&amp;oapc=15&amp;oas=_lOUQDQnK7cCDQGOicNHzg.." name=ICXPOR_SHOPLISTS>Shopping Lists</A></TD>
+<TD class=x1b height=22 width=15><IMG border=0 src="/OA_HTML/cabo/images/swan/separator.gif" width=15 height=22></TD>
+<TD class=x19><A id=ICX_POR_CONTRACTOR_REQUEST title="Contractor Request" href="/OA_HTML/OA.jsp?page=/oracle/apps/icx/por/req/webui/ContractorRequestPG&amp;_ti=1717010331&amp;oapc=15&amp;OAMC=78349_99_0&amp;menu=Y&amp;oaMenuLevel=2&amp;oas=RivCBaoZdMkkMK5UPRCi4Q.." name=ICX_POR_CONTRACTOR_REQUEST>Contractor Request</A></TD></TR></TBODY></TABLE></TD>
+<TD height=22 width=1><IMG border=0 src="/OA_HTML/cabo/images/swan/navBarUnderTopTabsBg.gif" width=1 height=22></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD width="100%">
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD class=x4b width="100%" colSpan=3>
+<TABLE id=SearchBox cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR id=SpacerBoxRow>
+<TD id=SpacerBoxCell>
+<SCRIPT id=SpacerBoxSpacer>t('5','5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=5></TD></TR>
+<TR id=SearchBoxRow>
+<TD id=ControlsCell>
+<DIV id=ControlsTableLayout_p13n><A id=N48 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/SearchBoxRN.ControlsTableLayout" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FSearchBoxRN.ControlsTableLayout%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswSearchBoxRN.ControlsTableLayout%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3DmRRqzgklD8nQ-8H-ql_3Wg..%22)">Personalize Table Layout: (ControlsTableLayout)</A>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=ControlsTableLayout cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR id=ControlsRow>
+<TD id=SearchableStoresRN>
+<TABLE id=SearchableStores__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD noWrap align=right><SPAN class=xc>Search</SPAN></TD>
+<TD width=12>
+<SCRIPT>t('12')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top><SELECT onchange="" id=SearchableStores class=x8 name=SearchableStores><OPTION value=122022>ALS WATER SAMPLING ANALYSIS</OPTION><OPTION value=100022>Car Lease</OPTION><OPTION value=102022>Electrical Consumable</OPTION><OPTION value=101023>Fabricated tools</OPTION><OPTION value=106022>Footware</OPTION><OPTION value=101024>Industrial Gas</OPTION><OPTION value=100001>Industrial Tools</OPTION><OPTION value=100004>Lab Supplies</OPTION><OPTION value=167029>MA Contract Service Requests.</OPTION><OPTION value=120023>MA Procurement SOP and Work Instructions</OPTION><OPTION value=131023>MA\E2\80\99ADEN Global Agreements</OPTION><OPTION value=103022>Mechanical Consumable</OPTION><OPTION value=107022>Motor Repair</OPTION><OPTION value=119022>Non Catalog Requests</OPTION><OPTION selected value=100000>Office Supplies (global)</OPTION><OPTION value=104022>Opticals - Eyeware</OPTION><OPTION value=105023>Rental Equipment</OPTION><OPTION value=126027>WEIR ARABIAN METALS COMPANY</OPTION><OPTION value=118022>Waste Management</OPTION></SELECT>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD id=SearchBoxCell>
+<TABLE id=SearchTextInput__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><INPUT onchange="" onkeypress="return _chain('if(_getKC(event)==13){submitForm(\\'DefaultFormName\\',1,{\\'event\\':\\'search\\'});return false;};return true;','return _submitOnEnter(event, \\'DefaultFormName\\');',this,event,true)" id=SearchTextInput title="Search Text" class=x8 maxLength=700 size=15 value=h name=SearchTextInput _tempFunc="undefined">
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD id=GoButtonCell>
+<SCRIPT id=GoButtonSpacer>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1><BUTTON onclick="return _chain('submitForm(\\'DefaultFormName\\',1,{\\'evtSrcRowIdx\\':\\'\\',\\'evtSrcRowId\\':\\'\\',event:\\'search\\',source:\\'SearchBoxGo\\'});return false;','submitForm(\\'DefaultFormName\\',1,{\\'_FORM_SUBMIT_BUTTON\\':\\'SearchBoxGo\\'});return false',this,event,true)" id=SearchBoxGo title="Executes a search." class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)" type=submit>Go</BUTTON></TD>
+<TD id=AdvancedSearchLinkCell>
+<SCRIPT id=AdvancedSearchLinkSpacer>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1><A onclick="submitForm('DefaultFormName',1,{'evtSrcRowIdx':'','evtSrcRowId':'',event:'advancedSearch',source:'AdvancedSearchLink'});return false;" id=AdvancedSearchLink class=xh href="#">Advanced Search</A></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE class=x6t style="HEIGHT: auto" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD>
+<SCRIPT>t(0,0)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=0 height=0></TD>
+<TD colSpan=2>
+<DIV class=xl></DIV>
+<TABLE id=FwkErrorBeanId cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE></TD>
+<TD>
+<SCRIPT>t(0,0)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=0 height=0></TD></TR>
+<TR>
+<TD>
+<SCRIPT>t(0,0)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=0 height=0></TD>
+<TD class=x7x vAlign=top width="100%">
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR vAlign=top>
+<TD></TD>
+<TD noWrap align=right></TD></TR></TBODY></TABLE>
+<DIV></DIV><NOSCRIPT></NOSCRIPT>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=WelcomeRN cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD width=20>
+<SCRIPT>t(20)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20></TD>
+<TD vAlign=top width="100%">
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR id=WelcomeMsg__xc_>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><SPAN id=WelcomeMsg class=x0>Welcome, Shaji Peethambaran! MAC ROLLING IPROCUREMENT</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV id=ShopRN>
+<DIV class=x6a>
+<TABLE class=x7b style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/headingBarBg.gif)" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD width="100%">
+<H1 class=x7c>Stores</H1></TD></TR></TBODY></TABLE></DIV>
+<DIV class=x79>
+<DIV parent="OAHeaderBean, localName='header'"><A id=N33 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.ShopRN" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.ShopRN%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.ShopRN%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3D1I_1Y8RHvo2wAFdsd3y09w..%22)">Personalize "Stores"</A></DIV>
+<DIV id=AllStoresTableLayout_p13n><A id=N34 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresTableLayout" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresTableLayout%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresTableLayout%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3DqfArsjutAaJpTqlr5ctYOw..%22)">Personalize Table Layout: (AllStoresTableLayout)</A>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresTableLayout cellSpacing=5 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR id=AllStoresRow_0__622>
+<TD id=AllStoresCell1_0__622 vAlign=top width="33%">
+<DIV id=AllStoresTableLayout1_p13n><A id=N35 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresTableLayout1" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresTableLayout1%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresTableLayout1%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3DkFojiSDvKaBZ8Ek485S25g..%22)">Personalize Table Layout: (AllStoresTableLayout1)</A>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresTableLayout1_0__622 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR id=AllStoresRow1_0__622>
+<TD id=AllStoresImageCell1_0__622><A onclick="submitForm('DefaultFormName',1,{'storeId':'{!!JVzLS3PAAHTVo.yMbmg.sw','storeName':'{!!ghZV7JxeFqlW6rDqymHEI.cdv8oNWJVUrmCXFNUOhFU','evtSrcRowId':'RequisitionAM.DisplayStoresVO','evtSrcRowIdx':'0',event:'storeClick',source:'AllStoresImage1'});return false;" id=AllStoresImage1_0__622 href="#" name=AllStoresImage1_0__622><IMG border=0 alt="This is the store's image." src="/OA_MEDIA/Office%20Supplies.gif"></A></TD>
+<TD id=AllStoresSpacerCell1_0__622 width=5>
+<SCRIPT id=AllStoresSpacer1>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD id=AllStoresInfoCell1_0__622><SPAN id=AllStoresRN1_0__622>
+<DIV parent="OAStackLayoutBean, localName='stackLayout'"><A id=N36 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresRN1" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresRN1%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresRN1%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3DkDSDCaEqQ6mt6KxRNfcu6g..%22)">Personalize Stack Layout: (AllStoresRN1)</A></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresName1_0__622__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><A onclick="submitForm('DefaultFormName',1,{'storeId':'{!!JVzLS3PAAHTVo.yMbmg.sw','storeName':'{!!ghZV7JxeFqlW6rDqymHEI.cdv8oNWJVUrmCXFNUOhFU','evtSrcRowId':'RequisitionAM.DisplayStoresVO','evtSrcRowIdx':'0',event:'storeClick',source:'AllStoresName1'});return false;" id=AllStoresName1_0__622 class=xh href="#">Office Supplies (global)</A>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE id=AllStoresShortDesc1_0__622__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><SPAN id=AllStoresShortDesc1_0__622 class=x0>Gift Mart</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></SPAN></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV></TD>
+<TD id=AllStoresCell2_0__622 vAlign=top width="33%">
+<DIV id=AllStoresTableLayout2_p13n><A id=N37 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresTableLayout2" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresTableLayout2%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresTableLayout2%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3D7w6MfcEaFcg3q686R7yrQg..%22)">Personalize Table Layout: (AllStoresTableLayout2)</A>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresTableLayout2_0__622 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR id=AllStoresRow2_0__622>
+<TD id=AllStoresImageCell2_0__622><A onclick="submitForm('DefaultFormName',1,{'storeId':'{!!mnUxokMJRQKFlKxnfgr14Q','storeName':'{!!GccAlF5OdRzv2Fg.Pn2d8dNlzKGFKsY1NgFw1S065cTSMwREgkKk7vrEaIFL4JTO','evtSrcRowId':'RequisitionAM.DisplayStoresVO','evtSrcRowIdx':'0',event:'storeClick',source:'AllStoresImage2'});return false;" id=AllStoresImage2_0__622 href="#" name=AllStoresImage2_0__622></A></TD>
+<TD id=AllStoresSpacerCell2_0__622 width=5>
+<SCRIPT id=AllStoresSpacer2>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD id=AllStoresInfoCell2_0__622><SPAN id=AllStoresRN2_0__622>
+<DIV parent="OAStackLayoutBean, localName='stackLayout'"><A id=N38 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresRN2" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresRN2%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresRN2%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3DgI_dQ7JlceJZ0dH81lGEMA..%22)">Personalize Stack Layout: (AllStoresRN2)</A></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresName2_0__622__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><A onclick="submitForm('DefaultFormName',1,{'storeId':'{!!mnUxokMJRQKFlKxnfgr14Q','storeName':'{!!GccAlF5OdRzv2Fg.Pn2d8dNlzKGFKsY1NgFw1S065cTSMwREgkKk7vrEaIFL4JTO','evtSrcRowId':'RequisitionAM.DisplayStoresVO','evtSrcRowIdx':'0',event:'storeClick',source:'AllStoresName2'});return false;" id=AllStoresName2_0__622 class=xh href="#">MA Contract Service Requests.</A>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE id=AllStoresShortDesc2_0__622__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><SPAN id=AllStoresShortDesc2_0__622 class=x0>All service based contracts.</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></SPAN></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV></TD>
+<TD id=AllStoresCell3_0__622 vAlign=top width="34%">
+<DIV id=AllStoresTableLayout3_p13n><A id=N39 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresTableLayout3" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresTableLayout3%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresTableLayout3%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3DAdqRXD8rLhtTcH6QFWqP5A..%22)">Personalize Table Layout: (AllStoresTableLayout3)</A>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresTableLayout3_0__622 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR id=AllStoresRow3_0__622>
+<TD id=AllStoresImageCell3_0__622><A onclick="submitForm('DefaultFormName',1,{'storeId':'{!!mq8FlFM7P1UAIpiyKJV2Pw','storeName':'{!!Sf4ShT2sjHZKsSnhNEVtIvYr83XS.fEyIAvK95h5EoE','evtSrcRowId':'RequisitionAM.DisplayStoresVO','evtSrcRowIdx':'0',event:'storeClick',source:'AllStoresImage3'});return false;" id=AllStoresImage3_0__622 href="#" name=AllStoresImage3_0__622><IMG border=0 alt="This is the store's image." src="http://maconnect/MASharedServices/contractsandprocurement/Policy%20and%20Procedures/Z_Catalog_Images/Stores/Waste.jpg"></A></TD>
+<TD id=AllStoresSpacerCell3_0__622 width=5>
+<SCRIPT id=AllStoresSpacer3>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD id=AllStoresInfoCell3_0__622><SPAN id=AllStoresRN3_0__622>
+<DIV parent="OAStackLayoutBean, localName='stackLayout'"><A id=N40 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresRN3" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresRN3%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresRN3%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3DVHUL0NH5xtQlWd3fU2-7Yg..%22)">Personalize Stack Layout: (AllStoresRN3)</A></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresName3_0__622__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><A onclick="submitForm('DefaultFormName',1,{'storeId':'{!!mq8FlFM7P1UAIpiyKJV2Pw','storeName':'{!!Sf4ShT2sjHZKsSnhNEVtIvYr83XS.fEyIAvK95h5EoE','evtSrcRowId':'RequisitionAM.DisplayStoresVO','evtSrcRowIdx':'0',event:'storeClick',source:'AllStoresName3'});return false;" id=AllStoresName3_0__622 class=xh href="#">Waste Management</A>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE id=AllStoresShortDesc3_0__622__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><SPAN id=AllStoresShortDesc3_0__622></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></SPAN></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV></TD></TR>
+<TR id=AllStoresRow_1__626>
+<TD id=AllStoresCell1_1__626 vAlign=top width="33%">
+<DIV id=AllStoresTableLayout1_p13n><A id=N35 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresTableLayout1" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresTableLayout1%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresTableLayout1%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3DkFojiSDvKaBZ8Ek485S25g..%22)">Personalize Table Layout: (AllStoresTableLayout1)</A>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresTableLayout1_1__626 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR id=AllStoresRow1_1__626>
+<TD id=AllStoresImageCell1_1__626><A onclick="submitForm('DefaultFormName',1,{'storeId':'{!!IfZJ69C9nGwXyccFzFm7sg','storeName':'{!!w5lE3qpvYRIATsW5hoCZxZg9iWcDCdCKBgdDP2jAnVs','evtSrcRowId':'RequisitionAM.DisplayStoresVO','evtSrcRowIdx':'1',event:'storeClick',source:'AllStoresImage1'});return false;" id=AllStoresImage1_1__626 href="#" name=AllStoresImage1_1__626><IMG border=0 alt="This is the store's image." src="http://maconnect/MASharedServices/contractsandprocurement/Policy%20and%20Procedures/Z_Catalog_Images/Stores/fabricated_tools.jpg"></A></TD>
+<TD id=AllStoresSpacerCell1_1__626 width=5>
+<SCRIPT id=AllStoresSpacer1>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD id=AllStoresInfoCell1_1__626><SPAN id=AllStoresRN1_1__626>
+<DIV parent="OAStackLayoutBean, localName='stackLayout'"><A id=N36 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresRN1" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresRN1%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresRN1%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3DkDSDCaEqQ6mt6KxRNfcu6g..%22)">Personalize Stack Layout: (AllStoresRN1)</A></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresName1_1__626__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><A onclick="submitForm('DefaultFormName',1,{'storeId':'{!!IfZJ69C9nGwXyccFzFm7sg','storeName':'{!!w5lE3qpvYRIATsW5hoCZxZg9iWcDCdCKBgdDP2jAnVs','evtSrcRowId':'RequisitionAM.DisplayStoresVO','evtSrcRowIdx':'1',event:'storeClick',source:'AllStoresName1'});return false;" id=AllStoresName1_1__626 class=xh href="#">Fabricated tools</A>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE id=AllStoresShortDesc1_1__626__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><SPAN id=AllStoresShortDesc1_1__626></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></SPAN></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV></TD>
+<TD id=AllStoresCell2_1__626 vAlign=top width="33%">
+<DIV id=AllStoresTableLayout2_p13n><A id=N37 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresTableLayout2" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresTableLayout2%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresTableLayout2%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3D7w6MfcEaFcg3q686R7yrQg..%22)">Personalize Table Layout: (AllStoresTableLayout2)</A>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresTableLayout2_1__626 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR id=AllStoresRow2_1__626>
+<TD id=AllStoresImageCell2_1__626><A onclick="submitForm('DefaultFormName',1,{'storeId':'{!!Lh5yexY1aKy4BepTT8JCCg','storeName':'{!!2icdDRelyacswCt.SlihlpFnfdAp0G9tzEXCH06D8bg','evtSrcRowId':'RequisitionAM.DisplayStoresVO','evtSrcRowIdx':'1',event:'storeClick',source:'AllStoresImage2'});return false;" id=AllStoresImage2_1__626 href="#" name=AllStoresImage2_1__626><IMG border=0 alt="This is the store's image." src="http://maconnect/MASharedServices/contractsandprocurement/Policy%20and%20Procedures/Z_Catalog_Images/Stores/industrial_gas.jpg"></A></TD>
+<TD id=AllStoresSpacerCell2_1__626 width=5>
+<SCRIPT id=AllStoresSpacer2>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD id=AllStoresInfoCell2_1__626><SPAN id=AllStoresRN2_1__626>
+<DIV parent="OAStackLayoutBean, localName='stackLayout'"><A id=N38 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresRN2" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresRN2%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresRN2%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3DgI_dQ7JlceJZ0dH81lGEMA..%22)">Personalize Stack Layout: (AllStoresRN2)</A></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresName2_1__626__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><A onclick="submitForm('DefaultFormName',1,{'storeId':'{!!Lh5yexY1aKy4BepTT8JCCg','storeName':'{!!2icdDRelyacswCt.SlihlpFnfdAp0G9tzEXCH06D8bg','evtSrcRowId':'RequisitionAM.DisplayStoresVO','evtSrcRowIdx':'1',event:'storeClick',source:'AllStoresName2'});return false;" id=AllStoresName2_1__626 class=xh href="#">Industrial Gas</A>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE id=AllStoresShortDesc2_1__626__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><SPAN id=AllStoresShortDesc2_1__626></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></SPAN></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV></TD>
+<TD id=AllStoresCell3_1__626 vAlign=top width="34%">
+<DIV id=AllStoresTableLayout3_p13n><A id=N39 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresTableLayout3" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresTableLayout3%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresTableLayout3%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3DAdqRXD8rLhtTcH6QFWqP5A..%22)">Personalize Table Layout: (AllStoresTableLayout3)</A>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresTableLayout3_1__626 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR id=AllStoresRow3_1__626>
+<TD id=AllStoresImageCell3_1__626><A onclick="submitForm('DefaultFormName',1,{'storeId':'{!!Urh2PNEFkOCGFkKgzv-Oww','storeName':'{!!p5Aarre-6vrSQ5BArTB.Ktf.G1uKa2354x9i1BBHGOM','evtSrcRowId':'RequisitionAM.DisplayStoresVO','evtSrcRowIdx':'1',event:'storeClick',source:'AllStoresImage3'});return false;" id=AllStoresImage3_1__626 href="#" name=AllStoresImage3_1__626></A></TD>
+<TD id=AllStoresSpacerCell3_1__626 width=5>
+<SCRIPT id=AllStoresSpacer3>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD id=AllStoresInfoCell3_1__626><SPAN id=AllStoresRN3_1__626>
+<DIV parent="OAStackLayoutBean, localName='stackLayout'"><A id=N40 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresRN3" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresRN3%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresRN3%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3DVHUL0NH5xtQlWd3fU2-7Yg..%22)">Personalize Stack Layout: (AllStoresRN3)</A></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresName3_1__626__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><A onclick="submitForm('DefaultFormName',1,{'storeId':'{!!Urh2PNEFkOCGFkKgzv-Oww','storeName':'{!!p5Aarre-6vrSQ5BArTB.Ktf.G1uKa2354x9i1BBHGOM','evtSrcRowId':'RequisitionAM.DisplayStoresVO','evtSrcRowIdx':'1',event:'storeClick',source:'AllStoresName3'});return false;" id=AllStoresName3_1__626 class=xh href="#">ALS WATER SAMPLING ANALYSIS</A>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE id=AllStoresShortDesc3_1__626__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><SPAN id=AllStoresShortDesc3_1__626></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></SPAN></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV></TD></TR>
+<TR id=AllStoresRow_2__630>
+<TD id=AllStoresCell1_2__630 vAlign=top width="33%">
+<DIV id=AllStoresTableLayout1_p13n><A id=N35 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresTableLayout1" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresTableLayout1%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresTableLayout1%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3DkFojiSDvKaBZ8Ek485S25g..%22)">Personalize Table Layout: (AllStoresTableLayout1)</A>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresTableLayout1_2__630 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR id=AllStoresRow1_2__630>
+<TD id=AllStoresImageCell1_2__630><A onclick="submitForm('DefaultFormName',1,{'storeId':'{!!UpfFjbXTzds.szSREeCFZA','storeName':'{!!.YDGT2.7ykMifICZyvaCy834pZqcwwQUDIq1.MfS8o8','evtSrcRowId':'RequisitionAM.DisplayStoresVO','evtSrcRowIdx':'2',event:'storeClick',source:'AllStoresImage1'});return false;" id=AllStoresImage1_2__630 href="#" name=AllStoresImage1_2__630></A></TD>
+<TD id=AllStoresSpacerCell1_2__630 width=5>
+<SCRIPT id=AllStoresSpacer1>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD id=AllStoresInfoCell1_2__630><SPAN id=AllStoresRN1_2__630>
+<DIV parent="OAStackLayoutBean, localName='stackLayout'"><A id=N36 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresRN1" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresRN1%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresRN1%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3DkDSDCaEqQ6mt6KxRNfcu6g..%22)">Personalize Stack Layout: (AllStoresRN1)</A></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresName1_2__630__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><A onclick="submitForm('DefaultFormName',1,{'storeId':'{!!UpfFjbXTzds.szSREeCFZA','storeName':'{!!.YDGT2.7ykMifICZyvaCy834pZqcwwQUDIq1.MfS8o8','evtSrcRowId':'RequisitionAM.DisplayStoresVO','evtSrcRowIdx':'2',event:'storeClick',source:'AllStoresName1'});return false;" id=AllStoresName1_2__630 class=xh href="#">Non Catalog Requests</A>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE id=AllStoresShortDesc1_2__630__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><SPAN id=AllStoresShortDesc1_2__630 class=x0>Request for any goods or services not part of an existing catalog</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></SPAN></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV></TD>
+<TD id=AllStoresCell2_2__630 vAlign=top width="33%">
+<DIV id=AllStoresTableLayout2_p13n><A id=N37 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresTableLayout2" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresTableLayout2%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresTableLayout2%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3D7w6MfcEaFcg3q686R7yrQg..%22)">Personalize Table Layout: (AllStoresTableLayout2)</A>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresTableLayout2_2__630 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR id=AllStoresRow2_2__630>
+<TD id=AllStoresImageCell2_2__630><A onclick="submitForm('DefaultFormName',1,{'storeId':'{!!kuBF5I1H1hp45RfvyZzQnA','storeName':'{!!z2xk.wIKI3qS1d-evbLi7oi4xCE2dPv87Xjcf8qxDHo','evtSrcRowId':'RequisitionAM.DisplayStoresVO','evtSrcRowIdx':'2',event:'storeClick',source:'AllStoresImage2'});return false;" id=AllStoresImage2_2__630 href="#" name=AllStoresImage2_2__630><IMG border=0 alt="This is the store's image." src="http://maconnect/MASharedServices/contractsandprocurement/Policy%20and%20Procedures/Z_Catalog_Images/Stores/opticals.jpg"></A></TD>
+<TD id=AllStoresSpacerCell2_2__630 width=5>
+<SCRIPT id=AllStoresSpacer2>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD id=AllStoresInfoCell2_2__630><SPAN id=AllStoresRN2_2__630>
+<DIV parent="OAStackLayoutBean, localName='stackLayout'"><A id=N38 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresRN2" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresRN2%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresRN2%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3DgI_dQ7JlceJZ0dH81lGEMA..%22)">Personalize Stack Layout: (AllStoresRN2)</A></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresName2_2__630__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><A onclick="submitForm('DefaultFormName',1,{'storeId':'{!!kuBF5I1H1hp45RfvyZzQnA','storeName':'{!!z2xk.wIKI3qS1d-evbLi7oi4xCE2dPv87Xjcf8qxDHo','evtSrcRowId':'RequisitionAM.DisplayStoresVO','evtSrcRowIdx':'2',event:'storeClick',source:'AllStoresName2'});return false;" id=AllStoresName2_2__630 class=xh href="#">Opticals - Eyeware</A>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE id=AllStoresShortDesc2_2__630__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><SPAN id=AllStoresShortDesc2_2__630></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></SPAN></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV></TD>
+<TD id=AllStoresCell3_2__630 vAlign=top width="34%">
+<DIV id=AllStoresTableLayout3_p13n><A id=N39 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresTableLayout3" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresTableLayout3%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresTableLayout3%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3DAdqRXD8rLhtTcH6QFWqP5A..%22)">Personalize Table Layout: (AllStoresTableLayout3)</A>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresTableLayout3_2__630 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR id=AllStoresRow3_2__630>
+<TD id=AllStoresImageCell3_2__630><A onclick="submitForm('DefaultFormName',1,{'storeId':'{!!EjAyNTOLAiYaLEdjVa8weg','storeName':'{!!9pBHt4Oa5HcsKpDJhOHxHfYr83XS.fEyIAvK95h5EoE','evtSrcRowId':'RequisitionAM.DisplayStoresVO','evtSrcRowIdx':'2',event:'storeClick',source:'AllStoresImage3'});return false;" id=AllStoresImage3_2__630 href="#" name=AllStoresImage3_2__630><IMG border=0 alt="This is the store's image." src="http://maconnect/MASharedServices/contractsandprocurement/Policy%20and%20Procedures/Z_Catalog_Images/Stores/Rental.jpg"></A></TD>
+<TD id=AllStoresSpacerCell3_2__630 width=5>
+<SCRIPT id=AllStoresSpacer3>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD id=AllStoresInfoCell3_2__630><SPAN id=AllStoresRN3_2__630>
+<DIV parent="OAStackLayoutBean, localName='stackLayout'"><A id=N40 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresRN3" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresRN3%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresRN3%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3DVHUL0NH5xtQlWd3fU2-7Yg..%22)">Personalize Stack Layout: (AllStoresRN3)</A></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresName3_2__630__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><A onclick="submitForm('DefaultFormName',1,{'storeId':'{!!EjAyNTOLAiYaLEdjVa8weg','storeName':'{!!9pBHt4Oa5HcsKpDJhOHxHfYr83XS.fEyIAvK95h5EoE','evtSrcRowId':'RequisitionAM.DisplayStoresVO','evtSrcRowIdx':'2',event:'storeClick',source:'AllStoresName3'});return false;" id=AllStoresName3_2__630 class=xh href="#">Rental Equipment</A>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE id=AllStoresShortDesc3_2__630__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><SPAN id=AllStoresShortDesc3_2__630></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></SPAN></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV></TD></TR>
+<TR id=AllStoresRow_3__634>
+<TD id=AllStoresCell1_3__634 vAlign=top width="33%">
+<DIV id=AllStoresTableLayout1_p13n><A id=N35 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresTableLayout1" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresTableLayout1%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresTableLayout1%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3DkFojiSDvKaBZ8Ek485S25g..%22)">Personalize Table Layout: (AllStoresTableLayout1)</A>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresTableLayout1_3__634 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR id=AllStoresRow1_3__634>
+<TD id=AllStoresImageCell1_3__634><A onclick="submitForm('DefaultFormName',1,{'storeId':'{!!n6P6Ymi2RC9.yG36xMOMtA','storeName':'{!!ppB6WHAcF5q7lU9hUlYVYF7ksa2UY0yNPYb7WbIYyzU','evtSrcRowId':'RequisitionAM.DisplayStoresVO','evtSrcRowIdx':'3',event:'storeClick',source:'AllStoresImage1'});return false;" id=AllStoresImage1_3__634 href="#" name=AllStoresImage1_3__634></A></TD>
+<TD id=AllStoresSpacerCell1_3__634 width=5>
+<SCRIPT id=AllStoresSpacer1>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD id=AllStoresInfoCell1_3__634><SPAN id=AllStoresRN1_3__634>
+<DIV parent="OAStackLayoutBean, localName='stackLayout'"><A id=N36 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresRN1" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresRN1%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresRN1%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3DkDSDCaEqQ6mt6KxRNfcu6g..%22)">Personalize Stack Layout: (AllStoresRN1)</A></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresName1_3__634__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><A onclick="submitForm('DefaultFormName',1,{'storeId':'{!!n6P6Ymi2RC9.yG36xMOMtA','storeName':'{!!ppB6WHAcF5q7lU9hUlYVYF7ksa2UY0yNPYb7WbIYyzU','evtSrcRowId':'RequisitionAM.DisplayStoresVO','evtSrcRowIdx':'3',event:'storeClick',source:'AllStoresName1'});return false;" id=AllStoresName1_3__634 class=xh href="#">MA\E2\80\99ADEN Global Agreements</A>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE id=AllStoresShortDesc1_3__634__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><SPAN id=AllStoresShortDesc1_3__634 class=x0>MA\E2\80\99ADEN Global Agreements List</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></SPAN></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV></TD>
+<TD id=AllStoresCell2_3__634 vAlign=top width="33%">
+<DIV id=AllStoresTableLayout2_p13n><A id=N37 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresTableLayout2" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresTableLayout2%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresTableLayout2%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3D7w6MfcEaFcg3q686R7yrQg..%22)">Personalize Table Layout: (AllStoresTableLayout2)</A>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresTableLayout2_3__634 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR id=AllStoresRow2_3__634>
+<TD id=AllStoresImageCell2_3__634><A onclick="submitForm('DefaultFormName',1,{'storeId':'{!!MVbQqhZnSlmHsgZzyGc8ew','storeName':'{!!tE6tb7FG4v6Fx1RWE-AbgqoosTxjGSQ82EzjoMFn5V1sNeI1DyvhdeGznpEgtW5Q','evtSrcRowId':'RequisitionAM.DisplayStoresVO','evtSrcRowIdx':'3',event:'storeClick',source:'AllStoresImage2'});return false;" id=AllStoresImage2_3__634 href="#" name=AllStoresImage2_3__634></A></TD>
+<TD id=AllStoresSpacerCell2_3__634 width=5>
+<SCRIPT id=AllStoresSpacer2>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD id=AllStoresInfoCell2_3__634><SPAN id=AllStoresRN2_3__634>
+<DIV parent="OAStackLayoutBean, localName='stackLayout'"><A id=N38 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresRN2" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresRN2%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresRN2%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3DgI_dQ7JlceJZ0dH81lGEMA..%22)">Personalize Stack Layout: (AllStoresRN2)</A></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresName2_3__634__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><A onclick="submitForm('DefaultFormName',1,{'storeId':'{!!MVbQqhZnSlmHsgZzyGc8ew','storeName':'{!!tE6tb7FG4v6Fx1RWE-AbgqoosTxjGSQ82EzjoMFn5V1sNeI1DyvhdeGznpEgtW5Q','evtSrcRowId':'RequisitionAM.DisplayStoresVO','evtSrcRowIdx':'3',event:'storeClick',source:'AllStoresName2'});return false;" id=AllStoresName2_3__634 class=xh href="#">MA Procurement SOP and Work Instructions</A>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE id=AllStoresShortDesc2_3__634__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><SPAN id=AllStoresShortDesc2_3__634 class=x0>MA Procurement SOP and Work Instructions</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></SPAN></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV></TD>
+<TD id=AllStoresCell3_3__634 vAlign=top width="34%">
+<DIV id=AllStoresTableLayout3_p13n><A id=N39 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresTableLayout3" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresTableLayout3%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresTableLayout3%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3DAdqRXD8rLhtTcH6QFWqP5A..%22)">Personalize Table Layout: (AllStoresTableLayout3)</A>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresTableLayout3_3__634 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR id=AllStoresRow3_3__634>
+<TD id=AllStoresImageCell3_3__634><A onclick="submitForm('DefaultFormName',1,{'storeId':'{!!hQLTJcpyi3u0iGgK7.ut3w','storeName':'{!!u-N9KrRDGKT9Ic03JW2Qtw','evtSrcRowId':'RequisitionAM.DisplayStoresVO','evtSrcRowIdx':'3',event:'storeClick',source:'AllStoresImage3'});return false;" id=AllStoresImage3_3__634 href="#" name=AllStoresImage3_3__634><IMG border=0 alt="This is the store's image." src="/OA_MEDIA/Car%20Lease.gif"></A></TD>
+<TD id=AllStoresSpacerCell3_3__634 width=5>
+<SCRIPT id=AllStoresSpacer3>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD id=AllStoresInfoCell3_3__634><SPAN id=AllStoresRN3_3__634>
+<DIV parent="OAStackLayoutBean, localName='stackLayout'"><A id=N40 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresRN3" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresRN3%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresRN3%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3DVHUL0NH5xtQlWd3fU2-7Yg..%22)">Personalize Stack Layout: (AllStoresRN3)</A></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresName3_3__634__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><A onclick="submitForm('DefaultFormName',1,{'storeId':'{!!hQLTJcpyi3u0iGgK7.ut3w','storeName':'{!!u-N9KrRDGKT9Ic03JW2Qtw','evtSrcRowId':'RequisitionAM.DisplayStoresVO','evtSrcRowIdx':'3',event:'storeClick',source:'AllStoresName3'});return false;" id=AllStoresName3_3__634 class=xh href="#">Car Lease</A>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE id=AllStoresShortDesc3_3__634__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><SPAN id=AllStoresShortDesc3_3__634></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></SPAN></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV></TD></TR>
+<TR id=AllStoresRow_4__638>
+<TD id=AllStoresCell1_4__638 vAlign=top width="33%">
+<DIV id=AllStoresTableLayout1_p13n><A id=N35 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresTableLayout1" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresTableLayout1%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresTableLayout1%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3DkFojiSDvKaBZ8Ek485S25g..%22)">Personalize Table Layout: (AllStoresTableLayout1)</A>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresTableLayout1_4__638 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR id=AllStoresRow1_4__638>
+<TD id=AllStoresImageCell1_4__638><A onclick="submitForm('DefaultFormName',1,{'storeId':'{!!FEEM1RzJYlZTJg-TMgsv.Q','storeName':'{!!T2EisCDnwDhXPwNEOpQwbJg9iWcDCdCKBgdDP2jAnVs','evtSrcRowId':'RequisitionAM.DisplayStoresVO','evtSrcRowIdx':'4',event:'storeClick',source:'AllStoresImage1'});return false;" id=AllStoresImage1_4__638 href="#" name=AllStoresImage1_4__638><IMG border=0 alt="This is the store's image." src="http://maconnect/MASharedServices/contractsandprocurement/Policy%20and%20Procedures/Z_Catalog_Images/Stores/Industrial_tools.jpg"></A></TD>
+<TD id=AllStoresSpacerCell1_4__638 width=5>
+<SCRIPT id=AllStoresSpacer1>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD id=AllStoresInfoCell1_4__638><SPAN id=AllStoresRN1_4__638>
+<DIV parent="OAStackLayoutBean, localName='stackLayout'"><A id=N36 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresRN1" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresRN1%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresRN1%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3DkDSDCaEqQ6mt6KxRNfcu6g..%22)">Personalize Stack Layout: (AllStoresRN1)</A></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresName1_4__638__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><A onclick="submitForm('DefaultFormName',1,{'storeId':'{!!FEEM1RzJYlZTJg-TMgsv.Q','storeName':'{!!T2EisCDnwDhXPwNEOpQwbJg9iWcDCdCKBgdDP2jAnVs','evtSrcRowId':'RequisitionAM.DisplayStoresVO','evtSrcRowIdx':'4',event:'storeClick',source:'AllStoresName1'});return false;" id=AllStoresName1_4__638 class=xh href="#">Industrial Tools</A>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE id=AllStoresShortDesc1_4__638__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><SPAN id=AllStoresShortDesc1_4__638></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></SPAN></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV></TD>
+<TD id=AllStoresCell2_4__638 vAlign=top width="33%">
+<DIV id=AllStoresTableLayout2_p13n><A id=N37 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresTableLayout2" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresTableLayout2%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresTableLayout2%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3D7w6MfcEaFcg3q686R7yrQg..%22)">Personalize Table Layout: (AllStoresTableLayout2)</A>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresTableLayout2_4__638 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR id=AllStoresRow2_4__638>
+<TD id=AllStoresImageCell2_4__638><A onclick="submitForm('DefaultFormName',1,{'storeId':'{!!91YK7KvoeqmhLCbiBw1TQQ','storeName':'{!!1RwAPoGm-trYLRY2T8E5jYNc2hqVm2V-qg.ZrtRU0xE','evtSrcRowId':'RequisitionAM.DisplayStoresVO','evtSrcRowIdx':'4',event:'storeClick',source:'AllStoresImage2'});return false;" id=AllStoresImage2_4__638 href="#" name=AllStoresImage2_4__638></A></TD>
+<TD id=AllStoresSpacerCell2_4__638 width=5>
+<SCRIPT id=AllStoresSpacer2>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD id=AllStoresInfoCell2_4__638><SPAN id=AllStoresRN2_4__638>
+<DIV parent="OAStackLayoutBean, localName='stackLayout'"><A id=N38 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresRN2" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresRN2%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresRN2%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3DgI_dQ7JlceJZ0dH81lGEMA..%22)">Personalize Stack Layout: (AllStoresRN2)</A></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresName2_4__638__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><A onclick="submitForm('DefaultFormName',1,{'storeId':'{!!91YK7KvoeqmhLCbiBw1TQQ','storeName':'{!!1RwAPoGm-trYLRY2T8E5jYNc2hqVm2V-qg.ZrtRU0xE','evtSrcRowId':'RequisitionAM.DisplayStoresVO','evtSrcRowIdx':'4',event:'storeClick',source:'AllStoresName2'});return false;" id=AllStoresName2_4__638 class=xh href="#">WEIR ARABIAN METALS COMPANY</A>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE id=AllStoresShortDesc2_4__638__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><SPAN id=AllStoresShortDesc2_4__638></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></SPAN></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV></TD>
+<TD id=AllStoresCell3_4__638 vAlign=top width="34%">
+<DIV id=AllStoresTableLayout3_p13n><A id=N39 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresTableLayout3" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresTableLayout3%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresTableLayout3%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3DAdqRXD8rLhtTcH6QFWqP5A..%22)">Personalize Table Layout: (AllStoresTableLayout3)</A>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresTableLayout3_4__638 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR id=AllStoresRow3_4__638>
+<TD id=AllStoresImageCell3_4__638><A onclick="submitForm('DefaultFormName',1,{'storeId':'{!!OoO5hErICl7n7G2LP7pCdg','storeName':'{!!nIg77FpjrJznW7hBOBZGKA','evtSrcRowId':'RequisitionAM.DisplayStoresVO','evtSrcRowIdx':'4',event:'storeClick',source:'AllStoresImage3'});return false;" id=AllStoresImage3_4__638 href="#" name=AllStoresImage3_4__638><IMG border=0 alt="This is the store's image." src="http://maconnect/MASharedServices/contractsandprocurement/Policy%20and%20Procedures/Z_Catalog_Images/Stores/Lab_supplies.jpg"></A></TD>
+<TD id=AllStoresSpacerCell3_4__638 width=5>
+<SCRIPT id=AllStoresSpacer3>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD id=AllStoresInfoCell3_4__638><SPAN id=AllStoresRN3_4__638>
+<DIV parent="OAStackLayoutBean, localName='stackLayout'"><A id=N40 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresRN3" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresRN3%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresRN3%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3DVHUL0NH5xtQlWd3fU2-7Yg..%22)">Personalize Stack Layout: (AllStoresRN3)</A></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresName3_4__638__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><A onclick="submitForm('DefaultFormName',1,{'storeId':'{!!OoO5hErICl7n7G2LP7pCdg','storeName':'{!!nIg77FpjrJznW7hBOBZGKA','evtSrcRowId':'RequisitionAM.DisplayStoresVO','evtSrcRowIdx':'4',event:'storeClick',source:'AllStoresName3'});return false;" id=AllStoresName3_4__638 class=xh href="#">Lab Supplies</A>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE id=AllStoresShortDesc3_4__638__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><SPAN id=AllStoresShortDesc3_4__638></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></SPAN></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV></TD></TR>
+<TR id=AllStoresRow_5__578>
+<TD id=AllStoresCell1_5__578 vAlign=top width="33%">
+<DIV id=AllStoresTableLayout1_p13n><A id=N35 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresTableLayout1" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresTableLayout1%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresTableLayout1%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3DkFojiSDvKaBZ8Ek485S25g..%22)">Personalize Table Layout: (AllStoresTableLayout1)</A>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresTableLayout1_5__578 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR id=AllStoresRow1_5__578>
+<TD id=AllStoresImageCell1_5__578><A onclick="submitForm('DefaultFormName',1,{'storeId':'{!!VkSTbKhYWKL0pFJzB1u3fg','storeName':'{!!PzXlPraUIohYcWXpFXMgYQ','evtSrcRowId':'RequisitionAM.DisplayStoresVO','evtSrcRowIdx':'5',event:'storeClick',source:'AllStoresImage1'});return false;" id=AllStoresImage1_5__578 href="#" name=AllStoresImage1_5__578><IMG border=0 alt="This is the store's image." src="http://maconnect/MASharedServices/contractsandprocurement/Policy%20and%20Procedures/Z_Catalog_Images/Stores/Footware.jpg"></A></TD>
+<TD id=AllStoresSpacerCell1_5__578 width=5>
+<SCRIPT id=AllStoresSpacer1>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD id=AllStoresInfoCell1_5__578><SPAN id=AllStoresRN1_5__578>
+<DIV parent="OAStackLayoutBean, localName='stackLayout'"><A id=N36 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresRN1" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresRN1%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresRN1%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3DkDSDCaEqQ6mt6KxRNfcu6g..%22)">Personalize Stack Layout: (AllStoresRN1)</A></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresName1_5__578__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><A onclick="submitForm('DefaultFormName',1,{'storeId':'{!!VkSTbKhYWKL0pFJzB1u3fg','storeName':'{!!PzXlPraUIohYcWXpFXMgYQ','evtSrcRowId':'RequisitionAM.DisplayStoresVO','evtSrcRowIdx':'5',event:'storeClick',source:'AllStoresName1'});return false;" id=AllStoresName1_5__578 class=xh href="#">Footware</A>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE id=AllStoresShortDesc1_5__578__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><SPAN id=AllStoresShortDesc1_5__578></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></SPAN></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV></TD>
+<TD id=AllStoresCell2_5__578 vAlign=top width="33%">
+<DIV id=AllStoresTableLayout2_p13n><A id=N37 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresTableLayout2" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresTableLayout2%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresTableLayout2%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3D7w6MfcEaFcg3q686R7yrQg..%22)">Personalize Table Layout: (AllStoresTableLayout2)</A>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresTableLayout2_5__578 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR id=AllStoresRow2_5__578>
+<TD id=AllStoresImageCell2_5__578><A onclick="submitForm('DefaultFormName',1,{'storeId':'{!!nd5vW0K6aMy5kQbXw0OFAg','storeName':'{!!AJb9m.p471Bi6IOP8QRS3g','evtSrcRowId':'RequisitionAM.DisplayStoresVO','evtSrcRowIdx':'5',event:'storeClick',source:'AllStoresImage2'});return false;" id=AllStoresImage2_5__578 href="#" name=AllStoresImage2_5__578><IMG border=0 alt="This is the store's image." src="http://maconnect/MASharedServices/contractsandprocurement/Policy%20and%20Procedures/Z_Catalog_Images/Stores/Motor.jpg"></A></TD>
+<TD id=AllStoresSpacerCell2_5__578 width=5>
+<SCRIPT id=AllStoresSpacer2>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD id=AllStoresInfoCell2_5__578><SPAN id=AllStoresRN2_5__578>
+<DIV parent="OAStackLayoutBean, localName='stackLayout'"><A id=N38 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresRN2" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresRN2%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresRN2%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3DgI_dQ7JlceJZ0dH81lGEMA..%22)">Personalize Stack Layout: (AllStoresRN2)</A></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresName2_5__578__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><A onclick="submitForm('DefaultFormName',1,{'storeId':'{!!nd5vW0K6aMy5kQbXw0OFAg','storeName':'{!!AJb9m.p471Bi6IOP8QRS3g','evtSrcRowId':'RequisitionAM.DisplayStoresVO','evtSrcRowIdx':'5',event:'storeClick',source:'AllStoresName2'});return false;" id=AllStoresName2_5__578 class=xh href="#">Motor Repair</A>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE id=AllStoresShortDesc2_5__578__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><SPAN id=AllStoresShortDesc2_5__578></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></SPAN></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV></TD>
+<TD id=AllStoresCell3_5__578 vAlign=top width="34%">
+<DIV id=AllStoresTableLayout3_p13n><A id=N39 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresTableLayout3" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresTableLayout3%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresTableLayout3%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3DAdqRXD8rLhtTcH6QFWqP5A..%22)">Personalize Table Layout: (AllStoresTableLayout3)</A>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresTableLayout3_5__578 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR id=AllStoresRow3_5__578>
+<TD id=AllStoresImageCell3_5__578><A onclick="submitForm('DefaultFormName',1,{'storeId':'{!!Mq22G4AGNf4ca5rARq3y5g','storeName':'{!!x5t7NzqLWDOdyZzdVfm5S-Czs1Q1sOBl.lD2VIpdX2g','evtSrcRowId':'RequisitionAM.DisplayStoresVO','evtSrcRowIdx':'5',event:'storeClick',source:'AllStoresImage3'});return false;" id=AllStoresImage3_5__578 href="#" name=AllStoresImage3_5__578><IMG border=0 alt="This is the store's image." src="http://maconnect/MASharedServices/contractsandprocurement/Policy%20and%20Procedures/Z_Catalog_Images/Stores/electrical.jpg"></A></TD>
+<TD id=AllStoresSpacerCell3_5__578 width=5>
+<SCRIPT id=AllStoresSpacer3>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD id=AllStoresInfoCell3_5__578><SPAN id=AllStoresRN3_5__578>
+<DIV parent="OAStackLayoutBean, localName='stackLayout'"><A id=N40 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresRN3" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresRN3%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresRN3%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3DVHUL0NH5xtQlWd3fU2-7Yg..%22)">Personalize Stack Layout: (AllStoresRN3)</A></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresName3_5__578__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><A onclick="submitForm('DefaultFormName',1,{'storeId':'{!!Mq22G4AGNf4ca5rARq3y5g','storeName':'{!!x5t7NzqLWDOdyZzdVfm5S-Czs1Q1sOBl.lD2VIpdX2g','evtSrcRowId':'RequisitionAM.DisplayStoresVO','evtSrcRowIdx':'5',event:'storeClick',source:'AllStoresName3'});return false;" id=AllStoresName3_5__578 class=xh href="#">Electrical Consumable</A>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE id=AllStoresShortDesc3_5__578__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><SPAN id=AllStoresShortDesc3_5__578></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></SPAN></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV></TD></TR>
+<TR id=AllStoresRow_6__582>
+<TD id=AllStoresCell1_6__582 vAlign=top width="33%">
+<DIV id=AllStoresTableLayout1_p13n><A id=N35 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresTableLayout1" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresTableLayout1%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresTableLayout1%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3DkFojiSDvKaBZ8Ek485S25g..%22)">Personalize Table Layout: (AllStoresTableLayout1)</A>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresTableLayout1_6__582 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR id=AllStoresRow1_6__582>
+<TD id=AllStoresImageCell1_6__582><A onclick="submitForm('DefaultFormName',1,{'storeId':'{!!stIKZg7TL.M8LEYUroZNCg','storeName':'{!!Cp2pquMD6fVcLx5hmdCdQPCzs1Q1sOBl.lD2VIpdX2g','evtSrcRowId':'RequisitionAM.DisplayStoresVO','evtSrcRowIdx':'6',event:'storeClick',source:'AllStoresImage1'});return false;" id=AllStoresImage1_6__582 href="#" name=AllStoresImage1_6__582><IMG border=0 alt="This is the store's image." src="http://maconnect/MASharedServices/contractsandprocurement/Policy%20and%20Procedures/Z_Catalog_Images/Stores/mechanical.jpg"></A></TD>
+<TD id=AllStoresSpacerCell1_6__582 width=5>
+<SCRIPT id=AllStoresSpacer1>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD id=AllStoresInfoCell1_6__582><SPAN id=AllStoresRN1_6__582>
+<DIV parent="OAStackLayoutBean, localName='stackLayout'"><A id=N36 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresRN1" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresRN1%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresRN1%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3DkDSDCaEqQ6mt6KxRNfcu6g..%22)">Personalize Stack Layout: (AllStoresRN1)</A></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresName1_6__582__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><A onclick="submitForm('DefaultFormName',1,{'storeId':'{!!stIKZg7TL.M8LEYUroZNCg','storeName':'{!!Cp2pquMD6fVcLx5hmdCdQPCzs1Q1sOBl.lD2VIpdX2g','evtSrcRowId':'RequisitionAM.DisplayStoresVO','evtSrcRowIdx':'6',event:'storeClick',source:'AllStoresName1'});return false;" id=AllStoresName1_6__582 class=xh href="#">Mechanical Consumable</A>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE id=AllStoresShortDesc1_6__582__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><SPAN id=AllStoresShortDesc1_6__582></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></SPAN></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV></TD>
+<TD id=AllStoresCell2_6__582 vAlign=top width="33%">
+<DIV id=AllStoresTableLayout2_p13n><A id=N37 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresTableLayout2" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresTableLayout2%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresTableLayout2%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3D7w6MfcEaFcg3q686R7yrQg..%22)">Personalize Table Layout: (AllStoresTableLayout2)</A>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresTableLayout2_6__582 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR id=AllStoresRow2_6__582>
+<TD id=AllStoresImageCell2_6__582><A onclick="submitForm('DefaultFormName',1,{'storeId':'{!!null','storeName':'{!!null','evtSrcRowId':'RequisitionAM.DisplayStoresVO','evtSrcRowIdx':'6',event:'storeClick',source:'AllStoresImage2'});return false;" id=AllStoresImage2_6__582 href="#" name=AllStoresImage2_6__582></A></TD>
+<TD id=AllStoresSpacerCell2_6__582 width=5>
+<SCRIPT id=AllStoresSpacer2>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD id=AllStoresInfoCell2_6__582><SPAN id=AllStoresRN2_6__582>
+<DIV parent="OAStackLayoutBean, localName='stackLayout'"><A id=N38 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresRN2" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresRN2%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresRN2%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3DgI_dQ7JlceJZ0dH81lGEMA..%22)">Personalize Stack Layout: (AllStoresRN2)</A></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresName2_6__582__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><SPAN id=AllStoresName2_6__582></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE id=AllStoresShortDesc2_6__582__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><SPAN id=AllStoresShortDesc2_6__582></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></SPAN></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV></TD>
+<TD id=AllStoresCell3_6__582 vAlign=top width="34%">
+<DIV id=AllStoresTableLayout3_p13n><A id=N39 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresTableLayout3" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresTableLayout3%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresTableLayout3%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3DAdqRXD8rLhtTcH6QFWqP5A..%22)">Personalize Table Layout: (AllStoresTableLayout3)</A>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresTableLayout3_6__582 cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR id=AllStoresRow3_6__582>
+<TD id=AllStoresImageCell3_6__582><A onclick="submitForm('DefaultFormName',1,{'storeId':'{!!null','storeName':'{!!null','evtSrcRowId':'RequisitionAM.DisplayStoresVO','evtSrcRowIdx':'6',event:'storeClick',source:'AllStoresImage3'});return false;" id=AllStoresImage3_6__582 href="#" name=AllStoresImage3_6__582></A></TD>
+<TD id=AllStoresSpacerCell3_6__582 width=5>
+<SCRIPT id=AllStoresSpacer3>t('5','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD id=AllStoresInfoCell3_6__582><SPAN id=AllStoresRN3_6__582>
+<DIV parent="OAStackLayoutBean, localName='stackLayout'"><A id=N40 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.AllStoresRN3" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.AllStoresRN3%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.AllStoresRN3%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3DVHUL0NH5xtQlWd3fU2-7Yg..%22)">Personalize Stack Layout: (AllStoresRN3)</A></DIV>
+<DIV></DIV>
+<TABLE id=AllStoresName3_6__582__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><SPAN id=AllStoresName3_6__582></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE id=AllStoresShortDesc3_6__582__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><SPAN id=AllStoresShortDesc3_6__582></SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></SPAN></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV></DIV></DIV>
+<DIV></DIV>
+<DIV id=MyReqsRN>
+<DIV class=x6a>
+<TABLE class=x7b style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/headingBarBg.gif)" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD width="100%">
+<H1 class=x7c>My Requisitions</H1></TD></TR></TBODY></TABLE></DIV>
+<DIV class=x79>
+<DIV parent="OAHeaderBean, localName='header'"><A id=N41 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.MyReqsRN" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.MyReqsRN%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.MyReqsRN%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3D3B0NWgjamsFbNdCG1_lh1w..%22)">Personalize "My Requisitions"</A></DIV>
+<DIV id=RequisitionsLayout_p13n><A id=N42 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG.RequisitionsLayout" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.RequisitionsLayout%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.RequisitionsLayout%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3DNrDzyoi_YF75u9he4fsKgw..%22)">Personalize Table Layout: (RequisitionsLayout)</A>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=RequisitionsLayout cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR id=FullListReqsRow align=right>
+<TD id=FullListReqsCell><BUTTON onclick="submitForm('DefaultFormName',1,{'_FORM_SUBMIT_BUTTON':'FullListReqsButton'});return false" id=FullListReqsButton title="Full List" class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)" type=submit>Full List</BUTTON></TD></TR>
+<TR id=RequisitionsRow>
+<TD id=ReqsCell>
+<DIV id=MyReqsTable_p13n><A id=N43 title="Personalize /oracle/apps/icx/por/reqmgmt/webui/MyReqsRN" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Fpor%252Freqmgmt%252Fwebui%252FMyReqsRN%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiprwMyReqsRN%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3DwdXDCBgu4PK7yZGvHF_l-w..%22)">Personalize "This table displays a list of rece..."</A>
+<DIV></DIV>
+<DIV></DIV><SPAN id=MyReqsTable title="This table displays a list of recent requisitions.">
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY></TBODY></TABLE>
+<TABLE class=x1o cellSpacing=0 cellPadding=1 width="100%" border=0>
+<TBODY>
+<TR>
+<TH id=RequisitionNumberCol class=x1y scope=col><SPAN id=RequisitionNumberHeader class=x2b>Requisition
+<SCRIPT>function _tableSortSubmit(formName,validate,sortEvent,table,val,stat,ptgt) {var submitFunc = (ptgt == (void 0)) ? submitForm : _submitPartialChange;submitFunc(formName,validate,{event:sortEvent,source:table,value:val,state:stat,partialTargets:ptgt });}</SCRIPT>
+</SPAN></TH>
+<TH id=DescriptionCol class="x1y x4t" scope=col><SPAN id=DescriptionHeader class=x2b>Description</SPAN></TH>
+<TH id=ReqTotalCol class="x1z x4t" scope=col><SPAN id=ReqTotalHeader class=x2b>Total (SAR)</SPAN></TH>
+<TH id=ApprovalStatusCol class="x1y x4t" scope=col noWrap><SPAN id=ApprovalStatusHeader class=x2b>Status</SPAN></TH>
+<TH id=CopyReqCol class="x20 x4t" scope=col><SPAN id=copyReqHeader class=x2b>Copy</SPAN></TH>
+<TH id=ChangeReqCol class="x20 x4t" scope=col><SPAN id=ChangeReqHeader class=x2b>Change</SPAN></TH>
+<TH id=ExpressReceiveReqCol class="x20 x4t" scope=col><SPAN id=ExpressReceiveReqHeader class=x2b>Express Receive</SPAN></TH></TR>
+<TR>
+<TD class="x1s x57"><A id=MyReqsTable:RequisitionNumber:0 title=6311803008 class=xh href="OA.jsp?OAFunc=ICX_POR_REQMGMT_DETAIL&amp;OASF=ICX_POR_REQMGMT_DETAIL&amp;reqHeaderId=%7B!!6PHQAdYD.7HfVISrFSKChQ%7D&amp;retainAM=Y&amp;addBreadCrumb=Y&amp;_ti=1717010331&amp;oapc=15&amp;oas=Qo9n0T3QYRVkalxZ1M0bbQ..">6311803008</A></TD>
+<TD class="x1s x57"><A id=MyReqsTable:Description:0 title="SPRING, COMPRESSION;PN:5230-AK-SP-001,F/HYUNDAI ROTEM AIR-KNIFE (PRIMARY), MODEL: FC-84200-12\E2\80\99-0\E2\80\9D-3 HP" class=xh href="OA.jsp?OAFunc=ICX_POR_REQMGMT_DETAIL&amp;OASF=ICX_POR_REQMGMT_DETAIL&amp;reqHeaderId=%7B!!6PHQAdYD.7HfVISrFSKChQ%7D&amp;retainAM=Y&amp;addBreadCrumb=Y&amp;_ti=1717010331&amp;oapc=15&amp;oas=Qo9n0T3QYRVkalxZ1M0bbQ..">SPRING, COMPRESSION;PN:5230-AK-SP-001,F/HYUNDAI ROTEM AIR-KNIFE (PRIMARY), MODEL: FC-84200-12\E2\80\99-0\E2\80\9D-3 HP</A></TD>
+<TD class="x1u x57"><SPAN id=MyReqsTable:ReqTotal:0 class=xaq>0.00</SPAN></TD>
+<TD class="x1s x57"><A id=MyReqsTable:ApprovalStatus:0 title=Approved class=xh href="OA.jsp?OAFunc=ICX_POR_REQMGMT_APPR_HIST&amp;OASF=ICX_POR_REQMGMT_APPR_HIST&amp;reqHeaderId=%7B!!6PHQAdYD.7HfVISrFSKChQ%7D&amp;retainAM=Y&amp;addBreadCrumb=Y&amp;_ti=1717010331&amp;oapc=15&amp;oas=d08TRxDpqoqxgBlWWjIBOA..">Approved</A></TD>
+<TD class="x1w x57"><A onclick="submitForm('DefaultFormName',1,{'evtSrcRowIdx':'0','reqHeaderId':'{!!6PHQAdYD.7HfVISrFSKChQ','evtSrcRowId':'RequisitionAM.MyReqsTable178_MyReqsTable_oracle_apps_icx_por_reqmgmt_server_ReqMgmtAM.MyReqsGlanceVO',event:'copy',source:'CopyReq'});return false;" id=MyReqsTable:CopyReq:0 href="#" name=MyReqsTable:CopyReq:0><IMG border=0 alt="Copy Requisitions" src="/OA_MEDIA/duplicate_enabled.gif" width=24 align=middle height=24></A></TD>
+<TD class="x1w x57"><A onclick="submitForm('DefaultFormName',1,{'reqHeaderId':'{!!6PHQAdYD.7HfVISrFSKChQ','evtSrcRowId':'RequisitionAM.MyReqsTable178_MyReqsTable_oracle_apps_icx_por_reqmgmt_server_ReqMgmtAM.MyReqsGlanceVO','reqAction':'{!!NjMnbbzKyorQ5kfV59Sw0w','evtSrcRowIdx':'0',event:'change',source:'ChangeReq'});return false;" id=MyReqsTable:ChangeReq:0 href="#" name=MyReqsTable:ChangeReq:0><IMG border=0 alt="Change Requisitions" src="/OA_MEDIA/checkout_enabled.gif" width=24 align=middle height=24></A></TD>
+<TD class="x1w x57"><BR></TD></TR>
+<TR>
+<TD class="x1t x57"><A id=MyReqsTable:RequisitionNumber:1 title=6311803007 class=xh href="OA.jsp?OAFunc=ICX_POR_REQMGMT_DETAIL&amp;OASF=ICX_POR_REQMGMT_DETAIL&amp;reqHeaderId=%7B!!9pBgILkDKsNKKVDYL88ixg%7D&amp;retainAM=Y&amp;addBreadCrumb=Y&amp;_ti=1717010331&amp;oapc=15&amp;oas=YT7zvMlTmHW1sCgvtQHRaw..">6311803007</A></TD>
+<TD class="x1t x57"><A id=MyReqsTable:Description:1 title="SPRING, COMPRESSION;PN:5230-AK-SP-001,F/HYUNDAI ROTEM AIR-KNIFE (PRIMARY), MODEL: FC-84200-12\E2\80\99-0\E2\80\9D-3 HP" class=xh href="OA.jsp?OAFunc=ICX_POR_REQMGMT_DETAIL&amp;OASF=ICX_POR_REQMGMT_DETAIL&amp;reqHeaderId=%7B!!9pBgILkDKsNKKVDYL88ixg%7D&amp;retainAM=Y&amp;addBreadCrumb=Y&amp;_ti=1717010331&amp;oapc=15&amp;oas=YT7zvMlTmHW1sCgvtQHRaw..">SPRING, COMPRESSION;PN:5230-AK-SP-001,F/HYUNDAI ROTEM AIR-KNIFE (PRIMARY), MODEL: FC-84200-12\E2\80\99-0\E2\80\9D-3 HP</A></TD>
+<TD class="x1v x57"><SPAN id=MyReqsTable:ReqTotal:1 class=xaq>0.00</SPAN></TD>
+<TD class="x1t x57"><A id=MyReqsTable:ApprovalStatus:1 title=Incomplete class=xh href="OA.jsp?OAFunc=ICX_POR_REQMGMT_APPR_HIST&amp;OASF=ICX_POR_REQMGMT_APPR_HIST&amp;reqHeaderId=%7B!!9pBgILkDKsNKKVDYL88ixg%7D&amp;retainAM=Y&amp;addBreadCrumb=Y&amp;_ti=1717010331&amp;oapc=15&amp;oas=AT01cjs8WX42X6hhzXoB1g..">Incomplete</A></TD>
+<TD class="x1x x57"><A onclick="submitForm('DefaultFormName',1,{'evtSrcRowIdx':'1','reqHeaderId':'{!!9pBgILkDKsNKKVDYL88ixg','evtSrcRowId':'RequisitionAM.MyReqsTable178_MyReqsTable_oracle_apps_icx_por_reqmgmt_server_ReqMgmtAM.MyReqsGlanceVO',event:'copy',source:'CopyReq'});return false;" id=MyReqsTable:CopyReq:1 href="#" name=MyReqsTable:CopyReq:1><IMG border=0 alt="Copy Requisitions" src="/OA_MEDIA/duplicate_enabled.gif" width=24 align=middle height=24></A></TD>
+<TD class="x1x x57"><BR></TD>
+<TD class="x1x x57"><BR></TD></TR>
+<TR>
+<TD class="x1s x57"><A id=MyReqsTable:RequisitionNumber:2 title=6311803006 class=xh href="OA.jsp?OAFunc=ICX_POR_REQMGMT_DETAIL&amp;OASF=ICX_POR_REQMGMT_DETAIL&amp;reqHeaderId=%7B!!DMj3BvEYUYHRhcPgyPOAFQ%7D&amp;retainAM=Y&amp;addBreadCrumb=Y&amp;_ti=1717010331&amp;oapc=15&amp;oas=dBGrFUsky4RWTVKs4XOG9Q..">6311803006</A></TD>
+<TD class="x1s x57"><A id=MyReqsTable:Description:2 title="SPRING, COMPRESSION;PN:5230-AK-SP-001,F/HYUNDAI ROTEM AIR-KNIFE (PRIMARY), MODEL: FC-84200-12\E2\80\99-0\E2\80\9D-3 HP" class=xh href="OA.jsp?OAFunc=ICX_POR_REQMGMT_DETAIL&amp;OASF=ICX_POR_REQMGMT_DETAIL&amp;reqHeaderId=%7B!!DMj3BvEYUYHRhcPgyPOAFQ%7D&amp;retainAM=Y&amp;addBreadCrumb=Y&amp;_ti=1717010331&amp;oapc=15&amp;oas=dBGrFUsky4RWTVKs4XOG9Q..">SPRING, COMPRESSION;PN:5230-AK-SP-001,F/HYUNDAI ROTEM AIR-KNIFE (PRIMARY), MODEL: FC-84200-12\E2\80\99-0\E2\80\9D-3 HP</A></TD>
+<TD class="x1u x57"><SPAN id=MyReqsTable:ReqTotal:2 class=xaq>0.00</SPAN></TD>
+<TD class="x1s x57"><A id=MyReqsTable:ApprovalStatus:2 title="In Process" class=xh href="OA.jsp?OAFunc=ICX_POR_REQMGMT_APPR_HIST&amp;OASF=ICX_POR_REQMGMT_APPR_HIST&amp;reqHeaderId=%7B!!DMj3BvEYUYHRhcPgyPOAFQ%7D&amp;retainAM=Y&amp;addBreadCrumb=Y&amp;_ti=1717010331&amp;oapc=15&amp;oas=vlWZ2u2n0OJ8WM-mzToBkQ..">In Process</A></TD>
+<TD class="x1w x57"><A onclick="submitForm('DefaultFormName',1,{'evtSrcRowIdx':'2','reqHeaderId':'{!!DMj3BvEYUYHRhcPgyPOAFQ','evtSrcRowId':'RequisitionAM.MyReqsTable178_MyReqsTable_oracle_apps_icx_por_reqmgmt_server_ReqMgmtAM.MyReqsGlanceVO',event:'copy',source:'CopyReq'});return false;" id=MyReqsTable:CopyReq:2 href="#" name=MyReqsTable:CopyReq:2><IMG border=0 alt="Copy Requisitions" src="/OA_MEDIA/duplicate_enabled.gif" width=24 align=middle height=24></A></TD>
+<TD class="x1w x57"><A onclick="submitForm('DefaultFormName',1,{'reqHeaderId':'{!!DMj3BvEYUYHRhcPgyPOAFQ','evtSrcRowId':'RequisitionAM.MyReqsTable178_MyReqsTable_oracle_apps_icx_por_reqmgmt_server_ReqMgmtAM.MyReqsGlanceVO','reqAction':'{!!NjMnbbzKyorQ5kfV59Sw0w','evtSrcRowIdx':'2',event:'change',source:'ChangeReq'});return false;" id=MyReqsTable:ChangeReq:2 href="#" name=MyReqsTable:ChangeReq:2><IMG border=0 alt="Change Requisitions" src="/OA_MEDIA/checkout_enabled.gif" width=24 align=middle height=24></A></TD>
+<TD class="x1w x57"><BR></TD></TR>
+<TR>
+<TD class="x1t x57"><A id=MyReqsTable:RequisitionNumber:3 title=6311803001 class=xh href="OA.jsp?OAFunc=ICX_POR_REQMGMT_DETAIL&amp;OASF=ICX_POR_REQMGMT_DETAIL&amp;reqHeaderId=%7B!!BdaVUn3mjxqKgSJTsAR7JA%7D&amp;retainAM=Y&amp;addBreadCrumb=Y&amp;_ti=1717010331&amp;oapc=15&amp;oas=U076eWimleDs8a1SOUeWVQ..">6311803001</A></TD>
+<TD class="x1t x57"><A id=MyReqsTable:Description:3 title="SPRING, COMPRESSION;PN:5230-AK-SP-001,F/HYUNDAI ROTEM AIR-KNIFE (PRIMARY), MODEL: FC-84200-12\E2\80\99-0\E2\80\9D-3 HP" class=xh href="OA.jsp?OAFunc=ICX_POR_REQMGMT_DETAIL&amp;OASF=ICX_POR_REQMGMT_DETAIL&amp;reqHeaderId=%7B!!BdaVUn3mjxqKgSJTsAR7JA%7D&amp;retainAM=Y&amp;addBreadCrumb=Y&amp;_ti=1717010331&amp;oapc=15&amp;oas=U076eWimleDs8a1SOUeWVQ..">SPRING, COMPRESSION;PN:5230-AK-SP-001,F/HYUNDAI ROTEM AIR-KNIFE (PRIMARY), MODEL: FC-84200-12\E2\80\99-0\E2\80\9D-3 HP</A></TD>
+<TD class="x1v x57"><SPAN id=MyReqsTable:ReqTotal:3 class=xaq>0.00</SPAN></TD>
+<TD class="x1t x57"><A id=MyReqsTable:ApprovalStatus:3 title=Approved class=xh href="OA.jsp?OAFunc=ICX_POR_REQMGMT_APPR_HIST&amp;OASF=ICX_POR_REQMGMT_APPR_HIST&amp;reqHeaderId=%7B!!BdaVUn3mjxqKgSJTsAR7JA%7D&amp;retainAM=Y&amp;addBreadCrumb=Y&amp;_ti=1717010331&amp;oapc=15&amp;oas=r6uwkE3AjAOSntlL0X5YjA..">Approved</A></TD>
+<TD class="x1x x57"><A onclick="submitForm('DefaultFormName',1,{'evtSrcRowIdx':'3','reqHeaderId':'{!!BdaVUn3mjxqKgSJTsAR7JA','evtSrcRowId':'RequisitionAM.MyReqsTable178_MyReqsTable_oracle_apps_icx_por_reqmgmt_server_ReqMgmtAM.MyReqsGlanceVO',event:'copy',source:'CopyReq'});return false;" id=MyReqsTable:CopyReq:3 href="#" name=MyReqsTable:CopyReq:3><IMG border=0 alt="Copy Requisitions" src="/OA_MEDIA/duplicate_enabled.gif" width=24 align=middle height=24></A></TD>
+<TD class="x1x x57"><A onclick="submitForm('DefaultFormName',1,{'reqHeaderId':'{!!BdaVUn3mjxqKgSJTsAR7JA','evtSrcRowId':'RequisitionAM.MyReqsTable178_MyReqsTable_oracle_apps_icx_por_reqmgmt_server_ReqMgmtAM.MyReqsGlanceVO','reqAction':'{!!NjMnbbzKyorQ5kfV59Sw0w','evtSrcRowIdx':'3',event:'change',source:'ChangeReq'});return false;" id=MyReqsTable:ChangeReq:3 href="#" name=MyReqsTable:ChangeReq:3><IMG border=0 alt="Change Requisitions" src="/OA_MEDIA/checkout_enabled.gif" width=24 align=middle height=24></A></TD>
+<TD class="x1x x57"><BR></TD></TR>
+<TR>
+<TD class="x1s x57"><A id=MyReqsTable:RequisitionNumber:4 title=6311803000 class=xh href="OA.jsp?OAFunc=ICX_POR_REQMGMT_DETAIL&amp;OASF=ICX_POR_REQMGMT_DETAIL&amp;reqHeaderId=%7B!!2Eh-2SzkLMQ8RlmOFaD5GQ%7D&amp;retainAM=Y&amp;addBreadCrumb=Y&amp;_ti=1717010331&amp;oapc=15&amp;oas=WjiBZuQ_lP1VFyRoHygl7A..">6311803000</A></TD>
+<TD class="x1s x57"><A id=MyReqsTable:Description:4 title="SPRING, COMPRESSION;PN:5230-AK-SP-001,F/HYUNDAI ROTEM AIR-KNIFE (PRIMARY), MODEL: FC-84200-12\E2\80\99-0\E2\80\9D-3 HP" class=xh href="OA.jsp?OAFunc=ICX_POR_REQMGMT_DETAIL&amp;OASF=ICX_POR_REQMGMT_DETAIL&amp;reqHeaderId=%7B!!2Eh-2SzkLMQ8RlmOFaD5GQ%7D&amp;retainAM=Y&amp;addBreadCrumb=Y&amp;_ti=1717010331&amp;oapc=15&amp;oas=WjiBZuQ_lP1VFyRoHygl7A..">SPRING, COMPRESSION;PN:5230-AK-SP-001,F/HYUNDAI ROTEM AIR-KNIFE (PRIMARY), MODEL: FC-84200-12\E2\80\99-0\E2\80\9D-3 HP</A></TD>
+<TD class="x1u x57"><SPAN id=MyReqsTable:ReqTotal:4 class=xaq>0.00</SPAN></TD>
+<TD class="x1s x57"><A id=MyReqsTable:ApprovalStatus:4 title="In Process" class=xh href="OA.jsp?OAFunc=ICX_POR_REQMGMT_APPR_HIST&amp;OASF=ICX_POR_REQMGMT_APPR_HIST&amp;reqHeaderId=%7B!!2Eh-2SzkLMQ8RlmOFaD5GQ%7D&amp;retainAM=Y&amp;addBreadCrumb=Y&amp;_ti=1717010331&amp;oapc=15&amp;oas=1RMhlctWywzm3viJTvJnmg..">In Process</A></TD>
+<TD class="x1w x57"><A onclick="submitForm('DefaultFormName',1,{'evtSrcRowIdx':'4','reqHeaderId':'{!!2Eh-2SzkLMQ8RlmOFaD5GQ','evtSrcRowId':'RequisitionAM.MyReqsTable178_MyReqsTable_oracle_apps_icx_por_reqmgmt_server_ReqMgmtAM.MyReqsGlanceVO',event:'copy',source:'CopyReq'});return false;" id=MyReqsTable:CopyReq:4 href="#" name=MyReqsTable:CopyReq:4><IMG border=0 alt="Copy Requisitions" src="/OA_MEDIA/duplicate_enabled.gif" width=24 align=middle height=24></A></TD>
+<TD class="x1w x57"><A onclick="submitForm('DefaultFormName',1,{'reqHeaderId':'{!!2Eh-2SzkLMQ8RlmOFaD5GQ','evtSrcRowId':'RequisitionAM.MyReqsTable178_MyReqsTable_oracle_apps_icx_por_reqmgmt_server_ReqMgmtAM.MyReqsGlanceVO','reqAction':'{!!NjMnbbzKyorQ5kfV59Sw0w','evtSrcRowIdx':'4',event:'change',source:'ChangeReq'});return false;" id=MyReqsTable:ChangeReq:4 href="#" name=MyReqsTable:ChangeReq:4><IMG border=0 alt="Change Requisitions" src="/OA_MEDIA/checkout_enabled.gif" width=24 align=middle height=24></A></TD>
+<TD class="x1w x57"><BR></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY></TBODY></TABLE></SPAN><SPAN id=MyReqsTable-hv></SPAN>
+<DIV></DIV>
+<DIV></DIV></DIV></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV></DIV></DIV>
+<DIV></DIV><INPUT id=_fwkAbsolutePageName type=hidden value=/oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG::: name=_fwkAbsolutePageName>
+<DIV>
+<DIV>
+<SCRIPT>t(1,9)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=9></DIV>
+<DIV>
+<SCRIPT>t(1,10)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=10></DIV></DIV></TD>
+<TD vAlign=top>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD>
+<SCRIPT>t('1','5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=5></TD></TR>
+<TR>
+<TD>
+<DIV id=ShoppingCartRN_p13n><A id=N49 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingCartRN" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingCartRN%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingCartRN%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3Djz904Cw08TSPvRZ85mniZA..%22)">Personalize Stack Layout</A>
+<DIV></DIV>
+<DIV></DIV><SPAN id=ShoppingCartRN>
+<SCRIPT id=ContainerBeginSpacer>t('1','5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=5>
+<DIV></DIV>
+<TABLE id=ShoppingCartContRN class=xu cellSpacing=0 cellPadding=0 width=230 border=0>
+<TBODY>
+<TR>
+<TD height=21 background=/OA_HTML/cabo/images/swan/hBar-L.gif></TD>
+<TD class=xw background=/OA_HTML/cabo/images/swan/hBar-Bg.gif>Shopping Cart</TD>
+<TD height=21 background=/OA_HTML/cabo/images/swan/hBar-R.gif></TD></TR>
+<TR>
+<TD class=xx colSpan=3>
+<DIV>
+<DIV id=ContainerTableLayoutRN_p13n><A id=N50 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingCartRN.ContainerTableLayoutRN" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingCartRN.ContainerTableLayoutRN%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingCartRN.ContainerTableLayoutRN%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3Dypiexy0ifI2mVZlXJYUI8g..%22)">Personalize Table Layout: (ContainerTableLayoutRN)</A>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=ContainerTableLayoutRN cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR id=NumberOfLinesRow vAlign=top>
+<TD id=NumberOfLinesCell>
+<TABLE id=NumberOfLines__xc_ cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=top noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><SPAN id=NumberOfLines class=x0>Your cart is empty.</SPAN>
+<SCRIPT>t('5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR>
+<TR id=SpacerRow>
+<TD>
+<SCRIPT id=HeadingSpacer>t('1','7')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=7></TD></TR>
+<TR id=HeadingRow></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV><BR>
+<SCRIPT id=SavedCartSpacer>t('1','3')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=3><BR>
+<DIV id=ButtonTableLayout_p13n><A id=N52 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/ShoppingCartRN.ButtonTableLayout" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingCartRN.ButtonTableLayout%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingCartRN.ButtonTableLayout%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3DUry-F1VXuuB3MymLCI9TnQ..%22)">Personalize Table Layout: (ButtonTableLayout)</A>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=ButtonTableLayout cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR id=ButtonRow></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV></DIV></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<SCRIPT id=ShoppingCartSpacer>t('230','5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=230 height=5></SPAN>
+<DIV></DIV>
+<DIV></DIV></DIV>
+<DIV></DIV>
+<DIV id=PurchasingNewsRN_p13n><A id=N53 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/PurchasingNewsRN" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FPurchasingNewsRN%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswPurchasingNewsRN%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3D86ZdIYjPhRHLclu8kRJsDQ..%22)">Personalize Stack Layout</A>
+<DIV></DIV>
+<DIV></DIV><SPAN id=PurchasingNewsRN>
+<TABLE id=PurchasingNewsContRN class=xu cellSpacing=0 cellPadding=0 width=230 border=0>
+<TBODY>
+<TR>
+<TD height=21 background=/OA_HTML/cabo/images/swan/hBar-L.gif></TD>
+<TD class=xw background=/OA_HTML/cabo/images/swan/hBar-Bg.gif>Purchasing News</TD>
+<TD height=21 background=/OA_HTML/cabo/images/swan/hBar-R.gif></TD></TR>
+<TR>
+<TD class=xx colSpan=3>
+<DIV>
+<DIV id=ContainerTableLayout_p13n><A id=N54 title="Personalize /oracle/apps/icx/icatalog/shopping/webui/PurchasingNewsRN.ContainerTableLayout" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FPurchasingNewsRN.ContainerTableLayout%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswPurchasingNewsRN.ContainerTableLayout%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1717010331%26oapc%3D15%26oas%3DoxEp6ig7EWriuqMUIi3Jcg..%22)">Personalize Table Layout: (ContainerTableLayout)</A>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE id=ContainerTableLayout cellSpacing=2 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR id=CheckFaqRow>
+<TD id=CheckFaqImageCell vAlign=top><IMG id=CheckFaqImage border=0 name=CheckFaqImage alt="Check frequently asked questions" src="/OA_MEDIA/completeind_status.gif"></TD>
+<TD id=CheckFaqCell><A id=CheckFaq class=xh href="javascript: var help_win = window.open('http://riyoramgbm02.maaden.com:8050/OA_HTML/help?locale=en_US&amp;group=FND:LIBRARY:US&amp;topic=US/ICX/@FAQSS', 'help_win', 'resizable=yes,scrollbars=yes,toolbar=yes,width=600,height=500'); help_win.focus();">Check frequently asked questions</A></TD></TR>
+<TR id=ReviewPoliciesRow>
+<TD id=ReviewPoliciesImageCell vAlign=top><IMG id=ReviewPoliciesImage border=0 name=ReviewPoliciesImage alt="Review purchasing policies" src="/OA_MEDIA/completeind_status.gif"></TD>
+<TD id=ReviewPoliciesCell><A id=ReviewPolicies class=xh href="javascript: var help_win = window.open('http://riyoramgbm02.maaden.com:8050/OA_HTML/help?locale=en_US&amp;group=FND:LIBRARY:US&amp;topic=US/ICX/@PPOLICY', 'help_win', 'resizable=yes,scrollbars=yes,toolbar=yes,width=600,height=500'); help_win.focus();">Review purchasing policies</A></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV><BR><!-- $Header: PORPNEWS.htm 120.0 2005/06/04 03:47:44 appldev noship $ --><!-- dbdrv: none -->
+<P>This is where the customer puts their own purchasing news items (this is an HTML plugin). </P></DIV></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<SCRIPT id=PurchasingNewsSpacer>t('230','5')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=230 height=5></SPAN>
+<DIV></DIV>
+<DIV></DIV></DIV></TD></TR></TBODY></TABLE></TD>
+<TD>
+<SCRIPT>t(0,0)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=0 height=0></TD></TR></TBODY></TABLE>
+<TABLE class=x70 style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/footerBg.gif)" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD noWrap align=center>
+<TABLE cellSpacing=0 cellPadding=0 align=center border=0>
+<TBODY>
+<TR>
+<TD id=ICXPOR_SHOP align=center><A class=x15 href="/OA_HTML/OA.jsp?page=/oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG&amp;_ti=1717010331&amp;oapc=15&amp;OAMC=78349_88_0&amp;menu=Y&amp;oaMenuLevel=1&amp;oas=UFWGjXIBtIS-R-RtnV6KFw..">Shop</A></TD>
+<TD id=ICXPOR_REQSTATUS align=center><A class=x15 href="/OA_HTML/OA.jsp?page=/oracle/apps/icx/por/reqmgmt/webui/ReqSummaryPG&amp;_ti=1717010331&amp;oapc=15&amp;OAMC=78349_101_0&amp;menu=Y&amp;oaMenuLevel=1&amp;oas=RaB9NGdqNJszTVtLMptskQ..">Requisitions</A></TD>
+<TD id=ICXPOR_RECEIVING_HOME align=center><A class=x15 href="/OA_HTML/OA.jsp?page=/oracle/apps/icx/por/rcv/webui/IcxPorRcvHomePG&amp;_ti=1717010331&amp;oapc=15&amp;OAMC=78349_141_0&amp;menu=Y&amp;oaMenuLevel=1&amp;oas=lUDrOYLMTVAeV08VHkJWUg..">Receiving</A></TD>
+<TD id=ICX_POR_CONTRACTOR align=center><A class=x15 href="/OA_HTML/OA.jsp?page=/oracle/apps/icx/por/contractor/webui/ContractorHomePG&amp;_ti=1717010331&amp;oapc=15&amp;OAMC=78349_160_0&amp;menu=Y&amp;oaMenuLevel=1&amp;oas=ERecPqueHsd1gj9TraZJzA..">Contractors</A></TD>
+<TD align=center><A class=x15 href="/OA_HTML/OA.jsp?page=/oracle/apps/icx/por/req/webui/ShoppingCartPG&amp;OASF=ICX_POR_SHOPPING_CART&amp;_ti=1717010331&amp;oapc=15&amp;OAMC=78349_75_0&amp;menu=Y&amp;oas=y6r5KDdslZbJWGPgk5LazA..">Shopping Cart</A></TD>
+<TD align=center><A class=x15 href="OA.jsp?_rc=FNDPORTALRELEASEAM&amp;_ri=0&amp;retainAM=N&amp;_ti=1717010331&amp;oapc=15&amp;OAMC=78349_77_0&amp;menu=Y&amp;oas=CpOhOuuVTazCTFx9IF0AnA..">Home</A></TD>
+<TD align=center><A class=x15 href="/OA_HTML/OALogout.jsp?menu=Y">Logout</A></TD>
+<TD align=center><A class=x15 href="/OA_HTML/OA.jsp?page=/oracle/apps/fnd/preferences/webui/PreferencesPG&amp;retainAM=Y&amp;_ti=1717010331&amp;oapc=15&amp;OAMC=78349_79_0&amp;menu=Y&amp;addBreadCrumb=S&amp;OAPF=Y&amp;oas=K6Kw2mm-IC-cXFde4h96OA..">Preferences</A></TD>
+<TD align=center><A class=x15 href="javascript:top.help_window()">Help</A></TD>
+<TD align=center><A class=x15 href="javascript:ignoreWarnAboutChanges(%22%2FOA_HTML%2FOA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Ficatalog%252Fshopping%252Fwebui%252FShoppingHomePG.PageLayoutRN%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiiswShoppingHomePG.PageLayoutRN%26pv%3DSPS%26_ti%3D1717010331%26oapc%3D15%26OAIG%3D11213%26menu%3DY%26oas%3DTIrSctA3Jq31r4of1QVskg..%22)">Personalize Page</A></TD>
+<TD align=center><A class=x15 href="/OA_HTML/OA.jsp?_rc=FND_DIAGNOSTICS_PAGE&amp;_ri=0&amp;retainAM=Y&amp;LogRetUrl=%2FOA_HTML%2FOA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ficx%2Ficatalog%2Fshopping%2Fwebui%2FShoppingHomePG%26transactionid%3D1717010331%26OAMC%3D78349_88_0%26menu%3DY%26oaMenuLevel%3D1%26oas%3DThV999UIXX65iNIt-P9BxQ..&amp;_ti=1717010331&amp;oapc=15&amp;OAIG=9404&amp;menu=Y&amp;oas=eAHxDy3WORbnitx_acBDQw..">Diagnostics</A></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD>
+<TABLE cellSpacing=2 cellPadding=2 width="100%" border=0>
+<TBODY>
+<TR>
+<TD class=x14 noWrap align=left><A onclick="submitForm('DefaultFormName',0,{'serverValidate':'1',event:'about'});return false;" href="#">About this Page</A></TD>
+<TD>
+<SCRIPT>t('10','10')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=10></TD>
+<TD class=x13 noWrap align=left><A title="Privacy Statement" href="http://personalize.this.link" target=_blank>Privacy Statement</A></TD>
+<TD class=x12 width="100%" noWrap align=right><SPAN id=N31>Copyright (c) 2006, Oracle. All rights reserved.</SPAN></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></SPAN><INPUT id=_fwkActBtnName_AllStoresImage1_storeClick$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_AllStoresImage1_storeClick$$serverUnvalidated><INPUT id=_fwkActBtnName_AllStoresName1_storeClick$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_AllStoresName1_storeClick$$serverUnvalidated><INPUT id=_fwkActBtnName_AllStoresImage2_storeClick$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_AllStoresImage2_storeClick$$serverUnvalidated><INPUT id=_fwkActBtnName_AllStoresName2_storeClick$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_AllStoresName2_storeClick$$serverUnvalidated><INPUT id=_fwkActBtnName_AllStoresImage3_storeClick$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_AllStoresImage3_storeClick$$serverUnvalidated><INPUT id=_fwkActBtnName_AllStoresName3_storeClick$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_AllStoresName3_storeClick$$serverUnvalidated><INPUT id=FullListReqsButton$$unvalidated type=hidden value=false name=FullListReqsButton$$unvalidated><INPUT id=FullListReqsButton$$serverUnvalidated type=hidden value=false name=FullListReqsButton$$serverUnvalidated><INPUT id=FullListReqsButton$$processFormDataCalled type=hidden value=true name=FullListReqsButton$$processFormDataCalled><INPUT id=_fwkActBtnName_CopyReq_copy$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_CopyReq_copy$$serverUnvalidated><INPUT id=_fwkActBtnName_ChangeReq_change$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_ChangeReq_change$$serverUnvalidated><INPUT id=MyReqsTable$$unvalidated type=hidden value=false name=MyReqsTable$$unvalidated><INPUT id=_fwkActBtnName_SearchBoxGo_search$$unvalidated type=hidden value=false name=_fwkActBtnName_SearchBoxGo_search$$unvalidated><INPUT id=_fwkActBtnName_SearchBoxGo_search$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_SearchBoxGo_search$$serverUnvalidated><INPUT id=_fwkActBtnName_SearchBoxGo_search$$processFormDataCalled type=hidden value=true name=_fwkActBtnName_SearchBoxGo_search$$processFormDataCalled><INPUT id=SearchBoxGo$$unvalidated type=hidden value=false name=SearchBoxGo$$unvalidated><INPUT id=SearchBoxGo$$serverUnvalidated type=hidden value=false name=SearchBoxGo$$serverUnvalidated><INPUT id=SearchBoxGo$$processFormDataCalled type=hidden value=true name=SearchBoxGo$$processFormDataCalled><INPUT id=_fwkActBtnName_AdvancedSearchLink_advancedSearch$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_AdvancedSearchLink_advancedSearch$$serverUnvalidated><SPAN id=_DefaultFormName_Postscript><INPUT type=hidden name=_FORMEVENT><INPUT type=hidden name=serverValidate><INPUT type=hidden name=evtSrcRowIdx><INPUT type=hidden name=evtSrcRowId><INPUT type=hidden name=_FORM_SUBMIT_BUTTON><INPUT type=hidden name=event><INPUT type=hidden name=source><INPUT type=hidden name=SearchBoxCmd><INPUT type=hidden name=Cmd><INPUT type=hidden name=StoreName><INPUT type=hidden name=StoreId><INPUT type=hidden name=StoreLongDesc><INPUT type=hidden name=StoreType><INPUT type=hidden name=reqHeaderId><INPUT type=hidden name=reqAction><INPUT type=hidden name=porMode><INPUT type=hidden name=storeId><INPUT type=hidden name=storeName><INPUT type=hidden name=value><INPUT type=hidden name=state><INPUT type=hidden name=partialTargets><INPUT type=hidden name=partial>
+<SCRIPT>var _resetDefaultFormNameNames=["_FORMEVENT","serverValidate","evtSrcRowIdx","evtSrcRowId","_FORM_SUBMIT_BUTTON","event","source","SearchBoxCmd","Cmd","StoreName","StoreId","StoreLongDesc","StoreType","reqHeaderId","reqAction","porMode","storeId","storeName","value","state","partialTargets","partial"];</SCRIPT>
+
+<SCRIPT>function _DefaultFormNameValidater(form){return true;}function _submitOnEnter(e,frm){if(_getKC(e)==13){submitForm(frm,1);return false;}}</SCRIPT>
+</SPAN>
+<SCRIPT>_submitFormCheck();</SCRIPT>
+</FORM><IFRAME title="Forms Launcher" height=5 src="http://riyoramgbm02.maaden.com:8050/OA_HTML/blank.html" frameBorder=no width=5 name=formsLauncher scrolling=no></IFRAME></SPAN><INPUT disabled id=_pprSaveLib type=hidden><INPUT disabled id=_pprSaveScript type=hidden><INPUT disabled id=_pprSavePage type=hidden>
+<SCRIPT>var _uixDoneMessage="Done."</SCRIPT>
+
+<SCRIPT>document.body.style.marginLeft="0px";document.body.style.marginRight="0px";document.body.style.marginTop="0px";</SCRIPT>
+<!-- Created by Oracle UIX , Accessibility:disabled, laf:swan.desktop (swan) --> 
+<UL id=MenuList class=submenustyle _master="topmenubar" _pos="0"></UL>
+<UL id=FavList class=submenustyle _master="topmenubar" _pos="1"></UL></BODY></HTML>

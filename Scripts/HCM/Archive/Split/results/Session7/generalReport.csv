@@ -1,0 +1,6 @@
+1180,1,Split,6/15/2020 17:49:24 PM,0,Failed,6/15/2020 17:49:23 PM,basic.step,HCM,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,390,Passed,"",basic.init,
+"Iteration Total (sec)",,393,Failed,"",basic.iteration,
+"Failure",,3,Failed,"Fail",basic.comment,
+"Finish Total (sec)",,108,Passed,"",basic.finish,

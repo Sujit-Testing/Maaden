@@ -1,0 +1,382 @@
+<HTML lang=en-US-ORACLE9I style="VISIBILITY: visible" dir=ltr><HEAD><TITLE>Oracle iProcurement: Checkout</TITLE>
+<META name=generator content="Oracle UIX"><LINK rel=stylesheet type=text/css href="/OA_HTML/cabo/styles/cache/swan-desktop-custom-2_3_6_9-en-ie-windows.css" charset=UTF-8>
+<SCRIPT>var _UixWindowOpenError='A popup window blocker has been detected in your browser. Popup blockers interfere with the operation of this application. Please disable your popup blocker or allow popups from this site.';</SCRIPT>
+
+<SCRIPT src="/OA_HTML/cabo/jsLibs/Common2_3_6_9.js"></SCRIPT>
+
+<SCRIPT>_defaultTZ()</SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oafcoreR121.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/lookAheadLOV.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/attachmentPopup.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oafb.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/OAFSlideoutMenu.js"></SCRIPT>
+
+<SCRIPT language=javascript>function help_window() { help_win = window.open("http://riyoramgbm02.maaden.com:8050/OA_HTML/help?locale=en_US&group=FND:LIBRARY:US&topic=US/ICX/@IPROCINDEX", "help_win","resizable=yes,scrollbars=yes,toolbar=yes,width=600,height=500")}</SCRIPT>
+</HEAD>
+<BODY class=xk onload="return _chain('_checkLoad(event,\\'DefaultFormName\\')','oafsm.setup(&quot;topmenubar&quot;, &quot;topbar&quot;,escape(\\'RF.jsp?function_id=MAINMENUREST&amp;security_group_id=0\\'),\\'true\\',false);Linit();Ainit();',this,event)" style="MARGIN-TOP: 0px; MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px" onbeforeunload=_savePageStateIE() onunload=_checkUnload(event)>
+<DIV id=ddTtDiV style="OVERFLOW: hidden; WIDTH: 0px; POSITION: absolute; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; LEFT: 0px; Z-INDEX: 10; TOP: 0px; PADDING-RIGHT: 0px; VISIBILITY: hidden"></DIV>
+<DIV id=WzTtDiV style="OVERFLOW: hidden; WIDTH: 0px; POSITION: absolute; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; LEFT: 0px; TOP: 0px; PADDING-RIGHT: 0px; VISIBILITY: hidden"></DIV><IFRAME id=_pprIFrame title="" style="POSITION: absolute; TOP: -100px; VISIBILITY: hidden" height=0 longDesc=# src="/OA_HTML/cabo/images/swan/t.htm" frameBorder=0 width=0 name=_pprIFrame></IFRAME>
+<DIV onclick="return _pprConsumeClick(event);" onkeypress="return false;" onkeyup="return false;" id=_pprBlockingDiv onkeydown="return false;" style="CURSOR: wait; HEIGHT: 0px; WIDTH: 0px; POSITION: absolute; LEFT: 0px; TOP: 0px"></DIV>
+<DIV id=_uixDownload class=x3f style="BEHAVIOR: url(#default#download)"></DIV>
+<SCRIPT>var _cachedLibs;</SCRIPT>
+
+<SCRIPT>var _pprFirstClickPass=true;</SCRIPT>
+
+<SCRIPT>var _navEvent = 'navigate';function _onNavigate(formName,uri){return confirm("The changes you made to this page have not been saved.  If you continue, the changes will be discarded.  Do you wish to continue?")};_navDirty=1;</SCRIPT>
+<SPAN id=_pprPageContent>
+<FORM id=DefaultFormName style="MARGIN: 0px" method=post name=DefaultFormName action=/OA_HTML/OA.jsp?porMode=display&amp;OA_SubTabIdx=2&amp;page=/oracle/apps/icx/por/req/webui/CheckoutLinesPG&amp;PorLineSubTab=accounts&amp;_ti=1116601632&amp;retainAM=Y&amp;addBreadCrumb=Y&amp;oapc=16&amp;oas=uWKHfdKueiUzs_6zokKLYA..><INPUT id=_AM_TX_ID_FIELD type=hidden value=1 name=_AM_TX_ID_FIELD><INPUT id=_FORM type=hidden value=DefaultFormName name=_FORM><SPAN id=lovHFCId></SPAN><SPAN id=PageLayoutRN>
+<TABLE class=x6u style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/headerBg.jpg)" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD>
+<SCRIPT>var _tURL="\\x2FOA_HTML\\x2Fcabo\\x2Fimages\\x2Fswan\\x2Ft.gif";var _axm;t('10','10')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=10></TD></TR>
+<TR>
+<TD>
+<TABLE style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD vAlign=top width="1%" noWrap><IMG border=0 alt=Maaden_logo1.jpg src="/OA_MEDIA/Maaden_logo1.jpg"></TD>
+<TD noWrap><SPAN title=iProcurement style="POSITION: absolute"><SPAN class=x4i>iProcurement</SPAN></SPAN>
+<SCRIPT>t('0','14')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=0 height=14></TD>
+<TD></TD>
+<TD></TD></TR>
+<TR>
+<TD></TD>
+<TD style="POSITION: relative; PADDING-BOTTOM: 8px; Z-INDEX: 10" vAlign=bottom colSpan=2 align=right>
+<TABLE class=x6w cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD vAlign=bottom><LINK rel=stylesheet type=text/css href="cabo/styles/OAFSlideoutMenu.css">
+<DIV id=topmenubar style="WIDTH: 300px">
+<UL>
+<P style="FONT-SIZE: 12px; FONT-FAMILY: Arial; COLOR: white"><IMG class=image src="/OA_MEDIA/home.gif"><A id=SNAV class=Menu href="#" name=Menu rel=MenuList _master="topmenubar" _pos="0" _istoplevel="true">&nbsp;Navigator<IMG class=drimage1 src="/OA_MEDIA/drop_arrow.gif"></A><IMG class=image src="/OA_MEDIA/favorites.gif" align=absMiddle><A id=SFAV class=Fav href="#" name=Fav rel=FavList _master="topmenubar" _pos="1" _istoplevel="true">&nbsp;Favorites<IMG class=drimage src="/OA_MEDIA/drop_arrow.gif"></A></P></UL></DIV>
+<DIV id=SDivTop style="POSITION: absolute; DISPLAY: none"></DIV>
+<DIV id=SFavTop style="POSITION: absolute; DISPLAY: none"></DIV></TD>
+<TD vAlign=bottom><A class=x15 href="javascript:_submitNav('DefaultFormName','http%3A//riyoramgbm02.maaden.com%3A8050/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/icx/por/req/webui/ShoppingCartPG%26OASF%3DICX_POR_SHOPPING_CART%26_ti%3D1116601632%26oapc%3D16%26OAMC%3D78349_75_0%26menu%3DY%26oas%3DkVFrqUmRYPEfWek1eUORSg..')">Shopping Cart</A></TD>
+<TD vAlign=bottom><A class=x15 href="javascript:_submitNav('DefaultFormName','http%3A//riyoramgbm02.maaden.com%3A8050/OA_HTML/OA.jsp%3F_rc%3DFNDPORTALRELEASEAM%26_ri%3D0%26retainAM%3DN%26_ti%3D1116601632%26oapc%3D16%26OAMC%3D78349_77_0%26menu%3DY%26oas%3DBmwRvx1TS-jdGXXLH9PBaQ..')">Home</A></TD>
+<TD vAlign=bottom><A class=x15 href="javascript:_submitNav('DefaultFormName','http%3A//riyoramgbm02.maaden.com%3A8050/OA_HTML/OALogout.jsp%3Fmenu%3DY')">Logout</A></TD>
+<TD vAlign=bottom><A class=x15 href="javascript:_submitNav('DefaultFormName','http%3A//riyoramgbm02.maaden.com%3A8050/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/fnd/preferences/webui/PreferencesPG%26retainAM%3DY%26_ti%3D1116601632%26oapc%3D16%26OAMC%3D78349_79_0%26menu%3DY%26addBreadCrumb%3DS%26OAPF%3DY%26oas%3DbNcFlP96DEJxU1tShxRN-Q..')">Preferences</A></TD>
+<TD vAlign=bottom><A class=x15 href="javascript:top.help_window()">Help</A></TD>
+<TD vAlign=bottom><A class=x15 href="javascript:ignoreWarnAboutChanges(%22%2FOA_HTML%2FOA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Fpor%252Freq%252Fwebui%252FCheckoutLinesPG.PageLayoutRN%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiprwCheckoutLinesPG.PageLayoutRN%26pv%3DSPS%26_ti%3D1116601632%26oapc%3D16%26OAIG%3D11213%26menu%3DY%26oas%3DJWdhkVNiFlfSji0KRq6wfg..%22)">Personalize Page</A></TD>
+<TD vAlign=bottom><A class=x15 href="javascript:_submitNav('DefaultFormName','http%3A//riyoramgbm02.maaden.com%3A8050/OA_HTML/OA.jsp%3F_rc%3DFND_DIAGNOSTICS_PAGE%26_ri%3D0%26retainAM%3DY%26LogRetUrl%3D%252FOA_HTML%252FOA.jsp%253FporMode%253Ddisplay%2526OA_SubTabIdx%253D2%2526page%253D%252Foracle%252Fapps%252Ficx%252Fpor%252Freq%252Fwebui%252FCheckoutLinesPG%2526PorLineSubTab%253Daccounts%2526transactionid%253D1116601632%2526retainAM%253DY%2526addBreadCrumb%253DY%2526oas%253DT2B3p9_2xbhYAlZGs_2nAg..%26_ti%3D1116601632%26oapc%3D16%26OAIG%3D9404%26menu%3DY%26oas%3DvYLtDYeh3yvxxnhLmrp26w..')">Diagnostics</A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD vAlign=bottom colSpan=4 align=left>
+<TABLE class=x1j cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD height=21 width=8><IMG border=0 src="/OA_HTML/cabo/images/swan/topDimTabL.gif" width=8 height=21></TD>
+<TD class=x1k style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/topDimTabBg.gif)" background=/OA_HTML/cabo/images/swan/topDimTabBg.gif noWrap><A id=ICXPOR_SHOP title=Shop href="javascript:_submitNav('DefaultFormName','http%3A//riyoramgbm02.maaden.com%3A8050/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG%26_ti%3D1116601632%26oapc%3D16%26OAMC%3D78349_88_0%26menu%3DY%26oaMenuLevel%3D1%26oas%3Db0B5mwkASBUkwp7T9BIjTQ..')" name=ICXPOR_SHOP>Shop</A></TD>
+<TD height=21 width=18><IMG border=0 src="/OA_HTML/cabo/images/swan/topTabDDjoint.gif" width=18 height=21></TD>
+<TD class=x1k style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/topDimTabBg.gif)" background=/OA_HTML/cabo/images/swan/topDimTabBg.gif noWrap><A id=ICXPOR_REQSTATUS title=Requisitions href="javascript:_submitNav('DefaultFormName','http%3A//riyoramgbm02.maaden.com%3A8050/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/icx/por/reqmgmt/webui/ReqSummaryPG%26_ti%3D1116601632%26oapc%3D16%26OAMC%3D78349_101_0%26menu%3DY%26oaMenuLevel%3D1%26oas%3DRURX2b4xBgBuwDST6MUTUA..')" name=ICXPOR_REQSTATUS>Requisitions</A></TD>
+<TD height=21 width=18><IMG border=0 src="/OA_HTML/cabo/images/swan/topTabDDjoint.gif" width=18 height=21></TD>
+<TD class=x1k style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/topDimTabBg.gif)" background=/OA_HTML/cabo/images/swan/topDimTabBg.gif noWrap><A id=ICXPOR_RECEIVING_HOME title=Receiving href="javascript:_submitNav('DefaultFormName','http%3A//riyoramgbm02.maaden.com%3A8050/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/icx/por/rcv/webui/IcxPorRcvHomePG%26_ti%3D1116601632%26oapc%3D16%26OAMC%3D78349_141_0%26menu%3DY%26oaMenuLevel%3D1%26oas%3DwbXRPtv6goml4SE04ynAVg..')" name=ICXPOR_RECEIVING_HOME>Receiving</A></TD>
+<TD height=21 width=18><IMG border=0 src="/OA_HTML/cabo/images/swan/topTabDDjoint.gif" width=18 height=21></TD>
+<TD class=x1k style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/topDimTabBg.gif)" background=/OA_HTML/cabo/images/swan/topDimTabBg.gif noWrap><A id=ICX_POR_CONTRACTOR title=Contractors href="javascript:_submitNav('DefaultFormName','http%3A//riyoramgbm02.maaden.com%3A8050/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/icx/por/contractor/webui/ContractorHomePG%26_ti%3D1116601632%26oapc%3D16%26OAMC%3D78349_160_0%26menu%3DY%26oaMenuLevel%3D1%26oas%3DqYNKYGAR6rjNe2r5ArpZFg..')" name=ICX_POR_CONTRACTOR>Contractors</A></TD>
+<TD height=21 width=8><IMG border=0 src="/OA_HTML/cabo/images/swan/topDimTabR.gif" width=8 height=21></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD width="100%">
+<TABLE class=x73 style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/navBarUnderTopTabsBg.gif)" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV class=x6t style="HEIGHT: auto">
+<TABLE id=CheckoutTrainRN class=x7m cellSpacing=0 cellPadding=0 align=center border=0>
+<TBODY>
+<TR>
+<TD width=20></TD>
+<TD align=right><IMG src="/OA_HTML/cabo/images/cache/ctrasl.gif" width=6 height=23></TD>
+<TD>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" background=/OA_HTML/cabo/images/cache/ctrdj.gif border=0>
+<TBODY>
+<TR>
+<TD height=23 align=left><IMG alt="" src="/OA_HTML/cabo/images/cache/ctrasr.gif" width=6 height=23></TD></TR></TBODY></TABLE></TD>
+<TD>
+<TABLE height=23 cellSpacing=0 cellPadding=0 width="100%" background=/OA_HTML/cabo/images/cache/ctrdj.gif border=0>
+<TBODY>
+<TR>
+<TD>
+<SCRIPT>t(20,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD></TR></TBODY></TABLE></TD>
+<TD>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" background=/OA_HTML/cabo/images/cache/ctrdj.gif border=0>
+<TBODY>
+<TR>
+<TD height=23 align=right><IMG src="/OA_HTML/cabo/images/cache/ctrdsl.gif" width=6 height=23></TD></TR></TBODY></TABLE></TD>
+<TD>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" background=/OA_HTML/cabo/images/cache/ctrdj.gif border=0>
+<TBODY>
+<TR>
+<TD height=23 align=left><IMG alt="" src="/OA_HTML/cabo/images/cache/ctrdsr.gif" width=6 height=23></TD></TR></TBODY></TABLE></TD>
+<TD>
+<TABLE height=23 cellSpacing=0 cellPadding=0 width="100%" background=/OA_HTML/cabo/images/cache/ctrdj.gif border=0>
+<TBODY>
+<TR>
+<TD>
+<SCRIPT>t(20,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD></TR></TBODY></TABLE></TD>
+<TD>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" background=/OA_HTML/cabo/images/cache/ctrdj.gif border=0>
+<TBODY>
+<TR>
+<TD height=23 align=right><IMG src="/OA_HTML/cabo/images/cache/ctrdsl.gif" width=6 height=23></TD></TR></TBODY></TABLE></TD>
+<TD align=left><IMG alt="" src="/OA_HTML/cabo/images/cache/ctrdsr.gif" width=6 height=23></TD>
+<TD width=20></TD></TR>
+<TR>
+<TD></TD>
+<TD class=x2c colSpan=2><SPAN id=ReqInfo>Requisition Information</SPAN></TD>
+<TD></TD>
+<TD class=x2e colSpan=2><SPAN id=Approvers>Approvals</SPAN></TD>
+<TD></TD>
+<TD class=x2e colSpan=2><SPAN id=ReviewSubmit>Review And Submit</SPAN></TD>
+<TD></TD></TR></TBODY></TABLE>
+<TABLE id=FwkErrorBeanId cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD>
+<TABLE class=x1g cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD height=6 width=8><IMG border=0 src="/OA_HTML/cabo/images/swan/msgBoxTop-L.gif" width=8 height=6></TD>
+<TD background=/OA_HTML/cabo/images/swan/msgBoxTop-Bg.gif width="100%"></TD>
+<TD height=6 width=8><IMG border=0 src="/OA_HTML/cabo/images/swan/msgBoxTop-R.gif" width=8 height=6></TD></TR>
+<TR>
+<TD background=/OA_HTML/cabo/images/swan/msgBoxMain-L.gif></TD>
+<TD class=x7e>
+<DIV>
+<DIV class=x6a>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR vAlign=bottom>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/swan/errorl.gif" width=18 height=18></TD>
+<TD>
+<SCRIPT>t(5,0)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=0></TD>
+<TD width="100%">
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD width="100%">
+<H1 class=x5y>Error</H1></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV></DIV>
+<DIV class=x47></DIV>
+<DIV class=x46><A class=xh href="#RequisitionAM.PoRequisitionLinesVO1932855ChargeAccount">Row 1 Charge Account</A> - Charge account is invalid. (Program error: An error has occurred while looking up a flexfield segment combination. Please inform your support representative that: The FND_FLEX_SERVER validation function has encountered a null or negative combination ID () while trying to look up the segment values for this combination. This may indicate an invalid entry in the unique ID column of the combinations table.).</DIV></TD>
+<TD background=/OA_HTML/cabo/images/swan/msgBoxMain-R.gif></TD></TR>
+<TR>
+<TD height=6 width=8><IMG border=0 src="/OA_HTML/cabo/images/swan/msgBoxBtm-L.gif" width=8 height=6></TD>
+<TD background=/OA_HTML/cabo/images/swan/msgBoxBtm-Bg.gif width="100%"></TD>
+<TD height=6 width=8><IMG border=0 src="/OA_HTML/cabo/images/swan/msgBoxBtm-R.gif" width=8 height=6></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV>
+<DIV class=x7x>
+<DIV>
+<DIV class=x6a>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD width="100%">
+<H1 class=x1f>Requisition Information: Edit Lines</H1></TD></TR></TBODY></TABLE></DIV>
+<DIV class=x79>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR vAlign=top>
+<TD><SPAN id=PageStatusRN>
+<TABLE id=RequiredFieldRN cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR id=Row>
+<TD id=AstCell><SPAN id=ReqTextRN><SPAN id=RequiredFieldIcon class=xg>*</SPAN>
+<SCRIPT id=spacer1>t('6','1')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=6 height=1><SPAN id=RequiredFieldText class=x5g>Indicates required field</SPAN></SPAN></TD></TR></TBODY></TABLE></SPAN></TD>
+<TD noWrap align=right>
+<TABLE id=PageButtonsRN class=x6w cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD>
+<SCRIPT>t(8,0)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=8 height=0></TD>
+<TD><BUTTON onclick="submitForm('DefaultFormName',1,{'evtSrcRowIdx':'','evtSrcRowId':'',event:'return',source:'Return'});return false;" id=Return title=Apply class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Apply</BUTTON></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD>
+<SCRIPT>t('1','2')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=2></TD></TR></TBODY></TABLE><NOSCRIPT></NOSCRIPT>
+<DIV></DIV><SPAN id=CheckoutLinesRN>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD>
+<TABLE id=ReqLinesSubTabs class=x7g cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD height=19 width=8><IMG border=0 src="/OA_HTML/cabo/images/swan/subDimTabL.gif" width=8 height=19></TD>
+<TD class=x7i style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/subDimTabBg.gif)" background=/OA_HTML/cabo/images/swan/subDimTabBg.gif noWrap><A onclick="submitForm('DefaultFormName',0,{'serverValidate':'0','_oldStyleSubtabClick':'true','_OAFSubTabLink':'true','_OA_SUB_TAB_INDEX':'0','serverValidate':'0',event:'update',source:'DeliveryTab'});return false;" id=DeliveryTab title=Delivery href="#" name=DeliveryTab>Delivery</A></TD>
+<TD height=19 width=18><IMG border=0 src="/OA_HTML/cabo/images/swan/subTabDDjoint.gif" width=18 height=19></TD>
+<TD class=x7i style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/subDimTabBg.gif)" background=/OA_HTML/cabo/images/swan/subDimTabBg.gif noWrap><A onclick="submitForm('DefaultFormName',0,{'serverValidate':'0','_oldStyleSubtabClick':'true','_OAFSubTabLink':'true','_OA_SUB_TAB_INDEX':'1','serverValidate':'0',event:'update',source:'BillingTab'});return false;" id=BillingTab title=Billing accessKey=, href="#" name=BillingTab>Billing</A></TD>
+<TD height=19 width=18><IMG border=0 src="/OA_HTML/cabo/images/swan/subTabDAjoint.gif" width=18 height=19></TD>
+<TD class=x7k background=/OA_HTML/cabo/images/swan/subTabBg.gif noWrap><A id=AccountsTab title=Accounts name=AccountsTab>Accounts</A></TD>
+<TD height=19 width=18><IMG border=0 src="/OA_HTML/cabo/images/swan/subTabADjoint.gif" width=18 height=19></TD>
+<TD class=x7i style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/subDimTabBg.gif)" background=/OA_HTML/cabo/images/swan/subDimTabBg.gif noWrap><A onclick="submitForm('DefaultFormName',0,{'serverValidate':'0','_oldStyleSubtabClick':'true','_OAFSubTabLink':'true','_OA_SUB_TAB_INDEX':'3','serverValidate':'0',event:'update',source:'AttachmentsTab'});return false;" id=AttachmentsTab title=Attachments accessKey=. href="#" name=AttachmentsTab>Attachments</A></TD>
+<TD height=19 width=8><IMG border=0 src="/OA_HTML/cabo/images/swan/subDimTabR.gif" width=8 height=19></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD>
+<DIV class=x6m>
+<TABLE class=x7l style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/bar-under-bg.gif)" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE>
+<SCRIPT>t(10,10)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=10><SPAN id=AccountsLinesRN>
+<DIV parent="OAStackLayoutBean, localName='stackLayout'"><A id=N47 title="Personalize /oracle/apps/icx/por/req/webui/CheckoutLinesPG.AccountsLinesRN" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Fpor%252Freq%252Fwebui%252FCheckoutLinesPG.AccountsLinesRN%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiprwCheckoutLinesPG.AccountsLinesRN%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1116601632%26oapc%3D16%26oas%3D_ZFABYaqmOBXhldRKmFB8Q..%22)">Personalize Stack Layout: (AccountsLinesRN)</A></DIV>
+<DIV></DIV>
+<SCRIPT id=AccountsStartSpacer>t('10','10')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=10>
+<DIV></DIV>
+<DIV id=AccountsLinesAdvTable_p13n><A id=N48 title="Personalize /oracle/apps/icx/por/req/webui/CheckoutLinesPG.AccountsLinesAdvTable" class=xh href="javascript:ignoreWarnAboutChanges(%22OA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Fpor%252Freq%252Fwebui%252FCheckoutLinesPG.AccountsLinesAdvTable%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiprwCheckoutLinesPG.AccountsLinesAdvTable%26pv%3DCLS%26OAIG%3D11213%26_ti%3D1116601632%26oapc%3D16%26oas%3D53sBboc83Z-W5gVfu7Yp6A..%22)">Personalize "This table shows the account infor..."</A>
+<DIV></DIV>
+<DIV></DIV><SPAN id=AccountsLinesAdvTable title="This table shows the account information of the requisition lines.">
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD>
+<TABLE class=x1p cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD noWrap>
+<TABLE cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD class=x58 noWrap>Select Lines:
+<SCRIPT>t(3,1)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=3 height=1></TD>
+<TD vAlign=middle noWrap><SPAN id=AccountsLinesButtons><BUTTON onclick="submitForm('DefaultFormName',0,{'evtSrcRowIdx':'','evtSrcRowId':'','serverValidate':'0',event:'updateLines',source:'Update'});return false;" id=Update title=Update class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Update</BUTTON><BUTTON onclick="submitForm('DefaultFormName',0,{'evtSrcRowIdx':'','evtSrcRowId':'','serverValidate':'0',event:'copyLines',source:'Copy'});return false;" id=Copy title=Copy class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Copy</BUTTON><BUTTON onclick="submitForm('DefaultFormName',0,{'evtSrcRowIdx':'','evtSrcRowId':'','serverValidate':'0',event:'deleteLines',source:'Delete'});return false;" id=Delete title=Delete class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Delete</BUTTON></SPAN></TD></TR></TBODY></TABLE></TD>
+<TD width="100%"></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD>
+<TABLE class=x1r cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD vAlign=middle noWrap><A class=x48 href="javascript:tableSelectAll('AccountsLinesAdvTable')">Select All</A>&nbsp;|&nbsp;<A class=x48 href="javascript:tableSelectNone('AccountsLinesAdvTable')">Select None</A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE class=x1o cellSpacing=0 cellPadding=1 width="100%" border=0>
+<TBODY>
+<TR>
+<TH class="x20 x4w" style="WORD-BREAK: keep-all" width="1%" scope=col noWrap>Select</TH>
+<TH id=LineNumColOnAcct class="x1y x4t" scope=col><SPAN id=LineNumHeaderOnAcct class=x2b>Line
+<SCRIPT>function _tableSortSubmit(formName,validate,sortEvent,table,val,stat,ptgt) {var submitFunc = (ptgt == (void 0)) ? submitForm : _submitPartialChange;submitFunc(formName,validate,{event:sortEvent,source:table,value:val,state:stat,partialTargets:ptgt });}</SCRIPT>
+</SPAN></TH>
+<TH id=ItemDescColOnAcct class="x1y x4t" scope=col><SPAN id=ItemDescHeaderOnAcct class=x2b>Description</SPAN></TH>
+<TH id=ChargeAccountCol class="x1y x4t" scope=col><SPAN id=ChargeAccountHeader class=x2b>Charge Account</SPAN></TH>
+<TH id=AccountsSplitCol class="x20 x4t" scope=col><SPAN id=AccountsSplitHeader class=x2b>Split</SPAN></TH></TR>
+<TR>
+<TD class="x1w x57"><INPUT title=Select type=checkbox value=0 name=AccountsLinesAdvTable:selected:0></TD>
+<TD class="x1s x57"><SPAN id=AccountsLinesAdvTable:LineNumOnAcct:0 title=Line>1</SPAN></TD>
+<TD class="x1s x57"><SPAN id=AccountsLinesAdvTable:ItemDescriptionOnAcct:0 title=Description>Passivator</SPAN></TD>
+<TD class="x1s x57" noWrap><A onclick="submitForm('DefaultFormName',0,{'PorDistSubTab':'accounts','PorReqLineId':'1932855','serverValidate':'0','evtSrcRowId':'RequisitionAM.PoRequisitionLinesVO1932855','evtSrcRowIdx':'0',event:'multipleLink',source:'EnterChargeAccount'});return false;" id=AccountsLinesAdvTable:EnterChargeAccount:0 title="Charge Account" class=xh href="#">Enter Charge Account</A></TD>
+<TD class="x1w x57"><A onclick="submitForm('DefaultFormName',0,{'PorDistSubTab':'accounts','PorReqLineId':'1932855','serverValidate':'0','evtSrcRowId':'RequisitionAM.PoRequisitionLinesVO1932855','evtSrcRowIdx':'0',event:'multipleLink',source:'AccountSplit'});return false;" id=AccountsLinesAdvTable:AccountSplit:0 href="#" name=AccountsLinesAdvTable:AccountSplit:0><IMG border=0 alt="Allocates costs to multiple accounts." src="/OA_MEDIA/split_enabled.gif" align=middle></A></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY></TBODY></TABLE></SPAN><SPAN id=AccountsLinesAdvTable-hv><INPUT id=AccountsLinesAdvTable:_pkRequisitionLineId:0 type=hidden value={!!2D5NlJ-U.dFdcwPlQmh6sw name=AccountsLinesAdvTable:_pkRequisitionLineId:0><INPUT type=hidden value=1 name=AccountsLinesAdvTable:length><INPUT type=hidden name=AccountsLinesAdvTable:selectMode></SPAN>
+<SCRIPT>_addNavExclude('AccountsLinesAdvTable:selected')</SCRIPT>
+
+<DIV></DIV>
+<DIV></DIV></DIV>
+<DIV></DIV>
+<TABLE id=AccountsSplitTip cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD vAlign=top><IMG src="/OA_HTML/cabo/images/swan/tip.gif" width=15 height=13></TD>
+<TD class=x5f vAlign=top noWrap>TIP&nbsp;</TD>
+<TD class=x5g vAlign=top width="100%">Click on a Split icon to allocate costs to multiple accounts.</TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<SCRIPT id=AccountsEndSpacer>t('10','10')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=10></SPAN></DIV></TD></TR></TBODY></TABLE></SPAN>
+<DIV></DIV><INPUT id=_fwkAbsolutePageName type=hidden value=/oracle/apps/icx/por/req/webui/CheckoutLinesPG::: name=_fwkAbsolutePageName></DIV></DIV>
+<DIV>
+<DIV>
+<SCRIPT>t(1,9)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=9></DIV>
+<DIV>
+<SCRIPT>t(1,2)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=2></DIV>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD noWrap></TD>
+<TD width="100%" align=right>
+<TABLE id=PageButtonsRN_uixr class=x6w cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD>
+<SCRIPT>t(8,0)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=8 height=0></TD>
+<TD><BUTTON onclick="submitForm('DefaultFormName',1,{'evtSrcRowIdx':'','evtSrcRowId':'',event:'return',source:'Return'});return false;" id=Return_uixr title=Apply class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Apply</BUTTON></TD></TR></TBODY></TABLE></TD>
+<TD></TD></TR>
+<TR>
+<TD colSpan=3>
+<SCRIPT>t(1,10)</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=10></TD></TR></TBODY></TABLE></DIV></DIV>
+<DIV></DIV>
+<DIV></DIV>
+<DIV></DIV></DIV>
+<TABLE class=x70 style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/footerBg.gif)" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD noWrap align=center>
+<TABLE cellSpacing=0 cellPadding=0 align=center border=0>
+<TBODY>
+<TR>
+<TD id=ICXPOR_SHOP align=center><A class=x15 href="javascript:_submitNav('DefaultFormName','http%3A//riyoramgbm02.maaden.com%3A8050/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG%26_ti%3D1116601632%26oapc%3D16%26OAMC%3D78349_88_0%26menu%3DY%26oaMenuLevel%3D1%26oas%3Db0B5mwkASBUkwp7T9BIjTQ..')">Shop</A></TD>
+<TD id=ICXPOR_REQSTATUS align=center><A class=x15 href="javascript:_submitNav('DefaultFormName','http%3A//riyoramgbm02.maaden.com%3A8050/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/icx/por/reqmgmt/webui/ReqSummaryPG%26_ti%3D1116601632%26oapc%3D16%26OAMC%3D78349_101_0%26menu%3DY%26oaMenuLevel%3D1%26oas%3DRURX2b4xBgBuwDST6MUTUA..')">Requisitions</A></TD>
+<TD id=ICXPOR_RECEIVING_HOME align=center><A class=x15 href="javascript:_submitNav('DefaultFormName','http%3A//riyoramgbm02.maaden.com%3A8050/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/icx/por/rcv/webui/IcxPorRcvHomePG%26_ti%3D1116601632%26oapc%3D16%26OAMC%3D78349_141_0%26menu%3DY%26oaMenuLevel%3D1%26oas%3DwbXRPtv6goml4SE04ynAVg..')">Receiving</A></TD>
+<TD id=ICX_POR_CONTRACTOR align=center><A class=x15 href="javascript:_submitNav('DefaultFormName','http%3A//riyoramgbm02.maaden.com%3A8050/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/icx/por/contractor/webui/ContractorHomePG%26_ti%3D1116601632%26oapc%3D16%26OAMC%3D78349_160_0%26menu%3DY%26oaMenuLevel%3D1%26oas%3DqYNKYGAR6rjNe2r5ArpZFg..')">Contractors</A></TD>
+<TD align=center><A class=x15 href="javascript:_submitNav('DefaultFormName','http%3A//riyoramgbm02.maaden.com%3A8050/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/icx/por/req/webui/ShoppingCartPG%26OASF%3DICX_POR_SHOPPING_CART%26_ti%3D1116601632%26oapc%3D16%26OAMC%3D78349_75_0%26menu%3DY%26oas%3DkVFrqUmRYPEfWek1eUORSg..')">Shopping Cart</A></TD>
+<TD align=center><A class=x15 href="javascript:_submitNav('DefaultFormName','http%3A//riyoramgbm02.maaden.com%3A8050/OA_HTML/OA.jsp%3F_rc%3DFNDPORTALRELEASEAM%26_ri%3D0%26retainAM%3DN%26_ti%3D1116601632%26oapc%3D16%26OAMC%3D78349_77_0%26menu%3DY%26oas%3DBmwRvx1TS-jdGXXLH9PBaQ..')">Home</A></TD>
+<TD align=center><A class=x15 href="javascript:_submitNav('DefaultFormName','http%3A//riyoramgbm02.maaden.com%3A8050/OA_HTML/OALogout.jsp%3Fmenu%3DY')">Logout</A></TD>
+<TD align=center><A class=x15 href="javascript:_submitNav('DefaultFormName','http%3A//riyoramgbm02.maaden.com%3A8050/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/fnd/preferences/webui/PreferencesPG%26retainAM%3DY%26_ti%3D1116601632%26oapc%3D16%26OAMC%3D78349_79_0%26menu%3DY%26addBreadCrumb%3DS%26OAPF%3DY%26oas%3DbNcFlP96DEJxU1tShxRN-Q..')">Preferences</A></TD>
+<TD align=center><A class=x15 href="javascript:top.help_window()">Help</A></TD>
+<TD align=center><A class=x15 href="javascript:ignoreWarnAboutChanges(%22%2FOA_HTML%2FOA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Fpor%252Freq%252Fwebui%252FCheckoutLinesPG.PageLayoutRN%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiprwCheckoutLinesPG.PageLayoutRN%26pv%3DSPS%26_ti%3D1116601632%26oapc%3D16%26OAIG%3D11213%26menu%3DY%26oas%3DJWdhkVNiFlfSji0KRq6wfg..%22)">Personalize Page</A></TD>
+<TD align=center><A class=x15 href="javascript:_submitNav('DefaultFormName','http%3A//riyoramgbm02.maaden.com%3A8050/OA_HTML/OA.jsp%3F_rc%3DFND_DIAGNOSTICS_PAGE%26_ri%3D0%26retainAM%3DY%26LogRetUrl%3D%252FOA_HTML%252FOA.jsp%253FporMode%253Ddisplay%2526OA_SubTabIdx%253D2%2526page%253D%252Foracle%252Fapps%252Ficx%252Fpor%252Freq%252Fwebui%252FCheckoutLinesPG%2526PorLineSubTab%253Daccounts%2526transactionid%253D1116601632%2526retainAM%253DY%2526addBreadCrumb%253DY%2526oas%253DT2B3p9_2xbhYAlZGs_2nAg..%26_ti%3D1116601632%26oapc%3D16%26OAIG%3D9404%26menu%3DY%26oas%3DvYLtDYeh3yvxxnhLmrp26w..')">Diagnostics</A></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD>
+<TABLE cellSpacing=2 cellPadding=2 width="100%" border=0>
+<TBODY>
+<TR>
+<TD class=x14 noWrap align=left><A onclick="return _chain('return checkSubmit(&quot;The changes you made to this page have not been saved.  If you continue, the changes will be discarded.  Do you wish to continue?&quot;)','submitForm(\\'DefaultFormName\\',0,{\\'serverValidate\\':\\'1\\',event:\\'about\\'});return false;',this,event,true)" href="#">About this Page</A></TD>
+<TD>
+<SCRIPT>t('10','10')</SCRIPT>
+<IMG src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=10></TD>
+<TD class=x13 noWrap align=left><A title="Privacy Statement" href="http://personalize.this.link" target=_blank>Privacy Statement</A></TD>
+<TD class=x12 width="100%" noWrap align=right><SPAN id=N39>Copyright (c) 2006, Oracle. All rights reserved.</SPAN></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></SPAN><INPUT id=_OA_CURRENT_SUBTAB_UINODENAME type=hidden value=2 name=_OA_CURRENT_SUBTAB_INDEX><INPUT id=_fwkActBtnName_EnterChargeAccount_multipleLink$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_EnterChargeAccount_multipleLink$$serverUnvalidated><INPUT id=_fwkActBtnName_AccountSplit_multipleLink$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_AccountSplit_multipleLink$$serverUnvalidated><INPUT id=_fwkActBtnName_Update_updateLines$$serverUnvalidated type=hidden value=true name=_fwkActBtnName_Update_updateLines$$serverUnvalidated><INPUT id=_fwkActBtnName_Copy_copyLines$$serverUnvalidated type=hidden value=true name=_fwkActBtnName_Copy_copyLines$$serverUnvalidated><INPUT id=_fwkActBtnName_Delete_deleteLines$$serverUnvalidated type=hidden value=true name=_fwkActBtnName_Delete_deleteLines$$serverUnvalidated><INPUT id=AccountsLinesAdvTable$$unvalidated type=hidden value=true name=AccountsLinesAdvTable$$unvalidated><INPUT id=AccountsLinesAdvTable$$serverUnvalidated type=hidden value=true name=AccountsLinesAdvTable$$serverUnvalidated><INPUT id=_fwkActBtnName_DeliveryTab_update$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_DeliveryTab_update$$serverUnvalidated><INPUT id=_fwkActBtnName_BillingTab_update$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_BillingTab_update$$serverUnvalidated><INPUT id=_fwkActBtnName_AttachmentsTab_update$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_AttachmentsTab_update$$serverUnvalidated><INPUT id=_fwkActBtnName_Return_return$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_Return_return$$serverUnvalidated><SPAN id=_DefaultFormName_Postscript><INPUT type=hidden name=uri><INPUT type=hidden name=event><INPUT type=hidden name=_FORMEVENT><INPUT type=hidden name=serverValidate><INPUT type=hidden name=evtSrcRowIdx><INPUT type=hidden name=evtSrcRowId><INPUT type=hidden name=source><INPUT type=hidden name=_oldStyleSubtabClick><INPUT type=hidden name=_OAFSubTabLink><INPUT type=hidden name=_OA_SUB_TAB_INDEX><INPUT type=hidden name=value><INPUT type=hidden name=state><INPUT type=hidden name=partialTargets><INPUT type=hidden name=partial><INPUT type=hidden name=PorDistSubTab><INPUT type=hidden name=PorReqLineId>
+<SCRIPT>var _resetDefaultFormNameNames=["uri","event","_FORMEVENT","serverValidate","evtSrcRowIdx","evtSrcRowId","source","_oldStyleSubtabClick","_OAFSubTabLink","_OA_SUB_TAB_INDEX","value","state","partialTargets","partial","PorDistSubTab","PorReqLineId"];</SCRIPT>
+
+<SCRIPT>function _DefaultFormNameValidater(form){return true;}</SCRIPT>
+</SPAN>
+<SCRIPT>_submitFormCheck();</SCRIPT>
+</FORM>
+<DIV id=LLAOutput style="POSITION: absolute; VISIBILITY: hidden">
+<TABLE cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD>
+<DIV id=suggestData>
+<TABLE id=lovSuggestTable class=OraTableContent cellSpacing=0 cellPadding=2 width="100%" border=1>
+<TBODY></TBODY></TABLE></DIV></TD>
+<TD vAlign=top background=/OA_MEDIA/rtshdwbg.gif><IMG src="/OA_MEDIA/topshdw.gif" width=5 height=5></TD></TR>
+<TR>
+<TD vAlign=middle align=right>
+<TABLE id=navigationTable class="OraTableControlBarBottom OraTableBorder1111" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY></TBODY></TABLE></TD>
+<TD background=/OA_MEDIA/rtshdwbg.gif></TD></TR>
+<TR>
+<TD background=/OA_MEDIA/btmshdwbg.gif><IMG src="/OA_MEDIA/btmshdw.gif" width=5 height=5></TD>
+<TD background=/OA_MEDIA/btmshdwbg.gif><IMG src="/OA_MEDIA/btmshdwbg.gif" width=1 height=5></TD></TR></TBODY></TABLE></DIV><IFRAME title="Forms Launcher" height=5 src="http://riyoramgbm02.maaden.com:8050/OA_HTML/blank.html" frameBorder=no width=5 name=formsLauncher scrolling=no></IFRAME></SPAN><INPUT disabled id=_pprSaveLib type=hidden><INPUT disabled id=_pprSaveScript type=hidden><INPUT disabled id=_pprSavePage type=hidden>
+<SCRIPT>var _uixDoneMessage="Done."</SCRIPT>
+
+<SCRIPT>document.body.style.marginLeft="0px";document.body.style.marginRight="0px";document.body.style.marginTop="0px";</SCRIPT>
+<!-- Created by Oracle UIX , Accessibility:disabled, laf:swan.desktop (swan) --> 
+<UL id=MenuList class=submenustyle _master="topmenubar" _pos="0"></UL>
+<UL id=FavList class=submenustyle _master="topmenubar" _pos="1"></UL></BODY></HTML>

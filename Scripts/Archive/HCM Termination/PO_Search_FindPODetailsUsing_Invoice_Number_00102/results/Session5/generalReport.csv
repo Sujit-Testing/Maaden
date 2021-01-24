@@ -1,0 +1,8 @@
+198306,1,PO_Search_FindPODetailsUsing_Invoice_Number_00102,3/12/2020 16:13:03 PM,0,Failed,3/12/2020 16:09:44 PM,basic.step,HCM Termination,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,16286,Passed,"",basic.init,
+"Launch Browser: InternetExplorer 11.657.18362.0",,15371,Passed,"",basic.step,
+"Iteration Total (sec)",,181381,Failed,"",basic.iteration,
+"Navigate http://riyoramgbm02.maaden.com:8050/OA_HTML/OA.jsp?OAFunc=OAHOMEPAGE",,154,Passed,"",ft.action,
+"WaitForPage",,180017,Failed,"Timeout(180 seconds) occurred waiting for page to load.",ft.action,
+"Finish Total (sec)",,133,Passed,"",basic.finish,

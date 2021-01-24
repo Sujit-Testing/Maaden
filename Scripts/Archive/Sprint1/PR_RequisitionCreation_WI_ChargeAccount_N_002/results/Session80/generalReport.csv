@@ -1,0 +1,6 @@
+71839,0,PR_RequisitionCreation_WI_ChargeAccount_N_002,5/12/2020 08:40:27 AM,0,Failed,5/12/2020 08:39:15 AM,basic.step,Sprint1,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,71012,Failed,"Cannot get a connection from helper after 60 seconds.",basic.init,
+"Launch Browser: InternetExplorer 11.778.18362.0",,0,Passed,"",basic.step,
+"Close Browser",,2460,Passed,"",basic.step,
+"Finish Total (sec)",,111,Passed,"",basic.finish,

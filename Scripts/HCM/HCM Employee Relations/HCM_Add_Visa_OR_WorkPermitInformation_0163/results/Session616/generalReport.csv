@@ -1,0 +1,6 @@
+9960,1,HCM_Add_Visa_OR_WorkPermitInformation_0163,1/18/2021 17:25:18 PM,0,Failed,1/18/2021 17:25:08 PM,basic.step,HCM Employee Relations,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,7962,Passed,"",basic.init,
+"Launch Browser: Chrome 87.0.4280.141",,7227,Passed,"",basic.step,
+"Iteration Total (sec)",,1141,Failed,"Variable ""obj.HCM_Add_Visa_OR_WorkPermitInformation_0163.web_window"" not found for string: {{obj.HCM_Add_Visa_OR_WorkPermitInformation_0163.web_window}}",basic.iteration,
+"Finish Total (sec)",,149,Passed,"",basic.finish,

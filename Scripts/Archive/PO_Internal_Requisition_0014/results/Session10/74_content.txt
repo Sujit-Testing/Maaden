@@ -1,0 +1,478 @@
+<HTML lang=en-US-ORACLE9I style="VISIBILITY: visible" dir=ltr><HEAD><TITLE>Oracle iProcurement: Checkout</TITLE>
+<META name=generator content="Oracle UIX"><LINK rel=stylesheet type=text/css href="/OA_HTML/cabo/styles/cache/swan-desktop-custom-2_3_6_9-en-ie-windows.css" charset=UTF-8>
+<SCRIPT language=javascript type=text/javascript src="/OA_HTML/cabo/oajsLibs/oafcoreR121.js"></SCRIPT>
+
+<SCRIPT language=javascript type=text/javascript src="/OA_HTML/cabo/oajsLibs/oafb.js"></SCRIPT>
+
+<SCRIPT language=javascript>function clearFlexChildren(){lovClearValue(document.DefaultFormName.ReqLineDFF2);lovClearValue(document.DefaultFormName.ReqLineDFF0);lovClearValue(document.DefaultFormName.ReqLineDFF1);lovClearValue(document.DefaultFormName.ReqLineDFF3);}</SCRIPT>
+
+<SCRIPT language=javascript>function help_window() { help_win = window.open("http://riyoramgbm02.maaden.com:8050/OA_HTML/help?locale=en_US&group=FND:LIBRARY:US&topic=US/ICX/@check_out", "help_win","resizable=yes,scrollbars=yes,toolbar=yes,width=600,height=500")}</SCRIPT>
+</HEAD>
+<BODY style="MARGIN-TOP: 0px; MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px" onunload=_partialUnload()>
+<SCRIPT type=text/javascript src="/OA_HTML/cabo/jsLibs/Common2_3_6_9.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>var _navEvent = 'navigate';function _onNavigate(formName,uri){return confirm("The changes you made to this page have not been saved.  If you continue, the changes will be discarded.  Do you wish to continue?")};parent._navDirty=1;</SCRIPT>
+
+<FORM id=DefaultFormName style="MARGIN: 0px" method=post name=DefaultFormName action=/OA_HTML/OA.jsp?page=/oracle/apps/icx/por/req/webui/CheckoutSummaryPG&amp;porMode=display&amp;porSummaryPageFromCart=true&amp;_ti=1953892938&amp;retainAM=Y&amp;addBreadCrumb=N&amp;OASF=ICX_POR_CHECKOUT_SUMMARY&amp;oapc=15&amp;oas=F6eHdRgLJPzqlWr5l8Jy7Q..><SPAN id=PageLayoutRN><A href="#TheContent"><IMG border=0 alt="Skip navigation elements to page contents" src="/OA_HTML/cabo/images/swan/t.gif"></A>
+<TABLE role=presentation class=x6u style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/headerBg.jpg)" cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=10></TD></TR>
+<TR>
+<TD>
+<TABLE role=presentation style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px" cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD vAlign=top width="1%" noWrap><IMG border=0 alt=Maaden_logo1.jpg src="/OA_MEDIA/Maaden_logo1.jpg"></TD>
+<TD noWrap><SPAN title=iProcurement style="POSITION: absolute"><SPAN class=x4i>iProcurement</SPAN></SPAN><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=0 height=14></TD>
+<TD></TD>
+<TD></TD></TR>
+<TR>
+<TD></TD>
+<TD style="POSITION: relative; PADDING-BOTTOM: 8px; Z-INDEX: 10" vAlign=bottom colSpan=2 align=right><MAP title="Global buttons"><A class=x3f href="#M__Idtxf"><IMG border=0 alt="Skip all Global buttons" src="/OA_HTML/cabo/images/swan/t.gif"></A>
+<TABLE role=presentation class=x6w cellSpacing=0 cellPadding=0 summary="" border=0>
+<TBODY>
+<TR>
+<TD vAlign=bottom><A class=x15 href="javascript:_submitNav('DefaultFormName','http%3A//riyoramgbm02.maaden.com%3A8050/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/icx/por/req/webui/ShoppingCartPG%26OASF%3DICX_POR_SHOPPING_CART%26_ti%3D1953892938%26oapc%3D15%26OAMC%3D78349_75_0%26menu%3DY%26oas%3DB0UE_iY0MMARSVP8_NPnZA..')">Shopping Cart</A></TD>
+<TD vAlign=bottom><A class=x15 href="javascript:_submitNav('DefaultFormName','http%3A//riyoramgbm02.maaden.com%3A8050/OA_HTML/OA.jsp%3F_rc%3DFNDPORTALRELEASEAM%26_ri%3D0%26retainAM%3DN%26_ti%3D1953892938%26oapc%3D15%26OAMC%3D78349_77_0%26menu%3DY%26oas%3DOycEJTJSb2689ExE1V2ieA..')">Home</A></TD>
+<TD vAlign=bottom><A class=x15 href="javascript:_submitNav('DefaultFormName','http%3A//riyoramgbm02.maaden.com%3A8050/OA_HTML/OALogout.jsp%3Fmenu%3DY')">Logout</A></TD>
+<TD vAlign=bottom><A class=x15 href="javascript:_submitNav('DefaultFormName','http%3A//riyoramgbm02.maaden.com%3A8050/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/fnd/preferences/webui/PreferencesPG%26retainAM%3DY%26_ti%3D1953892938%26oapc%3D15%26OAMC%3D78349_79_0%26menu%3DY%26addBreadCrumb%3DS%26OAPF%3DY%26oas%3Du61iGf1cG698HlT8Fb3mlg..')">Preferences</A></TD>
+<TD vAlign=bottom><A class=x15 href="javascript:top.help_window()">Help</A></TD>
+<TD vAlign=bottom><A class=x15 href="javascript:ignoreWarnAboutChanges(%22%2FOA_HTML%2FOA.jsp%3Fpage%3D%2Foracle%2Fapps%2Ffnd%2Fframework%2Fpersonalization%2Fwebui%2FChooseContextPG%26retainAM%3DY%26addBreadCrumb%3DS%26PERZ%3DY%26bypass%3Dy%26pg%3D%252Foracle%252Fapps%252Ficx%252Fpor%252Freq%252Fwebui%252FCheckoutSummaryPG.PageLayoutRN%26is%3D0%26io%3D1806%26ir%3D53035%26ia%3D178%26iu%3D49547%26te%3DoaiprwCheckoutSummaryPG.PageLayoutRN%26pv%3DSPS%26_ti%3D1953892938%26oapc%3D15%26OAIG%3D11213%26menu%3DY%26oas%3D44Jwi0mUNy9glRO_BlOe_A..%22)">Personalize Page</A></TD>
+<TD vAlign=bottom><A class=x15 href="javascript:_submitNav('DefaultFormName','http%3A//riyoramgbm02.maaden.com%3A8050/OA_HTML/OA.jsp%3F_rc%3DFND_DIAGNOSTICS_PAGE%26_ri%3D0%26retainAM%3DY%26LogRetUrl%3D%252FOA_HTML%252FOA.jsp%253Fpage%253D%252Foracle%252Fapps%252Ficx%252Fpor%252Freq%252Fwebui%252FCheckoutSummaryPG%2526porMode%253Ddisplay%2526porSummaryPageFromCart%253Dtrue%2526transactionid%253D1953892938%2526retainAM%253DY%2526addBreadCrumb%253DN%2526OASF%253DICX_POR_CHECKOUT_SUMMARY%2526oas%253DNTnZmxOk1IWxFsnGiMYBsw..%26_ti%3D1953892938%26oapc%3D15%26OAIG%3D9404%26menu%3DY%26oas%3DofIvRPCZUDbQEZW_a9KmAg..')">Diagnostics</A></TD></TR></TBODY></TABLE></MAP><A id=M__Idtxf class=xh name=M__Idtxf></A></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD vAlign=bottom colSpan=4 align=left><MAP title="First level navigation elements"><A class=x3f href="#M__Iduxf"><IMG border=0 alt="Skip all First level navigation elements" src="/OA_HTML/cabo/images/swan/t.gif"></A>
+<TABLE role=presentation class=x1j cellSpacing=0 cellPadding=0 summary="" border=0>
+<TBODY>
+<TR>
+<TD height=21 width=8><IMG border=0 alt="" src="/OA_HTML/cabo/images/swan/topDimTabL.gif" width=8 height=21></TD>
+<TD class=x1k style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/topDimTabBg.gif)" background=/OA_HTML/cabo/images/swan/topDimTabBg.gif noWrap><A id=ICXPOR_SHOP title=Shop href="javascript:_submitNav('DefaultFormName','http%3A//riyoramgbm02.maaden.com%3A8050/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/icx/icatalog/shopping/webui/ShoppingHomePG%26_ti%3D1953892938%26oapc%3D15%26OAMC%3D78349_88_0%26menu%3DY%26oaMenuLevel%3D1%26oas%3DuKAtv5qx-LJFyAskkbLigA..')" name=ICXPOR_SHOP>Shop</A></TD>
+<TD height=21 width=18><IMG border=0 alt="" src="/OA_HTML/cabo/images/swan/topTabDDjoint.gif" width=18 height=21></TD>
+<TD class=x1k style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/topDimTabBg.gif)" background=/OA_HTML/cabo/images/swan/topDimTabBg.gif noWrap><A id=ICXPOR_REQSTATUS title=Requisitions href="javascript:_submitNav('DefaultFormName','http%3A//riyoramgbm02.maaden.com%3A8050/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/icx/por/reqmgmt/webui/ReqSummaryPG%26_ti%3D1953892938%26oapc%3D15%26OAMC%3D78349_101_0%26menu%3DY%26oaMenuLevel%3D1%26oas%3D3s4o8uv-WeZ0Je866RTW3Q..')" name=ICXPOR_REQSTATUS>Requisitions</A></TD>
+<TD height=21 width=18><IMG border=0 alt="" src="/OA_HTML/cabo/images/swan/topTabDDjoint.gif" width=18 height=21></TD>
+<TD class=x1k style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/topDimTabBg.gif)" background=/OA_HTML/cabo/images/swan/topDimTabBg.gif noWrap><A id=ICXPOR_RECEIVING_HOME title=Receiving href="javascript:_submitNav('DefaultFormName','http%3A//riyoramgbm02.maaden.com%3A8050/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/icx/por/rcv/webui/IcxPorRcvHomePG%26_ti%3D1953892938%26oapc%3D15%26OAMC%3D78349_141_0%26menu%3DY%26oaMenuLevel%3D1%26oas%3Dzw4QITauc8LVZYtNHLT1sw..')" name=ICXPOR_RECEIVING_HOME>Receiving</A></TD>
+<TD height=21 width=18><IMG border=0 alt="" src="/OA_HTML/cabo/images/swan/topTabDDjoint.gif" width=18 height=21></TD>
+<TD class=x1k style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/topDimTabBg.gif)" background=/OA_HTML/cabo/images/swan/topDimTabBg.gif noWrap><A id=ICX_POR_CONTRACTOR title=Contractors href="javascript:_submitNav('DefaultFormName','http%3A//riyoramgbm02.maaden.com%3A8050/OA_HTML/OA.jsp%3Fpage%3D/oracle/apps/icx/por/contractor/webui/ContractorHomePG%26_ti%3D1953892938%26oapc%3D15%26OAMC%3D78349_160_0%26menu%3DY%26oaMenuLevel%3D1%26oas%3DgaODPcob_W4csp-0iuE_vA..')" name=ICX_POR_CONTRACTOR>Contractors</A></TD>
+<TD height=21 width=8><IMG border=0 alt="" src="/OA_HTML/cabo/images/swan/topDimTabR.gif" width=8 height=21></TD></TR></TBODY></TABLE></MAP><A id=M__Iduxf class=xh name=M__Iduxf></A></TD></TR></TBODY></TABLE>
+<TABLE role=presentation cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD width="100%">
+<TABLE role=presentation class=x73 style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/navBarUnderTopTabsBg.gif)" cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV class=x6t style="HEIGHT: auto">
+<TABLE role=presentation id=CheckoutTrainRN class=x7m cellSpacing=0 cellPadding=0 align=center summary="" border=0>
+<TBODY>
+<TR>
+<TD width=20></TD>
+<TD align=right><IMG alt="" src="/OA_HTML/cabo/images/cache/ctrasl.gif" width=6 height=23></TD>
+<TD>
+<TABLE role=presentation cellSpacing=0 cellPadding=0 width="100%" summary="" background=/OA_HTML/cabo/images/cache/ctruj.gif border=0>
+<TBODY>
+<TR>
+<TD height=23 align=left><IMG alt="" src="/OA_HTML/cabo/images/cache/ctrasr.gif" width=6 height=23></TD></TR></TBODY></TABLE></TD>
+<TD>
+<TABLE role=presentation height=23 cellSpacing=0 cellPadding=0 width="100%" summary="" background=/OA_HTML/cabo/images/cache/ctruj.gif border=0>
+<TBODY>
+<TR>
+<TD><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD></TR></TBODY></TABLE></TD>
+<TD>
+<TABLE role=presentation cellSpacing=0 cellPadding=0 width="100%" summary="" background=/OA_HTML/cabo/images/cache/ctruj.gif border=0>
+<TBODY>
+<TR>
+<TD height=23 align=right><IMG alt="" src="/OA_HTML/cabo/images/cache/ctrusl.gif" width=6 height=23></TD></TR></TBODY></TABLE></TD>
+<TD>
+<TABLE role=presentation cellSpacing=0 cellPadding=0 width="100%" summary="" background=/OA_HTML/cabo/images/cache/ctruj.gif border=0>
+<TBODY>
+<TR>
+<TD height=23 align=left><IMG alt="" src="/OA_HTML/cabo/images/cache/ctrusr.gif" width=6 height=23></TD></TR></TBODY></TABLE></TD>
+<TD>
+<TABLE role=presentation height=23 cellSpacing=0 cellPadding=0 width="100%" summary="" background=/OA_HTML/cabo/images/cache/ctruj.gif border=0>
+<TBODY>
+<TR>
+<TD><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD></TR></TBODY></TABLE></TD>
+<TD>
+<TABLE role=presentation cellSpacing=0 cellPadding=0 width="100%" summary="" background=/OA_HTML/cabo/images/cache/ctruj.gif border=0>
+<TBODY>
+<TR>
+<TD height=23 align=right><IMG alt="" src="/OA_HTML/cabo/images/cache/ctrusl.gif" width=6 height=23></TD></TR></TBODY></TABLE></TD>
+<TD align=left><IMG alt="" src="/OA_HTML/cabo/images/cache/ctrusr.gif" width=6 height=23></TD>
+<TD width=20></TD></TR>
+<TR>
+<TD></TD>
+<TD class=x2c colSpan=2><SPAN id=ReqInfo>Requisition Information: Active step</SPAN></TD>
+<TD></TD>
+<TD class=x2f colSpan=2><A id=Approvers name=Approvers>Approvals: Next step</A></TD>
+<TD></TD>
+<TD class=x2f colSpan=2><SPAN id=ReviewSubmit>Review And Submit: Next step</SPAN></TD>
+<TD></TD></TR></TBODY></TABLE><A id=TheContent class=xh name=TheContent></A>
+<TABLE role=presentation id=FwkErrorBeanId cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV>
+<DIV class=x7x>
+<DIV>
+<DIV class=x6a>
+<TABLE role=presentation cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD width="100%">
+<H1 class=x1f>Checkout: Requisition Information</H1></TD></TR></TBODY></TABLE></DIV>
+<DIV class=x79>
+<TABLE role=presentation cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR vAlign=top>
+<TD><SPAN id=PageStatusRN>
+<TABLE role=presentation id=RequiredFieldRN cellSpacing=0 cellPadding=0 summary="" border=0>
+<TBODY>
+<TR id=Row>
+<TD id=AstCell><SPAN id=ReqTextRN><SPAN id=RequiredFieldIcon class=xg>*</SPAN><IMG id=spacer1 alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=6 height=1><SPAN id=RequiredFieldText class=x5g>Indicates required field</SPAN></SPAN></TD></TR></TBODY></TABLE></SPAN></TD>
+<TD noWrap align=right><MAP title="Global buttons"><A class=x3f href="#M__Idvxf"><IMG border=0 alt="Skip all Global buttons" src="/OA_HTML/cabo/images/swan/t.gif"></A>
+<TABLE role=presentation id=PageButtonsRN class=x6w cellSpacing=0 cellPadding=0 summary="" border=0>
+<TBODY>
+<TR>
+<TD><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=8 height=0></TD>
+<TD><BUTTON onclick="submitForm('DefaultFormName',0,{'evtSrcRowIdx':'','evtSrcRowId':'','serverValidate':'0',event:'cancel',source:'Cancel'});return false;" id=Cancel title=Cancel class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Cancel</BUTTON></TD>
+<TD><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=1></TD>
+<TD><BUTTON onclick="submitForm('DefaultFormName',1,{'evtSrcRowIdx':'','evtSrcRowId':'',event:'save',source:'Save'});return false;" id=Save title=Save class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Save</BUTTON></TD>
+<TD><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=1></TD>
+<TD><BUTTON onclick="submitForm('DefaultFormName',1,{'evtSrcRowIdx':'','evtSrcRowId':'',event:'submit',source:'Submit'});return false;" id=Submit title=Submit class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Submit</BUTTON></TD>
+<TD><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=1></TD>
+<TD><BUTTON onclick="submitForm('DefaultFormName',0,{'PorLineSubTab':'delivery','serverValidate':'0','evtSrcRowId':'RequisitionAM.ReqSummaryVO','evtSrcRowIdx':'0',event:'editLines',source:'EditLines'});return false;" id=EditLines title="Edit Lines" class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Edit Lines</BUTTON></TD>
+<TD><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=1></TD>
+<TD noWrap><SPAN class=x4a>Step 1 of 3</SPAN></TD>
+<TD><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD><BUTTON onclick="_navBarSubmit('DefaultFormName','goto','',1,'2');return false" title=Next class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Next</BUTTON></TD></TR></TBODY></TABLE></MAP><A id=M__Idvxf class=xh name=M__Idvxf></A></TD></TR>
+<TR>
+<TD><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=2></TD></TR></TBODY></TABLE><NOSCRIPT></NOSCRIPT>
+<DIV></DIV><NOSCRIPT></NOSCRIPT>
+<DIV></DIV><IMG id=RequiredFieldSpacer alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=10>
+<DIV></DIV><SPAN id=CheckoutSummaryRN>
+<DIV parent="OAStackLayoutBean, localName='stackLayout'"></DIV>
+<DIV></DIV><SPAN id=ReqHeaderRN>
+<DIV parent="OAStackLayoutBean, localName='stackLayout'"></DIV>
+<DIV></DIV>
+<TABLE role=presentation id=HeaderLabelFieldLayout cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD width=20><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD width="37%" noWrap align=right><SPAN class=xc><SPAN title=Required class=xg>*</SPAN>&nbsp;<LABEL for=ReqDescription>Requisition Description<SPAN style="POSITION: absolute; TOP: -999px"> (Required)</SPAN></LABEL></SPAN></TD>
+<TD width=12><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD vAlign=top width="63%"><INPUT onchange="" onkeypress="return _submitOnEnter(event, 'DefaultFormName');" id=ReqDescription class=x8 maxLength=240 size=50 value=Passivator name=ReqDescription><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR>
+<TD width=20><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD colSpan=2></TD>
+<TD></TD></TR>
+<TR>
+<TD width=20><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD class=xc width="37%" align=right><INPUT id=CountryCodeFV type=hidden name=CountryCodeFV></TD>
+<TD width=12><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD width="63%"></TD></TR></TBODY></TABLE></SPAN>
+<DIV></DIV>
+<DIV id=CheckoutSummaryTableLayout_p13n>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE role=presentation id=CheckoutSummaryTableLayout cellSpacing=0 cellPadding=10 width="100%" summary="" border=0>
+<TBODY>
+<TR id=DeliveryBillingRow>
+<TD id=DeliveryCell vAlign=top width="50%" align=left>
+<DIV id=DeliverySummaryRN_p13n>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE role=presentation id=DeliverySummaryRN cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD height=10></TD></TR>
+<TR>
+<TD>
+<TABLE role=presentation class=x7b style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/headingBarBg.gif)" cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD width="100%">
+<H2 class=x7c>Delivery</H2></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class=x79 height=8></TD></TR>
+<TR>
+<TD>
+<TABLE role=presentation cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD>
+<DIV class=x79>
+<DIV class=x7a><INPUT id=RequesterId type=hidden value=92182 name=RequesterId><INPUT id=LocationId type=hidden name=LocationId><INPUT id=DeliverToOrgId type=hidden name=DeliverToOrgId><INPUT id=SourceTypeCode type=hidden value=VENDOR name=SourceTypeCode><INPUT id=ItemId type=hidden name=ItemId><INPUT id=ItemRevision type=hidden name=ItemRevision><INPUT id=WipEntityId type=hidden name=WipEntityId><INPUT id=SuggestedBuyerId type=hidden value=37845 name=SuggestedBuyerId><INPUT id=HazardClassId type=hidden name=HazardClassId><INPUT id=UnNumberId type=hidden name=UnNumberId><INPUT id=RequesterPhone type=hidden name=RequesterPhone><INPUT id=RequesterFax type=hidden name=RequesterFax><INPUT id=RequesterEmail type=hidden value=PeethambaranS@maaden.com.saXXX name=RequesterEmail>
+<DIV></DIV>
+<TABLE role=presentation id=DeliveryLabeledFieldLayout cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD width=20><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD noWrap align=right></TD>
+<TD width=12><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD vAlign=top><SPAN id=UrgentCheckBox__xc_><INPUT id=UrgentCheckBox type=checkbox value=on name=UrgentCheckBox><LABEL for=UrgentCheckBox><SPAN class=x4>Urgent</SPAN></LABEL></SPAN><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR>
+<TD width=20><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD colSpan=2></TD>
+<TD></TD></TR>
+<TR>
+<TD width=20><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD width="37%" noWrap align=right><SPAN class=xc><SPAN title=Required class=xg>*</SPAN>&nbsp;<LABEL for=NeedByDate>Need-By Date (example: 13-Apr-2020 19:45:00)<SPAN style="POSITION: absolute; TOP: -999px"> (Required)</SPAN></LABEL></SPAN></TD>
+<TD width=12><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD vAlign=top width="63%"><INPUT onchange="_uixspu('DefaultFormName',0,'PPRUserEvent','NeedByDate',0,1,{'_FORM_SUBMIT_BUTTON':'_fwkActBtnName_NeedByDate_PPRUserEvent','evtSrcRowIdx':'0','evtSrcRowId':'RequisitionAM.ReqSummaryVO'});return true;" onblur=_dfb(this,1) id=NeedByDate class=x8 maxLength=20 value="04-May-2020 00:00:00" name=NeedByDate><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=8 height=1><A onclick="_ldp('DefaultFormName','NeedByDate'); return false" href="#"><IMG border=0 alt="Select to access date picker" src="/OA_HTML/cabo/images/cache/cdp.gif" width=19 align=top height=24></A><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR>
+<TD width=20><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD colSpan=2></TD>
+<TD></TD></TR>
+<TR>
+<TD width=20><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD width="37%" noWrap align=right><SPAN class=xc><SPAN title=Required class=xg>*</SPAN>&nbsp;<LABEL for=Requester>Requester<SPAN style="POSITION: absolute; TOP: -999px"> (Required)</SPAN></LABEL></SPAN></TD>
+<TD width=12><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD vAlign=top width="63%"><SPAN id=Requester__xc_><INPUT onchange="return _chain('LOCRequester(new Object()); ','return _LovInputVTF(\'Requester\',0,_getInputField(event),1,1);',this,event,true)" id=Requester class=x8 value="Shaji Peethambaran" name=Requester><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=8 height=1><A onclick="return _LovInputVTF('Requester',0,document.forms['DefaultFormName']['Requester'],1,1,{'F':'DefaultFormName','N':'Requester','L':'Requester','D':'/OA_HTML/OA.jsp?region=/oracle/apps/icx/lov/webui/RequesterLovRN&amp;regionCode=Requester&amp;regionAppId=178&amp;lovBaseItemName=Requester&amp;fndOAJSPinEmbeddedMode=y&amp;_ti=1953892938&amp;label=Requester&amp;formName=DefaultFormName&amp;addBreadCrumb=S&amp;baseAppMod=oracle.apps.icx.por.req.server.RequisitionAM&amp;amUsageMode=1&amp;lovMainCriteria=RequesterName&amp;Criteria=Requester.RequesterName&amp;PassiveCriteria=&amp;retainAM=Y&amp;Selector=N&amp;lovMultiSelectDelimiter=%3B&amp;baseToLovKey=/oracle/apps/icx/por/req/webui/CheckoutSummaryPG.Requester_/oracle/apps/icx/lov/webui/RequesterLovRN&amp;baseCompMode=11.5.10&amp;oapc=15&amp;oas=reUf5SMImToAFNnMVjZOHQ..','S':OnLovSelect,'M':1,'P':1});" href="#"><IMG border=0 alt="Search for Requester" src="/OA_HTML/cabo/images/cache/clovi.gif" width=24 align=top height=24></A></SPAN><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR>
+<TD width=20><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD colSpan=2></TD>
+<TD></TD></TR>
+<TR>
+<TD width=20><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD width="37%" noWrap align=right><SPAN class=xc><SPAN title=Required class=xg>*</SPAN>&nbsp;<LABEL for=DeliverToLocation>Deliver-To Location<SPAN style="POSITION: absolute; TOP: -999px"> (Required)</SPAN></LABEL></SPAN></TD>
+<TD width=12><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD vAlign=top width="63%"><SPAN id=DeliverToLocation__xc_><INPUT onchange="return _chain('LOCDeliverToLocation(new Object()); ','return _LovInputVTF(\'DeliverToLocation\',0,_getInputField(event),1,1);',this,event,true)" id=DeliverToLocation class=x8 value=Al-Jubail name=DeliverToLocation><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=8 height=1><A onclick="return _LovInputVTF('DeliverToLocation',0,document.forms['DefaultFormName']['DeliverToLocation'],1,1,{'F':'DefaultFormName','N':'DeliverToLocation','L':'DeliverToLocation','D':'/OA_HTML/OA.jsp?region=/oracle/apps/icx/lov/webui/LocationLovRN&amp;regionCode=DeliverToLocation&amp;regionAppId=178&amp;lovBaseItemName=DeliverToLocation&amp;fndOAJSPinEmbeddedMode=y&amp;_ti=1953892938&amp;label=Deliver-To%20Location&amp;formName=DefaultFormName&amp;addBreadCrumb=S&amp;baseAppMod=oracle.apps.icx.por.req.server.RequisitionAM&amp;amUsageMode=1&amp;lovMainCriteria=LocationCode&amp;Criteria=DeliverToLocation.LocationCode&amp;PassiveCriteria=SourceTypeCode.SourceTypeCode..ItemId.ItemId..ItemRevision.ItemRevision&amp;retainAM=Y&amp;Selector=N&amp;lovMultiSelectDelimiter=%3B&amp;baseToLovKey=/oracle/apps/icx/por/req/webui/CheckoutSummaryPG.DeliverToLocation_/oracle/apps/icx/lov/webui/LocationLovRN&amp;baseCompMode=11.5.10&amp;event=lovFilter&amp;source=DeliverToLocation&amp;searchText=Al-Jubail&amp;oapc=15&amp;oas=HRQuEC7horJtES9gCG8-Dg..','S':OnLovSelect,'M':1,'P':1});" href="#"><IMG border=0 alt="Search for Deliver-To Location" src="/OA_HTML/cabo/images/cache/clovi.gif" width=24 align=top height=24></A></SPAN><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR>
+<TD width=20><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD colSpan=2></TD>
+<TD></TD></TR>
+<TR>
+<TD width=20><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD class=xc width="37%" align=right><SPAN id=EnterOneTimeAddrDummy></SPAN></TD>
+<TD width=12><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD width="63%" align=left><A onclick="submitForm('DefaultFormName',0,{'evtSrcRowIdx':'','evtSrcRowId':'','serverValidate':'0',event:'addOneTimeAddr',source:'EnterOneTimeAddr'});return false;" id=EnterOneTimeAddr class=xh href="#">Enter one-time address</A></TD></TR>
+<TR>
+<TD width=20><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD noWrap align=right></TD>
+<TD width=12><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD vAlign=top><SPAN id=ShopFloorCheckBox__xc_><INPUT onclick="_uixspu('DefaultFormName',0,'PPRUserEvent','ShopFloorCheckBox',0,1,{'_FORM_SUBMIT_BUTTON':'_fwkActBtnName_ShopFloorCheckBox_PPRUserEvent','evtSrcRowIdx':'0','evtSrcRowId':'RequisitionAM.ReqSummaryVO','serverValidate':'0'});return true;" id=ShopFloorCheckBox type=checkbox value=on name=ShopFloorCheckBox><LABEL for=ShopFloorCheckBox><SPAN class=x4>Deliver to Maintenance</SPAN></LABEL></SPAN><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR>
+<TD width=20><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD colSpan=2></TD>
+<TD></TD></TR>
+<TR>
+<TD width=20><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD width="37%" noWrap align=right><SPAN class=xc>Suggested Buyer</SPAN></TD>
+<TD width=12><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD vAlign=top width="63%"><SPAN id=SuggestedBuyer__xc_><SPAN id=SuggestedBuyer class=x4>Sadhik Mohamed Saliah</SPAN></SPAN><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR>
+<TD width=20><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD colSpan=2></TD>
+<TD></TD></TR>
+<TR>
+<TD width=20><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD class=xc width="37%" align=right><INPUT id=N62 type=hidden value=_oa_dis name=_hdfpSuggestedBuyer></TD>
+<TD width=12><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD width="63%"></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE role=presentation cellSpacing=0 cellPadding=0 summary="" border=0>
+<TBODY>
+<TR>
+<TD width="5%"><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top>
+<TABLE role=presentation cellSpacing=0 cellPadding=0 summary="" border=0>
+<TBODY></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV></TD>
+<TD id=BillingCell vAlign=top width="50%" align=left>
+<DIV id=BillingSummaryRN_p13n>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE role=presentation id=BillingSummaryRN cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD height=10></TD></TR>
+<TR>
+<TD>
+<TABLE role=presentation class=x7b style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/headingBarBg.gif)" cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD width="100%">
+<H2 class=x7c>Billing</H2></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class=x79 height=8></TD></TR>
+<TR>
+<TD>
+<TABLE role=presentation cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD>
+<DIV class=x79>
+<DIV class=x7a><INPUT id=ProjectIdExpense type=hidden name=ProjectIdExpense><INPUT id=TaskIdExpense type=hidden name=TaskIdExpense><INPUT id=HasExpenseLines type=hidden value=true name=HasExpenseLines><INPUT id=HasInventoryLines type=hidden value=false name=HasInventoryLines><INPUT id=HasShopFloorLines type=hidden value=false name=HasShopFloorLines><INPUT id=ReqAwardId type=hidden name=ReqAwardId><INPUT id=ExpenditureOrgId type=hidden name=ExpenditureOrgId><INPUT id=OrgId type=hidden value=1806 name=OrgId>
+<DIV></DIV>
+<TABLE role=presentation id=BillingLabeledFieldLayout cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD width=20><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD vAlign=top width="37%" noWrap align=right><SPAN class=xc>Charge Account</SPAN></TD>
+<TD width=12><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD vAlign=top width="63%"><A onclick="submitForm('DefaultFormName',0,{'PorLineSubTab':'accounts','serverValidate':'0','evtSrcRowId':'RequisitionAM.ReqSummaryVO','evtSrcRowIdx':'0',event:'multipleLink',source:'EnterChargeAccount'});return false;" id=EnterChargeAccount class=xh href="#">Enter Charge Account</A><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR>
+<TD width=20><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD colSpan=2></TD>
+<TD></TD></TR>
+<TR>
+<TD width=20><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD class=xc width="37%" align=right><INPUT id=TaxClassFV type=hidden name=TaxClassFV></TD>
+<TD width=12><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD width="63%" align=left><INPUT id=TxnBusinessCatFV type=hidden name=TxnBusinessCatFV></TD></TR>
+<TR>
+<TD width=20><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD class=xc width="37%" align=right><INPUT id=TaxAppId type=hidden value=201 name=TaxAppId></TD>
+<TD width=12><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD width="63%" align=left><INPUT id=TaxEntityCode type=hidden value=REQUISITION name=TaxEntityCode></TD></TR>
+<TR>
+<TD width=20><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD class=xc width="37%" align=right><INPUT id=ProdFiscalClassFV type=hidden name=ProdFiscalClassFV></TD>
+<TD width=12><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD width="63%" align=left><INPUT id=ProdTypeFV type=hidden name=ProdTypeFV></TD></TR>
+<TR>
+<TD width=20><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD class=xc width="37%" align=right><INPUT id=IntendedUseFV type=hidden name=IntendedUseFV></TD>
+<TD width=12><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD width="63%" align=left><INPUT id=UserFiscalClassFV type=hidden name=UserFiscalClassFV></TD></TR>
+<TR>
+<TD width=20><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD class=xc width="37%" align=right><INPUT id=ProdCatFV type=hidden name=ProdCatFV></TD>
+<TD width=12><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD width="63%" align=left><INPUT id=N63 type=hidden value=_oa_ena name=_hdfpProjectOnSummaryShopFloorOrInv></TD></TR>
+<TR>
+<TD width=20><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD class=xc width="37%" align=right><INPUT id=N64 type=hidden value=_oa_dis name=_hdfpTaskShopFloorOrInv></TD>
+<TD width=12><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD width="63%" align=left><INPUT id=N65 type=hidden value=_oa_dis name=_hdfpAwardOnSummary></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE role=presentation cellSpacing=0 cellPadding=0 summary="" border=0>
+<TBODY>
+<TR>
+<TD width="5%"><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top>
+<TABLE role=presentation cellSpacing=0 cellPadding=0 summary="" border=0>
+<TBODY></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV></TD></TR>
+<TR id=ReqLineDFFRow>
+<TD id=ReqLineDFFCell colSpan=2>
+<DIV id=ReqLineDFFRN_p13n>
+<DIV></DIV>
+<DIV></DIV>
+<TABLE role=presentation id=ReqLineDFFRN cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD height=10></TD></TR>
+<TR>
+<TD>
+<TABLE role=presentation class=x7b style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/headingBarBg.gif)" cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD width="100%">
+<H2 class=x7c>Additional Line Information</H2></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class=x79 height=8></TD></TR>
+<TR>
+<TD>
+<TABLE role=presentation cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD>
+<DIV class=x79>
+<DIV class=x7a>
+<TABLE role=presentation id=ReqLineLabelFieldLayout cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD width=20><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD width="37%" noWrap align=right><SPAN class=xc><LABEL for=ReqLineDFF0>Manufacturer Part No</LABEL></SPAN></TD>
+<TD width=12><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD vAlign=top width="63%"><INPUT onchange="" id=ReqLineDFF0 class=x8 maxLength=20 name=ReqLineDFF0><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR>
+<TD width=20><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD colSpan=2></TD>
+<TD></TD></TR>
+<TR>
+<TD width=20><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD width="37%" noWrap align=right><SPAN class=xc><LABEL for=ReqLineDFF1>Agreement Reference</LABEL></SPAN></TD>
+<TD width=12><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD vAlign=top width="63%"><INPUT onchange="" id=ReqLineDFF1 class=x8 maxLength=20 name=ReqLineDFF1><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR>
+<TD width=20><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD colSpan=2></TD>
+<TD></TD></TR>
+<TR>
+<TD width=20><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD width="37%" noWrap align=right><SPAN class=xc><LABEL for=ReqLineDFF3>Casting Unit</LABEL></SPAN></TD>
+<TD width=12><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD vAlign=top width="63%"><SPAN id=ReqLineDFF3__xc_><INPUT onchange="return _chain('LOCReqLineDFF3(new Object()); ','return _LovInputVTF(\'ReqLineDFF3\',0,_getInputField(event),1,1);',this,event,true)" id=ReqLineDFF3 class=x8 maxLength=20 name=ReqLineDFF3><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=8 height=1><A onclick="return _LovInputVTF('ReqLineDFF3',0,document.forms['DefaultFormName']['ReqLineDFF3'],1,1,{'F':'DefaultFormName','N':'ReqLineDFF3','L':'ReqLineDFF3','D':'/OA_HTML/OA.jsp?region=/oracle/apps/fnd/framework/webui/OAFlexLOVRG&amp;regionCode=ReqLineDFF&amp;regionAppId=178&amp;lovBaseItemName=ReqLineDFF3&amp;fndOAJSPinEmbeddedMode=y&amp;_ti=1953892938&amp;label=Casting%20Unit&amp;formName=DefaultFormName&amp;addBreadCrumb=S&amp;baseAppMod=oracle.apps.icx.por.req.server.RequisitionAM&amp;amUsageMode=1&amp;lovMainCriteria=FlexDisplay&amp;Criteria=ReqLineDFF3.FlexDisplay&amp;PassiveCriteria=&amp;retainAM=Y&amp;Selector=N&amp;lovMultiSelectDelimiter=%3B&amp;baseToLovKey=/oracle/apps/icx/por/req/webui/CheckoutSummaryPG.ReqLineDFF3_/oracle/apps/fnd/framework/webui/OAFlexLOVRG&amp;baseCompMode=11.5.10&amp;oapc=15&amp;oas=O8S4NveTaNrZ3ZDow49QDQ..','S':OnLovSelect,'M':1,'P':1});" href="#"><IMG border=0 alt="Search for Casting Unit" src="/OA_HTML/cabo/images/cache/clovi.gif" width=24 align=top height=24></A></SPAN><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR>
+<TD width=20><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD colSpan=2></TD>
+<TD></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE role=presentation cellSpacing=0 cellPadding=0 summary="" border=0>
+<TBODY>
+<TR>
+<TD width="5%"><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top>
+<TABLE role=presentation cellSpacing=0 cellPadding=0 summary="" border=0>
+<TBODY></TBODY></TABLE></TD></TR></TBODY></TABLE><INPUT id=ReqLineDFFFlex_Read_Only_Flag type=hidden value=false name=ReqLineDFFFlex_Read_Only_Flag><INPUT id=ReqLineDFF3HiddenFlexId type=hidden name=ReqLineDFF3HiddenFlexId></DIV></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV></DIV></SPAN>
+<DIV></DIV><INPUT id=_fwkAbsolutePageName type=hidden value=/oracle/apps/icx/por/req/webui/CheckoutSummaryPG::: name=_fwkAbsolutePageName></DIV></DIV>
+<DIV>
+<DIV><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=9></DIV>
+<DIV><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=2></DIV>
+<TABLE role=presentation cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD noWrap></TD>
+<TD width="100%" align=right><MAP title="Global buttons"><A class=x3f href="#M__Idwxf"><IMG border=0 alt="Skip all Global buttons" src="/OA_HTML/cabo/images/swan/t.gif"></A>
+<TABLE role=presentation id=PageButtonsRN_uixr class=x6w cellSpacing=0 cellPadding=0 summary="" border=0>
+<TBODY>
+<TR>
+<TD><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=8 height=0></TD>
+<TD><BUTTON onclick="submitForm('DefaultFormName',0,{'evtSrcRowIdx':'','evtSrcRowId':'','serverValidate':'0',event:'cancel',source:'Cancel'});return false;" id=Cancel_uixr title=Cancel class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Cancel</BUTTON></TD>
+<TD><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=1></TD>
+<TD><BUTTON onclick="submitForm('DefaultFormName',1,{'evtSrcRowIdx':'','evtSrcRowId':'',event:'save',source:'Save'});return false;" id=Save_uixr title=Save class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Save</BUTTON></TD>
+<TD><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=1></TD>
+<TD><BUTTON onclick="submitForm('DefaultFormName',1,{'evtSrcRowIdx':'','evtSrcRowId':'',event:'submit',source:'Submit'});return false;" id=Submit_uixr title=Submit class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Submit</BUTTON></TD>
+<TD><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=1></TD>
+<TD><BUTTON onclick="submitForm('DefaultFormName',0,{'PorLineSubTab':'delivery','serverValidate':'0','evtSrcRowId':'RequisitionAM.ReqSummaryVO','evtSrcRowIdx':'0',event:'editLines',source:'EditLines'});return false;" id=EditLines_uixr title="Edit Lines" class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Edit Lines</BUTTON></TD>
+<TD><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=1></TD>
+<TD noWrap><SPAN class=x4a>Step 1 of 3</SPAN></TD>
+<TD><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD><BUTTON onclick="_navBarSubmit('DefaultFormName','goto','',1,'2');return false" title=Next class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Next</BUTTON></TD></TR></TBODY></TABLE></MAP><A id=M__Idwxf_uixr class=xh name=M__Idwxf></A></TD>
+<TD></TD></TR>
+<TR>
+<TD colSpan=3><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=10></TD></TR></TBODY></TABLE></DIV></DIV>
+<DIV></DIV>
+<DIV></DIV>
+<DIV></DIV></DIV>
+<TABLE role=presentation class=x70 style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/footerBg.gif)" cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD>
+<TABLE role=presentation cellSpacing=2 cellPadding=2 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD class=x14 noWrap align=left><A onclick="return _chain('return checkSubmit(&quot;The changes you made to this page have not been saved.  If you continue, the changes will be discarded.  Do you wish to continue?&quot;)','submitForm(\'DefaultFormName\',0,{\'serverValidate\':\'1\',event:\'about\'});return false;',this,event,true)" href="#">About this Page</A></TD>
+<TD><IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=10></TD>
+<TD class=x13 noWrap align=left><A title="Privacy Statement" href="http://personalize.this.link" target=_blank>Privacy Statement</A></TD>
+<TD class=x12 width="100%" noWrap align=right><SPAN id=N58>Copyright (c) 2006, Oracle. All rights reserved.</SPAN></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></SPAN><SPAN id=_DefaultFormName_Postscript><INPUT type=hidden name=uri><INPUT type=hidden name=event><INPUT type=hidden name=_FORMEVENT><INPUT type=hidden name=serverValidate><INPUT type=hidden name=evtSrcRowIdx><INPUT type=hidden name=evtSrcRowId><INPUT type=hidden name=source><INPUT type=hidden name=PorLineSubTab><INPUT type=hidden name=value><INPUT type=hidden name=partialTargets><INPUT type=hidden name=partial><INPUT type=hidden name=searchText></SPAN></FORM>
+<SCRIPT id=_pprScripts>/*function _navBarSubmit(formName, gotoEvent, navBar, vld, val, sze, partialTargets){var i = val.indexOf(',');if (i >= 0){sze = val.substring(i+1);val = val.substring(0, i);}var submitFunc = (partialTargets == (void 0)) ? submitForm : _submitPartialChange;return submitFunc(formName,vld,{event:gotoEvent,source:navBar,value:val,size:sze,partialTargets:partialTargets});}function _navChoiceSubmit(choice, formName, gotoEvent, navBar, vld, size, partialTargets){if (!_navBarSubmit(formName, gotoEvent, navBar, vld, choice.options[choice.selectedIndex].value, size, partialTargets)){choice.selectedIndex = choice._lastValue;}};var _locale='en-US-ORACLE9I';var _tLocale='en-US-ORACLE9I';var _groupingSep=',';var _decimalSep='.';;var _dfLenient=1;var _df2DYS=1950;;function _uixspu(f,v,e,s,pt,p,o){if(!o)o=new Object();o.event=(e)?e:'update';if(s)o.source=s;if(p){o.partial='true';if(pt)o.partialTargets=pt;_submitPartialChange(f,v,o);}else submitForm(f,v,o);};if(window['_dfs'] == (void 0)){var _dfs=new Object();}_dfs["NeedByDate"]=['dd-MMM-yyyy HH:mm:ss','dd-MMM-yyyy'];var _jspDir='/OA_HTML/cabo/jsps/a.jsp';var _configName='OAConfig';var _enc='WINDOWS-1256';var _contextURI='/OA_HTML';;var _uixLocaleTZ=180;var _uixLocaleTZId="Asia/Riyadh";var _firstDOW=1;;function _lovClose(f,p,pt){var s=submitForm;if(pt)s=_submitPartialChange;return s(f,0,p);};_LovInputOLW('DeliverToLocation',{'F':'DefaultFormName','N':'DeliverToLocation','L':'DeliverToLocation','D':'/OA_HTML/OA.jsp?region=/oracle/apps/icx/lov/webui/LocationLovRN&regionCode=DeliverToLocation&regionAppId=178&lovBaseItemName=DeliverToLocation&fndOAJSPinEmbeddedMode=y&_ti=1953892938&label=Deliver-To%20Location&formName=DefaultFormName&addBreadCrumb=S&baseAppMod=oracle.apps.icx.por.req.server.RequisitionAM&amUsageMode=1&lovMainCriteria=LocationCode&Criteria=DeliverToLocation.LocationCode&PassiveCriteria=SourceTypeCode.SourceTypeCode..ItemId.ItemId..ItemRevision.ItemRevision&retainAM=Y&Selector=N&lovMultiSelectDelimiter=%3B&baseToLovKey=/oracle/apps/icx/por/req/webui/CheckoutSummaryPG.DeliverToLocation_/oracle/apps/icx/lov/webui/LocationLovRN&baseCompMode=11.5.10&event=lovFilter&source=DeliverToLocation&searchText=Al-Jubail&oapc=15&oas=HRQuEC7horJtES9gCG8-Dg..','S':OnLovSelect,'M':1,'P':1});;var _resetDefaultFormNameNames=["uri","event","_FORMEVENT","serverValidate","evtSrcRowIdx","evtSrcRowId","source","PorLineSubTab","value","partialTargets","partial","searchText"];;var _DefaultFormName_Validations=['_isEmpty(%value%)','new SimpleDateFormat([\'dd-MMM-yyyy HH:mm:ss\',\'dd-MMM-yyyy\']).validate(%value%)'];function _DefaultFormNameValidater(form){var fl = _multiValidate(form,[0,"ReqDescription",0,0,1,"NeedByDate",1,1,0,"NeedByDate",0,0,0,"Requester",0,0,0,"DeliverToLocation",0,0]);if(fl.length>0){_validationAlert('Form validation failures:'+fl);return false;}else{return true;}}var _DefaultFormName_Labels={'ReqDescription':'Requisition Description','NeedByDate':'Need-By Date (example: 13-Apr-2020 19:45:00)','Requester':'Requester','DeliverToLocation':'Deliver-To Location'};var _DefaultFormName_Patterns={'NeedByDate':'dd-MMM-yyyy HH:mm:ss'};var _DefaultFormName_Formats=['A value must be entered for "%label%".','Value "%value%" in "%label%" is not a date and time formatted as "%pattern%".:::::Value "%value%" in "%label%" is not a valid time due to Day Light Saving Time.'];function _submitOnEnter(e,frm){return (_getKC(e)!=13);}*/</SCRIPT>
+
+<SCRIPT>var _pprLibraries=['/OA_HTML/cabo/jsLibs/resources/LocaleElements_en_US_ORACLE9I2_3_6_9.js','/OA_HTML/cabo/jsLibs/ScriptEval2_3_6_9.js'];</SCRIPT>
+
+<SCRIPT type=text/javascript>var _pprTargets=['PageLayoutRN','_DefaultFormName_Postscript'];</SCRIPT>
+
+<SCRIPT>document.body.style.marginLeft="0px";document.body.style.marginRight="0px";document.body.style.marginTop="0px";</SCRIPT>
+
+<SCRIPT type=text/javascript>_partialChange('DefaultFormName')</SCRIPT>
+</BODY></HTML>

@@ -1,0 +1,6 @@
+1309,1,globalVariableDemo_CallingValue,3/31/2020 12:45:44 PM,0,Failed,3/31/2020 12:45:42 PM,basic.step,Scripts,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,314,Passed,"",basic.init,
+"Iteration Total (sec)",,314,Failed,"",basic.iteration,
+"Unexpected Failure",,0,Failed,"basic Caused by: NullPointerException occured.",basic.step,
+"Finish Total (sec)",,167,Passed,"",basic.finish,

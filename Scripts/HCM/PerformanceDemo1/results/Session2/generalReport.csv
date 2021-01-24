@@ -1,8 +1,0 @@
-4075,1,PerformanceDemo1,7/23/2020 18:55:08 PM,0,Failed,7/23/2020 18:55:04 PM,basic.step,HCM,,,,
-"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
-"Initialize Total (sec)",,321,Passed,"",basic.init,
-"Iteration Total (sec)",,3417,Failed,"",basic.iteration,
-"Think: 0 (sec).",,33,Passed,"",basic.comment,
-"[1] No Title",,3207,Failed,"",basic.stepGroup,
-"https://calliope-a.wbx2.com/calliope/api/discovery/v1/clusters",2,2770,Failed,"Invalid HTTP response code: 401  Unauthorized , for Url: https://calliope-a.wbx2.com/calliope/api/discovery/v1/clusters",http.nav,
-"Finish Total (sec)",,56,Passed,"",basic.finish,

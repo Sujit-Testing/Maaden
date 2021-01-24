@@ -1,0 +1,7 @@
+1063,1,Split,6/15/2020 17:51:01 PM,0,Failed,6/15/2020 17:51:00 PM,basic.step,HCM,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,361,Passed,"",basic.init,
+"Iteration Total (sec)",,394,Failed,"",basic.iteration,
+"Info",,2,Passed,"Comments: S1 return[Ljava.lang.String;@a95f91",basic.comment,
+"Failure",,2,Failed,"Fail",basic.comment,
+"Finish Total (sec)",,76,Passed,"",basic.finish,

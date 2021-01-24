@@ -1,6 +1,0 @@
-5983,0,Inv_Create_Miscellaneous_Issue_Transactions_00142,7/02/2020 01:09:05 AM,0,Failed,7/02/2020 01:08:57 AM,basic.step,Scripts,,,
-"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
-"Initialize Total (sec)",,5571,Failed,"Browser path ""C:\Program Files (x86)\Mozilla Firefox\firefox.exe"" does not exist",basic.init,
-"Launch Browser: Firefox",,0,Passed,"",basic.step,
-"Finish Total (sec)",,173,Failed,"",basic.finish,
-"Failed to playback",,145,Failed,"Failed to playback: No browser launched.",ft.action,

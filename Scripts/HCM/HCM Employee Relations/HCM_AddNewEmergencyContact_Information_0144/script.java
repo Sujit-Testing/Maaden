@@ -308,7 +308,7 @@ public class script extends IteratingVUserScript {
 
 	public void finish() throws Exception {
 		//SignOut
-		//web.window(640, "{{obj.HCM_AddNewEmergencyContact_Information_0144.web_window}}").close();		
+		web.window(640, "{{obj.HCM_AddNewEmergencyContact_Information_0144.web_window}}").close();		
 
 	}
 }

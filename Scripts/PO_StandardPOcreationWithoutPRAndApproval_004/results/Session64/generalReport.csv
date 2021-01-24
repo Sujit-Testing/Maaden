@@ -1,6 +1,0 @@
-67146,0,PO_StandardPOcreationWithoutPRAndApproval_004,3/24/2020 12:20:40 PM,0,Failed,3/24/2020 12:19:33 PM,basic.step,Scripts,,,
-"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
-"Initialize Total (sec)",,66902,Failed,"Cannot get a connection from helper after 60 seconds.",basic.init,
-"Launch Browser: InternetExplorer 11.719.18362.0",,0,Passed,"",basic.step,
-"Close Browser",,2202,Passed,"",basic.step,
-"Finish Total (sec)",,48,Passed,"",basic.finish,

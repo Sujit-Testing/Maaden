@@ -1,0 +1,7 @@
+64515,0,HCM_Edit_Passport_Information_0160,1/17/2021 16:14:23 PM,0,Failed,1/17/2021 16:13:19 PM,basic.step,HCM Employee Relations,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,63720,Failed,"OpenScript is unable to connect to the browser, please check the OpenScript browser add-on.",basic.init,
+"Launch Browser: Chrome 87.0.4280.141",,0,Passed,"",basic.step,
+"Close Browser",,2217,Passed,"",basic.step,
+"Finish Total (sec)",,222,Failed,"",basic.finish,
+"Failed to playback",,155,Failed,"Failed to playback: No browser launched.",ft.action,

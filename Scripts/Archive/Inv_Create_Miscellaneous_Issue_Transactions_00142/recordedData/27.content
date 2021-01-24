@@ -1,0 +1,992 @@
+<HTML lang=en-US-ORACLE9I style="VISIBILITY: visible" dir=ltr><HEAD><TITLE>Oracle Applications Home Page</TITLE>
+<META name=generator content="Oracle UIX"><LINK rel=stylesheet type=text/css href="/OA_HTML/cabo/styles/cache/swan-desktop-custom-2_3_6_9-en-ie-windows.css" charset=UTF-8>
+<SCRIPT type=text/javascript>var _UixWindowOpenError='A popup window blocker has been detected in your browser. Popup blockers interfere with the operation of this application. Please disable your popup blocker or allow popups from this site.';</SCRIPT>
+
+<SCRIPT type=text/javascript src="/OA_HTML/cabo/jsLibs/Common2_3_6_9.js"></SCRIPT>
+
+<SCRIPT type=text/javascript>_defaultTZ()</SCRIPT>
+
+<SCRIPT language=javascript type=text/javascript src="/OA_HTML/cabo/oajsLibs/oafcoreR121.js"></SCRIPT>
+
+<SCRIPT language=javascript type=text/javascript src="/OA_HTML/cabo/oajsLibs/oafb.js"></SCRIPT>
+
+<SCRIPT language=javascript type=text/javascript src="/OA_HTML/cabo/oajsLibs/flexibleLayout.js"></SCRIPT>
+
+<SCRIPT language=javascript type=text/javascript src="/OA_HTML/cabo/oajsLibs/mainMenuTree.js"></SCRIPT>
+
+<SCRIPT language=javascript>function help_window() { help_win = window.open("http://riysoaclone.maaden.com:8010/OA_HTML/help?locale=en_US&group=FND:LIBRARY:US&topic=US/FND/@ICX_FWK_LABS_HOME_PAGE", "help_win","resizable=yes,scrollbars=yes,toolbar=yes,width=600,height=500")}</SCRIPT>
+</HEAD>
+<BODY class=xk onload=_checkLoad(event) style="CURSOR: default; MARGIN-TOP: 0px; MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px" onbeforeunload=_savePageStateIE() onunload=_checkUnload(event)><IFRAME id=_pprIFrame title="" style="POSITION: absolute; TOP: -100px; VISIBILITY: hidden" height=0 longDesc=# src="/OA_HTML/cabo/images/swan/t.htm" frameBorder=0 width=0 name=_pprIFrame></IFRAME>
+<DIV onclick="return _pprConsumeClick(event);" onkeypress="return false;" onkeyup="return false;" id=_pprBlockingDiv onkeydown="return false;" style="CURSOR: wait; HEIGHT: 0px; WIDTH: 0px; POSITION: absolute; LEFT: 0px; TOP: 0px"></DIV>
+<DIV id=_uixDownload class=x3f style="BEHAVIOR: url(#default#download)"></DIV>
+<SCRIPT type=text/javascript>var _cachedLibs;</SCRIPT>
+
+<SCRIPT type=text/javascript>var _pprFirstClickPass=true;</SCRIPT>
+<SPAN id=_pprPageContent>
+<FORM id=DefaultFormName style="MARGIN: 0px" method=post name=DefaultFormName action=/OA_HTML/OA.jsp?page=/oracle/apps/fnd/framework/navigate/webui/NewHomePG&amp;homePage=Y&amp;_ti=1874596363&amp;retainAM=Y&amp;addBreadCrumb=N&amp;OAMC=G&amp;oapc=5&amp;oas=NfyKk_gLUzKcN9ObbDNpwQ..><INPUT id=_AM_TX_ID_FIELD type=hidden value=1 name=_AM_TX_ID_FIELD><INPUT id=_FORM type=hidden value=DefaultFormName name=_FORM><SPAN id=lovHFCId></SPAN><SPAN id=PageLayoutRN><A href="#TheContent"><IMG border=0 alt="Skip navigation elements to page contents" src="/OA_HTML/cabo/images/swan/t.gif"></A>
+<TABLE role=presentation class=x6u style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/headerBg.jpg)" cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD>
+<SCRIPT type=text/javascript>var _tURL="\\x2FOA_HTML\\x2Fcabo\\x2Fimages\\x2Fswan\\x2Ft.gif";var _axm=1;t('10','10')</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=10></TD></TR>
+<TR>
+<TD>
+<TABLE role=presentation style="PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px" cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD vAlign=top width="1%" noWrap><IMG border=0 alt=Maaden_logo1.jpg src="/OA_MEDIA/Maaden_logo1.jpg"></TD>
+<TD noWrap><SPAN title="E-Business Suite" style="POSITION: absolute"><SPAN class=x4i>E-Business Suite</SPAN></SPAN>
+<SCRIPT type=text/javascript>t('0','14')</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=0 height=14></TD>
+<TD></TD>
+<TD></TD></TR>
+<TR>
+<TD></TD>
+<TD style="POSITION: relative; PADDING-BOTTOM: 8px; Z-INDEX: 10" vAlign=bottom colSpan=2 align=right><MAP title="Global buttons"><A class=x3f href="#M__Id"><IMG border=0 alt="Skip all Global buttons" src="/OA_HTML/cabo/images/swan/t.gif"></A>
+<TABLE role=presentation class=x6w cellSpacing=0 cellPadding=0 summary="" border=0>
+<TBODY>
+<TR>
+<TD vAlign=bottom><A class=x15 href="/OA_HTML/OALogout.jsp?menu=Y">Logout</A></TD>
+<TD vAlign=bottom><A class=x15 href="/OA_HTML/OA.jsp?page=/oracle/apps/fnd/preferences/webui/PreferencesPG&amp;retainAM=Y&amp;_ti=1874596363&amp;oapc=5&amp;menu=Y&amp;addBreadCrumb=S&amp;OAPF=Y&amp;oas=YvIW5PSCYr68H-QHD5Wscg..">Preferences</A></TD>
+<TD vAlign=bottom><A class=x15 href="javascript:top.help_window()">Help</A></TD></TR></TBODY></TABLE></MAP><A id=M__Id class=xh name=M__Id></A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE role=presentation cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD width="100%">
+<TABLE role=presentation class=x73 style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/navBarUnderTopTabsBg.gif)" cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD width="100%">
+<TABLE role=presentation cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD class=x4b width="100%" colSpan=3>
+<TABLE role=presentation id=AppsSearchRG cellSpacing=0 cellPadding=0 align=left summary="" border=0>
+<TBODY>
+<TR>
+<TD>
+<TABLE role=presentation id=AppsSearchableGroup__xc_ cellSpacing=0 cellPadding=0 summary="" border=0>
+<TBODY>
+<TR>
+<TD noWrap align=right><SPAN class=xc><LABEL for=AppsSearchableGroup>Enterprise Search</LABEL></SPAN></TD>
+<TD width=12>
+<SCRIPT type=text/javascript>t('12')</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top><SELECT onchange="" id=AppsSearchableGroup title="Enterprise Search" class=x8 name=AppsSearchableGroup><OPTION selected value=All>All</OPTION><OPTION value=SESG_OKC_DOC_SRH_PS>Contract Documents</OPTION><OPTION value=SESG_CTX_OKC_PS>Contracts Searchables</OPTION><OPTION value=SESG_OTA_COURSE_SRCH>Courses</OPTION><OPTION value=SESG_EGO_ITM>Products(1)</OPTION><OPTION value=SESG_NOTIFICATIONS>Workflow Notifications</OPTION></SELECT>
+<SCRIPT type=text/javascript>t('5')</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD>
+<TABLE role=presentation id=AppsSearchText__xc_ cellSpacing=0 cellPadding=0 summary="" border=0>
+<TBODY>
+<TR>
+<TD noWrap align=right></TD>
+<TD></TD>
+<TD vAlign=top><INPUT onchange="" onkeypress="return _chain('if(_getKC(event)==13){submitForm(\\'DefaultFormName\\',1,{\\'AppsSearchTextEnterKey\\':\\'HIT\\'});return false;};return true;','return _submitOnEnter(event, \\'DefaultFormName\\');',this,event,true)" id=AppsSearchText title="Search Text" class=x8 size=55 name=AppsSearchText><LABEL class=x3f for=AppsSearchText>Search Text</LABEL>
+<SCRIPT type=text/javascript>t('5')</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD>
+<TD><BUTTON onclick="submitForm('DefaultFormName',1,{'_FORM_SUBMIT_BUTTON':'AppsSearchGO'});return false" id=AppsSearchGO title="Click here to perform search" class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)" type=submit>Go</BUTTON></TD>
+<TD>
+<SCRIPT id=Spacer1 type=text/javascript>t('50','1')</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=50 height=1></TD>
+<TD>
+<TABLE role=presentation id=AppsSearchResultsUI__xc_ cellSpacing=0 cellPadding=0 summary="" border=0>
+<TBODY>
+<TR>
+<TD noWrap align=right><SPAN class=xc><LABEL for=AppsSearchResultsUI>Search Results Display Preference</LABEL></SPAN></TD>
+<TD width=12>
+<SCRIPT type=text/javascript>t('12')</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top><SELECT onchange="return _pprChoiceChangeEvent(event);" onclick="if(!_pprChoiceAction(event))return true;submitForm('DefaultFormName',1,{'evtSrcRowIdx':'','evtSrcRowId':'',event:'changeResultsDisplay',source:'AppsSearchResultsUI'});return false;" onblur="if(!_pprChoiceAction(event))return true;submitForm('DefaultFormName',1,{'evtSrcRowIdx':'','evtSrcRowId':'',event:'changeResultsDisplay',source:'AppsSearchResultsUI'});return false;" id=AppsSearchResultsUI class=x8 name=AppsSearchResultsUI><OPTION value=ADVANCED>Advanced</OPTION><OPTION selected value=STANDARD>Standard</OPTION></SELECT>
+<SCRIPT type=text/javascript>t('5')</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV class=x6t style="HEIGHT: auto">
+<TABLE role=presentation class=x7v cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD></TD>
+<TD>
+<SCRIPT type=text/javascript>t('5','1')</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD align=right><SPAN class=x2u>Logged In As </SPAN><SPAN class=x2t>PEETHAMBARANS</SPAN></TD></TR></TBODY></TABLE><A id=TheContent class=xh name=TheContent></A>
+<TABLE role=presentation id=FwkErrorBeanId cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD>
+<TABLE role=presentation class=x1g cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD height=6 width=8><IMG border=0 alt="" src="/OA_HTML/cabo/images/swan/msgBoxTop-L.gif" width=8 height=6></TD>
+<TD background=/OA_HTML/cabo/images/swan/msgBoxTop-Bg.gif width="100%"></TD>
+<TD height=6 width=8><IMG border=0 alt="" src="/OA_HTML/cabo/images/swan/msgBoxTop-R.gif" width=8 height=6></TD></TR>
+<TR>
+<TD background=/OA_HTML/cabo/images/swan/msgBoxMain-L.gif></TD>
+<TD class=x7e>
+<DIV>
+<DIV class=x6a>
+<TABLE role=presentation cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR vAlign=bottom>
+<TD><IMG border=0 alt="" src="/OA_HTML/cabo/images/swan/infol.gif" width=18 height=18></TD>
+<TD>
+<SCRIPT type=text/javascript>t(5,0)</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=0></TD>
+<TD width="100%">
+<TABLE role=presentation cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD width="100%">
+<H1 class=x7d>Information</H1></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV></DIV>
+<DIV class=x47></DIV>
+<DIV class=x46>Welcome, PEETHAMBARANS! Last successful login attempt:16-MAY-2020 15:40:03 &amp; Last unsuccessful login attempt: 16-MAY-2020 14:13:44</DIV></TD>
+<TD background=/OA_HTML/cabo/images/swan/msgBoxMain-R.gif></TD></TR>
+<TR>
+<TD height=6 width=8><IMG border=0 alt="" src="/OA_HTML/cabo/images/swan/msgBoxBtm-L.gif" width=8 height=6></TD>
+<TD background=/OA_HTML/cabo/images/swan/msgBoxBtm-Bg.gif width="100%"></TD>
+<TD height=6 width=8><IMG border=0 alt="" src="/OA_HTML/cabo/images/swan/msgBoxBtm-R.gif" width=8 height=6></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<DIV></DIV>
+<DIV class=x7x>
+<DIV>
+<DIV class=x6a>
+<TABLE role=presentation cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD width="100%">
+<H1 class=x1f>Oracle Applications Home Page</H1></TD></TR></TBODY></TABLE></DIV>
+<DIV class=x79>
+<TABLE role=presentation cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR vAlign=top>
+<TD><SPAN id=openNTF></SPAN></TD>
+<TD noWrap align=right></TD></TR>
+<TR>
+<TD>
+<SCRIPT type=text/javascript>t('1','2')</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=2></TD></TR></TBODY></TABLE><NOSCRIPT></NOSCRIPT>
+<DIV></DIV><!-- oracle.portal.ui.renderer.FlexibleLayoutRenderer id=mainLayout:  render start isDisclosed=true hasHeader=false userCustomizable=false -->
+<TABLE id=mainLayout width="100%">
+<TBODY>
+<TR id=mainLayout_internalRow1>
+<TD id=mainLayout_internalRow1_Col2 vAlign=top align=left>
+<DIV id=mainLayout_div style="horizontal-align: left">
+<TABLE id=mainLayout_internalTable width="100%" ?>
+<TBODY><!-- oracle.portal.ui.renderer.FlexibleRowLayoutRenderer id=mainLayout_row_0:  render start -->
+<TR id=mainLayout_row_0 hAlign="left">
+<TD id=menuLayout height=450 vAlign=top width=320 align=left>
+<TABLE id=menuLayout_internalTable1 width="100%">
+<TBODY>
+<TR id=menuLayout_internalTable1_Row1>
+<TD id=menuLayout_internalRow1_Col2 vAlign=top align=left>
+<DIV id=menuLayout_div style="OVERFLOW: auto; HEIGHT: 450px; WIDTH: 320px; horizontal-align: left"><!-- oracle.portal.ui.renderer.FlexibleContentRenderer id=menuContent:  render start  hasHeader=false hasBorder=false isDisclosed=true -->
+<TABLE id=menuContent width="100%">
+<TBODY>
+<TR id=menuContent_internalRow1>
+<TD id=menuContent_internalRow1_Col2 vAlign=top align=left>
+<TABLE role=presentation id=menuTable cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR id=PersonalizeRow>
+<TD id=PersonalizeCell>
+<TABLE role=presentation id=header class=x9r cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD height=10></TD></TR>
+<TR>
+<TD>
+<TABLE role=presentation class=x7b style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/headingBarBg.gif)" cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD width="100%">
+<H2 class=x7c>Main Menu</H2></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class=x79 height=8></TD></TR>
+<TR>
+<TD>
+<TABLE role=presentation cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD>
+<DIV class=x79>
+<DIV class=x7a>
+<TABLE role=presentation id=headerTable cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR id=headerRow>
+<TD id=headerCell align=right><BUTTON onclick="document.location='OA.jsp?page=/oracle/apps/fnd/framework/navigate/webui/CustomizeNavigatePG&amp;_ti=1874596363&amp;oapc=5&amp;oas=gAVUATRrvHo20mhSY3qZ-g..'" id=persBtn title=Personalize class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Personalize</BUTTON></TD></TR></TBODY></TABLE></DIV></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+<TR id=MenuRow>
+<TD id=MenuCell vAlign=top>
+<TABLE role=presentation id=mainMenuRegion cellSpacing=0 cellPadding=0 width="100%" align=center summary="" border=0>
+<TBODY>
+<TR id=mainMenuRow vAlign=top>
+<TD id=mainMenuCell vAlign=top width="100%">
+<TABLE id=respList style="MARGIN-TOP: 0px; BACKGROUND-COLOR: #eaeff5" cellSpacing=0 cellPadding=0 width="100%" summary=respTable border=0>
+<TBODY>
+<TR>
+<TD>
+<UL id=treemenu1 class=treeview>
+<LI id=50229:401:-1:0 class=rootmenu><A href="#"><IMG class=image alt=Collapse src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infoshown.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif">CORP INVENTORY</A>
+<UL id=undefined style="DISPLAY: block" rel="open">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=3770&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=HQUkDktQWAffgpoFINeipw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Requests</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=261&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=owB_XcB8R6Z5XEY82j07_w..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Change Organization</A></LI>
+<LI id=undefined><A href="http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=4849&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;params=90o9AjjuzZVqeSC4eoDvU16VLrJ1A84DG5rXQ6M8jEQ&amp;oas=GpGOd8b6pRVVepo_j0vl5g.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif">Notification Summary</A></LI>
+<LI id=undefined><A href="http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=4857&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;params=90o9AjjuzZVqeSC4eoDvU16VLrJ1A84DG5rXQ6M8jEQ&amp;oas=crrTFm7VAP_pdsFRbxBDuA.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif">Workflow Monitor</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=759&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=aWWnk_xY6r23hI4DydEmyg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Notification List</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=6032&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=pHhiloqHR1x8FdTwksTLIg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Workflow Background Engine</A></LI>
+<LI id=50229:401:67678:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Transactions</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1283&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=yP_0a9HkeZ0sMSzgeDQMsg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Subinventory Transfer</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1281&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=gER-TLr36zu96rmph_FNgQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Inter-organization Transfer</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1282&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=d9l-5pQns7UQD5UWBw4KQA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Miscellaneous Transaction</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1288&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=QLgb7B556lIWZwXgCt34FQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Movement Statistics</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1552&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=jdmvgonvApL6lwdVW7PvmA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Purge</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1293&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=8IhQvL1iTQLwsMWbBfV0xQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Material Transactions</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1292&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=1TToYtGfS1s40Sfwz02Nqg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Transaction Summaries</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=946&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=Z3TGVRr4_KOL_9B8j0piAg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Material Distributions</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1946&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=jfV4Z7u_xL5MzdVjNiLW2Q..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Pending Transactions</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1604&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=v7rFFDWg_KBD6bjXgOl7bw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Transaction Open Interface</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=6205&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=JWaRUY9UHUvBfKf-VlcTLg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Borrow Payback Transactions</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=12889&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=9fV5fqAiVfJnT3RzIc4LJQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Planning Transfer</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=15177&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=KaL5AN6ujUbCg2x5lcJjjg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">View Label Requests</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=15178&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=iwprx3-SYWIJob7y6UA10A..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Consigned Transactions</A></LI>
+<LI id=50229:401:68077:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Receiving</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1671&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=lGG6aFbCgqoyeBiwJgG_pA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Receipts</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1677&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=FPE-O0mZKsmJa1Gp-LQYIw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Returns</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1678&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=gmRbELIyS5wWKg1ArqmHWA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Receiving Transactions</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1676&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=yiieNCFNF0qfUjzM_t6RUQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Corrections</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1675&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=PB_anA8IGqE50n2X36KBLA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Manage Shipments</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1673&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=sci_GXQHViA0jTxK-lelng..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">View Receiving Transactions</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=2047&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=X2zYrxAIgnbAEHFy8aUXfQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Transactions Status Summary</A></LI></UL></LI></UL></LI>
+<LI id=50229:401:69587:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Move Orders</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=4512&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=aLbbhGGJFq7UZDEVv3hGPg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Move Orders</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=4513&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=_YfrvpBsJxBgg44KP3-YIA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Transact Move Orders</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=9463&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=AmM1DdWy_WsnbxbhHEa52A..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">On-Hand Quantity</A></LI></UL></LI>
+<LI id=50229:401:70635:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>On-hand, Availability</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=9463&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=AmM1DdWy_WsnbxbhHEa52A..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">On-hand Quantity</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1275&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=QoYIc8Zv07TMPdlMuGiHyg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Mult-organization Quantity</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=3570&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=TAlHPJJJ7wH7VxAPuhc2Ow..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Resource Supply</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1296&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=sDUbwnjngbqXSIZoFQRTIw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Item Supply/Demand</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=4373&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=hqQN37o-W1IJgbhRbRG45A..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">View Potential Shortage</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=5557&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=FrYn_ytnyIHC2oCAbxKc9g..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Reservations</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=5558&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=CLbQ4Z3DV9_XNPLFqPAvlA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Reservations Interface</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=5690&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=UJ4rK734tQk0H7hOkuqtAg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Reservations Interface Manager</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1271&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=v676dSAna_jyUotql44XcQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Lots</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1401&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=8haeZ0kyFMpqmKPIzNFppg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Serial Numbers</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1521&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=f8RBmIJG_M1Qz0OHHOuDrA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Generate Serial Numbers</A></LI>
+<LI id=50229:401:72033:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Inventory Positions</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=8990&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=x0LUaDUS00M8I6loyGaYDg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Build</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=8991&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=0QZhakjiZ2-1PnrCYudnFQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Display</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=8992&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=2DJ2OY8pJ8mHzOOxzHqRoA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Requests</A></LI></UL></LI></UL></LI>
+<LI id=50229:401:67606:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Items</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1191&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=f1ox-i_C9B0p4Yr1GebKSg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Master Items</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1192&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=075y1SghFW_tYyhZdDLz3A..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Organization Items</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1241&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=LQ75zYC3o9SpNzxXkcSvWg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Cross References</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1243&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=gShiVEaol5eDN_-g8rexAg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Item Relationships</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1247&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=46xjdIW2pzgiudEupEf10A..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Item Information</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1249&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=S7K77DsihVFHPxa6FYkwXA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Item Search</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1556&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=V5ojwdMCzX9Ei5dp9yRezg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Pending Status</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1581&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=MDXshQCrJWYBNlyVQgd2Hg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Documents</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1553&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=QeecHfSYD3XiFZaB31cqgw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Delete Items</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=8332&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=22oRjEJAbYCru-Aa5CU4Bg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Copy Item Attributes</A></LI>
+<LI id=50229:401:67818:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Manufacturers' Part Numbers</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1193&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=j3deP2dvyfbA132-_dv7Sg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">By Manufacturers</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1312&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=sstU9XrHGEvEaAHrZr_p8Q..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">By Items</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=8060&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=79Y2MRu9Ej_ij1OdvYCNbg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">MPN Query-Only</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=41230&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=-3UDPi0qa5jBXZlZhLyesA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Manufacturer Category</A></LI></UL></LI>
+<LI id=50229:401:68282:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Customer Items</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=2227&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=25lmWPmihKD8Gp4HyDgpaA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Customer Items</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=2235&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=dortXAes1uffCdONrsiF0A..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Customer Item Cross References</A></LI></UL></LI>
+<LI id=50229:401:71919:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Import</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1557&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=VucRvnhLRIwPXw5WhfCWUQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Import Items</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=8331&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=lvisMUPrMfOFgP38p0M0Ww..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Import Item Category Assignments</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=29823&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=m6ctIRbkx_8jUY9u_trMFA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Import Customer Items</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=29824&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=1rl-WJcdNnQm5PLUfCJstw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Import Customer Item Cross References</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=39544&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=-_SxZIu8QE1pbfsRgb7aAg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Import Item Cross References</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=39545&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=dzoACsIQYcZyfiyuT2HGzg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Import Related Items</A></LI></UL></LI></UL></LI>
+<LI id=50229:401:67674:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Costs</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=943&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=ZVp6tpjui2mdFz13DUGvYA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Item Costs</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=5944&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=E-PzV675tF6sYkDmECAbWQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Average Cost Update</A></LI>
+<LI id=50229:401:67610:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Standard Cost Update</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=902&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=sszg9Z9_WMeDBDOkSBEq_A..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Update Costs</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1347&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=v1ASFRzeKAizVIC4pdwI4Q..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">View Cost Update</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=903&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=DoIttcCDTXRd4XTp9YZh3g..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Purge Cost Update History</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1099&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=I3Md4_NPsTn02srbPZm29Q..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">View Cost History</A></LI></UL></LI>
+<LI id=50229:401:67810:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Cost Mass Edits</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1326&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=KUalg73DsTap1TFE9Kf_LA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Copy Cost Information</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1103&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=diTyv7f4IDu4cLFqKwX5Gw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Mass Edit Cost Information</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1100&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=oJvnvFzUUWxJk_X1-06yKQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Mass Edit Item Accounts</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1327&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=v7anYJYulYXjE96Tez_BbQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Purge Cost Information</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=11742&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=eUA6XvriVBm_PRLklLSMvQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Import Cost Information</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=11743&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=072cUAfe2NK43AAn2QxzmQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Import Cost From Price List</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=15196&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=Ku8_r1R4JCcIaOEtordtVw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Set Cost Controls</A></LI></UL></LI></UL></LI>
+<LI id=50229:401:67602:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Counting</A>
+<UL style="DISPLAY: none" rel="closed">
+<LI id=50229:401:67727:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Cycle Counting</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1172&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=aDl8oojsr4kr24onVs1-yQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Cycle Counts</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1171&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=RivTcLrZweF-WlImXCsX-Q..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Manual Requests</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1180&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=rIYlk9tAC7sxlHh_pUkmXw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Cycle Count Entries</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1177&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=-f4csqgjkYb2fV1kGfG5ww..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Approve Counts</A></LI>
+<LI id=50229:401:70461:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Open Interface</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=5257&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=GHZnpaMxCbshnaVbGozJjg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Inquiry/Update Open Interface</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=5258&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=Wnsfn5qRcKV0cFfedqTIBw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Export Cycle Count Entries</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=5827&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=urzq3gxU1ff9S7PQITCD4A..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Import Cycle Count Interface Data</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=5828&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=NrSHLCoZQQtH9_4zpccnYw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Purge Cycle Count Interface Data</A></LI></UL></LI></UL></LI>
+<LI id=50229:401:67728:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Physical Inventory</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1174&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=OtR9ALMxL6sZRd7tl2yEZg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Physical Inventories</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1179&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=OZ8z-zHMSfIjl_8-ZR5ZgA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Tag Generation</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1175&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=424lPEPpoAalx6KVdMNFHg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Tag Counts</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1173&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=Z9xyq2VHqV8OFDuzviz1dg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Approve Adjustments</A></LI></UL></LI>
+<LI id=50229:401:68034:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Replenishment Counts</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1561&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=58WHuycgdQE43zKWedufAA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Counts</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1601&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=bpY6DsDQpJOjdtJiPsWBnA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Process Interface</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1560&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=mYUQFH-iIfhSUhtVKS3zeg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Purge</A></LI></UL></LI></UL></LI>
+<LI id=50229:401:68631:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Kanban</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=3106&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=gdc86WnvayDZ4NdEbsnsSA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Pull Sequences</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=3107&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=2aluQdlIEZBzQ2gqpIdNgw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Kanban Cards</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=3110&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=Dj6dTFkMLfgTXdtVcg_4xg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Generate Kanban Cards</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=3111&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=Os7mc0YAMVJ_PWIX25MPXw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Print Kanban Cards</A></LI></UL></LI>
+<LI id=50229:401:67676:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Planning</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=2284&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=w6TzK0t7QrFLuoUP4r9drQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Min-Max Planning</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1580&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=oxqGaB-kXaEvU6kUNm8Y-w..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Reorder Point Planning</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1185&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=mx51FWExDa6a42vBOYK4kg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Safety Stocks</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1310&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=y9gtoFaFV9Sf04Tvjcj0hQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Safety Stock Update</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1498&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=xJ7_kL6HdMU3QO_IrZAg2w..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Demand History</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1520&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=TyRKZLLWHFWCVoSYP5NTFw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Compile Demand History</A></LI>
+<LI id=50229:401:67835:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Forecasts</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1523&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=7NutpDG3-5nvDt091pk2XQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Items</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=240&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=YZFAhOMYqyedZoPFSbSxIw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">View Items</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=241&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=j70p1E2v6kqoDpMC65ONdw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Entries</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=242&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=tGgIvMxW4LoSwuI2hGm8fg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">View Entries</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=2147&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=9jb9WPZI2PdlNgobhh2eSA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Sets</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=238&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=MIaoMCBEwtV2xZEYajTerg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">View Sets</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=383&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=SFZmMryn4uqKiWTFmY1oVg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Generate</A></LI></UL></LI></UL></LI>
+<LI id=50229:401:67771:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>ABC Codes</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1165&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=6l4-m0toCySmLze0y-fpWQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">ABC Compiles</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1168&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=FRMye6NNAgNKc9KHXKgcyA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">ABC Classes</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1169&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=GWzmKS0M7dEhMFyBLHR--Q..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">ABC Assignment Groups</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1166&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=Dm-_D49MRkHBeXphwczqvg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Assign Items</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1167&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=kdnC8r49f-K28gYqgOMeEQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Update Item Assignments</A></LI></UL></LI>
+<LI id=50229:401:67772:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Accounting Close Cycle</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1286&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=luGFL2cfhx01EiaA04Ouqw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Inventory Accounting Periods</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=2702&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=q4nuTivVa1acI6599AGRSQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Project Cost Transfers</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=261&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=owB_XcB8R6Z5XEY82j07_w..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Change Organization</A></LI>
+<LI id=50229:401:81873:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>SLA</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=29802&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=VGM6wzpcbeaCan2JaHRIPg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Create Accounting</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=29803&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=KuL1RoH7YUuKwesQnsSh_g..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Transfer to GL</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28992&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=UwKq0qmFTa6UDxBkNiBGHA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Lookups</A></LI>
+<LI id=50229:401:81631:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Accounting Setup</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28944&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=9v7pNjzO4YpQzvFOCDEe8A..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Subledger Applications</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28993&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=ytFgveZSDwzO2bbzUGJqVg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Post-Accounting Programs</A></LI>
+<LI id=undefined><A href="http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=29034&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;params=p13j.PHodJDi7BBGqmECvl0NmTGS24ihEpkMOzcY2Ko&amp;oas=4vgWdFD_5hiLyB3IXCHV8Q.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif">Open Account Balances Listing Definitions</A></LI>
+<LI id=50229:401:81615:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Accounting Methods Builder</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28990&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=q-sPSjEv9yQsjRcFeVIqfQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Accounting Definitions Inquiry</A></LI>
+<LI id=50229:401:81592:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Events</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28945&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=4Ewcqbc9MScgstE11onJEg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Event Model</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28946&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=PT_RL-9TqHYHEc4wl7RlEw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Process Categories</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28947&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=CAlT2IZY0m3IPSWUkU78Dw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Accounting Event Class Options</A></LI></UL></LI>
+<LI id=50229:401:81593:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Sources</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28952&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=6BAUdXjWu5PxE9cem3Cyug..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Sources</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28953&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=CjifRdRsji1Mt1_QWggxTQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Source Assignments</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28954&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=PaD49H8IwNGsvV5BRAlVLg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Accounting Attribute Assignments</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28955&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=WksPK3pA1pB-FxBvcmgZOA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Custom Sources</A></LI></UL></LI>
+<LI id=50229:401:81602:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Journal Entry Setups</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28956&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=_xflmdXfYKkPo5eyLRlzVw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Journal Line Types</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28958&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=WmAZu02LcuoWdrmcI3RaMg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Journal Entry Descriptions</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28959&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=uas_vH2ut_kR-f8QNaOZnQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Mapping Sets</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28961&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=UWKge79otwsVNTKCV8fezw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Account Derivation Rules</A></LI>
+<LI id=undefined><A href="http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28963&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;params=BwOlGWkopMvCgkF8TkbCg9hH6peLpwteDuCZlJsArb8&amp;oas=GxmXezReBMUi5Tph0RpIvw.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif">Supporting References</A></LI></UL></LI>
+<LI id=50229:401:81609:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Methods and Definitions</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28979&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=e61s_jKmWOaIz9kLsZ249A..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Journal Lines Definitions</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28981&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=gRftjYFoqQcoYvEoeR70rw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Application Accounting Definitions</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28759&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=cuFMmP-_0asYhgMg6YRj8g..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Subledger Accounting Methods</A></LI></UL></LI>
+<LI id=50229:401:81613:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Application Accounting Definition Loader</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28988&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;params=egUtObPQq8NrjjLPjLOC4aciFF1b6YMFC6WS05EusDM&amp;oas=jrL9xckbSPp8QhsbKk69Eg.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif">History</A></LI>
+<LI id=undefined><A href="http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28989&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;params=egUtObPQq8NrjjLPjLOC4aciFF1b6YMFC6WS05EusDM&amp;oas=GBDNoKPYpJs3SSEO7V2PwQ.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif">Merge Analysis</A></LI></UL></LI></UL></LI>
+<LI id=50229:401:81618:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Transaction Account Builder</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28994&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;params=tANHNQOsFc.hR1l1aq51HKPbLvQHr6xPEKYT0gwP9rs&amp;oas=JlkAURxUmzBjTKI5j2uSRQ.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif">Transaction Account Types</A></LI>
+<LI id=undefined><A href="http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28996&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;params=tANHNQOsFc.hR1l1aq51HKPbLvQHr6xPEKYT0gwP9rs&amp;oas=zYpCX9KWMjztV2Qzn9SkKA.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif">Transaction Account Definitions</A></LI>
+<LI id=undefined><A href="http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=29022&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;params=tANHNQOsFc.hR1l1aq51HKPbLvQHr6xPEKYT0gwP9rs&amp;oas=ExrriwikQJRzkyshxWqsHg.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif">Test Transaction Account Builder</A></LI></UL></LI>
+<LI id=50229:401:81871:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Transaction Accounting Builder Setup</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28944&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=9v7pNjzO4YpQzvFOCDEe8A..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Subledger Application</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28959&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=uas_vH2ut_kR-f8QNaOZnQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Mapping Sets</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28961&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=UWKge79otwsVNTKCV8fezw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Account Derivation Rules</A></LI>
+<LI id=50229:401:81618:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Transaction Account Builder</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28994&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;params=tANHNQOsFc.hR1l1aq51HKPbLvQHr6xPEKYT0gwP9rs&amp;oas=JlkAURxUmzBjTKI5j2uSRQ.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif">Transaction Account Types</A></LI>
+<LI id=undefined><A href="http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28996&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;params=tANHNQOsFc.hR1l1aq51HKPbLvQHr6xPEKYT0gwP9rs&amp;oas=zYpCX9KWMjztV2Qzn9SkKA.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif">Transaction Account Definitions</A></LI>
+<LI id=undefined><A href="http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=29022&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;params=tANHNQOsFc.hR1l1aq51HKPbLvQHr6xPEKYT0gwP9rs&amp;oas=ExrriwikQJRzkyshxWqsHg.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif">Test Transaction Account Builder</A></LI></UL></LI>
+<LI id=50229:401:81868:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Sources Setup</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28952&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=6BAUdXjWu5PxE9cem3Cyug..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Sources</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28955&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=WksPK3pA1pB-FxBvcmgZOA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Custom Sources</A></LI></UL></LI></UL></LI></UL></LI>
+<LI id=50229:401:81871:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Transaction Account Builder</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28944&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=9v7pNjzO4YpQzvFOCDEe8A..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Subledger Application</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28959&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=uas_vH2ut_kR-f8QNaOZnQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Mapping Sets</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28961&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=UWKge79otwsVNTKCV8fezw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Account Derivation Rules</A></LI>
+<LI id=50229:401:81618:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Transaction Account Builder</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28994&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;params=tANHNQOsFc.hR1l1aq51HKPbLvQHr6xPEKYT0gwP9rs&amp;oas=JlkAURxUmzBjTKI5j2uSRQ.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif">Transaction Account Types</A></LI>
+<LI id=undefined><A href="http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28996&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;params=tANHNQOsFc.hR1l1aq51HKPbLvQHr6xPEKYT0gwP9rs&amp;oas=zYpCX9KWMjztV2Qzn9SkKA.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif">Transaction Account Definitions</A></LI>
+<LI id=undefined><A href="http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=29022&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;params=tANHNQOsFc.hR1l1aq51HKPbLvQHr6xPEKYT0gwP9rs&amp;oas=ExrriwikQJRzkyshxWqsHg.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif">Test Transaction Account Builder</A></LI></UL></LI>
+<LI id=50229:401:81868:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Sources Setup</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28952&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=6BAUdXjWu5PxE9cem3Cyug..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Sources</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28955&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=WksPK3pA1pB-FxBvcmgZOA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Custom Sources</A></LI></UL></LI></UL></LI>
+<LI id=50229:401:81581:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Inquiry</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28794&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;params=P4AKiA67DLpGB58GSAfSYV0NmTGS24ihEpkMOzcY2Ko&amp;oas=I-V9UhlTP7S9069smHuf8Q.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif">Accounting Events</A></LI>
+<LI id=undefined><A href="http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28797&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;params=P4AKiA67DLpGB58GSAfSYV0NmTGS24ihEpkMOzcY2Ko&amp;oas=nb-eOiM4KtcRIqc123mgow.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif">Journal Entries</A></LI>
+<LI id=undefined><A href="http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28800&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;params=P4AKiA67DLpGB58GSAfSYV0NmTGS24ihEpkMOzcY2Ko&amp;oas=O2gS1FGeovnvCBS59zvfoQ.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif">Journal Entry Lines</A></LI>
+<LI id=undefined><A href="http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28928&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;params=P4AKiA67DLpGB58GSAfSYV0NmTGS24ihEpkMOzcY2Ko&amp;oas=wYR2tk7gEgTfgL-I-qtHGA.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif">Supporting Reference Balances</A></LI></UL></LI></UL></LI></UL></LI>
+<LI id=50229:401:67825:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Reports</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1461&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=sa_4WEhFKgaXewLKTQUQsQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Transactions</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1473&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=G-5-QZVssGsqSIYeEBD_tQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Items</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1475&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=W9zJKmTmF0VD_nyRLlSclw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Planning</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1471&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=fL4cnmXcrPaJBDGe2qb1bQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">ABC and Counting</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1477&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=gHdD3pyzxBvn1wKhgxuKXw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">On-hand</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1476&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=sF00YkVTE7c246vZXh70AA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Setup</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=3332&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=wmolJyiEHVtleK83UaWHeA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Intercompany Invoicing</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=4424&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=M6EwTDj59v5J69neZ1GB6g..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Shortages</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=4635&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=l8cgsecmJWJXzIyvmjogqA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Movement Statistics</A></LI>
+<LI id=undefined><A href="http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=15217&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;params=BE-iBBDUGtFeqXy4OZ4s5l6VLrJ1A84DG5rXQ6M8jEQ&amp;oas=agyByvQp2H3tWNKPr4Ki0Q.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif">Consigned Inventory</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1470&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=G65VirqpyefFupyhkMD02w..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">All</A></LI>
+<LI id=50229:401:67828:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Costs</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1472&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=5hNVwFwsQIRODJav-IvXQA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Items</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1474&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=3XLu5onQN2PzdY86ePKNPQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Pending</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=8061&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=NWwfHgm0OgdwRzcDJryyhA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Adjustments</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1469&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=LXCzxLlgE5XcpM94t6LmXA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">All</A></LI></UL></LI></UL></LI>
+<LI id=50229:401:67579:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Setup</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1502&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=br_Y_a3mqvtqwqOVGZa0aQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Planners</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1254&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=Dr9PiuoyjFnbnqE0Ml4ETA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Account Aliases</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=4769&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=p0AW38WFgRll2M3_TKGfGw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Lookups</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=65&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=S3mh5bF5nft01SQhMaT9eA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Descriptive Flexfield Register</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1255&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=DJ2y8dF195E0PXRhF_54Iw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Freight Carriers</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=4766&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=KU0_uRlxhfugMN8hmNHBMg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">BOM Lookups</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=29966&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=aVguW8B1ifCwGjHkWQPgRQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Alpha Lookups</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=29971&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=Nb0o4t5lSBtJLK7uUHcoyg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Grades</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=29976&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=i15e10zJbJVKYO3HYAhyDQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Action Codes</A></LI>
+<LI id=50229:401:67607:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Transactions</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1276&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=K7G71jDkdrzT_vhbniUaTg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Source Types</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1273&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=VzS2UotRKpBkpfflyG47nw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Types</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1272&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=gW2W8S7HNVjSSJ3kc8-1UA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Reasons</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1259&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=wHViG62dyXhKOrYhCmgPuw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Item Transaction Defaults</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1605&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=prEdF1HDDOg5oTd9vTri4w..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Interface Managers</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=15218&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=1PcQACg-TI2tM4E-XKIPrQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Consigned/VMI Consumption</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=9475&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=qxilRNDToCIuG01dsnJwew..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Material Status</A></LI>
+<LI id=50229:401:69653:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Movement Statistics</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=4633&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=GgkZPsBFo66FAoDfJ-SjmQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Economic Zones</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=4634&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=wbAGjP-KVcjU1fjEoVEbfw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Parameters</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=7926&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=ZSOuwuAoAduG6TY2PlaaYg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Validation Rules</A></LI></UL></LI></UL></LI>
+<LI id=50229:401:67599:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Items</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1196&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=Jk-PhLZcMO_ICntZjq_V2A..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Templates</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1189&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=_By2TWV52nSBVdifq382TQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Attribute Controls</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1190&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=fGqVEKH1ACbahp_Jz7pI3g..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Catalog Groups</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=2234&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=YNXEQ8AI0gXghRWrlyXYrg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Customer Item Commodity Codes</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1163&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=GkvNdyb5R-PXk0t_ObuoeA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Item Types</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1261&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=TjHfXWqMu1VaWMR8mH3o0g..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Status Codes</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=2265&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=xoO0o4_7sxr4pUbNDl9CBg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Container Types</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=711&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=lXQC4QD8hrLtPKSKd59LNQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Delete Constraints</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28533&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=KxGslv8NO5STOxVe9XJjBA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Delete Statements</A></LI>
+<LI id=50229:401:67600:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Categories</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1194&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=_7uEYe1VPN0sERUv69viAA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Category Sets</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1188&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=FaQ2bXfLmAmc9Nl4hOaYCw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Category Codes</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1244&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=4ZkAdeCrMsWMulKoAg7Zow..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Default Category Sets</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1253&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=Wo8ArfIdVcGYYpHVxI5Z0Q..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Category Accounts</A></LI></UL></LI>
+<LI id=50229:401:77229:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Commodities</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=18520&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;params=LV3TDrdqBWE5YBa.60S2ZdPtLIOZ4lTxj7bJKj9n-EQ&amp;oas=pIpLweqYFUoXRbjM1g0uYA.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif">Commodities</A></LI></UL></LI></UL></LI>
+<LI id=50229:401:67817:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Costs</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1331&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=k5LsRlrx_Z8wx20kO7YnRQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Activities</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1328&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=_oES1S619d6xOHhodBg2dQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Cost Types</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=2412&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=NW1a7w-cOdYTrF8aH-zOTw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Cost Groups</A></LI>
+<LI id=50229:401:68035:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Sub-elements</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=942&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=HEPsBX0fU75t1w4VMHos4w..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Material</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=944&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=yUH4SnVzESkWhTrD1qRsPA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Overheads</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=945&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=3PLNsiQL9ol_T6UXqOC4dw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Defaults</A></LI></UL></LI></UL></LI>
+<LI id=50229:401:67604:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Units of Measure</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1277&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=EYC0dWr0leX00ACZuu7DPQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Units of Measure</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1257&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=zoDsyG-IQZ8NXwnAie5UGw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Classes</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1264&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=P5Zhl3q143AV59Dn9XGm9w..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Conversions</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=29385&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=hUXj-rf7Kg5vZZ5X8FDOTA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Lot Specific Conversions</A></LI></UL></LI>
+<LI id=50229:401:67603:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Rules</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1183&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=7ECxb6zl89tRCDig_pti-Q..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Available to Promise</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1184&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=xaePoAZYtdMZ6bmK6nXiuw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Forecast</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=29895&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=XQGW3AKYDhps8SbZTZfAtA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Picking</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=5829&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=5xf4anWnCLlKDLMu24z5Sg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Pick Slip Grouping</A></LI></UL></LI>
+<LI id=50229:401:67608:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Organizations</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=309&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=plkrE9Qoqfi71nGELvQC6g..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Organizations</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1260&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=GCmpLeLhzKdH3cdSGq6hXA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Parameters</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=318&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=jVJHv6coQXVk3V5oPRZPMA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Locations</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=938&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=M7RoFONw6MKJyXUe67Kwvw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Employees</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=704&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=vnVPSVoXHkDVztHMekKZpw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Calendars</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=710&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=-RleNIklx-ANgyaXuOj5YQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Calendar Exception Templates</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1270&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=2ZwPwgrHBppzNInhBhf7aw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Subinventories</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1252&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=1VD-4WqVpWnd7EHULrx5Ug..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Stock Locators</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1262&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=ZFOdeikK55ovnG0FVNCT7w..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Shipping Networks</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=3486&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=VAQUJaXKe-E4-XJk1bqbGQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Inter-Location Transit Times</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1979&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=FG-ktE3vynkl612hceGocA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Shipping Methods</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=4372&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=ha5E0lx0gvWQ3ABzZXj0fA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Shortage Parameters</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=22010&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=qdzvhZjhsHIA7HppumJYXQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Intercompany Transaction Flows</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=1565&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=gyfNAo95LIfW6lahcUyc6A..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Organization Access</A></LI>
+<LI id=undefined><A href="http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=2009&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;params=uI6EVFeKM.VlZaDccrpOhaPbLvQHr6xPEKYT0gwP9rs&amp;oas=1jtalv1feyvj3X3xf2THmg.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif">Purchasing Parameters</A></LI>
+<LI id=undefined><A href="http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=2010&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;params=uI6EVFeKM.VlZaDccrpOhaPbLvQHr6xPEKYT0gwP9rs&amp;oas=j5W1UtvRQGZkoAYDhQkfpA.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif">Receiving Parameters</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=5831&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=sfxZq81oRyvUcg3WWDDLgg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Shipping Parameters</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=308&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=XRquE7CGHo3GpgyZ7mqI6g..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Hierarchy</A></LI>
+<LI id=50229:401:72857:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Organization Copy</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=9414&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=ZjsQ9zLSx2j4OdByh6RMIg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Maintain Interface</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=10949&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=fjsCGVqmxs-a25V_On_6Vg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Launch Organization Copy</A></LI></UL></LI></UL></LI>
+<LI id=50229:401:68078:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Receiving</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=2701&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=TZslD5W_GNGK_qORa_JRrQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Purchasing</A></LI>
+<LI id=undefined><A href="http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=2010&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;params=px.H8Gg7B9pTJLB-4jg1m6PbLvQHr6xPEKYT0gwP9rs&amp;oas=me_rzlrSgTMZ_wW7DbyTRQ.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif">Receiving</A></LI></UL></LI>
+<LI id=50229:401:67760:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Profiles</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=44&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=XQWtjoopn2_76dcrLb8HRw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Personal</A></LI></UL></LI>
+<LI id=50229:401:67920:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Flexfields</A>
+<UL style="DISPLAY: none" rel="closed">
+<LI id=50229:401:67922:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Key</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=57&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=BEZT73CVO2AKZ02BTNLzhQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Segments</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=60&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=GjTKZwRz0-POYbu_9dfVMA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Values</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=74&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=bjKEji74PKeKNlOc5cBYjA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Aliases</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=63&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=RPu0xgs3Y3J-rGbPYR4Rpg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Rules</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=54&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=P-232yXluxUzJC0ZPN2s2g..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Groups</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=2855&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=B3kwtXNDQpCRklv2pZTLaw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Accounts</A></LI>
+<LI id=50229:401:67919:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Security</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=173&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=bqTBbMQN6igCeu9sWN7zMA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Define</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=175&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=K0chxcnlhNP9uo-xG5_Frw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Assign</A></LI></UL></LI></UL></LI>
+<LI id=50229:401:67921:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Descriptive</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=64&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=tqKpkSzpFSFZgsaDBqCiew..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Segments</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=59&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=IVWZG4x3I3praksqswsxfQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Values</A></LI>
+<LI id=50229:401:67918:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Security</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=172&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=kCw5x71psmq6FalP_LgnEw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Define</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=174&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=ebefdK52z3me-cquT_jwjQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Assign</A></LI></UL></LI></UL></LI>
+<LI id=50229:401:67923:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Validation</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=69&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=_hHEVLJuW0FrTAbtoJFaDA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Sets</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=61&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=9qJTVVV3NOWRlOVBJ8XTvA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Values</A></LI>
+<LI id=50229:401:67870:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Security</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=99&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=4Uiorh5bZw3rWC9eaXB2pg..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Define</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=100&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=x0NUhHVdjKJ91ac0mhq8HA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Assign</A></LI></UL></LI></UL></LI></UL></LI>
+<LI id=50229:401:67823:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Financials</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=568&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=XEQuXAjFSVeIIVIjg0JoHA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Accounts</A></LI>
+<LI id=50229:401:68380:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Accounting Calendar</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=609&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=OkRkjqwft7DzZg-G7GHILQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Types</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=603&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=tB1sRRwCI5JQ1nG8E7bPmw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Accounting</A></LI></UL></LI>
+<LI id=50229:401:81545:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Accounting Setup Manager</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28756&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;params=M2maLAZIWlCtIfXD1pBANl6VLrJ1A84DG5rXQ6M8jEQ&amp;oas=ncSezbZWQrVT-HWxE0ih2Q.."><IMG class=image src="/OA_MEDIA/fwkhp_sswafunc.gif">Accounting Setups</A></LI></UL></LI>
+<LI id=50229:401:67822:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Currencies</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=596&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=FKCwXafOgpUyvlFoR-lJDw..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Daily Rates</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=28763&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=aVZRnxx8S9azOFZ9T1LtRQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Period Rates</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=106&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=v_ug5GLkqLbED1hp_s6xxQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Currency Codes</A></LI></UL></LI></UL></LI>
+<LI id=50229:401:73050:0 class=submenu><A href="#"><IMG class=image alt=Expand src="http://riysoaclone.maaden.com:8010/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif" width=16 height=16>Label Printing</A>
+<UL id=undefined style="DISPLAY: none" rel="closed">
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=9473&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=pHekyhAJ3f3cIfuMb3teUQ..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Label Formats</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=9474&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=WhUvcmTlarWoJW4CFP3z8A..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Assign Label Types</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=5793&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=PV2xOIwTG4SsgBwp9WFQIA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Assign Printers</A></LI>
+<LI id=undefined><A href="javascript:launchForm('http://riysoaclone.maaden.com:8010/OA_HTML/RF.jsp?function_id=22018&amp;resp_id=50229&amp;resp_appl_id=401&amp;security_group_id=0&amp;lang_code=US&amp;oas=tkotZ_eGnKrtpoLLRseIUA..')"><IMG class=image src="/OA_MEDIA/fwkhp_formsfunc.gif">Define Printer IP</A></LI></UL></LI></UL></LI></UL></LI>
+<LI id=55432:178:-1:0 class=rootmenu><A href="#"><IMG class=image alt=Expand src="/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif">MWSPC IPROCUREMENT CATALOG CONTROLLER</A></LI>
+<LI id=58226:178:-1:0 class=rootmenu><A href="#"><IMG class=image alt=Expand src="/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif">MWSPC IPROCUREMENT CONTRACTS &amp; PROCUREMENT</A></LI>
+<LI id=55507:201:-1:0 class=rootmenu><A href="#"><IMG class=image alt=Expand src="/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif">MWSPC PURCHASING BUYER I</A></LI>
+<LI id=58261:201:-1:0 class=rootmenu><A href="#"><IMG class=image alt=Expand src="/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif">MWSPC PURCHASING CONTRACTS &amp; PROCUREMENT</A></LI>
+<LI id=55428:201:-1:0 class=rootmenu><A href="#"><IMG class=image alt=Expand src="/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif">MWSPC PURCHASING SUPERUSER</A></LI>
+<LI id=55627:800:-1:0 class=rootmenu><A href="#"><IMG class=image alt=Expand src="/OA_MEDIA/hideshow_infohidden.gif"><IMG class=image alt="" src="/OA_MEDIA/fwkhp_folder.gif">MWSPC-Employee Self Service</A></LI></UL></TD></TR></TBODY></TABLE><LINK rel=stylesheet type=text/css href="cabo/styles/mainMenuTree.css">
+<SCRIPT type=text/javascript>McreateTree("treemenu1", escape('RF.jsp?function_id=MAINMENUREST&security_group_id=0'), true)</SCRIPT>
+</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><!-- oracle.portal.ui.renderer.FlexibleContentRenderer id=menuContent:  render end --></DIV></TD></TR></TBODY></TABLE></TD><!-- oracle.portal.ui.renderer.FlexibleCellLayoutRenderer id=menuLayout:  render End -->
+<TD id=favNtfLayout vAlign=top align=left>
+<TABLE id=favNtfLayout_internalTable1 width="100%">
+<TBODY>
+<TR id=favNtfLayout_internalTable1_Row1>
+<TD id=favNtfLayout_internalRow1_Col2 vAlign=top align=left>
+<DIV id=favNtfLayout_div style="horizontal-align: left">
+<TABLE id=favNtfLayout_internalTable20 width="100%">
+<TBODY><!-- oracle.portal.ui.renderer.FlexibleRowLayoutRenderer id=favNtfLayout_row_0:  render start -->
+<TR id=favNtfLayout_row_0 hAlign="left">
+<TD id=NtfLayout vAlign=top width="100%" align=left>
+<TABLE id=NtfLayout_internalTable1 width="100%">
+<TBODY>
+<TR id=NtfLayout_internalTable1_Row1>
+<TD id=NtfLayout_internalRow1_Col2 vAlign=top align=left>
+<DIV id=NtfLayout_div style="horizontal-align: left"><!-- oracle.portal.ui.renderer.FlexibleContentRenderer id=NtfContent:  render start  hasHeader=false hasBorder=false isDisclosed=true -->
+<TABLE id=NtfContent width="100%">
+<TBODY>
+<TR id=NtfContent_internalRow1>
+<TD id=NtfContent_internalRow1_Col2 vAlign=top align=left>
+<TABLE role=presentation id=worklistRow cellSpacing=0 cellPadding=0 summary="" border=0>
+<TBODY>
+<TR>
+<TD id=worklistCell vAlign=top align=left>
+<TABLE role=presentation id=NotificationRN cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD height=10></TD></TR>
+<TR>
+<TD>
+<TABLE role=presentation class=x7b style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/headingBarBg.gif)" cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD width="100%">
+<H2 class=x7c>Worklist</H2></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class=x79 height=8></TD></TR>
+<TR>
+<TD>
+<TABLE role=presentation cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD>
+<DIV class=x79>
+<DIV><SPAN id=Notifications>
+<TABLE role=presentation cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD></TD>
+<TD align=right><BUTTON onclick="document.location='OA.jsp?page=/oracle/apps/fnd/wf/worklist/webui/AdvancWorklistPG&amp;addBreadCrumb=Y&amp;ebizHomeList=Y&amp;_ti=1874596363&amp;oapc=5&amp;oas=lunQQPf92W7niiRDDAud-w..'" id=NtfFullList title="Show the complete notification worklist" class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Full List</BUTTON></TD></TR></TBODY></TABLE>
+<DIV></DIV><SPAN id=NtfWorklist title="Notification List">
+<TABLE role=presentation cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD>
+<TABLE role=presentation class=x1p cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD width="100%"></TD>
+<TD vAlign=middle align=right>
+<SCRIPT type=text/javascript>function _navBarSubmit(formName, gotoEvent, navBar, vld, val, sze, partialTargets){var i = val.indexOf(',');if (i >= 0){sze = val.substring(i+1);val = val.substring(0, i);}var submitFunc = (partialTargets == (void 0)) ? submitForm : _submitPartialChange;return submitFunc(formName,vld,{event:gotoEvent,source:navBar,value:val,size:sze,partialTargets:partialTargets});}function _navChoiceSubmit(choice, formName, gotoEvent, navBar, vld, size, partialTargets){if (!_navBarSubmit(formName, gotoEvent, navBar, vld, choice.options[choice.selectedIndex].value, size, partialTargets)){choice.selectedIndex = choice._lastValue;}}</SCRIPT>
+
+<TABLE role=presentation id=NtfWorklist-nb cellSpacing=0 cellPadding=0 summary="" border=0>
+<TBODY>
+<TR>
+<TD id=NtfWorklist-nb-i vAlign=middle><IMG border=0 alt="Previous functionality disabled" src="/OA_HTML/cabo/images/cache/ctnavpd.gif"></TD>
+<TD>
+<SCRIPT type=text/javascript>t(5,1)</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD vAlign=middle noWrap><SPAN class=x49>Previous</SPAN></TD>
+<TD>
+<SCRIPT type=text/javascript>t(5,1)</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD vAlign=middle noWrap><SELECT onchange="_navChoiceSubmit(this, 'DefaultFormName','goto','N38',1,null,'NtfWorklist')" onfocus="this._lastValue = this.selectedIndex" id=M__Idb title="Select record set" class=x8><OPTION selected value=1,25>1-25</OPTION><OPTION value=26,25>More...</OPTION></SELECT><LABEL class=x3f for=M__Idb>Select record set</LABEL>
+<SCRIPT language=javascript>_setSelectIndexById("M__Idb",0)</SCRIPT>
+</TD>
+<TD>
+<SCRIPT type=text/javascript>t(5,1)</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD vAlign=middle noWrap><A onclick="_navBarSubmit('DefaultFormName', 'goto','N38',1,'26', '25','NtfWorklist');return false" class=x48 href="#">Next 25</A></TD>
+<TD>
+<SCRIPT type=text/javascript>t(5,1)</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD vAlign=middle><A onclick="_navBarSubmit('DefaultFormName', 'goto','N38',1,'26', '25','NtfWorklist');return false" href="#"><IMG border=0 alt="Select to view next set" src="/OA_HTML/cabo/images/cache/ctnavn.gif"></A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE class=x1o cellSpacing=0 cellPadding=1 width="100%" summary="Notification List" border=0>
+<TBODY>
+<TR>
+<TH onclick="_tableSortSubmit('DefaultFormName',1,'sort','N38','0','','NtfWorklist');return false" class="x27 x5e" scope=col><A onclick="return false;" id=OASH__5 class=x2a href="#">From
+<SCRIPT type=text/javascript>function _tableSortSubmit(formName,validate,sortEvent,table,val,stat,ptgt) {var submitFunc = (ptgt == (void 0)) ? submitForm : _submitPartialChange;submitFunc(formName,validate,{event:sortEvent,source:table,value:val,state:stat,partialTargets:ptgt });}</SCRIPT>
+</A></TH>
+<TH onclick="_tableSortSubmit('DefaultFormName',1,'sort','N38','1','','NtfWorklist');return false" class="x27 x5e" scope=col><A onclick="return false;" id=OASH__6 class=x2a href="#">Subject</A></TH>
+<TH onclick="_tableSortSubmit('DefaultFormName',1,'sort','N38','2','descending','NtfWorklist');return false" class="x27 x5e" scope=col noWrap><A onclick="return false;" id=OASH__7 class=x2a href="#">Sent</A><A onclick="return false;" href="#"><IMG border=0 alt="Sorted in descending order" src="/OA_HTML/cabo/images/cache/cdsort.gif" width=16 align=middle height=16></A></TH>
+<TH onclick="_tableSortSubmit('DefaultFormName',1,'sort','N38','3','','NtfWorklist');return false" class="x27 x5e" scope=col><A onclick="return false;" id=OASH__8 class=x2a href="#">Due</A></TH></TR>
+<TR>
+<TD class="x1s x57" scope=row><SPAN id=N38:NtfFromUser:0 title="User from whom notification was received">Al-Harbi, Motlaq</SPAN></TD>
+<TD class="x1s x57"><A id=N38:NtfSubject:0 title="Standard Purchase Order  742000789  has been approved" class=xh href="OA.jsp?OAFunc=FND_WFNTF_DETAILS&amp;NtfId=13420846&amp;addBreadCrumb=Y&amp;retainAM=Y&amp;_ti=1874596363&amp;oapc=5&amp;oas=S0SjgTmXICAImy7ar07Crg..">Standard Purchase Order 742000789 has been approved</A></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfSent:0 title="Date notification was sent">13-May-2020</SPAN></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfDue:0></SPAN><BR></TD></TR>
+<TR>
+<TD class="x1s x57" scope=row><SPAN id=N38:NtfFromUser:1 title="User from whom notification was received">Al-Harbi, Motlaq</SPAN></TD>
+<TD class="x1s x57"><A id=N38:NtfSubject:1 title="Standard Purchase Order  742000794  has been approved" class=xh href="OA.jsp?OAFunc=FND_WFNTF_DETAILS&amp;NtfId=13420844&amp;addBreadCrumb=Y&amp;retainAM=Y&amp;_ti=1874596363&amp;oapc=5&amp;oas=-b41ZefdlHkf6_qQAB8sng..">Standard Purchase Order 742000794 has been approved</A></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfSent:1 title="Date notification was sent">13-May-2020</SPAN></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfDue:1></SPAN><BR></TD></TR>
+<TR>
+<TD class="x1s x57" scope=row><SPAN id=N38:NtfFromUser:2 title="User from whom notification was received">Al-Harbi, Motlaq</SPAN></TD>
+<TD class="x1s x57"><A id=N38:NtfSubject:2 title="Standard Purchase Order  742000795  has been approved" class=xh href="OA.jsp?OAFunc=FND_WFNTF_DETAILS&amp;NtfId=13420838&amp;addBreadCrumb=Y&amp;retainAM=Y&amp;_ti=1874596363&amp;oapc=5&amp;oas=hHgtfTfUW3ANakmxrIL2qA..">Standard Purchase Order 742000795 has been approved</A></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfSent:2 title="Date notification was sent">13-May-2020</SPAN></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfDue:2></SPAN><BR></TD></TR>
+<TR>
+<TD class="x1s x57" scope=row><SPAN id=N38:NtfFromUser:3 title="User from whom notification was received">Al-Harbi, Motlaq</SPAN></TD>
+<TD class="x1s x57"><A id=N38:NtfSubject:3 title="Standard Purchase Order  742000815  has been approved" class=xh href="OA.jsp?OAFunc=FND_WFNTF_DETAILS&amp;NtfId=13420834&amp;addBreadCrumb=Y&amp;retainAM=Y&amp;_ti=1874596363&amp;oapc=5&amp;oas=Yb96QVV6mAFL-pIZoOoP9w..">Standard Purchase Order 742000815 has been approved</A></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfSent:3 title="Date notification was sent">13-May-2020</SPAN></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfDue:3></SPAN><BR></TD></TR>
+<TR>
+<TD class="x1s x57" scope=row><SPAN id=N38:NtfFromUser:4 title="User from whom notification was received">Al-Harbi, Motlaq</SPAN></TD>
+<TD class="x1s x57"><A id=N38:NtfSubject:4 title="Standard Purchase Order  742000818  has been approved" class=xh href="OA.jsp?OAFunc=FND_WFNTF_DETAILS&amp;NtfId=13420833&amp;addBreadCrumb=Y&amp;retainAM=Y&amp;_ti=1874596363&amp;oapc=5&amp;oas=NobzGmow8qMNVWhMfvIL6A..">Standard Purchase Order 742000818 has been approved</A></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfSent:4 title="Date notification was sent">13-May-2020</SPAN></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfDue:4></SPAN><BR></TD></TR>
+<TR>
+<TD class="x1s x57" scope=row><SPAN id=N38:NtfFromUser:5 title="User from whom notification was received">Al-Harbi, Motlaq</SPAN></TD>
+<TD class="x1s x57"><A id=N38:NtfSubject:5 title="Standard Purchase Order  742000869  has been approved" class=xh href="OA.jsp?OAFunc=FND_WFNTF_DETAILS&amp;NtfId=13420801&amp;addBreadCrumb=Y&amp;retainAM=Y&amp;_ti=1874596363&amp;oapc=5&amp;oas=RZYqxonpX_mwID7HsWouWg..">Standard Purchase Order 742000869 has been approved</A></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfSent:5 title="Date notification was sent">13-May-2020</SPAN></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfDue:5></SPAN><BR></TD></TR>
+<TR>
+<TD class="x1s x57" scope=row><SPAN id=N38:NtfFromUser:6 title="User from whom notification was received">Al-Rashidi, Hamad</SPAN></TD>
+<TD class="x1s x57"><A id=N38:NtfSubject:6 title="Standard Purchase Order  742000591  has been approved" class=xh href="OA.jsp?OAFunc=FND_WFNTF_DETAILS&amp;NtfId=13410116&amp;addBreadCrumb=Y&amp;retainAM=Y&amp;_ti=1874596363&amp;oapc=5&amp;oas=b4OBfUlSk7esLSodu9TZIQ..">Standard Purchase Order 742000591 has been approved</A></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfSent:6 title="Date notification was sent">11-May-2020</SPAN></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfDue:6></SPAN><BR></TD></TR>
+<TR>
+<TD class="x1s x57" scope=row><SPAN id=N38:NtfFromUser:7 title="User from whom notification was received">AL-Munaiseer, Mansour</SPAN></TD>
+<TD class="x1s x57"><A id=N38:NtfSubject:7 title="Standard Purchase Order  742000616  has been approved" class=xh href="OA.jsp?OAFunc=FND_WFNTF_DETAILS&amp;NtfId=13408922&amp;addBreadCrumb=Y&amp;retainAM=Y&amp;_ti=1874596363&amp;oapc=5&amp;oas=2tlT7IPpAwXhyqsR97gBxQ..">Standard Purchase Order 742000616 has been approved</A></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfSent:7 title="Date notification was sent">10-May-2020</SPAN></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfDue:7></SPAN><BR></TD></TR>
+<TR>
+<TD class="x1s x57" scope=row><SPAN id=N38:NtfFromUser:8 title="User from whom notification was received">Al-Harbi, Motlaq</SPAN></TD>
+<TD class="x1s x57"><A id=N38:NtfSubject:8 title="Standard Purchase Order  741904891  has been approved" class=xh href="OA.jsp?OAFunc=FND_WFNTF_DETAILS&amp;NtfId=13384152&amp;addBreadCrumb=Y&amp;retainAM=Y&amp;_ti=1874596363&amp;oapc=5&amp;oas=p0HpOJJ69LigX6tZrP_xXw..">Standard Purchase Order 741904891 has been approved</A></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfSent:8 title="Date notification was sent">08-May-2020</SPAN></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfDue:8></SPAN><BR></TD></TR>
+<TR>
+<TD class="x1s x57" scope=row><SPAN id=N38:NtfFromUser:9 title="User from whom notification was received">Al-Rashidi, Hamad</SPAN></TD>
+<TD class="x1s x57"><A id=N38:NtfSubject:9 title="Standard Purchase Order  741906857  has been approved" class=xh href="OA.jsp?OAFunc=FND_WFNTF_DETAILS&amp;NtfId=13366041&amp;addBreadCrumb=Y&amp;retainAM=Y&amp;_ti=1874596363&amp;oapc=5&amp;oas=5kZrxBl78JNNCJclX5zT0w..">Standard Purchase Order 741906857 has been approved</A></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfSent:9 title="Date notification was sent">05-May-2020</SPAN></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfDue:9></SPAN><BR></TD></TR>
+<TR>
+<TD class="x1s x57" scope=row><SPAN id=N38:NtfFromUser:10 title="User from whom notification was received">Al-Harbi, Motlaq</SPAN></TD>
+<TD class="x1s x57"><A id=N38:NtfSubject:10 title="Standard Purchase Order  742000619  has been approved" class=xh href="OA.jsp?OAFunc=FND_WFNTF_DETAILS&amp;NtfId=13357856&amp;addBreadCrumb=Y&amp;retainAM=Y&amp;_ti=1874596363&amp;oapc=5&amp;oas=NFnRG32uq9P00RT6PNiFug..">Standard Purchase Order 742000619 has been approved</A></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfSent:10 title="Date notification was sent">03-May-2020</SPAN></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfDue:10></SPAN><BR></TD></TR>
+<TR>
+<TD class="x1s x57" scope=row><SPAN id=N38:NtfFromUser:11 title="User from whom notification was received">Al-Harbi, Motlaq</SPAN></TD>
+<TD class="x1s x57"><A id=N38:NtfSubject:11 title="Standard Purchase Order  742000621  has been approved" class=xh href="OA.jsp?OAFunc=FND_WFNTF_DETAILS&amp;NtfId=13357854&amp;addBreadCrumb=Y&amp;retainAM=Y&amp;_ti=1874596363&amp;oapc=5&amp;oas=cmX2Z7aYlw5XTTL1Z8Ga-A..">Standard Purchase Order 742000621 has been approved</A></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfSent:11 title="Date notification was sent">03-May-2020</SPAN></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfDue:11></SPAN><BR></TD></TR>
+<TR>
+<TD class="x1s x57" scope=row><SPAN id=N38:NtfFromUser:12 title="User from whom notification was received">Al-Harbi, Motlaq</SPAN></TD>
+<TD class="x1s x57"><A id=N38:NtfSubject:12 title="Standard Purchase Order  742000622  has been approved" class=xh href="OA.jsp?OAFunc=FND_WFNTF_DETAILS&amp;NtfId=13357852&amp;addBreadCrumb=Y&amp;retainAM=Y&amp;_ti=1874596363&amp;oapc=5&amp;oas=52tFfNjrzyltv5PvQaDk7g..">Standard Purchase Order 742000622 has been approved</A></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfSent:12 title="Date notification was sent">03-May-2020</SPAN></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfDue:12></SPAN><BR></TD></TR>
+<TR>
+<TD class="x1s x57" scope=row><SPAN id=N38:NtfFromUser:13 title="User from whom notification was received">AL-Munaiseer, Mansour</SPAN></TD>
+<TD class="x1s x57"><A id=N38:NtfSubject:13 title="Standard Purchase Order  742000553  has been approved" class=xh href="OA.jsp?OAFunc=FND_WFNTF_DETAILS&amp;NtfId=13351130&amp;addBreadCrumb=Y&amp;retainAM=Y&amp;_ti=1874596363&amp;oapc=5&amp;oas=JZ7yCn8i8xx_8kQGeBRDsw..">Standard Purchase Order 742000553 has been approved</A></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfSent:13 title="Date notification was sent">30-Apr-2020</SPAN></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfDue:13></SPAN><BR></TD></TR>
+<TR>
+<TD class="x1s x57" scope=row><SPAN id=N38:NtfFromUser:14 title="User from whom notification was received">Al-Harbi, Motlaq</SPAN></TD>
+<TD class="x1s x57"><A id=N38:NtfSubject:14 title="More Information Requested: Ma\E2\80\99aden Waad Al Shamal Phosphate Company -  Standard Purchase Order 741904881,   for AED  16,716.53 requires your approval. " class=xh href="OA.jsp?OAFunc=FND_WFNTF_DETAILS&amp;NtfId=13347991&amp;addBreadCrumb=Y&amp;retainAM=Y&amp;_ti=1874596363&amp;oapc=5&amp;oas=-uvgUfKtO_kvxUcJ29mfRQ..">More Information Requested: Ma\E2\80\99aden Waad Al Shamal Phosphate Company - Standard Purchase Order 741904881, for AED 16,716.53 requires your approval. </A></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfSent:14 title="Date notification was sent">29-Apr-2020</SPAN></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfDue:14></SPAN><BR></TD></TR>
+<TR>
+<TD class="x1s x57" scope=row><SPAN id=N38:NtfFromUser:15 title="User from whom notification was received">Al-Harbi, Motlaq</SPAN></TD>
+<TD class="x1s x57"><A id=N38:NtfSubject:15 title="Blanket Release  741700202-76  has been approved" class=xh href="OA.jsp?OAFunc=FND_WFNTF_DETAILS&amp;NtfId=13346938&amp;addBreadCrumb=Y&amp;retainAM=Y&amp;_ti=1874596363&amp;oapc=5&amp;oas=yDD7ObP-WMa8Dl7heh5opw..">Blanket Release 741700202-76 has been approved</A></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfSent:15 title="Date notification was sent">29-Apr-2020</SPAN></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfDue:15></SPAN><BR></TD></TR>
+<TR>
+<TD class="x1s x57" scope=row><SPAN id=N38:NtfFromUser:16 title="User from whom notification was received">Al-Harbi, Motlaq</SPAN></TD>
+<TD class="x1s x57"><A id=N38:NtfSubject:16 title="Standard Purchase Order  742000554  has been approved" class=xh href="OA.jsp?OAFunc=FND_WFNTF_DETAILS&amp;NtfId=13346936&amp;addBreadCrumb=Y&amp;retainAM=Y&amp;_ti=1874596363&amp;oapc=5&amp;oas=uaBYuDQw2kpjyXXSX8PsdQ..">Standard Purchase Order 742000554 has been approved</A></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfSent:16 title="Date notification was sent">29-Apr-2020</SPAN></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfDue:16></SPAN><BR></TD></TR>
+<TR>
+<TD class="x1s x57" scope=row><SPAN id=N38:NtfFromUser:17 title="User from whom notification was received">AL-Munaiseer, Mansour</SPAN></TD>
+<TD class="x1s x57"><A id=N38:NtfSubject:17 title="Standard Purchase Order  742000444  has been approved" class=xh href="OA.jsp?OAFunc=FND_WFNTF_DETAILS&amp;NtfId=13333580&amp;addBreadCrumb=Y&amp;retainAM=Y&amp;_ti=1874596363&amp;oapc=5&amp;oas=jotavnOzHYYwxPl5pC5zMg..">Standard Purchase Order 742000444 has been approved</A></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfSent:17 title="Date notification was sent">26-Apr-2020</SPAN></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfDue:17></SPAN><BR></TD></TR>
+<TR>
+<TD class="x1s x57" scope=row><SPAN id=N38:NtfFromUser:18 title="User from whom notification was received">Al-Rashidi, Hamad</SPAN></TD>
+<TD class="x1s x57"><A id=N38:NtfSubject:18 title="Standard Purchase Order  742000463  has been approved" class=xh href="OA.jsp?OAFunc=FND_WFNTF_DETAILS&amp;NtfId=13333553&amp;addBreadCrumb=Y&amp;retainAM=Y&amp;_ti=1874596363&amp;oapc=5&amp;oas=J0MjPOXkl-cXqH27StSIpw..">Standard Purchase Order 742000463 has been approved</A></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfSent:18 title="Date notification was sent">26-Apr-2020</SPAN></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfDue:18></SPAN><BR></TD></TR>
+<TR>
+<TD class="x1s x57" scope=row><SPAN id=N38:NtfFromUser:19 title="User from whom notification was received">Al-Rashidi, Hamad</SPAN></TD>
+<TD class="x1s x57"><A id=N38:NtfSubject:19 title="Standard Purchase Order  742000487  has been approved" class=xh href="OA.jsp?OAFunc=FND_WFNTF_DETAILS&amp;NtfId=13333550&amp;addBreadCrumb=Y&amp;retainAM=Y&amp;_ti=1874596363&amp;oapc=5&amp;oas=C0MZmy2o-0W5qn2uFKNsOg..">Standard Purchase Order 742000487 has been approved</A></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfSent:19 title="Date notification was sent">26-Apr-2020</SPAN></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfDue:19></SPAN><BR></TD></TR>
+<TR>
+<TD class="x1s x57" scope=row><SPAN id=N38:NtfFromUser:20 title="User from whom notification was received">Al-Harbi, Motlaq</SPAN></TD>
+<TD class="x1s x57"><A id=N38:NtfSubject:20 title="Standard Purchase Order  742000464  has been approved" class=xh href="OA.jsp?OAFunc=FND_WFNTF_DETAILS&amp;NtfId=13327425&amp;addBreadCrumb=Y&amp;retainAM=Y&amp;_ti=1874596363&amp;oapc=5&amp;oas=zX4_A6wjMzzfvtcApWyDYQ..">Standard Purchase Order 742000464 has been approved</A></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfSent:20 title="Date notification was sent">24-Apr-2020</SPAN></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfDue:20></SPAN><BR></TD></TR>
+<TR>
+<TD class="x1s x57" scope=row><SPAN id=N38:NtfFromUser:21 title="User from whom notification was received">AL-Munaiseer, Mansour</SPAN></TD>
+<TD class="x1s x57"><A id=N38:NtfSubject:21 title="Standard Purchase Order  742000315  has been approved" class=xh href="OA.jsp?OAFunc=FND_WFNTF_DETAILS&amp;NtfId=13312154&amp;addBreadCrumb=Y&amp;retainAM=Y&amp;_ti=1874596363&amp;oapc=5&amp;oas=zFsqGEaBWt3n0JLGpEPkJg..">Standard Purchase Order 742000315 has been approved</A></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfSent:21 title="Date notification was sent">20-Apr-2020</SPAN></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfDue:21></SPAN><BR></TD></TR>
+<TR>
+<TD class="x1s x57" scope=row><SPAN id=N38:NtfFromUser:22 title="User from whom notification was received">Al-Rashidi, Hamad</SPAN></TD>
+<TD class="x1s x57"><A id=N38:NtfSubject:22 title="Standard Purchase Order  742000270  has been approved" class=xh href="OA.jsp?OAFunc=FND_WFNTF_DETAILS&amp;NtfId=13306073&amp;addBreadCrumb=Y&amp;retainAM=Y&amp;_ti=1874596363&amp;oapc=5&amp;oas=Obk_b5lmd1hq6CQ2Y-g08Q..">Standard Purchase Order 742000270 has been approved</A></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfSent:22 title="Date notification was sent">19-Apr-2020</SPAN></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfDue:22></SPAN><BR></TD></TR>
+<TR>
+<TD class="x1s x57" scope=row><SPAN id=N38:NtfFromUser:23 title="User from whom notification was received">Al-Rashidi, Hamad</SPAN></TD>
+<TD class="x1s x57"><A id=N38:NtfSubject:23 title="Standard Purchase Order  742000264  has been approved" class=xh href="OA.jsp?OAFunc=FND_WFNTF_DETAILS&amp;NtfId=13306071&amp;addBreadCrumb=Y&amp;retainAM=Y&amp;_ti=1874596363&amp;oapc=5&amp;oas=XUYM4Ix7mzXdRGN_qzY4sA..">Standard Purchase Order 742000264 has been approved</A></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfSent:23 title="Date notification was sent">19-Apr-2020</SPAN></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfDue:23></SPAN><BR></TD></TR>
+<TR>
+<TD class="x1s x57" scope=row><SPAN id=N38:NtfFromUser:24 title="User from whom notification was received">Al-Rashidi, Hamad</SPAN></TD>
+<TD class="x1s x57"><A id=N38:NtfSubject:24 title="Standard Purchase Order  742000263  has been approved" class=xh href="OA.jsp?OAFunc=FND_WFNTF_DETAILS&amp;NtfId=13306070&amp;addBreadCrumb=Y&amp;retainAM=Y&amp;_ti=1874596363&amp;oapc=5&amp;oas=8wa7RG4rft_gWbNKSqsvlQ..">Standard Purchase Order 742000263 has been approved</A></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfSent:24 title="Date notification was sent">19-Apr-2020</SPAN></TD>
+<TD class="x1s x57" noWrap><SPAN id=N38:NtfDue:24></SPAN><BR></TD></TR></TBODY></TABLE>
+<TABLE role=presentation cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD>
+<TABLE role=presentation class=x1q cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD width="100%"></TD>
+<TD vAlign=middle align=right>
+<TABLE role=presentation cellSpacing=0 cellPadding=0 summary="" border=0>
+<TBODY>
+<TR>
+<TD vAlign=middle><IMG border=0 alt="Previous functionality disabled" src="/OA_HTML/cabo/images/cache/ctnavpd.gif"></TD>
+<TD>
+<SCRIPT type=text/javascript>t(5,1)</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD vAlign=middle noWrap><SPAN class=x49>Previous</SPAN></TD>
+<TD>
+<SCRIPT type=text/javascript>t(5,1)</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD vAlign=middle noWrap><SELECT onchange="_navChoiceSubmit(this, 'DefaultFormName','goto','N38',1,null,'NtfWorklist')" onfocus="this._lastValue = this.selectedIndex" id=M__Idba title="Select record set" class=x8><OPTION selected value=1,25>1-25</OPTION><OPTION value=26,25>More...</OPTION></SELECT><LABEL class=x3f for=M__Idba>Select record set</LABEL>
+<SCRIPT language=javascript>_setSelectIndexById("M__Idba",0)</SCRIPT>
+</TD>
+<TD>
+<SCRIPT type=text/javascript>t(5,1)</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD vAlign=middle noWrap><A onclick="_navBarSubmit('DefaultFormName', 'goto','N38',1,'26', '25','NtfWorklist');return false" class=x48 href="#">Next 25</A></TD>
+<TD>
+<SCRIPT type=text/javascript>t(5,1)</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=5 height=1></TD>
+<TD vAlign=middle><A onclick="_navBarSubmit('DefaultFormName', 'goto','N38',1,'26', '25','NtfWorklist');return false" href="#"><IMG border=0 alt="Select to view next set" src="/OA_HTML/cabo/images/cache/ctnavn.gif"></A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></SPAN><SPAN id=NtfWorklist-hv></SPAN>
+<DIV></DIV>
+<TABLE role=presentation id=vacationRulesTip cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD vAlign=top><IMG alt="" src="/OA_HTML/cabo/images/swan/tip.gif" width=15 height=13></TD>
+<TD class=x5f vAlign=top noWrap>TIP&nbsp;</TD>
+<TD class=x5g vAlign=top width="100%"><A class=OraLinkText href="OA.jsp?page=/oracle/apps/fnd/wf/worklist/webui/RouteRulePG&amp;OAFunc=FND_WFNTF_ROUTE_RULE&amp;addBreadCrumb=Y&amp;_ti=1874596363&amp;oapc=5&amp;oas=0kwyFjGe9vD4m5KsVBjrFg..">Vacation Rules</A> - Redirect or auto-respond to notifications.</TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE role=presentation id=worklistAccessTip cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD vAlign=top><IMG alt="" src="/OA_HTML/cabo/images/swan/tip.gif" width=15 height=13></TD>
+<TD class=x5f vAlign=top noWrap>TIP&nbsp;</TD>
+<TD class=x5g vAlign=top width="100%"><A class=OraLinkText href="OA.jsp?page=/oracle/apps/fnd/wf/worklist/webui/WorklistAccessPG&amp;OAFunc=WF_WORKLIST_ACCESS&amp;addBreadCrumb=Y&amp;_ti=1874596363&amp;oapc=5&amp;oas=-wcdkWquCIpIrzujvhqEpg..">Worklist Access</A> - Specify which users can view and act upon your notifications.</TD></TR></TBODY></TABLE></SPAN>
+<DIV></DIV>
+<TABLE role=presentation cellSpacing=0 cellPadding=0 summary="" border=0>
+<TBODY>
+<TR>
+<TD width="5%">
+<SCRIPT type=text/javascript>t('12')</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top>
+<TABLE role=presentation cellSpacing=0 cellPadding=0 summary="" border=0>
+<TBODY></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><!-- oracle.portal.ui.renderer.FlexibleContentRenderer id=NtfContent:  render end --></DIV></TD></TR></TBODY></TABLE></TD><!-- oracle.portal.ui.renderer.FlexibleCellLayoutRenderer id=NtfLayout:  render End --></TR><!-- oracle.portal.ui.renderer.FlexibleRowLayoutRenderer id=favNtfLayout_row_0:  render end --></TBODY></TABLE>
+<TABLE id=favNtfLayout_internalTable21 width="100%">
+<TBODY><!-- oracle.portal.ui.renderer.FlexibleRowLayoutRenderer id=favNtfLayout_row_1:  render start -->
+<TR id=favNtfLayout_row_1 hAlign="left">
+<TD id=favLayout vAlign=top width="60%" align=left>
+<TABLE id=favLayout_internalTable1 width="100%">
+<TBODY>
+<TR id=favLayout_internalTable1_Row1>
+<TD id=favLayout_internalRow1_Col2 vAlign=top align=left>
+<DIV id=favLayout_div style="horizontal-align: left"><!-- oracle.portal.ui.renderer.FlexibleContentRenderer id=favContent:  render start  hasHeader=false hasBorder=false isDisclosed=true -->
+<TABLE id=favContent width="100%">
+<TBODY>
+<TR id=favContent_internalRow1>
+<TD id=favContent_internalRow1_Col2 vAlign=top align=left>
+<TABLE role=presentation id=favRN class=xu cellSpacing=0 cellPadding=0 width="60%" summary="" border=0>
+<TBODY>
+<TR>
+<TD height=21 background=/OA_HTML/cabo/images/swan/hBar-L.gif></TD>
+<TD class=xw background=/OA_HTML/cabo/images/swan/hBar-Bg.gif>Favorites</TD>
+<TD height=21 background=/OA_HTML/cabo/images/swan/hBar-R.gif></TD></TR>
+<TR>
+<TD class=xx colSpan=3>
+<DIV>
+<TABLE role=presentation id=favoritesTable cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR id=innerFavoritesEditRow>
+<TD id=innerFavoritesEditCell align=right><BUTTON onclick="document.location='OA.jsp?page=/oracle/apps/fnd/framework/favorites/webui/CustomizeFavoritesPG&amp;_ti=1874596363&amp;oapc=5&amp;oas=pNq-NUon4JxW6bD-RA1s_w..'" id=CustomLink title=Personalize class=x7n style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/btn-bg1.gif)">Personalize</BUTTON></TD></TR>
+<TR id=innerFavoritesListRow>
+<TD id=innerFavoritesListCel><SPAN id=favoritesListSL><IFRAME title="" height=5 src="http://riysoaclone.maaden.com:8010/OA_HTML/blank.html" frameBorder=no width=5 name=formsLauncher scrolling=no></IFRAME>
+<SCRIPT>
+function launchForm(url) {
+ if (navigator.appName=="Netscape") {
+   open(url, "formsWindow");
+ } else {
+   formsLauncher.location.replace(url+"&formsLink=yes");
+ }
+}
+</SCRIPT>
+
+<DIV></DIV><SPAN id=homePageMessage class=x0>You have not selected any favorites. Please use the "Personalize" button to set up your favorites.</SPAN></SPAN></TD></TR></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE><!-- oracle.portal.ui.renderer.FlexibleContentRenderer id=favContent:  render end --></DIV></TD></TR></TBODY></TABLE></TD><!-- oracle.portal.ui.renderer.FlexibleCellLayoutRenderer id=favLayout:  render End --></TR><!-- oracle.portal.ui.renderer.FlexibleRowLayoutRenderer id=favNtfLayout_row_1:  render end --></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE></TD><!-- oracle.portal.ui.renderer.FlexibleCellLayoutRenderer id=favNtfLayout:  render End --></TR><!-- oracle.portal.ui.renderer.FlexibleRowLayoutRenderer id=mainLayout_row_0:  render end --></TBODY></TABLE></DIV></TD></TR></TBODY></TABLE><!-- oracle.portal.ui.renderer.FlexibleLayoutRenderer id=mainLayout:  render End -->
+<DIV></DIV><INPUT id=_fwkAbsolutePageName type=hidden value=/oracle/apps/fnd/framework/navigate/webui/NewHomePG::: name=_fwkAbsolutePageName></DIV></DIV>
+<DIV>
+<DIV>
+<SCRIPT type=text/javascript>t(1,9)</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=9></DIV>
+<DIV>
+<SCRIPT type=text/javascript>t(1,10)</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=1 height=10></DIV></DIV></DIV>
+<DIV></DIV>
+<DIV></DIV>
+<DIV></DIV></DIV>
+<TABLE role=presentation class=x70 style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/footerBg.gif)" cellSpacing=0 cellPadding=0 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD>
+<TABLE role=presentation cellSpacing=2 cellPadding=2 width="100%" summary="" border=0>
+<TBODY>
+<TR>
+<TD class=x14 noWrap align=left></TD>
+<TD>
+<SCRIPT type=text/javascript>t('10','10')</SCRIPT>
+<IMG alt="" src="/OA_HTML/cabo/images/swan/t.gif" width=10 height=10></TD>
+<TD class=x13 noWrap align=left><A title="Privacy Statement" href="http://personalize.this.link" target=_blank>Privacy Statement</A></TD>
+<TD class=x12 width="100%" noWrap align=right><SPAN id=N31>Copyright (c) 2006, Oracle. All rights reserved.</SPAN></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></SPAN><INPUT id=N38$$unvalidated type=hidden value=false name=N38$$unvalidated><INPUT id=N38$$serverUnvalidated type=hidden value=false name=N38$$serverUnvalidated><INPUT id=AppsSearchGO$$unvalidated type=hidden value=false name=AppsSearchGO$$unvalidated><INPUT id=AppsSearchGO$$serverUnvalidated type=hidden value=false name=AppsSearchGO$$serverUnvalidated><INPUT id=AppsSearchGO$$processFormDataCalled type=hidden value=true name=AppsSearchGO$$processFormDataCalled><INPUT id=_fwkActBtnName_AppsSearchResultsUI_changeResultsDisplay$$serverUnvalidated type=hidden value=false name=_fwkActBtnName_AppsSearchResultsUI_changeResultsDisplay$$serverUnvalidated><SPAN id=_DefaultFormName_Postscript><INPUT type=hidden name=_FORMEVENT><INPUT type=hidden name=serverValidate><INPUT type=hidden name=evtSrcRowIdx><INPUT type=hidden name=evtSrcRowId><INPUT type=hidden name=_FORM_SUBMIT_BUTTON><INPUT type=hidden name=event><INPUT type=hidden name=source><INPUT type=hidden name=value><INPUT type=hidden name=size><INPUT type=hidden name=partialTargets><INPUT type=hidden name=partial><INPUT type=hidden name=state><INPUT type=hidden name=AppsSearchTextEnterKey>
+<SCRIPT type=text/javascript>var _resetDefaultFormNameNames=["_FORMEVENT","serverValidate","evtSrcRowIdx","evtSrcRowId","_FORM_SUBMIT_BUTTON","event","source","value","size","partialTargets","partial","state","AppsSearchTextEnterKey"];</SCRIPT>
+
+<SCRIPT type=text/javascript>function _DefaultFormNameValidater(form){return true;}function _submitOnEnter(e,frm){if(_getKC(e)==13){submitForm(frm,1);return false;}}</SCRIPT>
+</SPAN>
+<SCRIPT type=text/javascript>_submitFormCheck();</SCRIPT>
+</FORM><IFRAME title="Forms Launcher" height=5 src="http://riysoaclone.maaden.com:8010/OA_HTML/blank.html" frameBorder=no width=5 name=formsLauncher scrolling=no></IFRAME></SPAN><INPUT disabled id=_pprSaveLib type=hidden><INPUT disabled id=_pprSaveScript type=hidden><INPUT disabled id=_pprSavePage type=hidden>
+<SCRIPT>var _uixDoneMessage="Done."</SCRIPT>
+
+<SCRIPT>document.body.style.marginLeft="0px";document.body.style.marginRight="0px";document.body.style.marginTop="0px";</SCRIPT>
+<!-- Created by Oracle UIX , Accessibility:enhanced, laf:swan.desktop (swan) --> </BODY></HTML>

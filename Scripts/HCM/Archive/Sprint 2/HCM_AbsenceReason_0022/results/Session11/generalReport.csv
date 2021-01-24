@@ -1,0 +1,6 @@
+64404,0,HCM_AbsenceReason_0022,6/22/2020 20:48:09 PM,0,Failed,6/22/2020 20:47:04 PM,basic.step,Sprint 2,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,63811,Failed,"Cannot get a connection from helper after 60 seconds.",basic.init,
+"Launch Browser: InternetExplorer 11.900.18362.0",,0,Passed,"",basic.step,
+"Close Browser",,2265,Passed,"",basic.step,
+"Finish Total (sec)",,119,Passed,"",basic.finish,

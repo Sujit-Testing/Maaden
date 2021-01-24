@@ -1,0 +1,6 @@
+6011,1,HCM_Add_Passport_Information_0159,1/17/2021 12:59:52 PM,0,Failed,1/17/2021 12:59:46 PM,basic.step,HCM Employee Relations,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,4438,Passed,"",basic.init,
+"Launch Browser: Chrome 87.0.4280.141",,3823,Passed,"",basic.step,
+"Iteration Total (sec)",,853,Failed,"Invalid column: Effective_Start_Date",basic.iteration,
+"Finish Total (sec)",,131,Passed,"",basic.finish,

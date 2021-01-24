@@ -1,0 +1,250 @@
+<HTML lang=en-US-ORACLE9I style="VISIBILITY: visible" dir=ltr><HEAD><TITLE>Oracle iProcurement: Checkout</TITLE>
+<META name=generator content="Oracle UIX"><LINK rel=stylesheet type=text/css href="/OA_HTML/cabo/styles/cache/swan-desktop-custom-2_3_6_9-en-ie-windows.css" charset=UTF-8>
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oafcoreR121.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/lookAheadLOV.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/oafb.js"></SCRIPT>
+
+<SCRIPT language=javascript src="/OA_HTML/cabo/oajsLibs/OAFSlideoutMenu.js"></SCRIPT>
+
+<SCRIPT language=javascript>function clearFlexChildren(){lovClearValue(document.DefaultFormName.ReqLineDFF3);lovClearValue(document.DefaultFormName.ReqLineDFF0);lovClearValue(document.DefaultFormName.ReqLineDFF1);lovClearValue(document.DefaultFormName.ReqLineDFF2);}</SCRIPT>
+
+<SCRIPT language=javascript>function help_window() { help_win = window.open("http://riyoramgbm02.maaden.com:8050/OA_HTML/help?locale=en_US&group=FND:LIBRARY:US&topic=US/ICX/@check_out", "help_win","resizable=yes,scrollbars=yes,toolbar=yes,width=600,height=500")}</SCRIPT>
+</HEAD>
+<BODY style="MARGIN-TOP: 0px; MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px" onunload=_partialUnload()>
+<SCRIPT src="/OA_HTML/cabo/jsLibs/Common2_3_6_9.js"></SCRIPT>
+
+<SCRIPT>var _navEvent = 'navigate';function _onNavigate(formName,uri){return confirm("The changes you made to this page have not been saved.  If you continue, the changes will be discarded.  Do you wish to continue?")};parent._navDirty=1;</SCRIPT>
+
+<FORM id=DefaultFormName style="MARGIN: 0px" method=post name=DefaultFormName action=/OA_HTML/OA.jsp?page=/oracle/apps/icx/por/req/webui/CheckoutSummaryPG&amp;porMode=display&amp;porSummaryPageFromCart=true&amp;_ti=1851892659&amp;retainAM=Y&amp;addBreadCrumb=N&amp;OASF=ICX_POR_CHECKOUT_SUMMARY&amp;oapc=13&amp;oas=jcPFl78SD1bRn3gPyuvMKQ..>
+<TABLE id=FwkErrorBeanId cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD></TD></TR></TBODY></TABLE>
+<TABLE id=DeliveryLabeledFieldLayout cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD width=20><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD noWrap align=right></TD>
+<TD width=12><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD vAlign=top><SPAN id=UrgentCheckBox__xc_><INPUT id=UrgentCheckBox type=checkbox value=on name=UrgentCheckBox><SPAN class=x4>Urgent</SPAN></SPAN><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR>
+<TD width=20><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD colSpan=2></TD>
+<TD></TD></TR>
+<TR>
+<TD width=20><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD width="37%" noWrap align=right><SPAN class=xc><SPAN title=Required class=xg>*</SPAN>&nbsp;Need-By Date</SPAN></TD>
+<TD width=12><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD vAlign=top width="63%"><INPUT onchange="_uixspu('DefaultFormName',0,'PPRUserEvent','NeedByDate',0,1,{'_FORM_SUBMIT_BUTTON':'_fwkActBtnName_NeedByDate_PPRUserEvent','evtSrcRowIdx':'0','evtSrcRowId':'RequisitionAM.ReqSummaryVO'});return true;" onblur=_dfb(this,1) id=NeedByDate class=x8 maxLength=20 value="16-Aug-2022 10:04:05" name=NeedByDate><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=8 height=1><A onclick="_ldp('DefaultFormName','NeedByDate'); return false" href="#"><IMG border=0 src="/OA_HTML/cabo/images/cache/cdp.gif" width=19 align=absMiddle height=24></A><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR>
+<TD width=20><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD colSpan=2></TD>
+<TD><SPAN class=x2v>(example: 26-Aug-2019 19:45:00)</SPAN></TD></TR>
+<TR>
+<TD width=20><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD width="37%" noWrap align=right><SPAN class=xc><SPAN title=Required class=xg>*</SPAN>&nbsp;Requester</SPAN></TD>
+<TD width=12><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD vAlign=top width="63%"><SPAN id=Requester__xc_><INPUT onchange="return _chain('LOCRequester(new Object()); if (LlovOnChangeData != -1){ LeventSwallowed = true; setTimeout(LlovOnChangeData, 1); LlovOnChangeData = -1; return false;}  if(LoutpMouseDown > 0){LcloseFlag = 1;LoutpMouseDown=0;LeventSwallowed = true;return false; }  LsetVisible(\\'hidden\\'); clearTimeout(LprevID); if (LxmlHttp != null) LxmlHttp.abort();  if(_getKC(event) == 13) return true; if (Lposi > 0) { LsetTextOnLOV(); Lpopulate(Lposi); Loldins = LsuggestTable.childNodes[Lposi].childNodes[LsearchDispColumn].lastChild.firstChild.nodeValue; Lposi=0;} return true;','return _LovInputVTF(\\'Requester\\',0,_getInputField(event),1,1);',this,event,true)" onkeypress=" var eventStore = (event) ? event : ((window.event) ? (window.event) : null);  if(_getKC(eventStore) == 32) { LsetVisible('hidden'); if (Lposi > 0) { LsetTextOnLOV(); Lpopulate(Lposi); if (_agent.isIE || _agent.isSafari) { LeventSwallowed = true;}Loldins = LsuggestTable.childNodes[Lposi].childNodes[LsearchDispColumn].lastChild.firstChild.nodeValue; Lposi = 0; return false; } else { return true; } }" onkeyup="LproLookUp(this, escape('RF.jsp?function_id=LOV_SUGGESTIONS&amp;transactionid=1851892659&amp;isReadOnlyCustomPopup=Y&amp;security_group_id=0'), 'oracle.apps.icx.por.req.server.RequisitionAM', new Array(), 50, 10, 'startsWith', 3 ,false, &quot;No Items found&quot;, &quot;Loading...&quot; );" id=Requester class=x8 style="BORDER-TOP: #acacac 1px solid; BORDER-RIGHT: #acacac 1px solid; BACKGROUND-IMAGE: url(/OA_MEDIA/lovind.gif); BACKGROUND-REPEAT: no-repeat; BORDER-BOTTOM: #acacac 1px solid; BACKGROUND-POSITION: right bottom; BORDER-LEFT: #acacac 1px solid" value="Shaji Peethambaran" name=Requester autocomplete="off"><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=8 height=1><A onclick="return _LovInputVTF('Requester',0,document.forms['DefaultFormName']['Requester'],1,1,{'F':'DefaultFormName','N':'Requester','L':'Requester','D':'/OA_HTML/OA.jsp?region=/oracle/apps/icx/lov/webui/RequesterLovRN&amp;regionCode=Requester&amp;regionAppId=178&amp;lovBaseItemName=Requester&amp;fndOAJSPinEmbeddedMode=y&amp;_ti=1851892659&amp;label=Requester&amp;formName=DefaultFormName&amp;addBreadCrumb=S&amp;baseAppMod=oracle.apps.icx.por.req.server.RequisitionAM&amp;amUsageMode=1&amp;lovMainCriteria=RequesterName&amp;Criteria=Requester.RequesterName&amp;PassiveCriteria=&amp;retainAM=Y&amp;Selector=N&amp;lovMultiSelectDelimiter=%3B&amp;baseToLovKey=/oracle/apps/icx/por/req/webui/CheckoutSummaryPG.Requester_/oracle/apps/icx/lov/webui/RequesterLovRN&amp;baseCompMode=11.5.10&amp;oapc=13&amp;oas=lUox0NArKtQm-dHmnnYCqw..','S':OnLovSelect,'M':1,'P':1});" href="#"><IMG border=0 alt="Search for Requester" src="/OA_HTML/cabo/images/cache/clovi.gif" width=24 align=absMiddle height=24></A></SPAN><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR>
+<TD width=20><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD colSpan=2></TD>
+<TD></TD></TR>
+<TR>
+<TD width=20><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD width="37%" noWrap align=right><SPAN class=xc><SPAN title=Required class=xg>*</SPAN>&nbsp;Deliver-To Location</SPAN></TD>
+<TD width=12><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD vAlign=top width="63%"><SPAN id=DeliverToLocation__xc_><INPUT onchange="return _chain('LOCDeliverToLocation(new Object()); if (LlovOnChangeData != -1){ LeventSwallowed = true; setTimeout(LlovOnChangeData, 1); LlovOnChangeData = -1; return false;}  if(LoutpMouseDown > 0){LcloseFlag = 1;LoutpMouseDown=0;LeventSwallowed = true;return false; }  LsetVisible(\\'hidden\\'); clearTimeout(LprevID); if (LxmlHttp != null) LxmlHttp.abort();  if(_getKC(event) == 13) return true; if (Lposi > 0) { LsetTextOnLOV(); Lpopulate(Lposi); Loldins = LsuggestTable.childNodes[Lposi].childNodes[LsearchDispColumn].lastChild.firstChild.nodeValue; Lposi=0;} return true;','return _LovInputVTF(\\'DeliverToLocation\\',0,_getInputField(event),1,1);',this,event,true)" onkeypress=" var eventStore = (event) ? event : ((window.event) ? (window.event) : null);  if(_getKC(eventStore) == 32) { LsetVisible('hidden'); if (Lposi > 0) { LsetTextOnLOV(); Lpopulate(Lposi); if (_agent.isIE || _agent.isSafari) { LeventSwallowed = true;}Loldins = LsuggestTable.childNodes[Lposi].childNodes[LsearchDispColumn].lastChild.firstChild.nodeValue; Lposi = 0; return false; } else { return true; } }" onkeyup="LproLookUp(this, escape('RF.jsp?function_id=LOV_SUGGESTIONS&amp;transactionid=1851892659&amp;isReadOnlyCustomPopup=Y&amp;security_group_id=0'), 'oracle.apps.icx.por.req.server.RequisitionAM', new Array('SourceTypeCode', 'ItemId', 'ItemRevision'), 50, 10, 'startsWith', 3 ,false, &quot;No Items found&quot;, &quot;Loading...&quot; );" id=DeliverToLocation class=x8 style="BORDER-TOP: #acacac 1px solid; BORDER-RIGHT: #acacac 1px solid; BACKGROUND-IMAGE: url(/OA_MEDIA/lovind.gif); BACKGROUND-REPEAT: no-repeat; BORDER-BOTTOM: #acacac 1px solid; BACKGROUND-POSITION: right bottom; BORDER-LEFT: #acacac 1px solid" value=Al-Jubail name=DeliverToLocation autocomplete="off"><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=8 height=1><A onclick="return _LovInputVTF('DeliverToLocation',0,document.forms['DefaultFormName']['DeliverToLocation'],1,1,{'F':'DefaultFormName','N':'DeliverToLocation','L':'DeliverToLocation','D':'/OA_HTML/OA.jsp?region=/oracle/apps/icx/lov/webui/LocationLovRN&amp;regionCode=DeliverToLocation&amp;regionAppId=178&amp;lovBaseItemName=DeliverToLocation&amp;fndOAJSPinEmbeddedMode=y&amp;_ti=1851892659&amp;label=Deliver-To%20Location&amp;formName=DefaultFormName&amp;addBreadCrumb=S&amp;baseAppMod=oracle.apps.icx.por.req.server.RequisitionAM&amp;amUsageMode=1&amp;lovMainCriteria=LocationCode&amp;Criteria=DeliverToLocation.LocationCode&amp;PassiveCriteria=SourceTypeCode.SourceTypeCode..ItemId.ItemId..ItemRevision.ItemRevision&amp;retainAM=Y&amp;Selector=N&amp;lovMultiSelectDelimiter=%3B&amp;baseToLovKey=/oracle/apps/icx/por/req/webui/CheckoutSummaryPG.DeliverToLocation_/oracle/apps/icx/lov/webui/LocationLovRN&amp;baseCompMode=11.5.10&amp;event=lovFilter&amp;source=DeliverToLocation&amp;searchText=Al-Jubail&amp;oapc=13&amp;oas=_-J2doAnOy4jEeElJPLiDg..','S':OnLovSelect,'M':1,'P':1});" href="#"><IMG border=0 alt="Search for Deliver-To Location" src="/OA_HTML/cabo/images/cache/clovi.gif" width=24 align=absMiddle height=24></A></SPAN><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR>
+<TD width=20><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD colSpan=2></TD>
+<TD></TD></TR>
+<TR>
+<TD width=20><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD class=xc width="37%" align=right><SPAN id=EnterOneTimeAddrDummy></SPAN></TD>
+<TD width=12><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD width="63%" align=left><A onclick="submitForm('DefaultFormName',0,{'evtSrcRowIdx':'','evtSrcRowId':'','serverValidate':'0',event:'addOneTimeAddr',source:'EnterOneTimeAddr'});return false;" id=EnterOneTimeAddr class=xh href="#">Enter one-time address</A></TD></TR>
+<TR>
+<TD width=20><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD noWrap align=right></TD>
+<TD width=12><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD vAlign=top><SPAN id=InventoryCheckBox__xc_><INPUT onclick="_uixspu('DefaultFormName',0,'PPRUserEvent','InventoryCheckBox',0,1,{'_FORM_SUBMIT_BUTTON':'_fwkActBtnName_InventoryCheckBox_PPRUserEvent','evtSrcRowIdx':'0','evtSrcRowId':'RequisitionAM.ReqSummaryVO','serverValidate':'0'});return true;" id=InventoryCheckBox type=checkbox value=on name=InventoryCheckBox><SPAN class=x4>Deliver to Inventory</SPAN></SPAN><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR>
+<TD width=20><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD colSpan=2></TD>
+<TD></TD></TR>
+<TR>
+<TD width=20><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD width="37%" noWrap align=right><SPAN class=xc>Suggested Buyer</SPAN></TD>
+<TD width=12><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD vAlign=top width="63%"><SPAN id=SuggestedBuyer__xc_><SPAN id=SuggestedBuyer class=x4></SPAN></SPAN><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR>
+<TD width=20><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD colSpan=2></TD>
+<TD></TD></TR>
+<TR>
+<TD width=20><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD class=xc width="37%" align=right><INPUT id=N95 type=hidden value=_oa_dis name=_hdfpSuggestedBuyer></TD>
+<TD width=12><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD width="63%"></TD></TR></TBODY></TABLE>
+<TABLE id=BillingSummaryRN cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD height=10></TD></TR>
+<TR>
+<TD>
+<TABLE class=x7b style="BACKGROUND-IMAGE: url(/OA_HTML/cabo/images/swan/headingBarBg.gif)" cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD width="100%">
+<H2 class=x7c>Billing</H2></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class=x79 height=8></TD></TR>
+<TR>
+<TD>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD>
+<DIV class=x79>
+<DIV class=x7a><INPUT id=ProjectIdExpense type=hidden name=ProjectIdExpense><INPUT id=TaskIdExpense type=hidden name=TaskIdExpense><INPUT id=HasExpenseLines type=hidden value=true name=HasExpenseLines><INPUT id=HasInventoryLines type=hidden value=false name=HasInventoryLines><INPUT id=HasShopFloorLines type=hidden value=false name=HasShopFloorLines><INPUT id=ReqAwardId type=hidden name=ReqAwardId><INPUT id=ExpenditureOrgId type=hidden name=ExpenditureOrgId><INPUT id=OrgId type=hidden value=4750 name=OrgId>
+<DIV></DIV>
+<TABLE id=BillingLabeledFieldLayout cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD width=20><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD width="37%" noWrap align=right><SPAN class=xc>Project</SPAN></TD>
+<TD width=12><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD vAlign=top width="63%"><SPAN id=ProjectOnSummaryExpense__xc_><INPUT onchange="return _chain('LOCProjectOnSummaryExpense(new Object()); if (LlovOnChangeData != -1){ LeventSwallowed = true; setTimeout(LlovOnChangeData, 1); LlovOnChangeData = -1; return false;}  if(LoutpMouseDown > 0){LcloseFlag = 1;LoutpMouseDown=0;LeventSwallowed = true;return false; }  LsetVisible(\\'hidden\\'); clearTimeout(LprevID); if (LxmlHttp != null) LxmlHttp.abort();  if(_getKC(event) == 13) return true; if (Lposi > 0) { LsetTextOnLOV(); Lpopulate(Lposi); Loldins = LsuggestTable.childNodes[Lposi].childNodes[LsearchDispColumn].lastChild.firstChild.nodeValue; Lposi=0;} return true;','return _LovInputVTF(\\'ProjectOnSummaryExpense\\',0,_getInputField(event),1,1);',this,event,true)" onkeypress=" var eventStore = (event) ? event : ((window.event) ? (window.event) : null);  if(_getKC(eventStore) == 32) { LsetVisible('hidden'); if (Lposi > 0) { LsetTextOnLOV(); Lpopulate(Lposi); if (_agent.isIE || _agent.isSafari) { LeventSwallowed = true;}Loldins = LsuggestTable.childNodes[Lposi].childNodes[LsearchDispColumn].lastChild.firstChild.nodeValue; Lposi = 0; return false; } else { return true; } }" onkeyup="LproLookUp(this, escape('RF.jsp?function_id=LOV_SUGGESTIONS&amp;transactionid=1851892659&amp;isReadOnlyCustomPopup=Y&amp;security_group_id=0'), 'oracle.apps.icx.por.req.server.RequisitionAM', new Array('HasExpenseLines'), 50, 10, 'startsWith', 3 ,false, &quot;No Items found&quot;, &quot;Loading...&quot; );" id=ProjectOnSummaryExpense class=x8 style="BORDER-TOP: #acacac 1px solid; BORDER-RIGHT: #acacac 1px solid; BACKGROUND-IMAGE: url(/OA_MEDIA/lovind.gif); BACKGROUND-REPEAT: no-repeat; BORDER-BOTTOM: #acacac 1px solid; BACKGROUND-POSITION: right bottom; BORDER-LEFT: #acacac 1px solid" name=ProjectOnSummaryExpense autocomplete="off"><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=8 height=1><A onclick="return _LovInputVTF('ProjectOnSummaryExpense',0,document.forms['DefaultFormName']['ProjectOnSummaryExpense'],1,1,{'F':'DefaultFormName','N':'ProjectOnSummaryExpense','L':'ProjectOnSummaryExpense','D':'/OA_HTML/OA.jsp?region=/oracle/apps/icx/lov/webui/ProjectLovRN&amp;regionCode=ProjectOnSummaryExpense&amp;regionAppId=178&amp;lovBaseItemName=ProjectOnSummaryExpense&amp;fndOAJSPinEmbeddedMode=y&amp;_ti=1851892659&amp;label=Project&amp;formName=DefaultFormName&amp;addBreadCrumb=S&amp;baseAppMod=oracle.apps.icx.por.req.server.RequisitionAM&amp;amUsageMode=1&amp;lovMainCriteria=ProjectNum&amp;Criteria=ProjectOnSummaryExpense.ProjectNum&amp;PassiveCriteria=HasExpenseLines.HasExpenseLines&amp;retainAM=Y&amp;Selector=N&amp;lovMultiSelectDelimiter=%3B&amp;baseToLovKey=/oracle/apps/icx/por/req/webui/CheckoutSummaryPG.ProjectOnSummaryExpense_/oracle/apps/icx/lov/webui/ProjectLovRN&amp;baseCompMode=11.5.10&amp;oapc=13&amp;oas=lhVXILZ_HE5t-v86dlf3nw..','S':OnLovSelect,'M':1,'P':1});" href="#"><IMG border=0 alt="Search for Project" src="/OA_HTML/cabo/images/cache/clovi.gif" width=24 align=absMiddle height=24></A></SPAN><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR>
+<TD width=20><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD colSpan=2></TD>
+<TD></TD></TR>
+<TR>
+<TD width=20><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD width="37%" noWrap align=right><SPAN class=xc>Task</SPAN></TD>
+<TD width=12><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD vAlign=top width="63%"><SPAN id=TaskExpense__xc_><INPUT onchange="return _chain('LOCTaskExpense(new Object()); if (LlovOnChangeData != -1){ LeventSwallowed = true; setTimeout(LlovOnChangeData, 1); LlovOnChangeData = -1; return false;}  if(LoutpMouseDown > 0){LcloseFlag = 1;LoutpMouseDown=0;LeventSwallowed = true;return false; }  LsetVisible(\\'hidden\\'); clearTimeout(LprevID); if (LxmlHttp != null) LxmlHttp.abort();  if(_getKC(event) == 13) return true; if (Lposi > 0) { LsetTextOnLOV(); Lpopulate(Lposi); Loldins = LsuggestTable.childNodes[Lposi].childNodes[LsearchDispColumn].lastChild.firstChild.nodeValue; Lposi=0;} return true;','return _LovInputVTF(\\'TaskExpense\\',0,_getInputField(event),1,1);',this,event,true)" onkeypress=" var eventStore = (event) ? event : ((window.event) ? (window.event) : null);  if(_getKC(eventStore) == 32) { LsetVisible('hidden'); if (Lposi > 0) { LsetTextOnLOV(); Lpopulate(Lposi); if (_agent.isIE || _agent.isSafari) { LeventSwallowed = true;}Loldins = LsuggestTable.childNodes[Lposi].childNodes[LsearchDispColumn].lastChild.firstChild.nodeValue; Lposi = 0; return false; } else { return true; } }" onkeyup="LlookUp(this, escape('RF.jsp?function_id=LOV_SUGGESTIONS&amp;transactionid=1851892659&amp;isReadOnlyCustomPopup=Y&amp;security_group_id=0'), 'oracle.apps.icx.por.req.server.RequisitionAM', 'TaskNumber', new Array('TaskNumber', 'IndentedTaskName', 'StartDate', 'CompletionDate', 'TaskId', 'ProjectId'), new Array('1', '1', '1', '1', '0', '0'), new Array(&quot;Task Number&quot;, &quot;Task Name&quot;, &quot;Start Date&quot;, &quot;Completion Date&quot;), new Array('TaskExpense', 'TaskIdExpense'), new Array('TaskNumber', 'TaskId'), new Array('TaskExpense', 'ProjectIdExpense') , 50, 10, 'startsWith', 3 ,false, &quot;No Items found&quot;, &quot;Loading...&quot; );" disabled id=TaskExpense class=x9 name=TaskExpense autocomplete="off"></SPAN><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR>
+<TD width=20><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD colSpan=2></TD>
+<TD></TD></TR>
+<TR>
+<TD width=20><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD width="37%" noWrap align=right><SPAN class=xc>Expenditure Type</SPAN></TD>
+<TD width=12><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD vAlign=top width="63%"><SPAN id=ExpenditureTypeOnSummary__xc_><INPUT onchange="return _chain('if (LlovOnChangeData != -1){ LeventSwallowed = true; setTimeout(LlovOnChangeData, 1); LlovOnChangeData = -1; return false;}  if(LoutpMouseDown > 0){LcloseFlag = 1;LoutpMouseDown=0;LeventSwallowed = true;return false; }  LsetVisible(\\'hidden\\'); clearTimeout(LprevID); if (LxmlHttp != null) LxmlHttp.abort();  if(_getKC(event) == 13) return true; if (Lposi > 0) { LsetTextOnLOV(); Lpopulate(Lposi); Loldins = LsuggestTable.childNodes[Lposi].childNodes[LsearchDispColumn].lastChild.firstChild.nodeValue; Lposi=0;} return true;','return _LovInputVTF(\\'ExpenditureTypeOnSummary\\',0,_getInputField(event),1,1);',this,event,true)" onkeypress=" var eventStore = (event) ? event : ((window.event) ? (window.event) : null);  if(_getKC(eventStore) == 32) { LsetVisible('hidden'); if (Lposi > 0) { LsetTextOnLOV(); Lpopulate(Lposi); if (_agent.isIE || _agent.isSafari) { LeventSwallowed = true;}Loldins = LsuggestTable.childNodes[Lposi].childNodes[LsearchDispColumn].lastChild.firstChild.nodeValue; Lposi = 0; return false; } else { return true; } }" onkeyup="LproLookUp(this, escape('RF.jsp?function_id=LOV_SUGGESTIONS&amp;transactionid=1851892659&amp;isReadOnlyCustomPopup=Y&amp;security_group_id=0'), 'oracle.apps.icx.por.req.server.RequisitionAM', new Array('ReqAwardId', 'ProjectIdExpense', 'TaskIdExpense'), 50, 10, 'startsWith', 3 ,false, &quot;No Items found&quot;, &quot;Loading...&quot; );" id=ExpenditureTypeOnSummary class=x8 style="BORDER-TOP: #acacac 1px solid; BORDER-RIGHT: #acacac 1px solid; BACKGROUND-IMAGE: url(/OA_MEDIA/lovind.gif); BACKGROUND-REPEAT: no-repeat; BORDER-BOTTOM: #acacac 1px solid; BACKGROUND-POSITION: right bottom; BORDER-LEFT: #acacac 1px solid" name=ExpenditureTypeOnSummary autocomplete="off"><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=8 height=1><A onclick="return _LovInputVTF('ExpenditureTypeOnSummary',0,document.forms['DefaultFormName']['ExpenditureTypeOnSummary'],1,1,{'F':'DefaultFormName','N':'ExpenditureTypeOnSummary','L':'ExpenditureTypeOnSummary','D':'/OA_HTML/OA.jsp?region=/oracle/apps/icx/lov/webui/ExpenditureTypeLovRN&amp;regionCode=ExpenditureTypeOnSummary&amp;regionAppId=178&amp;lovBaseItemName=ExpenditureTypeOnSummary&amp;fndOAJSPinEmbeddedMode=y&amp;_ti=1851892659&amp;label=Expenditure%20Type&amp;formName=DefaultFormName&amp;addBreadCrumb=S&amp;baseAppMod=oracle.apps.icx.por.req.server.RequisitionAM&amp;amUsageMode=1&amp;lovMainCriteria=ExpenditureType&amp;Criteria=ExpenditureTypeOnSummary.ExpenditureType&amp;PassiveCriteria=ReqAwardId.ReqAwardId..ProjectIdExpense.ProjectId..TaskIdExpense.TaskId&amp;retainAM=Y&amp;Selector=N&amp;lovMultiSelectDelimiter=%3B&amp;baseToLovKey=/oracle/apps/icx/por/req/webui/CheckoutSummaryPG.ExpenditureTypeOnSummary_/oracle/apps/icx/lov/webui/ExpenditureTypeLovRN&amp;baseCompMode=11.5.10&amp;oapc=13&amp;oas=vYgIprTPZsuv_2JiRcZJ1w..','S':OnLovSelect,'M':1,'P':1});" href="#"><IMG border=0 alt="Search for Expenditure Type" src="/OA_HTML/cabo/images/cache/clovi.gif" width=24 align=absMiddle height=24></A></SPAN><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR>
+<TD width=20><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD colSpan=2></TD>
+<TD></TD></TR>
+<TR>
+<TD width=20><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD width="37%" noWrap align=right><SPAN class=xc>Expenditure Organization</SPAN></TD>
+<TD width=12><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD vAlign=top width="63%"><SPAN id=ExpenditureOrg__xc_><INPUT onchange="return _chain('LOCExpenditureOrg(new Object()); if (LlovOnChangeData != -1){ LeventSwallowed = true; setTimeout(LlovOnChangeData, 1); LlovOnChangeData = -1; return false;}  if(LoutpMouseDown > 0){LcloseFlag = 1;LoutpMouseDown=0;LeventSwallowed = true;return false; }  LsetVisible(\\'hidden\\'); clearTimeout(LprevID); if (LxmlHttp != null) LxmlHttp.abort();  if(_getKC(event) == 13) return true; if (Lposi > 0) { LsetTextOnLOV(); Lpopulate(Lposi); Loldins = LsuggestTable.childNodes[Lposi].childNodes[LsearchDispColumn].lastChild.firstChild.nodeValue; Lposi=0;} return true;','return _LovInputVTF(\\'ExpenditureOrg\\',0,_getInputField(event),1,1);',this,event,true)" onkeypress=" var eventStore = (event) ? event : ((window.event) ? (window.event) : null);  if(_getKC(eventStore) == 32) { LsetVisible('hidden'); if (Lposi > 0) { LsetTextOnLOV(); Lpopulate(Lposi); if (_agent.isIE || _agent.isSafari) { LeventSwallowed = true;}Loldins = LsuggestTable.childNodes[Lposi].childNodes[LsearchDispColumn].lastChild.firstChild.nodeValue; Lposi = 0; return false; } else { return true; } }" onkeyup="LproLookUp(this, escape('RF.jsp?function_id=LOV_SUGGESTIONS&amp;transactionid=1851892659&amp;isReadOnlyCustomPopup=Y&amp;security_group_id=0'), 'oracle.apps.icx.por.req.server.RequisitionAM', new Array(), 50, 10, 'startsWith', 3 ,false, &quot;No Items found&quot;, &quot;Loading...&quot; );" id=ExpenditureOrg class=x8 style="BORDER-TOP: #acacac 1px solid; BORDER-RIGHT: #acacac 1px solid; BACKGROUND-IMAGE: url(/OA_MEDIA/lovind.gif); BACKGROUND-REPEAT: no-repeat; BORDER-BOTTOM: #acacac 1px solid; BACKGROUND-POSITION: right bottom; BORDER-LEFT: #acacac 1px solid" name=ExpenditureOrg autocomplete="off"><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=8 height=1><A onclick="return _LovInputVTF('ExpenditureOrg',0,document.forms['DefaultFormName']['ExpenditureOrg'],1,1,{'F':'DefaultFormName','N':'ExpenditureOrg','L':'ExpenditureOrg','D':'/OA_HTML/OA.jsp?region=/oracle/apps/icx/lov/webui/ExpenditureOrgLovRN&amp;regionCode=ExpenditureOrg&amp;regionAppId=178&amp;lovBaseItemName=ExpenditureOrg&amp;fndOAJSPinEmbeddedMode=y&amp;_ti=1851892659&amp;label=Expenditure%20Organization&amp;formName=DefaultFormName&amp;addBreadCrumb=S&amp;baseAppMod=oracle.apps.icx.por.req.server.RequisitionAM&amp;amUsageMode=1&amp;lovMainCriteria=ExpenditureOrg&amp;Criteria=ExpenditureOrg.ExpenditureOrg&amp;PassiveCriteria=&amp;retainAM=Y&amp;Selector=N&amp;lovMultiSelectDelimiter=%3B&amp;baseToLovKey=/oracle/apps/icx/por/req/webui/CheckoutSummaryPG.ExpenditureOrg_/oracle/apps/icx/lov/webui/ExpenditureOrgLovRN&amp;baseCompMode=11.5.10&amp;oapc=13&amp;oas=SBncF4bXttzJGHG99cJnqg..','S':OnLovSelect,'M':1,'P':1});" href="#"><IMG border=0 alt="Search for Expenditure Organization" src="/OA_HTML/cabo/images/cache/clovi.gif" width=24 align=absMiddle height=24></A></SPAN><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR>
+<TD width=20><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD colSpan=2></TD>
+<TD></TD></TR>
+<TR>
+<TD width=20><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD width="37%" noWrap align=right><SPAN class=xc>Expenditure Item Date</SPAN></TD>
+<TD width=12><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD vAlign=top width="63%"><INPUT onchange="" onblur=_dfb(this,1) id=ExpenditureItemDate class=x8 maxLength=11 name=ExpenditureItemDate><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=8 height=1><A onclick="_ldp('DefaultFormName','ExpenditureItemDate'); return false" href="#"><IMG border=0 src="/OA_HTML/cabo/images/cache/cdp.gif" width=19 align=absMiddle height=24></A><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR>
+<TD width=20><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD colSpan=2></TD>
+<TD><SPAN class=x2v>(example: 26-Aug-2019)</SPAN></TD></TR>
+<TR>
+<TD width=20><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD width="37%" noWrap align=right><SPAN class=xc>GL Date</SPAN></TD>
+<TD width=12><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD vAlign=top width="63%"><INPUT onchange="" onblur=_dfb(this,1) id=GLDate class=x8 maxLength=11 value=26-Aug-2019 name=GLDate><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=8 height=1><A onclick="_ldp('DefaultFormName','GLDate'); return false" href="#"><IMG border=0 src="/OA_HTML/cabo/images/cache/cdp.gif" width=19 align=absMiddle height=24></A><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR>
+<TD width=20><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD colSpan=2></TD>
+<TD></TD></TR>
+<TR>
+<TD width=20><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD class=xc width="37%" align=right><INPUT id=TaxClassFV type=hidden name=TaxClassFV></TD>
+<TD width=12><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD width="63%" align=left><INPUT id=TxnBusinessCatFV type=hidden name=TxnBusinessCatFV></TD></TR>
+<TR>
+<TD width=20><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD class=xc width="37%" align=right><INPUT id=TaxAppId type=hidden value=201 name=TaxAppId></TD>
+<TD width=12><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD width="63%" align=left><INPUT id=TaxEntityCode type=hidden value=REQUISITION name=TaxEntityCode></TD></TR>
+<TR>
+<TD width=20><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD class=xc width="37%" align=right><INPUT id=ProdFiscalClassFV type=hidden name=ProdFiscalClassFV></TD>
+<TD width=12><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD width="63%" align=left><INPUT id=ProdTypeFV type=hidden name=ProdTypeFV></TD></TR>
+<TR>
+<TD width=20><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD class=xc width="37%" align=right><INPUT id=IntendedUseFV type=hidden name=IntendedUseFV></TD>
+<TD width=12><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD width="63%" align=left><INPUT id=UserFiscalClassFV type=hidden name=UserFiscalClassFV></TD></TR>
+<TR>
+<TD width=20><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD class=xc width="37%" align=right><INPUT id=ProdCatFV type=hidden name=ProdCatFV></TD>
+<TD width=12><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD width="63%" align=left><INPUT id=N96 type=hidden value=_oa_ena name=_hdfpProjectOnSummaryShopFloorOrInv></TD></TR>
+<TR>
+<TD width=20><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD class=xc width="37%" align=right><INPUT id=N98 type=hidden value=_oa_dis name=_hdfpTaskShopFloorOrInv></TD>
+<TD width=12><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD width="63%" align=left><INPUT id=N99 type=hidden value=_oa_dis name=_hdfpTaskExpense></TD></TR>
+<TR>
+<TD width=20><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD class=xc width="37%" align=right><INPUT id=N100 type=hidden value=_oa_dis name=_hdfpAwardOnSummary></TD>
+<TD width=12><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD width="63%"></TD></TR></TBODY></TABLE>
+<DIV></DIV>
+<TABLE cellSpacing=0 cellPadding=0 border=0>
+<TBODY>
+<TR>
+<TD width="5%"><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12></TD>
+<TD vAlign=top>
+<TABLE cellSpacing=0 cellPadding=0 border=0>
+<TBODY></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<TABLE id=ReqLineLabelFieldLayout cellSpacing=0 cellPadding=0 width="100%" border=0>
+<TBODY>
+<TR>
+<TD width=20><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD width="37%" noWrap align=right><SPAN class=xc>Manufacturer Part No</SPAN></TD>
+<TD width=12><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD vAlign=top width="63%"><INPUT onchange="" id=ReqLineDFF0 class=x8 maxLength=20 name=ReqLineDFF0><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR>
+<TD width=20><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD colSpan=2></TD>
+<TD></TD></TR>
+<TR>
+<TD width=20><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD width="37%" noWrap align=right><SPAN class=xc>Agreement Reference</SPAN></TD>
+<TD width=12><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD vAlign=top width="63%"><INPUT onchange="" id=ReqLineDFF1 class=x8 maxLength=20 name=ReqLineDFF1><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR>
+<TD width=20><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD colSpan=2></TD>
+<TD></TD></TR>
+<TR>
+<TD width=20><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD width="37%" noWrap align=right><SPAN class=xc>Available Balance (CAPEX)</SPAN></TD>
+<TD width=12><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=12 height=0></TD>
+<TD vAlign=top width="63%"><SPAN id=ReqLineDFF2__xc_><INPUT onchange="return _chain('LOCReqLineDFF2(new Object()); if (LlovOnChangeData != -1){ LeventSwallowed = true; setTimeout(LlovOnChangeData, 1); LlovOnChangeData = -1; return false;}  if(LoutpMouseDown > 0){LcloseFlag = 1;LoutpMouseDown=0;LeventSwallowed = true;return false; }  LsetVisible(\\'hidden\\'); clearTimeout(LprevID); if (LxmlHttp != null) LxmlHttp.abort();  if(_getKC(event) == 13) return true; if (Lposi > 0) { LsetTextOnLOV(); Lpopulate(Lposi); Loldins = LsuggestTable.childNodes[Lposi].childNodes[LsearchDispColumn].lastChild.firstChild.nodeValue; Lposi=0;} return true;','return _LovInputVTF(\\'ReqLineDFF2\\',0,_getInputField(event),1,1);',this,event,true)" onkeypress=" var eventStore = (event) ? event : ((window.event) ? (window.event) : null);  if(_getKC(eventStore) == 32) { LsetVisible('hidden'); if (Lposi > 0) { LsetTextOnLOV(); Lpopulate(Lposi); if (_agent.isIE || _agent.isSafari) { LeventSwallowed = true;}Loldins = LsuggestTable.childNodes[Lposi].childNodes[LsearchDispColumn].lastChild.firstChild.nodeValue; Lposi = 0; return false; } else { return true; } }" onkeyup="LproLookUp(this, escape('RF.jsp?function_id=LOV_SUGGESTIONS&amp;transactionid=1851892659&amp;isReadOnlyCustomPopup=Y&amp;security_group_id=0'), 'oracle.apps.icx.por.req.server.RequisitionAM', new Array(), 50, 10, 'startsWith', 3 ,false, &quot;No Items found&quot;, &quot;Loading...&quot; );" id=ReqLineDFF2 class=xa style="BORDER-TOP: #acacac 1px solid; BORDER-RIGHT: #acacac 1px solid; BACKGROUND-IMAGE: url(/OA_MEDIA/lovind.gif); BACKGROUND-REPEAT: no-repeat; BORDER-BOTTOM: #acacac 1px solid; BACKGROUND-POSITION: right bottom; BORDER-LEFT: #acacac 1px solid" maxLength=15 size=15 name=ReqLineDFF2 autocomplete="off"><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=8 height=1><A onclick="return _LovInputVTF('ReqLineDFF2',0,document.forms['DefaultFormName']['ReqLineDFF2'],1,1,{'F':'DefaultFormName','N':'ReqLineDFF2','L':'ReqLineDFF2','D':'/OA_HTML/OA.jsp?region=/oracle/apps/fnd/framework/webui/OAFlexLOVRG&amp;regionCode=ReqLineDFF&amp;regionAppId=178&amp;lovBaseItemName=ReqLineDFF2&amp;fndOAJSPinEmbeddedMode=y&amp;_ti=1851892659&amp;label=Available%20Balance%20%28CAPEX%29&amp;formName=DefaultFormName&amp;addBreadCrumb=S&amp;baseAppMod=oracle.apps.icx.por.req.server.RequisitionAM&amp;amUsageMode=1&amp;lovMainCriteria=FlexDisplay&amp;Criteria=ReqLineDFF2.FlexDisplay&amp;PassiveCriteria=&amp;retainAM=Y&amp;Selector=N&amp;lovMultiSelectDelimiter=%3B&amp;baseToLovKey=/oracle/apps/icx/por/req/webui/CheckoutSummaryPG.ReqLineDFF2_/oracle/apps/fnd/framework/webui/OAFlexLOVRG&amp;baseCompMode=11.5.10&amp;oapc=13&amp;oas=BBtYDzCj9Z4S1G3sL5klUQ..','S':OnLovSelect,'M':1,'P':1});" href="#"><IMG border=0 alt="Search for Available Balance (CAPEX)" src="/OA_HTML/cabo/images/cache/clovi.gif" width=24 align=absMiddle height=24></A></SPAN><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=5></TD></TR>
+<TR>
+<TD width=20><IMG src="/OA_HTML/cabo/images/swan/t.gif" width=20 height=1></TD>
+<TD colSpan=2></TD>
+<TD></TD></TR></TBODY></TABLE><SPAN id=_DefaultFormName_Postscript><INPUT type=hidden name=uri><INPUT type=hidden name=event><INPUT type=hidden name=_FORMEVENT><INPUT type=hidden name=serverValidate><INPUT type=hidden name=evtSrcRowIdx><INPUT type=hidden name=evtSrcRowId><INPUT type=hidden name=source><INPUT type=hidden name=PorLineSubTab><INPUT type=hidden name=value><INPUT type=hidden name=partialTargets><INPUT type=hidden name=partial><INPUT type=hidden name=searchText></SPAN></FORM>
+<SCRIPT id=_pprScripts>/*var _locale='en-US-ORACLE9I';var _tLocale='en-US-ORACLE9I';var _groupingSep=',';var _decimalSep='.';;var _dfLenient=1;var _df2DYS=1950;;function _uixspu(f,v,e,s,pt,p,o){if(!o)o=new Object();o.event=(e)?e:'update';if(s)o.source=s;if(p){o.partial='true';if(pt)o.partialTargets=pt;_submitPartialChange(f,v,o);}else submitForm(f,v,o);};if(window['_dfs'] == (void 0)){var _dfs=new Object();}_dfs["NeedByDate"]=['dd-MMM-yyyy HH:mm:ss','dd-MMM-yyyy'];var _jspDir='/OA_HTML/cabo/jsps/a.jsp';var _configName='OAConfig';var _enc='WINDOWS-1256';var _contextURI='/OA_HTML';;var _uixLocaleTZ=180;var _uixLocaleTZId="Asia/Riyadh";var _firstDOW=1;;function _lovClose(f,p,pt){var s=submitForm;if(pt)s=_submitPartialChange;return s(f,0,p);};_dfs["ExpenditureItemDate"]=['dd-MMM-yyyy','dd-MMM-yyyy'];_dfs["GLDate"]=['dd-MMM-yyyy','dd-MMM-yyyy'];var _resetDefaultFormNameNames=["uri","event","_FORMEVENT","serverValidate","evtSrcRowIdx","evtSrcRowId","source","PorLineSubTab","value","partialTargets","partial","searchText"];;var _DefaultFormName_Validations=['_isEmpty(%value%)','new SimpleDateFormat([\\'dd-MMM-yyyy HH:mm:ss\\',\\'dd-MMM-yyyy\\']).validate(%value%)','new SimpleDateFormat([\\'dd-MMM-yyyy\\',\\'dd-MMM-yyyy\\']).validate(%value%)','new DecimalFormat().validate(%value%)'];function _DefaultFormNameValidater(form){var fl = _multiValidate(form,[0,"ReqDescription",0,0,1,"NeedByDate",1,1,0,"NeedByDate",0,0,0,"Requester",0,0,0,"DeliverToLocation",0,0,2,"ExpenditureItemDate",2,1,2,"GLDate",2,1,3,"ReqLineDFF2",3,1]);if(fl.length>0){_validationAlert('Form validation failures:'+fl);return false;}else{return true;}}var _DefaultFormName_Labels={'ReqDescription':'Requisition Description','NeedByDate':'Need-By Date','Requester':'Requester','DeliverToLocation':'Deliver-To Location','ExpenditureItemDate':'Expenditure Item Date','GLDate':'GL Date','ReqLineDFF2':'Available Balance (CAPEX)'};var _DefaultFormName_Patterns={'NeedByDate':'dd-MMM-yyyy HH:mm:ss','ExpenditureItemDate':'dd-MMM-yyyy','GLDate':'dd-MMM-yyyy'};var _DefaultFormName_Formats=['A value must be entered for "%label%".','Value "%value%" in "%label%" is not a date and time formatted as "%pattern%".:::::Value "%value%" in "%label%" is not a valid time due to Day Light Saving Time.','Value "%value%" in "%label%" is not a date formatted as "%pattern%".:::::Value "%value%" in "%label%" is not a valid time due to Day Light Saving Time.','Value "%value%" in "%label%" is not a number.'];function _submitOnEnter(e,frm){return (_getKC(e)!=13);}*/</SCRIPT>
+
+<SCRIPT>var _pprLibraries=['/OA_HTML/cabo/jsLibs/resources/LocaleElements_en_US_ORACLE9I2_3_6_9.js','/OA_HTML/cabo/jsLibs/ScriptEval2_3_6_9.js'];</SCRIPT>
+
+<SCRIPT>var _pprTargets=['DeliveryLabeledFieldLayout','BillingSummaryRN','ReqLineLabelFieldLayout','FwkErrorBeanId','_DefaultFormName_Postscript'];</SCRIPT>
+
+<SCRIPT>document.body.style.marginLeft="0px";document.body.style.marginRight="0px";document.body.style.marginTop="0px";</SCRIPT>
+
+<SCRIPT>_partialChange('DefaultFormName')</SCRIPT>
+</BODY></HTML>

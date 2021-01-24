@@ -1,0 +1,70 @@
+<html lang="en" lang="en" dir="ltr" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Single Sign-On</title>
+    <link href="/oam/pages/css/login_page.css" rel="stylesheet">
+    <link href="/oam/pages/css/general.css" rel="stylesheet" type="text/css">
+
+	<!-- Start Disable frame hijacking Script-->
+        
+
+
+  
+  <script type="text/javascript">
+
+      if (self === top) {
+         var antiClickjack = document.getElementById("antiClickjack");
+         antiClickjack.parentNode.removeChild(antiClickjack);
+      } else {
+          top.location = self.location;
+      }
+ </script>
+
+
+
+
+	<!-- End Disable frame hijacking Script--> 
+ 
+<style>
+    body
+    {
+        background:url('/oam/pages/images/loginpage_bg.png');
+        background-repeat:repeat-x;
+        background-color:#185E87;
+    }
+    </style>
+</head>
+<body>
+    <div style="left: 0px; top: 0px; position: absolute; z-index: 1;">
+        <img src="/oam/pages/images/login_logo.png">
+    </div>
+    <div style="left: 0px; top: 0px; position: relative; z-index: 1;">
+        <div id="top">
+            <div id="login-header">
+            </div>
+            <div id="content">
+                <div id="login">
+                    <div id="title">Error</div>
+                    <div class="message-row">
+                        <p class="loginFailed">System error. Please re-try your action. If you continue to get this error, please contact the Administrator.</p>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </div>        
+    <div class="login-footer-version">
+        <div class="info">
+        
+        <p id="copyright">Copyright © 1996,2015, Oracle and/or its affiliates. All rights reserved.</p>
+        <p id="trademark">Oracle is a registered trademark of Oracle Corporation and/or its affiliates. Other names may be trademarks of their respective owners.</p>
+        </div>    
+    </div>
+
+
+
+
+
+    
+
+ 
+
+</body></html>

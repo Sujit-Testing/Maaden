@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><assets>
+<asset alias="PO_ChangeBuyerInRequisition_002" local="true" primary="true" sourceType="file" type="OBJECTLIB">
+<location path="../../Object Library/PO_ChangeBuyerInRequisition_002.properties" type="relative"/>
+</asset>
+<asset alias="PO_ChangeBuyerInRequisition_002" charset="cp1252" local="true" recno="0" sourceType="file" type="DATABANK">
+<location category="Maaden/DataBank" file="PO_ChangeBuyerInRequisition_002.csv" repository="Default" type="repository"/>
+</asset>
+<asset alias="PO_CreateRequisitionAndApproval_001" local="true" sourceType="file" type="SCRIPT">
+<location category="Maaden/Scripts" file="PO_CreateRequisitionAndApproval_001" repository="Default" type="repository"/>
+</asset>
+</assets>

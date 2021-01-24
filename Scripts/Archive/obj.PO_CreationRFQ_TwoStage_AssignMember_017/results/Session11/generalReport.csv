@@ -1,0 +1,8 @@
+73891,1,obj.PO_CreationRFQ_TwoStage_AssignMember_017,9/08/2019 13:07:19 PM,0,Failed,9/08/2019 13:06:05 PM,basic.step,Scripts,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,12264,Passed,"",basic.init,
+"Launch Browser: InternetExplorer 11.615.17763.0",,11778,Passed,"",basic.step,
+"Iteration Total (sec)",,61294,Failed,"",basic.iteration,
+"Navigate http://riyoramgbm02.maaden.com:8050/OA_HTML/OA.jsp?OAFunc=OAHOMEPAGE",2,92,Passed,"",ft.action,
+"WaitForPage",4,60507,Failed,"Timeout(60 seconds) occurred waiting for page to load.",ft.action,
+"Finish Total (sec)",,65,Passed,"",basic.finish,

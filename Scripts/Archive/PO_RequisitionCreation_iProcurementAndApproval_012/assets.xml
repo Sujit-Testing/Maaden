@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><assets>
+<asset alias="PO_RequisitionCreation_iProcurementAndApproval_012" local="true" primary="true" sourceType="file" type="OBJECTLIB">
+<location path="../../Object Library/PO_RequisitionCreation_iProcurementAndApproval_012.properties" type="relative"/>
+</asset>
+<asset alias="PO_CreateRequisitionAndApproval_User_LAOE_001" local="true" sourceType="file" type="SCRIPT">
+<location category="Maaden/Scripts" file="PO_CreateRequisitionAndApproval_User_LAOE_001" repository="Default" type="repository"/>
+</asset>
+<asset alias="PO_Approver_User_ANAZIDH" local="true" sourceType="file" type="SCRIPT">
+<location category="Maaden/Scripts" file="PO_Approver_User_ANAZIDH" repository="Default" type="repository"/>
+</asset>
+<asset alias="PO_Approver_User_JONESM" local="true" sourceType="file" type="SCRIPT">
+<location category="Maaden/Scripts" file="PO_Approver_User_JONESM" repository="Default" type="repository"/>
+</asset>
+<asset alias="PO_Approver_User_ABUHETLAHD" local="true" sourceType="file" type="SCRIPT">
+<location category="Maaden/Scripts" file="PO_Approver_User_ABUHETLAHD" repository="Default" type="repository"/>
+</asset>
+<asset alias="PO_RequisitionCreation_iProcurementAndApproval_012" charset="cp1252" local="true" recno="0" sourceType="file" type="DATABANK">
+<location category="Maaden/DataBank" file="PO_RequisitionCreation_iProcurementAndApproval_012.csv" repository="Default" type="repository"/>
+</asset>
+</assets>

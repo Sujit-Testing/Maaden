@@ -1,8 +1,0 @@
-22410,1,d,5/05/2020 00:09:37 AM,0,Failed,5/05/2020 00:09:16 AM,basic.step,HCM Termination,,,,
-"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
-"Initialize Total (sec)",,1722,Passed,"",basic.init,
-"Launch Browser: InternetExplorer 11.778.18362.0",,977,Passed,"",basic.step,
-"Iteration Total (sec)",,18805,Failed,"",basic.iteration,
-"Navigate https://ejop-test.login.em2.oraclecloud.com/oam/server/obrareq.cgi?encquery%3DUwPZv10x5U%2B3mIubEg4moKZjBGxOwfdPv2LxXjj91AZXE2IKvjWlw4PZN7hFmdTG%2BIK3mLxNDVQcHOUeIHbxIV%2FGW62UEUF7w%2BcOks6YUPO%2Banxcs7awvdnZSbGln%2BV0cB37%2BKn6OoFs846LQbMIZr...",2,64,Passed,"",ft.action,
-"WaitForPage",4,18104,Failed,"Failed to playback: The setting of ""oracle.adf.view.rich.automation.ENABLED"" is not enabled. Please check the ""web.xml"" file to enable it. Otherwise ATS could NOT work properly.",ft.action,
-"Finish Total (sec)",,64,Passed,"",basic.finish,
