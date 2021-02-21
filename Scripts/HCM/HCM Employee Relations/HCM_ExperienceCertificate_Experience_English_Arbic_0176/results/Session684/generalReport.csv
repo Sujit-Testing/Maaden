@@ -1,0 +1,7 @@
+2417,1,HCM_ExperienceCertificate_Experience_English_Arbic_0176,2/18/2021 12:04:37 PM,0,Failed,2/18/2021 12:04:35 PM,basic.step,HCM Employee Relations,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,1084,Passed,"",basic.init,
+"Launch Browser: Chrome 88.0.4324.182",,567,Passed,"",basic.step,
+"Iteration Total (sec)",,939,Failed,"",basic.iteration,
+"Failed to playback",,15,Failed,"Failed to playback: No browser launched.",ft.action,
+"Finish Total (sec)",,53,Passed,"",basic.finish,

@@ -1,0 +1,7 @@
+1908,1,HCM_Correct_Visa_Information_0167,1/31/2021 18:07:36 PM,0,Failed,1/31/2021 18:07:34 PM,basic.step,HCM Employee Relations,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,1089,Passed,"",basic.init,
+"Launch Browser: Chrome 88.0.4324.104",,631,Passed,"",basic.step,
+"Iteration Total (sec)",,145,Failed,"File: C:\OracleATS\OFT\Maaden\Test Data\HCM Employee Relations\HCM_Correct_Visa_Information_0167.xlsx does not exist. Nothing to import",basic.iteration,
+"Finish Total (sec)",,264,Passed,"",basic.finish,
+"closeBrowser",640,112,Passed,"",ft.action,

@@ -1,0 +1,6 @@
+4195,1,HCM_No ObjectionCertificate_0178,2/18/2021 12:56:52 PM,0,Failed,2/18/2021 12:56:47 PM,basic.step,HCM Employee Relations,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,3524,Passed,"",basic.init,
+"Launch Browser: Chrome 88.0.4324.182",,3151,Passed,"",basic.step,
+"Iteration Total (sec)",,133,Failed,"File: C:\apps\OracleATS\OFT\Maaden\Test Data\HCM Employee Relations\HCM_No_ObjectionCertificate_0178.xlsx does not exist. Nothing to import",basic.iteration,
+"Finish Total (sec)",,64,Passed,"",basic.finish,

@@ -1,0 +1,63 @@
+48885,1,HCM_EmbassyCertificate_0168,2/07/2021 01:11:10 AM,0,Passed,2/07/2021 01:10:21 AM,basic.step,HCM Employee Relations,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,2522,Passed,"",basic.init,
+"Launch Browser: Chrome 88.0.4324.146",,2214,Passed,"",basic.step,
+"Iteration Total (sec)",,46069,Passed,"",basic.iteration,
+"Navigate https://login-epod-dev1-saasfaprod1.fa.ocs.oraclecloud.com/",,92,Passed,"",ft.action,
+"Maximize window(""@index='0'"")",,26,Passed,"",ft.action,
+"WaitForPage https://login-epod-dev1-saasfaprod1.fa.ocs.oraclecloud.com/oam/server/obrareq.cgi?encquery%3DpJCkGYzchoKHj5%2FX%2BuVGCvasPjDfog6YdGc3RUNPC1kHi0y07THZxdjymybW7t9ygruohdzQ3vOxjN%2BvIYwfCYVVVVY3tA%2B69yXP639CqZozvMw1%2Fv%2BZdy7eAZbj2JYiQ5mYfX...",,7388,Passed,"",web.pageComplete,
+"SetText textBox(""@id='userid'"") khanmma@dev1.maaden.com.sa",,75,Passed,"",ft.action,
+"PressTab textBox(""@id='userid'"")",,237,Passed,"",ft.action,
+"SetPassword textBox(""@id='password'"") ******",,69,Passed,"",ft.action,
+"Click button(""@id='btnActive'"")",,217,Passed,"",ft.action,
+"WaitForPage https://login-epod-dev1-saasfaprod1.fa.ocs.oraclecloud.com/oam/server/obrareq.cgi?encquery%3DpJCkGYzchoKHj5%2FX%2BuVGCvasPjDfog6YdGc3RUNPC1kHi0y07THZxdjymybW7t9ygruohdzQ3vOxjN%2BvIYwfCYVVVVY3tA%2B69yXP639CqZozvMw1%2Fv%2BZdy7eAZbj2JYiQ5mYfX...",,1350,Passed,"",web.pageComplete,
+"focus",,1267,Passed,"",ft.action,
+"Think: 1.147 (sec).",,1168,Passed,"",basic.comment,
+"DoubleClick link(""@id='pt1:commandLink1'"")",,53,Passed,"",ft.action,
+"WaitForPage https://fa-epod-dev1-saasfaprod1.fa.ocs.oraclecloud.com/fscmUI/faces/AtkHomePageWelcome?_adf.no-new-window-redirect=true&_adf.ctrl-state=l0m0f4urw_5&_afrLoop=23024705044329579&_afrWindowMode=2&_afrWindowId=null&_afrFS=16&_afrMT=screen&_afr...",,1488,Passed,"",web.pageComplete,
+"Frame (URL=https://fa-epod-dev1-saasfaprod1.fa.ocs.oraclecloud.com/fscmUI/afr/blank.html)",,0,Passed,"",web.frame,
+"Think: 3.147 (sec).",,3165,Passed,"",basic.comment,
+"focus",,207,Passed,"",ft.action,
+"Think: 0.147 (sec).",,160,Passed,"",basic.comment,
+"Click link(""@text='Letters and Certificates'"")",,211,Passed,"",ft.action,
+"Think: 3.147 (sec).",,3159,Passed,"",basic.comment,
+"Click link(""@text='Embassy Certificate'"")",164,212,Passed,"",ft.action,
+"WaitForPage https://fa-epod-dev1-saasfaprod1.fa.ocs.oraclecloud.com/analytics/saw.dll?bipublisherEntry",165,5207,Passed,"",web.pageComplete,
+"Frame (URL=https://fa-epod-dev1-saasfaprod1.fa.ocs.oraclecloud.com/xmlpserver/Custom/Human%20Capital%20Management/Reports/Human%20Resources/Embassy%20Certificate/Report/Embassy%20Certificate.xdo?_xpf=&_xpt=0&_xmode=2&_xdo=%2FCustom%2FHuman%20Capital%2...",,0,Passed,"",web.frame,
+"Frame (URL=https://fa-epod-dev1-saasfaprod1.fa.ocs.oraclecloud.com/xmlpserver/transparent.html)",,0,Passed,"",web.frame,
+"Think: 10 (sec).",,10012,Passed,"",basic.comment,
+"Click element(""@text=' '"")",167,204,Passed,"",ft.action,
+"Think: 2.236 (sec).",,2250,Passed,"",basic.comment,
+"Click element(""@text='With total salary'"")",168,230,Passed,"",ft.action,
+"Think: 2.771 (sec).",,2787,Passed,"",basic.comment,
+"Click button(""@id='reportViewApply'"")",169,220,Passed,"",ft.action,
+"Think: 2.771 (sec).",,2789,Passed,"",basic.comment,
+"Click element(""@text='
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+      
+         
+      
+      
+
+
+ 
+
+
+
+'"")",170,195,Passed,"",ft.action,
+"Finish Total (sec)",,18,Passed,"",basic.finish,

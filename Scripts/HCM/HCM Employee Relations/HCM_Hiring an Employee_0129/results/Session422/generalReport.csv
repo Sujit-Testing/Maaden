@@ -1,0 +1,7 @@
+6398,1,HCM_Hiring an Employee_0129,1/29/2021 21:14:09 PM,0,Failed,1/29/2021 21:14:03 PM,basic.step,HCM Employee Relations,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,5588,Passed,"",basic.init,
+"Launch Browser: Chrome 88.0.4324.104",,5107,Passed,"",basic.step,
+"Iteration Total (sec)",,140,Failed,"File: C:\OracleATS\OFT\Maaden\Test Data\HCM Employee Relations\HCM_Hiring an Employee_0129.xlsx does not exist. Nothing to import",basic.iteration,
+"Finish Total (sec)",,317,Passed,"",basic.finish,
+"closeBrowser",640,98,Passed,"",ft.action,

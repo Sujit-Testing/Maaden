@@ -1,0 +1,6 @@
+3601,0,HCM_GeneratePerformanceRatingReport_0181,2/20/2021 16:15:56 PM,0,Failed,2/20/2021 16:15:52 PM,basic.step,HCM Employee Relations,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,3214,Failed,"OpenScript is unable to connect to the browser, please check the OpenScript browser add-on.",basic.init,
+"Launch Browser: Chrome 88.0.4324.182",,0,Passed,"",basic.step,
+"Close Browser",,2190,Passed,"",basic.step,
+"Finish Total (sec)",,64,Passed,"",basic.finish,

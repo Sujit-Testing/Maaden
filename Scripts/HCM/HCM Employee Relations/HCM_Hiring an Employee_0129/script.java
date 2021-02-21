@@ -32,7 +32,7 @@ public class script extends IteratingVUserScript {
 	 */
 	public void run() throws Exception {
 			
-		datatable.importExcel("C:\\OracleATS\\OFT\\Maaden\\Test Data\\HCM Employee Relations\\HCM_Hiring an Employee_0129.xlsx", true);
+		datatable.importExcel("C:\\apps\\OracleATS\\OFT\\Maaden\\Test Data\\HCM Employee Relations\\HCM_Hiring an Employee_0129.xlsx", true);
 		url=(String) datatable.getValue("DataSheet", 0, "URL");
 		uid=(String) datatable.getValue("DataSheet", 0, "UID");
 		pwd=(String) datatable.getValue("DataSheet", 0, "PWD");	

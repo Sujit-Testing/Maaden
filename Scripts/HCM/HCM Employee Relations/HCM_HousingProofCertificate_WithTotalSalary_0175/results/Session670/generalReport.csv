@@ -1,0 +1,8 @@
+62291,1,HCM_EmbassyCertificate_Employment_English_Arab_0172,2/08/2021 01:10:02 AM,0,Failed,2/08/2021 01:09:00 AM,basic.step,HCM Employee Relations,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,829,Passed,"",basic.init,
+"Launch Browser: Chrome 88.0.4324.146",,477,Passed,"",basic.step,
+"Iteration Total (sec)",,214,Failed,"",basic.iteration,
+"Unexpected Failure",,0,Failed,"basic Caused by: ArrayIndexOutOfBoundsException occured. 5",basic.step,
+"Finish Total (sec)",,60945,Failed,"",basic.finish,
+"Find Object",,60595,Failed,"Find Object timeout. Detail information:{{obj.HCM_EmbassyCertificate_Employment_English_Arab_0172.EmploymentCertificate_Windows}} = /web:window[@index='1' or @title='Employment Certificate - Oracle BI Publisher'].",ft.action,
