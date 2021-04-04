@@ -1,0 +1,315 @@
+<head>
+    <title>Interactive Viewer</title>
+    <meta name="direction" content="ltr">
+    <script type="text/javascript">
+      function getStubClassName(targetClassName)
+      {
+        var stubs = {};
+        stubs['xdo.app.System'] = "xdo.stub.bip.SystemIO";
+        stubs['xdo.io.Catalog'] = "xdo.stub.bip.CatalogIO";
+        stubs['xdo.io.Zip'] = "xdo.stub.bip.ZipIO";
+        return stubs[targetClassName];
+      }
+    </script>
+    
+    <script type="text/javascript" language="javascript" src="/xmlpserver/jsconstants.jsp"></script>
+    <script type="text/javascript" src="js/xdo_viewer_rel.js?cachBuster=20201021.0623"></script><script id="xdo_plugin" type="text/javascript" src="io/viewer/get-plugins"></script>
+    <script type="text/javascript" src="js/xdo/resource/Messages_en_US.js?cachBuster=20201021.0623"></script>
+    <script type="text/javascript" src="js/xdo/app/designer/resource/Messages_en_US.js?cachBuster=20201021.0623"></script>
+    <script type="text/javascript" language="javascript">
+     function boot()
+     {       
+       xdo.require("xdo.app.viewer.iViewer");       
+       var viewer = xdo.app.viewer.iViewer.getInstance();
+          
+       
+
+       viewer.main("/Custom/Human Capital Management/Reports/Human Resources/Employee Attrition Detail Report/Report/Employee Attrition Detail Report.xdo",
+                   "MA Employee Attrition Detail Template.xpt", 
+                   "_paramsp_from_date=28-Nov-2020&_xpt=0&_xana=view&_edIndex=0&xdo%3Axdo%3A_paramsFUNC_div_input=All&_ranDiag=false&_paramsp_to_date=27-May-2021&xdo%3Axdo%3A_paramsORGANIZATION_div_input=All&_xpf=&_xt=Detail+Report&_xf=analyze&_rToken=&_xiasynch=&_xmode=2&_paramsORGANIZATION=*&_dIndex=0&debug=false&_dFlag=false&_xdo=%2FCustom%2FHuman+Capital+Management%2FReports%2FHuman+Resources%2FEmployee+Attrition+Detail+Report%2FReport%2FEmployee+Attrition+Detail+Report.xdo&_paramsFUNC=*&xdo%3Axdo%3A_paramsBUSINESS_UNIT_NAME_div_input=All&_paramsBUSINESS_UNIT_NAME=*&_xreqid=e2a43896-5f03-4df0-aee1-95f3a4284ef5&");
+     }
+     
+     xdo.run(boot);
+
+    </script>
+    <link rel="stylesheet" type="text/css" href="/xmlpserver/theme/alta/master/master.css?cachBuster=20201021.0623">
+    <link rel="stylesheet" type="text/css" href="/xmlpserver/theme/alta/widget.css?cachBuster=20201021.0623">  
+    <style type="text/css">
+      body {
+        font-size: 10pt;
+        font-family: sans-serif;
+        word-wrap: break-word;
+      }
+      a {
+        text-decoration: inherit !important;
+        color: inherit !important;
+        outline: none !important;
+      }
+      /* bug 13352023
+       * latest webkit as of Nov. 2011 has a bug on rendering svg text with 
+       * word-wrap: break-word css. As an workaround, I added word-wrap: normal css to svg text.
+       */
+      svg text {
+        word-wrap: normal;
+      }
+      .component {
+        position: relative;
+      /* bug13571066 
+       *   min-height block some components like gauge
+       *   this can be removed. As an drawback, processing message/icon
+       *   will be overlapped at some level.
+       */
+       /*  min-height: 100px;*/
+      }
+
+      /* bug13571066 - this can be removed too
+      /** TODO: FIXME: awful nasty trick for osama and kan's request 6/3/2010 ** /
+      .min-height-canceller {
+        min-height: 10px !important;
+      }
+      */
+      .filterinfo {
+        position:absolute;
+        top: 3px;
+      }
+      .repeatingTitle {
+         display:relative;
+         height: 21px;
+         vertical-align: middle;
+         font-size: 8pt;
+         background-color: #ffffff;
+         /*background-image: url(resource/designer/repeating/hbar-bg.gif);*/
+         overflow:hidden;
+      }
+      
+      .repeatingTitleText {
+         font-family: sans-serif;
+         font-size: 10pt;
+         text-align:center;
+      }
+      
+      .repeatingColExp {
+         float:right;
+         margin: 4px 1px;
+      }
+
+      .repeatingContents {
+         position:relative;
+      }
+      
+      .msgArea {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: #ffffff;
+      }
+      
+      .processingContainer {
+        text-align:center;
+        width: 70px;
+        margin: 10px auto;
+        font-size: 8pt;
+      }
+
+      .msgContainer {
+        text-align:center;
+        width: 200px;
+        margin: 10px auto;
+        font-size: 8pt;
+      }
+      
+      .msgContainer img {
+        vertical-align: middle;
+        margin: 0 3px;
+      }
+           
+      .tableContainer {
+        font-size: 8pt;
+        position: relative;
+      }
+      
+      .tableContainer td {
+        overflow:hidden;
+      }
+      
+      .tableheaderframe,
+      .tablefooterframe {
+        background-color: #AFC3D2;
+      }
+      
+      .tablebodyframe {
+        overflow-y: scroll;
+        overflow-x: hidden;
+      }
+      .tableFilterPanel {
+        overflow: visible;
+      }
+      
+      .tableHeaderCell {
+        padding: 0;
+        cursor: default;
+      }
+      
+      .tableLov {
+        background-image: url(resource/blafplus/choicelist/dropdown_n.png);
+        background-repeat: no-repeat;
+        background-position: 99% 95%;
+      }
+      
+      .dropShadow {
+        background-image: url('resource/blafplus/dialog/r_shadow.png');
+        background-position: right bottom;
+        position: relative;
+      }
+      .tableFilterPanelContent {
+        position: relative;
+        left: -5px;
+        top: -5px;
+        font-size: 8pt;
+        background-color: #ffffff;
+        border: 1px solid #636661;
+        padding: 1px;
+      }
+      
+      .tableFilterPanelContent ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .tableFilterPanelContent ul ul{
+        height: 135px;
+        width: 100%;
+        overflow: auto;
+      }
+
+      .tableFilterPanelContent ul .separator {
+        margin: 1px 1px;
+        height: 1px;
+        line-height: 1px;
+        font-size: 1px;
+        border-bottom: 1px solid #979993;
+      }
+
+      .tableFilterPanelContent ul .lov {
+        font-family: Tahoma, sans-serif;
+        font-size: 11px;
+        white-space: nowrap;
+        padding: 0 1px 0 0;
+      }
+      
+      .tableFilterPanelContent ul .disabled {
+        font-family: Tahoma, sans-serif;
+        font-size: 11px;
+        white-space: nowrap;
+        color: #7E807A;
+      }      
+      .tableFilterPanelContent ul .filterCheckbox,
+      .tableFilterPanelContent ul .sortCheckbox
+       {
+        vertical-align: middle;
+        margin: 0 2px 0 0;
+        font-size:11px;
+        width: 13px;
+        height: 13px;
+        padding: 1px;
+      }
+
+      .tableFilterPanelContent ul .choice{
+        border: 1.0px solid #ffffff;
+        display: list-item;
+        text-decoration: none;
+        color: #000000;
+      }
+      
+      .tableFilterPanelContent ul .choice:hover {
+        background-color: #C4CEE0;
+        border: 1px dotted #003399;
+      }
+      
+      .crosstab a:hover {
+        text-decoration: underline !important;
+      }
+
+      .crosstab  .highlighter {
+         position:absolute;
+         background-color: #b8dffd;         
+      }
+      
+      .crosstab .rowHeader,
+      .crosstab .colHeader {
+        border-collapse:collapse;
+        table-layout: fixed; 
+      }
+      .crosstab td {
+        cursor: pointer;
+      }
+            
+      .crosstab .colframe,
+      .crosstab .rowframe {
+        position:absolute;
+        overflow:hidden;
+        background-color: #AFC3D2; 
+      }
+
+      .crosstab .measureArea {
+        border-collapse:collapse;
+        table-layout: fixed;
+      }
+      
+      .crosstab .mesframe {
+        position:absolute;
+        overflow:auto;
+      }
+      .crosstab .colpadding,
+      .crosstab .rowpadding {
+        position:absolute;
+        display:hidden;
+        background-color:#AFC3D2;
+      }
+      .processingButton {
+        background-color:#FDFDFA;
+        background-image:url(resource/blafplus/button/button_bg_n.png);
+        background-position:left bottom;
+        background-repeat:repeat-x;
+				border-color:#DDDDD8 #B9B9B4 #797975;
+				border-style:solid;
+				border-width:1px;
+				color:#000000;
+				display:inline;
+				font-family:Tahoma,sans-serif;
+				font-size:11px;
+				font-weight:normal;
+				line-height:12px;
+				padding:2px 9px 1px;
+				text-align:center;
+				text-decoration:none;
+				vertical-align:middle;
+				white-space:nowrap;        
+      }
+      .pluginContent {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+<!--[if IE 7]>
+    <style>
+      .crosstab .colHeader a,
+      .crosstab .rowHeader a {
+        color: black;
+        text-decoration: none;
+      }
+      .crosstab .colHeader td,
+      .crosstab .rowHeader td,
+      .crosstab .measureArea td {
+        padding: 2px 4px;
+      }      
+    </style>
+<![endif]-->    
+  </head>
+  <body style="background-color:#FFFFFF;">
+    <div id="viewcanvas">Starting viewer...</div>
+  
+
+<div id="xdofrmwk"></div></body>

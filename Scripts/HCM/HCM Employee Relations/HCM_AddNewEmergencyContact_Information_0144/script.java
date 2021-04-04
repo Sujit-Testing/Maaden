@@ -72,10 +72,10 @@ public class script extends IteratingVUserScript {
 		//Validate the changes
 		validation(firstName,familyName, national_ID);
 		actions();
-		
+				
 	}
 	public void dataTableAndDeclaration() throws Exception{		
-		datatable.importExcel("C:\\OracleATS\\OFT\\Maaden\\Test Data\\HCM Employee Relations\\HCM_AddNewEmergencyContact_Information_0144.xlsx", true);
+		datatable.importExcel("C:\\apps\\OracleATS\\OFT\\Maaden\\Test Data\\HCM Employee Relations\\HCM_AddNewEmergencyContact_Information_0144.xlsx", true);
 		url=(String) datatable.getValue("DataSheet", 0, "URL");
 		uid=(String) datatable.getValue("DataSheet", 0, "UID");
 		pwd=(String) datatable.getValue("DataSheet", 0, "PWD");	

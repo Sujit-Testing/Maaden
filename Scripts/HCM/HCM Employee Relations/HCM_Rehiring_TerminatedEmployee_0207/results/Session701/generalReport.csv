@@ -1,0 +1,7 @@
+4918,1,HCM_Rehiring_TerminatedEmployee_0207,4/04/2021 02:07:55 AM,0,Failed,4/04/2021 02:07:51 AM,basic.step,HCM Employee Relations,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,3593,Passed,"",basic.init,
+"Launch Browser: Chrome 89.0.4389.114",,3181,Passed,"",basic.step,
+"Iteration Total (sec)",,923,Failed,"",basic.iteration,
+"Failed to playback",,12,Failed,"Failed to playback: No browser launched.",ft.action,
+"Finish Total (sec)",,57,Passed,"",basic.finish,

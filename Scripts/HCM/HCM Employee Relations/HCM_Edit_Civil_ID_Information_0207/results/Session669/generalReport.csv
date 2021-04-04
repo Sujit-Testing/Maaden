@@ -1,0 +1,6 @@
+4587,1,HCM_Edit_Civil_ID_Information_0207,3/30/2021 14:36:25 PM,0,Failed,3/30/2021 14:36:21 PM,basic.step,HCM Employee Relations,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,3638,Passed,"",basic.init,
+"Launch Browser: Chrome 89.0.4389.90",,3249,Passed,"",basic.step,
+"Iteration Total (sec)",,576,Failed,"Variable ""obj.HCM_Add_Civil_ID_Information_0205.web_window"" not found for string: {{obj.HCM_Add_Civil_ID_Information_0205.web_window}}",basic.iteration,
+"Finish Total (sec)",,58,Passed,"",basic.finish,

@@ -1,0 +1,7 @@
+9730,1,HCM_AddNewEmergencyContact_Information_0144,2/26/2021 23:02:42 PM,0,Failed,2/26/2021 23:02:33 PM,basic.step,HCM Employee Relations,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,8759,Passed,"",basic.init,
+"Launch Browser: Chrome 88.0.4324.190",,8268,Passed,"",basic.step,
+"Iteration Total (sec)",,141,Failed,"File: C:\OracleATS\OFT\Maaden\Test Data\HCM Employee Relations\HCM_AddNewEmergencyContact_Information_0144.xlsx does not exist. Nothing to import",basic.iteration,
+"Finish Total (sec)",,365,Passed,"",basic.finish,
+"closeBrowser",640,148,Passed,"",ft.action,
