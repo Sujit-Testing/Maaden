@@ -1,0 +1,6 @@
+10894,1,HCM_TerminateEmployee_Add_PendingWorkerWorkRelationship_0218,4/14/2021 00:39:23 AM,0,Failed,4/14/2021 00:39:12 AM,basic.step,HCM Employee Relations,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,7753,Passed,"",basic.init,
+"Launch Browser: Chrome 89.0.4389.114",,6583,Passed,"",basic.step,
+"Iteration Total (sec)",,1801,Failed,"Variable ""obj.HCM_TerminateEmployee_Add_PendingWorkerWorkRelationship_0218.web_window"" not found for string: {{obj.HCM_TerminateEmployee_Add_PendingWorkerWorkRelationship_0218.web_window}}",basic.iteration,
+"Finish Total (sec)",,272,Passed,"",basic.finish,

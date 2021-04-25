@@ -1,0 +1,6 @@
+8429,1,HCM_TerminateEmployee_Add_Contingent_Work_Relationship_0215,4/11/2021 22:07:21 PM,0,Failed,4/11/2021 22:07:13 PM,basic.step,HCM Employee Relations,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,6025,Passed,"",basic.init,
+"Launch Browser: Chrome 89.0.4389.114",,5292,Passed,"",basic.step,
+"Iteration Total (sec)",,1442,Failed,"Variable ""obj.HCM_TerminateEmployee_Add_Contingent_Work_Relationship_0215.web_window"" not found for string: {{obj.HCM_TerminateEmployee_Add_Contingent_Work_Relationship_0215.web_window}}",basic.iteration,
+"Finish Total (sec)",,148,Failed,"Variable ""obj.HCM_TerminateEmployee_Add_Contingent_Work_Relationship_0215.web_window"" not found for string: {{obj.HCM_TerminateEmployee_Add_Contingent_Work_Relationship_0215.web_window}}",basic.finish,

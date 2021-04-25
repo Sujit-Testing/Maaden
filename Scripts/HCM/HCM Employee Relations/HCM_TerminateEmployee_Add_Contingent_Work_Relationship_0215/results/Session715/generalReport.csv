@@ -1,0 +1,8 @@
+4218,1,HCM_TerminateEmployee_Add_Contingent_Work_Relationship_0215,4/11/2021 22:15:25 PM,0,Failed,4/11/2021 22:15:21 PM,basic.step,HCM Employee Relations,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,2151,Passed,"",basic.init,
+"Launch Browser: Chrome 89.0.4389.114",,1455,Passed,"",basic.step,
+"Iteration Total (sec)",,1454,Failed,"",basic.iteration,
+"Failed to playback",,28,Failed,"Failed to playback: No browser launched.",ft.action,
+"Finish Total (sec)",,98,Failed,"",basic.finish,
+"Failed to playback",,137,Failed,"Failed to playback: No browser launched.",ft.action,

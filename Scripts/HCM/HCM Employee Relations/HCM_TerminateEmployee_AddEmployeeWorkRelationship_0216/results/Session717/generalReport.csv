@@ -1,0 +1,6 @@
+5065,1,HCM_TerminateEmployee_AddEmployeeWorkRelationship_0216,4/12/2021 17:48:57 PM,0,Failed,4/12/2021 17:48:52 PM,basic.step,HCM Employee Relations,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,3922,Passed,"",basic.init,
+"Launch Browser: Chrome 89.0.4389.114",,3480,Passed,"",basic.step,
+"Iteration Total (sec)",,675,Failed,"Variable ""obj.HCM_Convert_Contingent_Worker_To_Employee_0210.web_window"" not found for string: {{obj.HCM_Convert_Contingent_Worker_To_Employee_0210.web_window}}",basic.iteration,
+"Finish Total (sec)",,64,Passed,"",basic.finish,
