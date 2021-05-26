@@ -1,0 +1,7 @@
+65190,1,HCM_SickLeavebyJobLevel_0_to_6_Employee_0241,5/25/2021 13:11:34 PM,0,Failed,5/25/2021 13:10:28 PM,basic.step,Absence,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,3171,Passed,"",basic.init,
+"Launch Browser: Chrome 90.0.4430.212",,2772,Passed,"",basic.step,
+"Iteration Total (sec)",,556,Failed,"Invalid column: Aprover1_UID",basic.iteration,
+"Finish Total (sec)",,61068,Failed,"",basic.finish,
+"Find Object",,60683,Failed,"Find Object timeout. Detail information:{{obj.HCM_SickLeavebyJobLevel_0_to_6_Employee_0241.web_window_1}} = /web:window[@index='1' or @title='Approval of Sick Leave Absence Request for Mazhar Usmani Mohammad Ayub Khan from 2021-05-19 to 2021-05-19'].",ft.action,

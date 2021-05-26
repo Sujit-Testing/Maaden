@@ -1,0 +1,6 @@
+3757,1,HCM_DeleteWorkSchedule_0240,5/16/2021 22:43:19 PM,0,Failed,5/16/2021 22:43:16 PM,basic.step,Absence,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,3167,Passed,"",basic.init,
+"Launch Browser: Chrome 90.0.4430.212",,2763,Passed,"",basic.step,
+"Iteration Total (sec)",,145,Failed,"File: C:\apps\OracleATS\OFT\Maaden\Test Data\Absence\HCM_DeleteWorkSchedule_0240.xlsx does not exist. Nothing to import",basic.iteration,
+"Finish Total (sec)",,68,Passed,"",basic.finish,

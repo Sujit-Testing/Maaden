@@ -1,0 +1,6 @@
+4203,1,HCM_ViewPerformanceRatingHistory_0232,5/06/2021 17:33:44 PM,0,Failed,5/06/2021 17:33:39 PM,basic.step,HCM Manager Self Service,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,3278,Passed,"",basic.init,
+"Launch Browser: Chrome 90.0.4430.93",,2904,Passed,"",basic.step,
+"Iteration Total (sec)",,539,Failed,"Variable ""obj.HCM_ViewSkillsAndQualifications_0231.web_window"" not found for string: {{obj.HCM_ViewSkillsAndQualifications_0231.web_window}}",basic.iteration,
+"Finish Total (sec)",,62,Passed,"",basic.finish,

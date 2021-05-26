@@ -1,0 +1,6 @@
+3684,0,HCM_Enter_Status_Change_0151,5/25/2021 23:59:50 PM,0,Failed,5/25/2021 23:59:47 PM,basic.step,HCM Employee Relations,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,3265,Failed,"OpenScript is unable to connect to the browser, please check the OpenScript browser add-on.",basic.init,
+"Launch Browser: Chrome 90.0.4430.212",,0,Passed,"",basic.step,
+"Close Browser",,2238,Passed,"",basic.step,
+"Finish Total (sec)",,84,Passed,"",basic.finish,

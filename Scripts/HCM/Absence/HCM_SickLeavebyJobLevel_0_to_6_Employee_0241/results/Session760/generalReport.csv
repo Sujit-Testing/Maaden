@@ -1,0 +1,7 @@
+3817,0,HCM_SickLeavebyJobLevel_0_to_6_Employee_0241,5/25/2021 13:14:08 PM,0,Failed,5/25/2021 13:14:04 PM,basic.step,Absence,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,3361,Failed,"OpenScript is unable to connect to the browser, please check the OpenScript browser add-on.",basic.init,
+"Launch Browser: Chrome 90.0.4430.212",,0,Passed,"",basic.step,
+"Close Browser",,2206,Passed,"",basic.step,
+"Finish Total (sec)",,106,Failed,"",basic.finish,
+"Failed to playback",,106,Failed,"Failed to playback: No browser launched.",ft.action,

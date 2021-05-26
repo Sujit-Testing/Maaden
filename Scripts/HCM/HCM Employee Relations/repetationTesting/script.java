@@ -34,39 +34,8 @@ public class script extends IteratingVUserScript {
 		dataTableAndDeclaration();
 		
 		//LogIn
-		logIn(url, uid, pwd);		
-		
-		//Handle WelCome Page
-		web.link("{{obj.HCM_Cancel_Work_Relationship_for_Inactive_Payroll_Employee_N_0224.You have a new home page!}}").focus();
-		{
-			think(1.147);
-		}
-		web.link("{{obj.HCM_Cancel_Work_Relationship_for_Inactive_Payroll_Employee_N_0224.You have a new home page!}}").dblClick();
-		web.window("{{obj.HCM_Cancel_Work_Relationship_for_Inactive_Payroll_Employee_N_0224.web_window}}").waitForPage(150, true);
-		{
-			think(3.147);
-		}
-		//Click on My Client Groups Tab
-		if(web.link("{{obj.HCM_Cancel_Work_Relationship_for_Inactive_Payroll_Employee_N_0224.My Client Groups}}").exists(50, TimeUnit.SECONDS)){
-			web.link("{{obj.HCM_Cancel_Work_Relationship_for_Inactive_Payroll_Employee_N_0224.My Client Groups}}").focus();
-			{
-				think(0.147);
-			}
-		web.link("{{obj.HCM_Cancel_Work_Relationship_for_Inactive_Payroll_Employee_N_0224.My Client Groups}}").click();
-			{
-				think(3.147);
-			}
-		}	
-		//Search the employee
-		SearchEmployee(firstName,familyName, national_ID);
-		
-		
-		//Cancel Work Relationship
-		CancelWorkRelationship();
-		
-		//Validate the re hiring details
-		//validation(firstName, familyName, national_ID_Number);	
-		
+		logIn(url, uid, pwd);
+//Testing		
 		
 	}
 	public void dataTableAndDeclaration() throws Exception{		
@@ -97,7 +66,7 @@ public class script extends IteratingVUserScript {
 		web.textBox("{{obj.HCM_Cancel_Work_Relationship_for_Inactive_Payroll_Employee_N_0224.Password}}").setPassword(pwd);
 		web.button("{{obj.HCM_Cancel_Work_Relationship_for_Inactive_Payroll_Employee_N_0224.Sign_In}}").click();
 		web.window("{{obj.HCM_Cancel_Work_Relationship_for_Inactive_Payroll_Employee_N_0224.web_window}}").waitForPage(150, true);
-		
+		//web.window("{{obj.HCM_Cancel_Work_Relationship_for_Inactive_Payroll_Employee_N_0224.web_window}}").close();	
 	}
 	public void SearchEmployee(String firstName,String familyName,String national_ID)throws Exception{
 						
@@ -256,7 +225,7 @@ public class script extends IteratingVUserScript {
 
 	public void finish() throws Exception {
 		//SignOut
-		web.window(640, "{{obj.HCM_Cancel_Work_Relationship_for_Inactive_Payroll_Employee_N_0224.web_window}}").close();		
+		//web.window(640, "{{obj.HCM_Cancel_Work_Relationship_for_Inactive_Payroll_Employee_N_0224.web_window}}").close();		
 
 	}
 }

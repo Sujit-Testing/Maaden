@@ -1,0 +1,7 @@
+2600,1,HCM_ManagingAbsence_Add_PlanBalance_0234,5/12/2021 00:02:03 AM,0,Failed,5/12/2021 00:02:01 AM,basic.step,Absence,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,1014,Passed,"",basic.init,
+"Launch Browser: Chrome 90.0.4430.93",,571,Passed,"",basic.step,
+"Iteration Total (sec)",,1118,Failed,"",basic.iteration,
+"Failed to playback",,11,Failed,"Failed to playback: No browser launched.",ft.action,
+"Finish Total (sec)",,81,Passed,"",basic.finish,

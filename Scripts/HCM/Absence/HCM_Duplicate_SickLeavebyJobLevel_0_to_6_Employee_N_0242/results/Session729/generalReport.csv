@@ -1,0 +1,6 @@
+4332,1,HCM_Duplicate_SickLeavebyJobLevel_0_to_6_Employee_N_0242,5/23/2021 01:09:04 AM,0,Failed,5/23/2021 01:08:59 AM,basic.step,Absence,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,3288,Passed,"",basic.init,
+"Launch Browser: Chrome 90.0.4430.212",,2871,Passed,"",basic.step,
+"Iteration Total (sec)",,663,Failed,"Sheet: DataSheet does not exist.",basic.iteration,
+"Finish Total (sec)",,65,Passed,"",basic.finish,

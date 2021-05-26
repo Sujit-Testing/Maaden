@@ -1,0 +1,7 @@
+2305,1,HCM_Adding a Contingent Worker_0132,5/08/2021 20:23:52 PM,0,Failed,5/08/2021 20:23:50 PM,basic.step,HCM Employee Relations,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,1413,Passed,"",basic.init,
+"Launch Browser: Chrome 90.0.4430.93",,879,Passed,"",basic.step,
+"Iteration Total (sec)",,154,Failed,"File: C:\OracleATS\OFT\Maaden\Test Data\HCM Employee Relations\HCM_Adding a Contingent Worker_0132.xlsx does not exist. Nothing to import",basic.iteration,
+"Finish Total (sec)",,282,Passed,"",basic.finish,
+"closeBrowser",640,130,Passed,"",ft.action,

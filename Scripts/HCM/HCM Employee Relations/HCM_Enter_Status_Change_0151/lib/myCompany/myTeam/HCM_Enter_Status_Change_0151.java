@@ -53,31 +53,12 @@ public class HCM_Enter_Status_Change_0151 extends FuncLibraryWrapper
 		callFunction("StatusChange");
 	}
 
-	public void actions() throws AbstractScriptException {
-		checkInit();
-		callFunction("actions");
-	}
-
-	public void contact() throws AbstractScriptException {
-		checkInit();
-		callFunction("contact");
-	}
-
-	public void CreateContactFromExistingPerson()
+	public void validation(String firstName, String familyName,
+			String person_Number, String national_ID)
 			throws AbstractScriptException {
 		checkInit();
-		callFunction("CreateContactFromExistingPerson");
-	}
-
-	public void submit() throws AbstractScriptException {
-		checkInit();
-		callFunction("submit");
-	}
-
-	public void validation(String firstName, String familyName,
-			String national_ID) throws AbstractScriptException {
-		checkInit();
-		callFunction("validation", firstName, familyName, national_ID);
+		callFunction("validation", firstName, familyName, person_Number,
+				national_ID);
 	}
 
 	public void finish() throws AbstractScriptException {

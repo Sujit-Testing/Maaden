@@ -1,0 +1,7 @@
+2656,1,HCM_Edit_ContractExtension_RetirementEmployees_60 yrs_0230,5/03/2021 18:17:11 PM,0,Failed,5/03/2021 18:17:08 PM,basic.step,HCM Manager Self Service,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,1263,Passed,"",basic.init,
+"Launch Browser: Chrome 90.0.4430.93",,727,Passed,"",basic.step,
+"Iteration Total (sec)",,978,Failed,"",basic.iteration,
+"Failed to playback",,11,Failed,"Failed to playback: No browser launched.",ft.action,
+"Finish Total (sec)",,50,Passed,"",basic.finish,

@@ -21,7 +21,7 @@ public class script extends IteratingVUserScript {
 	String url,uid,pwd,date,firstName,emergencyContact_FirstName,familyName,emergencyContact_FamilyName,middleName,grandFatherName,comments,effective_Start_Date,
 	legalEmployer_SerchInput,legislationCode,airTicketEligibility,educationAllowanceEligibility,
 	dateOfBirth,countryName,addressLine_1,addressLine_2,pOBox,city,postalCode,employmentStatus,businessUnit_Input,projectedEndDate,peopleGroup,nID_Country_Input,national_ID,
-	countryCode,areaCode,phoneNumber,email,probationPeriod,noticePeriod= null;
+	countryCode,areaCode,phoneNumber,email,probationPeriod,noticePeriod,person_Number,workingHour= null;
 	
 		
 	public void initialize() throws Exception {
@@ -64,10 +64,14 @@ public class script extends IteratingVUserScript {
 		StatusChange();
 				
 		//Validate the changes
-		validation(firstName,familyName, national_ID);
+		validation(firstName,familyName,person_Number, national_ID);
+		
+		
+		
 	}
-	public void dataTableAndDeclaration() throws Exception{		
-		datatable.importExcel("C:\\OracleATS\\OFT\\Maaden\\Test Data\\HCM Employee Relations\\HCM_Enter_Status_Change_0151.xlsx", true);
+	public void dataTableAndDeclaration() throws Exception{	
+		//C:\apps\OracleATS\OFT\Maaden\Test Data\HCM Employee Relations
+		datatable.importExcel("C:\\apps\\OracleATS\\OFT\\Maaden\\Test Data\\HCM Employee Relations\\HCM_Enter_Status_Change_0151.xlsx", true);
 		url=(String) datatable.getValue("DataSheet", 0, "URL");
 		uid=(String) datatable.getValue("DataSheet", 0, "UID");
 		pwd=(String) datatable.getValue("DataSheet", 0, "PWD");	
@@ -75,7 +79,7 @@ public class script extends IteratingVUserScript {
 		comments=(String) datatable.getValue("DataSheet", 0, "Comments");
 		firstName=(String) datatable.getValue("DataSheet", 0, "FirstName");		
 		familyName=(String) datatable.getValue("DataSheet", 0, "FamilyName");
-		
+		person_Number=(String) datatable.getValue("DataSheet", 0, "Person_Number");
 		emergencyContact_FirstName=(String) datatable.getValue("DataSheet", 0, "EmergencyContact_FirstName");		
 		emergencyContact_FamilyName=(String) datatable.getValue("DataSheet", 0, "EmergencyContact_FamilyName");
 		
@@ -104,7 +108,7 @@ public class script extends IteratingVUserScript {
 		areaCode = (String) datatable.getValue("DataSheet", 0, "AreaCode");
 		phoneNumber = (String) datatable.getValue("DataSheet", 0, "PhoneNumber");
 		email = (String) datatable.getValue("DataSheet", 0, "Email");
-//		probationPeriod = (String) datatable.getValue("DataSheet", 0, "ProbationPeriod");
+		workingHour = (String) datatable.getValue("DataSheet", 0, "WorkingHour");
 //		noticePeriod = (String) datatable.getValue("DataSheet", 0, "NoticePeriod");
 	}
 	public void logIn(String url,String uid,String pwd) throws Exception{
@@ -129,6 +133,8 @@ public class script extends IteratingVUserScript {
 		}
 		web.textBox("{{obj.HCM_Enter_Status_Change_0151.Name_Input}}").click();
 		web.textBox("{{obj.HCM_Enter_Status_Change_0151.Name_Input}}").setText(firstName + " " + familyName);
+		web.textBox("{{obj.HCM_Enter_Status_Change_0151.Person_Number}}").click();
+		web.textBox("{{obj.HCM_Enter_Status_Change_0151.Person_Number}}").setText(person_Number);
 		web.textBox("{{obj.HCM_Enter_Status_Change_0151.NID_Input}}").click();
 		web.textBox("{{obj.HCM_Enter_Status_Change_0151.NID_Input}}").setText(national_ID);
 		{
@@ -136,17 +142,16 @@ public class script extends IteratingVUserScript {
 		}
 		web.button("{{obj.HCM_Enter_Status_Change_0151.SearchButton}}").click();
 		{
-			think(4.214);
+			think(1.214);
 		}
-
-		web.element("{{obj.HCM_Enter_Status_Change_0151.web_span_Contingent_Worker}}").click();
-		{
-			think(0.076);
-		}
-		web.link("{{obj.HCM_Enter_Status_Change_0151.web_a_Syam_Bahadur}}").click();
+//		web.element("{{obj.HCM_Enter_Status_Change_0151.web_span_Contingent_Worker}}").click();
+//		{
+//			think(0.076);
+//		}		
 		web.window("{{obj.HCM_Enter_Status_Change_0151.web_window}}").capturePage();
+		web.link("{{obj.HCM_Enter_Status_Change_0151.Select_Employee}}").dblClick();
 		{
-			think(4.444);
+			think(2.444);
 		}		
 	}
 	public void StatusChange() throws Exception{
@@ -159,254 +164,170 @@ public class script extends IteratingVUserScript {
 			think(2.303);
 		}
 		web.textBox("{{obj.HCM_Enter_Status_Change_0151.UpdateEmployment_EffectiveStartDate}}").click();
-		web.textBox("{{obj.HCM_Enter_Status_Change_0151.UpdateEmployment_EffectiveStartDate}}").setText(effective_Start_Date);
+		//web.textBox("{{obj.HCM_Enter_Status_Change_0151.UpdateEmployment_EffectiveStartDate}}").setText(effective_Start_Date);
 		web.textBox("{{obj.HCM_Enter_Status_Change_0151.UpdateEmployment_Action}}").click();
 		{
 			think(2.303);
 		}
 		web.element("{{obj.HCM_Enter_Status_Change_0151.web_li_Assignment_Change}}").click();
-		web.textBox("{{obj.HCM_Enter_Status_Change_0151.UpdateEmployment_ActionReason}}").click();
 		{
-			think(0.443);
+			think(1.443);
 		}
+//		web.textBox("{{obj.HCM_Enter_Status_Change_0151.UpdateEmployment_ActionReason}}").click();
+//		{
+//			think(1.443);
+//		}
 		web.element(170, "{{obj.HCM_Enter_Status_Change_0151.UpdateEmployment_PopUp_OK}}").click();
 		{
-			think(1.736);
+			think(3.736);
 		}
+		
 //		web.element(171, "{{obj.HCM_Enter_Status_Change_0151.web_html_1_1}}").click();
 //		{
 //			think(12.474);
 //		}
-		web.textBox("{{obj.HCM_Enter_Status_Change_0151.Update_JOB}}").click();
-		{
-			think(0.3);
-		}
-		web.link(173, "{{obj.HCM_Enter_Status_Change_0151.web_a_77}}").click();
-		{
-			think(2.567);
-		}
-		web.link(174, "{{obj.HCM_Enter_Status_Change_0151.web_a_Search____1}}").click();
-		{
-			think(2.824);
-		}
-		web.button("{{obj.HCM_Enter_Status_Change_0151.Reset}}").click();
-		{
-			think(1.813);
-		}
-		web.textBox("{{obj.HCM_Enter_Status_Change_0151.SearchAndSelect_JobName}}").click();
-		web.textBox("{{obj.HCM_Enter_Status_Change_0151.SearchAndSelect_JobName}}").setText(legalEmployer_SerchInput);
-		{
-			think(0.627);
-		}
-		//Click on Search
-		web.button("{{obj.HCM_Enter_Status_Change_0151.web_button__FOpt1__FOr1_0__FONSr2_0__5}}").click();
-		{
-			think(3.855);
-		}
-		web.element(179, "{{obj.HCM_Enter_Status_Change_0151.web_td_Trainee}}").click();
-		{
-			think(1.724);
-		}
-		//Click on OK
-		web.button("{{obj.HCM_Enter_Status_Change_0151.web_button__FOpt1__FOr1_0__FONSr2_0__7}}").click();
-		{
-			think(1.855);
-		}
-		web.textBox("{{obj.HCM_Enter_Status_Change_0151.Assignment Category}}").click();
-		{
-			think(2.0);
-		}
-		web.element("{{obj.HCM_Enter_Status_Change_0151.web_li_Shift_Group}}").click();
-		{
-			think(2.0);
-		}
+//		web.textBox("{{obj.HCM_Enter_Status_Change_0151.Update_JOB}}").click();
+//		{
+//			think(0.3);
+//		}
+//		web.link(173, "{{obj.HCM_Enter_Status_Change_0151.web_a_77}}").click();
+//		{
+//			think(1.567);
+//		}
+		
+		
+//		web.link(174, "{{obj.HCM_Enter_Status_Change_0151.web_a_Search____1}}").click();
+//		{
+//			think(2.824);
+//		}
+//		web.button("{{obj.HCM_Enter_Status_Change_0151.Reset}}").click();
+//		{
+//			think(1.813);
+//		}
+//		web.textBox("{{obj.HCM_Enter_Status_Change_0151.SearchAndSelect_JobName}}").click();
+//		web.textBox("{{obj.HCM_Enter_Status_Change_0151.SearchAndSelect_JobName}}").setText(legalEmployer_SerchInput);
+//		{
+//			think(0.627);
+//		}
+//		//Click on Search
+//		web.button("{{obj.HCM_Enter_Status_Change_0151.web_button__FOpt1__FOr1_0__FONSr2_0__5}}").click();
+//		{
+//			think(3.855);
+//		}
+//		web.element(179, "{{obj.HCM_Enter_Status_Change_0151.web_td_Trainee}}").click();
+//		{
+//			think(1.724);
+//		}
+//		//Click on OK
+//		web.button("{{obj.HCM_Enter_Status_Change_0151.web_button__FOpt1__FOr1_0__FONSr2_0__7}}").click();
+//		{
+//			think(1.855);
+//		}
+		//Select Assignment Category
+//		web.textBox("{{obj.HCM_Enter_Status_Change_0151.Assignment Category}}").click();
+//		{
+//			think(1.0);
+//		}
+//		web.element("{{obj.HCM_Enter_Status_Change_0151.web_li_Shift_Group}}").click();
+//		{
+//			think(2.0);
+//		}
 		web.textBox("{{obj.HCM_Enter_Status_Change_0151.Working Hours}}").click();
+		web.textBox("{{obj.HCM_Enter_Status_Change_0151.Working Hours}}").setText(workingHour);
 		{
-			think(2.0);
+			think(1.0);
 		}
-		web.textBox("{{obj.HCM_Enter_Status_Change_0151.Working Hours}}").setText("41");
+		web.textBox("{{obj.HCM_Enter_Status_Change_0151.Frequency}}").click();
 		{
-			think(2.0);
+			think(1.208);
 		}
+		web.element("{{obj.HCM_Enter_Status_Change_0151.Weekly}}").click();
 		web.element(185, "{{obj.HCM_Enter_Status_Change_0151.web_html_1_1}}").click();
 		{
-			think(0.235);
+			think(1.235);
 		}
+		web.textBox("{{obj.HCM_Enter_Status_Change_0151.People_Group}}").click();
+		web.textBox("{{obj.HCM_Enter_Status_Change_0151.People_Group}}").setText(peopleGroup);
+		web.textBox("{{obj.HCM_Enter_Status_Change_0151.People_Group}}").pressTab();
+		{
+			think(1.0);
+		}
+		
 		//Click on Review button
 		web.element("{{obj.HCM_Enter_Status_Change_0151.web_span_Review}}").click();
 		{
-			think(8.404);
+			think(10.404);
 		}
-		web.link(187, "{{obj.HCM_Enter_Status_Change_0151.web_a_Submit}}").click();
-		{
-			think(4.118);
+		if(web.button("{{obj.HCM_Enter_Status_Change_0151.PopUp}}").exists()){
+			info("Error Encounterd, hence screen shot attached below..");
+			web.window("{{obj.HCM_Enter_Status_Change_0151.web_window}}").capturePage();
+			web.button("{{obj.HCM_Enter_Status_Change_0151.PopUp}}").click();
+			{
+				think(4.118);
+			}
 		}
+		if(web.link(187, "{{obj.HCM_Enter_Status_Change_0151.web_a_Submit}}").isDisplayed()){
+			web.link(187, "{{obj.HCM_Enter_Status_Change_0151.web_a_Submit}}").click();
+			{
+				think(4.118);
+			}
+		}else {
+			{
+				think(8.404);
+			}
+			web.link(187, "{{obj.HCM_Enter_Status_Change_0151.web_a_Submit}}").click();
+		}
+		
 		//Click Yes
-		web.button("{{obj.HCM_Enter_Status_Change_0151.web_button__FOpt1__FOr1_0__FONSr2_0__8}}").click();
+		web.button("{{obj.HCM_Enter_Status_Change_0151.Dialog_Yes}}").click();
 		{
 			think(13.896);
 		}
 		//Click OK
-		web.button("{{obj.HCM_Enter_Status_Change_0151.web_button__FOpt1__FOr1_0__FONSr2_0__9}}").click();
+		web.button("{{obj.HCM_Enter_Status_Change_0151.Dialog_OK}}").click();
 		{
 			think(3.896);
 		}
-	}
-	public void actions() throws Exception{
-		web.image(37, "{{obj.HCM_Enter_Status_Change_0151.Action_Icon}}").click();
-		{
-			think(1.237);
-		}
-		web.element("{{obj.HCM_Enter_Status_Change_0151.Personal_and_Employment}}").click();
-		{
-			think(0.088);
-		}
-		web.element(40, "{{obj.HCM_Enter_Status_Change_0151.Person}}").click();
-		web.window(41, "{{obj.HCM_Enter_Status_Change_0151.web_window}}").waitForPage(null);
-		{
-			think(4.411);
-		}
-		//web.element(53, "{{obj.HCM_Enter_Status_Change_0151.web_span_Edit}}").focus();
-		web.window("{{obj.HCM_Enter_Status_Change_0151.web_window}}").capturePage();
-	}
-	public void contact()throws Exception {
-		//Clik on Contact tab
-		web.link("{{obj.HCM_Enter_Status_Change_0151.Contacts}}").click();
-		{
-			think(1.321);
-		}
-		//Click on Emergency_Contact
-		web.image("{{obj.HCM_Enter_Status_Change_0151.Emergency_Contact}}").click();
-		{
-			think(0.702);
-		}
-		web.element("{{obj.HCM_Enter_Status_Change_0151.Delete_Button}}").click();
-		{
-			think(2.878);
-		}
-		//Click Yes Button
-		web.button("{{obj.HCM_Enter_Status_Change_0151.web_button__FOpt1__FOr1_0__FONSr2_0__6}}").click();
-		
-	}
-	public void CreateContactFromExistingPerson()throws Exception {
-		//Provide contact details
-		web.textBox("{{obj.HCM_Enter_Status_Change_0151.CreateContactFromExistingPerson_ContactType}}").click();
-		{
-			think(1.4);
-		}
-		//Emergency Contact	
-		web.element("{{obj.HCM_Enter_Status_Change_0151.CreateContactFromExistingPerson__Emergency}}").click();
-		{
-			think(1.472);
-		}
-		
-		web.textBox("{{obj.HCM_Enter_Status_Change_0151.web_input_text__FOpt1__FOr1_0__FONSr2_0__1}}").click();
-		{
-			think(1.251);
-		}
-		//Click Yes
-		web.element("{{obj.HCM_Enter_Status_Change_0151.web_li_Yes}}").click();
-		{
-			think(0.804);
-		}
-		//Effective Start Date
-		web.textBox("{{obj.HCM_Enter_Status_Change_0151.CreateContactFromExistingPerson_EffectiveStartDate}}").click();
-		web.link("{{obj.HCM_Enter_Status_Change_0151.CreateContactFromExistingPerson_EducationAllowanceElligibility}}").click();
-		{
-			think(0.485);
-		}
-		web.element("{{obj.HCM_Enter_Status_Change_0151.web_td_Child_2}}").click();
-		{
-			think(0.135);
-		}
-		web.link("{{obj.HCM_Enter_Status_Change_0151.CreateContactFromExistingPerson_AitTicketElligibility}}").click();
-		{
-			think(1.743);
-		}
-		web.element("{{obj.HCM_Enter_Status_Change_0151.web_td_Child_2}}").click();
-		{
-			think(3.492);
-		}
-		web.textBox("{{obj.HCM_Enter_Status_Change_0151.web_input_text__FOpt1__FOr1_0__FONSr2_0__6}}").click();
-		{
-			think(1.65);
-		}
-		web.link("{{obj.HCM_Enter_Status_Change_0151.web_a_78}}").click();
-		{
-			think(2.33);
-		}
-		//Search the emergency name to be added 
-		web.link("{{obj.HCM_Enter_Status_Change_0151.web_a_Search___}}").click();
-		{
-			think(2.783);
-		}
-		web.textBox("{{obj.HCM_Enter_Status_Change_0151.Name_Input}}").click();
-		web.textBox("{{obj.HCM_Enter_Status_Change_0151.Name_Input}}").setText(emergencyContact_FirstName+" "+emergencyContact_FamilyName);
-		{
-			think(0.235);
-		}
-		web.button("{{obj.HCM_Enter_Status_Change_0151.Search_NameDetails}}").click();
-		{
-			think(1.465);
-		}
-		web.element("{{obj.HCM_Enter_Status_Change_0151.SelectName}}").click();
-		{
-			think(3.251);
-		}
-		//Clikc OK Buton
-		web.button("{{obj.HCM_Enter_Status_Change_0151.CreateContactFromExistingPerson_Dialog_OK}}").click();
-		{
-			think(2.866);
-		}
-		//Clikc OK Buton
-		web.button("{{obj.HCM_Enter_Status_Change_0151.CreateContactFromExistingPerson_Dialog_OKButton}}").click();
-		
+			
 	}
 	
-	public void submit() throws Exception{
-	
-		//Click on Submit
-		web.element(50, "{{obj.HCM_Enter_Status_Change_0151.Submit_Button}}").click();
-		{
-			think(2.878);
-		}
-		web.button("{{obj.HCM_Enter_Status_Change_0151.Reset}}").click();
-		{
-			think(2.687);
-		}
-		web.button("{{obj.HCM_Enter_Status_Change_0151.web_button__FOpt1__FOr1_0__FONSr2_0__5}}").click();
-		{
-			think(2.687);
-		}
-	}
-	public void validation(String firstName,String familyName,String national_ID)throws Exception{
+	public void validation(String firstName,String familyName,String person_Number,String national_ID)throws Exception{
 		web.element("{{obj.HCM_Enter_Status_Change_0151.Home}}").click();
 		{
 			think(2.444);
 		}
 		web.link("{{obj.HCM_Enter_Status_Change_0151.My Client Groups}}").click();
-		web.link("{{obj.HCM_Enter_Status_Change_0151.Person_Management}}").click();
-		web.window("{{obj.HCM_Enter_Status_Change_0151.web_window}}").waitForPage(null);
+		SearchEmployee(firstName,familyName, national_ID);
+//		web.link("{{obj.HCM_Enter_Status_Change_0151.Person_Management}}").click();
+//		web.window("{{obj.HCM_Enter_Status_Change_0151.web_window}}").waitForPage(null);
+//		{
+//			think(2.444);
+//		}
+//		web.textBox("{{obj.HCM_Enter_Status_Change_0151.Name_Input}}").click();
+//		web.textBox("{{obj.HCM_Enter_Status_Change_0151.Name_Input}}").setText(firstName + " " + familyName);
+//		web.textBox("{{obj.HCM_Enter_Status_Change_0151.Person_Number}}").click();
+//		web.textBox("{{obj.HCM_Enter_Status_Change_0151.Person_Number}}").setText(person_Number);
+//		web.textBox("{{obj.HCM_Enter_Status_Change_0151.NID_Input}}").click();
+//		web.textBox("{{obj.HCM_Enter_Status_Change_0151.NID_Input}}").setText(national_ID);
+//		{
+//			think(0.546);
+//		}
+//		web.button("{{obj.HCM_Enter_Status_Change_0151.SearchButton}}").click();
+//		{
+//			think(4.214);
+//		}
+//
+////		web.element("{{obj.HCM_Enter_Status_Change_0151.web_span_Contingent_Worker}}").click();
+////		{
+////			think(0.076);
+////		}
+//		web.link("{{obj.HCM_Enter_Status_Change_0151.Select_Employee}}").click();
+	//	web.link("{{obj.HCM_Enter_Status_Change_0151.web_a_TestMay_Patel}}").click();
+		web.window(205, "{{obj.HCM_Enter_Status_Change_0151.web_window}}").waitForPage(null);
 		{
 			think(2.444);
-		}
-		web.textBox("{{obj.HCM_Enter_Status_Change_0151.Name_Input}}").click();
-		web.textBox("{{obj.HCM_Enter_Status_Change_0151.Name_Input}}").setText(firstName + " " + familyName);
-		web.textBox("{{obj.HCM_Enter_Status_Change_0151.NID_Input}}").click();
-		web.textBox("{{obj.HCM_Enter_Status_Change_0151.NID_Input}}").setText(national_ID);
-		{
-			think(0.546);
-		}
-		web.button("{{obj.HCM_Enter_Status_Change_0151.SearchButton}}").click();
-		{
-			think(4.214);
-		}
+		}		
 
-		web.element("{{obj.HCM_Enter_Status_Change_0151.web_span_Contingent_Worker}}").click();
-		{
-			think(0.076);
-		}
-		web.link("{{obj.HCM_Enter_Status_Change_0151.web_a_Syam_Bahadur}}").click();
 		web.window("{{obj.HCM_Enter_Status_Change_0151.web_window}}").capturePage();
 		{
 			think(2.444);
@@ -425,7 +346,7 @@ public class script extends IteratingVUserScript {
 
 	public void finish() throws Exception {
 		//SignOut
-		web.window(640, "{{obj.HCM_Enter_Status_Change_0151.web_window}}").close();		
+		//web.window(640, "{{obj.HCM_Enter_Status_Change_0151.web_window}}").close();		
 
 	}
 }

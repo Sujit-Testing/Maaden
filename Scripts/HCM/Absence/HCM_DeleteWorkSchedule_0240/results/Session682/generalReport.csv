@@ -1,0 +1,7 @@
+2445,1,HCM_DeleteWorkSchedule_0240,5/16/2021 22:46:07 PM,0,Failed,5/16/2021 22:46:05 PM,basic.step,Absence,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,1091,Passed,"",basic.init,
+"Launch Browser: Chrome 90.0.4430.212",,621,Passed,"",basic.step,
+"Iteration Total (sec)",,918,Failed,"",basic.iteration,
+"Failed to playback",,12,Failed,"Failed to playback: No browser launched.",ft.action,
+"Finish Total (sec)",,72,Passed,"",basic.finish,

@@ -1,0 +1,861 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<TITLE>Results Report</TITLE>
+<style>
+
+		body {  font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; font-size: 11px; }
+
+		hr { color: #dddddd; height:1px; }
+
+		.subheader { font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; font-size: 17px; color:#7777bb; font-weight:bold; line-height: 120% }
+		td.section { padding-left: 30px; }
+
+		th { border-bottom: 1px solid #e3e3e3; border-top: 1px solid #e3e3e3; text-align: left; font-size: 11px; background-color:#f3f3f3; font-weight:normal; line-height: 130%; white-space: nowrap; }
+		td {  font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; font-size: 11px; }
+
+		.rowTabular { border-bottom: 1px dotted #dddddd; background-color:#ffffff; }
+		.rowTabular th, .rowTabular td { border-bottom: 1px dotted #dddddd; background-color:#ffffff; vertical-align: top; }
+		.rowTabular th { font-size: 11px; background-color:#f3f3f3; font-weight:normal; line-height: 130%; }
+		.rowTabular table td { border-bottom: 0px ;}
+		td.indent { padding-left: 6px; word-wrap : break-word;}
+
+		a { color: #333399; text-decoration: underline; }
+		a:visited { color: #5555aa; text-decoration: underline; }
+		a:hover { color: #000000; text-decoration: underline; }
+
+		.hand { cursor: pointer; }
+		.hide { display:none; }
+		.nowrap { white-space: nowrap; }
+		.wrap { white-space: normal; }
+
+		.moreOrLess {color: #333399; cursor: pointer;}
+
+		.failed { color: red; background:url("file:../../icon_fail.gif") no-repeat 0px 2px; padding-left:14px;}
+	  	.warning { color: #ff9900; background:url("file:../../icon_warning.gif") no-repeat 0px 2px; padding-left:14px;}
+	  	.passed { color: green; background:url("file:../../icon_pass.gif") no-repeat 0px 2px; padding-left:14px;}
+
+		.failed a, .failed a:visited, .failed a:hover { color: red; }
+		.warning a, .warning a:visited, .warning a:hover { color: #ff9900; }
+		.passed a, .passed a:visited, .passed a:hover { color: green; }
+		a.failed, a.failed:visited, a.failed:hover { color: red; }
+	 	a.warning, a.warning:visited, a.warning:hover { color: #ff9900; }
+	 	a.passed, a.passed:visited, a.passed:hover { color: green; }
+
+		.toggle { font-family: courier new; font-size: 10px; font-weight: bold; width: 12px; height: 9px; padding:0 2 0 2px; border:1px solid #7777bb; color: #7777bb; line-height: 100%; }
+		.notoggle { font-family: courier new; font-size: 10px; font-weight: bold; width: 12px; height: 9px; padding:0 2 0 2px; line-height: 100%; }
+		.subheader .toggle { margin-bottom: 2px; }
+		.result { margin-bottom: 2px; }
+
+		.text { padding-bottom: 2px; }
+
+		.chartFailure { background-color: red }
+		.chartWarning { background-color: #ff9900 }
+		.chartPassed {background-color: green}
+
+		.thumbnail{ vertical-align: text-top; max-width:150px; max-height:150px; display: none; }
+		.opacityPage{ position: fixed; top: 0; left: 0; z-index: 2; min-height: 100%; min-width: 100%; background-color: gray; opacity: 0.8; }
+		.full-img-wrapper {position: fixed; top: 50%; left: 50%; z-index: 3; transform: translate(-50%, -50%); width: 95%; height: 90%; text-align:center;}
+    	.full-img-wrapper a img{max-width: 100%; max-height: 100%;}
+		.closeButton{ position: fixed; top: 0; right: 0; z-index: 3; background-color: transparent; transition: all 0.5s ease; }
+		.closeText{ font-size: 1.5rem; font-weight: bold; line-height: 1; color: #000; text-shadow: 0 1px 0 #fff; }
+		.closeButton:hover{ background-color: gray; }
+	</style>
+<script language="javascript">
+		// Tree code
+		function toggleVisibility(span, id)
+		{
+			var obj = document.getElementById(id);
+			var bHide = obj.style.display == "";
+
+			obj.style.display = bHide ? 'none' : '';
+
+			setToggleSpan(span, bHide);
+		}
+
+		function setToggleSpan(obj, bPlus)
+		{
+			obj.innerHTML = bPlus ? "+" : "-";
+		}
+
+		function toggleVisibilityLoop(span, id, j, bParentHide)
+		{
+			for(var i = j; i != 0; i--)
+			{
+				var str = id + '_' + i;
+				var obj = document.getElementById(str);
+				if (obj == null)
+					return;
+
+				var bHide = obj.style.display == "";
+				if (bParentHide && ! bHide)
+					bHide = true;
+
+				obj.style.display = bHide ? 'none' : '';
+
+				var plusSpan = obj.getElementsByTagName("span")[0];
+				if (plusSpan)
+					plusSpan = plusSpan.getElementsByTagName("span")[0];
+
+				if (! plusSpan)
+					continue;
+
+				if (plusSpan.innerHTML == "+" || plusSpan.innerHTML == "-") {
+					var subId = obj.getAttribute("subId");
+					var subCount = obj.getAttribute("subCount");
+					if (plusSpan.innerHTML == "-")
+						toggleVisibilityLoop(span, subId, subCount, bHide);
+				}
+			}
+
+			setToggleSpan(span.getElementsByTagName("span")[0], bHide);
+		}
+
+		function expandChildren(span, id, j, expand)
+		{
+			for(var i = j; i != 0; i--)	{
+				var str = id + '_' + i;
+				var obj = document.getElementById(str);
+				if (obj == null)
+					return;
+
+				obj.style.display = expand ? '' : 'none';
+
+				var plusSpan = obj.getElementsByTagName("span")[0];
+				if (plusSpan)
+					plusSpan = plusSpan.getElementsByTagName("span")[0];
+
+				if (! plusSpan)
+					continue;
+
+				if (plusSpan.innerHTML == "+" || plusSpan.innerHTML == "-") {
+					var subId = obj.getAttribute("subId");
+					var subCount = obj.getAttribute("subCount");
+					setToggleSpan(plusSpan, !expand);
+					expandChildren(span, subId, subCount, expand);
+				}
+			}
+		}
+
+		function expandSection(obj, expand)
+		{
+			var subId = obj.getAttribute("subId");
+			var subCount = obj.getAttribute("subCount");
+
+			if (subCount == 0)
+				return;
+
+			var outerPlusSpan = obj.getElementsByTagName("span")[0];
+			var plusSpan = outerPlusSpan ? outerPlusSpan.getElementsByTagName("span")[0] : null;
+
+			if (! plusSpan)
+				return;
+
+			if (plusSpan.innerHTML == "+" || plusSpan.innerHTML == "-") {
+				expandChildren(outerPlusSpan, subId, subCount, expand);
+				setToggleSpan(plusSpan, !expand);
+			}
+		}
+
+		function expandMainSection(id, expand)
+		{
+			var span = document.getElementById("toggle_" + id);
+			var obj = document.getElementById(id);
+
+			obj.style.display = expand ? '' : 'none';
+			setToggleSpan(span, !expand);
+		}
+
+		function expandAll(expand)
+		{
+			if (expand) {
+				expandMainSection('scriptDetails', expand);
+				expandMainSection('testsSummary', expand);
+			}
+
+			expandSection(document.getElementById("initialize"), expand);
+			for (var i = 1; ; i++) {
+				var section = document.getElementById("iterate" + i);
+				if (section == null)
+					break;
+
+				expandSection(section, expand);
+			}
+			expandSection(document.getElementById("finish"), expand);
+		}
+
+		function showMore(id)
+		{
+			showById('summary_more_' + id, true);
+			showById('summary_less_' + id, false);
+		}
+
+		function showLess(id)
+		{
+			showById('summary_more_' + id, false);
+			showById('summary_less_' + id, true);
+		}
+
+		function showById(id, bShow)
+		{
+			var obj = document.getElementById(id);
+			if (obj == null)
+				return;
+
+			obj.style.display = bShow ? '' : 'none';
+		}
+
+		function showFullImg(src) {
+			document.getElementById('fullImg').setAttribute('src', src);
+			document.getElementById('imgLink').setAttribute('href', src);
+			document.getElementById('open-image').style.display = 'block';
+		}
+
+		function hideFullImg() {
+			document.getElementById('open-image').style.display = 'none';
+		}
+
+		function toggleScreenShot() {
+			var thumbnails = document.getElementsByClassName('thumbnail');
+			var screenShotTexts = document.getElementsByClassName('screen-shot-text');
+			for (var i = 0; i < thumbnails.length; i++) {
+				thumbnails[i].style.display = (thumbnails[i].style.display === 'inline') ? 'none' : 'inline';
+			}
+			for (var j = 0; j < screenShotTexts.length; j++) {
+				screenShotTexts[j].style.display = (screenShotTexts[j].style.display === 'none') ? 'inline' : 'none';
+			}
+		}
+		
+		window.onload = function () {
+	      var version = parseInt(window.navigator.appVersion.substr(0, 1));
+	      if (version == 4) {
+	        document.getElementById('toggle-screen-shot-button').outerHTML = '';
+	      }
+	    };
+	    
+	</script>
+</head>
+<body>
+<span class="subheader"><B>Script Name</B>: HCM_ViewPreviousEmploymentforDirectReports_0233</span>
+<br>
+<br>
+<table cellspacing="10" cellpadding="0" width="100%">
+<tr>
+<td>
+<div class="text">
+<B>Script</B>: C:\apps\OracleATS\OFT\Maaden\Scripts\HCM\HCM Manager Self Service\HCM_ViewPreviousEmploymentforDirectReports_0233</div>
+<div class="text">
+<B>Datatable</B>:
+							<a href="datatable.xls">HCM_ViewPreviousEmploymentforDirectReports_0233</a>&nbsp;
+							</div>
+<div class="text">
+<B>Date Time</B>: 5/09/2021 11:11:28 AM IST (UTC +5:30)</div>
+<div class="text">
+<B>OpenScript Version</B>: 13.3.0.1.262</div>
+</td>
+</tr>
+</table>
+<table cellspacing="10" cellpadding="0">
+<tr>
+<td>
+<div class="text">
+<B>Iterations</B>: 1</div>
+<div class="text">
+<B>Total Steps</B>: 0</div>
+<div class="text">
+<B>Total User-Defined Tests</B>: 0</div>
+<div class="text">
+<B>Total Script Actions</B>: 23</div>
+<div class="text">&nbsp;</div>
+<div class="text">
+<B>Total Passes</B>: 23 (100.00%)</div>
+<div class="text">
+<B>Total Failures</B>: 0 (0.00%)</div>
+<div class="text">
+<B>Total Warnings</B>: 0 (0.00%)</div>
+<div class="text">
+<B>Overall Result</B>: <span class="passed">Passed</span>
+</div>
+</td><td valign="top">
+<div class="text">&nbsp;</div>
+<div class="text">&nbsp;</div>
+<div class="text">
+<B>Passed</B>:&nbsp;0</div>
+<div class="text">
+<B>Passed</B>:&nbsp;23</div>
+</td><td valign="top">
+<div class="text">&nbsp;</div>
+<div class="text">&nbsp;</div>
+<div class="text">
+<B>Failed</B>:&nbsp;0</div>
+<div class="text">
+<B>Failed</B>:&nbsp;0</div>
+</td><td valign="top">
+<div class="text">&nbsp;</div>
+<div class="text">&nbsp;</div>
+<div class="text">
+<B>Warning</B>:&nbsp;0</div>
+<div class="text">
+<B>Warning</B>:&nbsp;0</div>
+</td>
+</tr>
+</table>
+<br>
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td width="90%"><span class="toggle hand result" id="toggle_scriptDetails" onclick="toggleVisibility(this, 'scriptDetails')">-</span>&nbsp;
+	<span class="subheader">Script Summary</span> &nbsp;&nbsp;
+
+	</td><td width="10%" style="white-space: nowrap;"><span class="toggle hand" id="toggle-screen-shot-button" onclick="toggleScreenShot()">Toggle Screen Shot</span>&nbsp;
+		<span class="toggle hand" onclick="expandAll(true)">Expand All</span>&nbsp;
+		<span class="toggle hand" onclick="expandAll(false)">Collapse All</span>&nbsp;
+		</td>
+</tr>
+</table>
+<div id="scriptDetails">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td class="section"><!--</td>
+</tr>
+</table>
+</div>--></td></tr><tr><td class="section"><br>
+<table border-bottom="1" cellpadding="5" cellspacing="0" width="100%" rules="groups">
+<tr class="rowTabular">
+<th>Section</th><th>Name</th><th class="wrap">Playback Time (sec)</th><th class="wrap">Time Stamp</th><th class="wrap">Response Time (sec)</th><th>Result</th><th>Summary</th>
+</tr>
+<tr class="rowTabular" id="initialize" subId="time_row_iter_3" subCount="1">
+<td><span class="hand" onclick="toggleVisibilityLoop(this, 'time_row_iter_3', '1')"><span class="toggle">-</span></span>&nbsp;&nbsp;
+			 		Initialize</td><td><b>Initialize Total (sec)</b></td><td>3.291</td><td>05-09 11:11:28</td><td>0.000</td><td class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_3_1" subId="time_row_iter_4" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Launch Browser: Chrome 90.0.4430.93</td>
+</tr>
+</table>
+</td><td>2.858</td><td>05-09 11:11:28</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" id="iterate1" subId="time_row_iter_5" subCount="45">
+<td><span class="hand" onclick="toggleVisibilityLoop(this, 'time_row_iter_5', '45')"><span class="toggle">-</span></span>&nbsp;&nbsp;
+			 			Iteration&nbsp;1</td><td><b>Iteration Total (sec)</b></td><td>57.170</td><td>05-09 11:11:31</td><td>0.000</td><td class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_1" subId="time_row_iter_6" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Navigate https://login-epod-test-saasfaprod1.fa.ocs.oraclecloud.com/</td>
+</tr>
+</table>
+</td><td>0.092</td><td>05-09 11:11:32</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_2" subId="time_row_iter_7" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Think: 5 (sec).</td>
+</tr>
+</table>
+</td><td>5.032</td><td>05-09 11:11:32</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_3" subId="time_row_iter_8" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Maximize window("@index='0'")</td>
+</tr>
+</table>
+</td><td>0.023</td><td>05-09 11:11:37</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_4" subId="time_row_iter_10" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">WaitForPage https://login-epod-test-saasfaprod1.fa.ocs.oraclecloud.com/oam/server/obrareq.cgi?encquery%3DFRXLgoHEgkCBhTfA7DUniITfWCwFlFg%2FubcdhPAhrskH0scbv08EzqKNfE03GCtCRELj62q8efOel0MWSgKXzs3Dp8m5KyN4hXYclBzIaV8YuP%2FBoa870jYWrFGc%2BuhR85zXuJyrMwBv...</td>
+</tr>
+</table>
+</td><td>1.320</td><td>05-09 11:11:37</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"><span class="text"><a class="hand screen-shot-text" target="_blank" href="10.jpg">Screen Shot</a>&nbsp;
+					<img class="hand thumbnail" src="10.jpg" onclick="showFullImg('10.jpg')">
+					&nbsp;
+	            </span><span class="text"><a target="_blank" href="10_content.txt">Contents</a>&nbsp;
+	            </span></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_5" subId="time_row_iter_11" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">SetText textBox("@id='userid'") pandas@maaden.com.sa</td>
+</tr>
+</table>
+</td><td>0.073</td><td>05-09 11:11:38</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_6" subId="time_row_iter_12" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">PressTab textBox("@id='userid'")</td>
+</tr>
+</table>
+</td><td>0.349</td><td>05-09 11:11:38</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_7" subId="time_row_iter_13" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">SetPassword textBox("@id='password'") ******</td>
+</tr>
+</table>
+</td><td>0.063</td><td>05-09 11:11:39</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_8" subId="time_row_iter_14" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Click button("@id='btnActive'")</td>
+</tr>
+</table>
+</td><td>0.225</td><td>05-09 11:11:39</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_9" subId="time_row_iter_16" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">WaitForPage https://login-epod-test-saasfaprod1.fa.ocs.oraclecloud.com/oam/server/obrareq.cgi?encquery%3DFRXLgoHEgkCBhTfA7DUniITfWCwFlFg%2FubcdhPAhrskH0scbv08EzqKNfE03GCtCRELj62q8efOel0MWSgKXzs3Dp8m5KyN4hXYclBzIaV8YuP%2FBoa870jYWrFGc%2BuhR85zXuJyrMwBv...</td>
+</tr>
+</table>
+</td><td>1.344</td><td>05-09 11:11:39</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"><span class="text"><a class="hand screen-shot-text" target="_blank" href="16.jpg">Screen Shot</a>&nbsp;
+					<img class="hand thumbnail" src="16.jpg" onclick="showFullImg('16.jpg')">
+					&nbsp;
+	            </span><span class="text"><a target="_blank" href="16_content.txt">Contents</a>&nbsp;
+	            </span></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_10" subId="time_row_iter_17" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Think: 3 (sec).</td>
+</tr>
+</table>
+</td><td>3.025</td><td>05-09 11:11:41</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_11" subId="time_row_iter_18" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">focus</td>
+</tr>
+</table>
+</td><td>0.180</td><td>05-09 11:11:44</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_12" subId="time_row_iter_19" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Think: 1.147 (sec).</td>
+</tr>
+</table>
+</td><td>1.166</td><td>05-09 11:11:44</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_13" subId="time_row_iter_20" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">DoubleClick link("@id='pt1:commandLink1'")</td>
+</tr>
+</table>
+</td><td>0.063</td><td>05-09 11:11:45</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_14" subId="time_row_iter_22" subCount="1">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="hand" onclick="toggleVisibilityLoop(this, 'time_row_iter_22', '1')"><span class="toggle">+</span></span></td><td class="indent" style="width:600px">WaitForPage https://fa-epod-test-saasfaprod1.fa.ocs.oraclecloud.com/fscmUI/faces/AtkHomePageWelcome?_adf.ctrl-state=h9dki7wat_1&amp;_adf.no-new-window-redirect=true&amp;_afrLoop=5642241475632135&amp;_afrWindowMode=2&amp;_afrWindowId=null&amp;_afrFS=16&amp;_afrMT=screen&amp;_afrM...</td>
+</tr>
+</table>
+</td><td>1.375</td><td>05-09 11:11:45</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"><span class="text"><a class="hand screen-shot-text" target="_blank" href="22.jpg">Screen Shot</a>&nbsp;
+					<img class="hand thumbnail" src="22.jpg" onclick="showFullImg('22.jpg')">
+					&nbsp;
+	            </span><span class="text"><a target="_blank" href="22_content.txt">Contents</a>&nbsp;
+	            </span></td>
+</tr>
+<tr class="rowTabular" style="display:none" id="time_row_iter_22_1" subId="time_row_iter_23" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:636px">
+<tr>
+<td style="width:18px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Frame (URL=https://fa-epod-test-saasfaprod1.fa.ocs.oraclecloud.com/fscmUI/afr/blank.html)</td>
+</tr>
+</table>
+</td><td>0.000</td><td></td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"><span class="text"><a target="_blank" href="23_content.txt">Contents</a>&nbsp;
+	            </span></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_15" subId="time_row_iter_24" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Think: 1.147 (sec).</td>
+</tr>
+</table>
+</td><td>1.165</td><td>05-09 11:11:47</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_16" subId="time_row_iter_25" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Click link("@text='My Team'")</td>
+</tr>
+</table>
+</td><td>0.246</td><td>05-09 11:11:48</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_17" subId="time_row_iter_26" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Think: 0.452 (sec).</td>
+</tr>
+</table>
+</td><td>0.471</td><td>05-09 11:11:48</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_18" subId="time_row_iter_27" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Click link("@id='PER_HCMPEOPLETOP_FUSE_MY_TEAM_0'")</td>
+</tr>
+</table>
+</td><td>0.205</td><td>05-09 11:11:49</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_19" subId="time_row_iter_29" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">WaitForPage https://fa-epod-test-saasfaprod1.fa.ocs.oraclecloud.com/fscmUI/faces/FuseWelcome?_afrLoop=5642246768040648&amp;_adf.ctrl-state=h9dki7wat_81</td>
+</tr>
+</table>
+</td><td>2.766</td><td>05-09 11:11:49</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"><span class="text"><a class="hand screen-shot-text" target="_blank" href="29.jpg">Screen Shot</a>&nbsp;
+					<img class="hand thumbnail" src="29.jpg" onclick="showFullImg('29.jpg')">
+					&nbsp;
+	            </span><span class="text"><a target="_blank" href="29_content.txt">Contents</a>&nbsp;
+	            </span></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_20" subId="time_row_iter_30" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Think: 2.126 (sec).</td>
+</tr>
+</table>
+</td><td>2.147</td><td>05-09 11:11:52</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_21" subId="time_row_iter_31" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">DoubleClick link("@id='_FOpt1:_FOr1:0:_FONSr2:0:_FOTsr1:0:Mt1Rgn:0:Mt1Upl:UPsp1:ffs1:hf04Sbv:Mt7Pce:Mt2Lv:0:Mt2Pse:Mt4Cl'")</td>
+</tr>
+</table>
+</td><td>0.056</td><td>05-09 11:11:54</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_22" subId="time_row_iter_32" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Think: 3.126 (sec).</td>
+</tr>
+</table>
+</td><td>3.140</td><td>05-09 11:11:54</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_23" subId="time_row_iter_33" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Click element("@id='_FOpt1:_FOr1:0:_FONSr2:0:MAnt2:1:sds1::text'")</td>
+</tr>
+</table>
+</td><td>0.277</td><td>05-09 11:11:57</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_24" subId="time_row_iter_34" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Think: 3.97 (sec).</td>
+</tr>
+</table>
+</td><td>3.984</td><td>05-09 11:11:58</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_25" subId="time_row_iter_35" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Click element("@id='_FOpt1:_FOr1:0:_FONSr2:0:MAnt2:2:sdi1::text'")</td>
+</tr>
+</table>
+</td><td>0.287</td><td>05-09 11:12:02</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_26" subId="time_row_iter_36" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Think: 2.97 (sec).</td>
+</tr>
+</table>
+</td><td>2.985</td><td>05-09 11:12:02</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_27" subId="time_row_iter_37" subCount="1">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="hand" onclick="toggleVisibilityLoop(this, 'time_row_iter_37', '1')"><span class="toggle">+</span></span></td><td class="indent" style="width:600px">CapturePage https://fa-epod-test-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/faces/FndOverview?fnd=%3B%3B%3B%3Bfalse%3B256%3B%3B%3B&amp;fndGlobalItemNodeId=PER_HCMPEOPLETOP_FUSE_MY_TEAM&amp;_afrLoop=5642250509271695&amp;_afrWindowMode=0&amp;_afrWindowId=hrrz0gs3h&amp;_adf.c...</td>
+</tr>
+</table>
+</td><td>1.013</td><td>05-09 11:12:05</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"><span class="text"><a class="hand screen-shot-text" target="_blank" href="37.jpg">Screen Shot</a>&nbsp;
+					<img class="hand thumbnail" src="37.jpg" onclick="showFullImg('37.jpg')">
+					&nbsp;
+	            </span><span class="text"><a target="_blank" href="37_content.txt">Contents</a>&nbsp;
+	            </span></td>
+</tr>
+<tr class="rowTabular" style="display:none" id="time_row_iter_37_1" subId="time_row_iter_38" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:636px">
+<tr>
+<td style="width:18px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Frame (URL=https://fa-epod-test-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/afr/blank.html)</td>
+</tr>
+</table>
+</td><td>0.000</td><td></td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"><span class="text"><a target="_blank" href="38_content.txt">Contents</a>&nbsp;
+	            </span></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_28" subId="time_row_iter_39" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Click image("@alt='Expand'")</td>
+</tr>
+</table>
+</td><td>0.196</td><td>05-09 11:12:06</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_29" subId="time_row_iter_40" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Think: 3.605 (sec).</td>
+</tr>
+</table>
+</td><td>3.622</td><td>05-09 11:12:06</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_30" subId="time_row_iter_41" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">DoubleClick element("@text='2015'")</td>
+</tr>
+</table>
+</td><td>0.062</td><td>05-09 11:12:10</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_31" subId="time_row_iter_42" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">DoubleClick element("@className='x3b8'")</td>
+</tr>
+</table>
+</td><td>0.061</td><td>05-09 11:12:10</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_32" subId="time_row_iter_43" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Think: 0.606 (sec).</td>
+</tr>
+</table>
+</td><td>0.618</td><td>05-09 11:12:10</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_33" subId="time_row_iter_44" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Click image("@alt='Expand'")</td>
+</tr>
+</table>
+</td><td>0.185</td><td>05-09 11:12:11</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_34" subId="time_row_iter_45" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Think: 3.856 (sec).</td>
+</tr>
+</table>
+</td><td>3.874</td><td>05-09 11:12:11</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_35" subId="time_row_iter_46" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Click image("@alt='Expand'")</td>
+</tr>
+</table>
+</td><td>0.194</td><td>05-09 11:12:15</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_36" subId="time_row_iter_47" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Think: 3.798 (sec).</td>
+</tr>
+</table>
+</td><td>3.817</td><td>05-09 11:12:15</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_37" subId="time_row_iter_48" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Click image("@alt='Expand'")</td>
+</tr>
+</table>
+</td><td>0.197</td><td>05-09 11:12:19</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_38" subId="time_row_iter_49" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Think: 3.798 (sec).</td>
+</tr>
+</table>
+</td><td>3.811</td><td>05-09 11:12:19</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_39" subId="time_row_iter_50" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">DoubleClick element("@text='Previous Employment Details'")</td>
+</tr>
+</table>
+</td><td>0.061</td><td>05-09 11:12:23</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_40" subId="time_row_iter_51" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Click element("@text='Previous Employment Details'")</td>
+</tr>
+</table>
+</td><td>0.194</td><td>05-09 11:12:23</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_41" subId="time_row_iter_52" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Think: 1.506 (sec).</td>
+</tr>
+</table>
+</td><td>1.520</td><td>05-09 11:12:23</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_42" subId="time_row_iter_53" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Click image("@alt='Collapse'")</td>
+</tr>
+</table>
+</td><td>0.209</td><td>05-09 11:12:25</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_43" subId="time_row_iter_54" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Think: 1.588 (sec).</td>
+</tr>
+</table>
+</td><td>1.603</td><td>05-09 11:12:25</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_44" subId="time_row_iter_55" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Click image("@alt='Expand'")</td>
+</tr>
+</table>
+</td><td>0.211</td><td>05-09 11:12:27</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular" style="" id="time_row_iter_5_45" subId="time_row_iter_56" subCount="1">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:618px">
+<tr>
+<td style="width:0px"></td><td style="width:12px"><span class="hand" onclick="toggleVisibilityLoop(this, 'time_row_iter_56', '1')"><span class="toggle">+</span></span></td><td class="indent" style="width:600px">CapturePage https://fa-epod-test-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/faces/FndOverview?fnd=%3B%3B%3B%3Bfalse%3B256%3B%3B%3B&amp;fndGlobalItemNodeId=PER_HCMPEOPLETOP_FUSE_MY_TEAM&amp;_afrLoop=5642250509271695&amp;_afrWindowMode=0&amp;_afrWindowId=hrrz0gs3h&amp;_adf.c...</td>
+</tr>
+</table>
+</td><td>1.075</td><td>05-09 11:12:27</td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"><span class="text"><a class="hand screen-shot-text" target="_blank" href="56.jpg">Screen Shot</a>&nbsp;
+					<img class="hand thumbnail" src="56.jpg" onclick="showFullImg('56.jpg')">
+					&nbsp;
+	            </span><span class="text"><a target="_blank" href="56_content.txt">Contents</a>&nbsp;
+	            </span></td>
+</tr>
+<tr class="rowTabular" style="display:none" id="time_row_iter_56_1" subId="time_row_iter_57" subCount="0">
+<td></td><td>
+<table cellpadding="0" cellspacing="0" style="table-layout:fixed;width:636px">
+<tr>
+<td style="width:18px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td style="width:12px"><span class="notoggle">&nbsp;</span></td><td class="indent" style="width:600px">Frame (URL=https://fa-epod-test-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/afr/blank.html)</td>
+</tr>
+</table>
+</td><td>0.000</td><td></td><td>0.000</td><td valign="top" class="nowrap"><span class="passed">Passed</span></td><td valign="top"><span class="text"><a target="_blank" href="57_content.txt">Contents</a>&nbsp;
+	            </span></td>
+</tr>
+<tr class="rowTabular" id="finish" subId="time_row_iter_58" subCount="0">
+<td><span class="hand" onclick="toggleVisibilityLoop(this, 'time_row_iter_58', '0')"><span class="toggle">-</span></span>&nbsp;&nbsp;
+			 		Finish</td><td><b>Finish Total (sec)</b></td><td>0.032</td><td>05-09 11:12:28</td><td>0.000</td><td class="nowrap"><span class="passed">Passed</span></td><td valign="top"></td>
+</tr>
+<tr class="rowTabular">
+<td></td><td><b>Script Total (sec)</b></td><td>60.826</td><td>05-09 11:11:27</td><td>0.000</td><td class="nowrap"><span class="passed">Passed</span></td><td></td>
+</tr>
+</table><!--<div>
+<table>
+<tr>
+<td>--></td>
+</tr>
+</table>
+</div>
+<br>
+<br>
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td width="90%"><span class="toggle hand result" id="toggle_testsSummary" onclick="toggleVisibility(this, 'testsSummary')">-</span>&nbsp;
+	<span class="subheader">Test Results Summary</span> &nbsp;&nbsp;
+
+	</td>
+</tr>
+</table>
+<div id="testsSummary">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td class="section"><!--</td>
+</tr>
+</table>
+</div>--></td></tr><tr><td class="section"><br>
+<table border-bottom="1" cellpadding="5" cellspacing="0" width="100%" rules="groups">
+<tr class="rowTabular">
+<th width="5%">Total</th><th width="10%">Result</th><th width="80%">0%</th><th width="5%">100%</th>
+</tr>
+<tr class="rowTabular" title="0.00%">
+<td>0</td><td class="nowrap"><span class="failed">Failed</span></td><td colspan="2"><span class="chartFailure" style="width:0.00%">&nbsp;<img src="404.gif" height="0" width="0.00%"></span></td>
+</tr>
+<tr class="rowTabular" title="0.00%">
+<td>0</td><td class="nowrap"><span class="warning">Warning</span></td><td colspan="2"><span class="chartWarning" style="width:0.00%">&nbsp;<img src="404.gif" height="0" width="0.00%"></span></td>
+</tr>
+<tr class="rowTabular" title="100.00%">
+<td>23</td><td class="nowrap"><span class="passed">Passed</span></td><td colspan="2"><span class="chartPassed" style="width:100.00%">&nbsp;<img src="404.gif" height="0" width="100.00%"></span></td>
+</tr>
+</table><!--<div>
+<table>
+<tr>
+<td>--></td>
+</tr>
+</table>
+</div>
+<div id="open-image" style="display: none">
+<div class="full-img-wrapper">
+<a id="imgLink" target="_blank"><img id="fullImg"></a>
+</div>
+<button type="button" class="closeButton hand" onclick="hideFullImg()"><span class="closeText">x</span></button>
+<div class="opacityPage"></div>
+</div>
+</body>
+</html>

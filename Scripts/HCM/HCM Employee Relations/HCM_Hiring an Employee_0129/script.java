@@ -201,14 +201,14 @@ public class script extends IteratingVUserScript {
 		}
 		web.textBox("{{obj.HCM_Hiring an Employee_0129.DateOfBirth}}").setText(dateOfBirth);
 		{
-			think(1.98);
+			think(2.98);
 		}
 		
 		//Add National Identifiers
 		
 		web.image("{{obj.HCM_Hiring an Employee_0129.Add_NID}}").click();
 		{
-			think(0.869);
+			think(2.869);
 		}
 		web.link("{{obj.HCM_Hiring an Employee_0129.NID_CountryDropDown}}").click();
 		{
@@ -216,11 +216,11 @@ public class script extends IteratingVUserScript {
 		}
 		web.link("{{obj.HCM_Hiring an Employee_0129.NID_Search}}").click();
 		{
-			think(1.547);
+			think(2.547);
 		}
 		web.textBox("{{obj.HCM_Hiring an Employee_0129.NID_Country_Input}}").setText(nID_Country_Input);
 		{
-			think(0.801);
+			think(1.801);
 		}
 		web.textBox("{{obj.HCM_Hiring an Employee_0129.NID_Country_Input}}").pressTab();
 		web.button("{{obj.HCM_Hiring an Employee_0129.NID_Input_Search}}").click();
@@ -372,22 +372,33 @@ public class script extends IteratingVUserScript {
 		web.window(640, "{{obj.HCM_Hiring an Employee_0129.web_window}}").capturePage();		
 		web.element("{{obj.HCM_Hiring an Employee_0129.Next}}").click();
 		{
-			think(5.063);
+			think(7.063);
 		}
 		//Provide Contract Details -> Employment Status
-
+		if(web.link("{{obj.HCM_Hiring an Employee_0129.EmploymentStatus}}").exists(5, TimeUnit.SECONDS)){
 		web.link("{{obj.HCM_Hiring an Employee_0129.EmploymentStatus}}").click();
 		{
-			think(0.972);
+			think(1.972);
 		}
 		web.element("{{obj.HCM_Hiring an Employee_0129.Single}}").click();
 		{
 			think(1.217);
 		}
+		}else {
+			web.textBox("{{obj.HCM_Hiring an Employee_0129.Employment_Status}}").click();
+			{
+				think(1.217);
+			}
+			web.textBox("{{obj.HCM_Hiring an Employee_0129.Employment_Status}}").setText("Single");
+			web.textBox("{{obj.HCM_Hiring an Employee_0129.Employment_Status}}").pressTab();
+		}
+		
 		//Provide Assignment-> Business Unit
+		if(web.link("{{obj.HCM_Hiring an Employee_0129.BusinessUnit}}").exists(15, TimeUnit.SECONDS)){
 		web.link("{{obj.HCM_Hiring an Employee_0129.BusinessUnit}}").click();
+		}
 		{
-			think(3.533);
+			think(2.533);
 		}
 		web.link("{{obj.HCM_Hiring an Employee_0129.BusinessUnit_Search}}").click();
 		{
@@ -395,7 +406,7 @@ public class script extends IteratingVUserScript {
 		}
 		web.textBox("{{obj.HCM_Hiring an Employee_0129.BusinessUnit_Input}}").setText(businessUnit_Input);
 		{
-			think(0.045);
+			think(2.045);
 		}
 		web.button("{{obj.HCM_Hiring an Employee_0129.BusinessUnit_SearchButton}}").click();
 		{
@@ -403,13 +414,14 @@ public class script extends IteratingVUserScript {
 		}
 		web.element("{{obj.HCM_Hiring an Employee_0129.SelectBusinessUnit_SearchResults}}").click();
 		{
-			think(0.797);
+			think(1.797);
 		}
 		web.button("{{obj.HCM_Hiring an Employee_0129.Click_OK}}").click();
 		{
 			think(3.966);
 		}
 		//peopleGroup details
+		web.textBox("{{obj.HCM_Hiring an Employee_0129.web_input_text__FOpt1__FOr1_0__FONSr2_0__5}}").click();
 		web.textBox("{{obj.HCM_Hiring an Employee_0129.web_input_text__FOpt1__FOr1_0__FONSr2_0__5}}").setText(peopleGroup);
 		{
 			think(2.567);
@@ -417,34 +429,59 @@ public class script extends IteratingVUserScript {
 		//Clik on Next button
 		web.element("{{obj.HCM_Hiring an Employee_0129.Next}}").click();
 		{
-			think(5.063);
+			think(8.063);
 		}
-		//Clik on Next button
 		web.element("{{obj.HCM_Hiring an Employee_0129.Next}}").click();
 		{
-			think(5.063);
+			think(8.063);
 		}
+		//Clik on Next button
+//		if(web.element("{{obj.HCM_Hiring an Employee_0129.Next}}").exists(15, TimeUnit.SECONDS)){
+//		web.element("{{obj.HCM_Hiring an Employee_0129.Next}}").click();
+//		{
+//			think(5.063);
+//		}
+//		}
 		//Clik on Submit button
-		web.element("{{obj.HCM_Hiring an Employee_0129.Submit}}").click();
-		{
-			think(5.284);
+		if(web.element("{{obj.HCM_Hiring an Employee_0129.Submit}}").isDisplayed()){
+			web.element("{{obj.HCM_Hiring an Employee_0129.Submit}}").click();
+			{
+				think(5.284);
+			}
+		}else {
+			web.element("{{obj.HCM_Hiring an Employee_0129.Next}}").click();
+			{
+				think(8.063);
+			}
+			
+			web.element("{{obj.HCM_Hiring an Employee_0129.Submit}}").click();
+			{
+				think(5.284);
+			}
 		}
+			
+		
 		//Click on Yes button
+		if(web.button("{{obj.HCM_Hiring an Employee_0129.WarningDialog_YES}}").exists(15, TimeUnit.SECONDS)){
 		web.button("{{obj.HCM_Hiring an Employee_0129.WarningDialog_YES}}").click();
-		{
-			think(5.547);
 		}
+		
 		//Click on OK Button
+		if(web.button("{{obj.HCM_Hiring an Employee_0129.ConfirmationDialog_OK}}").exists(15, TimeUnit.SECONDS)){
+			info("Error was incountered in this stage, Hence taken the screenshot."+ web.window(640, "{{obj.HCM_Hiring an Employee_0129.web_window}}").capturePage());
 		web.button("{{obj.HCM_Hiring an Employee_0129.ConfirmationDialog_OK}}").click();
+		}
 		{
-			think(5.547);
+			think(7.547);
 		}
 		
 		//Validation of the adding existing NID
 		
 		web.element("{{obj.HCM_Hiring an Employee_0129.BackButton}}").click();
 		web.window("{{obj.HCM_Hiring an Employee_0129.web_window}}").waitForPage(null);
-		
+		{
+			think(1.611);
+		}
 //		if(web.element("{{obj.HCM_Hiring an Employee_0129.Home_Icon}}").exists(30, TimeUnit.SECONDS)){
 //		web.element("{{obj.HCM_Hiring an Employee_0129.Home_Icon}}").click();
 //		}
@@ -454,24 +491,39 @@ public class script extends IteratingVUserScript {
 		
 		web.link("{{obj.HCM_Hiring an Employee_0129.Person_Management}}").click();
 		web.window("{{obj.HCM_Hiring an Employee_0129.web_window}}").waitForPage(30, true);
+		{
+			think(2.611);
+		}
+		
 		web.textBox("{{obj.HCM_Hiring an Employee_0129.Person_Name}}").click();
 		{
 			think(2.611);
 		}
 		web.textBox("{{obj.HCM_Hiring an Employee_0129.Person_Name}}").setText(firstName+" "+fatherName+" "+grandFatherName+" "+familyName);
 		{
-			think(0.26);
+			think(2.611);
 		}
+		
 //		web.textBox("{{obj.HCM_Hiring an Employee_0129.National ID}}").click();
 //		web.textBox("{{obj.HCM_Hiring an Employee_0129.National ID}}").setText(national_ID);
+		web.button("{{obj.HCM_Hiring an Employee_0129.Person_Search}}").focus();
 		{
-			think(0.26);
+			think(1.463);
 		}
 		web.button("{{obj.HCM_Hiring an Employee_0129.Person_Search}}").click();
 		{
+			think(1.463);
+		}
+		web.button("{{obj.HCM_Hiring an Employee_0129.Person_Search}}").dblClick();
+		{
 			think(2.463);
 		}
+//		if(web.link("{{obj.HCM_Hiring an Employee_0129.Result_PersonName}}").exists(2, TimeUnit.SECONDS)){
+//			web.button("{{obj.HCM_Hiring an Employee_0129.Person_Search}}").click();
+//		}else web.button("{{obj.HCM_Hiring an Employee_0129.Person_Search}}").click();
+		
 		web.link("{{obj.HCM_Hiring an Employee_0129.Result_PersonName}}").focus();
+		web.element("{{obj.HCM_Hiring an Employee_0129.NID}}").focus();
 		web.element("{{obj.HCM_Hiring an Employee_0129.NID}}").focus();
 		String resultsNID = web.element("{{obj.HCM_Hiring an Employee_0129.NID}}").getDisplayText();
 		if(resultsNID.equalsIgnoreCase(national_ID)){
@@ -480,14 +532,11 @@ public class script extends IteratingVUserScript {
 				
 		web.window(640, "{{obj.HCM_Hiring an Employee_0129.web_window}}").capturePage();
 		
-		
-		
-		
 	}
 	
 	public void finish() throws Exception {
 		//SignOut
-		web.window(640, "{{obj.HCM_Hiring an Employee_0129.web_window}}").close();
+		//web.window(640, "{{obj.HCM_Hiring an Employee_0129.web_window}}").close();
 
 		
 

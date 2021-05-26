@@ -32,8 +32,8 @@ public class script extends IteratingVUserScript {
 	 * Add code to be executed each iteration for this virtual user.
 	 */
 	public void run() throws Exception {
-			
-		datatable.importExcel("C:\\OracleATS\\OFT\\Maaden\\Test Data\\HCM Employee Relations\\HCM_Adding a Contingent Worker_0132.xlsx", true);
+		//C:\apps\OracleATS\OFT\Maaden\Test Data\HCM Employee Relations
+		datatable.importExcel("C:\\apps\\OracleATS\\OFT\\Maaden\\Test Data\\HCM Employee Relations\\HCM_Adding a Contingent Worker_0132.xlsx", true);
 		url=(String) datatable.getValue("DataSheet", 0, "URL");
 		uid=(String) datatable.getValue("DataSheet", 0, "UID");
 		pwd=(String) datatable.getValue("DataSheet", 0, "PWD");	
@@ -311,11 +311,19 @@ public class script extends IteratingVUserScript {
 			e.printStackTrace();
 		}		
 	}
-	public void next(){
+	public void next() throws Exception{
 		try {
+			if(web.link("{{obj.HCM_Adding a Contingent Worker_0132.Next_Button}}").isDisplayed()){
+				web.link("{{obj.HCM_Adding a Contingent Worker_0132.Next_Button}}").click();
+				{
+					think(4.049);
+				}
+			}else{
+				web.link("{{obj.HCM_Adding a Contingent Worker_0132.Next_Button}}").wait(10);
 			web.link("{{obj.HCM_Adding a Contingent Worker_0132.Next_Button}}").click();
 			{
 				think(4.049);
+			}
 			}
 			if(web.button("{{obj.HCM_Adding a Contingent Worker_0132.web_button__FOpt1__FOr1_0__FONSr2_0_}}").exists(30, TimeUnit.SECONDS))
 			{

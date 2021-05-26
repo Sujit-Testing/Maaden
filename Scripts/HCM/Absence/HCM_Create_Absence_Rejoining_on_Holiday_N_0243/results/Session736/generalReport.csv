@@ -1,0 +1,7 @@
+4764,1,HCM_SickLeavebyJobLevel_0_to_6_Employee_0241,5/23/2021 19:44:53 PM,0,Failed,5/23/2021 19:44:48 PM,basic.step,Absence,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,3188,Passed,"",basic.init,
+"Launch Browser: Chrome 90.0.4430.212",,2739,Passed,"",basic.step,
+"Iteration Total (sec)",,90,Passed,"",basic.iteration,
+"Finish Total (sec)",,1116,Failed,"",basic.finish,
+"Failed to playback",,1130,Failed,"Failed to playback: No browser launched.",ft.action,

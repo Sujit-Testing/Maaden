@@ -1,0 +1,6 @@
+2890,1,HCM_Duplicate_SickLeavebyJobLevel_0_to_6_Employee_N_0242,5/23/2021 00:56:59 AM,0,Failed,5/23/2021 00:56:56 AM,basic.step,Absence,,,,
+"Page",Record ID,Playback Time (sec),Result,"Summary",Type,
+"Initialize Total (sec)",,2299,Passed,"",basic.init,
+"Launch Browser: Chrome 90.0.4430.212",,1881,Passed,"",basic.step,
+"Iteration Total (sec)",,128,Failed,"File: C:\apps\OracleATS\OFT\Maaden\Test Data\Absence\HCM_Duplicate_SickLeavebyJobLevel_0_to_6_Employee_N_0242.xlsx does not exist. Nothing to import",basic.iteration,
+"Finish Total (sec)",,60,Passed,"",basic.finish,
